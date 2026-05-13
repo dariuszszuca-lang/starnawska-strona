@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { Phone, Mail, MapPin, ArrowRight, Quote, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
+import { PersonSchema, BreadcrumbsSchema } from "@/components/seo/json-ld";
 import { team, getMemberBySlug } from "@/lib/team";
 import { siteConfig } from "@/lib/site";
 
@@ -38,6 +39,15 @@ export default async function AgentPage({ params }: { params: Params }) {
 
   return (
     <>
+      <PersonSchema member={member} />
+      <BreadcrumbsSchema
+        items={[
+          { name: "Strona główna", url: siteConfig.url },
+          { name: "Nasz zespół", url: `${siteConfig.url}/zespol` },
+          { name: member.fullName, url: `${siteConfig.url}/zespol/${member.slug}` },
+        ]}
+      />
+
       {/* Hero wizytówki */}
       <section className="relative bg-surface-dark text-foreground-on-dark overflow-hidden">
         <div

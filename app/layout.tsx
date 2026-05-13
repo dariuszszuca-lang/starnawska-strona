@@ -4,6 +4,8 @@ import "./globals.css";
 
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { RodoBanner } from "@/components/rodo-banner";
+import { RealEstateAgentSchema } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site";
 
 const geistSans = Geist({
@@ -79,9 +81,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <RealEstateAgentSchema />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <RodoBanner />
       </body>
     </html>
   );
