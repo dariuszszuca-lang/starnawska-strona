@@ -1,12 +1,13 @@
 import { Client } from "basic-ftp";
 import { Readable } from "node:stream";
 
+const trim = (s?: string) => (s ?? "").trim();
 const config = {
-  host: process.env.ESTI_FTP_HOST || "starnawska.iq.pl",
-  port: Number(process.env.ESTI_FTP_PORT || 21),
-  user: process.env.ESTI_FTP_USER || "starnawska_esti",
-  password: process.env.ESTI_FTP_PASSWORD || "",
-  remoteDir: process.env.ESTI_FTP_REMOTE_DIR || "/",
+  host: trim(process.env.ESTI_FTP_HOST) || "starnawska.iq.pl",
+  port: Number(trim(process.env.ESTI_FTP_PORT)) || 21,
+  user: trim(process.env.ESTI_FTP_USER) || "starnawska_esti",
+  password: trim(process.env.ESTI_FTP_PASSWORD),
+  remoteDir: trim(process.env.ESTI_FTP_REMOTE_DIR) || "/",
 };
 
 export type FtpFile = {
