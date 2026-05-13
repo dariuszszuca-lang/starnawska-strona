@@ -80,14 +80,10 @@ function TeamCard({
         </h3>
         {member.phoneDisplay && (
           <div className="flex items-center justify-between gap-3 pt-4 border-t border-border">
-            <a
-              href={member.phone ? `tel:${member.phone.replace(/\s/g, "")}` : undefined}
-              onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center gap-2 text-sm font-medium text-foreground hover:text-brand-forest transition-colors tabular-nums"
-            >
+            <span className="inline-flex items-center gap-2 text-sm font-medium text-foreground tabular-nums">
               <Phone className="size-3.5 text-brand-olive" />
               {member.phoneDisplay}
-            </a>
+            </span>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-brand-forest group-hover:gap-2 transition-all">
               Wizytówka
               <ArrowUpRight className="size-4" />
