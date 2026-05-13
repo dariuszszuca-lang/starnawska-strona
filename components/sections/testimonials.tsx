@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Quote, ChevronLeft, ChevronRight, Star, Sparkles } from "lucide-react";
+import { Quote, ChevronLeft, ChevronRight, Star, Sparkles, ArrowUpRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { testimonials, type Testimonial } from "@/lib/testimonials";
 import { getMemberBySlug } from "@/lib/team";
@@ -65,11 +65,29 @@ export function Testimonials() {
               <span className="font-semibold text-foreground tabular-nums">{items.length}+</span>
               <span className="text-foreground-muted">opinii w {new Date().getFullYear()}</span>
             </div>
-            <div className="flex items-center gap-2 pl-4 border-l border-border text-xs text-foreground-muted">
-              <span className="inline-flex items-center gap-1.5">
+            <div className="flex items-center gap-2 pl-4 border-l border-border text-xs">
+              <span className="inline-flex items-center gap-1.5 text-foreground-muted mr-1">
                 <span className="size-1.5 rounded-full bg-brand-lime animate-pulse" />
-                Google · Trojmiasto.pl · Panorama
+                Źródła
               </span>
+              <a
+                href="https://www.google.com/maps/place/Starnawska+%26+Bole%C5%84ska+Nieruchomo%C5%9Bci"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-gray-100 text-foreground hover:bg-foreground hover:text-background font-medium transition-colors"
+              >
+                Google
+                <ArrowUpRight className="size-3" />
+              </a>
+              <a
+                href="https://www.trojmiasto.pl/Starnawska-Bolenska-Nieruchomosci-o45200.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-gray-100 text-foreground hover:bg-foreground hover:text-background font-medium transition-colors"
+              >
+                Trojmiasto.pl
+                <ArrowUpRight className="size-3" />
+              </a>
             </div>
           </div>
         </div>
@@ -236,8 +254,58 @@ export function Testimonials() {
             );
           })}
         </div>
+
+        {/* Linki do pełnych opinii */}
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+          <span className="text-sm text-foreground-muted mr-2">Zobacz wszystkie opinie:</span>
+          <a
+            href="https://www.google.com/maps/place/Starnawska+%26+Bole%C5%84ska+Nieruchomo%C5%9Bci"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-background border border-border hover:border-foreground hover:bg-foreground hover:text-background font-medium text-sm transition-all"
+          >
+            <GoogleGIcon className="size-4 shrink-0" />
+            Google Recenzje
+            <ArrowUpRight className="size-4 group-hover:rotate-12 transition-transform" />
+          </a>
+          <a
+            href="https://www.trojmiasto.pl/Starnawska-Bolenska-Nieruchomosci-o45200.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-background border border-border hover:border-foreground hover:bg-foreground hover:text-background font-medium text-sm transition-all"
+          >
+            <span className="size-4 rounded-sm bg-[#003F7F] text-white text-[8px] font-bold flex items-center justify-center shrink-0">
+              3M
+            </span>
+            Trojmiasto.pl
+            <ArrowUpRight className="size-4 group-hover:rotate-12 transition-transform" />
+          </a>
+        </div>
       </Container>
     </section>
+  );
+}
+
+function GoogleGIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden>
+      <path
+        fill="#4285F4"
+        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+      />
+      <path
+        fill="#34A853"
+        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+      />
+      <path
+        fill="#FBBC05"
+        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+      />
+      <path
+        fill="#EA4335"
+        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+      />
+    </svg>
   );
 }
 
