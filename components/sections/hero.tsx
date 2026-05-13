@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, MapPin, Sparkles } from "lucide-react";
+import { ArrowRight, ArrowUpRight, MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { BuildingHouse } from "@/components/sections/building-house";
@@ -109,6 +110,39 @@ export function Hero() {
                 </dd>
               </div>
             </motion.dl>
+
+            {/* NSL Badge — Nieruchomości Spod Lady */}
+            <motion.a
+              href="https://nieruchomoscispodlady.pl"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
+              className="group inline-flex items-center gap-3 pl-2.5 pr-4 py-2.5 rounded-2xl bg-white/[0.04] border border-border-on-dark hover:bg-white/[0.08] hover:border-brand-lime/40 transition-all max-w-md"
+            >
+              <span className="shrink-0 bg-white rounded-lg p-1.5 flex items-center">
+                <Image
+                  src="/partners/nsl-logo.png"
+                  alt="Nieruchomości Spod Lady"
+                  width={56}
+                  height={42}
+                  className="h-8 w-auto object-contain"
+                />
+              </span>
+              <span className="flex-1 min-w-0 leading-tight">
+                <span className="block text-[10px] uppercase tracking-[0.2em] text-brand-lime font-semibold">
+                  Sieć współpracy
+                </span>
+                <span className="block text-sm font-semibold text-foreground-on-dark mt-0.5">
+                  Nieruchomości Spod Lady
+                </span>
+                <span className="block text-xs text-foreground-on-dark-muted italic mt-0.5">
+                  Najlepsi współpracują.
+                </span>
+              </span>
+              <ArrowUpRight className="size-4 text-foreground-on-dark-muted group-hover:text-brand-lime group-hover:rotate-12 transition-all shrink-0" />
+            </motion.a>
           </div>
 
           <motion.div

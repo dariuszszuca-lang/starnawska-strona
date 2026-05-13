@@ -42,25 +42,9 @@ export function Header() {
     <header className="absolute top-0 left-0 right-0 z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">
         <div className="flex items-center justify-center gap-3 lg:gap-4">
-          {/* JEDEN pill: logo + nsl + menu + tel + social */}
+          {/* JEDEN pill: logo + menu + tel + social */}
           <div className="hidden lg:flex items-center gap-3 rounded-2xl border border-border bg-surface/85 backdrop-blur-xl shadow-[var(--shadow-soft)] pl-3 pr-3 py-2">
             <Logo size="sm" />
-            {/* NSL badge */}
-            <Link
-              href="https://nieruchomoscispodlady.pl"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Nieruchomości Spod Lady — sieć współpracy"
-              className="hidden xl:inline-flex items-center justify-center h-10 px-2.5 rounded-lg bg-white border border-border hover:border-foreground transition-colors"
-            >
-              <Image
-                src="/partners/nsl-logo.png"
-                alt="NSL"
-                width={48}
-                height={36}
-                className="h-7 w-auto object-contain"
-              />
-            </Link>
 
             <span className="h-7 w-px bg-border" aria-hidden />
 
@@ -76,26 +60,30 @@ export function Header() {
               <span className="hidden xl:inline">{siteConfig.contact.phones[0].displayValue}</span>
             </a>
 
-            {/* Social */}
+            {/* Social — większe + branded hover */}
             <span className="h-7 w-px bg-border" aria-hidden />
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1.5">
               <a
                 href={siteConfig.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="inline-flex items-center justify-center size-9 rounded-lg text-foreground-muted hover:text-foreground hover:bg-gray-100 transition-colors"
+                className="group/social inline-flex items-center justify-center size-11 rounded-xl text-foreground hover:bg-[#1877F2] hover:text-white hover:scale-105 transition-all"
               >
-                <FacebookIcon className="size-4" />
+                <FacebookIcon className="size-[18px]" />
               </a>
               <a
                 href={siteConfig.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="inline-flex items-center justify-center size-9 rounded-lg text-foreground-muted hover:text-foreground hover:bg-gray-100 transition-colors"
+                className="group/social relative inline-flex items-center justify-center size-11 rounded-xl text-foreground hover:text-white hover:scale-105 transition-all overflow-hidden"
               >
-                <InstagramIcon className="size-4" />
+                <span
+                  aria-hidden
+                  className="absolute inset-0 opacity-0 group-hover/social:opacity-100 transition-opacity bg-[linear-gradient(45deg,#FEDA75_0%,#FA7E1E_25%,#D62976_50%,#962FBF_75%,#4F5BD5_100%)]"
+                />
+                <InstagramIcon className="size-[18px] relative" />
               </a>
             </div>
           </div>
