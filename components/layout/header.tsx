@@ -39,34 +39,43 @@ export function Header() {
   return (
     <header className="relative z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">
-        <div className="relative flex items-center justify-between gap-4 lg:gap-8">
-          <Logo size="md" />
-
-          {/* Desktop nav — absolutnie wyśrodkowane na pasku */}
-          <MagicNav pathname={pathname} teamOpen={teamOpen} setTeamOpen={setTeamOpen} team={team} />
-
-          <div className="hidden md:flex items-center gap-3 shrink-0">
+        <div className="flex items-center justify-center gap-3 lg:gap-4">
+          {/* JEDEN pill: logo + menu + tel */}
+          <div className="hidden lg:flex items-center gap-3 rounded-2xl border border-border bg-surface/85 backdrop-blur-xl shadow-[var(--shadow-soft)] pl-3 pr-5 py-2">
+            <Logo size="sm" />
+            <span className="h-7 w-px bg-border" aria-hidden />
+            <MagicNav pathname={pathname} teamOpen={teamOpen} setTeamOpen={setTeamOpen} team={team} />
+            <span className="h-7 w-px bg-border" aria-hidden />
             <a
               href={siteConfig.contact.phones[0].href}
-              className="hidden xl:inline-flex items-center gap-2 text-sm font-medium text-foreground-muted hover:text-foreground transition-colors tabular-nums"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-brand-forest transition-colors tabular-nums"
             >
-              <Phone className="size-4" />
+              <Phone className="size-4 text-brand-olive" />
               {siteConfig.contact.phones[0].displayValue}
             </a>
-            <Button asChild variant="lime" size="md">
-              <Link href="/konsultacja">Umów konsultację</Link>
-            </Button>
           </div>
 
-          <button
-            type="button"
-            className="lg:hidden inline-flex items-center justify-center size-12 rounded-2xl bg-foreground text-background hover:bg-gray-800 active:scale-95 transition-all"
-            onClick={() => setMobileOpen((v) => !v)}
-            aria-label={mobileOpen ? "Zamknij menu" : "Otwórz menu"}
-            aria-expanded={mobileOpen}
-          >
-            {mobileOpen ? <X className="size-5" /> : <Menu className="size-5" />}
-          </button>
+          {/* CTA — osobno obok pilla */}
+          <Button asChild variant="lime" size="md" className="hidden lg:inline-flex shrink-0">
+            <Link href="/konsultacja">
+              Umów konsultację
+              <ArrowUpRight className="size-4" />
+            </Link>
+          </Button>
+
+          {/* Mobile: logo po lewej + hamburger po prawej */}
+          <div className="lg:hidden flex items-center justify-between w-full">
+            <Logo size="md" />
+            <button
+              type="button"
+              className="inline-flex items-center justify-center size-12 rounded-2xl bg-foreground text-background hover:bg-gray-800 active:scale-95 transition-all"
+              onClick={() => setMobileOpen((v) => !v)}
+              aria-label={mobileOpen ? "Zamknij menu" : "Otwórz menu"}
+              aria-expanded={mobileOpen}
+            >
+              {mobileOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -185,7 +194,7 @@ function MagicNav({
 
   return (
     <nav
-      className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center"
+      className="flex items-center"
       aria-label="Główna nawigacja"
       onMouseLeave={() => {
         if (restPos) setUnderline({ ...restPos, opacity: 1 });
@@ -194,13 +203,13 @@ function MagicNav({
     >
       <ul
         ref={ulRef}
-        className="relative flex items-center gap-0.5 rounded-2xl border border-border bg-surface/80 backdrop-blur-xl shadow-[var(--shadow-soft)] p-1.5"
+        className="relative flex items-center gap-0.5"
       >
         {/* Animowany highlight pod items */}
         <motion.span
           animate={underline}
           transition={{ type: "spring", stiffness: 400, damping: 34, mass: 0.55 }}
-          className="absolute top-1.5 bottom-1.5 rounded-xl bg-foreground pointer-events-none"
+          className="absolute top-0 bottom-0 rounded-xl bg-foreground pointer-events-none"
           style={{ left: 0, width: 0 }}
           aria-hidden
         />

@@ -301,14 +301,14 @@ function Phases({ loop }: { loop: boolean }) {
   ];
 
   return (
-    <div className="absolute top-5 left-5 z-10">
+    <div className="absolute top-5 right-5 z-10 flex flex-col items-end">
       <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.08] border border-border-on-dark backdrop-blur text-foreground-on-dark-muted">
         <span className="size-1.5 rounded-full bg-brand-lime animate-pulse" />
         <span className="text-[10px] uppercase tracking-[0.2em] font-semibold">
           Etap budowy
         </span>
       </div>
-      <div className="mt-2 relative h-7 overflow-hidden">
+      <div className="mt-2 relative h-7 overflow-hidden w-[140px]">
         {phases.map((p, i) => (
           <motion.span
             key={i}
@@ -338,7 +338,7 @@ function Phases({ loop }: { loop: boolean }) {
                   }
                 : { duration: 0 }
             }
-            className="absolute left-0 top-0 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-lime/15 text-brand-lime text-xs font-semibold uppercase tracking-wider"
+            className="absolute right-0 top-0 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-lime/15 text-brand-lime text-xs font-semibold uppercase tracking-wider"
           >
             <span className="text-[10px] font-bold">{p.icon}</span>
             {p.label}
