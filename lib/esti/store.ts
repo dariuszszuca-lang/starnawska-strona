@@ -1,40 +1,60 @@
-import { promises as fs } from "node:fs";
-import path from "node:path";
+import { put, list } from "@vercel/blob";
 import type { Offer, OfferFilters, OffersResult } from "./types";
 
 /**
- * Prosta warstwa cache. Na Vercel używamy /tmp (ephemeral per instance,
- * ale wystarczy bo cron odświeża co godzinę). Lokalnie też w /tmp.
+ * Persistent storage dla ofert: Vercel Blob (file in public CDN).
  *
- * Docelowo: migracja do Supabase / Vercel KV gdy będzie potrzebne
- * zachowanie historii i analityka.
+ * Strategia:
+ * - sync zapisuje JSON do Blob pod stałą nazwą "esti-offers/current.json"
+ * - read pobiera ten JSON (cached przez Next fetch cache + Blob CDN)
+ * - fallback: brak Blob -> pusty wynik
  */
 
-const CACHE_DIR = process.env.NODE_ENV === "production" ? "/tmp/esti" : "/tmp/esti-dev";
-const CACHE_FILE = path.join(CACHE_DIR, "offers.json");
+const BLOB_PATH = "esti-offers/current.json";
+let currentBlobUrl: string | null = null;
 
 type CacheShape = {
   lastSync: string;
   offers: Offer[];
 };
 
-async function ensureDir() {
-  await fs.mkdir(CACHE_DIR, { recursive: true });
+async function fetchCurrentBlobUrl(): Promise<string | null> {
+  if (currentBlobUrl) return currentBlobUrl;
+  try {
+    const { blobs } = await list({ prefix: "esti-offers/" });
+    const blob = blobs.find((b) => b.pathname === BLOB_PATH);
+    if (blob) {
+      currentBlobUrl = blob.url;
+      return blob.url;
+    }
+  } catch {
+    // brak BLOB_READ_WRITE_TOKEN lub inne — fall through
+  }
+  return null;
 }
 
 export async function saveOffers(offers: Offer[]): Promise<void> {
-  await ensureDir();
   const payload: CacheShape = {
     lastSync: new Date().toISOString(),
     offers,
   };
-  await fs.writeFile(CACHE_FILE, JSON.stringify(payload), "utf8");
+  const json = JSON.stringify(payload);
+  const result = await put(BLOB_PATH, json, {
+    access: "public",
+    addRandomSuffix: false,
+    allowOverwrite: true,
+    contentType: "application/json",
+  });
+  currentBlobUrl = result.url;
 }
 
 export async function readOffers(): Promise<CacheShape | null> {
+  const url = await fetchCurrentBlobUrl();
+  if (!url) return null;
   try {
-    const raw = await fs.readFile(CACHE_FILE, "utf8");
-    return JSON.parse(raw) as CacheShape;
+    const res = await fetch(url, { next: { revalidate: 600 } });
+    if (!res.ok) return null;
+    return (await res.json()) as CacheShape;
   } catch {
     return null;
   }
@@ -51,8 +71,12 @@ export async function getFilteredOffers(filters: OfferFilters): Promise<OffersRe
   if (filters.transaction) items = items.filter((o) => o.transaction === filters.transaction);
   if (filters.type) items = items.filter((o) => o.type === filters.type);
   if (filters.market) items = items.filter((o) => o.market === filters.market);
-  if (filters.city) items = items.filter((o) => o.city.toLowerCase().includes(filters.city!.toLowerCase()));
-  if (filters.district) items = items.filter((o) => o.district?.toLowerCase().includes(filters.district!.toLowerCase()));
+  if (filters.city)
+    items = items.filter((o) => o.city.toLowerCase().includes(filters.city!.toLowerCase()));
+  if (filters.district)
+    items = items.filter((o) =>
+      o.district?.toLowerCase().includes(filters.district!.toLowerCase())
+    );
   if (filters.priceMin) items = items.filter((o) => o.price >= filters.priceMin!);
   if (filters.priceMax) items = items.filter((o) => o.price <= filters.priceMax!);
   if (filters.areaMin) items = items.filter((o) => o.area >= filters.areaMin!);
@@ -74,7 +98,6 @@ export async function getFilteredOffers(filters: OfferFilters): Promise<OffersRe
         o.offerNumber?.toLowerCase().includes(filters.offerId!.toLowerCase())
     );
 
-  // Sortowanie
   switch (filters.sort) {
     case "price-asc":
       items = [...items].sort((a, b) => a.price - b.price);
@@ -118,7 +141,5 @@ export async function getLatestOffers(limit = 4): Promise<Offer[]> {
 export async function getOffersByAgentSlug(slug: string, limit = 6): Promise<Offer[]> {
   const cache = await readOffers();
   if (!cache) return [];
-  return cache.offers
-    .filter((o) => o.agent?.slug === slug)
-    .slice(0, limit);
+  return cache.offers.filter((o) => o.agent?.slug === slug).slice(0, limit);
 }
