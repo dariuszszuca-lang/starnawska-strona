@@ -39,10 +39,10 @@ export function Header() {
   return (
     <header className="relative z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">
-        <div className="flex items-center justify-between gap-4 lg:gap-8">
+        <div className="relative flex items-center justify-between gap-4 lg:gap-8">
           <Logo size="md" />
 
-          {/* Desktop nav z magic cursor */}
+          {/* Desktop nav — absolutnie wyśrodkowane na pasku */}
           <MagicNav pathname={pathname} teamOpen={teamOpen} setTeamOpen={setTeamOpen} team={team} />
 
           <div className="hidden md:flex items-center gap-3 shrink-0">
@@ -159,47 +159,49 @@ function MagicNav({
   team: ReturnType<typeof getAllMembersSorted>;
 }) {
   const ulRef = useRef<HTMLUListElement>(null);
-  const [hover, setHover] = useState<{ left: number; width: number; opacity: number }>({
+  const [underline, setUnderline] = useState<{ left: number; width: number; opacity: number }>({
     left: 0,
     width: 0,
     opacity: 0,
   });
   const [restPos, setRestPos] = useState<{ left: number; width: number } | null>(null);
 
-  // Po mount / zmianie pathname — wyceluj highlight w aktywny item
+  // Po mount / zmianie pathname — wyceluj underline pod aktywny item
   useEffect(() => {
     if (!ulRef.current) return;
     const activeEl = ulRef.current.querySelector<HTMLLIElement>("[data-active='true']");
     if (activeEl) {
-      const r = activeEl.getBoundingClientRect();
+      const innerEl =
+        (activeEl.querySelector("a, button") as HTMLElement | null) ?? activeEl;
+      const r = innerEl.getBoundingClientRect();
       const p = ulRef.current.getBoundingClientRect();
       const next = { left: r.left - p.left, width: r.width };
       setRestPos(next);
-      setHover({ ...next, opacity: 1 });
+      setUnderline({ ...next, opacity: 1 });
     } else {
       setRestPos(null);
-      setHover((h) => ({ ...h, opacity: 0 }));
+      setUnderline((h) => ({ ...h, opacity: 0 }));
     }
   }, [pathname]);
 
   return (
     <nav
-      className="hidden lg:flex relative items-center"
+      className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center"
       aria-label="Główna nawigacja"
       onMouseLeave={() => {
-        if (restPos) setHover({ ...restPos, opacity: 1 });
-        else setHover((p) => ({ ...p, opacity: 0 }));
+        if (restPos) setUnderline({ ...restPos, opacity: 1 });
+        else setUnderline((p) => ({ ...p, opacity: 0 }));
       }}
     >
       <ul
         ref={ulRef}
-        className="relative flex items-center rounded-full border border-border bg-surface/80 backdrop-blur-xl shadow-[var(--shadow-soft)] px-1.5 py-1.5"
+        className="relative flex items-center gap-1 px-2"
       >
-        {/* Pływający highlight */}
+        {/* Animowany underline pod items */}
         <motion.span
-          animate={hover}
-          transition={{ type: "spring", stiffness: 380, damping: 32, mass: 0.6 }}
-          className="absolute top-1.5 bottom-1.5 rounded-full bg-foreground pointer-events-none"
+          animate={underline}
+          transition={{ type: "spring", stiffness: 420, damping: 36, mass: 0.5 }}
+          className="absolute -bottom-1 h-[2px] rounded-full bg-foreground pointer-events-none"
           style={{ left: 0, width: 0 }}
           aria-hidden
         />
@@ -209,7 +211,7 @@ function MagicNav({
             key={item.href}
             item={item}
             pathname={pathname}
-            setHover={setHover}
+            setUnderline={setUnderline}
             onTeamHoverChange={
               item.hasDropdown
                 ? (v: boolean) => setTeamOpen(v)
@@ -227,27 +229,28 @@ function MagicNav({
 function NavTab({
   item,
   pathname,
-  setHover,
+  setUnderline,
   onTeamHoverChange,
   teamOpen,
   team,
 }: {
   item: NavItem;
   pathname: string;
-  setHover: (v: { left: number; width: number; opacity: number }) => void;
+  setUnderline: (v: { left: number; width: number; opacity: number }) => void;
   onTeamHoverChange?: (v: boolean) => void;
   teamOpen: boolean;
   team: ReturnType<typeof getAllMembersSorted>;
 }) {
   const ref = useRef<HTMLLIElement>(null);
+  const linkRef = useRef<HTMLAnchorElement>(null);
   const [hovered, setHovered] = useState(false);
   const active = pathname === item.href || pathname.startsWith(item.href + "/");
 
   const onEnter = () => {
-    if (!ref.current) return;
-    const r = ref.current.getBoundingClientRect();
+    if (!linkRef.current || !ref.current) return;
+    const r = linkRef.current.getBoundingClientRect();
     const parent = ref.current.parentElement!.getBoundingClientRect();
-    setHover({ left: r.left - parent.left, width: r.width, opacity: 1 });
+    setUnderline({ left: r.left - parent.left, width: r.width, opacity: 1 });
     setHovered(true);
     onTeamHoverChange?.(true);
   };
@@ -256,9 +259,6 @@ function NavTab({
     setHovered(false);
     onTeamHoverChange?.(false);
   };
-
-  // Tekst biały kiedy item jest pod highlightem (hover lub active)
-  const onDark = hovered || active;
 
   return (
     <li
@@ -269,14 +269,17 @@ function NavTab({
       className="relative"
     >
       <Link
+        ref={linkRef}
         href={item.href}
         className={cn(
-          "relative z-10 inline-flex items-center gap-1 px-4 py-2 text-[13px] font-semibold rounded-full transition-colors duration-150",
-          onDark ? "text-background" : "text-foreground"
+          "relative z-10 inline-flex items-center gap-1 px-4 py-2.5 text-sm font-semibold transition-colors duration-200",
+          active || hovered
+            ? "text-foreground"
+            : "text-foreground-muted hover:text-foreground"
         )}
       >
         {item.label}
-        {item.hasDropdown && <ChevronDown className="size-3" />}
+        {item.hasDropdown && <ChevronDown className="size-3.5 opacity-60" />}
       </Link>
 
       {item.hasDropdown && (
