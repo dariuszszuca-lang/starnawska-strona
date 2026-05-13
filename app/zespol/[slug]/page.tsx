@@ -6,6 +6,7 @@ import { Phone, Mail, MapPin, ArrowRight, Quote, ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { PersonSchema, BreadcrumbsSchema } from "@/components/seo/json-ld";
+import { StickyMobileCTA } from "@/components/agent/sticky-mobile-cta";
 import { team, getMemberBySlug } from "@/lib/team";
 import { siteConfig } from "@/lib/site";
 
@@ -39,6 +40,7 @@ export default async function AgentPage({ params }: { params: Params }) {
 
   return (
     <>
+      <StickyMobileCTA member={member} />
       <PersonSchema member={member} />
       <BreadcrumbsSchema
         items={[
