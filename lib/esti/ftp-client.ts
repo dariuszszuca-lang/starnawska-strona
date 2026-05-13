@@ -29,7 +29,10 @@ export async function listFtpFiles(): Promise<FtpFile[]> {
       password: config.password,
       secure: false,
     });
-    await client.cd(config.remoteDir);
+    // CD tylko jeśli REMOTE_DIR != "/" (konta chroot startują już w swoim home)
+    if (config.remoteDir && config.remoteDir !== "/") {
+      await client.cd(config.remoteDir);
+    }
     const list = await client.list();
     return list
       .filter((f) => f.isFile)
@@ -59,7 +62,9 @@ export async function downloadFtpFile(name: string): Promise<Buffer> {
       password: config.password,
       secure: false,
     });
-    await client.cd(config.remoteDir);
+    if (config.remoteDir && config.remoteDir !== "/") {
+      await client.cd(config.remoteDir);
+    }
 
     const chunks: Buffer[] = [];
     const stream = new (class extends Readable {
