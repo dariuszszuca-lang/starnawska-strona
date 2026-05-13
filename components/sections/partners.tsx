@@ -25,20 +25,19 @@ const partners = [
 
 export function Partners() {
   return (
-    <section className="py-20 lg:py-28 border-y border-border bg-surface">
+    <section className="py-12 lg:py-16 border-y border-border bg-surface">
       <Container size="wide">
-        <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           <div className="lg:col-span-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-4">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-3">
               <ShieldCheck className="size-3.5" />
               Standardy branżowe
             </div>
-            <h2 className="font-bold tracking-tight text-[clamp(1.75rem,3.5vw,2.5rem)] leading-[1.1] text-foreground mb-4">
-              Pracujemy zgodnie ze standardami stowarzyszeń branżowych.
+            <h2 className="font-bold tracking-tight text-2xl lg:text-3xl leading-[1.15] text-foreground mb-3">
+              Członkowie stowarzyszeń. Praca pod kodeksem etyki.
             </h2>
-            <p className="text-foreground-muted leading-relaxed">
-              Członkostwo zobowiązuje. Każda umowa podlega kodeksowi etyki PFRN i SPPON,
-              każda transakcja jest zabezpieczona ubezpieczeniem OC zawodowym.
+            <p className="text-sm text-foreground-muted leading-relaxed">
+              Każda transakcja jest zabezpieczona ubezpieczeniem OC zawodowym.
             </p>
           </div>
 
