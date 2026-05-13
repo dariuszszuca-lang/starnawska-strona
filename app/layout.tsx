@@ -81,9 +81,17 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:px-5 focus:py-3 focus:rounded-full focus:bg-brand-lime focus:text-brand-forest-deep focus:font-semibold focus:shadow-[var(--shadow-card)]"
+        >
+          Przejdź do treści
+        </a>
         <RealEstateAgentSchema />
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">
+          {children}
+        </main>
         <Footer />
         <RodoBanner />
       </body>
