@@ -8,21 +8,18 @@ const partners = [
     short: "PFRN · SPPON",
     description: "Pomorski oddział, od 2014",
     logo: "/partners/pfrn_sppon.jpg",
-    aspect: "aspect-square",
   },
   {
     name: "RECAMP — Akademia Real Estate",
     short: "RECAMP",
     description: "Akredytacja branżowa",
     logo: "/partners/recamp.jpg",
-    aspect: "aspect-[3/1]",
   },
   {
     name: "Wyłącznie Pomorskie",
     short: "Wyłącznie Pomorskie",
     description: "Lokalna sieć biur",
     logo: "/partners/pomorskie.png",
-    aspect: "aspect-[3/1]",
   },
 ];
 
@@ -50,21 +47,20 @@ export function Partners() {
               {partners.map((p) => (
                 <div
                   key={p.short}
-                  className="group relative flex flex-col rounded-3xl bg-background border border-border p-6 hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
+                  className="group relative flex flex-col rounded-3xl bg-background border border-border p-5 lg:p-6 hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all min-h-[240px]"
                   title={p.name}
                 >
-                  <div
-                    className={`relative ${p.aspect} mb-4 flex items-center justify-center`}
-                  >
+                  <div className="relative flex-1 flex items-center justify-center py-4">
                     <Image
                       src={p.logo}
                       alt={p.name}
-                      fill
+                      width={240}
+                      height={140}
                       sizes="(min-width: 1024px) 22vw, (min-width: 640px) 33vw, 80vw"
-                      className="object-contain grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                      className="max-h-[100px] lg:max-h-[120px] w-auto object-contain grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                     />
                   </div>
-                  <div className="mt-auto pt-4 border-t border-border">
+                  <div className="pt-4 border-t border-border">
                     <p className="text-xs font-semibold uppercase tracking-wider text-foreground">
                       {p.short}
                     </p>
