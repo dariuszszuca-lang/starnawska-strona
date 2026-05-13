@@ -11,24 +11,26 @@ type LogoProps = {
 
 const sizeMap = {
   sm: {
-    box: 36,
+    box: 40,
     mainText: "text-base",
-    subText: "text-[9px]",
-    subLetterSpacing: "tracking-[0.32em]",
+    subText: "text-[10px]",
+    gap: "gap-3",
   },
   md: {
-    box: 44,
-    mainText: "text-lg",
-    subText: "text-[10px]",
-    subLetterSpacing: "tracking-[0.36em]",
+    box: 48,
+    mainText: "text-lg lg:text-xl",
+    subText: "text-[11px]",
+    gap: "gap-3",
   },
   lg: {
     box: 64,
-    mainText: "text-2xl",
-    subText: "text-xs",
-    subLetterSpacing: "tracking-[0.42em]",
+    mainText: "text-2xl lg:text-3xl",
+    subText: "text-xs lg:text-[13px]",
+    gap: "gap-4",
   },
 };
+
+const SUBLINE = "NIERUCHOMOŚCI";
 
 export function Logo({
   className,
@@ -38,14 +40,14 @@ export function Logo({
 }: LogoProps) {
   const s = sizeMap[size];
   const mainColor = variant === "dark" ? "text-foreground-on-dark" : "text-foreground";
-  const subColor =
-    variant === "dark" ? "text-foreground-on-dark-muted" : "text-foreground-muted";
+  const subColor = variant === "dark" ? "text-foreground-on-dark" : "text-foreground";
 
   return (
     <Link
       href="/"
       className={cn(
-        "group inline-flex items-center gap-3 transition-opacity hover:opacity-90",
+        "group inline-flex items-center transition-opacity hover:opacity-90",
+        s.gap,
         className
       )}
       aria-label="Strona główna — Starnawska & Boleńska Nieruchomości"
@@ -55,30 +57,34 @@ export function Logo({
         alt=""
         width={s.box}
         height={s.box}
-        className="rounded-lg"
+        className="rounded-xl shrink-0"
         priority
       />
       {showText && (
         <span className="inline-flex flex-col items-stretch leading-none">
           <span
             className={cn(
-              "font-semibold tracking-tight whitespace-nowrap",
+              "font-bold tracking-tight whitespace-nowrap",
               s.mainText,
               mainColor
             )}
           >
-            Starnawska <span className="text-brand-olive font-normal">&</span> Boleńska
+            Starnawska <span className="text-brand-olive font-normal mx-0.5">&</span> Boleńska
           </span>
           <span
+            aria-hidden
             className={cn(
-              "font-medium uppercase mt-1.5 text-center",
+              "mt-2 flex items-center justify-between font-semibold uppercase",
               s.subText,
-              s.subLetterSpacing,
               subColor
             )}
+            style={{ letterSpacing: 0 }}
           >
-            Nieruchomości
+            {SUBLINE.split("").map((ch, i) => (
+              <span key={i}>{ch}</span>
+            ))}
           </span>
+          <span className="sr-only">Nieruchomości</span>
         </span>
       )}
     </Link>
