@@ -120,7 +120,7 @@ export function ValueBento() {
             delay={0.2}
             icon={Camera}
             title="Profesjonalne sesje"
-            body="Fotografia, home staging, plany 2D. Twoja nieruchomość wygląda jak z magazynu."
+            body="Sesja szerokokątna, home staging, plan 2D. Oferta zauważalna w pierwszej minucie."
             extra={
               <div className="mt-auto flex items-center gap-2 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-forest-deep/70">
                 <span className="size-1.5 rounded-full bg-brand-forest-deep animate-pulse" />

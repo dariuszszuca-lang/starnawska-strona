@@ -69,9 +69,9 @@ const services: Service[] = [
     id: "kredyt",
     icon: Calculator,
     title: "Doradztwo kredytowe",
-    tagline: "Sprawdź ile mieszkania możesz kupić.",
+    tagline: "Sprawdź swoją zdolność kredytową.",
     description:
-      "Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy zdolność, porównujemy oferty z kilku banków, doprowadzamy do decyzji.",
+      "Współpracujemy z niezależnymi pośrednikami kredytowymi. Liczymy zdolność, porównujemy oferty kilku banków i doprowadzamy do decyzji kredytowej.",
     steps: [
       { icon: TrendingUp, label: "Bezpłatna analiza zdolności kredytowej" },
       { icon: Wallet, label: "Porównanie ofert z 5–8 banków" },
@@ -85,9 +85,9 @@ const services: Service[] = [
     id: "staging",
     icon: Sparkles,
     title: "Home staging i sesja zdjęciowa",
-    tagline: "Twoja oferta wygląda jak z magazynu.",
+    tagline: "Pierwsze cztery sekundy decydują.",
     description:
-      "Profesjonalne zdjęcia, plan 2D, lekka aranżacja. Statystycznie podnoszą zainteresowanie ofertą o 60–120% w pierwszym tygodniu publikacji.",
+      "Profesjonalne zdjęcia szerokokątne, plan 2D, lekka aranżacja wnętrza. Oferta przygotowana w ten sposób uzyskuje średnio 60–120% więcej zapytań w pierwszym tygodniu publikacji.",
     steps: [
       { icon: Camera, label: "Sesja szerokokątna 12–20 ujęć" },
       { icon: Building, label: "Plan piętra 2D w formacie PNG/PDF" },

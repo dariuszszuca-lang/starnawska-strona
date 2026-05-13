@@ -48,8 +48,8 @@ const services = [
     id: "kredyt",
     icon: Calculator,
     title: "Doradztwo kredytowe",
-    lead: "Sprawdź ile mieszkania możesz kupić.",
-    body: "Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy zdolność, porównujemy oferty kilku banków, doprowadzamy do decyzji.",
+    lead: "Sprawdź swoją zdolność kredytową.",
+    body: "Współpracujemy z niezależnymi pośrednikami kredytowymi. Liczymy zdolność, porównujemy oferty kilku banków i doprowadzamy do decyzji kredytowej.",
     points: [
       "Bezpłatna analiza zdolności kredytowej",
       "Porównanie ofert z kilku banków",
@@ -63,9 +63,9 @@ const services = [
   {
     id: "staging",
     icon: Sparkles,
-    title: "Home staging i sesje",
-    lead: "Twoja oferta wygląda jak z magazynu.",
-    body: "Profesjonalne zdjęcia, plan 2D, lekka aranżacja. Statystycznie podnoszą zainteresowanie ofertą o 60–120%. Robimy to dla każdej oferty, którą sprzedajemy.",
+    title: "Home staging i sesja zdjęciowa",
+    lead: "Pierwsze cztery sekundy decydują.",
+    body: "Profesjonalne zdjęcia szerokokątne, plan piętra w 2D, lekka aranżacja wnętrza. Oferta przygotowana w ten sposób uzyskuje średnio 60–120% więcej zapytań w pierwszym tygodniu publikacji. Robimy to dla każdej oferty, którą sprzedajemy.",
     points: [
       "Sesja zdjęciowa szerokokątna",
       "Plan piętra 2D",
