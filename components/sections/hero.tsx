@@ -1,11 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
+import { BuildingHouse } from "@/components/sections/building-house";
 import { siteConfig } from "@/lib/site";
 
 export function Hero() {
@@ -42,9 +42,9 @@ export function Hero() {
               Najlepsze oferty
               <br />
               w Trójmieście.{" "}
-              <span className="text-gradient-lime">Wybierane</span>
+              <span className="text-gradient-lime">Sprzedane</span>
               <br />
-              jeszcze przed publikacją.
+              zanim trafią do portali.
             </motion.h1>
 
             <motion.p
@@ -117,56 +117,39 @@ export function Hero() {
             transition={{ duration: 0.9, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="lg:col-span-5 relative"
           >
-            <div className="relative aspect-square max-w-[480px] mx-auto">
-              <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-brand-lime/25 to-brand-forest/45 blur-2xl" />
+            <BuildingHouse />
 
-              <div className="relative h-full rounded-[40px] bg-gradient-to-br from-gray-900 to-black border border-border-on-dark p-10 flex items-center justify-center overflow-hidden">
-                <Image
-                  src="/brand/logo.png"
-                  alt="Starnawska & Boleńska Nieruchomości — znak"
-                  width={320}
-                  height={320}
-                  className="relative z-10 drop-shadow-2xl"
-                  priority
-                />
-                <div
-                  aria-hidden
-                  className="absolute -bottom-20 -right-20 size-64 rounded-full bg-brand-lime/15 blur-3xl"
-                />
+            <motion.div
+              initial={{ opacity: 0, x: -20, y: -10 }}
+              animate={{ opacity: 1, x: 0, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.6 }}
+              className="absolute -left-4 lg:-left-12 top-10 bg-surface text-foreground rounded-2xl shadow-[var(--shadow-card)] p-4 max-w-[200px] z-10"
+            >
+              <div className="flex items-center gap-2 text-xs text-foreground-muted mb-2">
+                <MapPin className="size-3.5 text-brand-olive" />
+                Gdynia · Bytomska 14
               </div>
+              <div className="text-sm font-semibold text-foreground leading-snug">
+                Biuro przy Skwerze, w sercu miasta
+              </div>
+            </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, x: -20, y: -10 }}
-                animate={{ opacity: 1, x: 0, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
-                className="absolute -left-4 lg:-left-12 top-10 bg-surface text-foreground rounded-2xl shadow-[var(--shadow-card)] p-4 max-w-[200px]"
-              >
-                <div className="flex items-center gap-2 text-xs text-foreground-muted mb-2">
-                  <MapPin className="size-3.5 text-brand-olive" />
-                  Gdynia · Bytomska 14
-                </div>
-                <div className="text-sm font-semibold text-foreground leading-snug">
-                  Biuro przy Skwerze, w sercu miasta
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, x: 20, y: 10 }}
-                animate={{ opacity: 1, x: 0, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.75 }}
-                className="absolute -right-4 lg:-right-8 bottom-10 bg-brand-lime text-brand-forest-deep rounded-2xl shadow-[var(--shadow-lime)] p-4 max-w-[200px]"
-              >
-                <div className="text-xs font-medium mb-1 opacity-70 uppercase tracking-wider">
-                  Średni czas sprzedaży
-                </div>
-                <div className="font-bold leading-tight">
-                  <span className="text-2xl tabular-nums">6 tygodni</span>
-                  <span className="block text-xs font-medium opacity-70 mt-0.5">
-                    rynek wtórny, ostatnie 12 miesięcy
-                  </span>
-                </div>
-              </motion.div>
-            </div>
+            <motion.div
+              initial={{ opacity: 0, x: 20, y: 10 }}
+              animate={{ opacity: 1, x: 0, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.75 }}
+              className="absolute -right-4 lg:-right-8 bottom-10 bg-brand-lime text-brand-forest-deep rounded-2xl shadow-[var(--shadow-lime)] p-4 max-w-[200px] z-10"
+            >
+              <div className="text-xs font-medium mb-1 opacity-70 uppercase tracking-wider">
+                Średni czas sprzedaży
+              </div>
+              <div className="font-bold leading-tight">
+                <span className="text-2xl tabular-nums">6 tygodni</span>
+                <span className="block text-xs font-medium opacity-70 mt-0.5">
+                  rynek wtórny, ostatnie 12 miesięcy
+                </span>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </Container>
