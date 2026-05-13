@@ -158,19 +158,43 @@ function MagicNav({
   setTeamOpen: (v: boolean) => void;
   team: ReturnType<typeof getAllMembersSorted>;
 }) {
+  const ulRef = useRef<HTMLUListElement>(null);
   const [hover, setHover] = useState<{ left: number; width: number; opacity: number }>({
     left: 0,
     width: 0,
     opacity: 0,
   });
+  const [restPos, setRestPos] = useState<{ left: number; width: number } | null>(null);
+
+  // Po mount / zmianie pathname — wyceluj highlight w aktywny item
+  useEffect(() => {
+    if (!ulRef.current) return;
+    const activeEl = ulRef.current.querySelector<HTMLLIElement>("[data-active='true']");
+    if (activeEl) {
+      const r = activeEl.getBoundingClientRect();
+      const p = ulRef.current.getBoundingClientRect();
+      const next = { left: r.left - p.left, width: r.width };
+      setRestPos(next);
+      setHover({ ...next, opacity: 1 });
+    } else {
+      setRestPos(null);
+      setHover((h) => ({ ...h, opacity: 0 }));
+    }
+  }, [pathname]);
 
   return (
     <nav
       className="hidden lg:flex relative items-center"
       aria-label="Główna nawigacja"
-      onMouseLeave={() => setHover((p) => ({ ...p, opacity: 0 }))}
+      onMouseLeave={() => {
+        if (restPos) setHover({ ...restPos, opacity: 1 });
+        else setHover((p) => ({ ...p, opacity: 0 }));
+      }}
     >
-      <ul className="relative flex items-center rounded-full border border-border bg-surface/80 backdrop-blur-xl shadow-[var(--shadow-soft)] px-1.5 py-1.5">
+      <ul
+        ref={ulRef}
+        className="relative flex items-center rounded-full border border-border bg-surface/80 backdrop-blur-xl shadow-[var(--shadow-soft)] px-1.5 py-1.5"
+      >
         {/* Pływający highlight */}
         <motion.span
           animate={hover}
@@ -216,6 +240,7 @@ function NavTab({
   team: ReturnType<typeof getAllMembersSorted>;
 }) {
   const ref = useRef<HTMLLIElement>(null);
+  const [hovered, setHovered] = useState(false);
   const active = pathname === item.href || pathname.startsWith(item.href + "/");
 
   const onEnter = () => {
@@ -223,16 +248,22 @@ function NavTab({
     const r = ref.current.getBoundingClientRect();
     const parent = ref.current.parentElement!.getBoundingClientRect();
     setHover({ left: r.left - parent.left, width: r.width, opacity: 1 });
+    setHovered(true);
     onTeamHoverChange?.(true);
   };
 
   const onLeave = () => {
+    setHovered(false);
     onTeamHoverChange?.(false);
   };
+
+  // Tekst biały kiedy item jest pod highlightem (hover lub active)
+  const onDark = hovered || active;
 
   return (
     <li
       ref={ref}
+      data-active={active ? "true" : "false"}
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
       className="relative"
@@ -240,11 +271,9 @@ function NavTab({
       <Link
         href={item.href}
         className={cn(
-          "relative z-10 inline-flex items-center gap-1 px-4 py-2 text-[13px] font-medium rounded-full transition-colors",
-          "text-foreground mix-blend-difference group-hover:text-white",
-          active && !item.hasDropdown && "text-background"
+          "relative z-10 inline-flex items-center gap-1 px-4 py-2 text-[13px] font-semibold rounded-full transition-colors duration-150",
+          onDark ? "text-background" : "text-foreground"
         )}
-        style={{ mixBlendMode: "difference" }}
       >
         {item.label}
         {item.hasDropdown && <ChevronDown className="size-3" />}

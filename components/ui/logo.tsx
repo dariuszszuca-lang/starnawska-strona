@@ -74,7 +74,7 @@ export function Logo({
           <span
             aria-hidden
             className={cn(
-              "mt-2 flex items-center justify-between font-semibold uppercase",
+              "mt-0.5 flex items-center justify-between font-bold uppercase",
               s.subText,
               subColor
             )}
