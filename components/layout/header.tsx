@@ -166,14 +166,13 @@ function MagicNav({
   });
   const [restPos, setRestPos] = useState<{ left: number; width: number } | null>(null);
 
-  // Po mount / zmianie pathname — wyceluj underline pod aktywny item
+  // Po mount / zmianie pathname — wyceluj highlight pod aktywny item
   useEffect(() => {
     if (!ulRef.current) return;
     const activeEl = ulRef.current.querySelector<HTMLLIElement>("[data-active='true']");
     if (activeEl) {
-      const innerEl =
-        (activeEl.querySelector("a, button") as HTMLElement | null) ?? activeEl;
-      const r = innerEl.getBoundingClientRect();
+      const linkEl = (activeEl.querySelector("a") as HTMLElement | null) ?? activeEl;
+      const r = linkEl.getBoundingClientRect();
       const p = ulRef.current.getBoundingClientRect();
       const next = { left: r.left - p.left, width: r.width };
       setRestPos(next);
@@ -195,13 +194,13 @@ function MagicNav({
     >
       <ul
         ref={ulRef}
-        className="relative flex items-center gap-1 px-2"
+        className="relative flex items-center gap-0.5 rounded-2xl border border-border bg-surface/80 backdrop-blur-xl shadow-[var(--shadow-soft)] p-1.5"
       >
-        {/* Animowany underline pod items */}
+        {/* Animowany highlight pod items */}
         <motion.span
           animate={underline}
-          transition={{ type: "spring", stiffness: 420, damping: 36, mass: 0.5 }}
-          className="absolute -bottom-1 h-[2px] rounded-full bg-foreground pointer-events-none"
+          transition={{ type: "spring", stiffness: 400, damping: 34, mass: 0.55 }}
+          className="absolute top-1.5 bottom-1.5 rounded-xl bg-foreground pointer-events-none"
           style={{ left: 0, width: 0 }}
           aria-hidden
         />
@@ -272,10 +271,8 @@ function NavTab({
         ref={linkRef}
         href={item.href}
         className={cn(
-          "relative z-10 inline-flex items-center gap-1 px-4 py-2.5 text-sm font-semibold transition-colors duration-200",
-          active || hovered
-            ? "text-foreground"
-            : "text-foreground-muted hover:text-foreground"
+          "relative z-10 inline-flex items-center gap-1 px-4 py-2 text-sm font-semibold transition-colors duration-200",
+          active || hovered ? "text-background" : "text-foreground"
         )}
       >
         {item.label}

@@ -37,7 +37,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
-              className="font-bold text-[clamp(2.75rem,6.5vw,5rem)] leading-[1] tracking-[-0.04em]"
+              className="font-bold text-[clamp(2rem,4.8vw,3.75rem)] leading-[1.05] tracking-[-0.035em]"
             >
               Najlepsze oferty
               <br />
