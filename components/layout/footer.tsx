@@ -40,7 +40,7 @@ export function Footer() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-2">
               Nowe oferty co poniedziałek
             </p>
-            <h2 className="font-display text-2xl lg:text-3xl tracking-tight">
+            <h2 className="font-bold tracking-tight text-2xl lg:text-3xl tracking-tight">
               Najlepsze oferty wpadają do skrzynki, zanim trafią do portali.
             </h2>
           </div>

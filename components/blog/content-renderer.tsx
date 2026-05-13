@@ -11,7 +11,7 @@ export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
               <h2
                 key={i}
                 id={b.id}
-                className="font-display text-3xl lg:text-4xl text-foreground mt-16 mb-5 tracking-tight scroll-mt-32"
+                className="font-bold tracking-tight text-3xl lg:text-4xl text-foreground mt-16 mb-5 tracking-tight scroll-mt-32"
               >
                 {b.text}
               </h2>
@@ -59,7 +59,7 @@ export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
             return (
               <blockquote
                 key={i}
-                className="my-8 pl-6 border-l-4 border-brand-lime text-xl text-foreground-muted italic leading-relaxed"
+                className="my-8 pl-6 border-l-4 border-brand-lime text-xl text-foreground-muted leading-relaxed"
               >
                 {b.text}
                 {b.cite && (

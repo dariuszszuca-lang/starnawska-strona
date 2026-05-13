@@ -21,10 +21,10 @@ export default function KontaktPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Kontakt
             </p>
-            <h1 className="font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
+            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Zadzwoń, napisz,
               <br />
-              <span className="text-foreground-muted italic">albo wpadnij.</span>
+              <span className="text-foreground-muted">albo wpadnij.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
               Jesteśmy w sercu Gdyni, dwie minuty od Skweru Kościuszki.
@@ -43,7 +43,7 @@ export default function KontaktPage() {
                   aria-hidden
                   className="absolute -top-20 -right-20 size-64 rounded-full bg-brand-lime/10 blur-3xl"
                 />
-                <h2 className="font-display text-3xl leading-tight tracking-tight mb-8">
+                <h2 className="font-bold tracking-tight text-3xl leading-tight tracking-tight mb-8">
                   Biuro w Gdyni
                 </h2>
                 <ul className="space-y-6">

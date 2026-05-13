@@ -35,13 +35,15 @@ export function Services() {
       <Container size="wide">
         <div className="max-w-3xl mb-12 lg:mb-16">
           <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-            Co możemy dla Ciebie zrobić
+            Z czym do nas przychodzą
           </p>
-          <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
-            Cztery sposoby,
-            <br />
-            <span className="text-foreground-muted italic">w jakie pomagamy.</span>
+          <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
+            Sprzedaż. Najem. Kredyt. Sesja.
           </h2>
+          <p className="mt-5 text-lg text-foreground-muted leading-relaxed max-w-xl">
+            Cztery rzeczy, w których robimy największą różnicę. Wybierz tę, która pasuje
+            do Twojej sytuacji, albo zadzwoń, jeśli sprawa jest bardziej skomplikowana.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-4 lg:gap-6">

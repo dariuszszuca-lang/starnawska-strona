@@ -59,11 +59,15 @@ export function ValueBento() {
           <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
             Dlaczego my
           </p>
-          <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
-            Sześć powodów, dla których
+          <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
+            Po co właściwie wybierać
             <br />
-            <span className="text-foreground-muted italic">wybierają nas klienci.</span>
+            biuro nieruchomości?
           </h2>
+          <p className="mt-5 text-lg text-foreground-muted leading-relaxed max-w-xl">
+            Pytanie zasadne. Jeśli sam dasz radę sprzedać, nie potrzebujesz nas.
+            Ale jest sześć powodów, dla których 9 na 10 naszych klientów wraca po raz drugi.
+          </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-6 gap-4 auto-rows-[180px]">

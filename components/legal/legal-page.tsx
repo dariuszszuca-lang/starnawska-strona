@@ -19,7 +19,7 @@ export function LegalPage({
           <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
             Dokumenty
           </p>
-          <h1 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] leading-tight tracking-tight text-foreground mb-4">
+          <h1 className="font-bold tracking-tight text-[clamp(2rem,4.5vw,3.5rem)] leading-tight tracking-tight text-foreground mb-4">
             {title}
           </h1>
           <p className="text-sm text-foreground-muted">
@@ -41,7 +41,7 @@ export function LegalPage({
 
       <style>{`
         .legal-content h2 {
-          font-family: var(--font-display);
+          font-family: var(--font-bold tracking-tight);
           font-size: 1.75rem;
           line-height: 1.2;
           margin-top: 3rem;

@@ -26,10 +26,10 @@ export function Portals() {
           <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
             Zasięg publikacji
           </p>
-          <h2 className="font-display text-3xl lg:text-4xl leading-tight tracking-tight text-foreground">
+          <h2 className="font-bold tracking-tight text-3xl lg:text-4xl leading-tight tracking-tight text-foreground">
             Publikujemy w {portals.length}+ portalach.
             <br />
-            <span className="text-foreground-muted italic">Twojej oferty nie da się przegapić.</span>
+            <span className="text-foreground-muted">Twojej oferty nie da się przegapić.</span>
           </h2>
         </div>
 

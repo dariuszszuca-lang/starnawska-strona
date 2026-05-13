@@ -55,10 +55,10 @@ export function CaseStudies() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Realizacje
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
-              Trzy historie.
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
+              3 mieszkania. 3 historie.
               <br />
-              <span className="text-foreground-muted italic">Trzy podejścia.</span>
+              <span className="text-foreground-muted">Liczby na końcu.</span>
             </h2>
           </div>
           <Button asChild variant="outline" size="md">
@@ -80,7 +80,7 @@ export function CaseStudies() {
                 {c.location}
               </div>
 
-              <h3 className="font-display text-2xl tracking-tight text-foreground mb-2 leading-tight">
+              <h3 className="font-bold tracking-tight text-2xl tracking-tight text-foreground mb-2 leading-tight">
                 {c.type}
               </h3>
               <p className="text-sm text-foreground-muted mb-6">{c.area}</p>
@@ -95,7 +95,7 @@ export function CaseStudies() {
                     <Clock className="size-3" />
                     Czas
                   </dt>
-                  <dd className="font-display text-2xl text-foreground tabular-nums">
+                  <dd className="font-bold tracking-tight text-2xl text-foreground tabular-nums">
                     {c.daysToSell} dni
                   </dd>
                 </div>

@@ -21,10 +21,10 @@ export default function BlogPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Blog
             </p>
-            <h1 className="font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
+            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Co warto wiedzieć
               <br />
-              <span className="text-foreground-muted italic">
+              <span className="text-foreground-muted">
                 zanim kupisz albo sprzedasz.
               </span>
             </h1>
@@ -80,7 +80,7 @@ export default function BlogPage() {
                     </span>
                   </div>
                   <h2
-                    className={`font-display tracking-tight text-foreground mb-3 leading-tight ${
+                    className={`font-bold tracking-tight text-foreground mb-3 leading-tight ${
                       i === 0 ? "text-3xl lg:text-4xl" : "text-2xl"
                     }`}
                   >

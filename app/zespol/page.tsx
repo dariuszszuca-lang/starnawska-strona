@@ -25,10 +25,10 @@ export default function TeamPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Nasz zespół
             </p>
-            <h1 className="font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
+            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               {all.length} kobiet.
               <br />
-              <span className="text-foreground-muted italic">Jeden zespół.</span>
+              <span className="text-foreground-muted">Jeden zespół.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
               Każda z nas specjalizuje się w innym segmencie rynku. Wybierz osobę, której
@@ -97,7 +97,7 @@ function TeamCard({
         )}
       </div>
       <div className="p-6 lg:p-7">
-        <h3 className="font-display text-2xl leading-tight tracking-tight text-foreground mb-1">
+        <h3 className="font-bold tracking-tight text-2xl leading-tight tracking-tight text-foreground mb-1">
           {member.fullName}
         </h3>
         <p className="text-sm text-foreground-muted mb-4">{member.role}</p>

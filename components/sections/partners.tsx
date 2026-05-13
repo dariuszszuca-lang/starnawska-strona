@@ -42,7 +42,7 @@ export function Partners() {
                 className="text-center lg:text-left group"
                 title={p.name}
               >
-                <div className="font-display text-2xl lg:text-3xl tracking-tight text-foreground-muted group-hover:text-brand-forest transition-colors mb-1">
+                <div className="font-bold tracking-tight text-2xl lg:text-3xl tracking-tight text-foreground-muted group-hover:text-brand-forest transition-colors mb-1">
                   {p.short}
                 </div>
                 <div className="text-xs text-foreground-subtle leading-tight">

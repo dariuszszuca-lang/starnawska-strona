@@ -78,7 +78,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                 <p className="text-sm uppercase tracking-wider text-brand-lime mb-3 font-medium">
                   {member.role}
                 </p>
-                <h1 className="font-display text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] tracking-tight">
+                <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] tracking-tight">
                   {member.firstName}
                   <br />
                   <span className="text-gradient-lime">{member.lastName}</span>
@@ -88,7 +88,7 @@ export default async function AgentPage({ params }: { params: Params }) {
               {member.quote && (
                 <blockquote className="relative max-w-xl pl-8 border-l-2 border-brand-lime/50">
                   <Quote className="absolute -left-3 -top-2 size-6 text-brand-lime/60" aria-hidden />
-                  <p className="text-lg italic text-foreground-on-dark-muted leading-relaxed">
+                  <p className="text-lg text-foreground-on-dark-muted leading-relaxed">
                     {member.quote}
                   </p>
                 </blockquote>
@@ -250,7 +250,7 @@ export default async function AgentPage({ params }: { params: Params }) {
       <section className="py-16 lg:py-24 bg-surface">
         <Container size="wide">
           <div className="flex items-end justify-between gap-6 mb-10">
-            <h2 className="font-display text-3xl lg:text-4xl tracking-tight text-foreground">
+            <h2 className="font-bold tracking-tight text-3xl lg:text-4xl tracking-tight text-foreground">
               Poznaj resztę zespołu
             </h2>
             <Link
@@ -280,7 +280,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                   <p className="text-xs uppercase tracking-wider text-brand-lime mb-1">
                     {m.shortRole ?? "Pośredniczka"}
                   </p>
-                  <p className="font-display text-lg leading-tight">{m.fullName}</p>
+                  <p className="font-bold tracking-tight text-lg leading-tight">{m.fullName}</p>
                 </div>
               </Link>
             ))}

@@ -87,10 +87,10 @@ export default function DoradztwoPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Doradztwo
             </p>
-            <h1 className="font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
+            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Cztery sposoby,
               <br />
-              <span className="text-foreground-muted italic">w jakie pomagamy.</span>
+              <span className="text-foreground-muted">w jakie pomagamy.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
               Najczęściej pomagamy w jednym z tych czterech obszarów. Ale w praktyce
@@ -147,7 +147,7 @@ export default function DoradztwoPage() {
                   <p className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-3">
                     {s.lead}
                   </p>
-                  <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground mb-6">
+                  <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground mb-6">
                     {s.title}
                   </h2>
                   <p className="text-lg text-foreground-muted leading-relaxed mb-8">
@@ -186,7 +186,7 @@ export default function DoradztwoPage() {
       <section className="py-16 lg:py-24">
         <Container size="default">
           <div className="rounded-[40px] bg-surface-dark text-foreground-on-dark p-10 lg:p-16 text-center">
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight mb-4">
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight mb-4">
               Twoja sprawa nie pasuje do żadnej kategorii?
             </h2>
             <p className="text-lg text-foreground-on-dark-muted max-w-2xl mx-auto mb-8">

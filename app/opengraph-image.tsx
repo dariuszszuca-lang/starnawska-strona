@@ -64,8 +64,7 @@ export default async function OG() {
             style={{
               fontSize: 36,
               color: "#a3a3a3",
-              fontStyle: "italic",
-              fontWeight: 300,
+              fontWeight: 400,
               maxWidth: 900,
             }}
           >

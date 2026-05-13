@@ -22,7 +22,7 @@ export function ComingSoon({
             <Hammer className="size-3.5" />
             Sekcja w przygotowaniu
           </div>
-          <h1 className="font-display text-[clamp(2rem,5vw,3.5rem)] leading-tight tracking-tight text-foreground mb-6">
+          <h1 className="font-bold tracking-tight text-[clamp(2rem,5vw,3.5rem)] leading-tight tracking-tight text-foreground mb-6">
             {title}
           </h1>
           {description && (

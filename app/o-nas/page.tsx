@@ -56,10 +56,10 @@ export default function OnasPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               O nas
             </p>
-            <h1 className="font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
+            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Od {siteConfig.foundedYear} roku
               <br />
-              <span className="text-foreground-muted italic">
+              <span className="text-foreground-muted">
                 pomagamy Trójmiastu znaleźć dom.
               </span>
             </h1>
@@ -91,10 +91,10 @@ export default function OnasPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Wartości
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
               Cztery rzeczy,
               <br />
-              <span className="text-foreground-muted italic">w które wierzymy.</span>
+              <span className="text-foreground-muted">w które wierzymy.</span>
             </h2>
           </div>
 
@@ -125,7 +125,7 @@ export default function OnasPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Nasza historia
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
               {new Date().getFullYear() - siteConfig.foundedYear} lat na pomorskim rynku.
             </h2>
           </div>
@@ -140,7 +140,7 @@ export default function OnasPage() {
                   {t.year.slice(-2)}
                 </span>
                 <p className="text-sm font-mono text-brand-olive mb-1">{t.year}</p>
-                <h3 className="font-display text-2xl tracking-tight text-foreground mb-2">
+                <h3 className="font-bold tracking-tight text-2xl tracking-tight text-foreground mb-2">
                   {t.title}
                 </h3>
                 <p className="text-foreground-muted leading-relaxed max-w-xl">{t.body}</p>
@@ -154,7 +154,7 @@ export default function OnasPage() {
       <section className="py-16 lg:py-24">
         <Container size="default">
           <div className="rounded-[40px] bg-surface-dark text-foreground-on-dark p-10 lg:p-16 text-center">
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight mb-4">
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight mb-4">
               Sprawdź jak pracujemy.
             </h2>
             <p className="text-lg text-foreground-on-dark-muted max-w-2xl mx-auto mb-8">
@@ -176,7 +176,7 @@ export default function OnasPage() {
 function Metric({ value, label }: { value: string; label: string }) {
   return (
     <div className="rounded-3xl bg-surface border border-border p-6 lg:p-8">
-      <p className="font-display text-4xl lg:text-5xl text-foreground tracking-tight mb-2 tabular-nums">
+      <p className="font-bold tracking-tight text-4xl lg:text-5xl text-foreground tracking-tight mb-2 tabular-nums">
         {value}
       </p>
       <p className="text-sm text-foreground-muted leading-tight">{label}</p>

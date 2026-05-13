@@ -49,17 +49,14 @@ export function FAQ() {
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-4 lg:sticky lg:top-24">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-              Pytania klientów
+              FAQ
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground mb-4">
-              Sześć rzeczy,
-              <br />
-              <span className="text-foreground-muted italic">
-                o które pytają najczęściej.
-              </span>
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground mb-4">
+              Pytania, które słyszymy codziennie.
             </h2>
             <p className="text-foreground-muted leading-relaxed">
-              Nie znalazłeś odpowiedzi? Zadzwoń albo napisz, odpowiemy konkretnie.
+              Krótkie odpowiedzi na to, o co ludzie pytają najczęściej.
+              Nie ma Twojego pytania? Zadzwoń, odpowiemy w 30 sekund.
             </p>
           </div>
 

@@ -29,10 +29,10 @@ export default async function KonsultacjaPage({
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Konsultacja
             </p>
-            <h1 className="font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
+            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Zacznijmy
               <br />
-              <span className="text-foreground-muted italic">od rozmowy.</span>
+              <span className="text-foreground-muted">od rozmowy.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
               30 minut, bez zobowiązań. Napisz co Cię sprowadza, zadzwonimy lub
@@ -60,7 +60,7 @@ export default async function KonsultacjaPage({
                 <p className="text-xs uppercase tracking-wider text-brand-lime font-semibold mb-3">
                   Wolisz telefon
                 </p>
-                <p className="font-display text-4xl tracking-tight mb-2 tabular-nums">
+                <p className="font-bold tracking-tight text-4xl tracking-tight mb-2 tabular-nums">
                   {siteConfig.contact.phones[0].displayValue}
                 </p>
                 <p className="text-sm text-foreground-on-dark-muted leading-relaxed">

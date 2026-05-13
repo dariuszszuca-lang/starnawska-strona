@@ -77,7 +77,7 @@ export function ConsultationForm({ agentka }: { agentka?: string }) {
         <div className="size-14 rounded-2xl bg-brand-lime text-brand-forest-deep flex items-center justify-center mb-5">
           <Check className="size-7" strokeWidth={2.5} />
         </div>
-        <h2 className="font-display text-2xl lg:text-3xl text-foreground mb-3">
+        <h2 className="font-bold tracking-tight text-2xl lg:text-3xl text-foreground mb-3">
           Dziękujemy. Wkrótce się odezwiemy.
         </h2>
         <p className="text-foreground-muted leading-relaxed">

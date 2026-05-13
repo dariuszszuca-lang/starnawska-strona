@@ -23,7 +23,7 @@ export function CTA() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
               Pierwsza rozmowa bez zobowiązań
             </p>
-            <h2 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.1] tracking-tight mb-6">
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.1] tracking-tight mb-6">
               Sprzedajesz? Kupujesz?
               <br />
               <span className="text-gradient-lime">Zacznijmy od rozmowy.</span>

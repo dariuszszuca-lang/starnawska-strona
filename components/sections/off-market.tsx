@@ -24,7 +24,7 @@ export function OffMarket() {
                 Oferty spod lady
               </div>
 
-              <h2 className="font-display text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] tracking-tight">
+              <h2 className="font-bold tracking-tight text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] tracking-tight">
                 Nieruchomości,
                 <br />
                 których nigdzie
@@ -90,7 +90,7 @@ export function OffMarket() {
                           <p className="text-xs text-foreground-on-dark-muted mb-1">
                             {card.city}
                           </p>
-                          <p className="font-display text-2xl text-foreground-on-dark mb-1 tabular-nums">
+                          <p className="font-bold tracking-tight text-2xl text-foreground-on-dark mb-1 tabular-nums">
                             {card.area}
                           </p>
                           <p className="text-sm text-brand-lime tabular-nums">

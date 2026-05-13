@@ -16,13 +16,14 @@ export function TeamPreview() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Nasz zespół
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
-              {team.length} kobiet, jedna misja.
-              <br />
-              <span className="text-foreground-muted italic">
-                Pomóc Ci znaleźć dom.
-              </span>
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
+              Zespół, który zna Trójmiasto na pamięć.
             </h2>
+            <p className="mt-5 text-lg text-foreground-muted leading-relaxed max-w-xl">
+              Każda z nas zajmuje się innym kawałkiem rynku.
+              Sprzedaż mieszkań, najem długoterminowy, rynek pierwotny, grunty.
+              Wybierz osobę, której styl Ci pasuje.
+            </p>
           </div>
           <Button asChild variant="outline" size="md">
             <Link href="/zespol">
@@ -66,7 +67,7 @@ export function TeamPreview() {
                 <p className="text-xs uppercase tracking-wider text-brand-lime mb-1.5 font-medium">
                   {m.shortRole ?? m.role.split(",")[0]}
                 </p>
-                <h3 className="font-display text-xl leading-tight tracking-tight">
+                <h3 className="font-bold tracking-tight text-xl leading-tight tracking-tight">
                   {m.firstName}
                   <br />
                   {m.lastName}

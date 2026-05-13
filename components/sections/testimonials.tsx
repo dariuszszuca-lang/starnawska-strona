@@ -24,10 +24,10 @@ export function Testimonials() {
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
               Opinie klientów
             </p>
-            <h2 className="font-display text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground mb-6">
-              Tego nie da się
+            <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground mb-6">
+              Co mówią klienci,
               <br />
-              <span className="text-foreground-muted italic">kupić.</span>
+              <span className="text-foreground-muted">którzy z nami sprzedali.</span>
             </h2>
             <p className="text-foreground-muted leading-relaxed mb-8 max-w-md">
               {items.length} historii naszych klientów. Mediana ocen w portalach
@@ -80,7 +80,7 @@ export function Testimonials() {
                     />
                   ))}
                 </div>
-                <blockquote className="text-xl lg:text-2xl text-foreground leading-relaxed font-display tracking-tight mb-8">
+                <blockquote className="text-xl lg:text-2xl text-foreground leading-relaxed font-bold tracking-tight mb-8">
                   „{current.body}"
                 </blockquote>
                 <footer className="flex items-center justify-between flex-wrap gap-4 pt-6 border-t border-border">

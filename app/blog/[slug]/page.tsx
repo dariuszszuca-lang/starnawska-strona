@@ -132,7 +132,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
               </span>
             </div>
 
-            <h1 className="font-display text-[clamp(2.25rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground mb-6 max-w-4xl">
+            <h1 className="font-bold tracking-tight text-[clamp(2.25rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground mb-6 max-w-4xl">
               {post.title}
             </h1>
 
@@ -202,7 +202,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                 {/* FAQ */}
                 {post.faq.length > 0 && (
                   <div className="mt-16 pt-12 border-t border-border">
-                    <h2 className="font-display text-3xl text-foreground mb-8 tracking-tight">
+                    <h2 className="font-bold tracking-tight text-3xl text-foreground mb-8 tracking-tight">
                       Najczęściej zadawane pytania
                     </h2>
                     <div className="space-y-4">
@@ -232,7 +232,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
                 {/* CTA */}
                 <div className="mt-16 p-8 lg:p-10 rounded-3xl bg-surface-dark text-foreground-on-dark">
-                  <h2 className="font-display text-2xl lg:text-3xl tracking-tight mb-3">
+                  <h2 className="font-bold tracking-tight text-2xl lg:text-3xl tracking-tight mb-3">
                     Masz konkretną sprawę?
                   </h2>
                   <p className="text-foreground-on-dark-muted leading-relaxed mb-6">
@@ -254,7 +254,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
         {/* Inne artykuły */}
         <section className="py-16 lg:py-24 bg-surface">
           <Container size="wide">
-            <h2 className="font-display text-3xl lg:text-4xl text-foreground mb-10 tracking-tight">
+            <h2 className="font-bold tracking-tight text-3xl lg:text-4xl text-foreground mb-10 tracking-tight">
               Sprawdź też
             </h2>
             <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
@@ -270,7 +270,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                     </span>
                   </div>
                   <div className="p-6 lg:p-8">
-                    <h3 className="font-display text-2xl text-foreground tracking-tight leading-tight mb-3">
+                    <h3 className="font-bold tracking-tight text-2xl text-foreground tracking-tight leading-tight mb-3">
                       {p.title}
                     </h3>
                     <p className="text-foreground-muted leading-relaxed">{p.excerpt}</p>
