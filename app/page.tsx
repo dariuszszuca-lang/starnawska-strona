@@ -4,6 +4,8 @@ import { Partners } from "@/components/sections/partners";
 import { ValueBento } from "@/components/sections/value-bento";
 import { Services } from "@/components/sections/services";
 import { OffMarket } from "@/components/sections/off-market";
+import { CaseStudies } from "@/components/sections/case-studies";
+import { Portals } from "@/components/sections/portals";
 import { TeamPreview } from "@/components/sections/team-preview";
 import { Testimonials } from "@/components/sections/testimonials";
 import { FAQ } from "@/components/sections/faq";
@@ -28,6 +30,12 @@ export default function HomePage() {
       </Reveal>
       <Reveal>
         <OffMarket />
+      </Reveal>
+      <Reveal>
+        <CaseStudies />
+      </Reveal>
+      <Reveal>
+        <Portals />
       </Reveal>
       <Reveal>
         <TeamPreview />

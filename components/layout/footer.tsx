@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
+import { NewsletterForm } from "@/components/forms/newsletter-form";
 import { Logo } from "@/components/ui/logo";
 import { Container } from "@/components/ui/container";
 import { siteConfig } from "@/lib/site";
@@ -32,6 +33,23 @@ const footerNav = {
 export function Footer() {
   return (
     <footer className="bg-surface-dark text-foreground-on-dark mt-24">
+      {/* Newsletter bar */}
+      <Container size="wide" as="div" className="py-12 border-b border-border-on-dark">
+        <div className="grid lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-7">
+            <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-2">
+              Nowe oferty co poniedziałek
+            </p>
+            <h2 className="font-display text-2xl lg:text-3xl tracking-tight">
+              Najlepsze oferty wpadają do skrzynki, zanim trafią do portali.
+            </h2>
+          </div>
+          <div className="lg:col-span-5">
+            <NewsletterForm />
+          </div>
+        </div>
+      </Container>
+
       <Container size="wide" as="div" className="py-16 lg:py-20">
         <div className="grid grid-cols-2 md:grid-cols-12 gap-y-12 gap-x-8">
           <div className="col-span-2 md:col-span-4 space-y-6">
