@@ -161,14 +161,14 @@ function mapRawToOffer(raw: RawEstiOffer): Offer | null {
   };
 }
 
-function normalizeTransaction(s?: string): OfferTransaction {
-  const v = (s ?? "").toLowerCase();
+function normalizeTransaction(s?: unknown): OfferTransaction {
+  const v = String(s ?? "").toLowerCase();
   if (v.includes("najem") || v.includes("wynajem") || v.includes("rent")) return "najem";
   return "sprzedaz";
 }
 
-function normalizeType(s?: string): OfferType {
-  const v = (s ?? "").toLowerCase();
+function normalizeType(s?: unknown): OfferType {
+  const v = String(s ?? "").toLowerCase();
   if (v.includes("mieszkani") || v.includes("apartament")) return "mieszkanie";
   if (v.includes("dom") || v.includes("house") || v.includes("willa")) return "dom";
   if (v.includes("dzialk") || v.includes("grunt") || v.includes("ziemia")) return "dzialka";
@@ -177,8 +177,8 @@ function normalizeType(s?: string): OfferType {
   return "inne";
 }
 
-function normalizeMarket(s?: string): OfferMarket | undefined {
-  const v = (s ?? "").toLowerCase();
+function normalizeMarket(s?: unknown): OfferMarket | undefined {
+  const v = String(s ?? "").toLowerCase();
   if (v.includes("pierwot")) return "pierwotny";
   if (v.includes("wtorn")) return "wtorny";
   return undefined;
@@ -263,9 +263,10 @@ function extractAgent(raw: RawEstiOffer): Offer["agent"] {
 /**
  * Dopasowanie ESTI agent → nasz slug z team.ts (po nazwisku).
  */
-function matchAgentSlug(fullName: string): string | undefined {
-  if (!fullName) return undefined;
-  const lower = fullName.toLowerCase();
+function matchAgentSlug(fullName: unknown): string | undefined {
+  const name = String(fullName ?? "");
+  if (!name) return undefined;
+  const lower = name.toLowerCase();
   const map: Record<string, string> = {
     "sudwoj-boleńska": "patrycja-sudwoj-bolenska",
     "sudwoj-bolenska": "patrycja-sudwoj-bolenska",
