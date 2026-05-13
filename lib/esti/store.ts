@@ -1,37 +1,21 @@
-import { put, list } from "@vercel/blob";
+import { put, get } from "@vercel/blob";
 import type { Offer, OfferFilters, OffersResult } from "./types";
 
 /**
- * Persistent storage dla ofert: Vercel Blob (file in public CDN).
+ * Persistent storage dla ofert: Vercel Blob (private store).
  *
  * Strategia:
  * - sync zapisuje JSON do Blob pod stałą nazwą "esti-offers/current.json"
- * - read pobiera ten JSON (cached przez Next fetch cache + Blob CDN)
+ * - read pobiera plik przez get() (private store wymaga SDK + token)
  * - fallback: brak Blob -> pusty wynik
  */
 
 const BLOB_PATH = "esti-offers/current.json";
-let currentBlobUrl: string | null = null;
 
 type CacheShape = {
   lastSync: string;
   offers: Offer[];
 };
-
-async function fetchCurrentBlobUrl(): Promise<string | null> {
-  if (currentBlobUrl) return currentBlobUrl;
-  try {
-    const { blobs } = await list({ prefix: "esti-offers/" });
-    const blob = blobs.find((b) => b.pathname === BLOB_PATH);
-    if (blob) {
-      currentBlobUrl = blob.url;
-      return blob.url;
-    }
-  } catch {
-    // brak BLOB_READ_WRITE_TOKEN lub inne — fall through
-  }
-  return null;
-}
 
 export async function saveOffers(offers: Offer[]): Promise<void> {
   const payload: CacheShape = {
@@ -39,22 +23,20 @@ export async function saveOffers(offers: Offer[]): Promise<void> {
     offers,
   };
   const json = JSON.stringify(payload);
-  const result = await put(BLOB_PATH, json, {
-    access: "public",
+  await put(BLOB_PATH, json, {
+    access: "private",
     addRandomSuffix: false,
     allowOverwrite: true,
     contentType: "application/json",
   });
-  currentBlobUrl = result.url;
 }
 
 export async function readOffers(): Promise<CacheShape | null> {
-  const url = await fetchCurrentBlobUrl();
-  if (!url) return null;
   try {
-    const res = await fetch(url, { next: { revalidate: 600 } });
-    if (!res.ok) return null;
-    return (await res.json()) as CacheShape;
+    const result = await get(BLOB_PATH, { access: "private" });
+    if (!result || !result.stream) return null;
+    const text = await new Response(result.stream).text();
+    return JSON.parse(text) as CacheShape;
   } catch {
     return null;
   }
