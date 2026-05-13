@@ -3,188 +3,284 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 /**
- * Animacja budującego się domu — sekwencja elementów składa się
- * od fundamentu, przez ściany, do dachu. Po pełnym złożeniu pauza,
- * potem cykl od nowa. Paleta jak logo (czerń + lime + forest green).
+ * Animacja: dom z logo buduje się sekwencyjnie, na końcu pojawia się
+ * pieczątka SPRZEDANE i kwota. Dłuższa faza "gotowe" żeby było widać.
  */
+
+const TOTAL = 9; // sekund cały cykl
+
+// helper: zwraca obiekt animacji z properly normalized times
+function makeAnim<T extends Record<string, number[]>>(
+  values: T,
+  keyTimes: number[],
+  loop: boolean
+) {
+  return {
+    animate: values,
+    transition: {
+      duration: TOTAL,
+      times: keyTimes,
+      repeat: loop ? Infinity : 0,
+      ease: "linear" as const,
+    },
+  };
+}
+
 export function BuildingHouse() {
   const reduce = useReducedMotion();
+  const loop = !reduce;
 
-  // Czas pojedynczego "buduje się" + pauza
-  const TOTAL = 5.4;
-
-  const transition = (delay: number) => ({
-    duration: 0.55,
-    delay,
-    ease: [0.34, 1.56, 0.64, 1] as [number, number, number, number],
-    repeat: reduce ? 0 : Infinity,
-    repeatDelay: TOTAL - delay - 0.55,
-  });
-
-  // Wariant: skala od 0 do 1, rosną z dołu (origin bottom)
-  const grow = (delay: number) => ({
-    initial: { scaleY: 0, opacity: 0 },
-    animate: { scaleY: [0, 1, 1, 0], opacity: [0, 1, 1, 0] },
-    transition: {
-      ...transition(delay),
-      times: [0, 0.12, 0.88, 1],
-    },
-  });
-
-  // Dach: spada z góry
-  const drop = (delay: number) => ({
-    initial: { y: -60, opacity: 0, rotate: -3 },
-    animate: { y: [60, 0, 0, -30], opacity: [0, 1, 1, 0], rotate: [-8, 0, 0, 0] },
-    transition: {
-      ...transition(delay),
-      times: [0, 0.18, 0.88, 1],
-    },
-  });
-
-  // Fundament: pojawia się pierwszy, instant
-  const ground = (delay: number) => ({
-    initial: { scaleX: 0, opacity: 0 },
-    animate: { scaleX: [0, 1, 1, 0], opacity: [0, 1, 1, 0] },
-    transition: {
-      ...transition(delay),
-      times: [0, 0.08, 0.92, 1],
-    },
-  });
-
+  // Punkty czasowe (0-1 w stosunku do TOTAL):
+  // 0.00 — start (wszystko niewidoczne)
+  // 0.05 — pojawia się fundament
+  // 0.15 — lewy filar
+  // 0.25 — prawy filar
+  // 0.35 — mały filar
+  // 0.45 — dach
+  // 0.55 — wszystko widoczne, pojawia się pieczątka SPRZEDANE
+  // 0.90 — start fade out
+  // 1.00 — koniec, fade do 0
   return (
-    <div className="relative aspect-square max-w-[480px] mx-auto">
-      {/* Glow background */}
+    <div className="relative aspect-square max-w-[500px] mx-auto">
       <div
         aria-hidden
-        className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-brand-lime/25 to-brand-forest/45 blur-2xl"
+        className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-brand-lime/30 to-brand-forest/50 blur-2xl"
       />
 
       <div className="relative h-full rounded-[40px] bg-gradient-to-br from-gray-900 to-black border border-border-on-dark overflow-hidden">
-        {/* Subtle radial */}
         <div
           aria-hidden
-          className="absolute inset-0 bg-[radial-gradient(circle_at_50%_85%,rgba(163,199,51,0.18),transparent_55%)]"
+          className="absolute inset-0 bg-[radial-gradient(circle_at_50%_85%,rgba(163,199,51,0.22),transparent_55%)]"
         />
 
-        {/* Grid pattern — jak rysunek architektoniczny */}
+        {/* Grid architektoniczny */}
         <div
           aria-hidden
-          className="absolute inset-0 opacity-[0.06]"
+          className="absolute inset-0 opacity-[0.07]"
           style={{
             backgroundImage:
               "linear-gradient(to right, #fafaf7 1px, transparent 1px), linear-gradient(to bottom, #fafaf7 1px, transparent 1px)",
-            backgroundSize: "32px 32px",
+            backgroundSize: "40px 40px",
           }}
         />
 
-        {/* Status pill — co aktualnie się dzieje */}
-        <Phases />
+        {/* Phase label u góry */}
+        <Phases loop={loop} />
 
         <svg
           viewBox="0 0 400 400"
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute inset-0 w-full h-full p-12"
-          aria-label="Animacja budowy domu"
+          className="absolute inset-0 w-full h-full p-6"
+          aria-label="Animacja: dom się buduje i zostaje sprzedany"
           role="img"
         >
           <defs>
-            <linearGradient id="lime" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#bfd968" />
+            <linearGradient id="bh-lime" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#c9e26b" />
               <stop offset="100%" stopColor="#84b324" />
             </linearGradient>
-            <linearGradient id="forest" x1="0%" y1="0%" x2="0%" y2="100%">
+            <linearGradient id="bh-forest-l" x1="100%" y1="0%" x2="0%" y2="100%">
               <stop offset="0%" stopColor="#3d6b22" />
-              <stop offset="100%" stopColor="#1f3a1b" />
-            </linearGradient>
-            <linearGradient id="forestSide" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#2d4a1f" />
               <stop offset="100%" stopColor="#1a2e12" />
             </linearGradient>
+            <linearGradient id="bh-forest-r" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#3d6b22" />
+              <stop offset="100%" stopColor="#1a2e12" />
+            </linearGradient>
+            <filter id="bh-shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="6" stdDeviation="6" floodOpacity="0.35" />
+            </filter>
           </defs>
 
-          {/* 1. Fundament — pozioma kreska */}
-          <motion.rect
-            x="50"
-            y="320"
-            width="300"
-            height="6"
-            rx="3"
-            fill="#a3c733"
-            style={{ transformOrigin: "200px 323px" }}
-            {...ground(0)}
-          />
-
-          {/* 2. Lewy filar — wysoki, ciemny */}
-          <motion.path
-            d="M 90 320 L 90 180 L 150 145 L 150 320 Z"
-            fill="url(#forestSide)"
+          {/* Trawa / fundament - lekka linia */}
+          <motion.line
+            x1="40"
+            y1="345"
+            x2="360"
+            y2="345"
             stroke="#a3c733"
-            strokeWidth="0.5"
-            style={{ transformOrigin: "120px 320px" }}
-            {...grow(0.4)}
+            strokeWidth="3"
+            strokeLinecap="round"
+            initial={{ pathLength: 0, opacity: 0 }}
+            {...makeAnim(
+              {
+                pathLength: [0, 1, 1, 1, 0],
+                opacity: [0, 1, 1, 1, 0],
+              },
+              [0, 0.06, 0.55, 0.9, 1],
+              loop
+            )}
           />
 
-          {/* 3. Prawy filar — wysoki, ciemny */}
+          {/* Lewy ciemnozielony filar */}
           <motion.path
-            d="M 250 145 L 310 180 L 310 320 L 250 320 Z"
-            fill="url(#forest)"
-            stroke="#a3c733"
-            strokeWidth="0.5"
-            style={{ transformOrigin: "280px 320px" }}
-            {...grow(0.9)}
+            d="M 90 340 L 90 175 L 165 130 L 165 340 Z"
+            fill="url(#bh-forest-l)"
+            stroke="#84b324"
+            strokeWidth="1.5"
+            filter="url(#bh-shadow)"
+            style={{ transformOrigin: "127px 340px" }}
+            initial={{ scaleY: 0, opacity: 0 }}
+            {...makeAnim(
+              {
+                scaleY: [0, 0, 1, 1, 1, 0.95],
+                opacity: [0, 0, 1, 1, 1, 0],
+              },
+              [0, 0.1, 0.2, 0.55, 0.9, 1],
+              loop
+            )}
           />
 
-          {/* 4. Mały filar (drzwi) — w środku, jasno-zielony */}
+          {/* Prawy ciemnozielony filar */}
           <motion.path
-            d="M 175 320 L 175 240 L 215 240 L 215 320 Z"
-            fill="url(#lime)"
-            stroke="#1f3a1b"
-            strokeWidth="0.5"
-            style={{ transformOrigin: "195px 320px" }}
-            {...grow(1.4)}
+            d="M 235 130 L 310 175 L 310 340 L 235 340 Z"
+            fill="url(#bh-forest-r)"
+            stroke="#84b324"
+            strokeWidth="1.5"
+            filter="url(#bh-shadow)"
+            style={{ transformOrigin: "272px 340px" }}
+            initial={{ scaleY: 0, opacity: 0 }}
+            {...makeAnim(
+              {
+                scaleY: [0, 0, 0, 1, 1, 1, 0.95],
+                opacity: [0, 0, 0, 1, 1, 1, 0],
+              },
+              [0, 0.1, 0.2, 0.3, 0.55, 0.9, 1],
+              loop
+            )}
           />
 
-          {/* 5. Dach — duży lime romb, spada z góry */}
-          <motion.g {...drop(1.95)} style={{ transformOrigin: "200px 100px" }}>
+          {/* Mały filar w środku (drzwi / komin) - lime */}
+          <motion.path
+            d="M 180 340 L 180 250 L 220 250 L 220 340 Z"
+            fill="url(#bh-lime)"
+            stroke="#1a2e12"
+            strokeWidth="1.5"
+            filter="url(#bh-shadow)"
+            style={{ transformOrigin: "200px 340px" }}
+            initial={{ scaleY: 0, opacity: 0 }}
+            {...makeAnim(
+              {
+                scaleY: [0, 0, 0, 0, 1, 1, 1, 0.95],
+                opacity: [0, 0, 0, 0, 1, 1, 1, 0],
+              },
+              [0, 0.1, 0.2, 0.3, 0.4, 0.55, 0.9, 1],
+              loop
+            )}
+          />
+
+          {/* Dach - duży lime romb */}
+          <motion.g
+            initial={{ y: -120, opacity: 0, rotate: -8 }}
+            {...makeAnim(
+              {
+                y: [-120, -120, -120, -120, -120, 0, 0, -30],
+                opacity: [0, 0, 0, 0, 0, 1, 1, 0],
+                rotate: [-12, -12, -12, -12, -12, 0, 0, -4],
+              },
+              [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.9, 1],
+              loop
+            )}
+            style={{ transformOrigin: "200px 80px" }}
+          >
             <path
-              d="M 110 145 L 200 75 L 290 145 L 200 215 Z"
-              fill="url(#lime)"
-              stroke="#1f3a1b"
-              strokeWidth="1.5"
+              d="M 105 175 L 200 90 L 295 175 L 200 250 Z"
+              fill="url(#bh-lime)"
+              stroke="#1a2e12"
+              strokeWidth="2.5"
+              filter="url(#bh-shadow)"
             />
-            {/* Subtle shadow line */}
             <path
-              d="M 200 75 L 200 215"
-              stroke="#1f3a1b"
-              strokeWidth="0.8"
+              d="M 200 90 L 200 250"
+              stroke="#1a2e12"
+              strokeWidth="1.5"
               opacity="0.4"
             />
             <path
-              d="M 110 145 L 290 145"
-              stroke="#1f3a1b"
-              strokeWidth="0.8"
+              d="M 105 175 L 295 175"
+              stroke="#1a2e12"
+              strokeWidth="1.5"
               opacity="0.3"
             />
           </motion.g>
 
-          {/* Linie wymiarowe — architektoniczne akcenty */}
+          {/* Pieczątka SPRZEDANE - pojawia się gdy dom zbudowany */}
           <motion.g
-            initial={{ opacity: 0 }}
-            animate={{ opacity: [0, 0.5, 0.5, 0] }}
-            transition={{
-              duration: TOTAL,
-              times: [0, 0.5, 0.88, 1],
-              repeat: reduce ? 0 : Infinity,
-              ease: "linear",
-            }}
-            stroke="#a3c733"
-            strokeWidth="0.5"
-            strokeDasharray="2 3"
-            fill="none"
+            initial={{ opacity: 0, scale: 0, rotate: -25 }}
+            {...makeAnim(
+              {
+                opacity: [0, 0, 0, 0, 0, 0, 1, 1, 0],
+                scale: [0, 0, 0, 0, 0, 0, 1.05, 1, 0.9],
+                rotate: [-25, -25, -25, -25, -25, -25, -10, -10, -8],
+              },
+              [0, 0.1, 0.2, 0.3, 0.4, 0.55, 0.6, 0.9, 1],
+              loop
+            )}
+            style={{ transformOrigin: "200px 200px" }}
           >
-            <line x1="50" y1="340" x2="350" y2="340" />
-            <line x1="50" y1="335" x2="50" y2="345" />
-            <line x1="350" y1="335" x2="350" y2="345" />
+            <ellipse
+              cx="200"
+              cy="200"
+              rx="120"
+              ry="40"
+              fill="none"
+              stroke="#dc2626"
+              strokeWidth="4"
+              opacity="0.9"
+            />
+            <ellipse
+              cx="200"
+              cy="200"
+              rx="113"
+              ry="34"
+              fill="none"
+              stroke="#dc2626"
+              strokeWidth="1.5"
+              opacity="0.6"
+            />
+            <text
+              x="200"
+              y="208"
+              textAnchor="middle"
+              fontFamily="system-ui, sans-serif"
+              fontSize="32"
+              fontWeight="900"
+              letterSpacing="3"
+              fill="#dc2626"
+              opacity="0.95"
+            >
+              SPRZEDANE
+            </text>
+          </motion.g>
+
+          {/* Linia wymiarowa pod domem */}
+          <motion.g
+            stroke="#a3c733"
+            strokeWidth="1"
+            strokeDasharray="3 3"
+            fill="none"
+            initial={{ opacity: 0 }}
+            {...makeAnim(
+              { opacity: [0, 0, 0.5, 0.5, 0.5, 0.5, 0] },
+              [0, 0.2, 0.3, 0.5, 0.55, 0.9, 1],
+              loop
+            )}
+          >
+            <line x1="90" y1="365" x2="310" y2="365" />
+            <line x1="90" y1="360" x2="90" y2="372" />
+            <line x1="310" y1="360" x2="310" y2="372" />
+            <text
+              x="200"
+              y="385"
+              textAnchor="middle"
+              fill="#a3c733"
+              fontSize="11"
+              fontFamily="system-ui, sans-serif"
+              fontWeight="600"
+              letterSpacing="2"
+            >
+              TWÓJ NOWY DOM
+            </text>
           </motion.g>
         </svg>
       </div>
@@ -193,58 +289,62 @@ export function BuildingHouse() {
 }
 
 /* ============================================
-   Floating "phase" pill — pokazuje co się buduje
+   Phase indicator - co teraz się dzieje
    ============================================ */
-function Phases() {
-  const reduce = useReducedMotion();
+function Phases({ loop }: { loop: boolean }) {
   const phases = [
-    { t: 0.0, label: "Fundament" },
-    { t: 0.4, label: "Konstrukcja" },
-    { t: 1.4, label: "Wykończenie" },
-    { t: 1.95, label: "Dach" },
-    { t: 2.6, label: "Gotowe" },
+    { from: 0.05, to: 0.15, label: "Działka", icon: "▬" },
+    { from: 0.15, to: 0.35, label: "Konstrukcja", icon: "▮ ▮" },
+    { from: 0.35, to: 0.5, label: "Wykończenie", icon: "▮ ▮ ▮" },
+    { from: 0.5, to: 0.6, label: "Dach", icon: "◆" },
+    { from: 0.6, to: 0.9, label: "Sprzedane", icon: "✓" },
   ];
 
   return (
-    <div className="absolute top-5 right-5 z-10 flex flex-col items-end gap-2">
-      {phases.map((p, i) => {
-        const start = p.t;
-        const end = phases[i + 1]?.t ?? 4.8;
-        return (
+    <div className="absolute top-5 left-5 z-10">
+      <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.08] border border-border-on-dark backdrop-blur text-foreground-on-dark-muted">
+        <span className="size-1.5 rounded-full bg-brand-lime animate-pulse" />
+        <span className="text-[10px] uppercase tracking-[0.2em] font-semibold">
+          Etap budowy
+        </span>
+      </div>
+      <div className="mt-2 relative h-7 overflow-hidden">
+        {phases.map((p, i) => (
           <motion.span
-            key={p.label}
-            initial={{ opacity: 0, x: 8 }}
+            key={i}
+            initial={{ opacity: 0, y: 12 }}
             animate={
-              reduce
-                ? { opacity: 0.5, x: 0 }
-                : {
-                    opacity: [0, 0, 1, 1, 0],
-                    x: [8, 8, 0, 0, -8],
+              loop
+                ? {
+                    opacity: [0, 0, 1, 1, 0, 0],
+                    y: [12, 12, 0, 0, -12, -12],
                   }
+                : { opacity: 1, y: 0 }
             }
             transition={
-              reduce
-                ? { duration: 0 }
-                : {
-                    duration: 5.4,
+              loop
+                ? {
+                    duration: TOTAL,
                     times: [
                       0,
-                      start / 5.4,
-                      Math.min(start + 0.25, 5.39) / 5.4,
-                      Math.min(end - 0.05, 5.39) / 5.4,
-                      Math.min(end + 0.2, 5.4) / 5.4,
+                      Math.max(p.from - 0.02, 0),
+                      p.from,
+                      Math.min(p.to - 0.02, 1),
+                      p.to,
+                      1,
                     ],
                     repeat: Infinity,
                     ease: "linear",
                   }
+                : { duration: 0 }
             }
-            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/[0.06] border border-border-on-dark backdrop-blur text-[10px] font-medium text-foreground-on-dark-muted uppercase tracking-wider"
+            className="absolute left-0 top-0 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-lime/15 text-brand-lime text-xs font-semibold uppercase tracking-wider"
           >
-            <span className="size-1 rounded-full bg-brand-lime" />
+            <span className="text-[10px] font-bold">{p.icon}</span>
             {p.label}
           </motion.span>
-        );
-      })}
+        ))}
+      </div>
     </div>
   );
 }
