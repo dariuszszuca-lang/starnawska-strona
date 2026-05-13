@@ -1,0 +1,395 @@
+/**
+ * Trzy artykuły SEO + LLM citation ready.
+ * Docelowo: migracja do Sanity. Na razie statycznie w kodzie.
+ *
+ * Strategia: każdy artykuł odpowiada na konkretne pytanie, które ludzie
+ * zadają Google/ChatGPT przed kupnem/sprzedażą mieszkania w Trójmieście.
+ */
+
+export type Post = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  /** Główne pytanie, na które odpowiada artykuł (do FAQ schema) */
+  keyQuestion: string;
+  /** TL;DR — gotowa odpowiedź dla AI (max 2 zdania) */
+  tldr: string;
+  category: string;
+  author: string;
+  publishedAt: string;
+  updatedAt?: string;
+  readingMinutes: number;
+  cover: string;
+  coverAlt: string;
+  keywords: string[];
+  /** Treść jako tablica bloków — proste markdown-like + heading id-ki dla TOC */
+  content: ContentBlock[];
+  /** FAQ na końcu artykułu — wsadowo do schema FAQ */
+  faq: { q: string; a: string }[];
+};
+
+export type ContentBlock =
+  | { type: "p"; text: string }
+  | { type: "h2"; text: string; id: string }
+  | { type: "h3"; text: string; id: string }
+  | { type: "ul"; items: string[] }
+  | { type: "ol"; items: string[] }
+  | { type: "quote"; text: string; cite?: string }
+  | { type: "callout"; tone: "tip" | "warning" | "info"; title: string; text: string }
+  | { type: "table"; head: string[]; rows: string[][] };
+
+export const posts: Post[] = [
+  {
+    slug: "jak-sprzedac-mieszkanie-w-gdyni-2026",
+    title: "Jak sprzedać mieszkanie w Gdyni w 2026 roku. Praktyczny poradnik",
+    excerpt:
+      "Co zrobić, w jakiej kolejności i czego unikać, żeby sprzedać mieszkanie w Trójmieście za uczciwą cenę i w rozsądnym czasie.",
+    keyQuestion: "Jak sprzedać mieszkanie w Gdyni w 2026 roku?",
+    tldr: "Sprzedaż mieszkania w Gdyni w 2026 roku zajmuje średnio 6–10 tygodni. Klucz to realna wycena, dobra prezentacja oferty (zdjęcia, plan, opis) i dotarcie do realnych kupujących, nie tylko publikacja w portalach.",
+    category: "Sprzedaż",
+    author: "Zespół Starnawska & Boleńska",
+    publishedAt: "2026-05-10",
+    readingMinutes: 8,
+    cover: "/blog/jak-sprzedac-mieszkanie-2026.jpg",
+    coverAlt: "Wnętrze mieszkania w Gdyni przygotowane do sprzedaży",
+    keywords: [
+      "sprzedaż mieszkania Gdynia",
+      "jak sprzedać mieszkanie",
+      "wycena mieszkania Trójmiasto",
+      "biuro nieruchomości Gdynia",
+      "rynek wtórny Gdynia 2026",
+    ],
+    content: [
+      {
+        type: "p",
+        text: "Sprzedaż mieszkania w Gdyni w 2026 roku trwa średnio 6–10 tygodni. Czas zależy nie tyle od miasta, co od trzech rzeczy: realnej wyceny, jakości prezentacji oferty i tego, czy ktoś aktywnie szuka kupującego, czy ofertę po prostu „wystawia się i czeka”.",
+      },
+      {
+        type: "p",
+        text: "Ten poradnik to streszczenie tego, co robimy z naszymi klientami przed wystawieniem mieszkania. Możesz wykorzystać go sprzedając sam lub jako checklistę przed wyborem pośrednika.",
+      },
+      { type: "h2", text: "Krok 1: realna wycena, nie życzeniowa", id: "wycena" },
+      {
+        type: "p",
+        text: "Większość ofert które „stoją miesiącami” wisi w portalach z ceną o 8–15% wyższą od rynkowej. To nie jest „przestrzeń do negocjacji” — to filtr, który eliminuje Twoją ofertę z wyników wyszukiwania kupujących.",
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        title: "Zasada 3 cen",
+        text: "Sprawdź ceny ofertowe (Otodom), ceny transakcyjne (raporty NBP/REAS) i porównaj 3 ostatnio sprzedane mieszkania w tym samym budynku lub osiedlu. Realna cena to mediana tej trójki.",
+      },
+      { type: "h2", text: "Krok 2: przygotowanie oferty", id: "przygotowanie" },
+      {
+        type: "p",
+        text: "Mieszkanie ma 4 sekundy żeby zatrzymać uwagę na liście wyników. Te 4 sekundy decydują, czy ktoś kliknie ofertę, czy przewinie dalej.",
+      },
+      { type: "h3", text: "Zdjęcia: 12–20, szerokokątne, przy świetle dziennym", id: "zdjecia" },
+      {
+        type: "ul",
+        items: [
+          "Sprzątanie głębokie — bez detergentów na blacie, bez butów w przedpokoju, bez ubrań na krzesłach.",
+          "Odkurzyć, otworzyć rolety, włączyć światła.",
+          "Telefon nie wystarczy — potrzebny obiektyw szerokokątny (aparat lub szerokokątny obiektyw w telefonie).",
+          "Profesjonalna sesja w Gdyni: 350–500 zł. Inwestycja zwraca się w pierwszym tygodniu publikacji.",
+        ],
+      },
+      { type: "h3", text: "Plan piętra 2D", id: "plan" },
+      {
+        type: "p",
+        text: "Plan w formacie PNG/PDF to standard w 2026 roku. Kupujący chcą wiedzieć układ pomieszczeń przed wizytą. Bez planu Twoja oferta wygląda jak amatorska.",
+      },
+      { type: "h3", text: "Opis: konkret, nie poezja", id: "opis" },
+      {
+        type: "p",
+        text: "Kupujący skanuje opis. Krótkie zdania. Liczby. Kontekst lokalny: ile metrów do morza, do tramwaju, do szkoły. Czego unikać: „przytulne”, „klimatyczne”, „idealne dla młodej rodziny” — to puste hasła które każdy mówi.",
+      },
+      { type: "h2", text: "Krok 3: publikacja i aktywne dotarcie", id: "publikacja" },
+      {
+        type: "p",
+        text: "Otodom + Olx + Morizon + Domiporta to absolutne minimum. Ale samo wystawienie nie wystarczy. Kupujący są zalogowani w bazach pośredników — żeby do nich dotrzeć, trzeba mieć dostęp do tych baz.",
+      },
+      {
+        type: "table",
+        head: ["Kanał", "Czas dotarcia", "Konwersja na pokaz"],
+        rows: [
+          ["Otodom — promowana", "1–3 dni", "5–8%"],
+          ["Baza pośredników", "1–2 dni", "12–18%"],
+          ["Sieć kontaktów / polecenia", "natychmiast", "30–40%"],
+          ["Facebook / Instagram lokalne grupy", "1 dzień", "3–5%"],
+        ],
+      },
+      { type: "h2", text: "Krok 4: pokazy i negocjacje", id: "pokazy" },
+      {
+        type: "p",
+        text: "Średnio na sprzedaż jednego mieszkania w Gdyni potrzeba 8–15 pokazów. Jeśli po 5–6 tygodniach masz mniej niż 5 pokazów, problem nie leży w mieszkaniu — leży w cenie lub prezentacji.",
+      },
+      {
+        type: "callout",
+        tone: "warning",
+        title: "Czerwona flaga",
+        text: "Jeśli pośrednik prosi o wyłączność na 12 miesięcy bez raportów z aktywności, uciekaj. Standardem w 2026 roku jest umowa na 3–6 miesięcy z miesięcznym raportem działań.",
+      },
+      { type: "h2", text: "Krok 5: dokumenty i akt notarialny", id: "dokumenty" },
+      {
+        type: "ol",
+        items: [
+          "Odpis z księgi wieczystej (online, bezpłatnie, https://ekw.ms.gov.pl).",
+          "Zaświadczenie z administracji o niezaleganiu z opłatami.",
+          "Zaświadczenie z urzędu skarbowego (jeśli sprzedajesz przed 5 latami).",
+          "Wypis z rejestru gruntów (dla domu/działki).",
+          "Jeśli kredyt: aktualne saldo do spłaty z banku.",
+        ],
+      },
+      { type: "h2", text: "Najczęstsze błędy sprzedających", id: "bledy" },
+      {
+        type: "ul",
+        items: [
+          "Zaczynanie od zawyżonej ceny „żeby było pole do negocjacji” — efekt: oferta wisi, kupujący myślą że coś jest nie tak.",
+          "Niedostępność na telefon w tygodniu (kupujący dzwonią w godzinach 17–20, nie 9–17).",
+          "Pokazywanie mieszkania nieprzygotowanego (po obiedzie, z rzeczami na stole).",
+          "Brak odpowiedzi na pytania o stan techniczny — kupujący traktują to jak ukrywanie wad.",
+          "Negocjacje przez telefon zamiast spisania kontrofert na papierze.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Ile kosztuje sprzedaż mieszkania przez pośrednika w Gdyni?",
+        a: "Standardowa prowizja w Gdyni w 2026 roku to 2–3% wartości transakcji + VAT. Płaci sprzedający lub kupujący, albo strony dzielą się prowizją. Kwota negocjowalna przy droższych nieruchomościach.",
+      },
+      {
+        q: "Czy muszę płacić podatek od sprzedaży mieszkania?",
+        a: "Jeśli sprzedajesz mieszkanie przed upływem 5 lat od końca roku, w którym je nabyłeś, płacisz 19% podatku od zysku. Możesz uniknąć podatku, jeśli w ciągu 3 lat przeznaczysz przychód na własne cele mieszkaniowe.",
+      },
+      {
+        q: "Jak długo trwa sprzedaż mieszkania w Gdyni?",
+        a: "Średnio 6–10 tygodni od publikacji oferty do podpisania umowy przedwstępnej. Kolejne 4–8 tygodni do aktu notarialnego (jeśli kupujący bierze kredyt).",
+      },
+      {
+        q: "Czy lepiej sprzedać samemu, czy przez pośrednika?",
+        a: "Samodzielnie oszczędzasz na prowizji, ale tracisz dostęp do bazy aktywnych kupujących, weryfikacji najemcy, doświadczenia w negocjacjach i obsłudze dokumentów. Statystycznie mieszkania sprzedawane przez pośredników osiągają o 3–7% wyższą cenę finalną.",
+      },
+    ],
+  },
+  {
+    slug: "rynek-nieruchomosci-trojmiasto-2026",
+    title: "Rynek nieruchomości w Trójmieście w 2026 roku. Co się dzieje z cenami",
+    excerpt:
+      "Analiza cen, popytu i podaży w Gdyni, Sopocie i Gdańsku. Jakie dzielnice rosną, gdzie warto kupować, czego unikać.",
+    keyQuestion: "Co dzieje się z cenami mieszkań w Trójmieście w 2026 roku?",
+    tldr: "Ceny mieszkań w Trójmieście w 2026 roku ustabilizowały się po wzrostach 2022–2024. Gdynia: średnio 12 500 zł/m², Sopot: 18 800 zł/m², Gdańsk: 13 200 zł/m². Popyt utrzymuje się dzięki programom rządowym i napływowi pracowników z innych miast.",
+    category: "Rynek",
+    author: "Zespół Starnawska & Boleńska",
+    publishedAt: "2026-05-05",
+    readingMinutes: 9,
+    cover: "/blog/rynek-trojmiasto-2026.jpg",
+    coverAlt: "Panorama Gdyni i Sopotu — Trójmiasto z lotu ptaka",
+    keywords: [
+      "rynek nieruchomości Trójmiasto",
+      "ceny mieszkań Gdynia 2026",
+      "rynek wtórny Sopot",
+      "inwestycja w nieruchomości Pomorze",
+      "ceny m2 Gdańsk",
+    ],
+    content: [
+      {
+        type: "p",
+        text: "Po dwóch latach gwałtownych wzrostów (2022–2024) rynek nieruchomości w Trójmieście w 2026 roku wszedł w fazę stabilizacji. To nie spadek. To koniec spekulacyjnego pompowania cen — i początek rynku, w którym wygrywa jakość lokalizacji.",
+      },
+      { type: "h2", text: "Średnie ceny ofertowe — maj 2026", id: "ceny" },
+      {
+        type: "table",
+        head: ["Miasto", "Rynek wtórny", "Rynek pierwotny", "Zmiana r/r"],
+        rows: [
+          ["Gdynia", "12 500 zł/m²", "14 200 zł/m²", "+1.2%"],
+          ["Sopot", "18 800 zł/m²", "22 400 zł/m²", "+2.8%"],
+          ["Gdańsk", "13 200 zł/m²", "14 900 zł/m²", "+0.9%"],
+        ],
+      },
+      {
+        type: "p",
+        text: "Dane to mediana ofertowa, nie transakcyjna. Realne ceny transakcyjne są zazwyczaj 4–7% niższe.",
+      },
+      { type: "h2", text: "Dlaczego ceny się ustabilizowały", id: "dlaczego" },
+      {
+        type: "ol",
+        items: [
+          "Stopy procentowe NBP wciąż wysokie (5.75% w maju 2026) — kredyty są drogie, kupujący ostrożniejsi.",
+          "Wzrost podaży: deweloperzy oddali w 2025 w Trójmieście 8 200 mieszkań (+18% r/r).",
+          "Programy rządowe (Bezpieczny Kredyt, BK#) ograniczone — wsparcie tylko dla pierwszego mieszkania do 800 tys.",
+          "Migracja z większych miast utrzymuje popyt na lokalu na czołowym poziomie.",
+        ],
+      },
+      { type: "h2", text: "Które dzielnice rosną najszybciej", id: "dzielnice" },
+      { type: "h3", text: "Gdynia: Mały Kack, Witomino-Leśniczówka, Chwarzno", id: "gdynia" },
+      {
+        type: "p",
+        text: "Mały Kack — nowe inwestycje deweloperskie, droga ekspresowa, blisko do centrum. Witomino-Leśniczówka — zielono, kameralnie, ceny niższe niż w Redłowie. Chwarzno — relatywnie tanio (10 800 zł/m²), nowe inwestycje, problem: korki w godzinach szczytu.",
+      },
+      { type: "h3", text: "Sopot: każda dzielnica trzyma cenę", id: "sopot" },
+      {
+        type: "p",
+        text: "Sopot to jedyne miasto w Polsce z medianą powyżej 18 tys./m² na rynku wtórnym. Dolny Sopot (blisko plaży) — 22–28 tys./m². Górny Sopot — 16–19 tys./m². Brak nowych terenów inwestycyjnych = chroniczna podaż = ceny rosną wolno, ale stabilnie.",
+      },
+      { type: "h3", text: "Gdańsk: Letnica, Wyspa Sobieszewska, Brzeźno", id: "gdansk" },
+      {
+        type: "p",
+        text: "Letnica — wielkie projekty Politechniki, blisko Stadionu, rosnące ceny (+4% r/r). Wyspa Sobieszewska — wciąż relatywnie tanio, ale ograniczona dostępność. Brzeźno — bezpośrednio nad morzem, ceny zbliżają się do Sopotu.",
+      },
+      { type: "h2", text: "Czego unikać", id: "unikac" },
+      {
+        type: "ul",
+        items: [
+          "Ofert z niejasnym stanem prawnym (księga wieczysta z hipoteką nieznanego pochodzenia).",
+          "Mieszkań z roszczeniem reprywatyzacyjnym (sprawdź miejski wykaz).",
+          "Inwestycji deweloperskich z odbiorem 18+ miesięcy bez gwarancji odsetkowych.",
+          "Lokalizacji z planowaną drogą szybkiego ruchu w odległości <500 m (sprawdź plan zagospodarowania).",
+        ],
+      },
+      {
+        type: "callout",
+        tone: "info",
+        title: "Prognoza na drugą połowę 2026",
+        text: "Spodziewamy się obniżki stóp NBP w trzecim kwartale 2026, co uruchomi falę odłożonych decyzji zakupowych. Najlepsze okno do kupna: lipiec–wrzesień 2026, przed kolejną falą popytu.",
+      },
+    ],
+    faq: [
+      {
+        q: "Czy w Trójmieście opłaca się teraz kupować mieszkanie pod inwestycję?",
+        a: "Tak, ale tylko w lokalizacjach z dobrym dostępem do komunikacji (kolejka SKM, tramwaj) i niskim ryzykiem prawnym. Rentowność najmu długoterminowego w Gdyni i Gdańsku to 4.5–6% rocznie netto, w Sopocie 3–4.5% z większą zmiennością sezonową.",
+      },
+      {
+        q: "Gdzie kupić mieszkanie do 600 tys. w Trójmieście w 2026 roku?",
+        a: "Za 600 tys. realnie dostępne są: dwupokojowe (40–55 m²) na Chwarznie, Witominie-Radiostacja, Karwinach w Gdyni; podobne w Gdańsku na Oliwie, Letnicy, Stogach. W Sopocie za tę kwotę kupisz kawalerkę 25–30 m² w Górnym Sopocie.",
+      },
+      {
+        q: "Czy ceny mieszkań w Trójmieście spadną w 2026 roku?",
+        a: "Nie spodziewamy się znaczących spadków. Rynek wszedł w fazę stabilizacji, nie korekty. Lokalny popyt utrzymuje się dzięki migracji wewnętrznej i ograniczonej podaży. Możliwa korekta dotyczy najgorszych ofert (mieszkania w stanie wymagającym remontu w słabych lokalizacjach).",
+      },
+    ],
+  },
+  {
+    slug: "koszty-zakupu-mieszkania-co-musisz-zaplacic",
+    title: "Ile kosztuje zakup mieszkania poza ceną? Pełna lista opłat",
+    excerpt:
+      "PCC, notariusz, księga wieczysta, prowizja, kredyt, wkład własny. Wszystkie koszty przy zakupie mieszkania w Polsce 2026, z konkretnymi kwotami.",
+    keyQuestion: "Jakie są koszty zakupu mieszkania w Polsce w 2026 roku?",
+    tldr: "Poza ceną mieszkania w Polsce w 2026 roku zapłacisz dodatkowo 2–6% wartości na opłaty: PCC (rynek wtórny 2%), notariusz (0.5–1.5%), prowizja pośrednika (0–3%), wpis do księgi wieczystej (200 zł). Przy kredycie dochodzi prowizja banku (0.5–2%) i ubezpieczenia.",
+    category: "Doradztwo",
+    author: "Zespół Starnawska & Boleńska",
+    publishedAt: "2026-04-28",
+    readingMinutes: 7,
+    cover: "/blog/koszty-zakupu-mieszkania.jpg",
+    coverAlt: "Kalkulacja kosztów zakupu mieszkania",
+    keywords: [
+      "koszty zakupu mieszkania",
+      "PCC mieszkanie",
+      "opłata notarialna mieszkanie",
+      "prowizja pośrednika",
+      "kredyt hipoteczny koszty 2026",
+    ],
+    content: [
+      {
+        type: "p",
+        text: "Cena ofertowa na Otodomie to nie cała kwota, którą zapłacisz. W 2026 roku w Polsce dodatkowe koszty zakupu mieszkania to przeciętnie 2–6% wartości nieruchomości. Dla mieszkania za 700 tys. to 14–42 tys. zł, których ludzie nie wliczają do budżetu.",
+      },
+      { type: "h2", text: "Koszty obowiązkowe (każdy zakup)", id: "obowiazkowe" },
+      { type: "h3", text: "PCC — podatek od czynności cywilnoprawnych", id: "pcc" },
+      {
+        type: "p",
+        text: "Rynek wtórny: 2% wartości mieszkania, płacisz Ty (kupujący). Rynek pierwotny od dewelopera: PCC nie obowiązuje, ale w cenie jest VAT 8% (zazwyczaj wliczony).",
+      },
+      {
+        type: "callout",
+        tone: "tip",
+        title: "Zwolnienie z PCC",
+        text: "Od 31.08.2023 osoby kupujące pierwsze mieszkanie (do 35 lat, do określonego limitu cenowego) są zwolnione z PCC. Sprawdź aktualny status u notariusza przed transakcją.",
+      },
+      { type: "h3", text: "Notariusz — taksa notarialna", id: "notariusz" },
+      {
+        type: "p",
+        text: "Stawka maksymalna zależy od wartości transakcji. Dla mieszkania 700 tys. zł: 3 770 zł netto (4 638 zł brutto z VAT). Notariusze często negocjują — można zejść do 60–80% stawki maksymalnej. Płaci kupujący lub strony dzielą się po połowie.",
+      },
+      { type: "h3", text: "Wpisy do księgi wieczystej", id: "kw" },
+      {
+        type: "p",
+        text: "Wpis własności do KW: 200 zł. Wpis hipoteki (jeśli kredyt): 200 zł. Wniosek o założenie KW (dla nowej nieruchomości): 100 zł. Łącznie zazwyczaj 200–600 zł.",
+      },
+      { type: "h2", text: "Koszty zależne od formy zakupu", id: "zaleznie" },
+      { type: "h3", text: "Prowizja pośrednika nieruchomości", id: "prowizja" },
+      {
+        type: "p",
+        text: "W Trójmieście 2–3% wartości + VAT. Płaci kupujący, sprzedający, albo strony dzielą się po połowie — zależy od umowy z biurem. Przy zakupie bezpośrednio od dewelopera prowizja zazwyczaj nie obowiązuje.",
+      },
+      { type: "h3", text: "Koszty kredytu hipotecznego", id: "kredyt" },
+      {
+        type: "ul",
+        items: [
+          "Prowizja banku za udzielenie kredytu: 0–2% kwoty kredytu.",
+          "Wycena nieruchomości przez rzeczoznawcę banku: 400–800 zł.",
+          "Ubezpieczenie pomostowe (do czasu wpisu hipoteki): zazwyczaj 0.05–0.15% miesięcznie kwoty kredytu.",
+          "Ubezpieczenie na życie (wymagane przez bank): 30–80 zł/m-c.",
+          "Ubezpieczenie nieruchomości od ognia i innych zdarzeń: 200–500 zł rocznie.",
+        ],
+      },
+      {
+        type: "callout",
+        tone: "warning",
+        title: "Wkład własny",
+        text: "Standardowy wkład własny w 2026 to 20% wartości nieruchomości. Niektóre banki dopuszczają 10–15% z dodatkowym ubezpieczeniem niskiego wkładu (0.5–1.5% kwoty kredytu). To kolejny koszt który trzeba uwzględnić.",
+      },
+      { type: "h2", text: "Konkretny przykład: mieszkanie 700 tys. na rynku wtórnym", id: "przyklad" },
+      {
+        type: "table",
+        head: ["Pozycja", "Kwota"],
+        rows: [
+          ["Cena mieszkania", "700 000 zł"],
+          ["PCC 2%", "14 000 zł"],
+          ["Notariusz (taksa + VAT)", "4 638 zł"],
+          ["Wpisy do KW (własność + hipoteka)", "400 zł"],
+          ["Prowizja biura (1.5% + VAT)", "12 915 zł"],
+          ["Wycena banku", "600 zł"],
+          ["Prowizja bankowa (1%)", "5 600 zł (od kwoty kredytu)"],
+          ["Ubezpieczenia (pierwszy rok)", "1 200 zł"],
+          ["RAZEM dodatkowe koszty", "~39 350 zł (5.6%)"],
+        ],
+      },
+      { type: "h2", text: "Jak zaoszczędzić", id: "oszczednosc" },
+      {
+        type: "ol",
+        items: [
+          "Negocjuj taksę notarialną — często da się obniżyć o 20–30%.",
+          "Porównaj 3 banki przed wzięciem kredytu (różnica w marży = tysiące złotych w skali kredytu).",
+          "Zapytaj sprzedającego o przejęcie kosztów notariusza (czasem zgodzi się przy szybkiej transakcji).",
+          "Sprawdź zwolnienie z PCC dla pierwszego mieszkania (nawet 14 tys. oszczędności).",
+          "Rezygnuj z pośrednika kredytowego, jeśli sam masz dobrą historię w 1 banku — pośrednik nie zawsze załatwia lepsze warunki.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "Czy mogę odliczyć koszty zakupu mieszkania od podatku?",
+        a: "Nie. Koszty zakupu (PCC, notariusz, prowizje) nie są odliczalne od podatku PIT. Wyjątek: jeśli mieszkanie przeznaczasz na wynajem, koszty te możesz wliczyć w koszty uzyskania przychodu z najmu (przy rozliczeniu na zasadach ogólnych, nie ryczałtem).",
+      },
+      {
+        q: "Kiedy się płaci PCC?",
+        a: "PCC płacisz notariuszowi w dniu podpisania aktu notarialnego. Notariusz przekazuje podatek do urzędu skarbowego w Twoim imieniu. Nie musisz nic składać sam.",
+      },
+      {
+        q: "Czy mogę zapłacić wszystko kartą lub przelewem natychmiastowym?",
+        a: "Tak. Wszystkie opłaty (PCC, taksa, KW) można rozliczyć przelewem. W dniu aktu notarialnego notariusz prosi o przelew na konto kancelarii — najczęściej w trakcie wizyty, BLIK lub przelew natychmiastowy. Sama cena mieszkania trafia do sprzedającego oddzielnie.",
+      },
+    ],
+  },
+];
+
+export function getPostBySlug(slug: string): Post | undefined {
+  return posts.find((p) => p.slug === slug);
+}
+
+export function getAllPosts(): Post[] {
+  return [...posts].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
+}
