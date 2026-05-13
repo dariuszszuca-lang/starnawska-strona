@@ -38,25 +38,36 @@ export async function GET(req: Request) {
     });
     const parsed = xml.parse(xmlText);
 
-    // Znajdź root tablicy ofert
-    const rootKey = Object.keys(parsed)[0];
-    const root = parsed[rootKey];
-    const offersKey = root ? Object.keys(root)[0] : null;
-    const items = offersKey ? root[offersKey] : null;
-    const list = Array.isArray(items) ? items : items ? [items] : [];
+    // Znajdź `offers` lub podobne na top level
+    const root = parsed.offers ?? parsed.oferty ?? parsed;
+    const rootKeys = root && typeof root === "object" ? Object.keys(root) : [];
+
+    // Pierwszy klucz który ma tablicę
+    let offerArray: unknown[] = [];
+    let offerKey = "";
+    for (const k of rootKeys) {
+      const v = (root as Record<string, unknown>)[k];
+      if (Array.isArray(v)) {
+        offerArray = v;
+        offerKey = k;
+        break;
+      }
+    }
 
     return NextResponse.json({
       ok: true,
       package: pkg.name,
-      structure: {
-        rootKey,
-        offersKey,
-        totalOffers: list.length,
-      },
-      xmlTopLevelKeys: Object.keys(parsed),
-      firstOfferKeys: list[0] ? Object.keys(list[0]) : [],
-      firstOffer: list[0] ?? null,
-      secondOffer: list[1] ?? null,
+      xmlSize: xmlText.length,
+      xmlSample: xmlText.slice(0, 2000),
+      topLevelKeys: Object.keys(parsed),
+      offersWrapper: parsed.offers ? "offers" : parsed.oferty ? "oferty" : "none",
+      offersWrapperKeys: rootKeys,
+      offerArrayKey: offerKey,
+      offerArrayLength: offerArray.length,
+      firstOfferKeys: offerArray[0] && typeof offerArray[0] === "object"
+        ? Object.keys(offerArray[0])
+        : [],
+      firstOffer: offerArray[0] ?? null,
     });
   } catch (err) {
     return NextResponse.json({
