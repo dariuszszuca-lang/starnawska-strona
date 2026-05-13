@@ -9,6 +9,7 @@ import { Portals } from "@/components/sections/portals";
 import { TeamPreview } from "@/components/sections/team-preview";
 import { Testimonials } from "@/components/sections/testimonials";
 import { FAQ } from "@/components/sections/faq";
+import { ConsultationBox } from "@/components/sections/consultation-box";
 import { CTA } from "@/components/sections/cta";
 import { Reveal } from "@/components/motion/reveal";
 
@@ -45,6 +46,9 @@ export default function HomePage() {
       </Reveal>
       <Reveal>
         <FAQ />
+      </Reveal>
+      <Reveal>
+        <ConsultationBox />
       </Reveal>
       <Reveal>
         <CTA />
