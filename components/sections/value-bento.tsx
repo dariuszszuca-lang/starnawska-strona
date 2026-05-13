@@ -76,11 +76,14 @@ export function ValueBento() {
             title="Tylko Trójmiasto"
             body="Znamy każdą dzielnicę Gdyni, Sopotu i Gdańska. Nie sprzedajemy w ciemno."
             extra={
-              <div className="mt-auto grid grid-cols-3 gap-3 pt-6 border-t border-border-on-dark">
-                <Stat value={3} label="miasta" />
-                <Stat value={73} label="dzielnic" />
-                <Stat value={15} label="lat" />
-              </div>
+              <>
+                <CitiesMap />
+                <div className="mt-auto grid grid-cols-3 gap-3 pt-6 border-t border-border-on-dark">
+                  <Stat value={3} label="miasta" />
+                  <Stat value={73} label="dzielnic" />
+                  <Stat value={15} label="lat" />
+                </div>
+              </>
             }
           />
 
@@ -155,6 +158,145 @@ export function ValueBento() {
         </div>
       </Container>
     </section>
+  );
+}
+
+/* ============================================
+   CitiesMap — mini-mapa Trójmiasta z pulsującymi punktami
+   ============================================ */
+function CitiesMap() {
+  // Pozycje w viewBox 400x180 — Gdańsk po prawej, Sopot środek, Gdynia lewa-góra
+  const cities = [
+    { name: "Gdynia", x: 95, y: 55, count: "32 dzielnice" },
+    { name: "Sopot", x: 200, y: 100, count: "12 osiedli" },
+    { name: "Gdańsk", x: 320, y: 130, count: "29 dzielnic" },
+  ];
+
+  return (
+    <div className="my-6 flex-1 flex items-center justify-center">
+      <svg
+        viewBox="0 0 400 180"
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-full h-full max-h-[220px]"
+        aria-label="Mapa Trójmiasta — Gdynia, Sopot, Gdańsk"
+        role="img"
+      >
+        {/* Subtelne tło: kontur zatoki */}
+        <motion.path
+          d="M 30 130 Q 120 80 200 90 T 380 60"
+          stroke="rgba(163,199,51,0.25)"
+          strokeWidth="1"
+          strokeDasharray="4 4"
+          fill="none"
+          initial={{ pathLength: 0 }}
+          whileInView={{ pathLength: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.6, ease: [0.16, 1, 0.3, 1] }}
+        />
+
+        {/* Linia łącząca miasta — animowana */}
+        <motion.line
+          x1={cities[0].x}
+          y1={cities[0].y}
+          x2={cities[1].x}
+          y2={cities[1].y}
+          stroke="#a3c733"
+          strokeWidth="1.5"
+          strokeDasharray="3 3"
+          initial={{ pathLength: 0, opacity: 0 }}
+          whileInView={{ pathLength: 1, opacity: 0.7 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
+        />
+        <motion.line
+          x1={cities[1].x}
+          y1={cities[1].y}
+          x2={cities[2].x}
+          y2={cities[2].y}
+          stroke="#a3c733"
+          strokeWidth="1.5"
+          strokeDasharray="3 3"
+          initial={{ pathLength: 0, opacity: 0 }}
+          whileInView={{ pathLength: 1, opacity: 0.7 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, delay: 1.1, ease: "easeOut" }}
+        />
+
+        {/* Miasta */}
+        {cities.map((c, i) => (
+          <g key={c.name}>
+            {/* Pulse ring */}
+            <motion.circle
+              cx={c.x}
+              cy={c.y}
+              r="6"
+              fill="#a3c733"
+              opacity="0.4"
+              animate={{
+                r: [6, 18, 6],
+                opacity: [0.4, 0, 0.4],
+              }}
+              transition={{
+                duration: 2.4,
+                delay: 0.8 + i * 0.4,
+                repeat: Infinity,
+                ease: "easeOut",
+              }}
+            />
+            {/* Centralny dot */}
+            <motion.circle
+              cx={c.x}
+              cy={c.y}
+              r="5"
+              fill="#a3c733"
+              stroke="#0a0a0a"
+              strokeWidth="2"
+              initial={{ scale: 0 }}
+              whileInView={{ scale: 1 }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 0.4,
+                delay: 0.4 + i * 0.25,
+                type: "spring",
+                stiffness: 300,
+              }}
+              style={{ transformOrigin: `${c.x}px ${c.y}px` }}
+            />
+            {/* Label miasta */}
+            <motion.text
+              x={c.x}
+              y={c.y - 14}
+              textAnchor="middle"
+              fontFamily="system-ui, sans-serif"
+              fontSize="11"
+              fontWeight="700"
+              fill="#fafaf7"
+              initial={{ opacity: 0, y: c.y - 8 }}
+              whileInView={{ opacity: 1, y: c.y - 14 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.5 + i * 0.25 }}
+            >
+              {c.name}
+            </motion.text>
+            {/* Sublabel */}
+            <motion.text
+              x={c.x}
+              y={c.y + 22}
+              textAnchor="middle"
+              fontFamily="system-ui, sans-serif"
+              fontSize="9"
+              fill="rgba(163,199,51,0.7)"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.7 + i * 0.25 }}
+            >
+              {c.count}
+            </motion.text>
+          </g>
+        ))}
+      </svg>
+    </div>
   );
 }
 
