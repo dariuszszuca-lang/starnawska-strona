@@ -3,7 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { ArrowUpRight, Phone } from "lucide-react";
 import { Container } from "@/components/ui/container";
-import { getAllMembersSorted, getOwners, getAgents } from "@/lib/team";
+import { getAllMembersSorted } from "@/lib/team";
 
 export const metadata: Metadata = {
   title: "Nasz zespół — agentki nieruchomości w Gdyni",
@@ -12,8 +12,6 @@ export const metadata: Metadata = {
 };
 
 export default function TeamPage() {
-  const owners = getOwners();
-  const agents = getAgents();
   const all = getAllMembersSorted();
 
   return (
@@ -39,28 +37,11 @@ export default function TeamPage() {
         </Container>
       </section>
 
-      {/* Właścicielki */}
-      <section className="py-12">
+      {/* Cały zespół — jeden grid */}
+      <section className="py-12 pb-24">
         <Container size="wide">
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-6">
-            Założycielki
-          </h2>
-          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
-            {owners.map((m) => (
-              <TeamCard key={m.slug} member={m} large />
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      {/* Pośredniczki */}
-      <section className="py-12">
-        <Container size="wide">
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-6">
-            Pośredniczki nieruchomości
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {agents.map((m) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {all.map((m) => (
               <TeamCard key={m.slug} member={m} />
             ))}
           </div>
@@ -72,41 +53,41 @@ export default function TeamPage() {
 
 function TeamCard({
   member,
-  large = false,
 }: {
   member: ReturnType<typeof getAllMembersSorted>[number];
-  large?: boolean;
 }) {
   return (
     <Link
       href={`/zespol/${member.slug}`}
-      className="group block rounded-3xl overflow-hidden bg-surface border border-border hover:border-brand-forest hover:shadow-[var(--shadow-card)] hover:-translate-y-0.5 transition-all"
+      className="group block rounded-3xl overflow-hidden bg-surface border border-border hover:border-brand-forest hover:shadow-[var(--shadow-card)] hover:-translate-y-1 transition-all"
     >
-      <div className={`relative ${large ? "aspect-[4/3]" : "aspect-[3/4]"} bg-gray-100 overflow-hidden`}>
+      <div className="relative aspect-[3/4] bg-gray-100 overflow-hidden">
         <Image
           src={member.photo}
-          alt={`${member.fullName}, ${member.role.toLowerCase()}`}
+          alt={member.fullName}
           fill
-          sizes={large ? "(min-width: 768px) 50vw, 100vw" : "(min-width: 1024px) 33vw, 50vw"}
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          sizes="(min-width: 1024px) 33vw, 50vw"
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
         />
-        {member.isOwner && (
-          <span className="absolute top-4 left-4 inline-flex items-center px-3 py-1 rounded-full bg-brand-lime text-[10px] font-semibold uppercase tracking-wider text-brand-forest-deep">
-            Współwłaścicielka
-          </span>
-        )}
+        {/* Hover arrow */}
+        <div className="absolute top-4 right-4 size-10 rounded-full bg-brand-lime flex items-center justify-center opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+          <ArrowUpRight className="size-4 text-brand-forest-deep" />
+        </div>
       </div>
       <div className="p-6 lg:p-7">
-        <h3 className="font-bold tracking-tight text-2xl leading-tight tracking-tight text-foreground mb-1">
+        <h3 className="font-bold tracking-tight text-2xl leading-tight text-foreground mb-4">
           {member.fullName}
         </h3>
-        <p className="text-sm text-foreground-muted mb-4">{member.role}</p>
         {member.phoneDisplay && (
-          <div className="flex items-center justify-between gap-3">
-            <span className="inline-flex items-center gap-2 text-sm text-foreground-muted">
+          <div className="flex items-center justify-between gap-3 pt-4 border-t border-border">
+            <a
+              href={member.phone ? `tel:${member.phone.replace(/\s/g, "")}` : undefined}
+              onClick={(e) => e.stopPropagation()}
+              className="inline-flex items-center gap-2 text-sm font-medium text-foreground hover:text-brand-forest transition-colors tabular-nums"
+            >
               <Phone className="size-3.5 text-brand-olive" />
               {member.phoneDisplay}
-            </span>
+            </a>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-brand-forest group-hover:gap-2 transition-all">
               Wizytówka
               <ArrowUpRight className="size-4" />

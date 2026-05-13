@@ -68,16 +68,7 @@ export default async function AgentPage({ params }: { params: Params }) {
 
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
             <div className="lg:col-span-7 order-2 lg:order-1 space-y-8">
-              {member.isOwner && (
-                <span className="inline-flex items-center px-3 py-1 rounded-full bg-brand-lime text-[11px] font-semibold uppercase tracking-wider text-brand-forest-deep">
-                  Współwłaścicielka
-                </span>
-              )}
-
               <div>
-                <p className="text-sm uppercase tracking-wider text-brand-lime mb-3 font-medium">
-                  {member.role}
-                </p>
                 <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] tracking-tight">
                   {member.firstName}
                   <br />
@@ -277,9 +268,6 @@ export default async function AgentPage({ params }: { params: Params }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-foreground-on-dark">
-                  <p className="text-xs uppercase tracking-wider text-brand-lime mb-1">
-                    {m.shortRole ?? "Pośredniczka"}
-                  </p>
                   <p className="font-bold tracking-tight text-lg leading-tight">{m.fullName}</p>
                 </div>
               </Link>

@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { motion } from "framer-motion";
+import { ArrowUpRight, Phone } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { getAllMembersSorted } from "@/lib/team";
@@ -34,46 +37,58 @@ export function TeamPreview() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
-          {team.slice(0, 8).map((m) => (
-            <Link
+          {team.slice(0, 8).map((m, i) => (
+            <motion.div
               key={m.slug}
-              href={`/zespol/${m.slug}`}
-              className="group relative aspect-[3/4] rounded-3xl overflow-hidden bg-gray-100"
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{
+                duration: 0.5,
+                delay: i * 0.05,
+                ease: [0.16, 1, 0.3, 1],
+              }}
             >
-              <Image
-                src={m.photo}
-                alt={`${m.fullName}, ${m.role.toLowerCase()}`}
-                fill
-                sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+              <Link
+                href={`/zespol/${m.slug}`}
+                className="group block relative aspect-[3/4] rounded-3xl overflow-hidden bg-gray-100"
+              >
+                <Image
+                  src={m.photo}
+                  alt={m.fullName}
+                  fill
+                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                />
 
-              {/* Owner badge */}
-              {m.isOwner && (
-                <span className="absolute top-3 left-3 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-brand-lime/95 backdrop-blur text-[10px] font-semibold uppercase tracking-wider text-brand-forest-deep">
-                  Właścicielka
-                </span>
-              )}
+                {/* Gradient overlay - mocniejszy na dole */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/30 to-transparent" />
 
-              {/* Hover arrow */}
-              <div className="absolute top-3 right-3 size-9 rounded-full bg-white/95 backdrop-blur flex items-center justify-center opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                <ArrowUpRight className="size-4 text-foreground" />
-              </div>
+                {/* Hover arrow */}
+                <div className="absolute top-3 right-3 size-9 rounded-full bg-brand-lime backdrop-blur flex items-center justify-center opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                  <ArrowUpRight className="size-4 text-brand-forest-deep" />
+                </div>
 
-              {/* Bottom info */}
-              <div className="absolute bottom-0 left-0 right-0 p-5 text-foreground-on-dark">
-                <p className="text-xs uppercase tracking-wider text-brand-lime mb-1.5 font-medium">
-                  {m.shortRole ?? m.role.split(",")[0]}
-                </p>
-                <h3 className="font-bold tracking-tight text-xl leading-tight tracking-tight">
-                  {m.firstName}
-                  <br />
-                  {m.lastName}
-                </h3>
-              </div>
-            </Link>
+                {/* Hover phone — subtelny */}
+                {m.phoneDisplay && (
+                  <div className="absolute top-3 left-3 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/95 backdrop-blur text-[10px] font-semibold text-brand-forest-deep opacity-0 group-hover:opacity-100 transition-all tabular-nums">
+                    <Phone className="size-3 text-brand-olive" />
+                    {m.phoneDisplay}
+                  </div>
+                )}
+
+                {/* Bottom: tylko imię i nazwisko */}
+                <div className="absolute bottom-0 left-0 right-0 p-5 text-foreground-on-dark">
+                  <h3 className="font-bold tracking-tight text-xl leading-tight transition-transform group-hover:-translate-y-0.5">
+                    {m.firstName}
+                    <br />
+                    {m.lastName}
+                  </h3>
+                  {/* Animowany underline */}
+                  <span className="block mt-2 h-px bg-brand-lime w-0 group-hover:w-12 transition-all duration-500" />
+                </div>
+              </Link>
+            </motion.div>
           ))}
         </div>
       </Container>
