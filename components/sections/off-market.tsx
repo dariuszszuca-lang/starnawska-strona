@@ -15,7 +15,7 @@ const cards = [
 
 export function OffMarket() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-16 lg:py-20">
       <Container size="wide">
         <div className="relative overflow-hidden rounded-[40px] bg-surface-dark text-foreground-on-dark grain">
           <div
@@ -27,8 +27,8 @@ export function OffMarket() {
             className="absolute -bottom-32 -left-32 size-[400px] rounded-full bg-brand-lime/8 blur-3xl"
           />
 
-          <div className="relative grid lg:grid-cols-12 gap-10 lg:gap-16 items-center p-10 lg:p-16">
-            <div className="lg:col-span-7 space-y-6">
+          <div className="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center p-8 lg:p-12">
+            <div className="lg:col-span-7 space-y-5">
               {/* NSL Badge */}
               <div className="inline-flex items-center gap-3 px-4 py-2.5 rounded-2xl bg-white/[0.06] border border-border-on-dark backdrop-blur">
                 <div className="bg-white rounded-lg p-1.5 flex items-center">
@@ -50,20 +50,19 @@ export function OffMarket() {
                 </div>
               </div>
 
-              <h2 className="font-bold tracking-tight text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05]">
-                Nieruchomości, których
-                <br />
-                nigdzie <span className="text-gradient-lime">nie wystawiamy.</span>
+              <h2 className="font-bold tracking-tight text-[clamp(1.75rem,3.5vw,2.5rem)] leading-[1.1]">
+                Nieruchomości, których nigdzie{" "}
+                <span className="text-gradient-lime">nie wystawiamy.</span>
               </h2>
 
-              <p className="text-lg text-foreground-on-dark-muted leading-relaxed max-w-xl">
+              <p className="text-base text-foreground-on-dark-muted leading-relaxed max-w-xl">
                 Część naszych ofert nie trafia do portali ani na stronę. Powody są
                 różne. Czasem sprzedający nie chce, żeby sąsiedzi wiedzieli. Czasem
                 nieruchomość jest tak dobra, że nie musimy. Dostęp tylko po
                 rozmowie z agentką.
               </p>
 
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 {[
                   "Mieszkania z najlepszych adresów w Sopocie i Gdyni Orłowie",
                   "Domy z prywatnym ogrodem, blisko morza",
@@ -72,7 +71,7 @@ export function OffMarket() {
                 ].map((item) => (
                   <li
                     key={item}
-                    className="flex items-start gap-3 text-foreground-on-dark"
+                    className="flex items-start gap-3 text-sm text-foreground-on-dark"
                   >
                     <span className="mt-2 size-1.5 rounded-full bg-brand-lime shrink-0" />
                     <span>{item}</span>
