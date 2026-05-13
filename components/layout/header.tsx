@@ -37,7 +37,7 @@ export function Header() {
   }, [pathname]);
 
   return (
-    <header className="relative z-50 w-full">
+    <header className="absolute top-0 left-0 right-0 z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">
         <div className="flex items-center justify-center gap-3 lg:gap-4">
           {/* JEDEN pill: logo + menu + tel */}
@@ -205,11 +205,11 @@ function MagicNav({
         ref={ulRef}
         className="relative flex items-center gap-0.5"
       >
-        {/* Animowany highlight pod items */}
+        {/* Animowany highlight pod items — lime */}
         <motion.span
           animate={underline}
           transition={{ type: "spring", stiffness: 400, damping: 34, mass: 0.55 }}
-          className="absolute top-0 bottom-0 rounded-xl bg-foreground pointer-events-none"
+          className="absolute top-0 bottom-0 rounded-xl bg-brand-lime shadow-[0_4px_18px_rgba(163,199,51,0.35)] pointer-events-none"
           style={{ left: 0, width: 0 }}
           aria-hidden
         />
@@ -281,7 +281,7 @@ function NavTab({
         href={item.href}
         className={cn(
           "relative z-10 inline-flex items-center gap-1 px-4 py-2 text-sm font-semibold transition-colors duration-200",
-          active || hovered ? "text-background" : "text-foreground"
+          active || hovered ? "text-brand-forest-deep" : "text-foreground"
         )}
       >
         {item.label}
@@ -304,12 +304,7 @@ function NavTab({
                   href="/zespol"
                   className="flex items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-surface-dark text-foreground-on-dark mb-2 group/all"
                 >
-                  <div>
-                    <span className="block font-semibold text-sm">Cały zespół</span>
-                    <span className="block text-xs text-foreground-on-dark-muted">
-                      Poznaj wszystkie {team.length} agentki
-                    </span>
-                  </div>
+                  <span className="font-semibold text-sm">Poznaj wszystkie agentki</span>
                   <ArrowUpRight className="size-4 text-brand-lime group-hover/all:rotate-12 transition-transform" />
                 </Link>
                 <div className="grid grid-cols-1 gap-0.5 max-h-[55vh] overflow-y-auto">
@@ -323,15 +318,8 @@ function NavTab({
                         {m.firstName[0]}
                         {m.lastName[0]}
                       </span>
-                      <span className="flex-1 min-w-0">
-                        <span className="block font-medium text-foreground truncate text-sm">
-                          {m.fullName}
-                        </span>
-                        {m.shortRole && (
-                          <span className="block text-[11px] text-foreground-muted truncate">
-                            {m.shortRole}
-                          </span>
-                        )}
+                      <span className="flex-1 min-w-0 font-medium text-foreground truncate text-sm">
+                        {m.fullName}
                       </span>
                       <ArrowUpRight className="size-3.5 text-foreground-subtle opacity-0 group-hover/item:opacity-100 transition-opacity" />
                     </Link>

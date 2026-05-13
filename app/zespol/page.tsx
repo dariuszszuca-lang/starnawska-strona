@@ -19,7 +19,7 @@ export default function TeamPage() {
   return (
     <>
       {/* Hero strony */}
-      <section className="pt-12 lg:pt-20 pb-12">
+      <section className="pt-32 lg:pt-36 pb-12">
         <Container size="wide">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">

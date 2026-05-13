@@ -14,7 +14,7 @@ export function LegalPage({
 }) {
   return (
     <>
-      <section className="pt-12 lg:pt-20 pb-8">
+      <section className="pt-32 lg:pt-36 pb-8">
         <Container size="default">
           <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
             Dokumenty

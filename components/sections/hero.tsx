@@ -20,7 +20,7 @@ export function Hero() {
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-brand-lime/5 blur-[120px]"
       />
 
-      <Container size="wide" className="relative pt-12 lg:pt-16 pb-20 lg:pb-28">
+      <Container size="wide" className="relative pt-32 lg:pt-36 pb-20 lg:pb-28">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-7 space-y-8">
             <motion.div

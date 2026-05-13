@@ -11,7 +11,7 @@ const buttonVariants = cva(
         primary:
           "bg-foreground text-background hover:bg-gray-800 active:scale-[0.98]",
         lime:
-          "bg-brand-lime text-brand-forest-deep hover:bg-brand-lime-hover hover:shadow-[var(--shadow-lime)] active:scale-[0.98] font-semibold",
+          "bg-brand-lime text-brand-forest-deep hover:bg-brand-lime-hover hover:shadow-[0_0_0_4px_rgba(163,199,51,0.18),0_12px_40px_rgba(163,199,51,0.45)] hover:-translate-y-0.5 active:scale-[0.98] font-semibold",
         forest:
           "bg-brand-forest text-foreground-on-dark hover:bg-brand-forest-deep active:scale-[0.98]",
         outline:

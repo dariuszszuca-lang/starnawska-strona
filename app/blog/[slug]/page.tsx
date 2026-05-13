@@ -102,7 +102,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
       <article>
         {/* Hero */}
-        <header className="pt-12 lg:pt-20 pb-12">
+        <header className="pt-32 lg:pt-36 pb-12">
           <Container size="default">
             <Link
               href="/blog"

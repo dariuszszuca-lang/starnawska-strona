@@ -23,7 +23,7 @@ export default async function KonsultacjaPage({
 
   return (
     <>
-      <section className="pt-12 lg:pt-20 pb-8">
+      <section className="pt-32 lg:pt-36 pb-8">
         <Container size="wide">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
