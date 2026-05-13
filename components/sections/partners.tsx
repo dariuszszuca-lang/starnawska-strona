@@ -28,20 +28,21 @@ export function Partners() {
     <section className="py-12 lg:py-16 border-y border-border bg-surface">
       <Container size="wide">
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-5">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-3">
               <ShieldCheck className="size-3.5" />
               Standardy branżowe
             </div>
-            <h2 className="font-bold tracking-tight text-2xl lg:text-3xl leading-[1.15] text-foreground mb-3">
-              Członkowie stowarzyszeń. Praca pod kodeksem etyki.
+            <h2 className="font-bold tracking-tight text-xl lg:text-2xl leading-[1.2] text-foreground mb-3">
+              Pracujemy zgodnie ze standardami stowarzyszeń branżowych.
             </h2>
             <p className="text-sm text-foreground-muted leading-relaxed">
-              Każda transakcja jest zabezpieczona ubezpieczeniem OC zawodowym.
+              Członkostwo zobowiązuje. Każda umowa podlega kodeksowi etyki PFRN i SPPON,
+              każda transakcja jest zabezpieczona ubezpieczeniem OC zawodowym.
             </p>
           </div>
 
-          <div className="lg:col-span-8">
+          <div className="lg:col-span-7">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-5">
               {partners.map((p) => (
                 <div
