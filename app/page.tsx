@@ -8,20 +8,39 @@ import { TeamPreview } from "@/components/sections/team-preview";
 import { Testimonials } from "@/components/sections/testimonials";
 import { FAQ } from "@/components/sections/faq";
 import { CTA } from "@/components/sections/cta";
+import { Reveal } from "@/components/motion/reveal";
 
 export default function HomePage() {
   return (
     <>
+      {/* Hero ma własną animację — bez Reveal */}
       <Hero />
       <QuickSearch />
-      <Partners />
-      <ValueBento />
-      <Services />
-      <OffMarket />
-      <TeamPreview />
-      <Testimonials />
-      <FAQ />
-      <CTA />
+
+      <Reveal>
+        <Partners />
+      </Reveal>
+      <Reveal>
+        <ValueBento />
+      </Reveal>
+      <Reveal>
+        <Services />
+      </Reveal>
+      <Reveal>
+        <OffMarket />
+      </Reveal>
+      <Reveal>
+        <TeamPreview />
+      </Reveal>
+      <Reveal>
+        <Testimonials />
+      </Reveal>
+      <Reveal>
+        <FAQ />
+      </Reveal>
+      <Reveal>
+        <CTA />
+      </Reveal>
     </>
   );
 }

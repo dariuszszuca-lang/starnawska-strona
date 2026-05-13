@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { RodoBanner } from "@/components/rodo-banner";
+import { PageTransition } from "@/components/motion/page-transition";
 import { RealEstateAgentSchema } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site";
 
@@ -90,7 +91,7 @@ export default function RootLayout({
         <RealEstateAgentSchema />
         <Header />
         <main id="main-content" className="flex-1">
-          {children}
+          <PageTransition>{children}</PageTransition>
         </main>
         <Footer />
         <RodoBanner />
