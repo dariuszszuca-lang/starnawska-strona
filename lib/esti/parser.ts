@@ -1,42 +1,36 @@
 import { XMLParser } from "fast-xml-parser";
 import AdmZip from "adm-zip";
+import { put } from "@vercel/blob";
 import type { Offer, OfferType, OfferTransaction, OfferMarket, OfferImage } from "./types";
 
 /**
- * Parser EstiCRMXml — format natywny ESTI.
- * Pełna spec: https://przetestuj.esticrm.pl/help/esticrmxml
+ * Parser EstiCRMXml — format natywny ESTI (wersja angielska, z dictionaries).
  *
- * UWAGA: parser jest tolerancyjny — różne wersje ESTI mogą zwracać
- * nieco inny układ pól. Brakujące pola dostają sensowne wartości default.
+ * Struktura: <offers><offer>...</offer></offers>
+ * Każda oferta ma ~270 pól. Mapujemy najważniejsze.
+ *
+ * Niektóre pola to obiekty {#text: '132', @_dictionary: 'transaction'}
+ * — dictionary lookup. Hardkodujemy znane wartości.
  */
 
 const xml = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "@_",
-  parseTagValue: true,
+  parseTagValue: false,
   trimValues: true,
-  isArray: (name) =>
-    [
-      "oferta",
-      "offer",
-      "zdjecie",
-      "image",
-      "photo",
-      "cecha",
-      "feature",
-    ].includes(name),
+  isArray: (name) => ["offer", "picture"].includes(name),
 });
 
-type RawEstiOffer = Record<string, unknown> & {
-  "@_id"?: string;
-  id?: string | number;
-  numer?: string;
-  numer_oferty?: string;
-};
+type RawValue =
+  | string
+  | number
+  | boolean
+  | null
+  | { "#text"?: string | number; "@_dictionary"?: string; [k: string]: unknown };
+type RawOffer = Record<string, RawValue | RawValue[]>;
 
 /**
- * Rozpakowuje paczkę ZIP z FTP, znajduje pierwszy XML, zwraca jego treść jako string.
- * Zachowuje też listę plików (zdjęcia) z bufora.
+ * Rozpakowuje paczkę ZIP z FTP, znajduje XML + wszystkie obrazy.
  */
 export function unpackEstiZip(buffer: Buffer): {
   xmlText: string | null;
@@ -58,7 +52,9 @@ export function unpackEstiZip(buffer: Buffer): {
       name.endsWith(".png") ||
       name.endsWith(".webp")
     ) {
-      images.set(entry.entryName, entry.getData());
+      // Klucz: nazwa pliku (bez folderów)
+      const baseName = entry.entryName.split("/").pop() ?? entry.entryName;
+      images.set(baseName, entry.getData());
     }
   }
 
@@ -66,125 +62,245 @@ export function unpackEstiZip(buffer: Buffer): {
 }
 
 /**
- * Parsuje XML EstiCRM i zwraca tablicę ofert w naszym modelu.
+ * Wgrywa zdjęcia do Vercel Blob i zwraca mapping fileName -> URL.
+ * Robione przed parsowaniem ofert.
  */
-export function parseEstiXml(xmlText: string): Offer[] {
-  const parsed = xml.parse(xmlText);
-
-  // Format ESTI XML zazwyczaj wygląda tak:
-  // <oferty>
-  //   <oferta id="...">...</oferta>
-  // </oferty>
-  // ALBO
-  // <offers><offer>...
-  const root =
-    (parsed.oferty as { oferta?: RawEstiOffer[] } | undefined)?.oferta ??
-    (parsed.offers as { offer?: RawEstiOffer[] } | undefined)?.offer ??
-    [];
-
-  if (!Array.isArray(root)) return [];
-
-  return root
-    .map(mapRawToOffer)
-    .filter((o): o is Offer => o !== null);
+export async function uploadImages(
+  imagesMap: Map<string, Buffer>
+): Promise<Map<string, string>> {
+  const result = new Map<string, string>();
+  // Limit: nie wgrywać wszystkich (może być setki) - max 6 per oferta przy parsowaniu
+  // Ale tu jeszcze nie wiemy ile per oferta — wgrywamy wszystkie.
+  // Concurrent uploads w paczkach po 5 żeby nie zarzynać Vercel Blob API.
+  const entries = Array.from(imagesMap.entries());
+  const BATCH = 5;
+  for (let i = 0; i < entries.length; i += BATCH) {
+    const batch = entries.slice(i, i + BATCH);
+    const uploaded = await Promise.all(
+      batch.map(async ([name, data]) => {
+        try {
+          const blob = await put(`esti-images/${name}`, data, {
+            access: "private",
+            addRandomSuffix: false,
+            allowOverwrite: true,
+            contentType: name.endsWith(".png")
+              ? "image/png"
+              : name.endsWith(".webp")
+                ? "image/webp"
+                : "image/jpeg",
+          });
+          return [name, blob.url] as const;
+        } catch {
+          return null;
+        }
+      })
+    );
+    for (const u of uploaded) if (u) result.set(u[0], u[1]);
+  }
+  return result;
 }
 
-function mapRawToOffer(raw: RawEstiOffer): Offer | null {
-  const id = String(raw["@_id"] ?? raw.id ?? raw.numer ?? raw.numer_oferty ?? "");
+/**
+ * Parsuje XML EstiCRM i zwraca tablicę ofert.
+ * imageUrls: mapping fileName -> public URL (po uploadzie).
+ */
+export function parseEstiXml(xmlText: string, imageUrls: Map<string, string> = new Map()): Offer[] {
+  const parsed = xml.parse(xmlText) as { offers?: { offer?: RawOffer[] } };
+  const offers = parsed.offers?.offer ?? [];
+  if (!Array.isArray(offers)) return [];
+  return offers.map((raw) => mapRawToOffer(raw, imageUrls)).filter((o): o is Offer => o !== null);
+}
+
+function mapRawToOffer(raw: RawOffer, imageUrls: Map<string, string>): Offer | null {
+  const id = str(raw.id);
   if (!id) return null;
 
-  const get = <T = string>(...keys: string[]): T | undefined => {
-    for (const k of keys) {
-      const v = raw[k];
-      if (v !== undefined && v !== null && v !== "") return v as T;
-    }
-    return undefined;
-  };
+  const price = num(raw.price) ?? 0;
+  const area = num(raw.areaTotal) ?? num(raw.areaUsable) ?? 0;
+  const transaction = mapTransaction(raw.transaction);
+  const type = mapType(str(raw.typeName), raw.mainTypeId);
+  const market = mapMarket(raw.market);
 
-  const transaction = normalizeTransaction(
-    get<string>("rodzaj_oferty", "transakcja", "transaction", "typ_transakcji")
-  );
-  const type = normalizeType(
-    get<string>("typ_nieruchomosci", "rodzaj_nieruchomosci", "kategoria", "typ", "type")
-  );
-  const market = normalizeMarket(get<string>("rynek", "market"));
+  // Zdjęcia
+  const picturesRaw = raw.pictures as { picture?: RawValue[] } | undefined;
+  const pictureItems = Array.isArray(picturesRaw?.picture)
+    ? picturesRaw.picture
+    : picturesRaw?.picture
+      ? [picturesRaw.picture]
+      : [];
 
-  const price = Number(get<string | number>("cena", "cena_calkowita", "price") ?? 0);
-  const area = Number(get<string | number>("powierzchnia", "powierzchnia_calkowita", "metraz", "area") ?? 0);
+  const images: OfferImage[] = pictureItems
+    .map((p, i): OfferImage | null => {
+      const fileName = typeof p === "object" && p ? str((p as Record<string, unknown>)["#text"]) : str(p);
+      if (!fileName) return null;
+      const url = imageUrls.get(fileName);
+      if (!url) return null;
+      return { url, primary: i === 0 };
+    })
+    .filter((x): x is OfferImage => x !== null);
+
+  // Adres
+  const streetType = str(raw.locationStreetType);
+  const streetName = str(raw.locationStreetName);
+  const street = [streetType, streetName].filter(Boolean).join(" ") || undefined;
+
+  const city = str(raw.locationCityName) || "Trójmiasto";
+  const district = str(raw.locationPrecinctName) || str(raw.locationDistrictName) || undefined;
+
+  // Agent
+  const agentName = [str(raw.contactFirstname), str(raw.contactLastname)].filter(Boolean).join(" ");
+
+  // Tytuł: portalTitle (krótki dla portali) jest najczęściej najlepszy
+  const title =
+    str(raw.portalTitle) ||
+    str(raw.portalWwwTitle) ||
+    generateTitle(type, area, city);
+
+  // Opis: HTML → tekst (usuwamy <br>, <strong>)
+  const descriptionHtml = str(raw.descriptionWebsite) || str(raw.description) || "";
+  const description = htmlToPlainText(descriptionHtml);
+
+  const pricePerSqm = num(raw.pricePermeter) ?? (area > 0 ? Math.round(price / area) : undefined);
 
   return {
     id,
-    offerNumber: get<string>("numer", "numer_oferty"),
+    offerNumber: str(raw.numberPrime) || str(raw.number),
     transaction,
     type,
     market,
 
-    title:
-      get<string>("tytul", "title", "nazwa") ??
-      generateTitle(type, area, get<string>("miasto", "city")),
-    description: get<string>("opis", "description"),
-    shortDescription: get<string>("krotki_opis", "short_description"),
+    title,
+    description: description || undefined,
+    shortDescription: undefined,
 
     price,
-    pricePerSqm: area > 0 ? Math.round(price / area) : undefined,
-    rent: Number(get<string | number>("czynsz", "rent") ?? 0) || undefined,
+    pricePerSqm,
+    rent: num(raw.apartmentRent) || undefined,
 
     area,
-    landArea: Number(get<string | number>("powierzchnia_dzialki", "land_area") ?? 0) || undefined,
+    landArea: num(raw.areaPlot) || undefined,
 
-    rooms: Number(get<string | number>("liczba_pokoi", "pokoje", "rooms") ?? 0) || undefined,
-    floor: Number(get<string | number>("pietro", "floor") ?? 0) || undefined,
-    totalFloors: Number(get<string | number>("liczba_pieter", "total_floors") ?? 0) || undefined,
-    yearBuilt: Number(get<string | number>("rok_budowy", "year_built") ?? 0) || undefined,
+    rooms: int(raw.apartmentRoomNumber),
+    floor: int(raw.apartmentFloor),
+    totalFloors: int(raw.buildingFloornumber),
+    yearBuilt: int(raw.buildingYear),
 
-    state: get<string>("stan", "stan_nieruchomosci", "state"),
+    state: mapBuildingCondition(raw.buildingCondition),
 
-    city: String(get<string>("miasto", "city") ?? "").trim() || "Trójmiasto",
-    district: get<string>("dzielnica", "district"),
-    street: get<string>("ulica", "street"),
-    lat: Number(get<string | number>("szerokosc", "lat") ?? 0) || undefined,
-    lng: Number(get<string | number>("dlugosc", "lng") ?? 0) || undefined,
+    city,
+    district,
+    street,
+    lat: num(raw.locationLatitude),
+    lng: num(raw.locationLongitude),
 
-    images: extractImages(raw),
-    floorPlan: get<string>("plan", "floor_plan"),
-    virtualTour: get<string>("spacer", "virtual_tour"),
-
+    images,
     features: extractFeatures(raw),
 
-    agent: extractAgent(raw),
+    agent: agentName
+      ? {
+          fullName: agentName,
+          phone: str(raw.contactPhone) || undefined,
+          email: str(raw.contactEmail) || undefined,
+          slug: matchAgentSlug(agentName),
+        }
+      : undefined,
 
     url: `https://starnawska.pl/oferty/${id}`,
-    createdAt:
-      get<string>("data_dodania", "created_at", "created") ?? new Date().toISOString(),
-    updatedAt:
-      get<string>("data_modyfikacji", "updated_at", "modified") ?? new Date().toISOString(),
+    createdAt: str(raw.addDate) || new Date().toISOString(),
+    updatedAt: str(raw.updateDate) || str(raw.activateDate) || new Date().toISOString(),
   };
 }
 
-function normalizeTransaction(s?: unknown): OfferTransaction {
-  const v = String(s ?? "").toLowerCase();
-  if (v.includes("najem") || v.includes("wynajem") || v.includes("rent")) return "najem";
+// ----- helpers -----
+
+function str(v: unknown): string {
+  if (v === null || v === undefined) return "";
+  if (typeof v === "string") return v.trim();
+  if (typeof v === "number" || typeof v === "boolean") return String(v);
+  if (typeof v === "object") {
+    const o = v as Record<string, unknown>;
+    if ("#text" in o) return str(o["#text"]);
+  }
+  return "";
+}
+
+function num(v: unknown): number | undefined {
+  const s = str(v);
+  if (!s) return undefined;
+  const n = Number.parseFloat(s.replace(",", "."));
+  return Number.isFinite(n) ? n : undefined;
+}
+
+function int(v: unknown): number | undefined {
+  const n = num(v);
+  return n !== undefined ? Math.round(n) : undefined;
+}
+
+/**
+ * Dictionary mapping dla transaction.
+ * Z obserwacji XML: 132 = wynajem (cena ~3000zł/mc), inne = sprzedaż.
+ */
+function mapTransaction(v: unknown): OfferTransaction {
+  const txt = typeof v === "object" && v ? str((v as Record<string, unknown>)["#text"]) : str(v);
+  // ESTI dictionary: 132 = wynajem; 130, 131 = sprzedaż
+  if (txt === "132") return "najem";
   return "sprzedaz";
 }
 
-function normalizeType(s?: unknown): OfferType {
-  const v = String(s ?? "").toLowerCase();
+/**
+ * Mapping typu oferty. Używamy stringa typeName jako głównego źródła.
+ */
+function mapType(typeName: string, mainTypeIdObj: unknown): OfferType {
+  const v = typeName.toLowerCase();
   if (v.includes("mieszkani") || v.includes("apartament")) return "mieszkanie";
-  if (v.includes("dom") || v.includes("house") || v.includes("willa")) return "dom";
-  if (v.includes("dzialk") || v.includes("grunt") || v.includes("ziemia")) return "dzialka";
-  if (v.includes("lokal") || v.includes("biuro") || v.includes("komerc")) return "lokal";
-  if (v.includes("garaz") || v.includes("miejsce post")) return "garaz";
-  return "inne";
+  if (v.includes("dom") || v.includes("willa")) return "dom";
+  if (v.includes("dzialk") || v.includes("działk") || v.includes("grunt")) return "dzialka";
+  if (v.includes("lokal") || v.includes("komerc") || v.includes("biuro")) return "lokal";
+  if (v.includes("garaz") || v.includes("garaż")) return "garaz";
+
+  // Fallback przez mainTypeId
+  const id =
+    typeof mainTypeIdObj === "object" && mainTypeIdObj
+      ? str((mainTypeIdObj as Record<string, unknown>)["#text"])
+      : str(mainTypeIdObj);
+  switch (id) {
+    case "1":
+      return "dom";
+    case "2":
+      return "mieszkanie";
+    case "3":
+      return "dzialka";
+    case "4":
+      return "lokal";
+    case "5":
+      return "garaz";
+    default:
+      return "inne";
+  }
 }
 
-function normalizeMarket(s?: unknown): OfferMarket | undefined {
-  const v = String(s ?? "").toLowerCase();
-  if (v.includes("pierwot")) return "pierwotny";
-  if (v.includes("wtorn")) return "wtorny";
+function mapMarket(v: unknown): OfferMarket | undefined {
+  const txt = typeof v === "object" && v ? str((v as Record<string, unknown>)["#text"]) : str(v);
+  // ESTI dictionary: 11 = wtórny, 12 = pierwotny (zgaduję)
+  if (txt === "12") return "pierwotny";
+  if (txt === "11") return "wtorny";
   return undefined;
 }
 
-function generateTitle(type: OfferType, area: number, city?: string): string {
+function mapBuildingCondition(v: unknown): string | undefined {
+  const txt = typeof v === "object" && v ? str((v as Record<string, unknown>)["#text"]) : str(v);
+  // ESTI dictionary buildingCondition - mapping nieznany, zwracamy raw
+  const map: Record<string, string> = {
+    "61": "do wprowadzenia",
+    "62": "do odświeżenia",
+    "63": "do remontu",
+    "64": "deweloperski",
+    "65": "surowy",
+  };
+  return map[txt];
+}
+
+function generateTitle(type: OfferType, area: number, city: string): string {
   const typeLabel = {
     mieszkanie: "Mieszkanie",
     dom: "Dom",
@@ -193,80 +309,59 @@ function generateTitle(type: OfferType, area: number, city?: string): string {
     garaz: "Garaż",
     inne: "Nieruchomość",
   }[type];
-  const areaPart = area > 0 ? `, ${area} m²` : "";
-  const cityPart = city ? `, ${city}` : "";
-  return `${typeLabel}${areaPart}${cityPart}`;
+  return `${typeLabel}, ${area > 0 ? `${area} m², ` : ""}${city}`;
 }
 
-function extractImages(raw: RawEstiOffer): OfferImage[] {
-  // ESTI może umieszczać zdjęcia w różnych miejscach:
-  // <zdjecia><zdjecie>url</zdjecie></zdjecia>
-  // <images><image url="..."/></images>
-  // <photos>url1|url2|url3</photos>
-  const container =
-    (raw.zdjecia as { zdjecie?: unknown[] } | undefined)?.zdjecie ??
-    (raw.images as { image?: unknown[] } | undefined)?.image ??
-    (raw.photos as { photo?: unknown[] } | undefined)?.photo ??
-    [];
-
-  const arr = Array.isArray(container) ? container : [container];
-  return arr
-    .map((item, i): OfferImage | null => {
-      if (!item) return null;
-      if (typeof item === "string") {
-        return { url: item, primary: i === 0 };
-      }
-      if (typeof item === "object") {
-        const o = item as Record<string, unknown>;
-        const url = String(o.url ?? o["@_url"] ?? o["#text"] ?? "");
-        if (!url) return null;
-        return {
-          url,
-          alt: o.alt ? String(o.alt) : undefined,
-          primary: i === 0,
-        };
-      }
-      return null;
-    })
-    .filter((x): x is OfferImage => x !== null);
+function htmlToPlainText(html: string): string {
+  return html
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/p>/gi, "\n\n")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
-function extractFeatures(raw: RawEstiOffer): string[] | undefined {
-  const container =
-    (raw.cechy as { cecha?: string[] } | undefined)?.cecha ??
-    (raw.features as { feature?: string[] } | undefined)?.feature ??
-    [];
-  const arr = Array.isArray(container) ? container : [container];
-  const result = arr.filter((x): x is string => typeof x === "string" && x.length > 0);
+function extractFeatures(raw: RawOffer): string[] | undefined {
+  // ESTI: setki binary pól typu neighborhoodPark = '1', communicationTram = '1' itp.
+  // Mapujemy najbardziej istotne.
+  const featureMap: Array<[string, string]> = [
+    ["recreationForest", "Las w pobliżu"],
+    ["recreationPark", "Park w pobliżu"],
+    ["recreationLake", "Jezioro w pobliżu"],
+    ["recreationSea", "Morze w pobliżu"],
+    ["communicationTram", "Tramwaj"],
+    ["communicationBus", "Autobus"],
+    ["communicationSuburbanrailway", "Kolejka SKM"],
+    ["communicationRailway", "Kolej"],
+    ["neighborhoodShoppingcenter", "Centrum handlowe"],
+    ["neighborhoodKindergarten", "Przedszkole"],
+    ["neighborhoodPrimaryschool", "Szkoła podstawowa"],
+    ["neighborhoodGrocery", "Sklep spożywczy"],
+    ["neighborhoodPharmacy", "Apteka"],
+    ["neighborhoodPlayground", "Plac zabaw"],
+    ["buildingElevatornumber", "Winda"],
+    ["buildingAirConditioning", "Klimatyzacja"],
+    ["buildingGym", "Siłownia"],
+  ];
+
+  const result: string[] = [];
+  for (const [key, label] of featureMap) {
+    const v = raw[key];
+    const txt = typeof v === "object" && v ? str((v as Record<string, unknown>)["#text"]) : str(v);
+    // ESTI binary: '1' = TAK, '149'/'150' = TAK/NIE (zazwyczaj 1 = yes)
+    if (txt === "1" || txt === "149") result.push(label);
+  }
   return result.length > 0 ? result : undefined;
 }
 
-function extractAgent(raw: RawEstiOffer): Offer["agent"] {
-  const agent = raw.agent as Record<string, unknown> | undefined;
-  const opiekun = raw.opiekun as Record<string, unknown> | undefined;
-  const source = agent ?? opiekun;
-  if (!source) return undefined;
-
-  const fullName = String(source.imie_nazwisko ?? source.name ?? "");
-  const phone = String(source.telefon ?? source.phone ?? "");
-  const email = String(source.email ?? "");
-
-  return {
-    estiId: String(source.id ?? source["@_id"] ?? "") || undefined,
-    slug: matchAgentSlug(fullName),
-    fullName: fullName || undefined,
-    phone: phone || undefined,
-    email: email || undefined,
-  };
-}
-
-/**
- * Dopasowanie ESTI agent → nasz slug z team.ts (po nazwisku).
- */
-function matchAgentSlug(fullName: unknown): string | undefined {
-  const name = String(fullName ?? "");
-  if (!name) return undefined;
-  const lower = name.toLowerCase();
+function matchAgentSlug(fullName: string): string | undefined {
+  if (!fullName) return undefined;
+  const lower = fullName.toLowerCase();
   const map: Record<string, string> = {
     "sudwoj-boleńska": "patrycja-sudwoj-bolenska",
     "sudwoj-bolenska": "patrycja-sudwoj-bolenska",
@@ -282,8 +377,6 @@ function matchAgentSlug(fullName: unknown): string | undefined {
     jankowska: "anna-jankowska",
     pawelczyk: "ewelina-pawelczyk",
   };
-  for (const key in map) {
-    if (lower.includes(key)) return map[key];
-  }
+  for (const key in map) if (lower.includes(key)) return map[key];
   return undefined;
 }

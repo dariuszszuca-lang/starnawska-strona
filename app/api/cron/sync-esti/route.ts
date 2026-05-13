@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getLatestEstiPackage } from "@/lib/esti/ftp-client";
-import { unpackEstiZip, parseEstiXml } from "@/lib/esti/parser";
+import { unpackEstiZip, parseEstiXml, uploadImages } from "@/lib/esti/parser";
 import { saveOffers } from "@/lib/esti/store";
 
 export const dynamic = "force-dynamic";
@@ -42,25 +42,32 @@ export async function GET(req: Request) {
       );
     }
 
-    // 2. Wyciągnij XML (jeśli ZIP, rozpakuj)
+    // 2. Wyciągnij XML + obrazy z ZIPa
     let xmlText: string;
+    let imagesMap = new Map<string, Buffer>();
     if (pkg.name.endsWith(".xml")) {
       xmlText = pkg.buffer.toString("utf8");
     } else {
-      const { xmlText: x } = unpackEstiZip(pkg.buffer);
-      if (!x) {
+      const result = unpackEstiZip(pkg.buffer);
+      if (!result.xmlText) {
         return NextResponse.json(
           { ok: false, error: "no_xml_in_zip", package: pkg.name },
           { status: 200 }
         );
       }
-      xmlText = x;
+      xmlText = result.xmlText;
+      imagesMap = result.images;
     }
 
-    // 3. Parsuj
-    const offers = parseEstiXml(xmlText);
+    // 3. Upload obrazów do Vercel Blob
+    const uploadStart = Date.now();
+    const imageUrls = await uploadImages(imagesMap);
+    const uploadMs = Date.now() - uploadStart;
 
-    // 4. Zapisz cache
+    // 4. Parsuj XML z URLami obrazów
+    const offers = parseEstiXml(xmlText, imageUrls);
+
+    // 5. Zapisz cache ofert
     await saveOffers(offers);
 
     return NextResponse.json({
@@ -68,6 +75,9 @@ export async function GET(req: Request) {
       package: pkg.name,
       packageSizeBytes: pkg.buffer.length,
       offersCount: offers.length,
+      imagesCount: imagesMap.size,
+      imagesUploaded: imageUrls.size,
+      uploadMs,
       durationMs: Date.now() - start,
     });
   } catch (err) {
