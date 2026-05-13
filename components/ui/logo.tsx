@@ -10,9 +10,24 @@ type LogoProps = {
 };
 
 const sizeMap = {
-  sm: { box: 32, text: "text-base" },
-  md: { box: 40, text: "text-lg" },
-  lg: { box: 56, text: "text-2xl" },
+  sm: {
+    box: 36,
+    mainText: "text-base",
+    subText: "text-[9px]",
+    subLetterSpacing: "tracking-[0.32em]",
+  },
+  md: {
+    box: 44,
+    mainText: "text-lg",
+    subText: "text-[10px]",
+    subLetterSpacing: "tracking-[0.36em]",
+  },
+  lg: {
+    box: 64,
+    mainText: "text-2xl",
+    subText: "text-xs",
+    subLetterSpacing: "tracking-[0.42em]",
+  },
 };
 
 export function Logo({
@@ -22,7 +37,9 @@ export function Logo({
   size = "md",
 }: LogoProps) {
   const s = sizeMap[size];
-  const textColor = variant === "dark" ? "text-foreground-on-dark" : "text-foreground";
+  const mainColor = variant === "dark" ? "text-foreground-on-dark" : "text-foreground";
+  const subColor =
+    variant === "dark" ? "text-foreground-on-dark-muted" : "text-foreground-muted";
 
   return (
     <Link
@@ -42,10 +59,26 @@ export function Logo({
         priority
       />
       {showText && (
-        <span className={cn("font-semibold tracking-tight leading-none", s.text, textColor)}>
-          Starnawska
-          <span className="text-brand-olive">&</span>
-          Boleńska
+        <span className="inline-flex flex-col items-stretch leading-none">
+          <span
+            className={cn(
+              "font-semibold tracking-tight whitespace-nowrap",
+              s.mainText,
+              mainColor
+            )}
+          >
+            Starnawska <span className="text-brand-olive font-normal">&</span> Boleńska
+          </span>
+          <span
+            className={cn(
+              "font-medium uppercase mt-1.5 text-center",
+              s.subText,
+              s.subLetterSpacing,
+              subColor
+            )}
+          >
+            Nieruchomości
+          </span>
         </span>
       )}
     </Link>
