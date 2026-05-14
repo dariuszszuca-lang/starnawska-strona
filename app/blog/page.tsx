@@ -38,8 +38,8 @@ export default function BlogPage() {
               <span className="text-foreground-muted">zanim kupisz albo sprzedasz.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
-              Artykuły piszemy sami, na podstawie tego, czego klienci pytają nas najczęściej.
-              Bez lania wody. Konkretne kwoty, konkretne kroki, lokalne dane.
+              Wszystko, o co klienci pytają nas najczęściej — w jednym miejscu.
+              Konkretne kwoty, kroki i lokalne dane z Trójmiasta.
             </p>
           </div>
         </Container>
