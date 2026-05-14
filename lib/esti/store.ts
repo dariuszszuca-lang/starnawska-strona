@@ -1,46 +1,35 @@
-import { put, head } from "@vercel/blob";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import type { Offer, OfferFilters, OffersResult } from "./types";
 
 /**
- * Persistent storage dla ofert: Vercel Blob (private store).
+ * Storage ofert: lokalny plik data/offers.json w repo.
  *
- * Strategia:
- * - sync zapisuje JSON do Blob pod stałą nazwą "esti-offers/current.json"
- * - read pobiera plik przez get() (private store wymaga SDK + token)
- * - fallback: brak Blob -> pusty wynik
+ * Cron sync (Vercel) zapisuje plik przez commit do GitHuba.
+ * Tu tylko czytamy z lokalnego filesystem — zero zewnętrznych usług.
  */
 
-const BLOB_PATH = "esti-offers/current.json";
+const OFFERS_FILE = path.join(process.cwd(), "data", "offers.json");
 
-type CacheShape = {
+export type CacheShape = {
   lastSync: string;
   offers: Offer[];
 };
 
-export async function saveOffers(offers: Offer[]): Promise<void> {
-  const payload: CacheShape = {
-    lastSync: new Date().toISOString(),
-    offers,
-  };
-  const json = JSON.stringify(payload);
-  // Public store — te same dane są na stronie /oferty.
-  // Vercel Blob 2.x ma problem z fetch private blobs z poziomu serverless functions.
-  await put(BLOB_PATH, json, {
-    access: "public",
-    addRandomSuffix: false,
-    allowOverwrite: true,
-    contentType: "application/json",
-  });
-}
+let memCache: { data: CacheShape; loadedAt: number } | null = null;
+const MEM_TTL_MS = 60_000;
 
 export async function readOffers(): Promise<CacheShape | null> {
+  // In-memory cache w obrębie jednej instancji (60s) — żeby nie czytać pliku
+  // przy każdym żądaniu strony.
+  if (memCache && Date.now() - memCache.loadedAt < MEM_TTL_MS) {
+    return memCache.data;
+  }
   try {
-    const meta = await head(BLOB_PATH);
-    if (!meta?.url) return null;
-    const res = await fetch(meta.url, { cache: "no-store" });
-    if (!res.ok) return null;
-    const text = await res.text();
-    return JSON.parse(text) as CacheShape;
+    const text = await readFile(OFFERS_FILE, "utf8");
+    const parsed = JSON.parse(text) as CacheShape;
+    memCache = { data: parsed, loadedAt: Date.now() };
+    return parsed;
   } catch {
     return null;
   }

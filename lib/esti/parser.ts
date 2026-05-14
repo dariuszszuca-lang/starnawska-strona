@@ -1,6 +1,5 @@
 import { XMLParser } from "fast-xml-parser";
 import AdmZip from "adm-zip";
-import { put } from "@vercel/blob";
 import type { Offer, OfferType, OfferTransaction, OfferMarket, OfferImage } from "./types";
 
 /**
@@ -62,56 +61,18 @@ export function unpackEstiZip(buffer: Buffer): {
 }
 
 /**
- * Wgrywa zdjęcia do Vercel Blob i zwraca mapping fileName -> URL.
- * Robione przed parsowaniem ofert.
- */
-export async function uploadImages(
-  imagesMap: Map<string, Buffer>
-): Promise<Map<string, string>> {
-  const result = new Map<string, string>();
-  // Limit: nie wgrywać wszystkich (może być setki) - max 6 per oferta przy parsowaniu
-  // Ale tu jeszcze nie wiemy ile per oferta — wgrywamy wszystkie.
-  // Concurrent uploads w paczkach po 5 żeby nie zarzynać Vercel Blob API.
-  const entries = Array.from(imagesMap.entries());
-  const BATCH = 5;
-  for (let i = 0; i < entries.length; i += BATCH) {
-    const batch = entries.slice(i, i + BATCH);
-    const uploaded = await Promise.all(
-      batch.map(async ([name, data]) => {
-        try {
-          const blob = await put(`esti-images/${name}`, data, {
-            access: "public",
-            addRandomSuffix: false,
-            allowOverwrite: true,
-            contentType: name.endsWith(".png")
-              ? "image/png"
-              : name.endsWith(".webp")
-                ? "image/webp"
-                : "image/jpeg",
-          });
-          return [name, blob.url] as const;
-        } catch {
-          return null;
-        }
-      })
-    );
-    for (const u of uploaded) if (u) result.set(u[0], u[1]);
-  }
-  return result;
-}
-
-/**
  * Parsuje XML EstiCRM i zwraca tablicę ofert.
- * imageUrls: mapping fileName -> public URL (po uploadzie).
+ * availableImages: zbiór nazw plików zdjęć dostępnych do podlinkowania
+ *   (jeśli przekazane — tylko te zdjęcia trafią do Offer.images).
  */
-export function parseEstiXml(xmlText: string, imageUrls: Map<string, string> = new Map()): Offer[] {
+export function parseEstiXml(xmlText: string, availableImages?: Set<string>): Offer[] {
   const parsed = xml.parse(xmlText) as { offers?: { offer?: RawOffer[] } };
   const offers = parsed.offers?.offer ?? [];
   if (!Array.isArray(offers)) return [];
-  return offers.map((raw) => mapRawToOffer(raw, imageUrls)).filter((o): o is Offer => o !== null);
+  return offers.map((raw) => mapRawToOffer(raw, availableImages)).filter((o): o is Offer => o !== null);
 }
 
-function mapRawToOffer(raw: RawOffer, imageUrls: Map<string, string>): Offer | null {
+function mapRawToOffer(raw: RawOffer, availableImages?: Set<string>): Offer | null {
   const id = str(raw.id);
   if (!id) return null;
 
@@ -135,10 +96,10 @@ function mapRawToOffer(raw: RawOffer, imageUrls: Map<string, string>): Offer | n
     .map((p, i): OfferImage | null => {
       const fileName = typeof p === "object" && p ? str((p as Record<string, unknown>)["#text"]) : str(p);
       if (!fileName) return null;
-      // Sprawdź czy faktycznie został wgrany do Blob
-      if (!imageUrls.has(fileName)) return null;
-      // Zamiast direct Blob URL używamy proxy (Private Blob -> public na naszej domenie)
-      return { url: `/api/esti/image/${fileName}`, primary: i === 0 };
+      // Jeśli mamy listę dostępnych zdjęć — bierzemy tylko te które są w repo.
+      if (availableImages && !availableImages.has(fileName)) return null;
+      // Plik serwowany statycznie z public/oferty/
+      return { url: `/oferty/${fileName}`, primary: i === 0 };
     })
     .filter((x): x is OfferImage => x !== null);
 
