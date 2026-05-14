@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Search, Home, Building2, TreePine, Key, Hash, SlidersHorizontal, ChevronDown, X } from "lucide-react";
+import { Search, Home, Building2, TreePine, Key, Hash, SlidersHorizontal, ChevronDown, X, LayoutGrid } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/lib/utils";
 
 const types = [
+  { value: "wszystkie", label: "Wszystkie", icon: LayoutGrid },
   { value: "mieszkanie", label: "Mieszkanie", icon: Home },
   { value: "dom", label: "Dom", icon: Building2 },
   { value: "dzialka", label: "Działka", icon: TreePine },
@@ -42,7 +43,7 @@ const stateOptions = [
 ];
 
 export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "embed" } = {}) {
-  const [type, setType] = useState<TypeValue>("mieszkanie");
+  const [type, setType] = useState<TypeValue>("wszystkie");
   const [advanced, setAdvanced] = useState(false);
 
   const [city, setCity] = useState("");
@@ -63,11 +64,13 @@ export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "em
     arr.includes(v) ? set(arr.filter((x) => x !== v)) : set([...arr, v]);
 
   const params = new URLSearchParams();
-  if (type === "najem") params.set("transakcja", "najem");
-  else {
+  if (type === "najem") {
+    params.set("transakcja", "najem");
+  } else if (type !== "wszystkie") {
     params.set("transakcja", "sprzedaz");
     params.set("typ", type);
   }
+  // type === "wszystkie" → bez filtra typu/transakcji = pokaż wszystko
   if (city) params.set("miasto", city);
   if (district) params.set("dzielnica", district);
   if (market && market !== "wszystkie") params.set("rynek", market);

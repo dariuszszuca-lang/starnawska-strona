@@ -65,7 +65,11 @@ export default async function OfertyPage({ searchParams }: { searchParams: Searc
               Oferty
             </p>
             <h1 className="font-bold tracking-tight text-[clamp(2.25rem,5vw,3.5rem)] leading-[1.05] text-foreground">
-              {filters.transaction === "najem" ? "Wynajem" : "Sprzedaż"} w Trójmieście.
+              {filters.transaction === "najem"
+                ? "Wynajem w Trójmieście."
+                : filters.transaction === "sprzedaz"
+                  ? "Sprzedaż w Trójmieście."
+                  : "Oferty w Trójmieście."}
             </h1>
             <p className="mt-3 text-base text-foreground-muted">
               {total > 0 ? (
