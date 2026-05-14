@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { motion, useInView, animate } from "framer-motion";
 import { ShieldCheck, MapPin, Users, Camera, Calculator, Sparkles } from "lucide-react";
 import { Container } from "@/components/ui/container";
@@ -74,6 +75,7 @@ export function ValueBento() {
             delay={0}
             icon={MapPin}
             title="Tylko Trójmiasto"
+            href="/oferty"
             body="Znamy każdą dzielnicę Gdyni, Sopotu i Gdańska. Nie sprzedajemy w ciemno."
             extra={
               <>
@@ -87,12 +89,13 @@ export function ValueBento() {
             }
           />
 
-          {/* 2. Zespół 9 kobiet. 3x1 */}
+          {/* 2. Zespół 7 kobiet. 3x1 */}
           <BentoCard
             span="md:col-span-3"
             delay={0.1}
             icon={Users}
-            title="Zespół 9 kobiet"
+            title="Zespół 7 kobiet"
+            href="/zespol"
             body="Każda specjalizuje się w innym segmencie rynku."
             extra={
               <div className="mt-auto flex -space-x-2 pt-3">
@@ -120,6 +123,7 @@ export function ValueBento() {
             delay={0.2}
             icon={Camera}
             title="Profesjonalne sesje"
+            href="/doradztwo#staging"
             body="Sesja szerokokątna, home staging, plan 2D. Oferta zauważalna w pierwszej minucie."
             extra={
               <div className="mt-auto flex items-center gap-2 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-forest-deep/70">
@@ -135,6 +139,7 @@ export function ValueBento() {
             delay={0.3}
             icon={ShieldCheck}
             title="Transparentna umowa"
+            href="/doradztwo#sprzedaz"
             body="Bez ukrytych prowizji. Wszystko spisane od pierwszego spotkania."
           />
 
@@ -144,6 +149,7 @@ export function ValueBento() {
             delay={0.4}
             icon={Calculator}
             title="Doradztwo kredytowe"
+            href="/doradztwo#kredyt"
             body="Współpracujemy z bankami i pośrednikami. Pomagamy załatwić kredyt równolegle."
           />
 
@@ -153,6 +159,7 @@ export function ValueBento() {
             delay={0.5}
             icon={Sparkles}
             title="Rynek pierwotny"
+            href="/oferty?rynek=pierwotny"
             body="Bezpośrednio z deweloperami. Lepsze warunki, czasem ceny niedostępne publicznie."
           />
         </div>
@@ -273,6 +280,7 @@ function BentoCard({
   title,
   body,
   extra,
+  href,
 }: {
   tone?: "default" | "dark" | "lime";
   span: string;
@@ -281,6 +289,7 @@ function BentoCard({
   title: string;
   body: string;
   extra?: React.ReactNode;
+  href?: string;
 }) {
   const palette =
     tone === "dark"
@@ -308,7 +317,7 @@ function BentoCard({
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, delay, ease: [0.16, 1, 0.3, 1] }}
       whileHover={{ y: -4 }}
-      className={`${span} ${palette.card} relative overflow-hidden rounded-3xl p-6 lg:p-7 flex flex-col group cursor-default transition-all duration-300 hover:shadow-[var(--shadow-hover)]`}
+      className={`${span} ${palette.card} relative overflow-hidden rounded-3xl p-6 lg:p-7 flex flex-col group ${href ? "cursor-pointer" : "cursor-default"} transition-all duration-300 hover:shadow-[var(--shadow-hover)]`}
     >
       {/* Tło grain (subtelne) */}
       {tone === "dark" && (
@@ -336,17 +345,28 @@ function BentoCard({
       </div>
 
       {/* Arrow hover */}
-      <motion.span
-        aria-hidden
-        className="absolute top-5 right-5 opacity-0 group-hover:opacity-60 transition-opacity"
-        animate={{ rotate: [0, -8, 0] }}
-        transition={{ duration: 0.4 }}
-      >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M7 7h10v10" />
-          <path d="M7 17 17 7" />
-        </svg>
-      </motion.span>
+      {href && (
+        <motion.span
+          aria-hidden
+          className="absolute top-5 right-5 opacity-40 lg:opacity-0 group-hover:opacity-80 transition-opacity"
+          animate={{ rotate: [0, -8, 0] }}
+          transition={{ duration: 0.4 }}
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M7 7h10v10" />
+            <path d="M7 17 17 7" />
+          </svg>
+        </motion.span>
+      )}
+
+      {/* Overlay link na całą kartę */}
+      {href && (
+        <Link
+          href={href}
+          aria-label={title}
+          className="absolute inset-0 z-10"
+        />
+      )}
     </motion.article>
   );
 }

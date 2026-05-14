@@ -140,8 +140,14 @@ export function CaseStudies() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
               whileHover={{ y: -6 }}
-              className="group relative flex flex-col rounded-3xl bg-surface border border-border overflow-hidden transition-all duration-300 hover:border-brand-forest hover:shadow-[var(--shadow-hover)]"
+              className="group relative flex flex-col rounded-3xl bg-surface border border-border overflow-hidden transition-all duration-300 hover:border-brand-forest hover:shadow-[var(--shadow-hover)] cursor-pointer"
             >
+              {/* Overlay link na całą kartę */}
+              <Link
+                href="/konsultacja?intent=sprzedaz"
+                aria-label={`${c.type} ${c.location} — umów konsultację sprzedaży`}
+                className="absolute inset-0 z-10"
+              />
               {/* Top accent bar */}
               <motion.div
                 initial={{ scaleX: 0 }}

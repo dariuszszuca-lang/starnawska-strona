@@ -98,10 +98,24 @@ export function Header() {
 
           {/* Mobile: logo po lewej + hamburger po prawej */}
           <div className="lg:hidden flex items-center justify-between w-full">
-            <Logo size="md" />
+            <Logo
+              size="md"
+              variant={
+                !mobileOpen && (pathname === "/" || pathname.startsWith("/zespol/"))
+                  ? "dark"
+                  : "light"
+              }
+            />
             <button
               type="button"
-              className="inline-flex items-center justify-center size-12 rounded-2xl bg-foreground text-background hover:bg-gray-800 active:scale-95 transition-all"
+              className={cn(
+                "inline-flex items-center justify-center size-12 rounded-2xl transition-all active:scale-95",
+                mobileOpen
+                  ? "bg-foreground text-background hover:bg-gray-800"
+                  : pathname === "/" || pathname.startsWith("/zespol/")
+                    ? "bg-foreground-on-dark text-foreground hover:bg-gray-200"
+                    : "bg-foreground text-background hover:bg-gray-800"
+              )}
               onClick={() => setMobileOpen((v) => !v)}
               aria-label={mobileOpen ? "Zamknij menu" : "Otwórz menu"}
               aria-expanded={mobileOpen}
