@@ -134,8 +134,17 @@ export function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="lg:hidden fixed inset-0 z-40 bg-background/95 backdrop-blur-md pt-32 pb-8 overflow-y-auto"
+            className="lg:hidden fixed inset-0 z-[60] bg-background/95 backdrop-blur-md pt-32 pb-8 overflow-y-auto"
           >
+            {/* Przycisk X — fixed top-right, nad overlay, zawsze widoczny */}
+            <button
+              type="button"
+              onClick={() => setMobileOpen(false)}
+              aria-label="Zamknij menu"
+              className="fixed top-6 right-4 sm:right-6 z-[70] inline-flex items-center justify-center size-12 rounded-2xl bg-foreground text-background hover:bg-gray-800 active:scale-95 transition-all shadow-[var(--shadow-card)]"
+            >
+              <X className="size-5" />
+            </button>
             <div className="mx-auto w-full max-w-md px-6">
               <motion.nav
                 initial={{ opacity: 0, y: 12 }}
