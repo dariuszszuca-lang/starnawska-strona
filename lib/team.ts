@@ -1,10 +1,7 @@
 /**
  * Zespół Starnawska & Boleńska.
  *
- * To są tymczasowe dane (placeholdery) — docelowo agentki będą zarządzane
- * z panelu Sanity Studio przez Patrycję i Jolantę.
- *
- * Dopasowanie zdjęć do imion wymaga weryfikacji od klienta (Darek/właścicielki).
+ * Dane redagowane wspólnie z biurem. Zdjęcia z sesji studyjnej 2026.
  */
 
 export type TeamMember = {
@@ -117,44 +114,14 @@ export const team: TeamMember[] = [
     order: 6,
   },
   {
-    slug: "izabela-janik",
-    firstName: "Izabela",
-    lastName: "Janik",
-    fullName: "Izabela Janik",
-    role: "Pośrednik nieruchomości, grunty i mieszkania",
-    shortRole: "Grunty i mieszkania",
-    photo: "/team/izabela-janik.jpg",
-    phone: "+48 577 316 688",
-    phoneDisplay: "577 316 688",
-    yearsExperience: 17,
-    bio: "W nieruchomościach pracuje od 17 lat. Sprzedaż nieruchomości gruntowych i mieszkaniowych. Każda transakcja to misja, która daje satysfakcję.",
-    quote: "Pragnę pomagać ludziom. To dla mnie misja, nie zawód.",
+    slug: "alicja-stuchlik",
+    firstName: "Alicja",
+    lastName: "Stuchlik",
+    fullName: "Alicja Stuchlik",
+    role: "Pośrednik nieruchomości",
+    photo: "/team/alicja-stuchlik.jpg",
+    bio: "Pośrednik nieruchomości w zespole Starnawska & Boleńska.",
     order: 7,
-  },
-  {
-    slug: "anna-jankowska",
-    firstName: "Anna",
-    lastName: "Jankowska",
-    fullName: "Anna Jankowska",
-    role: "Pośrednik nieruchomości",
-    photo: "/team/anna-jankowska.jpg",
-    phone: "+48 733 875 566",
-    phoneDisplay: "733 875 566",
-    bio: "Specjalizacja w sprzedaży nieruchomości. Profesjonalne podejście, transparentne umowy, szybkie rezultaty.",
-    order: 8,
-  },
-  {
-    slug: "ewelina-pawelczyk",
-    firstName: "Ewelina",
-    lastName: "Pawelczyk",
-    fullName: "Ewelina Pawelczyk",
-    role: "Pośrednik nieruchomości",
-    photo: "/team/ewelina-pawelczyk.jpg",
-    phone: "+48 530 482 592",
-    phoneDisplay: "530 482 592",
-    bio: "Nieruchomości fascynowały ją na długo przed pracą jako agent. Latami analizowała rynek prywatnie, uczestniczyła w transakcjach, przygotowywała własne projekty.",
-    quote: "Poza pracą kocham podróże i dobrą kawę. W nieruchomościach — szczerą rozmowę.",
-    order: 9,
   },
 ];
 
