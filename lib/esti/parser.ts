@@ -80,7 +80,7 @@ export async function uploadImages(
       batch.map(async ([name, data]) => {
         try {
           const blob = await put(`esti-images/${name}`, data, {
-            access: "private",
+            access: "public",
             addRandomSuffix: false,
             allowOverwrite: true,
             contentType: name.endsWith(".png")

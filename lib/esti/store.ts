@@ -23,8 +23,10 @@ export async function saveOffers(offers: Offer[]): Promise<void> {
     offers,
   };
   const json = JSON.stringify(payload);
+  // Public store — te same dane są na stronie /oferty.
+  // Vercel Blob 2.x ma problem z fetch private blobs z poziomu serverless functions.
   await put(BLOB_PATH, json, {
-    access: "private",
+    access: "public",
     addRandomSuffix: false,
     allowOverwrite: true,
     contentType: "application/json",
@@ -33,15 +35,9 @@ export async function saveOffers(offers: Offer[]): Promise<void> {
 
 export async function readOffers(): Promise<CacheShape | null> {
   try {
-    // @vercel/blob 2.x: head().url to permanent URL — dla private store
-    // wymaga Authorization: Bearer ${BLOB_READ_WRITE_TOKEN}.
-    const token = process.env.BLOB_READ_WRITE_TOKEN;
     const meta = await head(BLOB_PATH);
-    if (!meta?.url || !token) return null;
-    const res = await fetch(meta.url, {
-      headers: { Authorization: `Bearer ${token}` },
-      cache: "no-store",
-    });
+    if (!meta?.url) return null;
+    const res = await fetch(meta.url, { cache: "no-store" });
     if (!res.ok) return null;
     const text = await res.text();
     return JSON.parse(text) as CacheShape;
