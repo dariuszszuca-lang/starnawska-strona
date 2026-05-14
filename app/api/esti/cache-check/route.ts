@@ -58,6 +58,7 @@ export async function GET() {
     return NextResponse.json({
       stage: "throw",
       error: err instanceof Error ? err.message : "?",
+      stack: err instanceof Error ? err.stack?.split("\n").slice(0, 10) : null,
       list: listResult,
       head: headResult,
     });
