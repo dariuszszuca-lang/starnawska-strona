@@ -21,10 +21,7 @@ export async function GET(req: Request) {
   const authHeader = req.headers.get("authorization");
   const cronSecret = process.env.CRON_SECRET;
 
-  // TYMCZASOWE okno bez auth — Claude potrzebuje 1x odpalić sync po fix typów.
-  // PRZYWRÓCIĆ NATYCHMIAST po użyciu.
   const isAuthorized =
-    true ||
     !cronSecret ||
     querySecret === cronSecret ||
     authHeader === `Bearer ${cronSecret}`;
