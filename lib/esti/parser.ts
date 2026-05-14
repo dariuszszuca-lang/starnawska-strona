@@ -133,9 +133,10 @@ function mapRawToOffer(raw: RawOffer, imageUrls: Map<string, string>): Offer | n
     .map((p, i): OfferImage | null => {
       const fileName = typeof p === "object" && p ? str((p as Record<string, unknown>)["#text"]) : str(p);
       if (!fileName) return null;
-      const url = imageUrls.get(fileName);
-      if (!url) return null;
-      return { url, primary: i === 0 };
+      // Sprawdź czy faktycznie został wgrany do Blob
+      if (!imageUrls.has(fileName)) return null;
+      // Zamiast direct Blob URL używamy proxy (Private Blob -> public na naszej domenie)
+      return { url: `/api/esti/image/${fileName}`, primary: i === 0 };
     })
     .filter((x): x is OfferImage => x !== null);
 
