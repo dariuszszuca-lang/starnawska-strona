@@ -85,7 +85,7 @@ export default async function OfertyPage({ searchParams }: { searchParams: Searc
       </section>
 
       {/* Wyszukiwarka */}
-      <QuickSearch />
+      <QuickSearch variant="embed" />
 
       {items.length === 0 ? (
         <EmptyState lastSyncLabel={lastSyncLabel} />

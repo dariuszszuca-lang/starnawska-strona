@@ -41,7 +41,7 @@ const stateOptions = [
   "surowy",
 ];
 
-export function QuickSearch() {
+export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "embed" } = {}) {
   const [type, setType] = useState<TypeValue>("mieszkanie");
   const [advanced, setAdvanced] = useState(false);
 
@@ -105,8 +105,13 @@ export function QuickSearch() {
     state.length +
     (market !== "wszystkie" ? 1 : 0);
 
+  const sectionCls =
+    variant === "overlay"
+      ? "relative -mt-12 lg:-mt-16 z-10"
+      : "relative pb-4 lg:pb-6";
+
   return (
-    <section className="relative -mt-12 lg:-mt-16 z-10">
+    <section className={sectionCls}>
       <Container size="default">
         <div className="rounded-3xl bg-surface border border-border shadow-[var(--shadow-card)] p-5 lg:p-7">
           {/* Type tabs */}
