@@ -68,32 +68,52 @@ export async function GET(req: Request) {
       Array.from(existing.keys()).map((p) => p.slice(IMG_PREFIX.length))
     );
 
-    // 4. Sparsuj XML (zdjęcia trafią do Offer.images jeśli będą w finalnym repo)
-    // Najpierw zbieramy które pliki BĘDĄ — zdjęcia z paczki + już istniejące w repo.
+    // 4. Wstępne parsowanie — żeby wiedzieć które zdjęcia są primary
     const inPackage = new Set(imagesMap.keys());
-    const willExist = new Set<string>([...existingFilenames, ...inPackage]);
+    const willExistAll = new Set<string>([...existingFilenames, ...inPackage]);
+    const preliminary: Offer[] = parseEstiXml(xmlText, willExistAll);
 
-    const offers: Offer[] = parseEstiXml(xmlText, willExist);
-
-    // 5. Delta zdjęć:
-    //    - nowe (są w paczce, nie ma ich w repo) → upload
-    //    - usuwane (są w repo, ale żadna oferta ich już nie używa) → delete
+    // 5. Wyznacz priorytety zdjęć (primary first) i policz delta
     const referenced = new Set<string>();
-    for (const o of offers) {
+    const primaryFiles = new Set<string>();
+    for (const o of preliminary) {
       for (const img of o.images) {
         const fn = img.url.replace(/^\/oferty\//, "");
         referenced.add(fn);
+        if (img.primary) primaryFiles.add(fn);
       }
     }
 
-    const toUpload: string[] = [];
-    for (const fn of referenced) {
-      if (inPackage.has(fn) && !existingFilenames.has(fn)) toUpload.push(fn);
-    }
+    // Limit upload per fire (GitHub secondary rate limit, Vercel 60s timeout).
+    // Resztę dopobierze kolejny cron — manual fire jutro 5:30 albo wcześniej.
+    const LIMIT_PER_RUN = 120;
 
+    const allMissing: string[] = [];
+    for (const fn of referenced) {
+      if (inPackage.has(fn) && !existingFilenames.has(fn)) allMissing.push(fn);
+    }
+    allMissing.sort((a, b) => {
+      const ap = primaryFiles.has(a) ? 0 : 1;
+      const bp = primaryFiles.has(b) ? 0 : 1;
+      return ap - bp;
+    });
+    const toUpload = allMissing.slice(0, LIMIT_PER_RUN);
+    const deferred = allMissing.length - toUpload.length;
+
+    // 6. Final parse — z prawidłowym filtrem (tylko zdjęcia które realnie są albo będą w repo)
+    const willExistFinal = new Set<string>([...existingFilenames, ...toUpload]);
+    const offers: Offer[] = parseEstiXml(xmlText, willExistFinal);
+
+    // 7. Co usunąć z repo (już nie referowane przez żadną ofertę)
+    const finalReferenced = new Set<string>();
+    for (const o of offers) {
+      for (const img of o.images) {
+        finalReferenced.add(img.url.replace(/^\/oferty\//, ""));
+      }
+    }
     const toDelete: string[] = [];
     for (const fn of existingFilenames) {
-      if (!referenced.has(fn)) toDelete.push(fn);
+      if (!finalReferenced.has(fn)) toDelete.push(fn);
     }
 
     // 6. Zbuduj listę plików do commit
@@ -138,6 +158,7 @@ export async function GET(req: Request) {
       offersCount: offers.length,
       imagesInPackage: imagesMap.size,
       imagesUploaded: toUpload.length,
+      imagesDeferred: deferred,
       imagesDeleted: toDelete.length,
       commitSha: commit.sha.slice(0, 7),
       blobsCreated: commit.blobsCreated,

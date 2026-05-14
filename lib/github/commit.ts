@@ -81,7 +81,31 @@ type TreeNode = {
   content?: string;
 };
 
-const BATCH = 12;
+const BATCH = 4;
+const BATCH_DELAY_MS = 350;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function createBlobWithRetry(
+  owner: string,
+  repo: string,
+  content: string,
+  encoding: "utf-8" | "base64",
+  attempt = 1
+): Promise<string> {
+  try {
+    return await createBlob(owner, repo, content, encoding);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : "?";
+    if (attempt < 4 && (msg.includes("rate limit") || msg.includes("403") || msg.includes("502") || msg.includes("503"))) {
+      await sleep(2000 * attempt);
+      return createBlobWithRetry(owner, repo, content, encoding, attempt + 1);
+    }
+    throw err;
+  }
+}
 
 export async function commitFiles({
   owner,
@@ -119,10 +143,10 @@ export async function commitFiles({
     const blobs = await Promise.all(
       slice.map(async (f) => {
         if ("contentBase64" in f) {
-          const sha = await createBlob(owner, repo, f.contentBase64, "base64");
+          const sha = await createBlobWithRetry(owner, repo, f.contentBase64, "base64");
           return { path: f.path, sha };
         }
-        const sha = await createBlob(owner, repo, f.contentUtf8, "utf-8");
+        const sha = await createBlobWithRetry(owner, repo, f.contentUtf8, "utf-8");
         return { path: f.path, sha };
       })
     );
@@ -130,6 +154,8 @@ export async function commitFiles({
       treeNodes.push({ path: b.path, mode: "100644", type: "blob", sha: b.sha });
       blobsCreated++;
     }
+    // Pauza między batchami żeby uniknąć GitHub secondary rate limits.
+    if (i + BATCH < updates.length) await sleep(BATCH_DELAY_MS);
   }
 
   // 4. Usunięcia: sha=null mówi GitHub-owi "usuń ten ścieżkę z drzewa"
