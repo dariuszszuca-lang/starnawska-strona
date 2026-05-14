@@ -1,5 +1,6 @@
 import { Hero } from "@/components/sections/hero";
 import { QuickSearch } from "@/components/sections/quick-search";
+import { FeaturedOffers } from "@/components/sections/featured-offers";
 import { Partners } from "@/components/sections/partners";
 import { ValueBento } from "@/components/sections/value-bento";
 import { Services } from "@/components/sections/services";
@@ -12,6 +13,8 @@ import { FAQ } from "@/components/sections/faq";
 import { ConsultationBox } from "@/components/sections/consultation-box";
 import { Reveal } from "@/components/motion/reveal";
 
+export const dynamic = "force-dynamic";
+
 export default function HomePage() {
   return (
     <>
@@ -19,6 +22,9 @@ export default function HomePage() {
       <Hero />
       <QuickSearch />
 
+      <Reveal>
+        <FeaturedOffers />
+      </Reveal>
       <Reveal>
         <Partners />
       </Reveal>
