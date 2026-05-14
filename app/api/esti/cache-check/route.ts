@@ -27,10 +27,14 @@ export async function GET() {
   }
 
   try {
-    // Test nowej drogi: head().url + fetch
+    // Test nowej drogi: head().url + fetch z Bearer
+    const token = process.env.BLOB_READ_WRITE_TOKEN;
     const meta = await head(BLOB_PATH);
     if (!meta?.url) return NextResponse.json({ stage: "no_url", list: listResult, head: headResult });
-    const res = await fetch(meta.url, { cache: "no-store" });
+    const res = await fetch(meta.url, {
+      headers: token ? { Authorization: `Bearer ${token}` } : undefined,
+      cache: "no-store",
+    });
     if (!res.ok) {
       return NextResponse.json({
         stage: "fetch_failed",

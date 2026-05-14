@@ -19,11 +19,15 @@ export async function GET(
   }
 
   try {
-    // @vercel/blob 2.x: używamy head() (signed URL) + fetch zamiast get().
+    // @vercel/blob 2.x: head().url to permanent URL — dla private store
+    // wymaga Authorization: Bearer ${BLOB_READ_WRITE_TOKEN}.
+    const token = process.env.BLOB_READ_WRITE_TOKEN;
     const meta = await head(`esti-images/${name}`);
-    if (!meta?.url) return new NextResponse("not found", { status: 404 });
+    if (!meta?.url || !token) return new NextResponse("not found", { status: 404 });
 
-    const upstream = await fetch(meta.url);
+    const upstream = await fetch(meta.url, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
     if (!upstream.ok || !upstream.body) {
       return new NextResponse("not found", { status: 404 });
     }

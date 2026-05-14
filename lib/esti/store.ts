@@ -33,11 +33,15 @@ export async function saveOffers(offers: Offer[]): Promise<void> {
 
 export async function readOffers(): Promise<CacheShape | null> {
   try {
-    // @vercel/blob 2.x: get() zwraca 403 dla private store —
-    // używamy head() (signed URL) + fetch().
+    // @vercel/blob 2.x: head().url to permanent URL — dla private store
+    // wymaga Authorization: Bearer ${BLOB_READ_WRITE_TOKEN}.
+    const token = process.env.BLOB_READ_WRITE_TOKEN;
     const meta = await head(BLOB_PATH);
-    if (!meta?.url) return null;
-    const res = await fetch(meta.url, { cache: "no-store" });
+    if (!meta?.url || !token) return null;
+    const res = await fetch(meta.url, {
+      headers: { Authorization: `Bearer ${token}` },
+      cache: "no-store",
+    });
     if (!res.ok) return null;
     const text = await res.text();
     return JSON.parse(text) as CacheShape;
