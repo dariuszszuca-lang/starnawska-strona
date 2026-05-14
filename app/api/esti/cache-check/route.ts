@@ -1,11 +1,31 @@
 import { NextResponse } from "next/server";
-import { get } from "@vercel/blob";
+import { get, list, head } from "@vercel/blob";
 
 export const dynamic = "force-dynamic";
 
 const BLOB_PATH = "esti-offers/current.json";
 
 export async function GET() {
+  // diag pomocniczy
+  let listResult: unknown = null;
+  try {
+    const l = await list({ prefix: "esti-offers/", limit: 5 });
+    listResult = {
+      blobsCount: l.blobs.length,
+      blobs: l.blobs.map((b) => ({ pathname: b.pathname, size: b.size, uploadedAt: b.uploadedAt })),
+    };
+  } catch (e) {
+    listResult = { error: e instanceof Error ? e.message : "?" };
+  }
+
+  let headResult: unknown = null;
+  try {
+    const h = await head(BLOB_PATH);
+    headResult = { pathname: h.pathname, size: h.size, uploadedAt: h.uploadedAt, hasUrl: Boolean(h.url) };
+  } catch (e) {
+    headResult = { error: e instanceof Error ? e.message : "?" };
+  }
+
   try {
     const result = await get(BLOB_PATH, { access: "private" });
     if (!result) return NextResponse.json({ stage: "no_result" });
@@ -24,12 +44,13 @@ export async function GET() {
     } catch (e) {
       return NextResponse.json({ stage: "json_parse_failed", textLen: len, headFirst200: text.slice(0, 200), err: e instanceof Error ? e.message : "?" });
     }
-    return NextResponse.json({ stage: "ok", textLen: len, ...parsed });
+    return NextResponse.json({ stage: "ok", textLen: len, list: listResult, head: headResult, ...parsed });
   } catch (err) {
     return NextResponse.json({
       stage: "throw",
       error: err instanceof Error ? err.message : "?",
-      stack: err instanceof Error ? err.stack?.split("\n").slice(0, 6) : null,
+      list: listResult,
+      head: headResult,
     });
   }
 }
