@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Save, Plus, X, AlertCircle, CheckCircle2, Trash2 } from "lucide-react";
+import { Save, Plus, X, AlertCircle, CheckCircle2, Trash2, Upload, Image as ImageIcon } from "lucide-react";
 
 type Faq = { q: string; a: string };
 
@@ -30,6 +30,31 @@ export function PostEditor({ initial, isNew }: { initial: Initial; isNew: boolea
   const [form, setForm] = useState(initial);
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState<{ type: "ok" | "err"; text: string } | null>(null);
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    setMsg(null);
+    try {
+      const fd = new FormData();
+      fd.append("file", file);
+      fd.append("name", form.title || file.name);
+      const res = await fetch("/api/admin/upload", { method: "POST", body: fd });
+      const data = await res.json();
+      if (!data.ok) throw new Error(data.error || "Upload failed");
+      update("cover", data.url);
+      if (!form.coverAlt) update("coverAlt", form.title || file.name);
+      setMsg({ type: "ok", text: `Zdjęcie wgrane: ${data.url}` });
+    } catch (err) {
+      setMsg({ type: "err", text: err instanceof Error ? err.message : "Błąd uploadu" });
+    } finally {
+      setUploading(false);
+      if (fileInputRef.current) fileInputRef.current.value = "";
+    }
+  };
 
   const update = <K extends keyof Initial>(k: K, v: Initial[K]) =>
     setForm((p) => ({ ...p, [k]: v }));
@@ -235,14 +260,55 @@ export function PostEditor({ initial, isNew }: { initial: Initial; isNew: boolea
 
       {/* Zdjęcie */}
       <Card title="Zdjęcie tła">
-        <Field label="Ścieżka pliku" hint='Wgraj plik do folderu /public/blog/ przez Vercel lub wskaż istniejący np. "/blog/jak-sprzedac-mieszkanie-2026.jpg"'>
+        {/* Podgląd jeśli już jest */}
+        {form.cover && (
+          <div className="mb-4 rounded-2xl overflow-hidden border border-border bg-background">
+            <img
+              src={form.cover}
+              alt={form.coverAlt}
+              className="w-full max-h-56 object-cover"
+            />
+          </div>
+        )}
+
+        {/* Upload */}
+        <div className="flex flex-wrap items-center gap-3 mb-4">
           <input
-            type="text"
-            value={form.cover}
-            onChange={(e) => update("cover", e.target.value)}
-            className="adm-input font-mono text-sm"
-            placeholder="/blog/nazwa-pliku.jpg"
+            ref={fileInputRef}
+            type="file"
+            accept="image/jpeg,image/png,image/webp"
+            onChange={handleUpload}
+            className="hidden"
           />
+          <button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            disabled={uploading}
+            className="inline-flex items-center gap-2 px-4 h-10 rounded-xl bg-foreground text-background text-sm font-semibold hover:bg-gray-800 active:scale-[0.98] transition-all disabled:opacity-50"
+          >
+            {uploading ? (
+              <>Wgrywam…</>
+            ) : (
+              <>
+                <Upload className="size-4" />
+                {form.cover ? "Zmień zdjęcie" : "Wgraj zdjęcie"}
+              </>
+            )}
+          </button>
+          <span className="text-xs text-foreground-muted">JPG/PNG/WebP, max 5 MB</span>
+        </div>
+
+        <Field label="Ścieżka pliku" hint="Wypełniona automatycznie po wgraniu. Możesz wpisać ręcznie jeśli zdjęcie już jest w repo.">
+          <div className="relative">
+            <ImageIcon className="size-4 text-foreground-muted absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <input
+              type="text"
+              value={form.cover}
+              onChange={(e) => update("cover", e.target.value)}
+              className="adm-input pl-10 font-mono text-sm"
+              placeholder="/blog/nazwa-pliku.jpg"
+            />
+          </div>
         </Field>
         <Field label="Opis zdjęcia (alt)" hint="Dla dostępności i SEO.">
           <input

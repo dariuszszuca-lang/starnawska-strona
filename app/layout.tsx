@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { RodoBanner } from "@/components/rodo-banner";
+import { Analytics } from "@/components/analytics";
 import { PageTransition } from "@/components/motion/page-transition";
 import { RealEstateAgentSchema } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site";
@@ -88,6 +89,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <RodoBanner />
+        <Analytics />
       </body>
     </html>
   );

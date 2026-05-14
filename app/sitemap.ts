@@ -2,8 +2,11 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
 import { team } from "@/lib/team";
 import { posts } from "@/lib/blog/posts";
+import { readOffers } from "@/lib/esti/store";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const dynamic = "force-dynamic";
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = siteConfig.url;
   const now = new Date();
 
@@ -36,5 +39,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...teamPages, ...blogPages];
+  // Wszystkie aktywne oferty z ESTI
+  const cache = await readOffers();
+  const offerPages: MetadataRoute.Sitemap = (cache?.offers ?? []).map((o) => ({
+    url: `${base}/oferty/${o.id}`,
+    lastModified: new Date(o.updatedAt || o.createdAt),
+    changeFrequency: "daily",
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...teamPages, ...blogPages, ...offerPages];
 }

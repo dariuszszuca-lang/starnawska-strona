@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Hero } from "@/components/sections/hero";
 import { QuickSearch } from "@/components/sections/quick-search";
 import { FeaturedOffers } from "@/components/sections/featured-offers";
@@ -14,6 +15,12 @@ import { ConsultationBox } from "@/components/sections/consultation-box";
 import { Reveal } from "@/components/motion/reveal";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Biuro nieruchomości w Gdyni od 2011 — Sprzedaż, wynajem, doradztwo",
+  description:
+    "Lokalne biuro nieruchomości w Gdyni: 7 doświadczonych agentek, kompleksowa sprzedaż, wynajem długoterminowy, doradztwo kredytowe i home staging. Trójmiasto.",
+};
 
 export default function HomePage() {
   return (
