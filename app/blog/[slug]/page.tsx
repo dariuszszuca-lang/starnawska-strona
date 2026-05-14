@@ -1,13 +1,28 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { ArrowLeft, Clock, Calendar, ArrowRight } from "lucide-react";
+import {
+  ArrowLeft,
+  Clock,
+  Calendar,
+  ArrowRight,
+  ArrowUpRight,
+  Phone,
+  Sparkles,
+  MapPin,
+  BookOpen,
+} from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { ContentRenderer } from "@/components/blog/content-renderer";
 import { BreadcrumbsSchema } from "@/components/seo/json-ld";
 import { posts, getPostBySlug } from "@/lib/blog/posts";
 import { siteConfig } from "@/lib/site";
+import { getLatestOffers } from "@/lib/esti/store";
+import { formatPrice, offerTitle, typeLabel } from "@/lib/esti/format";
+
+export const dynamic = "force-dynamic";
 
 type Params = Promise<{ slug: string }>;
 
@@ -49,6 +64,9 @@ export default async function BlogPostPage({ params }: { params: Params }) {
   if (!post) notFound();
 
   const others = posts.filter((p) => p.slug !== post.slug).slice(0, 2);
+  const sidebarOffers = (await getLatestOffers(20))
+    .filter((o) => o.images.length > 0)
+    .slice(0, 3);
 
   // Article schema
   const articleSchema = {
@@ -83,7 +101,6 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     })),
   };
 
-  // TOC
   const toc = post.content
     .filter((b) => b.type === "h2")
     .map((b) => ({ id: (b as { id: string }).id, text: (b as { text: string }).text }));
@@ -132,7 +149,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
               </span>
             </div>
 
-            <h1 className="font-bold tracking-tight text-[clamp(2.25rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground mb-6 max-w-4xl">
+            <h1 className="font-bold tracking-tight text-[clamp(2.25rem,5vw,4rem)] leading-[1.05] text-foreground mb-6 max-w-4xl">
               {post.title}
             </h1>
 
@@ -142,48 +159,59 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           </Container>
         </header>
 
-        {/* Cover gradient (placeholder zamiast obrazu — bo nie mam jeszcze realnych) */}
-        <Container size="wide" className="mb-12">
+        {/* Cover obraz */}
+        <Container size="wide" className="mb-12 lg:mb-16">
           <div className="relative aspect-[2.4/1] rounded-3xl overflow-hidden bg-surface-dark">
-            <div
-              aria-hidden
-              className="absolute inset-0 bg-gradient-to-br from-brand-forest-deep via-brand-forest to-brand-olive"
+            <Image
+              src={post.cover}
+              alt={post.coverAlt}
+              fill
+              sizes="(min-width: 1024px) 90vw, 100vw"
+              className="object-cover"
+              priority
             />
             <div
               aria-hidden
-              className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(163,199,51,0.3),transparent_50%),radial-gradient(circle_at_70%_70%,rgba(45,74,31,0.4),transparent_50%)]"
+              className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"
             />
-            <div className="absolute inset-0 grain" />
           </div>
         </Container>
 
-        {/* Content + TOC */}
+        {/* Content + sidebar */}
         <section className="pb-16 lg:pb-24">
           <Container size="default">
             <div className="lg:grid lg:grid-cols-12 lg:gap-12">
-              {/* TLDR + TOC */}
-              <aside className="lg:col-span-3 lg:order-2 mb-10 lg:mb-0">
-                <div className="sticky top-24 space-y-6">
-                  <div className="rounded-2xl bg-brand-lime/15 border border-brand-lime/30 p-5">
-                    <p className="text-xs font-semibold uppercase tracking-wider text-brand-forest-deep mb-2">
-                      W skrócie
-                    </p>
+              {/* SIDEBAR */}
+              <aside className="lg:col-span-4 lg:order-2 mb-10 lg:mb-0">
+                <div className="sticky top-24 space-y-5">
+                  {/* TLDR */}
+                  <div className="rounded-2xl bg-brand-lime/15 border border-brand-lime/30 p-5 lg:p-6">
+                    <div className="flex items-center gap-2 mb-3">
+                      <Sparkles className="size-4 text-brand-forest-deep" />
+                      <p className="text-xs font-bold uppercase tracking-wider text-brand-forest-deep">
+                        W skrócie
+                      </p>
+                    </div>
                     <p className="text-sm text-brand-forest-deep leading-relaxed">
                       {post.tldr}
                     </p>
                   </div>
 
+                  {/* TOC */}
                   {toc.length > 0 && (
-                    <nav className="rounded-2xl bg-surface border border-border p-5">
-                      <p className="text-xs font-semibold uppercase tracking-wider text-foreground-muted mb-3">
+                    <nav className="rounded-2xl bg-surface border border-border p-5 lg:p-6">
+                      <p className="text-xs font-bold uppercase tracking-wider text-foreground-muted mb-3">
                         W artykule
                       </p>
-                      <ul className="space-y-2 text-sm">
-                        {toc.map((t) => (
-                          <li key={t.id}>
+                      <ul className="space-y-2.5 text-sm">
+                        {toc.map((t, i) => (
+                          <li key={t.id} className="flex gap-3">
+                            <span className="text-foreground-subtle tabular-nums text-xs pt-0.5 shrink-0">
+                              0{i + 1}
+                            </span>
                             <a
                               href={`#${t.id}`}
-                              className="text-foreground-muted hover:text-foreground transition-colors leading-snug block"
+                              className="text-foreground-muted hover:text-brand-forest transition-colors leading-snug"
                             >
                               {t.text}
                             </a>
@@ -192,69 +220,209 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                       </ul>
                     </nav>
                   )}
+
+                  {/* Oferty z ESTI */}
+                  {sidebarOffers.length > 0 && (
+                    <div className="rounded-2xl bg-surface border border-border p-5 lg:p-6">
+                      <p className="text-xs font-bold uppercase tracking-wider text-foreground-muted mb-4">
+                        Aktualne oferty
+                      </p>
+                      <ul className="space-y-3">
+                        {sidebarOffers.map((o) => (
+                          <li key={o.id}>
+                            <Link
+                              href={`/oferty/${o.id}`}
+                              className="group flex gap-3 rounded-xl hover:bg-background p-2 -m-2 transition-colors"
+                            >
+                              <div className="relative size-16 shrink-0 rounded-lg overflow-hidden bg-gray-100">
+                                <Image
+                                  src={o.images[0].url}
+                                  alt={offerTitle(o)}
+                                  fill
+                                  sizes="64px"
+                                  className="object-cover"
+                                />
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <p className="text-[10px] font-bold uppercase tracking-wider text-brand-olive mb-0.5">
+                                  {typeLabel(o)}
+                                </p>
+                                <p className="text-sm font-semibold text-foreground leading-tight line-clamp-2 group-hover:text-brand-forest transition-colors">
+                                  {offerTitle(o)}
+                                </p>
+                                <p className="text-xs text-foreground-muted mt-1 flex items-center gap-1">
+                                  <MapPin className="size-3 text-brand-olive shrink-0" />
+                                  <span className="truncate">{o.city}</span>
+                                  <span className="ml-auto font-semibold text-foreground tabular-nums">
+                                    {formatPrice(o.price)}
+                                  </span>
+                                </p>
+                              </div>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                      <Link
+                        href="/oferty"
+                        className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-forest hover:gap-2.5 transition-all"
+                      >
+                        Wszystkie oferty
+                        <ArrowUpRight className="size-3.5" />
+                      </Link>
+                    </div>
+                  )}
+
+                  {/* Pomoc / CTA agent */}
+                  <div className="rounded-2xl bg-surface-dark text-foreground-on-dark p-5 lg:p-6 overflow-hidden relative">
+                    <div
+                      aria-hidden
+                      className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(163,199,51,0.18),transparent_55%)]"
+                    />
+                    <div className="relative">
+                      <p className="text-xs font-bold uppercase tracking-wider text-brand-lime mb-3">
+                        Potrzebujesz pomocy?
+                      </p>
+                      <p className="text-base font-semibold leading-snug mb-4">
+                        Każda transakcja jest inna. Zadzwoń, dopasujemy plan pod Ciebie.
+                      </p>
+                      <a
+                        href={siteConfig.contact.phones[0].href}
+                        className="inline-flex items-center gap-2 text-brand-lime font-bold text-lg tabular-nums hover:gap-3 transition-all"
+                      >
+                        <Phone className="size-4" />
+                        {siteConfig.contact.phones[0].displayValue}
+                      </a>
+                      <Button asChild variant="lime" size="sm" className="w-full mt-4">
+                        <Link href="/konsultacja">
+                          Umów konsultację
+                          <ArrowRight className="size-3.5" />
+                        </Link>
+                      </Button>
+                    </div>
+                  </div>
+
+                  {/* Polecane artykuły */}
+                  {others.length > 0 && (
+                    <div className="rounded-2xl bg-surface border border-border p-5 lg:p-6">
+                      <div className="flex items-center gap-2 mb-4">
+                        <BookOpen className="size-4 text-brand-olive" />
+                        <p className="text-xs font-bold uppercase tracking-wider text-foreground-muted">
+                          Sprawdź też
+                        </p>
+                      </div>
+                      <ul className="space-y-3">
+                        {others.map((p) => (
+                          <li key={p.slug}>
+                            <Link
+                              href={`/blog/${p.slug}`}
+                              className="group flex gap-3 rounded-xl hover:bg-background p-2 -m-2 transition-colors"
+                            >
+                              <div className="relative size-16 shrink-0 rounded-lg overflow-hidden bg-gray-100">
+                                <Image
+                                  src={p.cover}
+                                  alt={p.coverAlt}
+                                  fill
+                                  sizes="64px"
+                                  className="object-cover"
+                                />
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <p className="text-[10px] font-bold uppercase tracking-wider text-brand-olive mb-0.5">
+                                  {p.category}
+                                </p>
+                                <p className="text-sm font-semibold text-foreground leading-tight line-clamp-2 group-hover:text-brand-forest transition-colors">
+                                  {p.title}
+                                </p>
+                                <p className="text-xs text-foreground-muted mt-1 inline-flex items-center gap-1">
+                                  <Clock className="size-3" />
+                                  {p.readingMinutes} min
+                                </p>
+                              </div>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </aside>
 
               {/* Article body */}
-              <div className="lg:col-span-9 lg:order-1 max-w-3xl">
-                <ContentRenderer blocks={post.content} />
+              <div className="lg:col-span-8 lg:order-1">
+                <div className="max-w-3xl">
+                  <ContentRenderer blocks={post.content} />
 
-                {/* FAQ */}
-                {post.faq.length > 0 && (
-                  <div className="mt-16 pt-12 border-t border-border">
-                    <h2 className="font-bold tracking-tight text-3xl text-foreground mb-8 tracking-tight">
-                      Najczęściej zadawane pytania
-                    </h2>
-                    <div className="space-y-4">
-                      {post.faq.map((f, i) => (
-                        <details
-                          key={i}
-                          className="group rounded-2xl bg-surface border border-border overflow-hidden open:shadow-[var(--shadow-soft)]"
-                        >
-                          <summary className="cursor-pointer p-5 lg:p-6 flex items-start justify-between gap-4 font-medium text-foreground">
-                            <span className="flex-1">{f.q}</span>
-                            <span
-                              aria-hidden
-                              className="size-6 rounded-full bg-gray-100 group-open:bg-brand-lime group-open:text-brand-forest-deep flex items-center justify-center text-lg leading-none shrink-0 transition-colors"
-                            >
-                              <span className="group-open:hidden">+</span>
-                              <span className="hidden group-open:inline">−</span>
-                            </span>
-                          </summary>
-                          <div className="px-5 lg:px-6 pb-5 lg:pb-6 -mt-1 text-foreground-muted leading-relaxed">
-                            {f.a}
-                          </div>
-                        </details>
-                      ))}
+                  {/* FAQ */}
+                  {post.faq.length > 0 && (
+                    <div className="mt-16 pt-12 border-t border-border">
+                      <h2 className="font-bold tracking-tight text-3xl text-foreground mb-8">
+                        Najczęściej zadawane pytania
+                      </h2>
+                      <div className="space-y-4">
+                        {post.faq.map((f, i) => (
+                          <details
+                            key={i}
+                            className="group rounded-2xl bg-surface border border-border overflow-hidden open:shadow-[var(--shadow-soft)]"
+                          >
+                            <summary className="cursor-pointer p-5 lg:p-6 flex items-start justify-between gap-4 font-medium text-foreground">
+                              <span className="flex-1">{f.q}</span>
+                              <span
+                                aria-hidden
+                                className="size-6 rounded-full bg-gray-100 group-open:bg-brand-lime group-open:text-brand-forest-deep flex items-center justify-center text-lg leading-none shrink-0 transition-colors"
+                              >
+                                <span className="group-open:hidden">+</span>
+                                <span className="hidden group-open:inline">−</span>
+                              </span>
+                            </summary>
+                            <div className="px-5 lg:px-6 pb-5 lg:pb-6 -mt-1 text-foreground-muted leading-relaxed">
+                              {f.a}
+                            </div>
+                          </details>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* CTA na końcu artykułu */}
+                  <div className="mt-16 p-8 lg:p-10 rounded-3xl bg-surface-dark text-foreground-on-dark relative overflow-hidden">
+                    <div
+                      aria-hidden
+                      className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.18),transparent_55%)]"
+                    />
+                    <div className="relative">
+                      <h2 className="font-bold tracking-tight text-2xl lg:text-3xl mb-3">
+                        Masz konkretną sprawę?
+                      </h2>
+                      <p className="text-foreground-on-dark-muted leading-relaxed mb-6 max-w-xl">
+                        Każda transakcja jest inna. 30 minut rozmowy pomoże nam zrozumieć
+                        Twoją sytuację i powiedzieć, co realnie się da zrobić.
+                      </p>
+                      <div className="flex flex-wrap gap-3">
+                        <Button asChild variant="lime" size="md">
+                          <Link href="/konsultacja">
+                            Umów konsultację
+                            <ArrowRight />
+                          </Link>
+                        </Button>
+                        <Button asChild variant="outline-dark" size="md">
+                          <a href={siteConfig.contact.phones[0].href}>
+                            <Phone />
+                            {siteConfig.contact.phones[0].displayValue}
+                          </a>
+                        </Button>
+                      </div>
                     </div>
                   </div>
-                )}
-
-                {/* CTA */}
-                <div className="mt-16 p-8 lg:p-10 rounded-3xl bg-surface-dark text-foreground-on-dark">
-                  <h2 className="font-bold tracking-tight text-2xl lg:text-3xl tracking-tight mb-3">
-                    Masz konkretną sprawę?
-                  </h2>
-                  <p className="text-foreground-on-dark-muted leading-relaxed mb-6">
-                    Każda transakcja jest inna. 30 minut rozmowy pomoże nam zrozumieć
-                    Twoją sytuację i powiedzieć, co realnie się da zrobić.
-                  </p>
-                  <Button asChild variant="lime" size="md">
-                    <Link href="/konsultacja">
-                      Umów konsultację
-                      <ArrowRight />
-                    </Link>
-                  </Button>
                 </div>
               </div>
             </div>
           </Container>
         </section>
 
-        {/* Inne artykuły */}
+        {/* Inne artykuły — duża sekcja na dole */}
         <section className="py-16 lg:py-24 bg-surface">
           <Container size="wide">
-            <h2 className="font-bold tracking-tight text-3xl lg:text-4xl text-foreground mb-10 tracking-tight">
+            <h2 className="font-bold tracking-tight text-3xl lg:text-4xl text-foreground mb-10">
               Sprawdź też
             </h2>
             <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
@@ -262,18 +430,42 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}`}
-                  className="group block rounded-3xl overflow-hidden bg-background border border-border hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
+                  className="group block rounded-3xl overflow-hidden bg-background border border-border hover:border-brand-forest hover:shadow-[var(--shadow-card)] hover:-translate-y-1 transition-all"
                 >
-                  <div className="aspect-[16/9] relative bg-gradient-to-br from-brand-forest/30 to-brand-lime/40 overflow-hidden">
-                    <span className="absolute top-4 left-4 inline-flex items-center px-3 py-1 rounded-full bg-surface/95 backdrop-blur text-[10px] font-semibold uppercase tracking-wider text-brand-forest">
+                  <div className="relative aspect-[16/9] bg-gray-100 overflow-hidden">
+                    <Image
+                      src={p.cover}
+                      alt={p.coverAlt}
+                      fill
+                      sizes="(min-width: 768px) 45vw, 100vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-[1.05]"
+                    />
+                    <span className="absolute top-4 left-4 inline-flex items-center px-3 py-1.5 rounded-full bg-surface/95 backdrop-blur text-[10px] font-semibold uppercase tracking-wider text-brand-forest">
                       {p.category}
                     </span>
+                    <div className="absolute top-4 right-4 size-9 rounded-full bg-brand-lime opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all flex items-center justify-center">
+                      <ArrowUpRight className="size-4 text-brand-forest-deep" />
+                    </div>
                   </div>
                   <div className="p-6 lg:p-8">
-                    <h3 className="font-bold tracking-tight text-2xl text-foreground tracking-tight leading-tight mb-3">
+                    <div className="flex items-center gap-3 text-xs text-foreground-muted mb-3">
+                      <time dateTime={p.publishedAt}>
+                        {new Date(p.publishedAt).toLocaleDateString("pl-PL", {
+                          day: "numeric",
+                          month: "long",
+                          year: "numeric",
+                        })}
+                      </time>
+                      <span className="size-1 rounded-full bg-foreground-subtle" />
+                      <span className="inline-flex items-center gap-1">
+                        <Clock className="size-3" />
+                        {p.readingMinutes} min
+                      </span>
+                    </div>
+                    <h3 className="font-bold tracking-tight text-2xl text-foreground leading-tight mb-3 group-hover:text-brand-forest transition-colors">
                       {p.title}
                     </h3>
-                    <p className="text-foreground-muted leading-relaxed">{p.excerpt}</p>
+                    <p className="text-foreground-muted leading-relaxed line-clamp-2">{p.excerpt}</p>
                   </div>
                 </Link>
               ))}
