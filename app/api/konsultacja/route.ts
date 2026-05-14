@@ -36,7 +36,7 @@ export async function POST(req: Request) {
   }
   const data = parsed.data;
 
-  // TODO: Po dorzuceniu RESEND_API_KEY do env w Vercelu — odkomentować
+  // TODO: Po dorzuceniu RESEND_API_KEY do env w Vercelu. Odkomentować
   // i wysłać e-mail do biura. Na razie tylko logujemy w serverless logs.
   //
   // const resendKey = process.env.RESEND_API_KEY;
@@ -52,7 +52,7 @@ export async function POST(req: Request) {
   //       from: "Strona Starnawska <strona@starnawska.pl>",
   //       to: toEmail,
   //       reply_to: data.email || undefined,
-  //       subject: `Konsultacja: ${intentLabels[data.intent]} — ${data.name}`,
+  //       subject: `Konsultacja: ${intentLabels[data.intent]} . ${data.name}`,
   //       html: renderEmailHtml(data),
   //     }),
   //   });
@@ -62,9 +62,9 @@ export async function POST(req: Request) {
     intent: intentLabels[data.intent],
     name: data.name,
     phone: data.phone,
-    email: data.email || "—",
-    agentka: data.agentka || "—",
-    msgPreview: data.message?.slice(0, 80) || "—",
+    email: data.email || "-",
+    agentka: data.agentka || "-",
+    msgPreview: data.message?.slice(0, 80) || "-",
   });
 
   return NextResponse.json({ ok: true });

@@ -18,7 +18,7 @@ export const dynamic = "force-dynamic";
 export default function HomePage() {
   return (
     <>
-      {/* Hero ma własną animację — bez Reveal */}
+      {/* Hero ma własną animację. Bez Reveal */}
       <Hero />
       <QuickSearch />
 

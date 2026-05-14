@@ -67,7 +67,7 @@ export function ValueBento() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-6 gap-4 auto-rows-[200px]">
-          {/* 1. Tylko Trójmiasto — hero card, ciemna, 3x2 */}
+          {/* 1. Tylko Trójmiasto. Hero card, ciemna, 3x2 */}
           <BentoCard
             tone="dark"
             span="md:col-span-3 md:row-span-2"
@@ -87,7 +87,7 @@ export function ValueBento() {
             }
           />
 
-          {/* 2. Zespół 9 kobiet — 3x1 */}
+          {/* 2. Zespół 9 kobiet. 3x1 */}
           <BentoCard
             span="md:col-span-3"
             delay={0.1}
@@ -113,7 +113,7 @@ export function ValueBento() {
             }
           />
 
-          {/* 3. Profesjonalne sesje — lime, 3x1 */}
+          {/* 3. Profesjonalne sesje. Lime, 3x1 */}
           <BentoCard
             tone="lime"
             span="md:col-span-3"
@@ -129,7 +129,7 @@ export function ValueBento() {
             }
           />
 
-          {/* 4. Transparentna umowa — 2x1 */}
+          {/* 4. Transparentna umowa. 2x1 */}
           <BentoCard
             span="md:col-span-2"
             delay={0.3}
@@ -138,7 +138,7 @@ export function ValueBento() {
             body="Bez ukrytych prowizji. Wszystko spisane od pierwszego spotkania."
           />
 
-          {/* 5. Doradztwo kredytowe — 2x1 */}
+          {/* 5. Doradztwo kredytowe. 2x1 */}
           <BentoCard
             span="md:col-span-2"
             delay={0.4}
@@ -147,7 +147,7 @@ export function ValueBento() {
             body="Współpracujemy z bankami i pośrednikami. Pomagamy załatwić kredyt równolegle."
           />
 
-          {/* 6. Rynek pierwotny — 2x1 */}
+          {/* 6. Rynek pierwotny. 2x1 */}
           <BentoCard
             span="md:col-span-2"
             delay={0.5}
@@ -162,7 +162,7 @@ export function ValueBento() {
 }
 
 /* ============================================
-   DistrictsTicker — przewijające się nazwy dzielnic
+   DistrictsTicker. Przewijające się nazwy dzielnic
    ============================================ */
 const districts = [
   "Orłowo", "Witomino-Leśniczówka", "Mały Kack", "Wzgórze Św. Maksymiliana",
@@ -245,7 +245,7 @@ function DistrictsTicker() {
 }
 
 /* ============================================
-   Stat — animowany count-up
+   Stat. Animowany count-up
    ============================================ */
 function Stat({ value, label }: { value: number; label: string }) {
   return (

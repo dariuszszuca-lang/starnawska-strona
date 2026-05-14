@@ -18,7 +18,7 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Doradztwo i usługi — sprzedaż, najem, kredyty, home staging",
+  title: "Doradztwo i usługi. Sprzedaż, najem, kredyty, home staging",
   description:
     "Co dla Ciebie zrobimy: kompleksowa sprzedaż, wynajem długoterminowy, doradztwo kredytowe, home staging i sesje fotograficzne. Trójmiasto.",
 };
@@ -40,7 +40,7 @@ const services = [
     ],
     caseStudy: {
       label: "Ostatnio",
-      text: "Mieszkanie 78 m² w Sopocie — sprzedane w 14 dni, 8% powyżej średniej dzielnicowej.",
+      text: "Mieszkanie 78 m² w Sopocie. Sprzedane w 14 dni, 8% powyżej średniej dzielnicowej.",
     },
     cta: "Sprzedaj z nami",
     tone: "default" as const,
@@ -109,7 +109,7 @@ const services = [
 
 const stats = [
   { value: "120+", label: "transakcji rocznie" },
-  { value: "14", label: "dni — średni czas sprzedaży" },
+  { value: "14", label: "dni. Średni czas sprzedaży" },
   { value: "12", label: "banków w sieci kredytowej" },
   { value: "73%", label: "klientów z polecenia" },
 ];
@@ -230,7 +230,7 @@ export default function DoradztwoPage() {
         </section>
       </Reveal>
 
-      {/* Pasek nav — bez sticky, jako wskazówka co dalej */}
+      {/* Pasek nav. Bez sticky, jako wskazówka co dalej */}
       <section className="py-6 lg:py-8">
         <Container size="wide">
           <nav className="flex flex-wrap gap-2" aria-label="Spis usług">

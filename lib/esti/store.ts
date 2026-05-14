@@ -6,7 +6,7 @@ import type { Offer, OfferFilters, OffersResult } from "./types";
  * Storage ofert: lokalny plik data/offers.json w repo.
  *
  * Cron sync (Vercel) zapisuje plik przez commit do GitHuba.
- * Tu tylko czytamy z lokalnego filesystem — zero zewnętrznych usług.
+ * Tu tylko czytamy z lokalnego filesystem. Zero zewnętrznych usług.
  */
 
 const OFFERS_FILE = path.join(process.cwd(), "data", "offers.json");
@@ -20,7 +20,7 @@ let memCache: { data: CacheShape; loadedAt: number } | null = null;
 const MEM_TTL_MS = 60_000;
 
 export async function readOffers(): Promise<CacheShape | null> {
-  // In-memory cache w obrębie jednej instancji (60s) — żeby nie czytać pliku
+  // In-memory cache w obrębie jednej instancji (60s). Żeby nie czytać pliku
   // przy każdym żądaniu strony.
   if (memCache && Date.now() - memCache.loadedAt < MEM_TTL_MS) {
     return memCache.data;

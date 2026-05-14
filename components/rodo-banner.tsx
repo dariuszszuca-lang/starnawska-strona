@@ -172,7 +172,7 @@ export function RodoBanner() {
                       />
                       <PreferenceRow
                         label="Analityka"
-                        description="Anonimowe statystyki — co działa, co nie."
+                        description="Anonimowe statystyki. Co działa, co nie."
                         checked={analytics}
                         onChange={setAnalytics}
                       />
@@ -200,7 +200,7 @@ export function RodoBanner() {
         )}
       </AnimatePresence>
 
-      {/* Pływająca ikona po decyzji — pozwala wrócić do ustawień */}
+      {/* Pływająca ikona po decyzji. Pozwala wrócić do ustawień */}
       {!open && readPreferences() && (
         <button
           onClick={openAgain}

@@ -1,12 +1,12 @@
 /**
- * Opinie klientów — wszystkie prawdziwe, pobrane z trojmiasto.pl
+ * Opinie klientów. Wszystkie prawdziwe, pobrane z trojmiasto.pl
  * (oraz wcześniej z Google). Pełne cytaty, agentki dopasowane do team.ts.
  */
 
 export type Testimonial = {
   id: string;
   body: string;
-  /** Pełna wersja cytatu (dla featured). Jeśli brak — używamy body. */
+  /** Pełna wersja cytatu (dla featured). Jeśli brak. Używamy body. */
   bodyLong?: string;
   author: string;
   role?: string;
@@ -20,9 +20,9 @@ export const testimonials: Testimonial[] = [
   {
     id: "t1",
     body:
-      "Niesamowite i szybkie rezultaty — sprzedaż w ciągu 2 tygodni od podpisania umowy. Profesjonalne podejście do klienta, transparentna umowa. Mogę polecić każdemu, kto chce sprzedać nieruchomość bez nerwów.",
+      "Niesamowite i szybkie rezultaty. Sprzedaż w ciągu 2 tygodni od podpisania umowy. Profesjonalne podejście do klienta, transparentna umowa. Mogę polecić każdemu, kto chce sprzedać nieruchomość bez nerwów.",
     bodyLong:
-      "Niesamowite i szybkie rezultaty — sprzedaż w ciągu 2 tygodni od podpisania umowy z biurem. Profesjonalne podejście do klienta, transparentna umowa. Mogę polecić każdemu, kto chce sprzedać nieruchomość bez nerwów.",
+      "Niesamowite i szybkie rezultaty. Sprzedaż w ciągu 2 tygodni od podpisania umowy z biurem. Profesjonalne podejście do klienta, transparentna umowa. Mogę polecić każdemu, kto chce sprzedać nieruchomość bez nerwów.",
     author: "Marta K.",
     role: "Sprzedaż mieszkania · Gdynia Orłowo",
     agentSlug: "anna-jankowska",
@@ -48,7 +48,7 @@ export const testimonials: Testimonial[] = [
     body:
       "Pani Kaszuba profesjonalnie przeprowadziła mnie przez cały proces sprzedaży. To była czysta przyjemność.",
     bodyLong:
-      "Pani Kaszuba profesjonalnie przeprowadziła mnie przez cały proces sprzedaży nieruchomości. Każdy szczegół był dopięty na ostatni guzik. Atmosfera spotkań, kontakt, terminy — to była czysta przyjemność.",
+      "Pani Kaszuba profesjonalnie przeprowadziła mnie przez cały proces sprzedaży nieruchomości. Każdy szczegół był dopięty na ostatni guzik. Atmosfera spotkań, kontakt, terminy. To była czysta przyjemność.",
     author: "Magdalena",
     role: "Sprzedaż mieszkania · Trójmiasto",
     agentSlug: "katarzyna-kaszuba",
@@ -113,7 +113,7 @@ export const testimonials: Testimonial[] = [
     body:
       "Z pełnym przekonaniem polecam współpracę z biurem. Pani Agata Klimkiewicz prowadziła moją sprawę wzorowo.",
     bodyLong:
-      "Z pełnym przekonaniem polecam współpracę z biurem nieruchomości Starnawska Boleńska. Pani Agata Klimkiewicz prowadziła moją sprawę wzorowo — od wyceny, przez pokazy, po finalizację. Pełen profesjonalizm.",
+      "Z pełnym przekonaniem polecam współpracę z biurem nieruchomości Starnawska Boleńska. Pani Agata Klimkiewicz prowadziła moją sprawę wzorowo. Od wyceny, przez pokazy, po finalizację. Pełen profesjonalizm.",
     author: "Sylwia Witkowska",
     role: "Sprzedaż mieszkania · Gdynia",
     agentSlug: "agata-klimkiewicz",
@@ -124,7 +124,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t9",
     body:
-      "Pani Katarzyna Kaszuba — zaangażowana, dokładna i przewidująca. Mogę z czystym sumieniem polecić.",
+      "Pani Katarzyna Kaszuba. Zaangażowana, dokładna i przewidująca. Mogę z czystym sumieniem polecić.",
     bodyLong:
       "Z pełnym przekonaniem polecamy współpracę z Panią Katarzyną Kaszubą. Zaangażowana, dokładna i przewidująca. Każdy szczegół pod kontrolą. Mogę z czystym sumieniem polecić każdemu sprzedającemu.",
     author: "Beata Sikorska",
@@ -137,9 +137,9 @@ export const testimonials: Testimonial[] = [
   {
     id: "t10",
     body:
-      "W tym biurze kupowałem i sprzedawałem nieruchomość. Polecam — praktycznie wszystko załatwialiśmy zdalnie.",
+      "W tym biurze kupowałem i sprzedawałem nieruchomość. Polecam. Praktycznie wszystko załatwialiśmy zdalnie.",
     bodyLong:
-      "W tym biurze kupowałem jak i sprzedawałem nieruchomość. Polecam szczególnie za to, że praktycznie wszystko załatwialiśmy zdalnie. Nie musiałem latać do Polski na pokazy — wszystko sprawnie i bezpiecznie.",
+      "W tym biurze kupowałem jak i sprzedawałem nieruchomość. Polecam szczególnie za to, że praktycznie wszystko załatwialiśmy zdalnie. Nie musiałem latać do Polski na pokazy. Wszystko sprawnie i bezpiecznie.",
     author: "Damian Grądecki",
     role: "Sprzedaż i zakup · Trójmiasto",
     agentSlug: "patrycja-sudwoj-bolenska",

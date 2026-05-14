@@ -45,7 +45,7 @@ export default function Page() {
         anonimowe (zagregowane).
       </p>
       <ul>
-        <li>Vercel Analytics — anonimowe statystyki ruchu (bez cookies śledzących).</li>
+        <li>Vercel Analytics. Anonimowe statystyki ruchu (bez cookies śledzących).</li>
       </ul>
 
       <h3>Marketingowe (opcjonalne, za zgodą)</h3>
@@ -58,18 +58,18 @@ export default function Page() {
       <p>Możesz zarządzać preferencjami cookies na trzy sposoby:</p>
       <ul>
         <li>
-          <strong>Banner cookies</strong> — przy pierwszej wizycie zobaczysz okno,
+          <strong>Banner cookies</strong>. Przy pierwszej wizycie zobaczysz okno,
           w którym możesz wybrać, na które cookies się zgadzasz. Po wyborze
           decyzję możesz w każdej chwili zmienić, klikając ikonę tarczy w lewym
           dolnym rogu strony.
         </li>
         <li>
-          <strong>Ustawienia przeglądarki</strong> — większość przeglądarek
+          <strong>Ustawienia przeglądarki</strong>. Większość przeglądarek
           pozwala blokować lub usuwać cookies. Sprawdź dokumentację swojej
           przeglądarki (Chrome, Firefox, Safari, Edge).
         </li>
         <li>
-          <strong>Wycofanie zgody</strong> — możesz w każdym momencie wycofać
+          <strong>Wycofanie zgody</strong>. Możesz w każdym momencie wycofać
           udzieloną zgodę. Cofnięcie nie wpływa na zgodność z prawem
           przetwarzania przed wycofaniem.
         </li>

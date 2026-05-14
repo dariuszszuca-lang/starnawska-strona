@@ -67,7 +67,7 @@ export function OffMarket() {
                   "Mieszkania z najlepszych adresów w Sopocie i Gdyni Orłowie",
                   "Domy z prywatnym ogrodem, blisko morza",
                   "Nieruchomości komercyjne i inwestycyjne",
-                  "Oferty przed publiczną premierą (1–4 tygodnie wcześniej)",
+                  "Oferty przed publiczną premierą (1-4 tygodnie wcześniej)",
                 ].map((item) => (
                   <li
                     key={item}
@@ -97,7 +97,7 @@ export function OffMarket() {
               </p>
             </div>
 
-            {/* Kafelki ofert — animowane */}
+            {/* Kafelki ofert. Animowane */}
             <div className="lg:col-span-5">
               <div className="relative aspect-[4/5] max-w-sm mx-auto">
                 <div className="absolute inset-0 flex flex-col justify-center gap-4">
@@ -145,7 +145,7 @@ export function OffMarket() {
                             <Lock className="size-4 text-brand-lime" />
                           </div>
                         </div>
-                        {/* Blurred overlay — udaje że szczegóły są ukryte */}
+                        {/* Blurred overlay. Udaje że szczegóły są ukryte */}
                         <div
                           aria-hidden
                           className="absolute right-0 bottom-0 left-1/3 h-12 bg-gradient-to-r from-transparent to-surface-dark-elevated"

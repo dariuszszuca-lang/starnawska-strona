@@ -96,7 +96,7 @@ export type Offer = {
   updatedAt: string;
 };
 
-/** Filtry wyszukiwarki — synchronizowane z URL search params */
+/** Filtry wyszukiwarki. Synchronizowane z URL search params */
 export type OfferFilters = {
   transaction?: OfferTransaction;
   type?: OfferType;

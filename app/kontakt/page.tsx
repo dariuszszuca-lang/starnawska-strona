@@ -7,9 +7,9 @@ import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Kontakt — biuro w Gdyni, Bytomska 14/1",
+  title: "Kontakt. Biuro w Gdyni, Bytomska 14/1",
   description:
-    "Skontaktuj się z biurem Starnawska & Boleńska Nieruchomości w Gdyni. Telefon, e-mail, mapa. Otwarte pon–pt, 9–17.",
+    "Skontaktuj się z biurem Starnawska & Boleńska Nieruchomości w Gdyni. Telefon, e-mail, mapa. Otwarte pon-pt, 9-17.",
 };
 
 export default function KontaktPage() {

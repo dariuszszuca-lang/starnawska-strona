@@ -6,7 +6,7 @@ import { Container } from "@/components/ui/container";
 import { getAllMembersSorted } from "@/lib/team";
 
 export const metadata: Metadata = {
-  title: "Nasz zespół — agentki nieruchomości w Gdyni",
+  title: "Nasz zespół. Agentki nieruchomości w Gdyni",
   description:
     "Poznaj zespół Starnawska & Boleńska Nieruchomości. 9 ekspertek z Trójmiasta. Każda specjalizuje się w innym segmencie rynku.",
 };
@@ -37,7 +37,7 @@ export default function TeamPage() {
         </Container>
       </section>
 
-      {/* Cały zespół — jeden grid */}
+      {/* Cały zespół. Jeden grid */}
       <section className="py-12 pb-24">
         <Container size="wide">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">

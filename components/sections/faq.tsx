@@ -19,17 +19,17 @@ const faqs: FAQItem[] = [
   {
     cat: "Sprzedaż",
     q: "Ile kosztuje sprzedaż mieszkania przez biuro?",
-    a: "W Trójmieście standardowa prowizja to 2–3% wartości nieruchomości + VAT. Płaci sprzedający, kupujący, albo strony dzielą się prowizją. Kwota jest negocjowalna przy droższych ofertach. Wszystkie warunki zapisujemy w umowie pośrednictwa, bez gwiazdek.",
+    a: "W Trójmieście standardowa prowizja to 2-3% wartości nieruchomości + VAT. Płaci sprzedający, kupujący, albo strony dzielą się prowizją. Kwota jest negocjowalna przy droższych ofertach. Wszystkie warunki zapisujemy w umowie pośrednictwa, bez gwiazdek.",
   },
   {
     cat: "Sprzedaż",
     q: "Jak długo trwa sprzedaż mieszkania w Gdyni?",
-    a: "Średnio 6–10 tygodni od publikacji oferty do podpisania umowy przedwstępnej, plus kolejne 4–8 tygodni do aktu notarialnego, jeśli kupujący bierze kredyt. Krótszy czas to znak dobrze ustalonej ceny, dłuższy oznacza zazwyczaj problem z wyceną lub prezentacją.",
+    a: "Średnio 6-10 tygodni od publikacji oferty do podpisania umowy przedwstępnej, plus kolejne 4-8 tygodni do aktu notarialnego, jeśli kupujący bierze kredyt. Krótszy czas to znak dobrze ustalonej ceny, dłuższy oznacza zazwyczaj problem z wyceną lub prezentacją.",
   },
   {
     cat: "Współpraca",
     q: "Czy podpisujemy wyłączność?",
-    a: "Tak, ale na warunkach uczciwych. Standardowa umowa to 3–6 miesięcy z prawem wypowiedzenia 30-dniowego. Comiesięcznie wysyłamy raport z aktywności: ile pokazów, ile zapytań, jakie kontroferty. Wyłączność to warunek skutecznej promocji w naszej bazie pośredników.",
+    a: "Tak, ale na warunkach uczciwych. Standardowa umowa to 3-6 miesięcy z prawem wypowiedzenia 30-dniowego. Comiesięcznie wysyłamy raport z aktywności: ile pokazów, ile zapytań, jakie kontroferty. Wyłączność to warunek skutecznej promocji w naszej bazie pośredników.",
   },
   {
     cat: "Najem",
@@ -82,7 +82,7 @@ export function FAQ() {
 
       <Container size="wide" className="relative">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
-          {/* LEWA — sticky panel */}
+          {/* LEWA. Sticky panel */}
           <aside className="lg:col-span-4 lg:sticky lg:top-32 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider">
               <HelpCircle className="size-3.5" />
@@ -139,7 +139,7 @@ export function FAQ() {
             </div>
           </aside>
 
-          {/* PRAWA — filtry + lista */}
+          {/* PRAWA. Filtry + lista */}
           <div className="lg:col-span-8">
             {/* Filtry kategorii */}
             <div className="flex flex-wrap gap-2 mb-6">

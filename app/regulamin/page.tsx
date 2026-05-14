@@ -104,7 +104,7 @@ export default function Page() {
         <a href={`mailto:${siteConfig.contact.email}`}>
           {siteConfig.contact.email}
         </a>
-        . Reklamacje rozpatrujemy w terminie 14 dni roboczych od daty
+       . Reklamacje rozpatrujemy w terminie 14 dni roboczych od daty
         otrzymania.
       </p>
 

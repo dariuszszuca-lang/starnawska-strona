@@ -68,7 +68,7 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 /* ============================================
-   Pill — pojedynczy portal w marquee
+   Pill. Pojedynczy portal w marquee
    ============================================ */
 function PortalPill({ portal }: { portal: Portal }) {
   return (
@@ -114,7 +114,7 @@ export function Portals() {
           </div>
         </div>
 
-        {/* Marquee rząd 1 — w lewo */}
+        {/* Marquee rząd 1. W lewo */}
         <div className="relative overflow-hidden">
           <div
             aria-hidden
@@ -131,7 +131,7 @@ export function Portals() {
           </div>
         </div>
 
-        {/* Marquee rząd 2 — w prawo */}
+        {/* Marquee rząd 2. W prawo */}
         <div className="relative overflow-hidden mt-3">
           <div
             aria-hidden

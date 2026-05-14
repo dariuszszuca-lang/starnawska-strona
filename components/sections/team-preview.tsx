@@ -69,7 +69,7 @@ export function TeamPreview() {
                   <ArrowUpRight className="size-4 text-brand-forest-deep" />
                 </div>
 
-                {/* Hover phone — subtelny */}
+                {/* Hover phone. Subtelny */}
                 {m.phoneDisplay && (
                   <div className="absolute top-3 left-3 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-white/95 backdrop-blur text-[10px] font-semibold text-brand-forest-deep opacity-0 group-hover:opacity-100 transition-all tabular-nums">
                     <Phone className="size-3 text-brand-olive" />

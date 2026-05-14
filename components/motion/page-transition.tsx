@@ -6,7 +6,7 @@ import type { ReactNode } from "react";
 
 /**
  * Subtelne przejście między stronami: 200ms fade + delikatny y.
- * Nie blokuje SSG — re-renderuje tylko przy zmianie pathname.
+ * Nie blokuje SSG. Re-renderuje tylko przy zmianie pathname.
  */
 export function PageTransition({ children }: { children: ReactNode }) {
   const pathname = usePathname();

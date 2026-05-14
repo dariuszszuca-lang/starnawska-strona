@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "O nas — historia biura od 2011 roku",
+  title: "O nas. Historia biura od 2011 roku",
   description:
     "Starnawska & Boleńska Nieruchomości. Od 2011 roku w Gdyni. Zespół 9 kobiet, ponad 1500 transakcji, jedna zasada: Twoje potrzeby są naszym priorytetem.",
 };

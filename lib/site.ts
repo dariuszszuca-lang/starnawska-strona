@@ -1,6 +1,6 @@
 /**
  * Centralne dane firmy.
- * Każda zmiana (telefon, adres, social) — TYLKO tutaj.
+ * Każda zmiana (telefon, adres, social). TYLKO tutaj.
  */
 
 export const siteConfig = {
@@ -28,7 +28,7 @@ export const siteConfig = {
       { label: "Biuro", value: "+48 608 692 552", displayValue: "608 692 552", href: "tel:+48608692552" },
     ],
     email: "biuro@starnawska.pl",
-    hours: "Pon–Pt, 9:00–17:00",
+    hours: "Pon-Pt, 9:00-17:00",
   },
 
   /** Profile zewnętrzne */
@@ -46,7 +46,7 @@ export const siteConfig = {
   /** Rok założenia */
   foundedYear: 2011,
 
-  /** Liczby na hero / sekcję USP — placeholdery do potwierdzenia */
+  /** Liczby na hero / sekcję USP. Placeholdery do potwierdzenia */
   metrics: {
     yearsActive: new Date().getFullYear() - 2011,
     transactions: "1500+",

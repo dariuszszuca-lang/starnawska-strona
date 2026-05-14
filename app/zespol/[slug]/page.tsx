@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const member = getMemberBySlug(slug);
   if (!member) return { title: "Nie znaleziono" };
   return {
-    title: `${member.fullName} — ${member.role}`,
+    title: `${member.fullName}. ${member.role}`,
     description: member.bio,
     openGraph: {
       title: `${member.fullName} | ${siteConfig.shortName}`,
@@ -190,7 +190,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                   />
                 </div>
 
-                {/* Kółko z liczbą ofert — naklejka VIP */}
+                {/* Kółko z liczbą ofert. Naklejka VIP */}
                 {offers.length > 0 && (
                   <div className="absolute -bottom-6 -left-4 lg:-bottom-8 lg:-left-8 z-10">
                     <div className="relative size-28 lg:size-32 rounded-full bg-brand-lime text-brand-forest-deep flex flex-col items-center justify-center shadow-[0_20px_50px_-15px_rgba(0,0,0,0.5)] rotate-[-6deg]">

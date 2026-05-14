@@ -12,7 +12,7 @@ import type { OfferFilters, OfferTransaction, OfferType, OfferMarket } from "@/l
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Oferty nieruchomości — Trójmiasto",
+  title: "Oferty nieruchomości. Trójmiasto",
   description:
     "Aktualne oferty mieszkań, domów, działek i lokali w Gdyni, Sopocie i Gdańsku. Sprzedaż, wynajem. Dane aktualizowane co godzinę z naszego CRM.",
 };
@@ -118,8 +118,8 @@ function EmptyState({ lastSyncLabel }: { lastSyncLabel: string | null }) {
           </h2>
           <p className="text-foreground-muted leading-relaxed max-w-xl mx-auto mb-8">
             {lastSyncLabel
-              ? "Zmień filtry, wyczyść kryteria lub skontaktuj się z nami — może mamy coś spod lady."
-              : "Synchronizujemy bazę z naszym CRM ESTI. Pierwsze oferty pojawią się tu w ciągu najbliższej godziny. W międzyczasie zadzwoń — dopasujemy ofertę pod Ciebie."}
+              ? "Zmień filtry, wyczyść kryteria lub skontaktuj się z nami. Może mamy coś spod lady."
+              : "Synchronizujemy bazę z naszym CRM ESTI. Pierwsze oferty pojawią się tu w ciągu najbliższej godziny. W międzyczasie zadzwoń. Dopasujemy ofertę pod Ciebie."}
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">

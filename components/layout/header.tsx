@@ -60,7 +60,7 @@ export function Header() {
               <span className="hidden xl:inline">{siteConfig.contact.phones[0].displayValue}</span>
             </a>
 
-            {/* Social — większe + branded hover */}
+            {/* Social. Większe + branded hover */}
             <span className="h-7 w-px bg-border" aria-hidden />
             <div className="flex items-center gap-1.5">
               <a
@@ -88,7 +88,7 @@ export function Header() {
             </div>
           </div>
 
-          {/* CTA — osobno obok pilla */}
+          {/* CTA. Osobno obok pilla */}
           <Button asChild variant="lime" size="md" className="hidden lg:inline-flex shrink-0">
             <Link href="/konsultacja">
               Umów konsultację
@@ -112,7 +112,7 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile menu — pełnoekranowy overlay */}
+      {/* Mobile menu. Pełnoekranowy overlay */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -185,7 +185,7 @@ export function Header() {
 }
 
 /* ============================================
-   MagicNav — kursor podążający za items
+   MagicNav. Kursor podążający za items
    Inspirowane 21st.dev (Tab/Cursor pattern)
    ============================================ */
 
@@ -208,7 +208,7 @@ function MagicNav({
   });
   const [restPos, setRestPos] = useState<{ left: number; width: number } | null>(null);
 
-  // Po mount / zmianie pathname — wyceluj highlight pod aktywny item
+  // Po mount / zmianie pathname. Wyceluj highlight pod aktywny item
   useEffect(() => {
     if (!ulRef.current) return;
     const activeEl = ulRef.current.querySelector<HTMLLIElement>("[data-active='true']");
@@ -238,7 +238,7 @@ function MagicNav({
         ref={ulRef}
         className="relative flex items-center gap-0.5"
       >
-        {/* Animowany highlight pod items — lime */}
+        {/* Animowany highlight pod items. Lime */}
         <motion.span
           animate={underline}
           transition={{ type: "spring", stiffness: 400, damping: 34, mass: 0.55 }}

@@ -10,7 +10,7 @@ const partners = [
     logo: "/partners/pfrn_sppon.jpg",
   },
   {
-    name: "RECAMP — Akademia Real Estate",
+    name: "RECAMP. Akademia Real Estate",
     short: "RECAMP",
     description: "Akredytacja branżowa",
     logo: "/partners/recamp.jpg",

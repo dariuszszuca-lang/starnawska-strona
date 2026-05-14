@@ -64,7 +64,7 @@ export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
                 {b.text}
                 {b.cite && (
                   <footer className="mt-3 text-sm text-foreground-subtle not-italic">
-                    — {b.cite}
+                    . {b.cite}
                   </footer>
                 )}
               </blockquote>

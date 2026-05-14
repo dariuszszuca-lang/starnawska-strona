@@ -33,12 +33,12 @@ export default function Page() {
       <ul>
         <li>
           <strong>Obsługa zapytań i konsultacji</strong> wysłanych przez formularz
-          kontaktowy — na podstawie Twojej zgody (art. 6 ust. 1 lit. a RODO) oraz
+          kontaktowy. Na podstawie Twojej zgody (art. 6 ust. 1 lit. a RODO) oraz
           w celu podjęcia działań na żądanie osoby przed zawarciem umowy (art. 6
           ust. 1 lit. b RODO).
         </li>
         <li>
-          <strong>Realizacja umów pośrednictwa</strong> w obrocie nieruchomościami —
+          <strong>Realizacja umów pośrednictwa</strong> w obrocie nieruchomościami
           na podstawie zawartej umowy (art. 6 ust. 1 lit. b RODO).
         </li>
         <li>
@@ -47,11 +47,11 @@ export default function Page() {
         </li>
         <li>
           <strong>Marketing własnych usług</strong>, w tym przesyłanie informacji
-          o nowych ofertach — wyłącznie po wyrażeniu odrębnej zgody (art. 6 ust. 1
+          o nowych ofertach. Wyłącznie po wyrażeniu odrębnej zgody (art. 6 ust. 1
           lit. a RODO).
         </li>
         <li>
-          <strong>Ustalanie, dochodzenie lub obrona roszczeń</strong> — na podstawie
+          <strong>Ustalanie, dochodzenie lub obrona roszczeń</strong>. Na podstawie
           prawnie uzasadnionego interesu Administratora (art. 6 ust. 1 lit. f RODO).
         </li>
       </ul>
@@ -61,7 +61,7 @@ export default function Page() {
       <ul>
         <li>Imię i nazwisko, dane kontaktowe (telefon, e-mail).</li>
         <li>
-          Dane dotyczące nieruchomości (adres, parametry techniczne, status prawny) —
+          Dane dotyczące nieruchomości (adres, parametry techniczne, status prawny)
           jeśli zlecasz nam sprzedaż, kupno lub najem.
         </li>
         <li>
@@ -70,7 +70,7 @@ export default function Page() {
         </li>
         <li>
           Dane techniczne związane z korzystaniem ze strony: adres IP, typ
-          przeglądarki, urządzenie — zbierane automatycznie (więcej w polityce
+          przeglądarki, urządzenie. Zbierane automatycznie (więcej w polityce
           plików cookies).
         </li>
       </ul>
@@ -80,11 +80,11 @@ export default function Page() {
       <ul>
         <li>
           Podmiotom świadczącym dla nas usługi (kancelarie notarialne, biura
-          rachunkowe, dostawcy oprogramowania, hosting, marketing) — na podstawie
+          rachunkowe, dostawcy oprogramowania, hosting, marketing). Na podstawie
           umów powierzenia przetwarzania danych.
         </li>
         <li>
-          Drugiej stronie transakcji — w zakresie niezbędnym do zawarcia umowy
+          Drugiej stronie transakcji. W zakresie niezbędnym do zawarcia umowy
           (np. dane kupującego dla sprzedającego po podpisaniu umowy
           przedwstępnej).
         </li>
@@ -119,7 +119,7 @@ export default function Page() {
         <li>Prawo dostępu do swoich danych i otrzymania ich kopii.</li>
         <li>Prawo sprostowania (poprawiania) danych.</li>
         <li>
-          Prawo do usunięcia danych („prawo do bycia zapomnianym") — w zakresie,
+          Prawo do usunięcia danych („prawo do bycia zapomnianym"). W zakresie,
           w jakim przetwarzanie nie jest niezbędne do realizacji obowiązków
           prawnych lub ustalenia roszczeń.
         </li>
@@ -151,7 +151,7 @@ export default function Page() {
       <p>
         Nie podejmujemy zautomatyzowanych decyzji w oparciu o profilowanie. Możemy
         natomiast wykorzystywać podstawowe narzędzia analityczne do zrozumienia,
-        jak użytkownicy korzystają z naszej strony — w celu jej ulepszania.
+        jak użytkownicy korzystają z naszej strony. W celu jej ulepszania.
       </p>
 
       <h2>9. Pliki cookies</h2>

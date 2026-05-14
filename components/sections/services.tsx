@@ -74,11 +74,11 @@ const services: Service[] = [
       "Współpracujemy z niezależnymi pośrednikami kredytowymi. Liczymy zdolność, porównujemy oferty kilku banków i doprowadzamy do decyzji kredytowej.",
     steps: [
       { icon: TrendingUp, label: "Bezpłatna analiza zdolności kredytowej" },
-      { icon: Wallet, label: "Porównanie ofert z 5–8 banków" },
+      { icon: Wallet, label: "Porównanie ofert z 5-8 banków" },
       { icon: ShieldCheck, label: "Programy rządowe (Bezpieczny Kredyt 2%, BK#)" },
       { icon: Building, label: "Pomoc w skompletowaniu dokumentów" },
     ],
-    stat: { value: "5–8", label: "banków porównujemy w 24h" },
+    stat: { value: "5-8", label: "banków porównujemy w 24h" },
     cta: "Sprawdź zdolność",
   },
   {
@@ -87,9 +87,9 @@ const services: Service[] = [
     title: "Home staging i sesja zdjęciowa",
     tagline: "Pierwsze cztery sekundy decydują.",
     description:
-      "Profesjonalne zdjęcia szerokokątne, plan 2D, lekka aranżacja wnętrza. Oferta przygotowana w ten sposób uzyskuje średnio 60–120% więcej zapytań w pierwszym tygodniu publikacji.",
+      "Profesjonalne zdjęcia szerokokątne, plan 2D, lekka aranżacja wnętrza. Oferta przygotowana w ten sposób uzyskuje średnio 60-120% więcej zapytań w pierwszym tygodniu publikacji.",
     steps: [
-      { icon: Camera, label: "Sesja szerokokątna 12–20 ujęć" },
+      { icon: Camera, label: "Sesja szerokokątna 12-20 ujęć" },
       { icon: Building, label: "Plan piętra 2D w formacie PNG/PDF" },
       { icon: Sparkles, label: "Wirtualne meblowanie pustych pomieszczeń" },
       { icon: Home, label: "Doradztwo: co posprzątać przed sesją" },
@@ -118,7 +118,7 @@ export function Services() {
           </h2>
           <p className="mt-5 text-lg text-foreground-muted leading-relaxed max-w-xl">
             Wybierz tę, która pasuje do Twojej sytuacji. Albo zadzwoń, jeśli sprawa
-            jest bardziej skomplikowana — łączymy te obszary, kiedy trzeba.
+            jest bardziej skomplikowana. Łączymy te obszary, kiedy trzeba.
           </p>
         </div>
 

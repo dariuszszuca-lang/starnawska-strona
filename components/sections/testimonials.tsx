@@ -310,7 +310,7 @@ function GoogleGIcon({ className }: { className?: string }) {
 }
 
 /* ============================================
-   AvatarInitials — kolorowe inicjały
+   AvatarInitials. Kolorowe inicjały
    ============================================ */
 function AvatarInitials({
   author,

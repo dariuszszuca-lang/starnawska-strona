@@ -18,7 +18,7 @@ export default function NotFound() {
       <Container size="default" className="relative">
         <div className="max-w-2xl">
           <p className="font-mono text-sm text-brand-lime mb-6 tracking-wider">
-            404 — strona nie znaleziona
+            404. Strona nie znaleziona
           </p>
           <h1 className="font-bold tracking-tight text-[clamp(3rem,8vw,6rem)] leading-[1] tracking-tight mb-6">
             Tu nic nie ma.

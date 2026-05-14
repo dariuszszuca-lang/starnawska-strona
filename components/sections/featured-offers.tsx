@@ -117,7 +117,7 @@ function FeaturedCard({ offer, priority }: { offer: Offer; priority: boolean }) 
           {offer.rooms !== undefined ? (
             <Stat icon={BedDouble} label="Pokoje" value={`${offer.rooms}`} />
           ) : (
-            <Stat icon={BedDouble} label="Pokoje" value="—" />
+            <Stat icon={BedDouble} label="Pokoje" value="-" />
           )}
           {offer.floor !== undefined && offer.type === "mieszkanie" ? (
             <Stat
@@ -128,7 +128,7 @@ function FeaturedCard({ offer, priority }: { offer: Offer; priority: boolean }) 
           ) : offer.yearBuilt ? (
             <Stat icon={Layers} label="Rok" value={`${offer.yearBuilt}`} />
           ) : (
-            <Stat icon={Layers} label="—" value="—" />
+            <Stat icon={Layers} label="-" value="-" />
           )}
         </dl>
       </div>

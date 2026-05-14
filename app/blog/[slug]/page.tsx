@@ -419,7 +419,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
           </Container>
         </section>
 
-        {/* Inne artykuły — duża sekcja na dole */}
+        {/* Inne artykuły. Duża sekcja na dole */}
         <section className="py-16 lg:py-24 bg-surface">
           <Container size="wide">
             <h2 className="font-bold tracking-tight text-3xl lg:text-4xl text-foreground mb-10">

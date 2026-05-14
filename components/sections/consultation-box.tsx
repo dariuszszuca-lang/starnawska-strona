@@ -90,7 +90,7 @@ export function ConsultationBox() {
           />
 
           <div className="relative grid lg:grid-cols-12 gap-10 lg:gap-16 p-8 lg:p-14">
-            {/* LEWA — tekst sprzedażowy */}
+            {/* LEWA. Tekst sprzedażowy */}
             <div className="lg:col-span-5 flex flex-col justify-between">
               <div>
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
@@ -111,8 +111,8 @@ export function ConsultationBox() {
 
                 <ul className="space-y-3">
                   <Promise icon={Clock} text="Odpowiadamy w ciągu jednego dnia roboczego" />
-                  <Promise icon={Check} text="Spotkanie w biurze, online lub telefonicznie" />
-                  <Promise icon={ShieldCheck} text="Twoje dane bezpieczne — RODO" />
+                  <Promise icon={Check} text="Spotkanie w biurze, zdalnie lub telefonicznie" />
+                  <Promise icon={ShieldCheck} text="Twoje dane bezpieczne. Zgodnie z RODO" />
                 </ul>
               </div>
 
@@ -135,7 +135,7 @@ export function ConsultationBox() {
               </div>
             </div>
 
-            {/* PRAWA — formularz */}
+            {/* PRAWA. Formularz */}
             <div className="lg:col-span-7">
               {submitState === "ok" ? (
                 <motion.div

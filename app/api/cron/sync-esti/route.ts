@@ -16,7 +16,7 @@ const DATA_PATH = "data/offers.json";
 /**
  * Cron: pobiera paczkę z ESTI, parsuje, zapisuje dane jako commit w repo.
  *
- * - Zdjęcia: public/oferty/<filename>  (delta — tylko nowe pliki blob upload)
+ * - Zdjęcia: public/oferty/<filename>  (delta. Tylko nowe pliki blob upload)
  * - JSON ofert: data/offers.json
  *
  * Vercel widzi push → automatyczny rebuild → strona aktualna.
@@ -66,7 +66,7 @@ export async function GET(req: Request) {
       Array.from(existing.keys()).map((p) => p.slice(IMG_PREFIX.length))
     );
 
-    // 4. Wstępne parsowanie — żeby wiedzieć które zdjęcia są primary
+    // 4. Wstępne parsowanie. Żeby wiedzieć które zdjęcia są primary
     const inPackage = new Set(imagesMap.keys());
     const willExistAll = new Set<string>([...existingFilenames, ...inPackage]);
     const preliminary: Offer[] = parseEstiXml(xmlText, willExistAll);
@@ -83,7 +83,7 @@ export async function GET(req: Request) {
     }
 
     // Limit upload per fire (GitHub secondary rate limit, Vercel 60s timeout).
-    // Resztę dopobierze kolejny cron — manual fire jutro 5:30 albo wcześniej.
+    // Resztę dopobierze kolejny cron. Manual fire jutro 5:30 albo wcześniej.
     const LIMIT_PER_RUN = 120;
 
     const allMissing: string[] = [];
@@ -98,7 +98,7 @@ export async function GET(req: Request) {
     const toUpload = allMissing.slice(0, LIMIT_PER_RUN);
     const deferred = allMissing.length - toUpload.length;
 
-    // 6. Final parse — z prawidłowym filtrem (tylko zdjęcia które realnie są albo będą w repo)
+    // 6. Final parse. Z prawidłowym filtrem (tylko zdjęcia które realnie są albo będą w repo)
     const willExistFinal = new Set<string>([...existingFilenames, ...toUpload]);
     const offers: Offer[] = parseEstiXml(xmlText, willExistFinal);
 

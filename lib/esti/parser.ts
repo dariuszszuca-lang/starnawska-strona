@@ -3,13 +3,13 @@ import AdmZip from "adm-zip";
 import type { Offer, OfferType, OfferTransaction, OfferMarket, OfferImage } from "./types";
 
 /**
- * Parser EstiCRMXml — format natywny ESTI (wersja angielska, z dictionaries).
+ * Parser EstiCRMXml. Format natywny ESTI (wersja angielska, z dictionaries).
  *
  * Struktura: <offers><offer>...</offer></offers>
  * Każda oferta ma ~270 pól. Mapujemy najważniejsze.
  *
  * Niektóre pola to obiekty {#text: '132', @_dictionary: 'transaction'}
- * — dictionary lookup. Hardkodujemy znane wartości.
+ *. Dictionary lookup. Hardkodujemy znane wartości.
  */
 
 const xml = new XMLParser({
@@ -63,7 +63,7 @@ export function unpackEstiZip(buffer: Buffer): {
 /**
  * Parsuje XML EstiCRM i zwraca tablicę ofert.
  * availableImages: zbiór nazw plików zdjęć dostępnych do podlinkowania
- *   (jeśli przekazane — tylko te zdjęcia trafią do Offer.images).
+ *   (jeśli przekazane. Tylko te zdjęcia trafią do Offer.images).
  */
 export function parseEstiXml(xmlText: string, availableImages?: Set<string>): Offer[] {
   const parsed = xml.parse(xmlText) as { offers?: { offer?: RawOffer[] } };
@@ -96,7 +96,7 @@ function mapRawToOffer(raw: RawOffer, availableImages?: Set<string>): Offer | nu
     .map((p, i): OfferImage | null => {
       const fileName = typeof p === "object" && p ? str((p as Record<string, unknown>)["#text"]) : str(p);
       if (!fileName) return null;
-      // Jeśli mamy listę dostępnych zdjęć — bierzemy tylko te które są w repo.
+      // Jeśli mamy listę dostępnych zdjęć. Bierzemy tylko te które są w repo.
       if (availableImages && !availableImages.has(fileName)) return null;
       // Plik serwowany statycznie z public/oferty/
       return { url: `/oferty/${fileName}`, primary: i === 0 };
@@ -239,7 +239,7 @@ function mapType(typeName: string, mainTypeIdObj: unknown): OfferType {
     case "3":
       return "dzialka";
     case "4":
-      // Komercyjne i garaże w jednej grupie u ESTI — rozróżniamy po nazwie.
+      // Komercyjne i garaże w jednej grupie u ESTI. Rozróżniamy po nazwie.
       if (
         v.includes("garaż") ||
         v.includes("garaz") ||
@@ -255,7 +255,7 @@ function mapType(typeName: string, mainTypeIdObj: unknown): OfferType {
 
   // Fallback przez typeName, gdy mainTypeId nie został podany.
   // Kolejność warunków: bardziej specyficzne (działka) PRZED ogólnymi (mieszkanie),
-  // bo ESTI używa nazw typu "Działka (Mieszkaniowa)" — szukanie "mieszkani" by zniweczyło dopasowanie.
+  // bo ESTI używa nazw typu "Działka (Mieszkaniowa)". Szukanie "mieszkani" by zniweczyło dopasowanie.
   if (v.startsWith("działk") || v.startsWith("dzialk") || v.includes("grunt")) return "dzialka";
   if (v.startsWith("dom") || v.includes("willa")) return "dom";
   if (v.includes("garaż") || v.includes("garaz") || v.includes("miejsce postoj")) return "garaz";
@@ -277,7 +277,7 @@ function extractTypeDetail(typeName: string): string | undefined {
   if (!typeName) return undefined;
   const match = typeName.match(/\(([^)]+)\)/);
   if (match) return match[1].trim();
-  // Bez nawiasu — zachowaj całą nazwę jeśli odbiega od podstawowego enuma,
+  // Bez nawiasu. Zachowaj całą nazwę jeśli odbiega od podstawowego enuma,
   // np. "Magazyn z biurami", "Miejsce postojowe", "Lokal handlowy/usługowy".
   const v = typeName.toLowerCase();
   if (v === "mieszkanie" || v === "dom" || v === "działka" || v === "lokal" || v === "garaż") {

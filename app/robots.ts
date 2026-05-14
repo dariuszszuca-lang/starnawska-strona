@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: ["/api/", "/studio/", "/_next/", "/admin/"],
       },
-      // Pozwalamy crawlerom AI — chcemy być cytowani w ChatGPT/Perplexity/Claude
+      // Pozwalamy crawlerom AI. Chcemy być cytowani w ChatGPT/Perplexity/Claude
       { userAgent: "GPTBot", allow: "/" },
       { userAgent: "ClaudeBot", allow: "/" },
       { userAgent: "PerplexityBot", allow: "/" },

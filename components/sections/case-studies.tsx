@@ -86,7 +86,7 @@ function Counter({ to, suffix = "", className }: { to: number; suffix?: string; 
 }
 
 /* ============================================
-   Speed bar — wskaźnik tempa sprzedaży
+   Speed bar. Wskaźnik tempa sprzedaży
    ============================================ */
 function SpeedBar({ score }: { score: number }) {
   return (

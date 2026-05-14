@@ -4,7 +4,7 @@
  * Strategia (jeden commit = jedno zsynchronizowane drzewo):
  *  1. Pobierz HEAD ref danego branchu
  *  2. Pobierz aktualne tree z HEAD commitu (recursive)
- *  3. Dla każdego pliku do zmiany — utwórz blob (paralelnie, w batchach)
+ *  3. Dla każdego pliku do zmiany. Utwórz blob (paralelnie, w batchach)
  *  4. Złóż nowe drzewo (zachowując istniejące pliki nieobjęte zmianą)
  *  5. Utwórz commit i przesuń ref
  *

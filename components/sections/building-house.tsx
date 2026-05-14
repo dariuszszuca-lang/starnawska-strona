@@ -31,15 +31,15 @@ export function BuildingHouse() {
   const loop = !reduce;
 
   // Punkty czasowe (0-1 w stosunku do TOTAL):
-  // 0.00 — start (wszystko niewidoczne)
-  // 0.05 — pojawia się fundament
-  // 0.15 — lewy filar
-  // 0.25 — prawy filar
-  // 0.35 — mały filar
-  // 0.45 — dach
-  // 0.55 — wszystko widoczne, pojawia się pieczątka SPRZEDANE
-  // 0.90 — start fade out
-  // 1.00 — koniec, fade do 0
+  // 0.00. Start (wszystko niewidoczne)
+  // 0.05. Pojawia się fundament
+  // 0.15. Lewy filar
+  // 0.25. Prawy filar
+  // 0.35. Mały filar
+  // 0.45. Dach
+  // 0.55. Wszystko widoczne, pojawia się pieczątka SPRZEDANE
+  // 0.90. Start fade out
+  // 1.00. Koniec, fade do 0
   return (
     <div className="relative aspect-square max-w-[500px] mx-auto">
       <div

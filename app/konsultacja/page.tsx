@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site";
 import { getMemberBySlug } from "@/lib/team";
 
 export const metadata: Metadata = {
-  title: "Umów konsultację — 30 minut bez zobowiązań",
+  title: "Umów konsultację. 30 minut bez zobowiązań",
   description:
     "Skontaktuj się z nami w sprawie sprzedaży, kupna, wynajmu lub doradztwa. Odpowiadamy w ciągu jednego dnia roboczego.",
 };

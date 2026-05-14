@@ -50,7 +50,7 @@ export function Logo({
         s.gap,
         className
       )}
-      aria-label="Strona główna — Starnawska & Boleńska Nieruchomości"
+      aria-label="Strona główna. Starnawska & Boleńska Nieruchomości"
     >
       <Image
         src="/brand/logo.png"

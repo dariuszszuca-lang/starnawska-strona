@@ -6,7 +6,7 @@ import { Container } from "@/components/ui/container";
 import { getAllPosts } from "@/lib/blog/posts";
 
 export const metadata: Metadata = {
-  title: "Blog — porady o rynku nieruchomości w Trójmieście",
+  title: "Blog. Porady o rynku nieruchomości w Trójmieście",
   description:
     "Praktyczna wiedza o sprzedaży, kupnie, najmie i rynku nieruchomości w Gdyni, Sopocie i Gdańsku. Artykuły zespołu Starnawska & Boleńska.",
 };
@@ -38,14 +38,14 @@ export default function BlogPage() {
               <span className="text-foreground-muted">zanim kupisz albo sprzedasz.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
-              Wszystko, o co klienci pytają nas najczęściej — w jednym miejscu.
+              Wszystko, o co klienci pytają nas najczęściej. W jednym miejscu.
               Konkretne kwoty, kroki i lokalne dane z Trójmiasta.
             </p>
           </div>
         </Container>
       </section>
 
-      {/* FEATURED — duża karta z nakładką tekstu na zdjęciu */}
+      {/* FEATURED. Duża karta z nakładką tekstu na zdjęciu */}
       {featured && (
         <section className="pb-12 lg:pb-16">
           <Container size="wide">
@@ -112,7 +112,7 @@ export default function BlogPage() {
         </section>
       )}
 
-      {/* RESZTA — siatka 2-3 kolumny */}
+      {/* RESZTA. Siatka 2-3 kolumny */}
       {rest.length > 0 && (
         <section className="pb-20 lg:pb-28">
           <Container size="wide">
