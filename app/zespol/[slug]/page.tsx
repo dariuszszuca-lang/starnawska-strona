@@ -104,20 +104,6 @@ export default async function AgentPage({ params }: { params: Params }) {
   const areas = areasFromOffers(offers);
   const others = team.filter((m) => m.slug !== member.slug).slice(0, 4);
 
-  const stats: Array<{ value: string; label: string }> = [];
-  if (member.yearsExperience) {
-    stats.push({ value: `${member.yearsExperience}+`, label: "lat doświadczenia" });
-  }
-  if (offers.length > 0) {
-    stats.push({ value: `${offers.length}`, label: "aktywnych ofert" });
-  }
-  if (member.languages?.length) {
-    stats.push({ value: member.languages.length === 1 ? "Polski" : `${member.languages.length} języki`, label: "obsługa klientów" });
-  }
-  if (member.isOwner) {
-    stats.push({ value: "Właściciel", label: "biura Starnawska & Boleńska" });
-  }
-
   return (
     <>
       <StickyMobileCTA member={member} />
@@ -203,43 +189,25 @@ export default async function AgentPage({ params }: { params: Params }) {
                     priority
                   />
                 </div>
+
+                {/* Kółko z liczbą ofert — naklejka VIP */}
+                {offers.length > 0 && (
+                  <div className="absolute -bottom-6 -left-4 lg:-bottom-8 lg:-left-8 z-10">
+                    <div className="relative size-28 lg:size-32 rounded-full bg-brand-lime text-brand-forest-deep flex flex-col items-center justify-center shadow-[0_20px_50px_-15px_rgba(0,0,0,0.5)] rotate-[-6deg]">
+                      <span className="font-bold text-4xl lg:text-5xl tabular-nums leading-none">
+                        {offers.length}
+                      </span>
+                      <span className="text-[10px] font-semibold uppercase tracking-wider mt-1.5 text-center px-3 leading-tight">
+                        {offers.length === 1 ? "aktywna oferta" : "aktywnych ofert"}
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>
         </Container>
       </section>
-
-      {/* PASEK STATYSTYK */}
-      {stats.length > 0 && (
-        <Reveal>
-          <section className="py-10 lg:py-12 border-b border-border bg-surface">
-            <Container size="wide">
-              <dl
-                className={`grid gap-8 lg:gap-12 ${
-                  stats.length === 1
-                    ? "grid-cols-1"
-                    : stats.length === 2
-                      ? "grid-cols-2"
-                      : stats.length === 3
-                        ? "grid-cols-2 lg:grid-cols-3"
-                        : "grid-cols-2 lg:grid-cols-4"
-                }`}
-              >
-                {stats.map((s) => (
-                  <div key={s.label}>
-                    <dt className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-2">
-                      {s.label}
-                    </dt>
-                    <dd className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.5rem)] leading-none text-foreground tabular-nums">
-                      {s.value}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            </Container>
-          </section>
-        </Reveal>
-      )}
 
       {/* SPECJALIZACJE z agregacji ofert */}
       {specializations.length > 0 && (
