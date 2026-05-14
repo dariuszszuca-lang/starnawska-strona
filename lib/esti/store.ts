@@ -1,4 +1,4 @@
-import { put, get } from "@vercel/blob";
+import { put, head } from "@vercel/blob";
 import type { Offer, OfferFilters, OffersResult } from "./types";
 
 /**
@@ -33,9 +33,13 @@ export async function saveOffers(offers: Offer[]): Promise<void> {
 
 export async function readOffers(): Promise<CacheShape | null> {
   try {
-    const result = await get(BLOB_PATH, { access: "private" });
-    if (!result || !result.stream) return null;
-    const text = await new Response(result.stream).text();
+    // @vercel/blob 2.x: get() zwraca 403 dla private store —
+    // używamy head() (signed URL) + fetch().
+    const meta = await head(BLOB_PATH);
+    if (!meta?.url) return null;
+    const res = await fetch(meta.url, { cache: "no-store" });
+    if (!res.ok) return null;
+    const text = await res.text();
     return JSON.parse(text) as CacheShape;
   } catch {
     return null;

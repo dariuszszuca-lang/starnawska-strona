@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { get } from "@vercel/blob";
+import { head } from "@vercel/blob";
 
 export const dynamic = "force-dynamic";
 
@@ -19,18 +19,24 @@ export async function GET(
   }
 
   try {
-    const result = await get(`esti-images/${name}`, { access: "private" });
-    if (!result || !result.stream) {
+    // @vercel/blob 2.x: używamy head() (signed URL) + fetch zamiast get().
+    const meta = await head(`esti-images/${name}`);
+    if (!meta?.url) return new NextResponse("not found", { status: 404 });
+
+    const upstream = await fetch(meta.url);
+    if (!upstream.ok || !upstream.body) {
       return new NextResponse("not found", { status: 404 });
     }
 
-    const contentType = name.endsWith(".png")
-      ? "image/png"
-      : name.endsWith(".webp")
-        ? "image/webp"
-        : "image/jpeg";
+    const contentType =
+      upstream.headers.get("content-type") ||
+      (name.endsWith(".png")
+        ? "image/png"
+        : name.endsWith(".webp")
+          ? "image/webp"
+          : "image/jpeg");
 
-    return new NextResponse(result.stream, {
+    return new NextResponse(upstream.body, {
       status: 200,
       headers: {
         "content-type": contentType,
