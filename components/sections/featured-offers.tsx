@@ -25,10 +25,10 @@ export async function FeaturedOffers() {
               Najnowsze w bazie
             </div>
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
-              Świeże oferty z naszego CRM.
+              Świeżo w sprzedaży.
             </h2>
             <p className="mt-3 text-base text-foreground-muted">
-              Aktualizujemy bazę codziennie z systemu ESTI. To trzy najnowsze.
+              Codziennie aktualizujemy bazę. To trzy najnowsze nieruchomości.
             </p>
           </div>
           <Button asChild variant="primary" size="md">
