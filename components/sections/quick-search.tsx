@@ -67,7 +67,8 @@ export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "em
   if (type === "najem") {
     params.set("transakcja", "najem");
   } else if (type !== "wszystkie") {
-    params.set("transakcja", "sprzedaz");
+    // Tylko filter typu — bez wymuszania sprzedaży/najmu.
+    // Jeśli user chce wyłącznie sprzedaż, użyje filtra zaawansowanego.
     params.set("typ", type);
   }
   // type === "wszystkie" → bez filtra typu/transakcji = pokaż wszystko
