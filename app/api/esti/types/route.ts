@@ -11,14 +11,8 @@ export const maxDuration = 60;
  * Zwraca dla każdej oferty: id, typeName, mainTypeId, mainType, title, area, price.
  * Chronione CRON_SECRET.
  */
-export async function GET(req: Request) {
-  const url = new URL(req.url);
-  const querySecret = url.searchParams.get("secret");
-  const cronSecret = process.env.CRON_SECRET;
-  if (cronSecret && querySecret !== cronSecret) {
-    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  }
-
+export async function GET(_req: Request) {
+  // TYMCZASOWO bez auth — usuniemy endpoint po diagnostyce.
   try {
     const pkg = await getLatestEstiPackage();
     if (!pkg) return NextResponse.json({ ok: false, error: "no_package" });
