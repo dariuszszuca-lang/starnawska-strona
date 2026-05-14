@@ -32,6 +32,8 @@ export type Offer = {
 
   transaction: OfferTransaction;
   type: OfferType;
+  /** Podtyp z ESTI typeName, np. "Pod zabudowę", "Wolnostojący", "Magazyn z biurami" */
+  typeDetail?: string;
   market?: OfferMarket;
 
   /** Tytuł oferty (z ESTI lub generowany) */

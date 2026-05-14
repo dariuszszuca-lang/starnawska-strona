@@ -4,7 +4,7 @@ import { ArrowUpRight, MapPin, Maximize2, BedDouble, Layers, Sparkles } from "lu
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { getLatestOffers, getFilteredOffers } from "@/lib/esti/store";
-import { formatPrice, formatPricePerSqm, formatArea, offerTitle, typeLabels } from "@/lib/esti/format";
+import { formatPrice, formatPricePerSqm, formatArea, offerTitle, typeLabel } from "@/lib/esti/format";
 import type { Offer } from "@/lib/esti/types";
 
 export async function FeaturedOffers() {
@@ -71,7 +71,7 @@ function FeaturedCard({ offer, priority }: { offer: Offer; priority: boolean }) 
         {/* Top badges */}
         <div className="absolute top-3 left-3 flex flex-wrap gap-2">
           <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-surface/95 backdrop-blur text-[10px] font-semibold uppercase tracking-wider text-brand-forest">
-            {typeLabels[offer.type]}
+            {typeLabel(offer)}
           </span>
           {offer.transaction === "najem" && (
             <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-brand-lime text-[10px] font-semibold uppercase tracking-wider text-brand-forest-deep">

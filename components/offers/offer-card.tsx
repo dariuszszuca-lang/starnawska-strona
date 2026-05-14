@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { MapPin, Maximize2, BedDouble, Building2 } from "lucide-react";
 import type { Offer } from "@/lib/esti/types";
-import { formatPrice, formatPricePerSqm, formatArea, offerTitle, typeLabels } from "@/lib/esti/format";
+import { formatPrice, formatPricePerSqm, formatArea, offerTitle, typeLabel } from "@/lib/esti/format";
 
 export function OfferCard({ offer, priority = false }: { offer: Offer; priority?: boolean }) {
   const primary = offer.images.find((i) => i.primary) ?? offer.images[0];
@@ -32,7 +32,7 @@ export function OfferCard({ offer, priority = false }: { offer: Offer; priority?
         {/* Badges top */}
         <div className="absolute top-3 left-3 flex flex-wrap gap-2">
           <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-surface/95 backdrop-blur text-[10px] font-semibold uppercase tracking-wider text-brand-forest">
-            {typeLabels[offer.type]}
+            {typeLabel(offer)}
           </span>
           {offer.transaction === "najem" && (
             <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-brand-lime text-[10px] font-semibold uppercase tracking-wider text-brand-forest-deep">

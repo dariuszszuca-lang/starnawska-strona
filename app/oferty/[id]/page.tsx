@@ -26,6 +26,7 @@ import {
   formatPricePerSqm,
   formatArea,
   offerTitle,
+  typeLabel,
   typeLabels,
   transactionLabels,
 } from "@/lib/esti/format";
@@ -144,7 +145,7 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
                   {transactionLabels[offer.transaction]}
                 </span>
                 <span className="inline-flex items-center px-3 py-1 rounded-full bg-gray-100 text-foreground text-[10px] font-semibold uppercase tracking-wider">
-                  {typeLabels[offer.type]}
+                  {typeLabel(offer)}
                 </span>
                 {offer.market && (
                   <span className="inline-flex items-center px-3 py-1 rounded-full bg-gray-100 text-foreground text-[10px] font-semibold uppercase tracking-wider">

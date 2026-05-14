@@ -118,7 +118,9 @@ function mapRawToOffer(raw: RawOffer, imageUrls: Map<string, string>): Offer | n
   const price = num(raw.price) ?? 0;
   const area = num(raw.areaTotal) ?? num(raw.areaUsable) ?? 0;
   const transaction = mapTransaction(raw.transaction);
-  const type = mapType(str(raw.typeName), raw.mainTypeId);
+  const typeNameRaw = str(raw.typeName);
+  const type = mapType(typeNameRaw, raw.mainTypeId);
+  const typeDetail = extractTypeDetail(typeNameRaw);
   const market = mapMarket(raw.market);
 
   // Zdjęcia
@@ -168,6 +170,7 @@ function mapRawToOffer(raw: RawOffer, imageUrls: Map<string, string>): Offer | n
     offerNumber: str(raw.numberPrime) || str(raw.number),
     transaction,
     type,
+    typeDetail,
     market,
 
     title,
@@ -249,21 +252,24 @@ function mapTransaction(v: unknown): OfferTransaction {
 }
 
 /**
- * Mapping typu oferty. Używamy stringa typeName jako głównego źródła.
+ * Mapping typu oferty.
+ *
+ * Priorytet: mainTypeId.text (1=dom, 2=mieszkanie, 3=działka, 4=komercyjny/garaż).
+ * To pole jest jednoznaczne w słowniku ESTI.
+ *
+ * Dla mainTypeId=4 dodatkowo rozróżniamy garaż / lokal użytkowy / magazyn
+ * po typeName (bo ESTI traktuje wszystkie te kategorie pod jednym kodem).
+ *
+ * typeName używamy tylko jako fallback gdy brak mainTypeId.
  */
 function mapType(typeName: string, mainTypeIdObj: unknown): OfferType {
-  const v = typeName.toLowerCase();
-  if (v.includes("mieszkani") || v.includes("apartament")) return "mieszkanie";
-  if (v.includes("dom") || v.includes("willa")) return "dom";
-  if (v.includes("dzialk") || v.includes("działk") || v.includes("grunt")) return "dzialka";
-  if (v.includes("lokal") || v.includes("komerc") || v.includes("biuro")) return "lokal";
-  if (v.includes("garaz") || v.includes("garaż")) return "garaz";
-
-  // Fallback przez mainTypeId
   const id =
     typeof mainTypeIdObj === "object" && mainTypeIdObj
       ? str((mainTypeIdObj as Record<string, unknown>)["#text"])
       : str(mainTypeIdObj);
+
+  const v = typeName.toLowerCase();
+
   switch (id) {
     case "1":
       return "dom";
@@ -272,12 +278,51 @@ function mapType(typeName: string, mainTypeIdObj: unknown): OfferType {
     case "3":
       return "dzialka";
     case "4":
+      // Komercyjne i garaże w jednej grupie u ESTI — rozróżniamy po nazwie.
+      if (
+        v.includes("garaż") ||
+        v.includes("garaz") ||
+        v.includes("miejsce postoj") ||
+        v.includes("hala garaż")
+      ) {
+        return "garaz";
+      }
       return "lokal";
     case "5":
       return "garaz";
-    default:
-      return "inne";
   }
+
+  // Fallback przez typeName, gdy mainTypeId nie został podany.
+  // Kolejność warunków: bardziej specyficzne (działka) PRZED ogólnymi (mieszkanie),
+  // bo ESTI używa nazw typu "Działka (Mieszkaniowa)" — szukanie "mieszkani" by zniweczyło dopasowanie.
+  if (v.startsWith("działk") || v.startsWith("dzialk") || v.includes("grunt")) return "dzialka";
+  if (v.startsWith("dom") || v.includes("willa")) return "dom";
+  if (v.includes("garaż") || v.includes("garaz") || v.includes("miejsce postoj")) return "garaz";
+  if (v.includes("magazyn") || v.includes("lokal") || v.includes("komerc") || v.includes("biuro"))
+    return "lokal";
+  if (v.includes("mieszkani") || v.includes("apartament") || v.includes("kawalerk"))
+    return "mieszkanie";
+
+  return "inne";
+}
+
+/**
+ * Wyciąga sub-type z nawiasu w typeName.
+ * "Działka (Pod zabudowę)" -> "Pod zabudowę"
+ * "Mieszkanie" -> ""
+ * "Magazyn z biurami" -> "Magazyn z biurami" (gdy brak nawiasu i dłuższy niż base type)
+ */
+function extractTypeDetail(typeName: string): string | undefined {
+  if (!typeName) return undefined;
+  const match = typeName.match(/\(([^)]+)\)/);
+  if (match) return match[1].trim();
+  // Bez nawiasu — zachowaj całą nazwę jeśli odbiega od podstawowego enuma,
+  // np. "Magazyn z biurami", "Miejsce postojowe", "Lokal handlowy/usługowy".
+  const v = typeName.toLowerCase();
+  if (v === "mieszkanie" || v === "dom" || v === "działka" || v === "lokal" || v === "garaż") {
+    return undefined;
+  }
+  return typeName.trim();
 }
 
 function mapMarket(v: unknown): OfferMarket | undefined {
