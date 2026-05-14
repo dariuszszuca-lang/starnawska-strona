@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { get, list, head } from "@vercel/blob";
+import { list, head } from "@vercel/blob";
 
 export const dynamic = "force-dynamic";
 
@@ -27,11 +27,20 @@ export async function GET() {
   }
 
   try {
-    const result = await get(BLOB_PATH, { access: "private" });
-    if (!result) return NextResponse.json({ stage: "no_result" });
-    const hasStream = Boolean(result.stream);
-    if (!hasStream) return NextResponse.json({ stage: "no_stream", keys: Object.keys(result) });
-    const text = await new Response(result.stream).text();
+    // Test nowej drogi: head().url + fetch
+    const meta = await head(BLOB_PATH);
+    if (!meta?.url) return NextResponse.json({ stage: "no_url", list: listResult, head: headResult });
+    const res = await fetch(meta.url, { cache: "no-store" });
+    if (!res.ok) {
+      return NextResponse.json({
+        stage: "fetch_failed",
+        fetchStatus: res.status,
+        fetchHeaders: Object.fromEntries(res.headers.entries()),
+        list: listResult,
+        head: headResult,
+      });
+    }
+    const text = await res.text();
     const len = text.length;
     let parsed: { lastSync?: string; offersCount?: number; firstId?: string } = {};
     try {
