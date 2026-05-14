@@ -9,6 +9,9 @@ import { getFilteredOffers } from "@/lib/esti/store";
 import { siteConfig } from "@/lib/site";
 import type { OfferFilters, OfferTransaction, OfferType, OfferMarket } from "@/lib/esti/types";
 
+// /oferty używa searchParams (filtry) → musi być dynamic.
+// Cron sync ESTI raz dziennie commituje data/offers.json → Vercel rebuild
+// → strona ma świeże dane. Pomiędzy commitami in-memory cache (60s) trzyma JSON.
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
