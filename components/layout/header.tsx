@@ -38,6 +38,9 @@ export function Header() {
     setTeamOpen(false);
   }, [pathname]);
 
+  // Panel admina ma własny header — nie renderujemy głównego.
+  if (pathname.startsWith("/admin")) return null;
+
   return (
     <header className="absolute top-0 left-0 right-0 z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">

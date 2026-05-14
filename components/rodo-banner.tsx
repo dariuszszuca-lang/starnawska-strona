@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Cookie, X, Check, Settings, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -34,6 +35,7 @@ function savePreferences(p: Preferences) {
 }
 
 export function RodoBanner() {
+  const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
   const [open, setOpen] = useState(false);
   const [settings, setSettings] = useState(false);
@@ -69,6 +71,8 @@ export function RodoBanner() {
   };
 
   if (!mounted) return null;
+  // Nie pokazujemy bannera RODO w panelu admina
+  if (pathname.startsWith("/admin")) return null;
 
   return (
     <>

@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { Mail, MapPin, Phone, Clock, ArrowUpRight } from "lucide-react";
 import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
 import { Logo } from "@/components/ui/logo";
@@ -31,6 +34,10 @@ const footerNav = {
 };
 
 export function Footer() {
+  const pathname = usePathname();
+  // Panel admina nie pokazuje głównego footera
+  if (pathname.startsWith("/admin")) return null;
+
   return (
     <footer className="bg-surface-dark text-foreground-on-dark mt-24">
       <Container size="wide" as="div" className="py-16 lg:py-20">
