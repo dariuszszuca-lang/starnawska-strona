@@ -4,6 +4,7 @@ import { Search, RefreshCw, Phone } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { OfferCard } from "@/components/offers/offer-card";
+import { QuickSearch } from "@/components/sections/quick-search";
 import { getFilteredOffers } from "@/lib/esti/store";
 import { siteConfig } from "@/lib/site";
 import type { OfferFilters, OfferTransaction, OfferType, OfferMarket } from "@/lib/esti/types";
@@ -57,7 +58,7 @@ export default async function OfertyPage({ searchParams }: { searchParams: Searc
 
   return (
     <>
-      <section className="pt-32 lg:pt-36 pb-8">
+      <section className="pt-32 lg:pt-36 pb-6">
         <Container size="wide">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
@@ -82,6 +83,9 @@ export default async function OfertyPage({ searchParams }: { searchParams: Searc
           </div>
         </Container>
       </section>
+
+      {/* Wyszukiwarka */}
+      <QuickSearch />
 
       {items.length === 0 ? (
         <EmptyState lastSyncLabel={lastSyncLabel} />
