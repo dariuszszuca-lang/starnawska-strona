@@ -85,7 +85,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
     publisher: {
       "@type": "Organization",
       name: siteConfig.name,
-      logo: { "@type": "ImageObject", url: `${siteConfig.url}/brand/logo.png` },
+      logo: { "@type": "ImageObject", url: `${siteConfig.url}/brand/logo-full.png` },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${siteConfig.url}/blog/${post.slug}` },
     keywords: post.keywords.join(", "),

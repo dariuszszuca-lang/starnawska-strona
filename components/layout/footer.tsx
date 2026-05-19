@@ -20,6 +20,8 @@ const footerNav = {
   firma: [
     { label: "O nas", href: "/o-nas" },
     { label: "Nasz zespół", href: "/zespol" },
+    { label: "Strefa kupującego", href: "/strefa-kupujacego" },
+    { label: "Strefa sprzedającego", href: "/strefa-sprzedajacego" },
     { label: "Doradztwo", href: "/doradztwo" },
     { label: "Szkolenia", href: "/szkolenia" },
     { label: "Blog", href: "/blog" },

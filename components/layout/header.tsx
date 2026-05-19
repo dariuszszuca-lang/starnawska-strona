@@ -21,6 +21,8 @@ type NavItem = {
 
 const navItems: NavItem[] = [
   { label: "Oferty", href: "/oferty" },
+  { label: "Kupujący", href: "/strefa-kupujacego" },
+  { label: "Sprzedający", href: "/strefa-sprzedajacego" },
   { label: "Nasz zespół", href: "/zespol", hasDropdown: true },
   { label: "Doradztwo", href: "/doradztwo" },
   { label: "Blog", href: "/blog" },

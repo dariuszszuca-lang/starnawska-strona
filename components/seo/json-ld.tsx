@@ -14,7 +14,7 @@ export function RealEstateAgentSchema() {
     legalName: "Starnawska & Boleńska Nieruchomości s.c.",
     description: siteConfig.description,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/brand/logo.png`,
+    logo: `${siteConfig.url}/brand/logo-full.png`,
     image: `${siteConfig.url}${siteConfig.ogImage}`,
     foundingDate: `${siteConfig.foundedYear}-01-01`,
     telephone: siteConfig.contact.phones.map((p) => p.value),
