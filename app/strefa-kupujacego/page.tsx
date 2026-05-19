@@ -12,10 +12,11 @@ import {
   ShieldCheck,
   ClipboardList,
   KeyRound,
-  ChevronDown,
+  Plus,
   Quote,
   Sparkles,
   Heart,
+  HelpCircle,
 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
@@ -458,39 +459,60 @@ export default function StrefaKupujacegoPage() {
         </section>
       </Reveal>
 
-      {/* SEKCJA 6 — FAQ */}
+      {/* SEKCJA 6 — FAQ (sticky sidebar + plus/X animacja) */}
       <Reveal>
-        <section className="py-20 lg:py-28">
-          <Container size="default">
-            <div className="max-w-2xl mb-12 lg:mb-16">
-              <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                06 · FAQ
-              </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
-                Najczęstsze pytania.
-              </h2>
-            </div>
+        <section className="py-20 lg:py-28 bg-surface">
+          <Container size="wide">
+            <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+              <div className="lg:col-span-4 lg:sticky lg:top-32">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
+                  <HelpCircle className="size-3.5" />
+                  06 · FAQ
+                </div>
+                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
+                  Pytania, które się <span className="text-gradient-lime">powtarzają</span>.
+                </h2>
+                <p className="text-lg text-foreground-muted leading-relaxed mb-8">
+                  Nie znalazłeś odpowiedzi? Zadzwoń lub umów konsultację, odpowiemy na każde pytanie wprost.
+                </p>
+                <Button asChild variant="primary" size="md">
+                  <Link href="/konsultacja">
+                    Umów konsultację
+                    <ArrowRight />
+                  </Link>
+                </Button>
+              </div>
 
-            <div className="space-y-3">
-              {faq.map((item, i) => (
-                <details
-                  key={i}
-                  className="group rounded-3xl border border-border bg-surface p-6 lg:p-7 transition-all hover:border-brand-forest/40 open:border-brand-forest open:bg-surface-elevated open:shadow-[var(--shadow-card)]"
-                >
-                  <summary className="flex items-start justify-between gap-4 cursor-pointer list-none">
-                    <span className="font-semibold text-foreground text-lg leading-snug">
-                      {item.q}
-                    </span>
-                    <ChevronDown
-                      className="size-5 text-foreground-muted shrink-0 mt-1 group-open:rotate-180 group-open:text-brand-forest transition-all"
-                      strokeWidth={2.2}
-                    />
-                  </summary>
-                  <p className="mt-5 text-foreground-muted leading-relaxed text-base">
-                    {item.a}
-                  </p>
-                </details>
-              ))}
+              <div className="lg:col-span-8">
+                <div className="space-y-3">
+                  {faq.map((item, i) => (
+                    <details
+                      key={i}
+                      className="group relative rounded-3xl border border-border bg-background p-6 lg:p-7 transition-all hover:border-brand-forest/40 open:border-brand-forest open:shadow-[var(--shadow-card)] open:bg-gradient-to-br open:from-background open:to-brand-lime/[0.06]"
+                    >
+                      <summary className="flex items-start justify-between gap-6 cursor-pointer list-none">
+                        <div className="flex items-start gap-5">
+                          <span className="font-bold text-sm text-brand-olive tabular-nums shrink-0 pt-1.5">
+                            0{i + 1}
+                          </span>
+                          <span className="font-semibold text-foreground text-lg lg:text-xl leading-snug">
+                            {item.q}
+                          </span>
+                        </div>
+                        <span className="size-10 rounded-full bg-brand-lime/15 text-brand-forest-deep flex items-center justify-center shrink-0 group-open:bg-brand-lime group-open:text-brand-forest-deep group-hover:bg-brand-lime/30 transition-all">
+                          <Plus
+                            className="size-5 group-open:rotate-45 transition-transform duration-300"
+                            strokeWidth={2.5}
+                          />
+                        </span>
+                      </summary>
+                      <p className="mt-6 ml-11 text-foreground-muted leading-relaxed text-base lg:text-lg">
+                        {item.a}
+                      </p>
+                    </details>
+                  ))}
+                </div>
+              </div>
             </div>
           </Container>
         </section>
