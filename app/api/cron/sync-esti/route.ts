@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getLatestEstiPackage } from "@/lib/esti/ftp-client";
 import { unpackEstiZip, parseEstiXml } from "@/lib/esti/parser";
 import { commitFiles, listRepoFiles, type FileChange } from "@/lib/github/commit";
+import { readOffers } from "@/lib/esti/store";
 import type { Offer } from "@/lib/esti/types";
 
 export const dynamic = "force-dynamic";
@@ -100,9 +101,32 @@ export async function GET(req: Request) {
 
     // 6. Final parse. Z prawidłowym filtrem (tylko zdjęcia które realnie są albo będą w repo)
     const willExistFinal = new Set<string>([...existingFilenames, ...toUpload]);
-    const offers: Offer[] = parseEstiXml(xmlText, willExistFinal);
+    const parsedOffers: Offer[] = parseEstiXml(xmlText, willExistFinal);
 
-    // 7. Co usunąć z repo (już nie referowane przez żadną ofertę)
+    // 6a. SAFETY: jeśli nowa paczka ma <50% obecnych ofert, prawdopodobnie to
+    // DELTA z FTP (ESTI wystawia FULL co kilka dni + DELTA codziennie).
+    // W trybie merge: nadpisujemy istniejące po id (delta updates), ale
+    // NIE usuwamy ofert których nie ma w paczce — i nie usuwamy zdjęć.
+    // To chroni przed katastrofą typu "1-element delta wymazała 30 ofert"
+    // (regresja 21eeb98 z 2026-05-19).
+    const current = await readOffers();
+    const currentCount = current?.offers.length ?? 0;
+    const isLikelyDelta =
+      currentCount >= 5 && parsedOffers.length < currentCount * 0.5;
+
+    let offers: Offer[];
+    let mergeNote = "";
+    if (isLikelyDelta) {
+      const byId = new Map<string, Offer>(current!.offers.map((o) => [o.id, o]));
+      for (const o of parsedOffers) byId.set(o.id, o);
+      offers = Array.from(byId.values());
+      mergeNote = ` MERGE(delta=${parsedOffers.length}/existing=${currentCount})`;
+    } else {
+      offers = parsedOffers;
+    }
+
+    // 7. Co usunąć z repo. Tylko w trybie FULL — w merge mode oferty zachowujemy,
+    // więc ich zdjęcia też muszą zostać.
     const finalReferenced = new Set<string>();
     for (const o of offers) {
       for (const img of o.images) {
@@ -110,8 +134,10 @@ export async function GET(req: Request) {
       }
     }
     const toDelete: string[] = [];
-    for (const fn of existingFilenames) {
-      if (!finalReferenced.has(fn)) toDelete.push(fn);
+    if (!isLikelyDelta) {
+      for (const fn of existingFilenames) {
+        if (!finalReferenced.has(fn)) toDelete.push(fn);
+      }
     }
 
     // 6. Zbuduj listę plików do commit
@@ -140,7 +166,7 @@ export async function GET(req: Request) {
     }
 
     // 7. Commit
-    const summary = `sync esti: ${offers.length} ofert, +${toUpload.length} zdjęć, -${toDelete.length}`;
+    const summary = `sync esti: ${offers.length} ofert, +${toUpload.length} zdjęć, -${toDelete.length}${mergeNote}`;
     const commit = await commitFiles({
       owner: OWNER,
       repo: REPO,
