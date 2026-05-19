@@ -152,7 +152,7 @@ export default function StrefaKupujacegoPage() {
                 Kupujesz <span className="text-gradient-lime">nieruchomość</span>?
                 <br />
                 <span className="text-foreground-muted">
-                  Nie musisz iść w&nbsp;to sam.
+                  Nie musisz przechodzić przez to sam.
                 </span>
               </h1>
               <p className="mt-7 text-lg lg:text-xl text-foreground-muted leading-relaxed max-w-2xl">
