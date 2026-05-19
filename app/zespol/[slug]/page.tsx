@@ -223,9 +223,6 @@ export default async function AgentPage({ params }: { params: Params }) {
                       <h3 className="font-bold text-lg text-foreground leading-tight">
                         {typeNamePlural[s.type]}
                       </h3>
-                      <p className="mt-2 text-sm text-foreground-muted">
-                        {s.count} {s.count === 1 ? "aktywna oferta" : s.count < 5 ? "aktywne oferty" : "aktywnych ofert"}
-                      </p>
                     </div>
                   );
                 })}
@@ -370,11 +367,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                     Aktualne oferty
                   </p>
                   <h2 className="font-bold tracking-tight text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.1] text-foreground">
-                    {offers.length === 1
-                      ? `1 oferta w mojej obsłudze.`
-                      : offers.length < 5
-                        ? `${offers.length} aktualne oferty.`
-                        : `${offers.length} aktualnych ofert.`}
+                    W mojej obsłudze.
                   </h2>
                 </div>
                 <Button asChild variant="outline" size="md">
