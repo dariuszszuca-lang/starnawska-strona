@@ -11,9 +11,9 @@ type LogoProps = {
 const ASPECT = 1024 / 913;
 
 const heightMap: Record<NonNullable<LogoProps["size"]>, number> = {
-  sm: 52,
-  md: 64,
-  lg: 84,
+  sm: 56,
+  md: 76,
+  lg: 112,
 };
 
 export function Logo({ className, size = "md" }: LogoProps) {
