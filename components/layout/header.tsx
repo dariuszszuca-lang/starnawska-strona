@@ -341,7 +341,7 @@ function NavTab({
         ref={linkRef}
         href={item.href}
         className={cn(
-          "relative z-10 inline-flex items-center gap-1 px-4 py-2 text-sm font-semibold transition-colors duration-200",
+          "relative z-10 inline-flex items-center gap-1 px-3 py-2 text-sm font-semibold whitespace-nowrap transition-colors duration-200",
           active || hovered ? "text-brand-forest-deep" : "text-foreground"
         )}
       >
