@@ -46,59 +46,61 @@ export function Header() {
   return (
     <header className="absolute top-0 left-0 right-0 z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">
-        <div className="flex items-center justify-between gap-3 lg:gap-5">
+        <div className="flex items-center justify-between gap-3">
           {/* LOGO poza pillem, po lewej */}
           <Logo size="lg" className="hidden lg:inline-flex shrink-0" />
 
-          {/* Pill z menu, telefonem i social (bez loga) */}
-          <div className="hidden lg:flex items-center gap-3 rounded-2xl border border-border bg-surface/85 backdrop-blur-xl shadow-[var(--shadow-soft)] pl-3 pr-3 py-2">
-            <MagicNav pathname={pathname} teamOpen={teamOpen} setTeamOpen={setTeamOpen} team={team} />
+          {/* Grupa: pill + CTA blisko siebie po prawej */}
+          <div className="hidden lg:flex items-center gap-2.5">
+            {/* Pill z menu, telefonem i social */}
+            <div className="flex items-center gap-3 rounded-2xl border border-border bg-surface/85 backdrop-blur-xl shadow-[var(--shadow-soft)] pl-3 pr-3 py-2">
+              <MagicNav pathname={pathname} teamOpen={teamOpen} setTeamOpen={setTeamOpen} team={team} />
 
-            <span className="h-7 w-px bg-border" aria-hidden />
+              <span className="h-7 w-px bg-border" aria-hidden />
 
-            <a
-              href={siteConfig.contact.phones[0].href}
-              className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-brand-forest transition-colors tabular-nums whitespace-nowrap"
-            >
-              <Phone className="size-4 text-brand-olive shrink-0" />
-              <span className="hidden xl:inline whitespace-nowrap">{siteConfig.contact.phones[0].displayValue}</span>
-            </a>
-
-            {/* Social. Większe + branded hover */}
-            <span className="h-7 w-px bg-border" aria-hidden />
-            <div className="flex items-center gap-1.5">
               <a
-                href={siteConfig.social.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
-                className="group/social inline-flex items-center justify-center size-11 rounded-xl text-foreground hover:bg-[#1877F2] hover:text-white hover:scale-105 transition-all"
+                href={siteConfig.contact.phones[0].href}
+                className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-brand-forest transition-colors tabular-nums whitespace-nowrap"
               >
-                <FacebookIcon className="size-[18px]" />
+                <Phone className="size-4 text-brand-olive shrink-0" />
+                <span className="hidden xl:inline whitespace-nowrap">{siteConfig.contact.phones[0].displayValue}</span>
               </a>
-              <a
-                href={siteConfig.social.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="group/social relative inline-flex items-center justify-center size-11 rounded-xl text-foreground hover:text-white hover:scale-105 transition-all overflow-hidden"
-              >
-                <span
-                  aria-hidden
-                  className="absolute inset-0 opacity-0 group-hover/social:opacity-100 transition-opacity bg-[linear-gradient(45deg,#FEDA75_0%,#FA7E1E_25%,#D62976_50%,#962FBF_75%,#4F5BD5_100%)]"
-                />
-                <InstagramIcon className="size-[18px] relative" />
-              </a>
+
+              <span className="h-7 w-px bg-border" aria-hidden />
+              <div className="flex items-center gap-1.5">
+                <a
+                  href={siteConfig.social.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="group/social inline-flex items-center justify-center size-11 rounded-xl text-foreground hover:bg-[#1877F2] hover:text-white hover:scale-105 transition-all"
+                >
+                  <FacebookIcon className="size-[18px]" />
+                </a>
+                <a
+                  href={siteConfig.social.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="group/social relative inline-flex items-center justify-center size-11 rounded-xl text-foreground hover:text-white hover:scale-105 transition-all overflow-hidden"
+                >
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 opacity-0 group-hover/social:opacity-100 transition-opacity bg-[linear-gradient(45deg,#FEDA75_0%,#FA7E1E_25%,#D62976_50%,#962FBF_75%,#4F5BD5_100%)]"
+                  />
+                  <InstagramIcon className="size-[18px] relative" />
+                </a>
+              </div>
             </div>
-          </div>
 
-          {/* CTA. Osobno obok pilla */}
-          <Button asChild variant="lime" size="md" className="hidden lg:inline-flex shrink-0">
-            <Link href="/konsultacja">
-              Umów konsultację
-              <ArrowUpRight className="size-4" />
-            </Link>
-          </Button>
+            {/* CTA tuż obok pilla */}
+            <Button asChild variant="lime" size="md" className="shrink-0">
+              <Link href="/konsultacja">
+                Umów konsultację
+                <ArrowUpRight className="size-4" />
+              </Link>
+            </Button>
+          </div>
 
           {/* Mobile: logo po lewej + hamburger po prawej */}
           <div className="lg:hidden flex items-center justify-between w-full">
