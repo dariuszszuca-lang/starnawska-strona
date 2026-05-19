@@ -418,9 +418,9 @@ export default function StrefaKupujacegoPage() {
                 05 · Historie klientów
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
-                Każda nieruchomość zaczyna się
+                Każda nieruchomość ma
                 <br />
-                od&nbsp;<span className="text-gradient-lime">czyjejś historii</span>.
+                swoją <span className="text-gradient-lime">historię</span>.
               </h2>
             </div>
 
