@@ -46,7 +46,9 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-12 gap-y-12 gap-x-8">
           {/* Lewa kolumna: logo + opis + NSL + social */}
           <div className="col-span-2 md:col-span-4 space-y-6">
-            <Logo variant="dark" size="md" />
+            <div className="inline-flex bg-white rounded-2xl px-5 py-4">
+              <Logo size="lg" />
+            </div>
 
             <p className="text-sm leading-relaxed text-foreground-on-dark-muted max-w-sm">
               Biuro nieruchomości w Gdyni. Sprzedaż, wynajem, doradztwo. Od {siteConfig.foundedYear} roku

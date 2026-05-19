@@ -46,13 +46,12 @@ export function Header() {
   return (
     <header className="absolute top-0 left-0 right-0 z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">
-        <div className="flex items-center justify-center gap-3 lg:gap-4">
-          {/* JEDEN pill: logo + menu + tel + social */}
+        <div className="flex items-center justify-between gap-3 lg:gap-5">
+          {/* LOGO poza pillem, po lewej */}
+          <Logo size="lg" className="hidden lg:inline-flex shrink-0" />
+
+          {/* Pill z menu, telefonem i social (bez loga) */}
           <div className="hidden lg:flex items-center gap-3 rounded-2xl border border-border bg-surface/85 backdrop-blur-xl shadow-[var(--shadow-soft)] pl-3 pr-3 py-2">
-            <Logo size="sm" />
-
-            <span className="h-7 w-px bg-border" aria-hidden />
-
             <MagicNav pathname={pathname} teamOpen={teamOpen} setTeamOpen={setTeamOpen} team={team} />
 
             <span className="h-7 w-px bg-border" aria-hidden />
@@ -103,23 +102,14 @@ export function Header() {
 
           {/* Mobile: logo po lewej + hamburger po prawej */}
           <div className="lg:hidden flex items-center justify-between w-full">
-            <Logo
-              size="md"
-              variant={
-                !mobileOpen && (pathname === "/" || pathname.startsWith("/zespol/"))
-                  ? "dark"
-                  : "light"
-              }
-            />
+            <Logo size="md" />
             <button
               type="button"
               className={cn(
                 "inline-flex items-center justify-center size-12 rounded-2xl transition-all active:scale-95",
                 mobileOpen
                   ? "bg-foreground text-background hover:bg-gray-800"
-                  : pathname === "/" || pathname.startsWith("/zespol/")
-                    ? "bg-foreground-on-dark text-foreground hover:bg-gray-200"
-                    : "bg-foreground text-background hover:bg-gray-800"
+                  : "bg-foreground text-background hover:bg-gray-800"
               )}
               onClick={() => setMobileOpen((v) => !v)}
               aria-label={mobileOpen ? "Zamknij menu" : "Otwórz menu"}
