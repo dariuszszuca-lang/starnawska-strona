@@ -46,7 +46,7 @@ export function Header() {
   return (
     <header className="absolute top-0 left-0 right-0 z-50 w-full">
       <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10 pt-6 lg:pt-8 pb-2">
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center justify-center gap-3 lg:gap-4">
           {/* LOGO poza pillem, po lewej */}
           <Logo size="lg" className="hidden lg:inline-flex shrink-0" />
 
