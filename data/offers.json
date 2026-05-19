@@ -1,19 +1,182 @@
 {
-  "lastSync": "2026-05-18T05:34:16.397Z",
+  "lastSync": "2026-05-19T05:34:26.855Z",
   "offers": [
     {
-      "id": "11369456",
-      "offerNumber": "",
-      "transaction": "sprzedaz",
-      "type": "inne",
-      "title": "Nieruchomość, Trójmiasto",
-      "price": 0,
-      "area": 0,
-      "city": "Trójmiasto",
-      "images": [],
-      "url": "https://starnawska.pl/oferty/11369456",
-      "createdAt": "2026-05-18T05:34:16.397Z",
-      "updatedAt": "2026-05-18T05:34:16.397Z"
+      "id": "11599184",
+      "offerNumber": "ST527628",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Komfortowe 2 pokoje z pięknym widokiem na park",
+      "description": "Na wynajem przestronne 2 pokojowe mieszkanie położone w Ogrodach Wejhera, zamkniętym kameralnym osiedlu w samym centrum Wejherowa - z widokiem na Park im .Aleksandra Majkowskiego. \n\nMieszkanie jest wyremontowane, wyposażone w nowe meble. Składa się z dużego salonu z aneksem kuchennym, gdzie wydzielono strefę relaksu oraz jadalnię przy zabudowie kuchennej. Aneks wyposażony w AGD - w tym zmywarkę. Z salonu wyjście na duży i słoneczny balkon z kojącym widokiem na zieleń. \n\nSypialnia przestronna, z dużym, wygodnym łóżkiem i miejscem do pracy. Dużo miejsca do przechowywania. W przedpokoju znajduje się bardzo pojemna zabudowa - szafa sześciodrzwiowa. Dodatkowo w sypialni szafki z szufladami. \nDuże okna i wystawa względem stron świata zapewnia optymalne doświetlenie wnętrza. \n\nŁazienka z wanną. Przestronna i przytulna jednocześnie. \n\nDodatkowo można wynająć miejsce postojowe w hali garażowej.\n\nNie wysokie opłaty - ok.600 zł + prąd. W przypadku najmu wraz z miejscem postojowym, eksploatacja 700 zł.\n\nSpokojne sąsiedztwo.\n\nBudynek bardzo zadbany, bezpieczny. Miejsca postojowe zewnętrzne dla mieszkańców. \n\nLokalizacja idealna - piesza odległość na rynek, do wszystkich punktów usługowych, nawet filharmonii. Znany park vis a vis osiedla a nieco dalej tereny leśne - idealne do rekreacji. Ok. 1 km do SKM, dobry wyjazd do S6.\n\nWyjątkowa oferta w Wejherowie. Gotowe do wprowadzenia.\n\nNajem okazjonalny, umowa na 12 miesięcy.",
+      "price": 2800,
+      "pricePerSqm": 56.45,
+      "rent": 600,
+      "area": 49.6,
+      "rooms": 2,
+      "floor": 3,
+      "totalFloors": 3,
+      "yearBuilt": 2008,
+      "city": "Wejherowo",
+      "district": "wejherowski",
+      "street": "ul. św. Jacka",
+      "lat": 54.5995339,
+      "lng": 18.2338583,
+      "images": [
+        {
+          "url": "/oferty/103841156.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/103841123.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841117.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841129.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841135.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841147.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841153.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841150.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841168.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841162.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841165.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841159.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841171.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841180.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841174.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841177.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841195.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841198.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841183.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841186.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841189.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841192.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841201.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841204.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841207.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841210.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841213.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841216.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841105.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841108.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841111.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841114.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841219.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841222.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841225.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841228.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/11599184",
+      "createdAt": "2026-02-18 08:23:59",
+      "updatedAt": "2026-05-18 14:17:01"
     }
   ]
 }
