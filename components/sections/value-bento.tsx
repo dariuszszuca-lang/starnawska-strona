@@ -76,7 +76,7 @@ export function ValueBento() {
             icon={MapPin}
             title="Tylko Trójmiasto"
             href="/oferty"
-            body="Znamy każdą dzielnicę Gdyni, Sopotu i Gdańska. Nie sprzedajemy w ciemno."
+            body="Znamy każdą dzielnicę Gdyni, Sopotu i Gdańska. Doradzamy świadomie, na bazie faktów."
             extra={
               <>
                 <DistrictsTicker />

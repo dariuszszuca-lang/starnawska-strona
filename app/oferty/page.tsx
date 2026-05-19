@@ -126,7 +126,7 @@ function EmptyState({ lastSyncLabel }: { lastSyncLabel: string | null }) {
           <p className="text-foreground-muted leading-relaxed max-w-xl mx-auto mb-8">
             {lastSyncLabel
               ? "Zmień filtry, wyczyść kryteria lub skontaktuj się z nami. Może mamy coś spod lady."
-              : "Synchronizujemy bazę z naszym CRM ESTI. Pierwsze oferty pojawią się tu w ciągu najbliższej godziny. W międzyczasie zadzwoń. Dopasujemy ofertę pod Ciebie."}
+              : "Synchronizujemy bazę z naszym CRM ESTI. Pierwsze oferty pojawią się tu w ciągu najbliższej godziny. W międzyczasie zadzwoń. Dopasujemy ofertę do Twoich potrzeb."}
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">

@@ -44,7 +44,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
           className="mt-5 max-w-2xl text-lg lg:text-xl text-foreground-muted leading-relaxed"
         >
-          Sprzedajemy, kupujemy i wynajmujemy mieszkania, domy i działki w Gdyni, Sopocie i Gdańsku. Powiedz, w którym kierunku idziemy.
+          Sprzedaż, kupno i wynajem mieszkań, domów i działek w Gdyni, Sopocie i Gdańsku. Wybierz, w czym możemy Ci pomóc.
         </motion.p>
 
         <motion.div

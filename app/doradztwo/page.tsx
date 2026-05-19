@@ -70,7 +70,7 @@ const services = [
     icon: Calculator,
     title: "Doradztwo kredytowe",
     lead: "Sprawdź swoją zdolność kredytową.",
-    body: "Współpracujemy z niezależnymi pośrednikami kredytowymi. Liczymy zdolność, porównujemy oferty kilku banków i doprowadzamy do decyzji kredytowej.",
+    body: "Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy Twoją zdolność kredytową, porównujemy oferty banków i prowadzimy Cię aż do decyzji kredytowej.",
     points: [
       "Bezpłatna analiza zdolności kredytowej",
       "Porównanie ofert z kilku banków",
@@ -100,7 +100,7 @@ const services = [
     ],
     caseStudy: {
       label: "Liczby mówią same",
-      text: "Te same mieszkanie, przed i po stagingu: 3x więcej zapytań w pierwszym tygodniu, krótsza średnia sprzedaży o 40%.",
+      text: "To samo mieszkanie przed i po stagingu: 3x więcej zapytań w pierwszym tygodniu, sprzedaż średnio o 40% szybsza.",
     },
     cta: "Zobacz przykłady",
     tone: "default" as const,
@@ -161,9 +161,9 @@ export default function DoradztwoPage() {
               </h1>
               <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
                 Najczęściej pomagamy w jednym z tych czterech obszarów. W praktyce
-                każdą sprawę traktujemy jako kompleks: ktoś sprzedaje + szuka nowego,
-                ktoś wynajmuje + bierze kredyt na drugie. Zaczynamy od rozmowy,
-                potem rozkładamy plan na atomy.
+                każda sprawa jest złożona: ktoś sprzedaje i szuka nowego mieszkania,
+                ktoś wynajmuje i zaciąga kredyt. Zaczynamy od rozmowy, potem
+                ustalamy konkretny plan działania.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button asChild variant="primary" size="md">
