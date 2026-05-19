@@ -59,10 +59,10 @@ export function Header() {
 
             <a
               href={siteConfig.contact.phones[0].href}
-              className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-brand-forest transition-colors tabular-nums"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-brand-forest transition-colors tabular-nums whitespace-nowrap"
             >
-              <Phone className="size-4 text-brand-olive" />
-              <span className="hidden xl:inline">{siteConfig.contact.phones[0].displayValue}</span>
+              <Phone className="size-4 text-brand-olive shrink-0" />
+              <span className="hidden xl:inline whitespace-nowrap">{siteConfig.contact.phones[0].displayValue}</span>
             </a>
 
             {/* Social. Większe + branded hover */}
