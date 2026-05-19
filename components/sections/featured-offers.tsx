@@ -7,6 +7,14 @@ import { getLatestOffers, getFilteredOffers } from "@/lib/esti/store";
 import { formatPrice, formatPricePerSqm, formatArea, offerTitle, typeLabel } from "@/lib/esti/format";
 import type { Offer } from "@/lib/esti/types";
 
+function pluralOfert(n: number): string {
+  if (n === 1) return "ofertę";
+  const lastDigit = n % 10;
+  const lastTwo = n % 100;
+  if (lastDigit >= 2 && lastDigit <= 4 && (lastTwo < 12 || lastTwo > 14)) return "oferty";
+  return "ofert";
+}
+
 export async function FeaturedOffers() {
   // Tylko oferty ze zdjęciami, posortowane wg najnowszej daty
   const all = await getLatestOffers(30);
@@ -28,12 +36,12 @@ export async function FeaturedOffers() {
               Aktualnie w sprzedaży.
             </h2>
             <p className="mt-3 text-base text-foreground-muted">
-              Codziennie aktualizujemy bazę. To trzy najnowsze nieruchomości.
+              Codziennie aktualizujemy bazę. Najnowsze nieruchomości w sprzedaży.
             </p>
           </div>
           <Button asChild variant="primary" size="md">
             <Link href="/oferty">
-              Zobacz wszystkie {total} ofert
+              Zobacz wszystkie {total} {pluralOfert(total)}
               <ArrowUpRight />
             </Link>
           </Button>
