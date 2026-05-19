@@ -13,10 +13,14 @@ import {
   ClipboardList,
   KeyRound,
   ChevronDown,
+  Quote,
+  Sparkles,
+  Heart,
 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
+import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Strefa kupującego. Agent kupującego w Trójmieście",
@@ -25,11 +29,11 @@ export const metadata: Metadata = {
 };
 
 const rolaAgenta = [
-  "analiza rynku",
-  "wyszukiwanie najlepszych możliwości",
-  "negocjowanie warunków",
-  "weryfikacja bezpieczeństwa transakcji",
-  "prowadzenie klienta przez cały proces zakupu",
+  { label: "Analiza rynku", icon: Search },
+  { label: "Najlepsze możliwości", icon: Compass },
+  { label: "Negocjacje warunków", icon: Handshake },
+  { label: "Bezpieczeństwo transakcji", icon: ShieldCheck },
+  { label: "Cały proces zakupu", icon: ClipboardList },
 ];
 
 const wspolpraca = [
@@ -83,17 +87,17 @@ const zaKulisami = [
   "szukamy ofert off market",
   "negocjujemy warunki",
   "pomagamy uniknąć kosztownych błędów",
-  "dbamy o bezpieczeństwo i komfort naszych klientów",
+  "dbamy o bezpieczeństwo klientów",
 ];
 
 const dlaKogo = [
-  "kupują pierwsze mieszkanie",
-  "nie mają czasu na samodzielne poszukiwania",
-  "mieszkają poza Trójmiastem lub za granicą",
-  "chcą kupić bezpiecznie i świadomie",
-  "szukają ofert spoza portali",
-  "kupują inwestycyjnie",
-  "cenią profesjonalne wsparcie i strategię",
+  { label: "Kupujesz pierwsze mieszkanie", emoji: "🔑" },
+  { label: "Nie masz czasu na poszukiwania", emoji: "⏱️" },
+  { label: "Mieszkasz poza Trójmiastem", emoji: "✈️" },
+  { label: "Chcesz kupić bezpiecznie", emoji: "🛡️" },
+  { label: "Szukasz ofert spoza portali", emoji: "🔍" },
+  { label: "Kupujesz inwestycyjnie", emoji: "📈" },
+  { label: "Cenisz profesjonalne wsparcie", emoji: "💎" },
 ];
 
 const prawdziweMotywy = [
@@ -101,7 +105,7 @@ const prawdziweMotywy = [
   "miejsca bliżej natury",
   "przestrzeni do pracy zdalnej",
   "nowego początku",
-  "bezpieczeństwa dla swojej rodziny",
+  "bezpieczeństwa dla rodziny",
 ];
 
 const faq = [
@@ -130,42 +134,78 @@ const faq = [
 export default function StrefaKupujacegoPage() {
   return (
     <>
-      {/* HERO */}
-      <section className="relative pt-36 lg:pt-48 pb-14 lg:pb-20 overflow-hidden">
+      {/* HERO — split z dramatyczną typografią */}
+      <section className="relative overflow-hidden bg-background">
         <div
           aria-hidden
-          className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_15%_20%,rgba(163,199,51,0.16),transparent_55%),radial-gradient(circle_at_85%_60%,rgba(45,74,31,0.08),transparent_55%)]"
+          className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.15),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.10),transparent_60%)]"
         />
 
-        <Container size="wide">
-          <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-              Strefa kupującego
-            </p>
-            <h1 className="font-bold tracking-tight text-[clamp(2.25rem,5.2vw,4rem)] leading-[1.05] text-foreground">
-              Kupujesz nieruchomość?
-              <br />
-              <span className="text-foreground-muted">
-                Nie musisz przechodzić przez ten proces sam.
-              </span>
-            </h1>
-            <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
-              Zakup nieruchomości to jedna z najważniejszych decyzji finansowych
-              i życiowych. Dlatego reprezentujemy interes kupującego kompleksowo,
-              od pierwszej rozmowy aż po odbiór kluczy.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Button asChild variant="primary" size="md">
-                <Link href="/konsultacja">
-                  Umów konsultację
-                  <ArrowRight />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="md">
-                <a href="#wspolpraca">
-                  Porozmawiajmy o Twoim zakupie
-                </a>
-              </Button>
+        <Container size="wide" className="relative pt-36 lg:pt-48 pb-16 lg:pb-24">
+          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
+            <div className="lg:col-span-7">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
+                <Sparkles className="size-3.5" />
+                Strefa kupującego
+              </div>
+              <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,5rem)] leading-[1.02] text-foreground">
+                Kupujesz <span className="text-gradient-lime">nieruchomość</span>?
+                <br />
+                <span className="text-foreground-muted">
+                  Nie musisz iść w&nbsp;to sam.
+                </span>
+              </h1>
+              <p className="mt-7 text-lg lg:text-xl text-foreground-muted leading-relaxed max-w-2xl">
+                Zakup nieruchomości to jedna z najważniejszych decyzji
+                finansowych i życiowych. Reprezentujemy interes kupującego
+                kompleksowo, od pierwszej rozmowy aż po odbiór kluczy.
+              </p>
+              <div className="mt-9 flex flex-wrap gap-3">
+                <Button asChild variant="primary" size="lg">
+                  <Link href="/konsultacja">
+                    Umów konsultację
+                    <ArrowRight />
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="lg">
+                  <a href="#wspolpraca">Porozmawiajmy o&nbsp;zakupie</a>
+                </Button>
+              </div>
+            </div>
+
+            <div className="lg:col-span-5">
+              <div className="grid grid-cols-2 gap-4 lg:gap-5">
+                <div className="rounded-2xl border border-border bg-surface p-5 lg:p-6">
+                  <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-2">
+                    Na rynku
+                  </p>
+                  <p className="font-bold text-3xl lg:text-4xl text-foreground tabular-nums leading-none">
+                    {siteConfig.metrics.yearsActive}
+                  </p>
+                  <p className="mt-1 text-[11px] text-foreground-muted">lat</p>
+                </div>
+                <div className="rounded-2xl border border-brand-forest bg-brand-forest-deep text-foreground-on-dark p-5 lg:p-6">
+                  <p className="text-[10px] uppercase tracking-wider text-brand-lime font-semibold mb-2">
+                    Zadowolonych
+                  </p>
+                  <p className="font-bold text-3xl lg:text-4xl tabular-nums leading-none">
+                    {siteConfig.metrics.transactions}
+                  </p>
+                  <p className="mt-1 text-[11px] text-foreground-on-dark-muted">klientów</p>
+                </div>
+                <div className="rounded-2xl border border-border bg-surface p-5 lg:p-6 col-span-2">
+                  <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-2">
+                    Średnia ocen
+                  </p>
+                  <p className="font-bold text-3xl lg:text-4xl text-foreground tabular-nums leading-none inline-flex items-baseline gap-2">
+                    {siteConfig.metrics.rating}
+                    <span className="text-base text-brand-olive">★★★★★</span>
+                  </p>
+                  <p className="mt-2 text-[11px] text-foreground-muted">
+                    od kupujących w&nbsp;Trójmieście
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </Container>
@@ -173,86 +213,113 @@ export default function StrefaKupujacegoPage() {
 
       {/* SEKCJA 1 — KIM JEST AGENT KUPUJĄCEGO */}
       <Reveal>
-        <section className="py-16 lg:py-24 bg-surface">
+        <section className="py-20 lg:py-28 bg-surface">
           <Container size="wide">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
-              <div className="lg:col-span-6">
+              <div className="lg:col-span-6 lg:sticky lg:top-32">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  01 · Kim jest agent kupującego?
+                  01 · Kim jest agent kupującego
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight text-foreground mb-6">
-                  Kupujący również zasługuje na swojego reprezentanta.
+                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
+                  Kupujący też zasługuje na&nbsp;swojego reprezentanta.
                 </h2>
                 <p className="text-lg text-foreground-muted leading-relaxed mb-4">
-                  Przez lata rynek nieruchomości skupiał się głównie na sprzedaży.
-                  A przecież po drugiej stronie jest człowiek, który podejmuje
-                  ogromną decyzję, inwestuje swoje pieniądze, emocje i przyszłość.
+                  Przez lata rynek skupiał się głównie na sprzedaży. A przecież
+                  po drugiej stronie jest człowiek, który podejmuje ogromną
+                  decyzję, inwestuje pieniądze, emocje i przyszłość.
                 </p>
-                <p className="text-lg text-foreground-muted leading-relaxed mb-4">
-                  Właśnie dlatego powstała nasza Strefa Kupującego, która od
-                  początku istnienia firmy jest naszą specjalizacją.
-                </p>
-                <p className="text-foreground font-semibold leading-relaxed">
-                  Reprezentujemy interes kupującego. I to robi ogromną różnicę.
+                <p className="text-lg text-foreground leading-relaxed font-semibold">
+                  Strefa Kupującego to nasza specjalizacja od&nbsp;początku
+                  istnienia firmy.
                 </p>
               </div>
 
               <div className="lg:col-span-6">
-                <p className="text-sm font-semibold uppercase tracking-wider text-brand-olive mb-5">
-                  Nasza rola to:
+                <p className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-5">
+                  Nasza rola
                 </p>
-                <ul className="space-y-3">
-                  {rolaAgenta.map((r) => (
-                    <li
-                      key={r}
-                      className="flex items-start gap-4 p-5 rounded-2xl border border-border bg-background hover:border-brand-forest/40 transition-colors"
-                    >
-                      <span className="size-7 rounded-full bg-brand-lime/20 text-brand-olive flex items-center justify-center shrink-0 mt-0.5">
-                        <Check className="size-4" strokeWidth={3} />
-                      </span>
-                      <span className="text-foreground leading-relaxed">{r}</span>
-                    </li>
-                  ))}
-                </ul>
+                <div className="grid sm:grid-cols-2 gap-3">
+                  {rolaAgenta.map((r) => {
+                    const Icon = r.icon;
+                    return (
+                      <div
+                        key={r.label}
+                        className="flex items-center gap-4 p-5 rounded-2xl border border-border bg-background hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
+                      >
+                        <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
+                          <Icon className="size-5" strokeWidth={2.2} />
+                        </div>
+                        <span className="font-semibold text-foreground leading-snug">
+                          {r.label}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </Container>
         </section>
       </Reveal>
 
-      {/* SEKCJA 2 — JAK WYGLĄDA WSPÓŁPRACA (8 KROKÓW) */}
+      {/* SEKCJA 2 — 8 KROKÓW timeline z accent cards */}
       <Reveal>
-        <section id="wspolpraca" className="py-16 lg:py-24 scroll-mt-24">
+        <section id="wspolpraca" className="py-20 lg:py-28 scroll-mt-24">
           <Container size="wide">
-            <div className="max-w-2xl mb-10 lg:mb-14">
+            <div className="max-w-3xl mb-12 lg:mb-16">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                02 · Jak wygląda współpraca?
+                02 · Jak wygląda współpraca
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.1] text-foreground">
+              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
                 Osiem kroków.
                 <br />
-                <span className="text-foreground-muted">Od rozmowy do kluczy.</span>
+                <span className="text-gradient-lime">Od&nbsp;rozmowy do&nbsp;kluczy</span>.
               </h2>
             </div>
 
-            <ol className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+            <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
               {wspolpraca.map((step, i) => {
                 const Icon = step.icon;
+                const accent = i === 0 || i === 3 || i === 7;
                 return (
                   <li
                     key={step.title}
-                    className="relative rounded-2xl bg-surface p-6 lg:p-7 border border-border"
+                    className={`group relative rounded-3xl p-6 lg:p-7 border overflow-hidden transition-all hover:-translate-y-1 ${
+                      accent
+                        ? "bg-brand-forest-deep text-foreground-on-dark border-brand-forest hover:border-brand-lime"
+                        : "bg-surface border-border hover:border-brand-forest"
+                    }`}
                   >
-                    <p className="absolute top-5 right-5 font-bold text-3xl text-foreground/10 tabular-nums leading-none">
+                    <p
+                      className={`absolute top-5 right-5 font-bold text-4xl tabular-nums leading-none transition-colors ${
+                        accent
+                          ? "text-brand-lime/40 group-hover:text-brand-lime/70"
+                          : "text-foreground/10 group-hover:text-brand-lime/40"
+                      }`}
+                    >
                       0{i + 1}
                     </p>
-                    <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center mb-4">
-                      <Icon className="size-5" />
+                    <div
+                      className={`size-12 rounded-xl flex items-center justify-center mb-5 ${
+                        accent
+                          ? "bg-brand-lime text-brand-forest-deep"
+                          : "bg-brand-lime/15 text-brand-olive"
+                      }`}
+                    >
+                      <Icon className="size-5" strokeWidth={2.2} />
                     </div>
-                    <h3 className="font-bold text-lg text-foreground mb-2 leading-tight">
+                    <h3
+                      className={`font-bold text-base lg:text-lg leading-tight mb-2 ${
+                        accent ? "text-foreground-on-dark" : "text-foreground"
+                      }`}
+                    >
                       {step.title}
                     </h3>
-                    <p className="text-sm text-foreground-muted leading-relaxed">
+                    <p
+                      className={`text-sm leading-relaxed ${
+                        accent ? "text-foreground-on-dark-muted" : "text-foreground-muted"
+                      }`}
+                    >
                       {step.text}
                     </p>
                   </li>
@@ -263,21 +330,27 @@ export default function StrefaKupujacegoPage() {
         </section>
       </Reveal>
 
-      {/* SEKCJA 3 — CZEGO KLIENT NIE WIDZI */}
+      {/* SEKCJA 3 — ZA KULISAMI (dark) */}
       <Reveal>
-        <section className="py-16 lg:py-24 bg-surface">
-          <Container size="wide">
+        <section className="relative py-20 lg:py-28 bg-brand-forest-deep text-foreground-on-dark overflow-hidden">
+          <div
+            aria-hidden
+            className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(163,199,51,0.18),transparent_55%),radial-gradient(ellipse_at_bottom_right,rgba(45,74,31,0.55),transparent_60%)]"
+          />
+          <Container size="wide" className="relative">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  03 · Czego klient często nie widzi?
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
+                  03 · Za&nbsp;kulisami
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight text-foreground mb-6">
-                  Za&nbsp;kulisami dzieje się więcej niż podczas prezentacji.
+                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] mb-6">
+                  Czego klient
+                  <br />
+                  <span className="text-gradient-lime">nie widzi</span>?
                 </h2>
-                <p className="text-lg text-foreground-muted leading-relaxed">
-                  Zakup nieruchomości to dużo więcej niż oglądanie mieszkań. Dobra
-                  obsługa kupującego zaczyna się tam, gdzie kończy się zwykłe
+                <p className="text-lg text-foreground-on-dark-muted leading-relaxed">
+                  Zakup nieruchomości to dużo więcej niż oglądanie mieszkań.
+                  Dobra obsługa zaczyna się tam, gdzie kończy się zwykłe
                   pokazywanie nieruchomości.
                 </p>
               </div>
@@ -287,12 +360,12 @@ export default function StrefaKupujacegoPage() {
                   {zaKulisami.map((p) => (
                     <li
                       key={p}
-                      className="flex items-start gap-3 p-4 rounded-2xl border border-border bg-background"
+                      className="flex items-start gap-3 p-4 rounded-2xl bg-white/[0.04] border border-white/10 backdrop-blur-sm"
                     >
-                      <span className="size-6 rounded-full bg-brand-lime/20 text-brand-olive flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="size-6 rounded-full bg-brand-lime/20 text-brand-lime flex items-center justify-center shrink-0 mt-0.5">
                         <Check className="size-3.5" strokeWidth={3} />
                       </span>
-                      <span className="text-foreground leading-relaxed text-sm">
+                      <span className="text-foreground-on-dark leading-relaxed text-sm">
                         {p}
                       </span>
                     </li>
@@ -304,73 +377,81 @@ export default function StrefaKupujacegoPage() {
         </section>
       </Reveal>
 
-      {/* SEKCJA 4 — DLA KOGO */}
+      {/* SEKCJA 4 — DLA KOGO (cards z emoji) */}
       <Reveal>
-        <section className="py-16 lg:py-24">
+        <section className="py-20 lg:py-28">
           <Container size="wide">
-            <div className="max-w-2xl mb-10 lg:mb-14">
+            <div className="max-w-2xl mb-12 lg:mb-16">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                04 · Dla kogo jest ta usługa?
+                04 · Dla kogo
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.1] text-foreground">
-                Najczęściej pomagamy klientom, którzy:
+              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
+                Najczęściej pomagamy ludziom, którzy…
               </h2>
             </div>
 
-            <div className="flex flex-wrap gap-2">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {dlaKogo.map((d) => (
-                <span
-                  key={d}
-                  className="inline-flex items-center gap-2 pl-2.5 pr-4 py-2.5 rounded-full bg-surface border border-border text-foreground"
+                <div
+                  key={d.label}
+                  className="group flex items-start gap-4 p-6 rounded-3xl bg-surface border border-border hover:border-brand-lime hover:shadow-[var(--shadow-card)] hover:-translate-y-1 transition-all"
                 >
-                  <Check className="size-3.5 text-brand-olive" strokeWidth={3} />
-                  {d}
-                </span>
+                  <span className="text-3xl shrink-0" aria-hidden>
+                    {d.emoji}
+                  </span>
+                  <span className="font-semibold text-foreground leading-snug pt-1">
+                    {d.label}
+                  </span>
+                </div>
               ))}
             </div>
           </Container>
         </section>
       </Reveal>
 
-      {/* SEKCJA 5 — HISTORIE KLIENTÓW */}
+      {/* SEKCJA 5 — HISTORIE (big quote card) */}
       <Reveal>
-        <section className="py-16 lg:py-24 bg-surface">
-          <Container size="wide">
-            <div className="max-w-3xl">
+        <section className="py-20 lg:py-28 bg-surface">
+          <Container size="default">
+            <div className="text-center mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                05 · Historie naszych klientów
+                05 · Historie klientów
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight text-foreground mb-6">
-                Każda nieruchomość zaczyna się od&nbsp;czyjejś historii.
+              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
+                Każda nieruchomość zaczyna się
+                <br />
+                od&nbsp;<span className="text-gradient-lime">czyjejś historii</span>.
               </h2>
-              <p className="text-lg text-foreground-muted leading-relaxed mb-3">
+            </div>
+
+            <div className="relative max-w-3xl mx-auto p-10 lg:p-14 rounded-[32px] bg-background border border-border">
+              <Quote
+                aria-hidden
+                className="absolute -top-5 left-10 size-12 text-brand-lime"
+              />
+              <p className="text-lg lg:text-xl text-foreground-muted leading-relaxed mb-5">
                 Czasami klient mówi:
               </p>
-              <p className="text-xl lg:text-2xl text-foreground italic leading-relaxed border-l-4 border-brand-lime pl-6 mb-6">
-                „Szukamy mieszkania 3 pokojowego.”
+              <p className="text-2xl lg:text-3xl text-foreground italic font-semibold leading-tight mb-8">
+                „Szukamy mieszkania 3-pokojowego.”
               </p>
-              <p className="text-lg text-foreground-muted leading-relaxed mb-5">
+              <p className="text-lg text-foreground-muted leading-relaxed mb-6">
                 A po kilku rozmowach okazuje się, że naprawdę szuka:
               </p>
-            </div>
-
-            <div className="flex flex-wrap gap-2 mb-8">
-              {prawdziweMotywy.map((m) => (
-                <span
-                  key={m}
-                  className="inline-flex items-center px-4 py-2 rounded-full bg-background border border-border text-foreground"
-                >
-                  {m}
-                </span>
-              ))}
-            </div>
-
-            <div className="max-w-3xl">
-              <p className="text-lg text-foreground-muted leading-relaxed mb-3">
-                Dlatego nie pracujemy schematami.
-              </p>
-              <p className="text-foreground font-semibold leading-relaxed text-lg">
-                Każdy klient ma swoją historię. I swoją definicję idealnego miejsca.
+              <div className="flex flex-wrap gap-2.5 mb-8">
+                {prawdziweMotywy.map((m) => (
+                  <span
+                    key={m}
+                    className="inline-flex items-center gap-2 pl-3 pr-5 py-2.5 rounded-full bg-brand-lime/15 border border-brand-lime/30 text-brand-forest-deep font-medium text-sm"
+                  >
+                    <Heart className="size-3.5 fill-brand-lime text-brand-lime" />
+                    {m}
+                  </span>
+                ))}
+              </div>
+              <p className="text-foreground font-semibold leading-relaxed text-lg pt-6 border-t border-border">
+                Dlatego nie pracujemy schematami. Każdy klient ma swoją historię.
+                I swoją definicję idealnego miejsca.
               </p>
             </div>
           </Container>
@@ -379,14 +460,14 @@ export default function StrefaKupujacegoPage() {
 
       {/* SEKCJA 6 — FAQ */}
       <Reveal>
-        <section className="py-16 lg:py-24">
+        <section className="py-20 lg:py-28">
           <Container size="default">
-            <div className="max-w-2xl mb-10 lg:mb-14">
+            <div className="max-w-2xl mb-12 lg:mb-16">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                 06 · FAQ
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.1] text-foreground">
-                Najczęściej zadawane pytania
+              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
+                Najczęstsze pytania.
               </h2>
             </div>
 
@@ -394,18 +475,18 @@ export default function StrefaKupujacegoPage() {
               {faq.map((item, i) => (
                 <details
                   key={i}
-                  className="group rounded-2xl border border-border bg-surface p-6 transition-colors hover:border-brand-forest/40 open:border-brand-forest/40"
+                  className="group rounded-3xl border border-border bg-surface p-6 lg:p-7 transition-all hover:border-brand-forest/40 open:border-brand-forest open:bg-surface-elevated open:shadow-[var(--shadow-card)]"
                 >
                   <summary className="flex items-start justify-between gap-4 cursor-pointer list-none">
                     <span className="font-semibold text-foreground text-lg leading-snug">
                       {item.q}
                     </span>
                     <ChevronDown
-                      className="size-5 text-foreground-muted shrink-0 mt-1 group-open:rotate-180 transition-transform"
+                      className="size-5 text-foreground-muted shrink-0 mt-1 group-open:rotate-180 group-open:text-brand-forest transition-all"
                       strokeWidth={2.2}
                     />
                   </summary>
-                  <p className="mt-4 text-foreground-muted leading-relaxed">
+                  <p className="mt-5 text-foreground-muted leading-relaxed text-base">
                     {item.a}
                   </p>
                 </details>
@@ -419,17 +500,17 @@ export default function StrefaKupujacegoPage() {
       <Reveal>
         <section className="py-16 lg:py-24">
           <Container size="default">
-            <div className="relative rounded-[40px] bg-surface-dark text-foreground-on-dark p-10 lg:p-16 text-center overflow-hidden">
+            <div className="relative rounded-[40px] bg-surface-dark text-foreground-on-dark p-12 lg:p-20 text-center overflow-hidden">
               <div
                 aria-hidden
-                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.18),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(45,74,31,0.5),transparent_60%)]"
+                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.22),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(45,74,31,0.55),transparent_60%)]"
               />
               <div className="relative">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
                   Szukasz nieruchomości?
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight mb-6">
-                  Zacznijmy od&nbsp;rozmowy,
+                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.75rem)] leading-[1.05] mb-7 max-w-3xl mx-auto">
+                  Zacznijmy od&nbsp;<span className="text-gradient-lime">rozmowy</span>,
                   <br />
                   nie od&nbsp;przypadkowych ogłoszeń.
                 </h2>
