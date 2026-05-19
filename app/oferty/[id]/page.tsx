@@ -89,7 +89,7 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
       />
 
       {/* Hero gallery */}
-      <section className="pt-28 lg:pt-32 pb-8">
+      <section className="pt-36 lg:pt-48 pb-8">
         <Container size="wide">
           <Link
             href="/oferty"
@@ -301,7 +301,7 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
                           alt={agent.fullName}
                           fill
                           sizes="64px"
-                          className="object-cover"
+                          className="object-cover object-top"
                         />
                       </div>
                       <div>

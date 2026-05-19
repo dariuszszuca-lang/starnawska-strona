@@ -18,7 +18,7 @@ export function Hero() {
         className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[900px] rounded-full bg-brand-lime/[0.04] blur-[140px]"
       />
 
-      <Container size="wide" className="relative pt-28 lg:pt-36 pb-16 lg:pb-24">
+      <Container size="wide" className="relative pt-36 lg:pt-48 pb-16 lg:pb-24">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

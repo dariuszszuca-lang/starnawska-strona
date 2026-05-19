@@ -17,7 +17,7 @@ export default function TeamPage() {
   return (
     <>
       {/* Hero strony */}
-      <section className="pt-32 lg:pt-36 pb-12">
+      <section className="pt-36 lg:pt-48 pb-12">
         <Container size="wide">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
@@ -67,7 +67,7 @@ function TeamCard({
           alt={member.fullName}
           fill
           sizes="(min-width: 1024px) 33vw, 50vw"
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
+          className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
         />
         {/* Hover arrow */}
         <div className="absolute top-4 right-4 size-10 rounded-full bg-brand-lime flex items-center justify-center opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">

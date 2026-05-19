@@ -26,7 +26,7 @@ export default function BlogPage() {
   return (
     <>
       {/* HERO */}
-      <section className="pt-32 lg:pt-36 pb-12 lg:pb-16">
+      <section className="pt-36 lg:pt-48 pb-12 lg:pb-16">
         <Container size="wide">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">

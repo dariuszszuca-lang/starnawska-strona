@@ -141,7 +141,7 @@ export default function DoradztwoPage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative pt-32 lg:pt-36 pb-12 lg:pb-16 overflow-hidden">
+      <section className="relative pt-36 lg:pt-48 pb-12 lg:pb-16 overflow-hidden">
         {/* Soft accents w tle */}
         <div
           aria-hidden

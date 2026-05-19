@@ -123,7 +123,7 @@ export default async function AgentPage({ params }: { params: Params }) {
           className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(163,199,51,0.15),transparent_55%),radial-gradient(circle_at_80%_70%,rgba(45,74,31,0.4),transparent_60%)]"
         />
 
-        <Container size="wide" className="relative pt-32 lg:pt-40 pb-12 lg:pb-20">
+        <Container size="wide" className="relative pt-36 lg:pt-48 pb-12 lg:pb-20">
           <Link
             href="/zespol"
             className="inline-flex items-center gap-2 text-sm text-foreground-on-dark-muted hover:text-brand-lime transition-colors mb-8"
@@ -185,24 +185,11 @@ export default async function AgentPage({ params }: { params: Params }) {
                     alt={member.fullName}
                     fill
                     sizes="(min-width: 1024px) 40vw, 90vw"
-                    className="object-cover"
+                    className="object-cover object-top"
                     priority
                   />
                 </div>
 
-                {/* Kółko z liczbą ofert. Naklejka VIP */}
-                {offers.length > 0 && (
-                  <div className="absolute -bottom-6 -left-4 lg:-bottom-8 lg:-left-8 z-10">
-                    <div className="relative size-28 lg:size-32 rounded-full bg-brand-lime text-brand-forest-deep flex flex-col items-center justify-center shadow-[0_20px_50px_-15px_rgba(0,0,0,0.5)] rotate-[-6deg]">
-                      <span className="font-bold text-4xl lg:text-5xl tabular-nums leading-none">
-                        {offers.length}
-                      </span>
-                      <span className="text-[10px] font-semibold uppercase tracking-wider mt-1.5 text-center px-3 leading-tight">
-                        {offers.length === 1 ? "aktywna oferta" : "aktywnych ofert"}
-                      </span>
-                    </div>
-                  </div>
-                )}
               </div>
             </div>
           </div>
@@ -469,7 +456,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                     alt={m.fullName}
                     fill
                     sizes="(min-width: 768px) 25vw, 50vw"
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-4 text-foreground-on-dark">

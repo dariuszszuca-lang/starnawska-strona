@@ -61,7 +61,7 @@ export default async function OfertyPage({ searchParams }: { searchParams: Searc
 
   return (
     <>
-      <section className="pt-32 lg:pt-36 pb-6">
+      <section className="pt-36 lg:pt-48 pb-6">
         <Container size="wide">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">

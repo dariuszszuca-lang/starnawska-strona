@@ -125,7 +125,7 @@ export default function StrefaSprzedajacegoPage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative pt-32 lg:pt-36 pb-14 lg:pb-20 overflow-hidden">
+      <section className="relative pt-36 lg:pt-48 pb-14 lg:pb-20 overflow-hidden">
         <div
           aria-hidden
           className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_15%_20%,rgba(163,199,51,0.16),transparent_55%),radial-gradient(circle_at_85%_60%,rgba(45,74,31,0.08),transparent_55%)]"

@@ -58,7 +58,7 @@ export function TeamPreview() {
                   alt={m.fullName}
                   fill
                   sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
                 />
 
                 {/* Gradient overlay - mocniejszy na dole */}
