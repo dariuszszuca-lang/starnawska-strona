@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-16T06:19:23.380Z",
+  "lastSync": "2026-05-20T06:24:25.600Z",
   "offers": [
     {
       "id": "334533",
@@ -1578,112 +1578,17 @@
     },
     {
       "id": "11567570",
-      "offerNumber": "ST305362",
+      "offerNumber": "",
       "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Bezczynszowe mieszkanie z ogródkiem o pow. 65m2",
-      "description": "Na sprzedaż bezczynszowe mieszkanie o powierzchni 57 m² z prywatnym ogrodem 65 m², położone w Gdyni Chwarznie-Wiczlinie przy ul. Flagowej. \n\nLokal znajduje się na parterze kameralnego budynku z 2014 roku, w którym mieści się jedynie 8 mieszkań, co zapewnia spokój, prywatność i sąsiedzką atmosferę.\n\nMieszkanie ma bardzo funkcjonalny układ. \nSkłada się z:\n- salonu z aneksem kuchennym, z którego prowadzi bezpośrednie wyjście na taras i do ogrodu o powierzchni 65m2;\n- dwóch niezależnych sypialni o powierzchni 12 m² i 10 m²;\n- dużej łazienki z oknem;\n- wiatrołapu z pojemną szafą w zabudowie, który zwiększa komfort codziennego użytkowania i daje dodatkowe miejsce do przechowywania oraz przedpokoju\n\nPrywatny ogród o powierzchni 65 m² stanowi naturalne przedłużenie strefy dziennej i daje wiele możliwości aranżacyjnych — od miejsca do relaksu, przez przestrzeń dla dzieci, po strefę spotkań przy grillu. To idealne rozwiązanie dla osób, które marzą o namiastce domu z ogrodem, pozostając w granicach miasta.\n\nNieruchomość jest bezczynszowa, co oznacza brak opłat administracyjnych. Koszty utrzymania obejmują jedynie media według zużycia — gaz, prąd, wodę i śmieci. Fundusz Remontowy wynosi 20zł/m-c. Ogrzewanie gazowe pozwala na samodzielną kontrolę wydatków.\nChwarzno-Wiczlino to jedna z najbardziej cenionych dzielnic Gdyni, szczególnie wśród rodzin i osób ceniących ciszę oraz bliskość natury. W okolicy znajdują się liczne tereny zielone i spacerowe, a także lasy Trójmiejskiego Parku Krajobrazowego. Dzielnica oferuje pełną infrastrukturę handlowo-usługową, szkoły, przedszkola oraz punkty edukacyjne i językowe. Jednocześnie zapewnia dobrą komunikację z centrum Gdyni i szybki dojazd do obwodnicy Trójmiasta.\n\nTo propozycja dla osób szukających wygodnego mieszkania w spokojnej, zielonej części miasta, z dodatkową przestrzenią na świeżym powietrzu.\n\nZapraszam do kontaktu i na prezentację.",
-      "price": 729000,
-      "pricePerSqm": 12789.47,
-      "rent": 20,
-      "area": 57,
-      "rooms": 3,
-      "floor": 0,
-      "totalFloors": 1,
-      "yearBuilt": 2014,
-      "city": "Gdynia",
-      "district": "Chwarzno-Wiczlino",
-      "street": "ul. Flagowa",
-      "lat": 54.5010649,
-      "lng": 18.4207344,
-      "images": [
-        {
-          "url": "/oferty/103658228.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/103658237.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658225.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658222.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658231.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658234.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658240.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658243.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658246.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658249.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658252.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658255.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658258.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103658261.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103448645.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106474397.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106474424.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106474439.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106474490.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
-      },
+      "type": "inne",
+      "title": "Nieruchomość, Trójmiasto",
+      "price": 0,
+      "area": 0,
+      "city": "Trójmiasto",
+      "images": [],
       "url": "https://starnawska.pl/oferty/11567570",
-      "createdAt": "2026-02-08 19:46:07",
-      "updatedAt": "2026-05-04 15:18:25"
+      "createdAt": "2026-05-20T06:24:25.596Z",
+      "updatedAt": "2026-05-20T06:24:25.596Z"
     },
     {
       "id": "11599184",
