@@ -375,13 +375,13 @@ export default function DoradztwoPage() {
       <Reveal>
         <section className="py-16 lg:py-24">
           <Container size="default">
-            <div className="relative rounded-[40px] bg-surface-dark text-foreground-on-dark p-10 lg:p-16 text-center overflow-hidden">
+            <div className="relative rounded-[40px] bg-surface border border-border text-foreground p-10 lg:p-16 text-center overflow-hidden shadow-[var(--shadow-soft)]">
               <div
                 aria-hidden
-                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.18),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(45,74,31,0.5),transparent_60%)]"
+                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.14),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(163,199,51,0.07),transparent_60%)]"
               />
               <div className="relative">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                   Nietypowy temat?
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight mb-4">
@@ -389,7 +389,7 @@ export default function DoradztwoPage() {
                   <br />
                   do żadnej kategorii?
                 </h2>
-                <p className="text-lg text-foreground-on-dark-muted max-w-2xl mx-auto mb-8">
+                <p className="text-lg text-foreground-muted max-w-2xl mx-auto mb-8">
                   Spadek, podział majątku, sprzedaż udziałów, rynek pierwotny, grunty
                   inwestycyjne. Robiliśmy to wszystko. Powiedz nam co masz.
                 </p>
@@ -400,7 +400,7 @@ export default function DoradztwoPage() {
                       <ArrowRight />
                     </Link>
                   </Button>
-                  <Button asChild variant="outline-dark" size="lg">
+                  <Button asChild variant="outline" size="lg">
                     <a href="tel:+48532843660">
                       <Phone />
                       532 843 660

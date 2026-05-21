@@ -80,7 +80,7 @@ export function ValueBento() {
             extra={
               <>
                 <DistrictsTicker />
-                <div className="mt-auto grid grid-cols-3 gap-3 pt-5 border-t border-border-on-dark">
+                <div className="mt-auto grid grid-cols-3 gap-3 pt-5 border-t border-border">
                   <Stat value={3} label="miasta" />
                   <Stat value={73} label="dzielnic" />
                   <Stat value={15} label="lat" />
@@ -109,7 +109,7 @@ export function ValueBento() {
                     {m.lastName[0]}
                   </span>
                 ))}
-                <span className="size-9 rounded-full bg-brand-forest text-foreground-on-dark text-[10px] font-bold flex items-center justify-center ring-2 ring-surface">
+                <span className="size-9 rounded-full bg-brand-forest text-white text-[10px] font-bold flex items-center justify-center ring-2 ring-surface">
                   +{team.length - 6}
                 </span>
               </div>
@@ -197,12 +197,12 @@ function DistrictsTicker() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
-            className="rounded-2xl bg-white/[0.04] border border-border-on-dark p-4 text-center hover:bg-white/[0.07] transition-colors"
+            className="rounded-2xl bg-background border border-border p-4 text-center hover:border-brand-lime/40 hover:bg-brand-lime/[0.05] transition-colors"
           >
-            <p className="text-xs uppercase tracking-wider text-foreground-on-dark-muted mb-1">
+            <p className="text-xs uppercase tracking-wider text-foreground-muted mb-1">
               {c.name}
             </p>
-            <p className="font-bold text-2xl text-brand-lime tabular-nums">
+            <p className="font-bold text-2xl text-brand-olive tabular-nums">
               <CountUp to={c.count} />
               <span className="text-sm ml-1 opacity-70">
                 {c.count === 12 ? "osiedli" : "dzielnic"}
@@ -216,20 +216,20 @@ function DistrictsTicker() {
       <div className="relative overflow-hidden -mx-6 lg:-mx-7">
         <div
           aria-hidden
-          className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-surface-dark to-transparent z-10"
+          className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-surface to-transparent z-10"
         />
         <div
           aria-hidden
-          className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-surface-dark to-transparent z-10"
+          className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-surface to-transparent z-10"
         />
 
         <div className="flex gap-2 animate-[bento-marquee_45s_linear_infinite] whitespace-nowrap">
           {[...districts, ...districts].map((d, i) => (
             <span
               key={`${d}-${i}`}
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.04] border border-border-on-dark text-xs text-foreground-on-dark-muted"
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-background border border-border text-xs text-foreground-muted"
             >
-              <span className="size-1 rounded-full bg-brand-lime" />
+              <span className="size-1 rounded-full bg-brand-olive" />
               {d}
             </span>
           ))}
@@ -260,9 +260,9 @@ function Stat({ value, label }: { value: number; label: string }) {
       <CountUp
         to={value}
         suffix="+"
-        className="block font-bold text-2xl tabular-nums text-foreground-on-dark"
+        className="block font-bold text-2xl tabular-nums text-foreground"
       />
-      <span className="block text-[10px] uppercase tracking-wider text-foreground-on-dark-muted mt-0.5">
+      <span className="block text-[10px] uppercase tracking-wider text-foreground-muted mt-0.5">
         {label}
       </span>
     </div>
@@ -294,9 +294,9 @@ function BentoCard({
   const palette =
     tone === "dark"
       ? {
-          card: "bg-surface-dark text-foreground-on-dark border-transparent",
-          iconBox: "bg-brand-lime/15 text-brand-lime",
-          body: "text-foreground-on-dark-muted",
+          card: "bg-surface text-foreground border border-border shadow-[var(--shadow-soft)]",
+          iconBox: "bg-brand-lime/15 text-brand-olive",
+          body: "text-foreground-muted",
         }
       : tone === "lime"
         ? {

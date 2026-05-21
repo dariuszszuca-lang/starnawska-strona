@@ -77,21 +77,21 @@ export function Hero() {
 
           <Link
             href="/strefa-sprzedajacego"
-            className="group relative overflow-hidden rounded-3xl bg-brand-forest-deep text-foreground-on-dark border border-brand-forest p-8 lg:p-10 transition-all hover:border-brand-lime hover:shadow-[var(--shadow-lime)] hover:-translate-y-1"
+            className="group relative overflow-hidden rounded-3xl bg-surface border border-border p-8 lg:p-10 transition-all hover:border-brand-lime hover:shadow-[var(--shadow-card)] hover:-translate-y-1"
           >
-            <div className="size-14 rounded-2xl bg-brand-lime/20 flex items-center justify-center mb-6 group-hover:bg-brand-lime/35 transition-colors">
-              <HomeIcon className="size-7 text-brand-lime" strokeWidth={2.2} />
+            <div className="size-14 rounded-2xl bg-brand-lime/15 flex items-center justify-center mb-6 group-hover:bg-brand-lime/25 transition-colors">
+              <HomeIcon className="size-7 text-brand-forest-deep" strokeWidth={2.2} />
             </div>
-            <div className="text-xs uppercase tracking-wider text-brand-lime font-semibold mb-2">
+            <div className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-2">
               Strefa sprzedającego
             </div>
-            <div className="text-2xl lg:text-3xl font-bold text-foreground-on-dark leading-tight">
+            <div className="text-2xl lg:text-3xl font-bold text-foreground leading-tight">
               Chcę sprzedać nieruchomość
             </div>
-            <p className="mt-3 text-foreground-on-dark-muted leading-relaxed">
+            <p className="mt-3 text-foreground-muted leading-relaxed">
               Tworzymy przemyślane strategie sprzedaży. Skuteczność zaczyna się od dobrego przygotowania.
             </p>
-            <div className="mt-6 inline-flex items-center gap-2 text-brand-lime font-semibold">
+            <div className="mt-6 inline-flex items-center gap-2 text-brand-forest-deep font-semibold">
               Zobacz, jak pracujemy
               <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />
             </div>

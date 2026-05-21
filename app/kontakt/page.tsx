@@ -38,7 +38,7 @@ export default function KontaktPage() {
         <Container size="wide">
           <div className="grid lg:grid-cols-12 gap-6 lg:gap-8">
             <div className="lg:col-span-5 space-y-6">
-              <article className="rounded-3xl bg-surface-dark text-foreground-on-dark p-8 lg:p-10 relative overflow-hidden">
+              <article className="rounded-3xl bg-surface border border-border text-foreground p-8 lg:p-10 relative overflow-hidden shadow-[var(--shadow-soft)]">
                 <div
                   aria-hidden
                   className="absolute -top-20 -right-20 size-64 rounded-full bg-brand-lime/10 blur-3xl"
@@ -49,10 +49,10 @@ export default function KontaktPage() {
                 <ul className="space-y-6">
                   <li className="flex items-start gap-4">
                     <span className="size-11 rounded-2xl bg-brand-lime/15 flex items-center justify-center shrink-0">
-                      <MapPin className="size-5 text-brand-lime" />
+                      <MapPin className="size-5 text-brand-olive" />
                     </span>
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-foreground-on-dark-muted mb-1">
+                      <p className="text-xs uppercase tracking-wider text-foreground-muted mb-1">
                         Adres
                       </p>
                       <p className="text-lg">
@@ -65,15 +65,15 @@ export default function KontaktPage() {
                   {siteConfig.contact.phones.map((p, i) => (
                     <li key={p.value} className="flex items-start gap-4">
                       <span className="size-11 rounded-2xl bg-brand-lime/15 flex items-center justify-center shrink-0">
-                        <Phone className="size-5 text-brand-lime" />
+                        <Phone className="size-5 text-brand-olive" />
                       </span>
                       <div>
-                        <p className="text-xs uppercase tracking-wider text-foreground-on-dark-muted mb-1">
+                        <p className="text-xs uppercase tracking-wider text-foreground-muted mb-1">
                           {i === 0 ? "Telefon" : "Drugi telefon"}
                         </p>
                         <a
                           href={p.href}
-                          className="text-lg font-medium hover:text-brand-lime transition-colors tabular-nums"
+                          className="text-lg font-medium hover:text-brand-forest transition-colors tabular-nums"
                         >
                           {p.displayValue}
                         </a>
@@ -82,15 +82,15 @@ export default function KontaktPage() {
                   ))}
                   <li className="flex items-start gap-4">
                     <span className="size-11 rounded-2xl bg-brand-lime/15 flex items-center justify-center shrink-0">
-                      <Mail className="size-5 text-brand-lime" />
+                      <Mail className="size-5 text-brand-olive" />
                     </span>
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-foreground-on-dark-muted mb-1">
+                      <p className="text-xs uppercase tracking-wider text-foreground-muted mb-1">
                         E-mail
                       </p>
                       <a
                         href={`mailto:${siteConfig.contact.email}`}
-                        className="text-lg font-medium hover:text-brand-lime transition-colors break-all"
+                        className="text-lg font-medium hover:text-brand-forest transition-colors break-all"
                       >
                         {siteConfig.contact.email}
                       </a>
@@ -98,10 +98,10 @@ export default function KontaktPage() {
                   </li>
                   <li className="flex items-start gap-4">
                     <span className="size-11 rounded-2xl bg-brand-lime/15 flex items-center justify-center shrink-0">
-                      <Clock className="size-5 text-brand-lime" />
+                      <Clock className="size-5 text-brand-olive" />
                     </span>
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-foreground-on-dark-muted mb-1">
+                      <p className="text-xs uppercase tracking-wider text-foreground-muted mb-1">
                         Godziny pracy
                       </p>
                       <p className="text-lg">{siteConfig.contact.hours}</p>
@@ -109,8 +109,8 @@ export default function KontaktPage() {
                   </li>
                 </ul>
 
-                <div className="mt-10 pt-8 border-t border-border-on-dark">
-                  <p className="text-xs uppercase tracking-wider text-foreground-on-dark-muted mb-4">
+                <div className="mt-10 pt-8 border-t border-border">
+                  <p className="text-xs uppercase tracking-wider text-foreground-muted mb-4">
                     Znajdź nas też
                   </p>
                   <div className="flex items-center gap-3">
@@ -118,7 +118,7 @@ export default function KontaktPage() {
                       href={siteConfig.social.facebook}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center size-11 rounded-full border border-border-on-dark hover:border-brand-lime hover:bg-brand-lime/10 hover:text-brand-lime transition-all"
+                      className="inline-flex items-center justify-center size-11 rounded-full border border-border hover:border-brand-lime hover:bg-brand-lime/10 hover:text-brand-forest transition-all"
                       aria-label="Facebook"
                     >
                       <FacebookIcon className="size-4" />
@@ -127,7 +127,7 @@ export default function KontaktPage() {
                       href={siteConfig.social.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center size-11 rounded-full border border-border-on-dark hover:border-brand-lime hover:bg-brand-lime/10 hover:text-brand-lime transition-all"
+                      className="inline-flex items-center justify-center size-11 rounded-full border border-border hover:border-brand-lime hover:bg-brand-lime/10 hover:text-brand-forest transition-all"
                       aria-label="Instagram"
                     >
                       <InstagramIcon className="size-4" />

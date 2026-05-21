@@ -101,13 +101,13 @@ export function FAQ() {
             </p>
 
             {/* Quick contact */}
-            <div className="rounded-3xl bg-surface-dark text-foreground-on-dark p-6 relative overflow-hidden">
+            <div className="rounded-3xl bg-surface border border-border text-foreground p-6 relative overflow-hidden shadow-[var(--shadow-soft)]">
               <div
                 aria-hidden
-                className="absolute -top-12 -right-12 size-32 rounded-full bg-brand-lime/15 blur-2xl"
+                className="absolute -top-12 -right-12 size-32 rounded-full bg-brand-lime/20 blur-2xl"
               />
               <div className="relative">
-                <p className="text-xs uppercase tracking-wider text-brand-lime font-semibold mb-2">
+                <p className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-2">
                   Brak Twojego pytania?
                 </p>
                 <p className="text-lg font-semibold mb-4 leading-snug">
@@ -116,10 +116,10 @@ export function FAQ() {
                 <div className="flex flex-col gap-2">
                   <a
                     href={siteConfig.contact.phones[0].href}
-                    className="inline-flex items-center gap-3 text-foreground-on-dark hover:text-brand-lime transition-colors"
+                    className="inline-flex items-center gap-3 text-foreground hover:text-brand-forest transition-colors"
                   >
                     <span className="size-9 rounded-xl bg-brand-lime/15 flex items-center justify-center">
-                      <Phone className="size-4 text-brand-lime" />
+                      <Phone className="size-4 text-brand-olive" />
                     </span>
                     <span className="font-bold tabular-nums">
                       {siteConfig.contact.phones[0].displayValue}
@@ -127,10 +127,10 @@ export function FAQ() {
                   </a>
                   <Link
                     href="/konsultacja"
-                    className="inline-flex items-center gap-3 text-foreground-on-dark hover:text-brand-lime transition-colors"
+                    className="inline-flex items-center gap-3 text-foreground hover:text-brand-forest transition-colors"
                   >
                     <span className="size-9 rounded-xl bg-brand-lime/15 flex items-center justify-center">
-                      <MessageCircle className="size-4 text-brand-lime" />
+                      <MessageCircle className="size-4 text-brand-olive" />
                     </span>
                     <span className="font-medium text-sm">Formularz konsultacji</span>
                   </Link>
