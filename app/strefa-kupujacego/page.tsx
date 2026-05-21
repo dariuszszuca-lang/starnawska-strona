@@ -460,9 +460,9 @@ export default function StrefaKupujacegoPage() {
               />
               <div className="relative">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
-                  CTA końcowe
+                  Twój następny krok
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.75rem)] leading-[1.05] mb-7 max-w-3xl mx-auto">
+                <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3.2vw,2.5rem)] leading-[1.15] mb-7 max-w-2xl mx-auto">
                   Szukasz nieruchomości?
                   <br />
                   Zacznijmy od rozmowy, nie od przypadkowych ogłoszeń.
