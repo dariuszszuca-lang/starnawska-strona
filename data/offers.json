@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-20T06:24:25.600Z",
+  "lastSync": "2026-05-21T05:40:12.821Z",
   "offers": [
     {
       "id": "334533",
@@ -574,43 +574,17 @@
     },
     {
       "id": "10704191",
-      "offerNumber": "ST926876",
+      "offerNumber": "",
       "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka budowlana  z wodą, wkoło lasy",
-      "description": "Działka budowlana - zabudowa mieszkaniowa.\nWkoło lasy i zabudowa jednorodzinna.\n\nDziałka w Nowym Dworze Wejherowskim, zlokalizowana zaledwie ok.500 m od drogi wojewódzkiej nr 218 (ul. Wejherowska) łączącej Krokową z Gdańskiem Osową. 10 min autem do centrum Wejherowa, 30 min do centrum Gdyni, 20 min do Rumii.\nW bezpośrednim sąsiedztwie Trójmiejski Park Krajobrazowy, 4 km jezioro Wyspowo, niespełna 2 km jezioro Borowo i liczne szlaki piesze, rowerowe, jeździeckie.\n850 m - szkoła podstawowa, \n900 m - sklep i przedszkole, żłobek i kościół, biblioteka, boisko,\nPKS do Dworca w Rumii, Wejherowa, Bojana.\n\nDojazd do nieruchomości drogą asfaltową, ostatni odcinek gruntową droga gminną. W bezpośrednim sąsiedztwie zabudowa jednorodzinna oraz tereny leśne. Teren płaski. \n\nUzbrojenie:\n- prąd w drodze,\n- woda - wykonane przyłącze na działce\n\n W tą cenę wliczony jest też udział w drodze wewnętrznej (dodatkowy metraż).\n\nKształt zbliżony do prostokąta. \n\nWydane warunki zabudowy dla budowy domu jednorodzinnego.\nPOLECAMY!",
-      "price": 254880,
-      "pricePerSqm": 180,
-      "area": 1416,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Leśna",
-      "lat": 54.54627,
-      "lng": 18.28669,
-      "images": [
-        {
-          "url": "/oferty/93364619.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/107375270.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107375273.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
+      "type": "inne",
+      "title": "Nieruchomość, Trójmiasto",
+      "price": 0,
+      "area": 0,
+      "city": "Trójmiasto",
+      "images": [],
       "url": "https://starnawska.pl/oferty/10704191",
-      "createdAt": "2025-06-04 09:07:48",
-      "updatedAt": "2026-05-12 13:43:04"
+      "createdAt": "2026-05-21T05:40:12.817Z",
+      "updatedAt": "2026-05-21T05:40:12.817Z"
     },
     {
       "id": "10877450",
@@ -2399,43 +2373,17 @@
     },
     {
       "id": "11933498",
-      "offerNumber": "ST324256",
+      "offerNumber": "",
       "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Dwie działki,  płaskie dobrze naświetlonelo",
-      "description": "Mamy do zaoferowania dwie działki leżące obok siebie 817 m2 i 816 m2 w cenie każda po 160 000 zł.\nDziałki są płaskie, dobrze naświetlone. Wjazd od południowego wschodu. Woda w drodze przy działkach.\nDroga dojazdowa do działek gminna asfaltowa i częściowo utwardzona. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 160000,
-      "pricePerSqm": 195.84,
-      "area": 817,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Brzozowa",
-      "lat": 54.5340386,
-      "lng": 18.2952828,
-      "images": [
-        {
-          "url": "/oferty/107740622.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/107740601.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107740613.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
+      "type": "inne",
+      "title": "Nieruchomość, Trójmiasto",
+      "price": 0,
+      "area": 0,
+      "city": "Trójmiasto",
+      "images": [],
       "url": "https://starnawska.pl/oferty/11933498",
-      "createdAt": "2026-05-04 17:19:47",
-      "updatedAt": "2026-05-12 20:06:14"
+      "createdAt": "2026-05-21T05:40:12.817Z",
+      "updatedAt": "2026-05-21T05:40:12.817Z"
     },
     {
       "id": "11945126",
@@ -2476,6 +2424,105 @@
       "url": "https://starnawska.pl/oferty/11945126",
       "createdAt": "2026-05-07 10:28:37",
       "updatedAt": "2026-05-07 10:30:10"
+    },
+    {
+      "id": "11995904",
+      "offerNumber": "ST994340",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Trzy pokoje, parter i duży ogródek",
+      "description": "Mieszkanie na parterze w bardzo dobrej, spokojnej lokalizacji  Rumi Janowa .\nNieruchomość  59,61 m2 składa się z 3 oddzielnych pokoi, oddzielnej kuchni,  łazienki, wc i wygodnego przedpokoju.\nMieszkanie bardzo zadbane (blok z lat 80tych), odświeżane na bieżąco (panele, kuchnia itp.) do wprowadzenia lub własnej aranżacji, remontu.\nKierunki:  wschód (sypialnie) - zachód (salon i kuchnia).\nDo mieszkania przynależy duży ogródek oraz piwnica (3,51m1).\nPod blokiem bardzo dużo miejsc parkingowych ogólnie dostępnych.\nW koło mnóstwo terenów zielonych, place zabaw. \nKomunikacja autobusowa, w tym  idealne połącznie m.in. bezpośrednio z Wejherowem - autobus nr „J” , z Gdynią -„R” oraz z przystankiem SKM - Rumia Janowo.\nW pobliżu liczne przedszkola, żłobki, szkoła podstawowa i liceum. Na przeciwko mini centrum handlowe, a w nim m.in. LIDL, Rossmann, Pepco, piekarnia, a kilka minut dalej znajduje się Biedronka.\nIdealne mieszkanie dla rodziny z małym dzieckiem, czy starszych osób. Idealne dla Ciebie!\nAtuty nieruchomości:\n\nParter i ogródek.\nLokalizacja, w tym komunikacja i pełna infrastruktura\nSpokój i mnóstwo zieleni.\nTrzy niezależne pokoje i  niezależna kuchnia.\nMożliwości aranżacyjne.\n\nPOLECAMY!",
+      "price": 589000,
+      "pricePerSqm": 9331.43,
+      "rent": 900,
+      "area": 63.12,
+      "rooms": 3,
+      "floor": 0,
+      "totalFloors": 4,
+      "yearBuilt": 1980,
+      "city": "Rumia",
+      "district": "Janowo",
+      "street": "ul. Pomorska",
+      "lat": 54.5665051,
+      "lng": 18.420034,
+      "images": [
+        {
+          "url": "/oferty/108086675.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/108086645.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086729.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086666.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086663.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086684.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086639.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086657.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086654.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086648.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086699.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086705.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086723.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108086621.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Park w pobliżu",
+        "Autobus",
+        "Kolejka SKM",
+        "Centrum handlowe",
+        "Przedszkole",
+        "Szkoła podstawowa",
+        "Sklep spożywczy",
+        "Apteka",
+        "Plac zabaw"
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11995904",
+      "createdAt": "2026-05-19 20:24:01",
+      "updatedAt": "2026-05-20 20:12:47"
     }
   ]
 }
