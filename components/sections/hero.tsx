@@ -35,7 +35,7 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 font-bold text-[clamp(2.25rem,5.5vw,4.25rem)] leading-[1.05] tracking-[-0.035em] text-foreground max-w-3xl"
         >
-          W czym możemy pomóc?
+          Biuro nieruchomości w Gdyni. Sprzedaż i wynajem w Trójmieście.
         </motion.h1>
 
         <motion.p
