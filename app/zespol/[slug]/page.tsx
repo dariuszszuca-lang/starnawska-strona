@@ -23,6 +23,8 @@ import {
   MessageCircle,
   Sparkles,
   BookOpen,
+  Clock,
+  ShieldCheck,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
@@ -165,6 +167,17 @@ function bioSectionMeta(paragraph: string, index: number): BioSectionMeta {
     { title: "Relacje", icon: MessageCircle },
   ];
   return fallback[index % fallback.length];
+}
+
+function chunkParagraph(text: string, sentencesPerChunk = 2): string[] {
+  const sentences = text.split(/(?<=[.!?])\s+(?=[A-ZŁŚĆŻŹŃĘĄÓ"„])/);
+  if (sentences.length <= 1) return [text];
+  const chunks: string[] = [];
+  for (let i = 0; i < sentences.length; i += sentencesPerChunk) {
+    const chunk = sentences.slice(i, i + sentencesPerChunk).join(" ").trim();
+    if (chunk) chunks.push(chunk);
+  }
+  return chunks;
 }
 
 export default async function AgentPage({ params }: { params: Params }) {
@@ -323,12 +336,11 @@ export default async function AgentPage({ params }: { params: Params }) {
                   </div>
 
                   {bioLead && (
-                    <p className="max-w-4xl text-xl lg:text-2xl leading-9 lg:leading-10 text-foreground font-light">
-                      <span className="float-left mr-3 -mt-1 text-[3.25rem] lg:text-[4rem] font-bold leading-[0.85] text-brand-forest">
-                        {bioLead.charAt(0)}
-                      </span>
-                      {bioLead.slice(1)}
-                    </p>
+                    <div className="max-w-4xl space-y-4 text-lg lg:text-xl leading-8 lg:leading-9 text-foreground">
+                      {chunkParagraph(bioLead).map((chunk, i) => (
+                        <p key={i}>{chunk}</p>
+                      ))}
+                    </div>
                   )}
                 </div>
 
@@ -364,9 +376,11 @@ export default async function AgentPage({ params }: { params: Params }) {
                                 </p>
                                 <span className="h-px flex-1 max-w-[100px] bg-brand-olive/25" />
                               </div>
-                              <p className="text-base lg:text-[17px] leading-8 lg:leading-9 text-foreground">
-                                {paragraph}
-                              </p>
+                              <div className="space-y-4 text-base lg:text-[17px] leading-8 lg:leading-9 text-foreground">
+                                {chunkParagraph(paragraph).map((chunk, i) => (
+                                  <p key={i}>{chunk}</p>
+                                ))}
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -421,46 +435,76 @@ export default async function AgentPage({ params }: { params: Params }) {
                 )}
               </article>
 
-              <aside className="grid sm:grid-cols-2 lg:grid-cols-1 gap-4">
-                <div className="rounded-[28px] bg-brand-lime/[0.14] border border-brand-lime/35 p-6 lg:p-7">
-                  <h2 className="font-semibold text-lg text-foreground mb-5">
-                    Skontaktuj się bezpośrednio
-                  </h2>
-                  {member.phone && (
-                    <div>
-                      <p className="text-xs text-foreground-muted mb-1">Telefon</p>
-                      <a
-                        href={`tel:${member.phone.replace(/\s/g, "")}`}
-                        className="inline-flex items-center gap-3 text-2xl font-bold text-brand-forest hover:text-brand-forest-deep transition-colors tabular-nums"
-                      >
-                        <Phone className="size-5" />
-                        {member.phoneDisplay ?? member.phone}
-                      </a>
-                    </div>
-                  )}
+              <aside className="lg:sticky lg:top-24 rounded-[28px] border border-border bg-background overflow-hidden shadow-[var(--shadow-card)]">
+                {/* Panel header */}
+                <div className="bg-gradient-to-br from-brand-lime/[0.22] via-brand-lime/[0.10] to-brand-lime/[0.04] border-b border-brand-lime/30 px-6 py-6">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-2">
+                    Kontakt bezpośredni
+                  </p>
+                  <p className="text-xl font-bold text-foreground leading-tight">
+                    {member.fullName}
+                  </p>
+                  <p className="mt-1 text-sm text-foreground-muted">
+                    {member.shortRole ?? member.role}
+                  </p>
                 </div>
 
-                {member.email && (
-                  <div className="rounded-[28px] border border-border bg-background p-6 lg:p-7 shadow-[var(--shadow-soft)]">
-                    <div className="size-10 rounded-full bg-brand-lime/15 flex items-center justify-center mb-4">
-                      <Mail className="size-4 text-brand-olive" />
+                {/* Telefon — primary */}
+                {member.phone && (
+                  <div className="px-6 py-5 border-b border-border">
+                    <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-olive mb-2">
+                      <Phone className="size-3.5" />
+                      Telefon
                     </div>
-                    <p className="text-xs text-foreground-muted mb-1">E-mail</p>
+                    <a
+                      href={`tel:${member.phone.replace(/\s/g, "")}`}
+                      className="block text-2xl font-bold text-brand-forest hover:text-brand-forest-deep transition-colors tabular-nums"
+                    >
+                      {member.phoneDisplay ?? member.phone}
+                    </a>
+                    <Button asChild variant="lime" size="md" className="mt-3 w-full">
+                      <a href={`tel:${member.phone.replace(/\s/g, "")}`}>
+                        <Phone />
+                        Zadzwoń teraz
+                      </a>
+                    </Button>
+                  </div>
+                )}
+
+                {/* Email */}
+                {member.email && (
+                  <div className="px-6 py-5 border-b border-border">
+                    <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-olive mb-2">
+                      <Mail className="size-3.5" />
+                      E-mail
+                    </div>
                     <a
                       href={`mailto:${member.email}`}
-                      className="text-foreground font-medium hover:text-brand-forest transition-colors break-words"
+                      className="text-foreground font-medium hover:text-brand-forest transition-colors break-words text-[15px]"
                     >
                       {member.email}
                     </a>
                   </div>
                 )}
 
-                <div className="rounded-[28px] border border-border bg-background p-6 lg:p-7 shadow-[var(--shadow-soft)]">
-                  <div className="size-10 rounded-full bg-brand-lime/15 flex items-center justify-center mb-4">
-                    <MapPin className="size-4 text-brand-olive" />
+                {/* Godziny */}
+                <div className="px-6 py-5 border-b border-border">
+                  <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-olive mb-2">
+                    <Clock className="size-3.5" />
+                    Godziny pracy
                   </div>
-                  <p className="text-xs text-foreground-muted mb-1">Biuro</p>
-                  <p className="text-foreground font-medium">
+                  <p className="text-foreground font-medium text-[15px]">
+                    {siteConfig.contact.hours}
+                  </p>
+                </div>
+
+                {/* Adres biura */}
+                <div className="px-6 py-5 border-b border-border">
+                  <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-olive mb-2">
+                    <MapPin className="size-3.5" />
+                    Biuro
+                  </div>
+                  <p className="text-foreground font-medium text-[15px] leading-relaxed">
                     {siteConfig.address.street}
                     <br />
                     <span className="text-foreground-muted">
@@ -469,12 +513,66 @@ export default async function AgentPage({ params }: { params: Params }) {
                   </p>
                 </div>
 
-                <Button asChild variant="lime" size="lg" className="w-full sm:col-span-2 lg:col-span-1">
-                  <Link href={`/konsultacja?agentka=${member.slug}`}>
-                    Napisz w formularzu
-                    <ArrowRight />
-                  </Link>
-                </Button>
+                {/* Licencja */}
+                {member.credentialLines?.some((line) => line.toLowerCase().includes("licencj")) && (
+                  <div className="px-6 py-5 border-b border-border">
+                    <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-olive mb-2">
+                      <ShieldCheck className="size-3.5" />
+                      Licencja
+                    </div>
+                    <p className="text-foreground font-medium text-[15px] leading-relaxed">
+                      {member.credentialLines.find((line) =>
+                        line.toLowerCase().includes("licencj"),
+                      )}
+                    </p>
+                  </div>
+                )}
+
+                {/* Social biura */}
+                <div className="px-6 py-5 border-b border-border">
+                  <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-olive mb-3">
+                    Znajdziesz nas też
+                  </div>
+                  <div className="flex items-center gap-2">
+                    {siteConfig.social.facebook && (
+                      <a
+                        href={siteConfig.social.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                        className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-border bg-surface text-sm font-semibold text-foreground hover:bg-brand-lime/15 hover:text-brand-forest hover:border-brand-lime/40 transition-colors"
+                      >
+                        Facebook
+                        <ArrowUpRight className="size-3.5" />
+                      </a>
+                    )}
+                    {siteConfig.social.instagram && (
+                      <a
+                        href={siteConfig.social.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                        className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-border bg-surface text-sm font-semibold text-foreground hover:bg-brand-lime/15 hover:text-brand-forest hover:border-brand-lime/40 transition-colors"
+                      >
+                        Instagram
+                        <ArrowUpRight className="size-3.5" />
+                      </a>
+                    )}
+                  </div>
+                </div>
+
+                {/* Główne CTA */}
+                <div className="px-6 py-5 bg-surface">
+                  <Button asChild variant="lime" size="lg" className="w-full">
+                    <Link href={`/konsultacja?agentka=${member.slug}`}>
+                      Napisz w formularzu
+                      <ArrowRight />
+                    </Link>
+                  </Button>
+                  <p className="mt-3 text-xs text-foreground-muted text-center">
+                    Bez zobowiązań. Odpowiadam tego samego dnia.
+                  </p>
+                </div>
               </aside>
             </div>
           </Container>
