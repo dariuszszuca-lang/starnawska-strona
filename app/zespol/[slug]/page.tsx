@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import type { LucideIcon } from "lucide-react";
 import {
   Phone,
   Mail,
@@ -17,6 +18,11 @@ import {
   TreePine,
   Key,
   Maximize2,
+  Compass,
+  HeartHandshake,
+  MessageCircle,
+  Sparkles,
+  BookOpen,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
@@ -96,7 +102,9 @@ function areasFromOffers(offers: Offer[]): Array<{ label: string; count: number 
     .slice(0, 8);
 }
 
-function bioSectionTitle(paragraph: string, index: number): string {
+type BioSectionMeta = { title: string; icon: LucideIcon };
+
+function bioSectionMeta(paragraph: string, index: number): BioSectionMeta {
   const text = paragraph.toLowerCase();
 
   if (
@@ -106,7 +114,7 @@ function bioSectionTitle(paragraph: string, index: number): string {
     text.includes("kiedy zdejmuję") ||
     text.includes("żyję z pasją")
   ) {
-    return "Prywatnie";
+    return { title: "Prywatnie", icon: Sparkles };
   }
 
   if (
@@ -116,7 +124,7 @@ function bioSectionTitle(paragraph: string, index: number): string {
     text.includes("ukończyłam") ||
     text.includes("doświadczenie pozwoliło")
   ) {
-    return "Doświadczenie";
+    return { title: "Doświadczenie", icon: Award };
   }
 
   if (
@@ -125,7 +133,7 @@ function bioSectionTitle(paragraph: string, index: number): string {
     text.includes("pomagam przejść") ||
     text.includes("na co dzień pracuję")
   ) {
-    return "Zakres wsparcia";
+    return { title: "Zakres wsparcia", icon: HeartHandshake };
   }
 
   if (
@@ -136,21 +144,26 @@ function bioSectionTitle(paragraph: string, index: number): string {
     text.includes("w pracy łączę") ||
     text.includes("w moim odczuciu")
   ) {
-    return "Podejście";
+    return { title: "Podejście", icon: Compass };
   }
 
   if (
     text.includes("relacje") ||
     text.includes("zaufania")
   ) {
-    return "Relacje";
+    return { title: "Relacje", icon: MessageCircle };
   }
 
   if (text.includes("trójmiasto") || text.includes("gdyn") || text.includes("gdańsk")) {
-    return "Lokalnie";
+    return { title: "Lokalnie", icon: MapPin };
   }
 
-  const fallback = ["Doświadczenie", "Podejście", "Zakres wsparcia", "Relacje"];
+  const fallback: BioSectionMeta[] = [
+    { title: "Doświadczenie", icon: Award },
+    { title: "Podejście", icon: Compass },
+    { title: "Zakres wsparcia", icon: HeartHandshake },
+    { title: "Relacje", icon: MessageCircle },
+  ];
   return fallback[index % fallback.length];
 }
 
@@ -297,74 +310,113 @@ export default async function AgentPage({ params }: { params: Params }) {
         <section className="py-12 lg:py-16 bg-surface">
           <Container size="wide">
             <div className="grid lg:grid-cols-[minmax(0,1fr)_360px] gap-5 lg:gap-6 items-start">
-              <article className="rounded-[36px] border border-border bg-background p-7 lg:p-10 shadow-[var(--shadow-soft)]">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-5">
-                  O mnie
-                </p>
+              <article className="rounded-[36px] border border-border bg-background overflow-hidden shadow-[var(--shadow-soft)]">
+                {/* HEADER + LEAD */}
+                <div className="px-7 lg:px-12 pt-9 lg:pt-12 pb-8 lg:pb-10">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="size-9 rounded-full bg-brand-lime/15 text-brand-olive flex items-center justify-center">
+                      <BookOpen className="size-4" />
+                    </div>
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive">
+                      O mnie
+                    </p>
+                  </div>
 
-                {bioLead && (
-                  <p className="max-w-5xl text-lg lg:text-xl leading-8 lg:leading-9 text-foreground">
-                    {bioLead}
-                  </p>
-                )}
+                  {bioLead && (
+                    <p className="max-w-4xl text-xl lg:text-2xl leading-9 lg:leading-10 text-foreground font-light">
+                      <span className="float-left mr-3 -mt-1 text-[3.25rem] lg:text-[4rem] font-bold leading-[0.85] text-brand-forest">
+                        {bioLead.charAt(0)}
+                      </span>
+                      {bioLead.slice(1)}
+                    </p>
+                  )}
+                </div>
 
+                {/* NUMEROWANE SEKCJE BIO */}
                 {bioRest.length > 0 && (
-                  <div className="mt-8 grid md:grid-cols-2 gap-4 lg:gap-5">
-                    {bioRest.map((paragraph, index) => (
-                      <div
-                        key={paragraph}
-                        className="rounded-[28px] border border-border bg-surface p-6 lg:p-7 shadow-[var(--shadow-soft)]"
-                      >
-                        <p className="mb-4 text-[11px] font-semibold uppercase tracking-wider text-brand-olive">
-                          {bioSectionTitle(paragraph, index)}
-                        </p>
-                        <p className="text-base leading-8 text-foreground-muted">
-                          {paragraph}
-                        </p>
-                      </div>
-                    ))}
+                  <div className="border-t border-border">
+                    {bioRest.map((paragraph, index) => {
+                      const meta = bioSectionMeta(paragraph, index);
+                      const Icon = meta.icon;
+                      const number = String(index + 1).padStart(2, "0");
+                      const isAlt = index % 2 === 1;
+                      const isLast = index === bioRest.length - 1;
+                      return (
+                        <div
+                          key={paragraph}
+                          className={`relative px-7 lg:px-12 py-10 lg:py-14 ${
+                            isAlt ? "bg-brand-lime/[0.05]" : "bg-background"
+                          } ${!isLast ? "border-b border-border" : ""}`}
+                        >
+                          <div className="grid lg:grid-cols-[140px_minmax(0,1fr)] gap-6 lg:gap-12 items-start">
+                            <div className="flex lg:flex-col items-center lg:items-start gap-5 lg:gap-4">
+                              <span className="font-extralight text-[clamp(3.5rem,6vw,5.5rem)] leading-none text-brand-olive/35 tabular-nums select-none">
+                                {number}
+                              </span>
+                              <div className="size-12 lg:size-14 rounded-full bg-brand-lime/15 text-brand-olive flex items-center justify-center ring-1 ring-brand-lime/30">
+                                <Icon className="size-5 lg:size-6" />
+                              </div>
+                            </div>
+                            <div className="lg:pt-3">
+                              <div className="flex items-center gap-3 mb-3">
+                                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive">
+                                  {meta.title}
+                                </p>
+                                <span className="h-px flex-1 max-w-[100px] bg-brand-olive/25" />
+                              </div>
+                              <p className="text-base lg:text-[17px] leading-8 lg:leading-9 text-foreground">
+                                {paragraph}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 )}
 
+                {/* JEZYKI + SPECJALIZACJE */}
                 {(member.languages?.length || member.specializations?.length) && (
-                  <div className="mt-8 grid md:grid-cols-2 gap-5">
-                    {member.languages && member.languages.length > 0 && (
-                      <div className="rounded-[28px] border border-border bg-surface p-6">
-                        <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
-                          <Languages className="size-3.5" />
-                          Języki obsługi
-                        </h2>
-                        <ul className="flex flex-wrap gap-2">
-                          {member.languages.map((l) => (
-                            <li
-                              key={l}
-                              className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
-                            >
-                              {l}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                  <div className="border-t border-border bg-surface px-7 lg:px-12 py-9 lg:py-11">
+                    <div className="grid md:grid-cols-2 gap-5">
+                      {member.languages && member.languages.length > 0 && (
+                        <div>
+                          <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive mb-4">
+                            <Languages className="size-3.5" />
+                            Języki obsługi
+                          </h2>
+                          <ul className="flex flex-wrap gap-2">
+                            {member.languages.map((l) => (
+                              <li
+                                key={l}
+                                className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
+                              >
+                                {l}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
 
-                    {member.specializations && member.specializations.length > 0 && (
-                      <div className="rounded-[28px] border border-border bg-surface p-6">
-                        <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
-                          <Award className="size-3.5" />
-                          Doświadczenie
-                        </h2>
-                        <ul className="flex flex-wrap gap-2">
-                          {member.specializations.map((s) => (
-                            <li
-                              key={s}
-                              className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
-                            >
-                              {s}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                      {member.specializations && member.specializations.length > 0 && (
+                        <div>
+                          <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive mb-4">
+                            <Award className="size-3.5" />
+                            Doświadczenie
+                          </h2>
+                          <ul className="flex flex-wrap gap-2">
+                            {member.specializations.map((s) => (
+                              <li
+                                key={s}
+                                className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
+                              >
+                                {s}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 )}
               </article>
