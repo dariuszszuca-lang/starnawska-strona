@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function NotFound() {
   return (
-    <section className="relative min-h-[80vh] flex items-center bg-surface-dark text-foreground-on-dark overflow-hidden">
+    <section className="relative min-h-[80vh] flex items-center bg-surface border border-border text-foreground overflow-hidden">
       <div
         aria-hidden
         className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(163,199,51,0.15),transparent_50%),radial-gradient(circle_at_70%_70%,rgba(45,74,31,0.4),transparent_60%)]"
@@ -25,7 +25,7 @@ export default function NotFound() {
             <br />
             <span className="text-gradient-lime">Spróbuj inaczej.</span>
           </h1>
-          <p className="text-lg text-foreground-on-dark-muted leading-relaxed mb-10 max-w-lg">
+          <p className="text-lg text-foreground-muted leading-relaxed mb-10 max-w-lg">
             Strona której szukasz mogła zostać przeniesiona albo nigdy nie istniała.
             Wróć do strony głównej albo przeglądaj oferty.
           </p>

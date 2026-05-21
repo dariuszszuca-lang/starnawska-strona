@@ -56,14 +56,14 @@ export default async function KonsultacjaPage({
             </div>
 
             <aside className="lg:col-span-5 space-y-6">
-              <article className="rounded-3xl bg-surface-dark text-foreground-on-dark p-7 lg:p-9">
+              <article className="rounded-3xl bg-surface border border-border text-foreground p-7 lg:p-9">
                 <p className="text-xs uppercase tracking-wider text-brand-lime font-semibold mb-3">
                   Wolisz telefon
                 </p>
                 <p className="font-bold tracking-tight text-4xl tracking-tight mb-2 tabular-nums">
                   {siteConfig.contact.phones[0].displayValue}
                 </p>
-                <p className="text-sm text-foreground-on-dark-muted leading-relaxed">
+                <p className="text-sm text-foreground-muted leading-relaxed">
                   Biuro odbiera w godzinach pracy. Po godzinach zostaw wiadomość
                   na poczcie głosowej lub wyślij SMS.
                 </p>

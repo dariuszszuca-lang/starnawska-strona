@@ -137,7 +137,7 @@ export function Services() {
                   className={cn(
                     "group relative text-left rounded-2xl border p-5 transition-all overflow-hidden",
                     isActive
-                      ? "bg-surface-dark text-foreground-on-dark border-transparent shadow-[var(--shadow-card)]"
+                      ? "bg-surface border border-border text-foreground border-transparent shadow-[var(--shadow-card)]"
                       : "bg-surface border-border hover:border-brand-forest hover:-translate-y-0.5"
                   )}
                   aria-pressed={isActive}
@@ -165,7 +165,7 @@ export function Services() {
                       <p
                         className={cn(
                           "font-semibold text-base lg:text-lg leading-tight tracking-tight",
-                          isActive ? "text-foreground-on-dark" : "text-foreground"
+                          isActive ? "text-foreground" : "text-foreground"
                         )}
                       >
                         {s.title}
@@ -174,7 +174,7 @@ export function Services() {
                         className={cn(
                           "text-xs mt-1",
                           isActive
-                            ? "text-foreground-on-dark-muted"
+                            ? "text-foreground-muted"
                             : "text-foreground-muted"
                         )}
                       >

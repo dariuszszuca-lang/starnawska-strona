@@ -161,7 +161,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
 
         {/* Cover obraz */}
         <Container size="wide" className="mb-12 lg:mb-16">
-          <div className="relative aspect-[2.4/1] rounded-3xl overflow-hidden bg-surface-dark">
+          <div className="relative aspect-[2.4/1] rounded-3xl overflow-hidden bg-surface border border-border">
             <Image
               src={post.cover}
               alt={post.coverAlt}
@@ -273,7 +273,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                   )}
 
                   {/* Pomoc / CTA agent */}
-                  <div className="rounded-2xl bg-surface-dark text-foreground-on-dark p-5 lg:p-6 overflow-hidden relative">
+                  <div className="rounded-2xl bg-surface border border-border text-foreground p-5 lg:p-6 overflow-hidden relative">
                     <div
                       aria-hidden
                       className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(163,199,51,0.18),transparent_55%)]"
@@ -384,7 +384,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                   )}
 
                   {/* CTA na końcu artykułu */}
-                  <div className="mt-16 p-8 lg:p-10 rounded-3xl bg-surface-dark text-foreground-on-dark relative overflow-hidden">
+                  <div className="mt-16 p-8 lg:p-10 rounded-3xl bg-surface border border-border text-foreground relative overflow-hidden">
                     <div
                       aria-hidden
                       className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.18),transparent_55%)]"
@@ -393,7 +393,7 @@ export default async function BlogPostPage({ params }: { params: Params }) {
                       <h2 className="font-bold tracking-tight text-2xl lg:text-3xl mb-3">
                         Masz konkretną sprawę?
                       </h2>
-                      <p className="text-foreground-on-dark-muted leading-relaxed mb-6 max-w-xl">
+                      <p className="text-foreground-muted leading-relaxed mb-6 max-w-xl">
                         Każda transakcja jest inna. 30 minut rozmowy pomoże nam zrozumieć
                         Twoją sytuację i powiedzieć, co realnie się da zrobić.
                       </p>

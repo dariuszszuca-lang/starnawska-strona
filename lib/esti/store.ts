@@ -19,6 +19,14 @@ export type CacheShape = {
 let memCache: { data: CacheShape; loadedAt: number } | null = null;
 const MEM_TTL_MS = 60_000;
 
+function isPublishable(offer: Offer): boolean {
+  // Esti czasem zwraca szkielety bez danych (price=0, area=0, type=inne,
+  // brak agentki). Nie pokazujemy ich na stronie.
+  if (!offer.price || offer.price <= 0) return false;
+  if (!offer.area || offer.area <= 0) return false;
+  return true;
+}
+
 export async function readOffers(): Promise<CacheShape | null> {
   // In-memory cache w obrębie jednej instancji (60s). Żeby nie czytać pliku
   // przy każdym żądaniu strony.
@@ -28,8 +36,12 @@ export async function readOffers(): Promise<CacheShape | null> {
   try {
     const text = await readFile(OFFERS_FILE, "utf8");
     const parsed = JSON.parse(text) as CacheShape;
-    memCache = { data: parsed, loadedAt: Date.now() };
-    return parsed;
+    const filtered: CacheShape = {
+      lastSync: parsed.lastSync,
+      offers: parsed.offers.filter(isPublishable),
+    };
+    memCache = { data: filtered, loadedAt: Date.now() };
+    return filtered;
   } catch {
     return null;
   }

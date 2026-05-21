@@ -8,7 +8,7 @@ export function CTA() {
   return (
     <section className="py-20 lg:py-28">
       <Container size="wide">
-        <div className="relative overflow-hidden rounded-[40px] bg-surface-dark text-foreground-on-dark p-10 lg:p-16 grain">
+        <div className="relative overflow-hidden rounded-[40px] bg-surface border border-border text-foreground p-10 lg:p-16 grain">
           {/* tło */}
           <div
             aria-hidden
@@ -28,7 +28,7 @@ export function CTA() {
               <br />
               <span className="text-gradient-lime">Zacznijmy od rozmowy.</span>
             </h2>
-            <p className="text-lg text-foreground-on-dark-muted leading-relaxed mb-10 max-w-2xl">
+            <p className="text-lg text-foreground-muted leading-relaxed mb-10 max-w-2xl">
               30 minut, bez presji. Powiedz czego potrzebujesz, my powiemy co realnie da się
               zrobić w Twojej sytuacji. Bez wciskania, bez pustych obietnic.
             </p>
@@ -42,13 +42,13 @@ export function CTA() {
               </Button>
               <a
                 href={siteConfig.contact.phones[0].href}
-                className="inline-flex items-center gap-3 px-6 py-3 rounded-full text-foreground-on-dark hover:text-brand-lime transition-colors group"
+                className="inline-flex items-center gap-3 px-6 py-3 rounded-full text-foreground hover:text-brand-lime transition-colors group"
               >
-                <span className="size-11 rounded-full border border-border-on-dark group-hover:border-brand-lime flex items-center justify-center transition-colors">
+                <span className="size-11 rounded-full border border-border group-hover:border-brand-lime flex items-center justify-center transition-colors">
                   <Phone className="size-4" />
                 </span>
                 <span>
-                  <span className="block text-xs text-foreground-on-dark-muted">
+                  <span className="block text-xs text-foreground-muted">
                     Albo zadzwoń teraz
                   </span>
                   <span className="block font-semibold tabular-nums">

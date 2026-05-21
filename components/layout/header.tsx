@@ -355,7 +355,7 @@ function NavTab({
               <div className="w-[360px] rounded-3xl border border-border bg-surface shadow-[0_24px_60px_rgba(10,10,10,0.18)] p-3">
                 <Link
                   href="/zespol"
-                  className="flex items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-surface-dark text-foreground-on-dark mb-2 group/all"
+                  className="flex items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-surface border border-border text-foreground mb-2 group/all"
                 >
                   <span className="font-semibold text-sm">Poznaj wszystkie agentki</span>
                   <ArrowUpRight className="size-4 text-brand-lime group-hover/all:rotate-12 transition-transform" />

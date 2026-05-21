@@ -41,7 +41,7 @@ export function Footer() {
   if (pathname.startsWith("/admin")) return null;
 
   return (
-    <footer className="bg-surface-dark text-foreground-on-dark mt-24">
+    <footer className="bg-surface border-t border-border text-foreground mt-24">
       <Container size="wide" as="div" className="py-16 lg:py-20">
         <div className="grid grid-cols-2 md:grid-cols-12 gap-y-12 gap-x-8">
           {/* Lewa kolumna: logo + opis + NSL + social */}
@@ -50,7 +50,7 @@ export function Footer() {
               <Logo size="lg" />
             </div>
 
-            <p className="text-sm leading-relaxed text-foreground-on-dark-muted max-w-sm">
+            <p className="text-sm leading-relaxed text-foreground-muted max-w-sm">
               Biuro nieruchomości w Gdyni. Sprzedaż, wynajem, doradztwo. Od {siteConfig.foundedYear} roku
               pomagamy klientom z Trójmiasta znaleźć swoje miejsce.
             </p>
@@ -60,7 +60,7 @@ export function Footer() {
               href="https://nieruchomoscispodlady.pl"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-3 pl-2 pr-3.5 py-2 rounded-2xl bg-white/[0.04] border border-border-on-dark hover:bg-white/[0.08] hover:border-brand-lime/40 transition-all"
+              className="group inline-flex items-center gap-3 pl-2 pr-3.5 py-2 rounded-2xl bg-background border border-border hover:bg-brand-lime/[0.06] hover:border-brand-lime/40 transition-all"
             >
               <span className="shrink-0 bg-white rounded-lg p-1.5 flex items-center">
                 <Image
@@ -72,14 +72,14 @@ export function Footer() {
                 />
               </span>
               <span className="leading-tight">
-                <span className="block text-[9px] uppercase tracking-[0.18em] text-brand-lime font-semibold">
+                <span className="block text-[9px] uppercase tracking-[0.18em] text-brand-olive font-semibold">
                   Sieć współpracy
                 </span>
-                <span className="block text-xs font-semibold text-foreground-on-dark">
+                <span className="block text-xs font-semibold text-foreground">
                   Nieruchomości Spod Lady
                 </span>
               </span>
-              <ArrowUpRight className="size-3.5 text-foreground-on-dark-muted group-hover:text-brand-lime group-hover:rotate-12 transition-all" />
+              <ArrowUpRight className="size-3.5 text-foreground-muted group-hover:text-brand-olive group-hover:rotate-12 transition-all" />
             </Link>
 
             <div className="flex items-center gap-2">
@@ -87,7 +87,7 @@ export function Footer() {
                 href={siteConfig.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group/social inline-flex items-center justify-center size-10 rounded-xl border border-border-on-dark hover:border-transparent hover:bg-[#1877F2] hover:text-white transition-all"
+                className="group/social inline-flex items-center justify-center size-10 rounded-xl border border-border hover:border-transparent hover:bg-[#1877F2] hover:text-white transition-all"
                 aria-label="Facebook"
               >
                 <FacebookIcon className="size-4" />
@@ -96,7 +96,7 @@ export function Footer() {
                 href={siteConfig.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group/social relative inline-flex items-center justify-center size-10 rounded-xl border border-border-on-dark hover:border-transparent hover:text-white transition-all overflow-hidden"
+                className="group/social relative inline-flex items-center justify-center size-10 rounded-xl border border-border hover:border-transparent hover:text-white transition-all overflow-hidden"
                 aria-label="Instagram"
               >
                 <span
@@ -109,7 +109,7 @@ export function Footer() {
           </div>
 
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
               Oferta
             </h3>
             <ul className="space-y-3 text-sm">
@@ -117,7 +117,7 @@ export function Footer() {
                 <li key={i.href}>
                   <Link
                     href={i.href}
-                    className="text-foreground-on-dark-muted hover:text-foreground-on-dark transition-colors"
+                    className="text-foreground-muted hover:text-foreground transition-colors"
                   >
                     {i.label}
                   </Link>
@@ -127,7 +127,7 @@ export function Footer() {
           </div>
 
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
               Firma
             </h3>
             <ul className="space-y-3 text-sm">
@@ -135,7 +135,7 @@ export function Footer() {
                 <li key={i.href}>
                   <Link
                     href={i.href}
-                    className="text-foreground-on-dark-muted hover:text-foreground-on-dark transition-colors"
+                    className="text-foreground-muted hover:text-foreground transition-colors"
                   >
                     {i.label}
                   </Link>
@@ -145,12 +145,12 @@ export function Footer() {
           </div>
 
           <div className="col-span-2 md:col-span-4">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
               Biuro w Gdyni
             </h3>
             <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-3 text-foreground-on-dark-muted">
-                <MapPin className="size-4 mt-0.5 shrink-0 text-brand-lime" />
+              <li className="flex items-start gap-3 text-foreground-muted">
+                <MapPin className="size-4 mt-0.5 shrink-0 text-brand-olive" />
                 <span>
                   {siteConfig.address.street}
                   <br />
@@ -161,9 +161,9 @@ export function Footer() {
                 <li key={p.value}>
                   <a
                     href={p.href}
-                    className="flex items-center gap-3 text-foreground-on-dark-muted hover:text-foreground-on-dark transition-colors"
+                    className="flex items-center gap-3 text-foreground-muted hover:text-foreground transition-colors"
                   >
-                    <Phone className="size-4 shrink-0 text-brand-lime" />
+                    <Phone className="size-4 shrink-0 text-brand-olive" />
                     {p.displayValue}
                   </a>
                 </li>
@@ -171,22 +171,22 @@ export function Footer() {
               <li>
                 <a
                   href={`mailto:${siteConfig.contact.email}`}
-                  className="flex items-center gap-3 text-foreground-on-dark-muted hover:text-foreground-on-dark transition-colors"
+                  className="flex items-center gap-3 text-foreground-muted hover:text-foreground transition-colors"
                 >
-                  <Mail className="size-4 shrink-0 text-brand-lime" />
+                  <Mail className="size-4 shrink-0 text-brand-olive" />
                   {siteConfig.contact.email}
                 </a>
               </li>
-              <li className="flex items-center gap-3 text-foreground-on-dark-muted">
-                <Clock className="size-4 shrink-0 text-brand-lime" />
+              <li className="flex items-center gap-3 text-foreground-muted">
+                <Clock className="size-4 shrink-0 text-brand-olive" />
                 {siteConfig.contact.hours}
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-border-on-dark flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <p className="text-xs text-foreground-on-dark-muted">
+        <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <p className="text-xs text-foreground-muted">
             © {new Date().getFullYear()} {siteConfig.name}. Wszystkie prawa zastrzeżone.
           </p>
           <ul className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs">
@@ -194,7 +194,7 @@ export function Footer() {
               <li key={i.href}>
                 <Link
                   href={i.href}
-                  className="text-foreground-on-dark-muted hover:text-foreground-on-dark transition-colors"
+                  className="text-foreground-muted hover:text-foreground transition-colors"
                 >
                   {i.label}
                 </Link>

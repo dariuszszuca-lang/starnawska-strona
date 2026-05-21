@@ -153,11 +153,11 @@ export default function OnasPage() {
       {/* CTA */}
       <section className="py-16 lg:py-24">
         <Container size="default">
-          <div className="rounded-[40px] bg-surface-dark text-foreground-on-dark p-10 lg:p-16 text-center">
+          <div className="rounded-[40px] bg-surface border border-border text-foreground p-10 lg:p-16 text-center">
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight mb-4">
               Sprawdź jak pracujemy.
             </h2>
-            <p className="text-lg text-foreground-on-dark-muted max-w-2xl mx-auto mb-8">
+            <p className="text-lg text-foreground-muted max-w-2xl mx-auto mb-8">
               30 minut bez zobowiązań. Powiedz nam czego potrzebujesz.
             </p>
             <Button asChild variant="lime" size="lg">

@@ -88,7 +88,7 @@ export function RodoBanner() {
             aria-labelledby="rodo-title"
             aria-describedby="rodo-desc"
           >
-            <div className="relative rounded-3xl bg-surface-dark text-foreground-on-dark border border-border-on-dark shadow-[0_20px_60px_rgba(0,0,0,0.45)] overflow-hidden">
+            <div className="relative rounded-3xl bg-surface text-foreground border border-border shadow-[var(--shadow-card)] overflow-hidden">
               <div
                 aria-hidden
                 className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(163,199,51,0.12),transparent_60%)]"
@@ -98,13 +98,13 @@ export function RodoBanner() {
                 <div className="flex items-start justify-between gap-3 mb-4">
                   <div className="flex items-center gap-3">
                     <div className="size-10 rounded-2xl bg-brand-lime/15 flex items-center justify-center">
-                      <Cookie className="size-5 text-brand-lime" />
+                      <Cookie className="size-5 text-brand-olive" />
                     </div>
                     <div>
                       <h2 id="rodo-title" className="font-semibold text-base">
                         Cookies i prywatność
                       </h2>
-                      <p className="text-xs text-foreground-on-dark-muted">
+                      <p className="text-xs text-foreground-muted">
                         Twój komfort. Twoja zgoda.
                       </p>
                     </div>
@@ -112,7 +112,7 @@ export function RodoBanner() {
                   <button
                     onClick={() => accept("necessary")}
                     aria-label="Zamknij i odrzuć opcjonalne"
-                    className="size-8 rounded-full text-foreground-on-dark-muted hover:bg-white/5 hover:text-foreground-on-dark transition-colors flex items-center justify-center"
+                    className="size-8 rounded-full text-foreground-muted hover:bg-brand-lime/[0.06] hover:text-foreground transition-colors flex items-center justify-center"
                   >
                     <X className="size-4" />
                   </button>
@@ -122,13 +122,13 @@ export function RodoBanner() {
                   <>
                     <p
                       id="rodo-desc"
-                      className="text-sm text-foreground-on-dark-muted leading-relaxed mb-5"
+                      className="text-sm text-foreground-muted leading-relaxed mb-5"
                     >
                       Używamy plików cookies, żeby strona działała poprawnie i żeby lepiej
                       rozumieć, czego szukasz. Możesz wybrać, na co się zgadzasz.{" "}
                       <Link
                         href="/polityka-cookies"
-                        className="text-brand-lime hover:underline"
+                        className="text-brand-olive hover:underline"
                       >
                         Dowiedz się więcej
                       </Link>
@@ -147,13 +147,13 @@ export function RodoBanner() {
                       <div className="grid grid-cols-2 gap-2">
                         <button
                           onClick={() => accept("necessary")}
-                          className="h-10 px-4 rounded-full text-xs font-medium border border-border-on-dark text-foreground-on-dark hover:bg-white/5 transition-colors"
+                          className="h-10 px-4 rounded-full text-xs font-medium border border-border text-foreground hover:bg-brand-lime/[0.06] transition-colors"
                         >
                           Tylko niezbędne
                         </button>
                         <button
                           onClick={() => setSettings(true)}
-                          className="h-10 px-4 rounded-full text-xs font-medium border border-border-on-dark text-foreground-on-dark hover:bg-white/5 transition-colors inline-flex items-center justify-center gap-1.5"
+                          className="h-10 px-4 rounded-full text-xs font-medium border border-border text-foreground hover:bg-brand-lime/[0.06] transition-colors inline-flex items-center justify-center gap-1.5"
                         >
                           <Settings className="size-3.5" />
                           Wybierz sam
@@ -163,7 +163,7 @@ export function RodoBanner() {
                   </>
                 ) : (
                   <>
-                    <p className="text-sm text-foreground-on-dark-muted leading-relaxed mb-5">
+                    <p className="text-sm text-foreground-muted leading-relaxed mb-5">
                       Wybierz, które ciasteczka akceptujesz.
                     </p>
 
@@ -211,8 +211,8 @@ export function RodoBanner() {
           aria-label="Ustawienia prywatności"
           className={cn(
             "fixed bottom-4 left-4 z-[90] size-12 rounded-full shadow-[var(--shadow-card)]",
-            "bg-surface-dark text-brand-lime border border-border-on-dark",
-            "hover:bg-surface-dark-elevated hover:scale-105 transition-all",
+            "bg-surface text-brand-olive border border-border",
+            "hover:bg-background hover:scale-105 transition-all",
             "flex items-center justify-center"
           )}
         >
@@ -242,7 +242,7 @@ function PreferenceRow({
         "flex items-start gap-3 p-3 rounded-2xl border transition-colors cursor-pointer",
         checked
           ? "bg-brand-lime/8 border-brand-lime/30"
-          : "bg-white/[0.02] border-border-on-dark hover:bg-white/[0.04]",
+          : "bg-surface border-border hover:bg-brand-lime/[0.05]",
         disabled && "opacity-70 cursor-not-allowed"
       )}
     >
@@ -258,14 +258,14 @@ function PreferenceRow({
           "relative mt-0.5 size-5 shrink-0 rounded-md border transition-colors flex items-center justify-center",
           checked
             ? "bg-brand-lime border-brand-lime text-brand-forest-deep"
-            : "bg-transparent border-border-on-dark"
+            : "bg-transparent border-border"
         )}
       >
         {checked && <Check className="size-3.5" />}
       </span>
       <div className="flex-1">
-        <p className="text-sm font-medium text-foreground-on-dark leading-tight">{label}</p>
-        <p className="text-xs text-foreground-on-dark-muted mt-0.5 leading-relaxed">
+        <p className="text-sm font-medium text-foreground leading-tight">{label}</p>
+        <p className="text-xs text-foreground-muted mt-0.5 leading-relaxed">
           {description}
         </p>
       </div>

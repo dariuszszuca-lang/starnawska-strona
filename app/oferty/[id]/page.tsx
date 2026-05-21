@@ -337,11 +337,11 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
                   </div>
                 )}
 
-                <div className="rounded-3xl bg-surface-dark text-foreground-on-dark p-6">
+                <div className="rounded-3xl bg-surface border border-border text-foreground p-6">
                   <p className="text-sm font-semibold mb-3">
                     Zainteresowana ta nieruchomość?
                   </p>
-                  <p className="text-xs text-foreground-on-dark-muted mb-5 leading-relaxed">
+                  <p className="text-xs text-foreground-muted mb-5 leading-relaxed">
                     Zostaw kontakt, oddzwonimy z dodatkowymi informacjami i umówimy pokaz.
                   </p>
                   <Button asChild variant="lime" size="md" className="w-full">
