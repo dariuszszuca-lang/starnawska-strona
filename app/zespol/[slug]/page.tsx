@@ -126,19 +126,19 @@ export default async function AgentPage({ params }: { params: Params }) {
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.13),transparent_55%),linear-gradient(180deg,rgba(247,248,243,0.96),rgba(255,255,255,0.92)_58%,rgba(247,248,243,0.72))]"
         />
 
-        <Container size="wide" className="relative pt-36 lg:pt-48 pb-14 lg:pb-24">
+        <Container size="wide" className="relative pt-28 lg:pt-36 pb-10 lg:pb-12">
           <Link
             href="/zespol"
-            className="inline-flex items-center gap-2 text-sm text-foreground-muted hover:text-brand-forest transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm text-foreground-muted hover:text-brand-forest transition-colors mb-6"
           >
             <ArrowLeft className="size-4" />
             Cały zespół
           </Link>
 
-          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+          <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             <div className="lg:col-span-7 order-2 lg:order-1 space-y-7">
               <div>
-                <div className="space-y-1 mb-5">
+                <div className="space-y-1 mb-4">
                   {(member.credentialLines ?? [member.shortRole ?? member.role]).map((line) => (
                     <p
                       key={line}
@@ -148,11 +148,14 @@ export default async function AgentPage({ params }: { params: Params }) {
                     </p>
                   ))}
                 </div>
-                <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] text-foreground">
+                <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5.5vw,4.25rem)] leading-[1.02] text-foreground">
                   {member.firstName}
                   <br />
                   <span className="text-brand-forest">{member.lastName}</span>
                 </h1>
+                <p className="mt-6 max-w-2xl text-base lg:text-lg leading-8 text-foreground-muted">
+                  {member.bio}
+                </p>
               </div>
 
               <div className="flex flex-wrap items-center gap-3">
@@ -175,16 +178,16 @@ export default async function AgentPage({ params }: { params: Params }) {
 
             {/* Portret */}
             <div className="lg:col-span-5 order-1 lg:order-2">
-              <div className="relative max-w-md lg:max-w-none mx-auto">
+              <div className="relative max-w-[320px] sm:max-w-[360px] lg:max-w-[400px] xl:max-w-[420px] mx-auto lg:ml-auto lg:mr-0">
                 <div
                   aria-hidden
                   className="absolute -inset-3 rounded-[40px] bg-brand-lime/[0.08]"
                 />
                 <MemberPhoto
                   member={member}
-                  sizes="(min-width: 1024px) 40vw, 90vw"
+                  sizes="(min-width: 1280px) 420px, (min-width: 1024px) 36vw, 88vw"
                   priority
-                  className="aspect-[3/4] rounded-[32px] border border-border bg-surface shadow-[var(--shadow-card)]"
+                  className="aspect-[4/5] rounded-[32px] border border-border bg-surface shadow-[var(--shadow-card)]"
                 />
 
               </div>
@@ -196,15 +199,17 @@ export default async function AgentPage({ params }: { params: Params }) {
       {/* SPECJALIZACJE z agregacji ofert */}
       {specializations.length > 0 && (
         <Reveal>
-          <section className="py-16 lg:py-20">
+          <section className="py-10 lg:py-12">
             <Container size="wide">
-              <div className="max-w-2xl mb-10">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Czym się zajmuję
-                </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.1] text-foreground">
-                  Z czym mogę Ci pomóc.
-                </h2>
+              <div className="flex flex-wrap items-end justify-between gap-5 mb-7">
+                <div className="max-w-2xl">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
+                    Czym się zajmuję
+                  </p>
+                  <h2 className="font-bold tracking-tight text-[clamp(1.75rem,3vw,2.35rem)] leading-[1.1] text-foreground">
+                    Z czym mogę Ci pomóc.
+                  </h2>
+                </div>
               </div>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
                 {specializations.map((s) => {
@@ -212,7 +217,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                   return (
                     <div
                       key={s.type}
-                      className="rounded-2xl border border-border bg-surface p-6"
+                      className="rounded-[24px] border border-border bg-surface p-5 lg:p-6 shadow-[var(--shadow-soft)]"
                     >
                       <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center mb-4">
                         <Icon className="size-5" />
@@ -231,7 +236,7 @@ export default async function AgentPage({ params }: { params: Params }) {
 
       {/* O MNIE + KONTAKT */}
       <Reveal>
-        <section className="py-16 lg:py-20 bg-surface">
+        <section className="py-12 lg:py-16 bg-surface">
           <Container size="wide">
             <div className="grid lg:grid-cols-[minmax(0,1fr)_360px] gap-5 lg:gap-6 items-start">
               <article className="rounded-[36px] border border-border bg-background p-7 lg:p-10 shadow-[var(--shadow-soft)]">
