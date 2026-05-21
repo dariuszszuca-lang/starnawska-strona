@@ -1,14 +1,14 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { ArrowUpRight, Phone } from "lucide-react";
 import { Container } from "@/components/ui/container";
+import { MemberPhoto } from "@/components/team/member-photo";
 import { getAllMembersSorted } from "@/lib/team";
 
 export const metadata: Metadata = {
   title: "Nasz zespół. Agentki nieruchomości w Gdyni",
   description:
-    "Poznaj zespół Starnawska & Boleńska Nieruchomości. 9 ekspertek z Trójmiasta. Każda specjalizuje się w innym segmencie rynku.",
+    "Poznaj zespół Starnawska & Boleńska Nieruchomości. Agentki nieruchomości i zespół biura w Trójmieście.",
 };
 
 export default function TeamPage() {
@@ -62,12 +62,11 @@ function TeamCard({
       className="group block rounded-3xl overflow-hidden bg-surface border border-border hover:border-brand-forest hover:shadow-[var(--shadow-card)] hover:-translate-y-1 transition-all"
     >
       <div className="relative aspect-[3/4] bg-gray-100 overflow-hidden">
-        <Image
-          src={member.photo}
-          alt={member.fullName}
-          fill
+        <MemberPhoto
+          member={member}
           sizes="(min-width: 1024px) 33vw, 50vw"
-          className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
+          className="absolute inset-0"
+          imageClassName="transition-transform duration-700 group-hover:scale-110"
         />
         {/* Hover arrow */}
         <div className="absolute top-4 right-4 size-10 rounded-full bg-brand-lime flex items-center justify-center opacity-0 -translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">

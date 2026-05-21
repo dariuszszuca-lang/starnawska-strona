@@ -8,7 +8,6 @@ import {
   MapPin,
   ArrowRight,
   ArrowUpRight,
-  Quote,
   ArrowLeft,
   Award,
   Briefcase,
@@ -21,6 +20,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
+import { MemberPhoto } from "@/components/team/member-photo";
 import { PersonSchema, BreadcrumbsSchema } from "@/components/seo/json-ld";
 import { StickyMobileCTA } from "@/components/agent/sticky-mobile-cta";
 import { Reveal } from "@/components/motion/reveal";
@@ -48,7 +48,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     openGraph: {
       title: `${member.fullName} | ${siteConfig.shortName}`,
       description: member.bio,
-      images: [{ url: member.photo, width: 800, height: 1200, alt: member.fullName }],
+      images: member.photo
+        ? [{ url: member.photo, width: 800, height: 1200, alt: member.fullName }]
+        : undefined,
     },
   };
 }
@@ -135,24 +137,22 @@ export default async function AgentPage({ params }: { params: Params }) {
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
             <div className="lg:col-span-7 order-2 lg:order-1 space-y-8">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
-                  {member.shortRole ?? member.role}
-                </p>
+                <div className="space-y-1 mb-4">
+                  {(member.credentialLines ?? [member.shortRole ?? member.role]).map((line) => (
+                    <p
+                      key={line}
+                      className="text-xs font-semibold uppercase tracking-wider text-brand-lime"
+                    >
+                      {line}
+                    </p>
+                  ))}
+                </div>
                 <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05]">
                   {member.firstName}
                   <br />
                   <span className="text-gradient-lime">{member.lastName}</span>
                 </h1>
               </div>
-
-              {member.quote && (
-                <blockquote className="relative max-w-xl pl-8 border-l-2 border-brand-lime/50">
-                  <Quote className="absolute -left-3 -top-2 size-6 text-brand-lime/60" aria-hidden />
-                  <p className="text-lg text-foreground-on-dark-muted leading-relaxed italic">
-                    {member.quote}
-                  </p>
-                </blockquote>
-              )}
 
               <div className="flex flex-wrap items-center gap-3">
                 {member.phone && (
@@ -179,16 +179,12 @@ export default async function AgentPage({ params }: { params: Params }) {
                   aria-hidden
                   className="absolute -inset-4 rounded-[40px] bg-brand-lime/10 blur-2xl"
                 />
-                <div className="relative aspect-[3/4] rounded-[32px] overflow-hidden border border-border-on-dark">
-                  <Image
-                    src={member.photo}
-                    alt={member.fullName}
-                    fill
-                    sizes="(min-width: 1024px) 40vw, 90vw"
-                    className="object-cover object-top"
-                    priority
-                  />
-                </div>
+                <MemberPhoto
+                  member={member}
+                  sizes="(min-width: 1024px) 40vw, 90vw"
+                  priority
+                  className="aspect-[3/4] rounded-[32px] border border-border-on-dark"
+                />
 
               </div>
             </div>
@@ -241,9 +237,16 @@ export default async function AgentPage({ params }: { params: Params }) {
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
                   O mnie
                 </p>
-                <p className="text-xl lg:text-2xl leading-relaxed text-foreground-muted">
-                  {member.bio}
-                </p>
+                <div className="space-y-5">
+                  {member.bioParagraphs.map((paragraph) => (
+                    <p
+                      key={paragraph}
+                      className="text-lg lg:text-xl leading-relaxed text-foreground-muted"
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
 
                 {member.languages && member.languages.length > 0 && (
                   <div className="mt-10">
@@ -444,12 +447,11 @@ export default async function AgentPage({ params }: { params: Params }) {
                   href={`/zespol/${m.slug}`}
                   className="group block aspect-[3/4] relative rounded-3xl overflow-hidden bg-gray-100"
                 >
-                  <Image
-                    src={m.photo}
-                    alt={m.fullName}
-                    fill
+                  <MemberPhoto
+                    member={m}
                     sizes="(min-width: 768px) 25vw, 50vw"
-                    className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                    className="absolute inset-0"
+                    imageClassName="transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-4 text-foreground-on-dark">

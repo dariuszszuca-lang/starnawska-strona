@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
+import { MemberPhoto } from "@/components/team/member-photo";
 import { getOfferById } from "@/lib/esti/store";
 import { getMemberBySlug } from "@/lib/team";
 import { siteConfig } from "@/lib/site";
@@ -295,15 +296,11 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
                       Prowadzi
                     </p>
                     <div className="flex items-center gap-4">
-                      <div className="relative size-16 rounded-full overflow-hidden bg-gray-100 shrink-0">
-                        <Image
-                          src={agent.photo}
-                          alt={agent.fullName}
-                          fill
-                          sizes="64px"
-                          className="object-cover object-top"
-                        />
-                      </div>
+                      <MemberPhoto
+                        member={agent}
+                        sizes="64px"
+                        className="size-16 rounded-full shrink-0"
+                      />
                       <div>
                         <p className="font-bold text-foreground">{agent.fullName}</p>
                         {agent.phoneDisplay && (

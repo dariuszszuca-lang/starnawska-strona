@@ -1,44 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  ArrowRight,
-  Phone,
-  Check,
-  Target,
-  Megaphone,
-  Handshake,
-  Users,
-  Sparkles,
-  Plus,
-  Quote,
-  TrendingUp,
-  HelpCircle,
-} from "lucide-react";
+import { ArrowRight, Check, HelpCircle, Phone, Sparkles } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
-import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Strefa sprzedającego. Strategia sprzedaży nieruchomości w Trójmieście",
+  title: "Strefa sprzedającego. Strategia sprzedaży nieruchomości",
   description:
-    "Sprzedaż nieruchomości to strategia, nie przypadek. Analiza, marketing, prezentacja, negocjacje. Kompleksowo prowadzimy proces sprzedaży w Gdyni, Sopocie, Gdańsku.",
+    "Sprzedaż nieruchomości to strategia. Nie przypadek. Tworzymy przemyślane strategie sprzedaży, które pomagają naszym klientom osiągać najlepsze rezultaty.",
 };
 
-const proces = [
-  "analizujemy potencjał nieruchomości",
+const przygotowanie = [
+  "analizujemy jej potencjał",
   "dobieramy grupę docelową",
   "ustalamy strategię komunikacji",
   "przygotowujemy plan marketingowy",
   "dbamy o prezentację nieruchomości",
 ];
 
-const filary = [
+const obszary = [
   {
-    icon: Target,
-    label: "01",
     title: "Strategia i przygotowanie",
-    intro: "Każda sprzedaż zaczyna się od strategii. Nie od portalu.",
     points: [
       "analiza rynku i wycena",
       "strategia sprzedaży",
@@ -48,10 +31,7 @@ const filary = [
     ],
   },
   {
-    icon: Megaphone,
-    label: "02",
     title: "Marketing",
-    intro: "Docieramy tam, gdzie są kupujący. Z portalami i poza nimi.",
     points: [
       "promocja w social mediach",
       "współpraca międzyagentowa",
@@ -61,10 +41,7 @@ const filary = [
     ],
   },
   {
-    icon: Handshake,
-    label: "03",
     title: "Obsługa procesu sprzedaży",
-    intro: "Od pierwszej prezentacji aż do przekazania kluczy.",
     points: [
       "prezentacje nieruchomości",
       "selekcja klientów",
@@ -82,18 +59,18 @@ const wartosci = [
   "współpraca",
   "jakość prezentacji",
   "znajomość rynku",
-  "negocjacje",
-  "skuteczność",
+  "umiejętność negocjacji",
+  "skuteczność działania",
 ];
 
 const wspolpraca = [
-  { label: "Inni pośrednicy", desc: "Wymieniamy oferty z biurami z całego Trójmiasta." },
-  { label: "Społeczność off market", desc: "Część ofert wcale nie trafia do portali." },
-  { label: "Agenci lokalni i ogólnopolscy", desc: "Mamy zasięg poza Pomorzem." },
-  { label: "Eksperci rynku nieruchomości", desc: "Prawnicy, doradcy kredytowi, geodeci." },
+  "z innymi pośrednikami",
+  "społecznością off market",
+  "agentami lokalnymi i ogólnopolskimi",
+  "ekspertami rynku nieruchomości",
 ];
 
-const historie = [
+const sprzedajemy = [
   "mieszkania",
   "domy",
   "nieruchomości inwestycyjne",
@@ -128,214 +105,140 @@ const faq = [
 export default function StrefaSprzedajacegoPage() {
   return (
     <>
-      {/* HERO — split layout z dramatyczną typografią i metrics */}
       <section className="relative overflow-hidden bg-background">
         <div
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.15),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.10),transparent_60%)]"
         />
-        <div
-          aria-hidden
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] rounded-full bg-brand-lime/[0.03] blur-[140px]"
-        />
-
         <Container size="wide" className="relative pt-36 lg:pt-48 pb-16 lg:pb-24">
-          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
-            <div className="lg:col-span-7">
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
-                <Sparkles className="size-3.5" />
-                Strefa sprzedającego
-              </div>
-              <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,5rem)] leading-[1.02] text-foreground">
-                Sprzedaż to <span className="text-gradient-lime">strategia</span>.
-                <br />
-                <span className="text-foreground-muted">Nie przypadek.</span>
-              </h1>
-              <p className="mt-7 text-lg lg:text-xl text-foreground-muted leading-relaxed max-w-2xl">
-                Dobra sprzedaż zaczyna się długo przed publikacją ogłoszenia.
-                Tworzymy przemyślane strategie sprzedaży, które pomagają naszym
-                klientom osiągać najlepsze rezultaty.
-              </p>
-              <div className="mt-9 flex flex-wrap gap-3">
-                <Button asChild variant="primary" size="lg">
-                  <Link href="/konsultacja">
-                    Umów spotkanie
-                    <ArrowRight />
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg">
-                  <a href="#jak-pracujemy">Poznaj nasz sposób pracy</a>
-                </Button>
-              </div>
+          <div className="max-w-4xl">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
+              <Sparkles className="size-3.5" />
+              Strefa sprzedającego
             </div>
-
-            <div className="lg:col-span-5">
-              <div className="grid grid-cols-3 gap-4 lg:gap-5">
-                <div className="rounded-2xl border border-border bg-surface p-5 lg:p-6">
-                  <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-2">
-                    Na rynku
-                  </p>
-                  <p className="font-bold text-3xl lg:text-4xl text-foreground tabular-nums leading-none">
-                    {siteConfig.metrics.yearsActive}
-                  </p>
-                  <p className="mt-1 text-[11px] text-foreground-muted">lat</p>
-                </div>
-                <div className="rounded-2xl border border-brand-forest bg-brand-forest-deep text-foreground-on-dark p-5 lg:p-6">
-                  <p className="text-[10px] uppercase tracking-wider text-brand-lime font-semibold mb-2">
-                    Transakcji
-                  </p>
-                  <p className="font-bold text-3xl lg:text-4xl tabular-nums leading-none">
-                    {siteConfig.metrics.transactions}
-                  </p>
-                  <p className="mt-1 text-[11px] text-foreground-on-dark-muted">zrealizowanych</p>
-                </div>
-                <div className="rounded-2xl border border-border bg-surface p-5 lg:p-6">
-                  <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-2">
-                    Ocena
-                  </p>
-                  <p className="font-bold text-3xl lg:text-4xl text-foreground tabular-nums leading-none inline-flex items-baseline gap-1">
-                    {siteConfig.metrics.rating}
-                    <span className="text-sm text-brand-olive">★</span>
-                  </p>
-                  <p className="mt-1 text-[11px] text-foreground-muted">średnia</p>
-                </div>
-              </div>
+            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,5rem)] leading-[1.02] text-foreground">
+              Sprzedaż nieruchomości to strategia.
+              <br />
+              <span className="text-foreground-muted">Nie przypadek.</span>
+            </h1>
+            <p className="mt-7 text-lg lg:text-xl text-foreground-muted leading-relaxed max-w-2xl">
+              Dobra sprzedaż zaczyna się dużo wcześniej niż publikacja ogłoszenia.
+              Tworzymy przemyślane strategie sprzedaży, które pomagają naszym klientom
+              osiągać najlepsze rezultaty.
+            </p>
+            <div className="mt-9 flex flex-wrap gap-3">
+              <Button asChild variant="primary" size="lg">
+                <Link href="/konsultacja">
+                  Umów spotkanie
+                  <ArrowRight />
+                </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg">
+                <a href="#jak-pracujemy">Poznaj nasz sposób pracy</a>
+              </Button>
             </div>
           </div>
         </Container>
       </section>
 
-      {/* SEKCJA 1 — JAK PRACUJEMY (sticky lead + numbered list) */}
       <Reveal>
         <section id="jak-pracujemy" className="py-20 lg:py-28 bg-surface scroll-mt-24">
           <Container size="wide">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5 lg:sticky lg:top-32">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  01 · Jak pracujemy
+                  Sekcja 1
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
-                  Nie wrzucamy ofert do&nbsp;internetu i&nbsp;nie czekamy.
+                  Jak pracujemy?
                 </h2>
-                <p className="text-lg text-foreground-muted leading-relaxed mb-6">
-                  Każda nieruchomość wymaga indywidualnej strategii. Dlatego
-                  zanim oferta trafi na rynek, robimy konkretną pracę.
+                <p className="text-lg text-foreground leading-relaxed mb-4">
+                  Nie wrzucamy ofert do internetu i nie czekamy.
                 </p>
-                <div className="inline-flex items-center gap-3 px-4 py-3 rounded-2xl bg-brand-lime/15 border border-brand-lime/30">
-                  <TrendingUp className="size-5 text-brand-forest-deep shrink-0" />
-                  <p className="text-sm font-semibold text-brand-forest-deep">
-                    Skuteczna sprzedaż zaczyna się od&nbsp;przygotowania.
-                  </p>
-                </div>
+                <p className="text-lg text-foreground-muted leading-relaxed">
+                  Każda nieruchomość wymaga indywidualnej strategii.
+                  Dlatego zanim oferta trafi na rynek:
+                </p>
               </div>
 
               <div className="lg:col-span-7">
                 <ul className="space-y-3">
-                  {proces.map((p, i) => (
+                  {przygotowanie.map((item, index) => (
                     <li
-                      key={p}
-                      className="group relative flex items-start gap-5 p-6 rounded-3xl border border-border bg-background hover:border-brand-forest hover:shadow-[var(--shadow-card)] hover:-translate-y-0.5 transition-all"
+                      key={item}
+                      className="group flex items-start gap-5 p-6 rounded-3xl border border-border bg-background hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
                     >
-                      <span className="font-bold text-2xl text-brand-lime/40 tabular-nums w-10 shrink-0 group-hover:text-brand-lime transition-colors">
-                        0{i + 1}
+                      <span className="font-bold text-2xl text-brand-lime/50 tabular-nums w-10 shrink-0 group-hover:text-brand-lime transition-colors">
+                        0{index + 1}
                       </span>
                       <span className="text-lg text-foreground leading-relaxed pt-1">
-                        {p.charAt(0).toUpperCase() + p.slice(1)}
+                        {item}
                       </span>
                     </li>
                   ))}
                 </ul>
+                <p className="mt-8 text-xl font-semibold text-foreground">
+                  Bo skuteczna sprzedaż zaczyna się od dobrego przygotowania.
+                </p>
               </div>
             </div>
           </Container>
         </section>
       </Reveal>
 
-      {/* SEKCJA 2 — 3 FILARY jako dramatic alternating cards (środkowa ciemna, wyższa) */}
       <Reveal>
         <section className="py-20 lg:py-28">
           <Container size="wide">
-            <div className="max-w-2xl mb-12 lg:mb-16">
+            <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                02 · Co robimy dla sprzedającego
+                Sekcja 2
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
-                Trzy filary,
-                <br />
-                <span className="text-gradient-lime">jedna sprzedaż</span>.
+              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-5">
+                Co robimy dla sprzedającego?
               </h2>
+              <p className="text-lg text-foreground-muted leading-relaxed">
+                Kompleksowo prowadzimy cały proces sprzedaży.
+              </p>
             </div>
 
             <div className="grid lg:grid-cols-3 gap-6">
-              {filary.map((f, i) => {
-                const Icon = f.icon;
-                const isDark = i === 1;
+              {obszary.map((area, index) => {
+                const dark = index === 1;
                 return (
                   <div
-                    key={f.label}
-                    className={`relative rounded-[28px] p-8 lg:p-9 border overflow-hidden ${
-                      isDark
-                        ? "bg-brand-forest-deep text-foreground-on-dark border-brand-forest lg:-translate-y-6"
+                    key={area.title}
+                    className={`rounded-[28px] p-8 lg:p-9 border ${
+                      dark
+                        ? "bg-brand-forest-deep text-foreground-on-dark border-brand-forest"
                         : "bg-surface border-border"
                     }`}
                   >
-                    {isDark && (
-                      <div
-                        aria-hidden
-                        className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(163,199,51,0.18),transparent_55%)]"
-                      />
-                    )}
-                    <div className="relative">
-                      <div
-                        className={`size-14 rounded-2xl flex items-center justify-center mb-6 ${
-                          isDark
-                            ? "bg-brand-lime text-brand-forest-deep"
-                            : "bg-brand-lime/15 text-brand-olive"
-                        }`}
-                      >
-                        <Icon className="size-7" strokeWidth={2.2} />
-                      </div>
-                      <p
-                        className={`text-[10px] font-bold uppercase tracking-[0.18em] mb-3 ${
-                          isDark ? "text-brand-lime" : "text-brand-olive"
-                        }`}
-                      >
-                        {f.label} / III
-                      </p>
-                      <h3 className="font-bold text-2xl lg:text-[28px] leading-tight mb-3">
-                        {f.title}
-                      </h3>
-                      <p
-                        className={`text-sm leading-relaxed mb-7 ${
-                          isDark ? "text-foreground-on-dark-muted" : "text-foreground-muted"
-                        }`}
-                      >
-                        {f.intro}
-                      </p>
-                      <div
-                        className={`h-px w-full mb-6 ${
-                          isDark ? "bg-white/10" : "bg-border"
-                        }`}
-                      />
-                      <ul className="space-y-3">
-                        {f.points.map((p) => (
-                          <li
-                            key={p}
-                            className={`flex items-start gap-3 text-sm leading-relaxed ${
-                              isDark ? "text-foreground-on-dark" : "text-foreground"
+                    <p
+                      className={`text-[10px] font-bold uppercase tracking-[0.18em] mb-4 ${
+                        dark ? "text-brand-lime" : "text-brand-olive"
+                      }`}
+                    >
+                      0{index + 1}
+                    </p>
+                    <h3 className="font-bold text-2xl leading-tight mb-6">{area.title}</h3>
+                    <ul className="space-y-3">
+                      {area.points.map((point) => (
+                        <li
+                          key={point}
+                          className={`flex items-start gap-3 text-sm leading-relaxed ${
+                            dark ? "text-foreground-on-dark" : "text-foreground"
+                          }`}
+                        >
+                          <Check
+                            className={`size-4 shrink-0 mt-0.5 ${
+                              dark ? "text-brand-lime" : "text-brand-olive"
                             }`}
-                          >
-                            <Check
-                              className={`size-4 shrink-0 mt-0.5 ${
-                                isDark ? "text-brand-lime" : "text-brand-olive"
-                              }`}
-                              strokeWidth={3}
-                            />
-                            <span>{p}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                            strokeWidth={3}
+                          />
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 );
               })}
@@ -344,7 +247,6 @@ export default function StrefaSprzedajacegoPage() {
         </section>
       </Reveal>
 
-      {/* SEKCJA 3 — DLACZEGO SKUTECZNIE (dark + lime tag pills) */}
       <Reveal>
         <section className="relative py-20 lg:py-28 bg-brand-forest-deep text-foreground-on-dark overflow-hidden">
           <div
@@ -352,37 +254,41 @@ export default function StrefaSprzedajacegoPage() {
             className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.18),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.55),transparent_60%)]"
           />
           <Container size="wide" className="relative">
-            <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-              <div className="lg:col-span-7">
+            <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+              <div className="lg:col-span-6">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
-                  03 · Dlaczego skutecznie?
+                  Sekcja 3
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] mb-6">
-                  Za&nbsp;każdą ofertą stoi <span className="text-gradient-lime">strategia</span>
-                  <br />i doświadczenie.
+                  Dlaczego nasze oferty sprzedają się skutecznie?
                 </h2>
+                <p className="text-lg text-foreground-on-dark-muted leading-relaxed mb-4">
+                  Bo za każdą ofertą stoi strategia i doświadczenie.
+                </p>
                 <p className="text-lg text-foreground-on-dark-muted leading-relaxed">
-                  Nie działamy szablonowo. Każda nieruchomość ma inną historię.
+                  Nie działamy szablonowo.
+                  <br />
+                  Każda nieruchomość ma inną historię.
+                  <br />
                   I wymaga indywidualnego podejścia.
                 </p>
               </div>
-
-              <div className="lg:col-span-5">
+              <div className="lg:col-span-6">
                 <p className="text-xs uppercase tracking-wider text-brand-lime font-semibold mb-5">
-                  W naszej pracy liczy się
+                  W naszej pracy liczy się:
                 </p>
                 <div className="flex flex-wrap gap-2.5">
-                  {wartosci.map((w, i) => (
+                  {wartosci.map((item, index) => (
                     <span
-                      key={w}
+                      key={item}
                       className={`inline-flex items-center gap-2 pl-3 pr-5 py-2.5 rounded-full text-sm font-medium ${
-                        i % 3 === 0
+                        index % 3 === 0
                           ? "bg-brand-lime text-brand-forest-deep"
                           : "bg-white/[0.06] text-foreground-on-dark border border-white/10"
                       }`}
                     >
-                      <Sparkles className="size-3.5" />
-                      {w}
+                      <Check className="size-3.5" />
+                      {item}
                     </span>
                   ))}
                 </div>
@@ -392,94 +298,83 @@ export default function StrefaSprzedajacegoPage() {
         </section>
       </Reveal>
 
-      {/* SEKCJA 4 — WSPÓŁPRACA jako 4-grid karty */}
       <Reveal>
         <section className="py-20 lg:py-28">
           <Container size="wide">
-            <div className="max-w-2xl mb-12 lg:mb-16">
+            <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                04 · Współpraca międzyagentowa
+                Sekcja 4
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
-                Najlepsi
-                <br />
-                <span className="text-foreground-muted">współpracują.</span>
+              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-5">
+                Współpraca międzyagentowa
               </h2>
-              <p className="mt-5 text-lg text-foreground-muted leading-relaxed">
-                Naszym celem nie jest tylko publikacja oferty.
-                Naszym celem jest skuteczna sprzedaż.
+              <p className="text-lg text-foreground-muted leading-relaxed">
+                Wierzymy, że dobra współpraca zwiększa skuteczność sprzedaży.
               </p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
-              {wspolpraca.map((w, i) => (
+              {wspolpraca.map((item, index) => (
                 <div
-                  key={w.label}
+                  key={item}
                   className="rounded-3xl bg-surface border border-border p-7 hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
                 >
-                  <div className="size-12 rounded-2xl bg-brand-lime/15 text-brand-olive flex items-center justify-center mb-5">
-                    <Users className="size-5" />
-                  </div>
-                  <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-2 tabular-nums">
-                    0{i + 1}
+                  <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-4 tabular-nums">
+                    0{index + 1}
                   </p>
-                  <h3 className="font-bold text-lg text-foreground leading-tight mb-3">
-                    {w.label}
-                  </h3>
-                  <p className="text-sm text-foreground-muted leading-relaxed">{w.desc}</p>
+                  <p className="font-semibold text-foreground leading-relaxed">{item}</p>
                 </div>
               ))}
             </div>
+
+            <p className="mt-10 text-xl font-semibold text-foreground">
+              Bo naszym celem nie jest tylko publikacja oferty.
+              <br />
+              Naszym celem jest skuteczna sprzedaż.
+            </p>
           </Container>
         </section>
       </Reveal>
 
-      {/* SEKCJA 5 — HISTORIE jako big quote + tag list */}
       <Reveal>
         <section className="py-20 lg:py-28 bg-surface">
           <Container size="wide">
-            <div className="grid lg:grid-cols-12 gap-10 lg:gap-16">
+            <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-7">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  05 · Historie klientów
+                  Sekcja 5
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-8">
-                  Za&nbsp;każdą sprzedażą stoi człowiek.
+                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
+                  Historie naszych klientów
                 </h2>
-
-                <div className="relative pl-10 mb-8">
-                  <Quote
-                    aria-hidden
-                    className="absolute -left-2 -top-2 size-10 text-brand-lime/40"
-                  />
-                  <p className="text-xl lg:text-2xl text-foreground italic leading-relaxed">
-                    Czasami to szybka sprzedaż po jednej prezentacji. Czasami
-                    proces wymagający miesięcy przygotowań i wielu rozmów.
-                  </p>
-                </div>
-
+                <p className="text-xl text-foreground font-semibold leading-relaxed mb-5">
+                  Za każdą sprzedażą stoi człowiek.
+                </p>
+                <p className="text-lg text-foreground-muted leading-relaxed mb-5">
+                  Czasami to szybka sprzedaż po jednej prezentacji.
+                  <br />
+                  Czasami proces wymagający miesięcy przygotowań, wielu rozmów i strategicznych decyzji.
+                </p>
                 <p className="text-lg text-foreground-muted leading-relaxed">
-                  Ale przede wszystkim pomagamy ludziom przejść przez ważne
-                  życiowe zmiany.
+                  Ale przede wszystkim pomagamy ludziom przejść przez ważne życiowe zmiany.
                 </p>
               </div>
-
               <div className="lg:col-span-5">
                 <p className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-5">
-                  Sprzedajemy
+                  Sprzedajemy:
                 </p>
-                <div className="grid grid-cols-1 gap-2.5">
-                  {historie.map((h, i) => (
+                <div className="grid gap-2.5">
+                  {sprzedajemy.map((item, index) => (
                     <div
-                      key={h}
+                      key={item}
                       className={`flex items-center gap-3 px-5 py-4 rounded-2xl border ${
-                        i % 2 === 0
+                        index % 2 === 0
                           ? "bg-background border-border"
                           : "bg-brand-lime/10 border-brand-lime/30"
                       }`}
                     >
                       <span className="size-2 rounded-full bg-brand-lime shrink-0" />
-                      <span className="font-medium text-foreground capitalize">{h}</span>
+                      <span className="font-medium text-foreground">{item}</span>
                     </div>
                   ))}
                 </div>
@@ -489,7 +384,6 @@ export default function StrefaSprzedajacegoPage() {
         </section>
       </Reveal>
 
-      {/* SEKCJA 6 — FAQ (sticky sidebar + plus/X animacja) */}
       <Reveal>
         <section className="py-20 lg:py-28 bg-surface">
           <Container size="wide">
@@ -497,43 +391,30 @@ export default function StrefaSprzedajacegoPage() {
               <div className="lg:col-span-4 lg:sticky lg:top-32">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
                   <HelpCircle className="size-3.5" />
-                  06 · FAQ
+                  Sekcja 6
                 </div>
-                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
-                  Pytania, które się <span className="text-gradient-lime">powtarzają</span>.
+                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
+                  Najczęściej zadawane pytania
                 </h2>
-                <p className="text-lg text-foreground-muted leading-relaxed mb-8">
-                  Nie znalazłeś odpowiedzi? Zadzwoń lub umów konsultację, odpowiemy na każde pytanie wprost.
-                </p>
-                <Button asChild variant="primary" size="md">
-                  <Link href="/konsultacja">
-                    Umów konsultację
-                    <ArrowRight />
-                  </Link>
-                </Button>
               </div>
-
               <div className="lg:col-span-8">
                 <div className="space-y-3">
-                  {faq.map((item, i) => (
+                  {faq.map((item, index) => (
                     <details
-                      key={i}
-                      className="group relative rounded-3xl border border-border bg-background p-6 lg:p-7 transition-all hover:border-brand-forest/40 open:border-brand-forest open:shadow-[var(--shadow-card)] open:bg-gradient-to-br open:from-background open:to-brand-lime/[0.06]"
+                      key={item.q}
+                      className="group rounded-3xl border border-border bg-background p-6 lg:p-7 transition-all hover:border-brand-forest/40 open:border-brand-forest open:shadow-[var(--shadow-card)] open:bg-gradient-to-br open:from-background open:to-brand-lime/[0.06]"
                     >
                       <summary className="flex items-start justify-between gap-6 cursor-pointer list-none">
                         <div className="flex items-start gap-5">
                           <span className="font-bold text-sm text-brand-olive tabular-nums shrink-0 pt-1.5">
-                            0{i + 1}
+                            0{index + 1}
                           </span>
                           <span className="font-semibold text-foreground text-lg lg:text-xl leading-snug">
                             {item.q}
                           </span>
                         </div>
-                        <span className="size-10 rounded-full bg-brand-lime/15 text-brand-forest-deep flex items-center justify-center shrink-0 group-open:bg-brand-lime group-open:text-brand-forest-deep group-hover:bg-brand-lime/30 transition-all">
-                          <Plus
-                            className="size-5 group-open:rotate-45 transition-transform duration-300"
-                            strokeWidth={2.5}
-                          />
+                        <span className="size-10 rounded-full bg-brand-lime/15 text-brand-forest-deep flex items-center justify-center shrink-0 group-open:bg-brand-lime transition-all">
+                          <ArrowRight className="size-4 group-open:rotate-90 transition-transform" />
                         </span>
                       </summary>
                       <p className="mt-6 ml-11 text-foreground-muted leading-relaxed text-base lg:text-lg">
@@ -548,7 +429,6 @@ export default function StrefaSprzedajacegoPage() {
         </section>
       </Reveal>
 
-      {/* CTA KOŃCOWY */}
       <Reveal>
         <section className="py-16 lg:py-24">
           <Container size="default">
@@ -559,12 +439,12 @@ export default function StrefaSprzedajacegoPage() {
               />
               <div className="relative">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
-                  Myślisz o sprzedaży?
+                  CTA końcowe
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.75rem)] leading-[1.05] mb-7 max-w-3xl mx-auto">
-                  Zacznijmy od&nbsp;<span className="text-gradient-lime">strategii</span>,
+                  Myślisz o sprzedaży nieruchomości?
                   <br />
-                  nie od&nbsp;przypadku.
+                  Zacznijmy od strategii, nie od przypadku.
                 </h2>
                 <div className="flex flex-wrap items-center justify-center gap-3">
                   <Button asChild variant="lime" size="lg">

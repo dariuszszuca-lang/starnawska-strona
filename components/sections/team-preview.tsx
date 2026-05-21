@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Phone } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
+import { MemberPhoto } from "@/components/team/member-photo";
 import { getAllMembersSorted } from "@/lib/team";
 
 export function TeamPreview() {
@@ -53,12 +53,11 @@ export function TeamPreview() {
                 href={`/zespol/${m.slug}`}
                 className="group block relative aspect-[3/4] rounded-3xl overflow-hidden bg-gray-100"
               >
-                <Image
-                  src={m.photo}
-                  alt={m.fullName}
-                  fill
+                <MemberPhoto
+                  member={m}
                   sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
-                  className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
+                  className="absolute inset-0"
+                  imageClassName="transition-transform duration-700 group-hover:scale-110"
                 />
 
                 {/* Gradient overlay - mocniejszy na dole */}
