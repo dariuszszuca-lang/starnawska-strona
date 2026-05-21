@@ -280,14 +280,14 @@ export default async function AgentPage({ params }: { params: Params }) {
         </Container>
       </section>
 
-      {/* SPECJALIZACJE z agregacji ofert + OBSZARY DZIAŁANIA */}
+      {/* SPECJALIZACJE + OBSZARY DZIAŁANIA — jedna karta */}
       {(specializations.length > 0 || areas.length > 0) && (
         <Reveal>
-          <section className="py-10 lg:py-12">
+          <section className="py-10 lg:py-14">
             <Container size="wide">
               <div className="flex flex-wrap items-end justify-between gap-5 mb-7">
                 <div className="max-w-2xl">
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive mb-3">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-3">
                     Czym się zajmuję
                   </p>
                   <h2 className="font-bold tracking-tight text-[clamp(1.75rem,3vw,2.35rem)] leading-[1.1] text-foreground">
@@ -296,65 +296,80 @@ export default async function AgentPage({ params }: { params: Params }) {
                 </div>
               </div>
 
-              {specializations.length > 0 && (
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
-                  {specializations.map((s) => {
-                    const Icon = typeIcon[s.type];
-                    return (
-                      <div
-                        key={s.type}
-                        className="rounded-[24px] border border-border bg-surface p-5 lg:p-6 shadow-[var(--shadow-soft)]"
-                      >
-                        <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center mb-4">
-                          <Icon className="size-5" />
-                        </div>
-                        <h3 className="font-bold text-lg text-foreground leading-tight">
-                          {typeNamePlural[s.type]}
-                        </h3>
+              <div className="rounded-[32px] border border-border bg-background shadow-[var(--shadow-soft)] overflow-hidden">
+                <div className="grid lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-border">
+                  {/* SPECJALIZACJE */}
+                  {specializations.length > 0 && (
+                    <div className="p-7 lg:p-10">
+                      <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-5">
+                        <Briefcase className="size-3.5" />
+                        Specjalizacja
                       </div>
-                    );
-                  })}
-                </div>
-              )}
-
-              {areas.length > 0 && (
-                <div className="mt-10 lg:mt-12 pt-8 lg:pt-10 border-t border-border">
-                  <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-5">
-                    <MapPin className="size-3.5" />
-                    Gdzie pracuję
-                  </div>
-                  <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
-                    {areas.map((a) => {
-                      const [city, district] = a.label.split(" · ");
-                      return (
-                        <li
-                          key={a.label}
-                          className="group relative rounded-2xl border border-border bg-surface p-4 lg:p-5 shadow-[var(--shadow-soft)] hover:border-brand-lime/40 hover:shadow-[var(--shadow-card)] transition-all"
-                        >
-                          <div className="flex items-start gap-3.5">
-                            <div className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
-                              <MapPin className="size-4.5" />
-                            </div>
-                            <div className="min-w-0 flex-1">
-                              <p className="font-bold text-[15px] text-foreground leading-tight truncate">
-                                {city}
-                              </p>
-                              {district && (
-                                <p className="mt-0.5 text-sm text-foreground-muted truncate">
-                                  {district}
+                      <ul className="space-y-2.5">
+                        {specializations.map((s) => {
+                          const Icon = typeIcon[s.type];
+                          return (
+                            <li
+                              key={s.type}
+                              className="group flex items-center gap-4 rounded-2xl border border-border bg-surface px-4 py-3.5 lg:px-5 lg:py-4 hover:border-brand-lime/40 hover:bg-brand-lime/[0.04] transition-colors"
+                            >
+                              <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
+                                <Icon className="size-5" />
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <p className="font-bold text-[15px] lg:text-base text-foreground leading-tight">
+                                  {typeNamePlural[s.type]}
                                 </p>
-                              )}
-                              <p className="mt-2.5 inline-flex items-center text-[11px] font-semibold uppercase tracking-wider text-brand-olive">
+                              </div>
+                              <span className="text-[11px] font-semibold uppercase tracking-wider text-brand-olive tabular-nums shrink-0">
+                                {s.count} {s.count === 1 ? "oferta" : s.count < 5 ? "oferty" : "ofert"}
+                              </span>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* OBSZARY DZIAŁANIA */}
+                  {areas.length > 0 && (
+                    <div className="p-7 lg:p-10">
+                      <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-5">
+                        <MapPin className="size-3.5" />
+                        Gdzie pracuję
+                      </div>
+                      <ul className="space-y-2.5">
+                        {areas.map((a) => {
+                          const [city, district] = a.label.split(" · ");
+                          return (
+                            <li
+                              key={a.label}
+                              className="group flex items-center gap-4 rounded-2xl border border-border bg-surface px-4 py-3.5 lg:px-5 lg:py-4 hover:border-brand-lime/40 hover:bg-brand-lime/[0.04] transition-colors"
+                            >
+                              <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
+                                <MapPin className="size-5" />
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <p className="font-bold text-[15px] lg:text-base text-foreground leading-tight">
+                                  {city}
+                                </p>
+                                {district && (
+                                  <p className="mt-0.5 text-sm text-foreground-muted truncate">
+                                    {district}
+                                  </p>
+                                )}
+                              </div>
+                              <span className="text-[11px] font-semibold uppercase tracking-wider text-brand-olive tabular-nums shrink-0">
                                 {a.count} {a.count === 1 ? "oferta" : a.count < 5 ? "oferty" : "ofert"}
-                              </p>
-                            </div>
-                          </div>
-                        </li>
-                      );
-                    })}
-                  </ul>
+                              </span>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
                 </div>
-              )}
+              </div>
             </Container>
           </section>
         </Reveal>
