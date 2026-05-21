@@ -147,7 +147,7 @@ export default function StrefaSprzedajacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5 lg:sticky lg:top-32">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Sekcja 1
+                  Jak pracujemy?
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
                   Jak pracujemy?
@@ -191,7 +191,7 @@ export default function StrefaSprzedajacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Sekcja 2
+                Co robimy dla sprzedającego?
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-5">
                 Co robimy dla sprzedającego?
@@ -257,7 +257,7 @@ export default function StrefaSprzedajacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-6">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
-                  Sekcja 3
+                  Dlaczego nasze oferty sprzedają się skutecznie?
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] mb-6">
                   Dlaczego nasze oferty sprzedają się skutecznie?
@@ -303,7 +303,7 @@ export default function StrefaSprzedajacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Sekcja 4
+                Współpraca międzyagentowa
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-5">
                 Współpraca międzyagentowa
@@ -342,7 +342,7 @@ export default function StrefaSprzedajacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-7">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Sekcja 5
+                  Historie naszych klientów
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
                   Historie naszych klientów
@@ -391,7 +391,7 @@ export default function StrefaSprzedajacegoPage() {
               <div className="lg:col-span-4 lg:sticky lg:top-32">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
                   <HelpCircle className="size-3.5" />
-                  Sekcja 6
+                  Najczęstsze pytania
                 </div>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
                   Najczęściej zadawane pytania

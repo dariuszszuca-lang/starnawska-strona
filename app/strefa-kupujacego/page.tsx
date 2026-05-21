@@ -175,7 +175,7 @@ export default function StrefaKupujacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-6 lg:sticky lg:top-32">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Sekcja 1
+                  Kim jest agent kupującego?
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
                   Kim jest agent kupującego?
@@ -231,7 +231,7 @@ export default function StrefaKupujacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Sekcja 2
+                Jak wygląda współpraca?
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-5">
                 Jak wygląda współpraca?
@@ -293,7 +293,7 @@ export default function StrefaKupujacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
-                  Sekcja 3
+                  Czego klient często nie widzi?
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] mb-6">
                   Czego klient często nie widzi?
@@ -337,7 +337,7 @@ export default function StrefaKupujacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Sekcja 4
+                Dla kogo jest ta usługa?
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
                 Dla kogo jest ta usługa?
@@ -371,7 +371,7 @@ export default function StrefaKupujacegoPage() {
           <Container size="default">
             <div className="mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Sekcja 5
+                Historie naszych klientów
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
                 Historie naszych klientów
@@ -420,7 +420,7 @@ export default function StrefaKupujacegoPage() {
               <div className="lg:col-span-4 lg:sticky lg:top-32">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
                   <HelpCircle className="size-3.5" />
-                  Sekcja 6
+                  Najczęstsze pytania
                 </div>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
                   Najczęściej zadawane pytania
