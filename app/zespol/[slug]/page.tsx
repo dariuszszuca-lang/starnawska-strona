@@ -280,14 +280,14 @@ export default async function AgentPage({ params }: { params: Params }) {
         </Container>
       </section>
 
-      {/* SPECJALIZACJE z agregacji ofert */}
-      {specializations.length > 0 && (
+      {/* SPECJALIZACJE z agregacji ofert + OBSZARY DZIAŁANIA */}
+      {(specializations.length > 0 || areas.length > 0) && (
         <Reveal>
           <section className="py-10 lg:py-12">
             <Container size="wide">
               <div className="flex flex-wrap items-end justify-between gap-5 mb-7">
                 <div className="max-w-2xl">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive mb-3">
                     Czym się zajmuję
                   </p>
                   <h2 className="font-bold tracking-tight text-[clamp(1.75rem,3vw,2.35rem)] leading-[1.1] text-foreground">
@@ -295,24 +295,66 @@ export default async function AgentPage({ params }: { params: Params }) {
                   </h2>
                 </div>
               </div>
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
-                {specializations.map((s) => {
-                  const Icon = typeIcon[s.type];
-                  return (
-                    <div
-                      key={s.type}
-                      className="rounded-[24px] border border-border bg-surface p-5 lg:p-6 shadow-[var(--shadow-soft)]"
-                    >
-                      <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center mb-4">
-                        <Icon className="size-5" />
+
+              {specializations.length > 0 && (
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+                  {specializations.map((s) => {
+                    const Icon = typeIcon[s.type];
+                    return (
+                      <div
+                        key={s.type}
+                        className="rounded-[24px] border border-border bg-surface p-5 lg:p-6 shadow-[var(--shadow-soft)]"
+                      >
+                        <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center mb-4">
+                          <Icon className="size-5" />
+                        </div>
+                        <h3 className="font-bold text-lg text-foreground leading-tight">
+                          {typeNamePlural[s.type]}
+                        </h3>
                       </div>
-                      <h3 className="font-bold text-lg text-foreground leading-tight">
-                        {typeNamePlural[s.type]}
-                      </h3>
-                    </div>
-                  );
-                })}
-              </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {areas.length > 0 && (
+                <div className="mt-10 lg:mt-12 pt-8 lg:pt-10 border-t border-border">
+                  <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-5">
+                    <MapPin className="size-3.5" />
+                    Gdzie pracuję
+                  </div>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
+                    {areas.map((a) => {
+                      const [city, district] = a.label.split(" · ");
+                      return (
+                        <li
+                          key={a.label}
+                          className="group relative rounded-2xl border border-border bg-surface p-4 lg:p-5 shadow-[var(--shadow-soft)] hover:border-brand-lime/40 hover:shadow-[var(--shadow-card)] transition-all"
+                        >
+                          <div className="flex items-start gap-3.5">
+                            <div className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
+                              <MapPin className="size-4.5" />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                              <p className="font-bold text-[15px] text-foreground leading-tight truncate">
+                                {city}
+                              </p>
+                              {district && (
+                                <p className="mt-0.5 text-sm text-foreground-muted truncate">
+                                  {district}
+                                </p>
+                              )}
+                              <p className="mt-2.5 inline-flex items-center text-[11px] font-semibold uppercase tracking-wider text-brand-olive">
+                                {a.count} {a.count === 1 ? "oferta" : a.count < 5 ? "oferty" : "ofert"}
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              )}
             </Container>
           </section>
         </Reveal>
@@ -336,7 +378,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                   </div>
 
                   {bioLead && (
-                    <div className="max-w-4xl space-y-4 text-lg lg:text-xl leading-8 lg:leading-9 text-foreground">
+                    <div className="max-w-4xl space-y-4 text-base lg:text-[17px] leading-8 lg:leading-9 text-foreground">
                       {chunkParagraph(bioLead).map((chunk, i) => (
                         <p key={i}>{chunk}</p>
                       ))}
@@ -362,7 +404,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                         >
                           <div className="grid lg:grid-cols-[140px_minmax(0,1fr)] gap-6 lg:gap-12 items-start">
                             <div className="flex lg:flex-col items-center lg:items-start gap-5 lg:gap-4">
-                              <span className="font-extralight text-[clamp(3.5rem,6vw,5.5rem)] leading-none text-brand-olive/35 tabular-nums select-none">
+                              <span className="font-semibold text-[clamp(2.5rem,4.5vw,3.75rem)] leading-none text-brand-olive/55 tabular-nums select-none">
                                 {number}
                               </span>
                               <div className="size-12 lg:size-14 rounded-full bg-brand-lime/15 text-brand-olive flex items-center justify-center ring-1 ring-brand-lime/30">
@@ -606,39 +648,6 @@ export default async function AgentPage({ params }: { params: Params }) {
                   <AgentOfferCard key={offer.id} offer={offer} />
                 ))}
               </div>
-            </Container>
-          </section>
-        </Reveal>
-      )}
-
-      {/* OBSZARY DZIAŁANIA */}
-      {areas.length > 0 && (
-        <Reveal>
-          <section className="py-16 lg:py-20 bg-surface">
-            <Container size="wide">
-              <div className="max-w-2xl mb-8">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Gdzie pracuję
-                </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.1] text-foreground">
-                  Obszary działania.
-                </h2>
-                <p className="mt-3 text-foreground-muted">
-                  Lokalizacje, w których obecnie obsługuję transakcje.
-                </p>
-              </div>
-              <ul className="flex flex-wrap gap-2.5">
-                {areas.map((a) => (
-                  <li
-                    key={a.label}
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-background border border-border text-sm text-foreground"
-                  >
-                    <MapPin className="size-3.5 text-brand-olive" />
-                    {a.label}
-                    <span className="text-xs text-foreground-muted">· {a.count}</span>
-                  </li>
-                ))}
-              </ul>
             </Container>
           </section>
         </Reveal>
