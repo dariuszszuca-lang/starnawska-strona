@@ -166,9 +166,9 @@ export default function StrefaSprzedajacegoPage() {
                   {przygotowanie.map((item, index) => (
                     <li
                       key={item}
-                      className="group flex items-start gap-5 p-6 rounded-3xl border border-border bg-background hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
+                      className="group flex items-start gap-5 p-6 rounded-[28px] border border-border bg-background/90 shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
                     >
-                      <span className="font-bold text-2xl text-brand-lime/50 tabular-nums w-10 shrink-0 group-hover:text-brand-lime transition-colors">
+                      <span className="font-bold text-2xl text-brand-olive/35 tabular-nums w-10 shrink-0 group-hover:text-brand-olive transition-colors">
                         0{index + 1}
                       </span>
                       <span className="text-lg text-foreground leading-relaxed pt-1">
@@ -203,20 +203,18 @@ export default function StrefaSprzedajacegoPage() {
 
             <div className="grid lg:grid-cols-3 gap-6">
               {obszary.map((area, index) => {
-                const dark = index === 1;
+                const featured = index === 1;
                 return (
                   <div
                     key={area.title}
-                    className={`rounded-[28px] p-8 lg:p-9 border ${
-                      dark
-                        ? "bg-brand-forest-deep text-foreground-on-dark border-brand-forest"
+                    className={`rounded-[30px] p-8 lg:p-9 border shadow-[var(--shadow-soft)] transition-all hover:-translate-y-0.5 ${
+                      featured
+                        ? "bg-brand-lime/[0.10] border-brand-lime/35"
                         : "bg-surface border-border"
                     }`}
                   >
                     <p
-                      className={`text-[10px] font-bold uppercase tracking-[0.18em] mb-4 ${
-                        dark ? "text-brand-lime" : "text-brand-olive"
-                      }`}
+                      className="text-[10px] font-bold uppercase tracking-[0.18em] mb-4 text-brand-olive"
                     >
                       0{index + 1}
                     </p>
@@ -225,14 +223,10 @@ export default function StrefaSprzedajacegoPage() {
                       {area.points.map((point) => (
                         <li
                           key={point}
-                          className={`flex items-start gap-3 text-sm leading-relaxed ${
-                            dark ? "text-foreground-on-dark" : "text-foreground"
-                          }`}
+                          className="flex items-start gap-3 text-sm leading-relaxed text-foreground"
                         >
                           <Check
-                            className={`size-4 shrink-0 mt-0.5 ${
-                              dark ? "text-brand-lime" : "text-brand-olive"
-                            }`}
+                            className="size-4 shrink-0 mt-0.5 text-brand-olive"
                             strokeWidth={3}
                           />
                           <span>{point}</span>
@@ -248,24 +242,24 @@ export default function StrefaSprzedajacegoPage() {
       </Reveal>
 
       <Reveal>
-        <section className="relative py-20 lg:py-28 bg-brand-forest-deep text-foreground-on-dark overflow-hidden">
+        <section className="relative py-20 lg:py-28 bg-surface text-foreground overflow-hidden">
           <div
             aria-hidden
-            className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.18),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.55),transparent_60%)]"
+            className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.12),transparent_52%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.06),transparent_60%)]"
           />
           <Container size="wide" className="relative">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-6">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                   Dlaczego nasze oferty sprzedają się skutecznie?
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] mb-6">
                   Dlaczego nasze oferty sprzedają się skutecznie?
                 </h2>
-                <p className="text-lg text-foreground-on-dark-muted leading-relaxed mb-4">
+                <p className="text-lg text-foreground-muted leading-relaxed mb-4">
                   Bo za każdą ofertą stoi strategia i doświadczenie.
                 </p>
-                <p className="text-lg text-foreground-on-dark-muted leading-relaxed">
+                <p className="text-lg text-foreground-muted leading-relaxed">
                   Nie działamy szablonowo.
                   <br />
                   Każda nieruchomość ma inną historię.
@@ -274,7 +268,7 @@ export default function StrefaSprzedajacegoPage() {
                 </p>
               </div>
               <div className="lg:col-span-6">
-                <p className="text-xs uppercase tracking-wider text-brand-lime font-semibold mb-5">
+                <p className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-5">
                   W naszej pracy liczy się:
                 </p>
                 <div className="flex flex-wrap gap-2.5">
@@ -283,8 +277,8 @@ export default function StrefaSprzedajacegoPage() {
                       key={item}
                       className={`inline-flex items-center gap-2 pl-3 pr-5 py-2.5 rounded-full text-sm font-medium ${
                         index % 3 === 0
-                          ? "bg-brand-lime text-brand-forest-deep"
-                          : "bg-white/[0.06] text-foreground-on-dark border border-white/10"
+                          ? "bg-brand-lime/20 text-brand-forest-deep border border-brand-lime/35"
+                          : "bg-background text-foreground border border-border"
                       }`}
                     >
                       <Check className="size-3.5" />
@@ -317,7 +311,7 @@ export default function StrefaSprzedajacegoPage() {
               {wspolpraca.map((item, index) => (
                 <div
                   key={item}
-                  className="rounded-3xl bg-surface border border-border p-7 hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
+                  className="rounded-[28px] bg-surface border border-border p-7 shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
                 >
                   <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-4 tabular-nums">
                     0{index + 1}
@@ -402,7 +396,7 @@ export default function StrefaSprzedajacegoPage() {
                   {faq.map((item, index) => (
                     <details
                       key={item.q}
-                      className="group rounded-3xl border border-border bg-background p-6 lg:p-7 transition-all hover:border-brand-forest/40 open:border-brand-forest open:shadow-[var(--shadow-card)] open:bg-gradient-to-br open:from-background open:to-brand-lime/[0.06]"
+                      className="group rounded-[28px] border border-border bg-background p-6 lg:p-7 transition-all hover:border-brand-olive/45 open:border-brand-olive/60 open:shadow-[var(--shadow-soft)] open:bg-gradient-to-br open:from-background open:to-brand-lime/[0.06]"
                     >
                       <summary className="flex items-start justify-between gap-6 cursor-pointer list-none">
                         <div className="flex items-start gap-5">
@@ -432,13 +426,13 @@ export default function StrefaSprzedajacegoPage() {
       <Reveal>
         <section className="py-16 lg:py-24">
           <Container size="default">
-            <div className="relative rounded-[40px] bg-surface-dark text-foreground-on-dark p-12 lg:p-20 text-center overflow-hidden">
+            <div className="relative rounded-[40px] bg-surface text-foreground border border-border p-12 lg:p-20 text-center overflow-hidden shadow-[var(--shadow-soft)]">
               <div
                 aria-hidden
-                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.22),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(45,74,31,0.55),transparent_60%)]"
+                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.14),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(45,74,31,0.06),transparent_60%)]"
               />
               <div className="relative">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
                   CTA końcowe
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.75rem)] leading-[1.05] mb-7 max-w-3xl mx-auto">
@@ -453,7 +447,7 @@ export default function StrefaSprzedajacegoPage() {
                       <ArrowRight />
                     </Link>
                   </Button>
-                  <Button asChild variant="outline-dark" size="lg">
+                  <Button asChild variant="outline" size="lg">
                     <a href="tel:+48532843660">
                       <Phone />
                       532 843 660

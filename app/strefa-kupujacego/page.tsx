@@ -204,7 +204,7 @@ export default function StrefaKupujacegoPage() {
                   {rolaAgenta.map((item) => (
                     <div
                       key={item}
-                      className="flex items-start gap-4 p-5 rounded-2xl border border-border bg-background hover:border-brand-forest hover:shadow-[var(--shadow-card)] transition-all"
+                      className="flex items-start gap-4 p-5 rounded-2xl border border-border bg-background/90 shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
                     >
                       <span className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0 mt-0.5">
                         <Check className="size-5" strokeWidth={2.6} />
@@ -244,35 +244,27 @@ export default function StrefaKupujacegoPage() {
             <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
               {wspolpraca.map((step, index) => {
                 const Icon = step.icon;
-                const dark = index === 0 || index === 3 || index === 7;
+                const featured = index === 0 || index === 3 || index === 7;
                 return (
                   <li
                     key={step.title}
-                    className={`rounded-3xl p-6 lg:p-7 border transition-all hover:-translate-y-1 ${
-                      dark
-                        ? "bg-brand-forest-deep text-foreground-on-dark border-brand-forest"
+                    className={`rounded-[28px] p-6 lg:p-7 border shadow-[var(--shadow-soft)] transition-all hover:-translate-y-0.5 ${
+                      featured
+                        ? "bg-brand-lime/[0.10] border-brand-lime/35"
                         : "bg-surface border-border"
                     }`}
                   >
                     <div
                       className={`size-12 rounded-xl flex items-center justify-center mb-5 ${
-                        dark ? "bg-brand-lime text-brand-forest-deep" : "bg-brand-lime/15 text-brand-olive"
+                        featured ? "bg-brand-lime/25 text-brand-forest-deep" : "bg-brand-lime/15 text-brand-olive"
                       }`}
                     >
                       <Icon className="size-5" strokeWidth={2.2} />
                     </div>
-                    <h3
-                      className={`font-bold text-base lg:text-lg leading-tight mb-3 ${
-                        dark ? "text-foreground-on-dark" : "text-foreground"
-                      }`}
-                    >
+                    <h3 className="font-bold text-base lg:text-lg leading-tight mb-3 text-foreground">
                       {step.title}
                     </h3>
-                    <p
-                      className={`text-sm leading-relaxed ${
-                        dark ? "text-foreground-on-dark-muted" : "text-foreground-muted"
-                      }`}
-                    >
+                    <p className="text-sm leading-relaxed text-foreground-muted">
                       {step.text}
                     </p>
                   </li>
@@ -284,24 +276,24 @@ export default function StrefaKupujacegoPage() {
       </Reveal>
 
       <Reveal>
-        <section className="relative py-20 lg:py-28 bg-brand-forest-deep text-foreground-on-dark overflow-hidden">
+        <section className="relative py-20 lg:py-28 bg-surface text-foreground overflow-hidden">
           <div
             aria-hidden
-            className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(163,199,51,0.18),transparent_55%),radial-gradient(ellipse_at_bottom_right,rgba(45,74,31,0.55),transparent_60%)]"
+            className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(163,199,51,0.12),transparent_55%),radial-gradient(ellipse_at_bottom_right,rgba(45,74,31,0.06),transparent_60%)]"
           />
           <Container size="wide" className="relative">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-3">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                   Czego klient często nie widzi?
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] mb-6">
                   Czego klient często nie widzi?
                 </h2>
-                <p className="text-lg text-foreground-on-dark-muted leading-relaxed mb-4">
+                <p className="text-lg text-foreground-muted leading-relaxed mb-4">
                   Zakup nieruchomości to dużo więcej niż oglądanie mieszkań.
                 </p>
-                <p className="text-lg text-foreground-on-dark-muted leading-relaxed">
+                <p className="text-lg text-foreground-muted leading-relaxed">
                   Za kulisami naszej pracy często dzieje się więcej niż podczas samej prezentacji.
                 </p>
               </div>
@@ -311,18 +303,18 @@ export default function StrefaKupujacegoPage() {
                   {zaKulisami.map((item) => (
                     <li
                       key={item}
-                      className="flex items-start gap-3 p-4 rounded-2xl bg-white/[0.04] border border-white/10"
+                      className="flex items-start gap-3 p-4 rounded-2xl bg-background border border-border shadow-[var(--shadow-soft)]"
                     >
-                      <span className="size-6 rounded-full bg-brand-lime/20 text-brand-lime flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="size-6 rounded-full bg-brand-lime/20 text-brand-olive flex items-center justify-center shrink-0 mt-0.5">
                         <Check className="size-3.5" strokeWidth={3} />
                       </span>
-                      <span className="text-foreground-on-dark leading-relaxed text-sm">
+                      <span className="text-foreground leading-relaxed text-sm">
                         {item}
                       </span>
                     </li>
                   ))}
                 </ul>
-                <p className="mt-8 text-lg text-foreground-on-dark-muted leading-relaxed">
+                <p className="mt-8 text-lg text-foreground-muted leading-relaxed">
                   Bo dobra obsługa kupującego zaczyna się tam, gdzie kończy się zwykłe
                   „pokazywanie nieruchomości”.
                 </p>
@@ -351,7 +343,7 @@ export default function StrefaKupujacegoPage() {
               {dlaKogo.map((item) => (
                 <div
                   key={item}
-                  className="flex items-start gap-4 p-6 rounded-3xl bg-surface border border-border hover:border-brand-lime hover:shadow-[var(--shadow-card)] transition-all"
+                  className="flex items-start gap-4 p-6 rounded-[28px] bg-surface border border-border shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
                 >
                   <span className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
                     <Check className="size-5" strokeWidth={2.6} />
@@ -378,7 +370,7 @@ export default function StrefaKupujacegoPage() {
               </h2>
             </div>
 
-            <div className="rounded-[32px] bg-background border border-border p-8 lg:p-12">
+            <div className="rounded-[36px] bg-background border border-border p-8 lg:p-12 shadow-[var(--shadow-soft)]">
               <p className="text-xl font-semibold text-foreground leading-relaxed mb-5">
                 Każda nieruchomość zaczyna się od czyjejś historii.
               </p>
@@ -431,7 +423,7 @@ export default function StrefaKupujacegoPage() {
                   {faq.map((item, index) => (
                     <details
                       key={item.q}
-                      className="group rounded-3xl border border-border bg-background p-6 lg:p-7 transition-all hover:border-brand-forest/40 open:border-brand-forest open:shadow-[var(--shadow-card)] open:bg-gradient-to-br open:from-background open:to-brand-lime/[0.06]"
+                      className="group rounded-[28px] border border-border bg-background p-6 lg:p-7 transition-all hover:border-brand-olive/45 open:border-brand-olive/60 open:shadow-[var(--shadow-soft)] open:bg-gradient-to-br open:from-background open:to-brand-lime/[0.06]"
                     >
                       <summary className="flex items-start justify-between gap-6 cursor-pointer list-none">
                         <div className="flex items-start gap-5">
@@ -461,13 +453,13 @@ export default function StrefaKupujacegoPage() {
       <Reveal>
         <section className="py-16 lg:py-24">
           <Container size="default">
-            <div className="relative rounded-[40px] bg-surface-dark text-foreground-on-dark p-12 lg:p-20 text-center overflow-hidden">
+            <div className="relative rounded-[40px] bg-surface text-foreground border border-border p-12 lg:p-20 text-center overflow-hidden shadow-[var(--shadow-soft)]">
               <div
                 aria-hidden
-                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.22),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(45,74,31,0.55),transparent_60%)]"
+                className="absolute inset-0 bg-[radial-gradient(circle_at_25%_25%,rgba(163,199,51,0.14),transparent_55%),radial-gradient(circle_at_75%_75%,rgba(45,74,31,0.06),transparent_60%)]"
               />
               <div className="relative">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-lime mb-4">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
                   CTA końcowe
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.75rem)] leading-[1.05] mb-7 max-w-3xl mx-auto">
@@ -482,7 +474,7 @@ export default function StrefaKupujacegoPage() {
                       <ArrowRight />
                     </Link>
                   </Button>
-                  <Button asChild variant="outline-dark" size="lg">
+                  <Button asChild variant="outline" size="lg">
                     <a href="tel:+48532843660">
                       <Phone />
                       532 843 660

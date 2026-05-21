@@ -119,38 +119,38 @@ export default async function AgentPage({ params }: { params: Params }) {
       />
 
       {/* HERO */}
-      <section className="relative bg-surface-dark text-foreground-on-dark overflow-hidden">
+      <section className="relative bg-background text-foreground overflow-hidden">
         <div
           aria-hidden
-          className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(163,199,51,0.15),transparent_55%),radial-gradient(circle_at_80%_70%,rgba(45,74,31,0.4),transparent_60%)]"
+          className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.13),transparent_55%),linear-gradient(180deg,rgba(247,248,243,0.96),rgba(255,255,255,0.92)_58%,rgba(247,248,243,0.72))]"
         />
 
-        <Container size="wide" className="relative pt-36 lg:pt-48 pb-12 lg:pb-20">
+        <Container size="wide" className="relative pt-36 lg:pt-48 pb-14 lg:pb-24">
           <Link
             href="/zespol"
-            className="inline-flex items-center gap-2 text-sm text-foreground-on-dark-muted hover:text-brand-lime transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm text-foreground-muted hover:text-brand-forest transition-colors mb-8"
           >
             <ArrowLeft className="size-4" />
             Cały zespół
           </Link>
 
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-            <div className="lg:col-span-7 order-2 lg:order-1 space-y-8">
+            <div className="lg:col-span-7 order-2 lg:order-1 space-y-7">
               <div>
-                <div className="space-y-1 mb-4">
+                <div className="space-y-1 mb-5">
                   {(member.credentialLines ?? [member.shortRole ?? member.role]).map((line) => (
                     <p
                       key={line}
-                      className="text-xs font-semibold uppercase tracking-wider text-brand-lime"
+                      className="text-xs font-semibold uppercase tracking-wider text-brand-olive"
                     >
                       {line}
                     </p>
                   ))}
                 </div>
-                <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05]">
+                <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.05] text-foreground">
                   {member.firstName}
                   <br />
-                  <span className="text-gradient-lime">{member.lastName}</span>
+                  <span className="text-brand-forest">{member.lastName}</span>
                 </h1>
               </div>
 
@@ -163,7 +163,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                     </a>
                   </Button>
                 )}
-                <Button asChild variant="outline-dark" size="lg">
+                <Button asChild variant="outline" size="lg">
                   <Link href={`/konsultacja?agentka=${member.slug}`}>
                     Umów spotkanie
                     <ArrowRight />
@@ -177,13 +177,13 @@ export default async function AgentPage({ params }: { params: Params }) {
               <div className="relative max-w-md lg:max-w-none mx-auto">
                 <div
                   aria-hidden
-                  className="absolute -inset-4 rounded-[40px] bg-brand-lime/10 blur-2xl"
+                  className="absolute -inset-3 rounded-[40px] bg-brand-lime/[0.08]"
                 />
                 <MemberPhoto
                   member={member}
                   sizes="(min-width: 1024px) 40vw, 90vw"
                   priority
-                  className="aspect-[3/4] rounded-[32px] border border-border-on-dark"
+                  className="aspect-[3/4] rounded-[32px] border border-border bg-surface shadow-[var(--shadow-card)]"
                 />
 
               </div>
@@ -237,14 +237,16 @@ export default async function AgentPage({ params }: { params: Params }) {
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
                   O mnie
                 </p>
-                <div className="space-y-5">
+                <div className="space-y-4">
                   {member.bioParagraphs.map((paragraph) => (
-                    <p
+                    <article
                       key={paragraph}
-                      className="text-lg lg:text-xl leading-relaxed text-foreground-muted"
+                      className="rounded-[28px] border border-border bg-background p-6 lg:p-7"
                     >
-                      {paragraph}
-                    </p>
+                      <p className="max-w-[68ch] text-base lg:text-lg leading-8 text-foreground-muted">
+                        {paragraph}
+                      </p>
+                    </article>
                   ))}
                 </div>
 
