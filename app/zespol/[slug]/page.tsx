@@ -96,6 +96,64 @@ function areasFromOffers(offers: Offer[]): Array<{ label: string; count: number 
     .slice(0, 8);
 }
 
+function bioSectionTitle(paragraph: string, index: number): string {
+  const text = paragraph.toLowerCase();
+
+  if (
+    text.startsWith("prywatnie") ||
+    text.includes("wolnych chwilach") ||
+    text.includes("prywatny czas") ||
+    text.includes("kiedy zdejmuję") ||
+    text.includes("żyję z pasją")
+  ) {
+    return "Prywatnie";
+  }
+
+  if (
+    text.includes("pierwsze kroki") ||
+    text.includes("przez lata") ||
+    text.includes("od ponad") ||
+    text.includes("ukończyłam") ||
+    text.includes("doświadczenie pozwoliło")
+  ) {
+    return "Doświadczenie";
+  }
+
+  if (
+    text.includes("specjalizuję") ||
+    text.includes("na co dzień wspieram") ||
+    text.includes("pomagam przejść") ||
+    text.includes("na co dzień pracuję")
+  ) {
+    return "Zakres wsparcia";
+  }
+
+  if (
+    text.includes("filozofia pracy") ||
+    text.includes("ambasadorami") ||
+    text.includes("każdą współpracę") ||
+    text.includes("stawiam") ||
+    text.includes("w pracy łączę") ||
+    text.includes("w moim odczuciu")
+  ) {
+    return "Podejście";
+  }
+
+  if (
+    text.includes("relacje") ||
+    text.includes("zaufania")
+  ) {
+    return "Relacje";
+  }
+
+  if (text.includes("trójmiasto") || text.includes("gdyn") || text.includes("gdańsk")) {
+    return "Lokalnie";
+  }
+
+  const fallback = ["Doświadczenie", "Podejście", "Zakres wsparcia", "Relacje"];
+  return fallback[index % fallback.length];
+}
+
 export default async function AgentPage({ params }: { params: Params }) {
   const { slug } = await params;
   const member = getMemberBySlug(slug);
@@ -252,11 +310,14 @@ export default async function AgentPage({ params }: { params: Params }) {
 
                 {bioRest.length > 0 && (
                   <div className="mt-8 grid md:grid-cols-2 gap-4 lg:gap-5">
-                    {bioRest.map((paragraph) => (
+                    {bioRest.map((paragraph, index) => (
                       <div
                         key={paragraph}
-                        className="rounded-[28px] border border-border bg-surface p-6 lg:p-7"
+                        className="rounded-[28px] border border-border bg-surface p-6 lg:p-7 shadow-[var(--shadow-soft)]"
                       >
+                        <p className="mb-4 text-[11px] font-semibold uppercase tracking-wider text-brand-olive">
+                          {bioSectionTitle(paragraph, index)}
+                        </p>
                         <p className="text-base leading-8 text-foreground-muted">
                           {paragraph}
                         </p>
