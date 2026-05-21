@@ -105,6 +105,7 @@ export default async function AgentPage({ params }: { params: Params }) {
   const specializations = specializationFromOffers(offers);
   const areas = areasFromOffers(offers);
   const others = team.filter((m) => m.slug !== member.slug).slice(0, 4);
+  const [bioLead, ...bioRest] = member.bioParagraphs;
 
   return (
     <>
@@ -228,133 +229,134 @@ export default async function AgentPage({ params }: { params: Params }) {
         </Reveal>
       )}
 
-      {/* O MNIE + KONTAKT SIDEBAR */}
+      {/* O MNIE + KONTAKT */}
       <Reveal>
         <section className="py-16 lg:py-20 bg-surface">
-          <Container size="default">
-            <div className="grid lg:grid-cols-12 gap-10 lg:gap-16">
-              <div className="lg:col-span-7">
-                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
+          <Container size="wide">
+            <div className="grid lg:grid-cols-[minmax(0,1fr)_360px] gap-5 lg:gap-6 items-start">
+              <article className="rounded-[36px] border border-border bg-background p-7 lg:p-10 shadow-[var(--shadow-soft)]">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-5">
                   O mnie
                 </p>
-                <div className="space-y-4">
-                  {member.bioParagraphs.map((paragraph) => (
-                    <article
-                      key={paragraph}
-                      className="rounded-[28px] border border-border bg-background p-6 lg:p-7"
-                    >
-                      <p className="max-w-[68ch] text-base lg:text-lg leading-8 text-foreground-muted">
-                        {paragraph}
-                      </p>
-                    </article>
-                  ))}
-                </div>
 
-                {member.languages && member.languages.length > 0 && (
-                  <div className="mt-10">
-                    <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                      <Languages className="size-3.5" />
-                      Języki obsługi
-                    </h2>
-                    <ul className="flex flex-wrap gap-2">
-                      {member.languages.map((l) => (
-                        <li
-                          key={l}
-                          className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
-                        >
-                          {l}
-                        </li>
-                      ))}
-                    </ul>
+                {bioLead && (
+                  <p className="max-w-5xl text-lg lg:text-xl leading-8 lg:leading-9 text-foreground">
+                    {bioLead}
+                  </p>
+                )}
+
+                {bioRest.length > 0 && (
+                  <div className="mt-8 grid md:grid-cols-2 gap-4 lg:gap-5">
+                    {bioRest.map((paragraph) => (
+                      <div
+                        key={paragraph}
+                        className="rounded-[28px] border border-border bg-surface p-6 lg:p-7"
+                      >
+                        <p className="text-base leading-8 text-foreground-muted">
+                          {paragraph}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 )}
 
-                {member.specializations && member.specializations.length > 0 && (
-                  <div className="mt-8">
-                    <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                      <Award className="size-3.5" />
-                      Doświadczenie
-                    </h2>
-                    <ul className="flex flex-wrap gap-2">
-                      {member.specializations.map((s) => (
-                        <li
-                          key={s}
-                          className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
-                        >
-                          {s}
-                        </li>
-                      ))}
-                    </ul>
+                {(member.languages?.length || member.specializations?.length) && (
+                  <div className="mt-8 grid md:grid-cols-2 gap-5">
+                    {member.languages && member.languages.length > 0 && (
+                      <div className="rounded-[28px] border border-border bg-surface p-6">
+                        <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
+                          <Languages className="size-3.5" />
+                          Języki obsługi
+                        </h2>
+                        <ul className="flex flex-wrap gap-2">
+                          {member.languages.map((l) => (
+                            <li
+                              key={l}
+                              className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
+                            >
+                              {l}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {member.specializations && member.specializations.length > 0 && (
+                      <div className="rounded-[28px] border border-border bg-surface p-6">
+                        <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-brand-olive mb-4">
+                          <Award className="size-3.5" />
+                          Doświadczenie
+                        </h2>
+                        <ul className="flex flex-wrap gap-2">
+                          {member.specializations.map((s) => (
+                            <li
+                              key={s}
+                              className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
+                            >
+                              {s}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
                 )}
-              </div>
+              </article>
 
-              <aside className="lg:col-span-5">
-                <div className="sticky top-24 rounded-3xl bg-background border border-border p-8">
-                  <h2 className="font-semibold text-lg text-foreground mb-6">
+              <aside className="grid sm:grid-cols-2 lg:grid-cols-1 gap-4">
+                <div className="rounded-[28px] bg-brand-lime/[0.14] border border-brand-lime/35 p-6 lg:p-7">
+                  <h2 className="font-semibold text-lg text-foreground mb-5">
                     Skontaktuj się bezpośrednio
                   </h2>
-                  <dl className="space-y-5">
-                    {member.phone && (
-                      <div className="flex items-start gap-4">
-                        <span className="size-10 rounded-full bg-brand-lime/15 flex items-center justify-center shrink-0">
-                          <Phone className="size-4 text-brand-olive" />
-                        </span>
-                        <div>
-                          <dt className="text-xs text-foreground-muted">Telefon</dt>
-                          <dd>
-                            <a
-                              href={`tel:${member.phone.replace(/\s/g, "")}`}
-                              className="text-foreground font-medium hover:text-brand-forest transition-colors tabular-nums"
-                            >
-                              {member.phoneDisplay ?? member.phone}
-                            </a>
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    {member.email && (
-                      <div className="flex items-start gap-4">
-                        <span className="size-10 rounded-full bg-brand-lime/15 flex items-center justify-center shrink-0">
-                          <Mail className="size-4 text-brand-olive" />
-                        </span>
-                        <div>
-                          <dt className="text-xs text-foreground-muted">E-mail</dt>
-                          <dd>
-                            <a
-                              href={`mailto:${member.email}`}
-                              className="text-foreground font-medium hover:text-brand-forest transition-colors"
-                            >
-                              {member.email}
-                            </a>
-                          </dd>
-                        </div>
-                      </div>
-                    )}
-                    <div className="flex items-start gap-4">
-                      <span className="size-10 rounded-full bg-brand-lime/15 flex items-center justify-center shrink-0">
-                        <MapPin className="size-4 text-brand-olive" />
-                      </span>
-                      <div>
-                        <dt className="text-xs text-foreground-muted">Biuro</dt>
-                        <dd className="text-foreground font-medium">
-                          {siteConfig.address.street}
-                          <br />
-                          <span className="text-foreground-muted">
-                            {siteConfig.address.postalCode} {siteConfig.address.city}
-                          </span>
-                        </dd>
-                      </div>
+                  {member.phone && (
+                    <div>
+                      <p className="text-xs text-foreground-muted mb-1">Telefon</p>
+                      <a
+                        href={`tel:${member.phone.replace(/\s/g, "")}`}
+                        className="inline-flex items-center gap-3 text-2xl font-bold text-brand-forest hover:text-brand-forest-deep transition-colors tabular-nums"
+                      >
+                        <Phone className="size-5" />
+                        {member.phoneDisplay ?? member.phone}
+                      </a>
                     </div>
-                  </dl>
-
-                  <Button asChild variant="lime" size="lg" className="w-full mt-8">
-                    <Link href={`/konsultacja?agentka=${member.slug}`}>
-                      Napisz w formularzu
-                      <ArrowRight />
-                    </Link>
-                  </Button>
+                  )}
                 </div>
+
+                {member.email && (
+                  <div className="rounded-[28px] border border-border bg-background p-6 lg:p-7 shadow-[var(--shadow-soft)]">
+                    <div className="size-10 rounded-full bg-brand-lime/15 flex items-center justify-center mb-4">
+                      <Mail className="size-4 text-brand-olive" />
+                    </div>
+                    <p className="text-xs text-foreground-muted mb-1">E-mail</p>
+                    <a
+                      href={`mailto:${member.email}`}
+                      className="text-foreground font-medium hover:text-brand-forest transition-colors break-words"
+                    >
+                      {member.email}
+                    </a>
+                  </div>
+                )}
+
+                <div className="rounded-[28px] border border-border bg-background p-6 lg:p-7 shadow-[var(--shadow-soft)]">
+                  <div className="size-10 rounded-full bg-brand-lime/15 flex items-center justify-center mb-4">
+                    <MapPin className="size-4 text-brand-olive" />
+                  </div>
+                  <p className="text-xs text-foreground-muted mb-1">Biuro</p>
+                  <p className="text-foreground font-medium">
+                    {siteConfig.address.street}
+                    <br />
+                    <span className="text-foreground-muted">
+                      {siteConfig.address.postalCode} {siteConfig.address.city}
+                    </span>
+                  </p>
+                </div>
+
+                <Button asChild variant="lime" size="lg" className="w-full sm:col-span-2 lg:col-span-1">
+                  <Link href={`/konsultacja?agentka=${member.slug}`}>
+                    Napisz w formularzu
+                    <ArrowRight />
+                  </Link>
+                </Button>
               </aside>
             </div>
           </Container>
