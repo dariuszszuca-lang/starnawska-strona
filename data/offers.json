@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-21T05:40:12.821Z",
+  "lastSync": "2026-05-22T05:55:58.802Z",
   "offers": [
     {
       "id": "334533",
@@ -571,20 +571,6 @@
       "url": "https://starnawska.pl/oferty/10543214",
       "createdAt": "2025-04-23 15:06:11",
       "updatedAt": "2025-12-31 04:40:08"
-    },
-    {
-      "id": "10704191",
-      "offerNumber": "",
-      "transaction": "sprzedaz",
-      "type": "inne",
-      "title": "Nieruchomość, Trójmiasto",
-      "price": 0,
-      "area": 0,
-      "city": "Trójmiasto",
-      "images": [],
-      "url": "https://starnawska.pl/oferty/10704191",
-      "createdAt": "2026-05-21T05:40:12.817Z",
-      "updatedAt": "2026-05-21T05:40:12.817Z"
     },
     {
       "id": "10877450",
@@ -1551,20 +1537,6 @@
       "updatedAt": "2026-05-13 04:20:09"
     },
     {
-      "id": "11567570",
-      "offerNumber": "",
-      "transaction": "sprzedaz",
-      "type": "inne",
-      "title": "Nieruchomość, Trójmiasto",
-      "price": 0,
-      "area": 0,
-      "city": "Trójmiasto",
-      "images": [],
-      "url": "https://starnawska.pl/oferty/11567570",
-      "createdAt": "2026-05-20T06:24:25.596Z",
-      "updatedAt": "2026-05-20T06:24:25.596Z"
-    },
-    {
       "id": "11599184",
       "offerNumber": "ST527628",
       "transaction": "najem",
@@ -2372,20 +2344,6 @@
       "updatedAt": "2026-05-12 20:00:41"
     },
     {
-      "id": "11933498",
-      "offerNumber": "",
-      "transaction": "sprzedaz",
-      "type": "inne",
-      "title": "Nieruchomość, Trójmiasto",
-      "price": 0,
-      "area": 0,
-      "city": "Trójmiasto",
-      "images": [],
-      "url": "https://starnawska.pl/oferty/11933498",
-      "createdAt": "2026-05-21T05:40:12.817Z",
-      "updatedAt": "2026-05-21T05:40:12.817Z"
-    },
-    {
       "id": "11945126",
       "offerNumber": "ST256810",
       "transaction": "sprzedaz",
@@ -2434,9 +2392,9 @@
       "title": "Trzy pokoje, parter i duży ogródek",
       "description": "Mieszkanie na parterze w bardzo dobrej, spokojnej lokalizacji  Rumi Janowa .\nNieruchomość  59,61 m2 składa się z 3 oddzielnych pokoi, oddzielnej kuchni,  łazienki, wc i wygodnego przedpokoju.\nMieszkanie bardzo zadbane (blok z lat 80tych), odświeżane na bieżąco (panele, kuchnia itp.) do wprowadzenia lub własnej aranżacji, remontu.\nKierunki:  wschód (sypialnie) - zachód (salon i kuchnia).\nDo mieszkania przynależy duży ogródek oraz piwnica (3,51m1).\nPod blokiem bardzo dużo miejsc parkingowych ogólnie dostępnych.\nW koło mnóstwo terenów zielonych, place zabaw. \nKomunikacja autobusowa, w tym  idealne połącznie m.in. bezpośrednio z Wejherowem - autobus nr „J” , z Gdynią -„R” oraz z przystankiem SKM - Rumia Janowo.\nW pobliżu liczne przedszkola, żłobki, szkoła podstawowa i liceum. Na przeciwko mini centrum handlowe, a w nim m.in. LIDL, Rossmann, Pepco, piekarnia, a kilka minut dalej znajduje się Biedronka.\nIdealne mieszkanie dla rodziny z małym dzieckiem, czy starszych osób. Idealne dla Ciebie!\nAtuty nieruchomości:\n\nParter i ogródek.\nLokalizacja, w tym komunikacja i pełna infrastruktura\nSpokój i mnóstwo zieleni.\nTrzy niezależne pokoje i  niezależna kuchnia.\nMożliwości aranżacyjne.\n\nPOLECAMY!",
       "price": 589000,
-      "pricePerSqm": 9331.43,
+      "pricePerSqm": 9880.89,
       "rent": 900,
-      "area": 63.12,
+      "area": 59.61,
       "rooms": 3,
       "floor": 0,
       "totalFloors": 4,
@@ -2522,7 +2480,7 @@
       },
       "url": "https://starnawska.pl/oferty/11995904",
       "createdAt": "2026-05-19 20:24:01",
-      "updatedAt": "2026-05-20 20:12:47"
+      "updatedAt": "2026-05-21 15:06:45"
     }
   ]
 }
