@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-23T06:15:25.658Z",
+  "lastSync": "2026-05-24T05:48:53.958Z",
   "offers": [
     {
       "id": "334533",
@@ -2482,6 +2482,104 @@
       "url": "https://starnawska.pl/oferty/11995904",
       "createdAt": "2026-05-19 20:24:01",
       "updatedAt": "2026-05-21 15:06:45"
+    },
+    {
+      "id": "6304710",
+      "offerNumber": "ST855122",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Mieszkanie z MP w hali na nowoczesnym osiedlu",
+      "description": "Nowoczesne, jasne mieszkanie składające się z salonu z aneksem kuchennym, sypialni i łazienki. Budynek będący częścią osiedla Zajezdnia Wrzeszcz. Mieszkanie wykończone 3 lata temu. W pełni wyposażone, dobrej jakości wykończenie i naturalna kolorystyka sprawi, że każdy poczuje się w tym wnętrzu jak w domu.\n\n Na osiedlu znajduje się bezpłatna sala fitness dla mieszkańców, punkty usługowe i handlowe, plac zabaw. Osiedle jest bardzo dobrze skomunikowane - w pobliżu linia tramwajowa i autobusy. Bliskość terenów rekreacyjnych - parków, plaży, nadmorskiej trasy rowerowej. W odległości 10 min. autem (15 min rowerem) od kompleksu Olivia Business Center.\n\nMP w hali garażowej dodatkowo 250 zł.\nNajem okazjonalny od 20 czerwca",
+      "price": 3050,
+      "pricePerSqm": 77.79,
+      "rent": 650,
+      "area": 39.21,
+      "rooms": 2,
+      "floor": 2,
+      "totalFloors": 7,
+      "yearBuilt": 2020,
+      "state": "do wprowadzenia",
+      "city": "Gdańsk",
+      "district": "Wrzeszcz",
+      "street": "ul. Grudziądzka",
+      "lat": 54.39436,
+      "lng": 18.61887,
+      "images": [
+        {
+          "url": "/oferty/46106166.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/46106031.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46106142.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46106178.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46106202.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46106244.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108146.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108269.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108272.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108275.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108278.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108281.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108149.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108152.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/46108155.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Winda",
+        "Siłownia"
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/6304710",
+      "createdAt": "2022-08-20 00:23:00",
+      "updatedAt": "2026-05-23 09:47:34"
     }
   ]
 }
