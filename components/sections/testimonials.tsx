@@ -45,7 +45,7 @@ export function Testimonials() {
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-end mb-12">
           <div className="lg:col-span-7">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-              Opinie klientów
+              Klient naszym ambasadorem
             </p>
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
               Co mówią klienci,

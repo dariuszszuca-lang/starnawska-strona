@@ -115,7 +115,7 @@ export function CaseStudies() {
         <div className="flex flex-wrap items-end justify-between gap-6 mb-12 lg:mb-16">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-              Realizacje
+              Klient naszym ambasadorem
             </p>
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
               3 mieszkania. 3 historie.
