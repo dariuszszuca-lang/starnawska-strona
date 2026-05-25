@@ -110,14 +110,9 @@ export function Hero() {
               className="size-7 lg:size-8 text-brand-lime shrink-0 mt-1"
               strokeWidth={1.6}
             />
-            <div>
-              <p className="font-bold tracking-tight text-[clamp(1.25rem,2.4vw,1.875rem)] leading-[1.2] text-foreground">
-                Ambasadorami naszej marki są nasi klienci.
-              </p>
-              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-brand-olive">
-                Klient naszym ambasadorem
-              </p>
-            </div>
+            <p className="font-bold tracking-tight text-[clamp(1.25rem,2.4vw,1.875rem)] leading-[1.2] text-foreground">
+              Ambasadorami naszej marki są nasi klienci.
+            </p>
           </div>
         </motion.div>
 
