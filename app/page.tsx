@@ -19,7 +19,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Biuro nieruchomości w Gdyni Orłowo — Trójmiasto i okolice od 2011",
   description:
-    "Lokalne biuro nieruchomości w Gdyni Orłowie. Sprzedaż, wynajem, kredyty hipoteczne. Trójmiasto i okolice — Gdynia, Sopot, Gdańsk, Rumia, Reda, Wejherowo.",
+    "Lokalne biuro nieruchomości w Gdyni Orłowie. Sprzedaż, wynajem, kredyty hipoteczne. Trójmiasto i okolice.",
 };
 
 export default function HomePage() {

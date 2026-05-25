@@ -44,7 +44,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
           className="mt-5 max-w-2xl text-lg lg:text-xl text-foreground-muted leading-relaxed"
         >
-          Sprzedaż, kupno i wynajem mieszkań, domów i działek w Gdyni, Sopocie, Gdańsku, Rumi, Redzie i Wejherowie. Wybierz, w czym możemy Ci pomóc.
+          Sprzedaż, kupno i wynajem mieszkań, domów i działek. Trójmiasto i okolice. Wybierz, w czym możemy Ci pomóc.
         </motion.p>
 
         <motion.div

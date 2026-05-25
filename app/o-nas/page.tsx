@@ -37,7 +37,7 @@ const values = [
 const timeline = [
   { year: "2011", title: "Początek", body: "Patrycja i Jolanta otwierają biuro w Gdyni." },
   { year: "2015", title: "Pierwsze 500 transakcji", body: "Marka rozpoznawalna w Trójmieście." },
-  { year: "2019", title: "Rozszerzamy obszar", body: "Stała współpraca z klientami z Rumi, Redy i Wejherowa." },
+  { year: "2019", title: "Rozszerzamy obszar", body: "Stała współpraca z klientami z okolic Trójmiasta." },
   { year: "2022", title: "Zespół 8+ osób", body: "Sprzedaż, kupno, wynajem, najem, kredyty hipoteczne." },
   {
     year: `${new Date().getFullYear()}`,

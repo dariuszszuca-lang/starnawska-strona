@@ -39,7 +39,7 @@ const faqs: FAQItem[] = [
   {
     cat: "Ogólne",
     q: "W jakich miastach pracujecie?",
-    a: "Trójmiasto i okolice: Gdynia, Sopot, Gdańsk, plus gmina Kosakowo, Reda, Rumia. Sporadycznie obsługujemy klientów z Pomorza spoza Trójmiasta, jeśli wcześniej mieliśmy z nimi relację.",
+    a: "Trójmiasto i okolice. Sporadycznie obsługujemy klientów spoza tego obszaru, jeśli wcześniej mieliśmy z nimi relację.",
   },
   {
     cat: "Kredyt",

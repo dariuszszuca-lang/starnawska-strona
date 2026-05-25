@@ -8,7 +8,7 @@ export const siteConfig = {
   shortName: "Starnawska & Boleńska",
   tagline: "Twoje potrzeby naszym priorytetem",
   description:
-    "Biuro nieruchomości w Gdyni Orłowie od 2011 roku. Sprzedaż, wynajem, kredyty hipoteczne. Trójmiasto i okolice — Gdynia, Sopot, Gdańsk, Rumia, Reda, Wejherowo.",
+    "Biuro nieruchomości w Gdyni Orłowie od 2011 roku. Sprzedaż, wynajem, kredyty hipoteczne. Trójmiasto i okolice.",
   url: "https://starnawska.pl",
   ogImage: "/og.jpg",
 
