@@ -32,8 +32,6 @@ const services = [
     body: "Bierzemy całą sprzedaż na siebie. Wyceniamy, robimy sesję, publikujemy, prowadzimy pokazy, negocjujemy i kompletujemy dokumenty. Ty podpisujesz tylko umowę i odbierasz pieniądze.",
     points: [
       "Wycena rynkowa po wizji lokalnej",
-      "Sesja zdjęciowa i plan piętra 2D",
-      "Publikacja w 30+ portalach i naszej bazie",
       "Aktywne dotarcie do kupujących z naszego CRM",
       "Pokazy i raport ze spotkań",
       "Negocjacje i obsługa dokumentów do aktu notarialnego",
