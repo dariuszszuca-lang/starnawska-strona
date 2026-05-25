@@ -280,56 +280,6 @@ export default async function AgentPage({ params }: { params: Params }) {
         </Container>
       </section>
 
-      {/* SPECJALIZACJE */}
-      {specializations.length > 0 && (
-        <Reveal>
-          <section className="py-10 lg:py-14">
-            <Container size="wide">
-              <div className="flex flex-wrap items-end justify-between gap-5 mb-7">
-                <div className="max-w-2xl">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-3">
-                    Czym się zajmuję
-                  </p>
-                  <h2 className="font-bold tracking-tight text-[clamp(1.75rem,3vw,2.35rem)] leading-[1.1] text-foreground">
-                    Z czym mogę Ci pomóc.
-                  </h2>
-                </div>
-              </div>
-
-              <div className="rounded-[32px] border border-border bg-background shadow-[var(--shadow-soft)] p-7 lg:p-10">
-                <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-brand-olive mb-5">
-                  <Briefcase className="size-3.5" />
-                  Specjalizacja
-                </div>
-                <ul className="grid sm:grid-cols-2 gap-2.5 lg:gap-3">
-                  {specializations.map((s) => {
-                    const Icon = typeIcon[s.type];
-                    return (
-                      <li
-                        key={s.type}
-                        className="group flex items-center gap-4 rounded-2xl border border-border bg-surface px-4 py-3.5 lg:px-5 lg:py-4 hover:border-brand-lime/40 hover:bg-brand-lime/[0.04] transition-colors"
-                      >
-                        <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
-                          <Icon className="size-5" />
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <p className="font-bold text-[15px] lg:text-base text-foreground leading-tight">
-                            {typeNamePlural[s.type]}
-                          </p>
-                        </div>
-                        <span className="text-[11px] font-semibold uppercase tracking-wider text-brand-olive tabular-nums shrink-0">
-                          {s.count} {s.count === 1 ? "oferta" : s.count < 5 ? "oferty" : "ofert"}
-                        </span>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            </Container>
-          </section>
-        </Reveal>
-      )}
-
       {/* O MNIE + KONTAKT */}
       <Reveal>
         <section className="py-12 lg:py-16 bg-surface">
@@ -401,48 +351,23 @@ export default async function AgentPage({ params }: { params: Params }) {
                   </div>
                 )}
 
-                {/* JEZYKI + SPECJALIZACJE */}
-                {(member.languages?.length || member.specializations?.length) && (
+                {/* JEZYKI */}
+                {member.languages && member.languages.length > 0 && (
                   <div className="border-t border-border bg-surface px-7 lg:px-12 py-9 lg:py-11">
-                    <div className="grid md:grid-cols-2 gap-5">
-                      {member.languages && member.languages.length > 0 && (
-                        <div>
-                          <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive mb-4">
-                            <Languages className="size-3.5" />
-                            Języki obsługi
-                          </h2>
-                          <ul className="flex flex-wrap gap-2">
-                            {member.languages.map((l) => (
-                              <li
-                                key={l}
-                                className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
-                              >
-                                {l}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-
-                      {member.specializations && member.specializations.length > 0 && (
-                        <div>
-                          <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive mb-4">
-                            <Award className="size-3.5" />
-                            Doświadczenie
-                          </h2>
-                          <ul className="flex flex-wrap gap-2">
-                            {member.specializations.map((s) => (
-                              <li
-                                key={s}
-                                className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
-                              >
-                                {s}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-                    </div>
+                    <h2 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-olive mb-4">
+                      <Languages className="size-3.5" />
+                      Języki obsługi
+                    </h2>
+                    <ul className="flex flex-wrap gap-2">
+                      {member.languages.map((l) => (
+                        <li
+                          key={l}
+                          className="inline-flex items-center px-4 py-1.5 rounded-full bg-background text-sm text-foreground border border-border"
+                        >
+                          {l}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 )}
               </article>
@@ -499,14 +424,14 @@ export default async function AgentPage({ params }: { params: Params }) {
                   </div>
                 )}
 
-                {/* Godziny */}
+                {/* Kontakt */}
                 <div className="px-6 py-5 border-b border-border">
                   <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-olive mb-2">
                     <Clock className="size-3.5" />
-                    Godziny pracy
+                    Kontakt
                   </div>
                   <p className="text-foreground font-medium text-[15px]">
-                    {siteConfig.contact.hours}
+                    Zadzwoń lub wyślij SMS
                   </p>
                 </div>
 

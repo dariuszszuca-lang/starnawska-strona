@@ -6,16 +6,18 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   Home,
   KeyRound,
-  Calculator,
-  Sparkles,
+  Search,
   ArrowRight,
-  Check,
   Clock,
   Camera,
   TrendingUp,
   Building,
   ShieldCheck,
   Wallet,
+  FileSignature,
+  Handshake,
+  MapPin,
+  CheckCircle,
 } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
@@ -30,72 +32,77 @@ type Service = {
   steps: { icon: React.ComponentType<{ className?: string }>; label: string }[];
   stat: { value: string; label: string };
   cta: string;
+  href: string;
 };
 
 const services: Service[] = [
   {
     id: "sprzedaz",
     icon: Home,
-    title: "Sprzedaż nieruchomości",
+    title: "Sprzedaż",
     tagline: "Od pierwszej rozmowy do aktu notarialnego.",
     description:
-      "Bierzemy całą sprzedaż na siebie: wycenę, przygotowanie oferty, sesję, promocję, pokazy i obsługę dokumentów. Ty podpisujesz tylko umowę.",
+      "Bierzemy całą sprzedaż na siebie. Wyceniamy, robimy sesję, publikujemy, prowadzimy pokazy, kompletujemy dokumenty. Ty podpisujesz tylko umowę.",
     steps: [
       { icon: TrendingUp, label: "Wycena rynkowa po wizji lokalnej" },
-      { icon: Camera, label: "Profesjonalna sesja zdjęciowa i plan 2D" },
-      { icon: Building, label: "Publikacja w 30+ portalach + nasza baza" },
-      { icon: ShieldCheck, label: "Obsługa dokumentów do aktu notarialnego" },
+      { icon: Camera, label: "Sesja zdjęciowa i plan 2D" },
+      { icon: Building, label: "Publikacja w 30+ portalach i naszej bazie" },
+      { icon: FileSignature, label: "Dokumenty do aktu notarialnego" },
     ],
     stat: { value: "6 tyg.", label: "średni czas sprzedaży" },
     cta: "Sprzedaj z nami",
+    href: "/strefa-sprzedajacego",
+  },
+  {
+    id: "kupno",
+    icon: Search,
+    title: "Kupno",
+    tagline: "Reprezentujemy Twój interes, nie sprzedającego.",
+    description:
+      "Znajdujemy nieruchomości, w tym te, których nie ma na portalach. Sprawdzamy stan prawny, negocjujemy cenę, prowadzimy Cię do odbioru kluczy.",
+    steps: [
+      { icon: Handshake, label: "Rozmowa o budżecie i preferencjach" },
+      { icon: MapPin, label: "Dobór ofert. Też off-market." },
+      { icon: CheckCircle, label: "Oględziny z naszą oceną stanu" },
+      { icon: FileSignature, label: "Negocjacje, due diligence, dokumenty" },
+    ],
+    stat: { value: "73", label: "dzielnice, które znamy z bliska" },
+    cta: "Kupuj z nami",
+    href: "/strefa-kupujacego",
   },
   {
     id: "wynajem",
     icon: KeyRound,
-    title: "Wynajem długoterminowy",
-    tagline: "Dla właścicieli i poszukujących.",
+    title: "Wynajem",
+    tagline: "Znajdź mieszkanie do wynajęcia w Trójmieście.",
     description:
-      "Dla właścicieli: znajdujemy najemcę, weryfikujemy, prowadzimy umowę. Dla najemców: pokazujemy oferty dopasowane do budżetu i preferencji.",
+      "Pokazujemy oferty z naszej bazy i z rynku. Sprawdzamy stan techniczny i umowę. Pomagamy negocjować warunki, żebyś nie wpadł na trudnego właściciela.",
     steps: [
+      { icon: Handshake, label: "Rozmowa o budżecie i potrzebach" },
+      { icon: MapPin, label: "Oferty dopasowane do lokalizacji" },
+      { icon: Home, label: "Oględziny z oceną stanu" },
+      { icon: ShieldCheck, label: "Sprawdzenie umowy najmu" },
+    ],
+    stat: { value: "10 dni", label: "średnio do wprowadzki" },
+    cta: "Znajdź mieszkanie",
+    href: "/strefa-kupujacego",
+  },
+  {
+    id: "najem",
+    icon: Building,
+    title: "Najem",
+    tagline: "Wynajmij swoje mieszkanie bez zmartwień.",
+    description:
+      "Znajdujemy najemcę, weryfikujemy go, podpisujemy umowę najmu okazjonalnego. Robimy protokół zdawczo-odbiorczy ze zdjęciami. Mieszkanie jest pod kontrolą.",
+    steps: [
+      { icon: TrendingUp, label: "Wycena stawki najmu na rynku" },
       { icon: ShieldCheck, label: "Weryfikacja najemcy (zaświadczenia, referencje)" },
-      { icon: Home, label: "Umowa najmu okazjonalnego/instytucjonalnego" },
+      { icon: FileSignature, label: "Umowa okazjonalna lub instytucjonalna" },
       { icon: Camera, label: "Protokół zdawczo-odbiorczy ze zdjęciami" },
-      { icon: Wallet, label: "Pomoc przy rozliczeniach administracji" },
     ],
-    stat: { value: "10 dni", label: "średnio do znalezienia najemcy" },
-    cta: "Porozmawiajmy o najmie",
-  },
-  {
-    id: "kredyt",
-    icon: Calculator,
-    title: "Doradztwo kredytowe",
-    tagline: "Sprawdź swoją zdolność kredytową.",
-    description:
-      "Współpracujemy z niezależnymi pośrednikami kredytowymi. Liczymy zdolność, porównujemy oferty kilku banków i doprowadzamy do decyzji kredytowej.",
-    steps: [
-      { icon: TrendingUp, label: "Bezpłatna analiza zdolności kredytowej" },
-      { icon: Wallet, label: "Porównanie ofert z 5-8 banków" },
-      { icon: ShieldCheck, label: "Programy rządowe (Bezpieczny Kredyt 2%, BK#)" },
-      { icon: Building, label: "Pomoc w skompletowaniu dokumentów" },
-    ],
-    stat: { value: "5-8", label: "banków porównujemy w 24h" },
-    cta: "Sprawdź zdolność",
-  },
-  {
-    id: "staging",
-    icon: Sparkles,
-    title: "Home staging i sesja zdjęciowa",
-    tagline: "Pierwsze cztery sekundy decydują.",
-    description:
-      "Profesjonalne zdjęcia szerokokątne, plan 2D, lekka aranżacja wnętrza. Oferta przygotowana w ten sposób uzyskuje średnio 60-120% więcej zapytań w pierwszym tygodniu publikacji.",
-    steps: [
-      { icon: Camera, label: "Sesja szerokokątna 12-20 ujęć" },
-      { icon: Building, label: "Plan piętra 2D w formacie PNG/PDF" },
-      { icon: Sparkles, label: "Wirtualne meblowanie pustych pomieszczeń" },
-      { icon: Home, label: "Doradztwo: co posprzątać przed sesją" },
-    ],
-    stat: { value: "+120%", label: "wzrost zainteresowania ofertą" },
-    cta: "Zobacz przykłady",
+    stat: { value: "10 dni", label: "średnio do podpisania umowy" },
+    cta: "Wynajmijmy razem",
+    href: "/strefa-sprzedajacego",
   },
 ];
 
@@ -109,16 +116,13 @@ export function Services() {
       <Container size="wide">
         <div className="max-w-3xl mb-12 lg:mb-16">
           <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-            Z czym do nas przychodzą
+            Nasze 4 filary
           </p>
           <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
-            Cztery sprawy, w których
-            <br />
-            robimy największą różnicę.
+            Sprzedaż, kupno, wynajem, najem.
           </h2>
           <p className="mt-5 text-lg text-foreground-muted leading-relaxed max-w-xl">
-            Wybierz tę, która pasuje do Twojej sytuacji. Albo zadzwoń, jeśli sprawa
-            jest bardziej skomplikowana. Łączymy te obszary, kiedy trzeba.
+            Wybierz, w czym możemy Ci pomóc. Albo zadzwoń, jeśli sprawa jest bardziej skomplikowana. Często łączymy te obszary.
           </p>
         </div>
 
@@ -267,7 +271,7 @@ export function Services() {
                       </div>
                     </div>
                     <Button asChild variant="lime" size="md">
-                      <Link href={`/doradztwo#${current.id}`}>
+                      <Link href={current.href}>
                         {current.cta}
                         <ArrowRight />
                       </Link>

@@ -7,7 +7,7 @@ import { ValueBento } from "@/components/sections/value-bento";
 import { Services } from "@/components/sections/services";
 import { OffMarket } from "@/components/sections/off-market";
 import { CaseStudies } from "@/components/sections/case-studies";
-import { Portals } from "@/components/sections/portals";
+import { Motto } from "@/components/sections/motto";
 import { TeamPreview } from "@/components/sections/team-preview";
 import { Testimonials } from "@/components/sections/testimonials";
 import { FAQ } from "@/components/sections/faq";
@@ -17,9 +17,9 @@ import { Reveal } from "@/components/motion/reveal";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Biuro nieruchomości w Gdyni od 2011 — Sprzedaż, wynajem, doradztwo",
+  title: "Biuro nieruchomości w Gdyni Orłowo — Trójmiasto i okolice od 2011",
   description:
-    "Lokalne biuro nieruchomości w Gdyni: 7 doświadczonych agentek, kompleksowa sprzedaż, wynajem długoterminowy, doradztwo kredytowe i home staging. Trójmiasto.",
+    "Lokalne biuro nieruchomości w Gdyni Orłowie. Sprzedaż, wynajem, kredyty hipoteczne. Trójmiasto i okolice — Gdynia, Sopot, Gdańsk, Rumia, Reda, Wejherowo.",
 };
 
 export default function HomePage() {
@@ -48,7 +48,7 @@ export default function HomePage() {
         <CaseStudies />
       </Reveal>
       <Reveal>
-        <Portals />
+        <Motto />
       </Reveal>
       <Reveal>
         <TeamPreview />

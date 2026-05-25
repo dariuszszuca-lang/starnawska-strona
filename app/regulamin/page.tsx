@@ -38,7 +38,7 @@ export default function Page() {
         <ul>
           <li>oferty pośrednictwa w obrocie nieruchomościami,</li>
           <li>aktualnych ofert sprzedaży, kupna i najmu nieruchomości,</li>
-          <li>doradztwa kredytowego, home stagingu i innych usług dodatkowych,</li>
+          <li>pośrednictwa w kredytach hipotecznych, home stagingu i innych usług dodatkowych,</li>
           <li>informacji o zespole i metodyce pracy.</li>
         </ul>
         <li>

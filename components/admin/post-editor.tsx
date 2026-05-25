@@ -23,7 +23,7 @@ type Initial = {
   faq: Faq[];
 };
 
-const categories = ["Sprzedaż", "Rynek", "Doradztwo", "Najem", "Inwestycje"];
+const categories = ["Sprzedaż", "Rynek", "Kredyty hipoteczne", "Najem", "Inwestycje"];
 
 export function PostEditor({ initial, isNew }: { initial: Initial; isNew: boolean }) {
   const router = useRouter();

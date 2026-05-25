@@ -18,9 +18,9 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Doradztwo i usługi. Sprzedaż, najem, kredyty, home staging",
+  title: "Kredyty hipoteczne w Gdyni. Sprawdź zdolność i porównaj banki",
   description:
-    "Co dla Ciebie zrobimy: kompleksowa sprzedaż, wynajem długoterminowy, doradztwo kredytowe, home staging i sesje fotograficzne. Trójmiasto.",
+    "Kredyty hipoteczne, sprzedaż, wynajem, najem i home staging. Współpracujemy z niezależnymi pośrednikami. Trójmiasto i okolice.",
 };
 
 const services = [
@@ -68,9 +68,9 @@ const services = [
   {
     id: "kredyt",
     icon: Calculator,
-    title: "Doradztwo kredytowe",
+    title: "Kredyty hipoteczne",
     lead: "Sprawdź swoją zdolność kredytową.",
-    body: "Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy Twoją zdolność kredytową, porównujemy oferty banków i prowadzimy Cię aż do decyzji kredytowej.",
+    body: "Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy Twoją zdolność, porównujemy oferty banków i prowadzimy Cię aż do decyzji kredytowej.",
     points: [
       "Bezpłatna analiza zdolności kredytowej",
       "Porównanie ofert z kilku banków",
@@ -95,7 +95,7 @@ const services = [
       "Sesja zdjęciowa szerokokątna",
       "Plan piętra 2D",
       "Wirtualne meblowanie pustych pomieszczeń (opcja)",
-      "Doradztwo: co posprzątać, co odłożyć przed sesją",
+      "Wskazówki, co posprzątać i co odłożyć przed sesją",
       "Lekkie aranżacje (akcesoria, oświetlenie)",
     ],
     caseStudy: {
@@ -137,7 +137,7 @@ const processSteps = [
   },
 ];
 
-export default function DoradztwoPage() {
+export default function KredytyHipotecznePage() {
   return (
     <>
       {/* HERO */}
@@ -152,18 +152,15 @@ export default function DoradztwoPage() {
           <div className="grid lg:grid-cols-12 gap-10 items-end">
             <div className="lg:col-span-7">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Doradztwo
+                Kredyty hipoteczne
               </p>
               <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] text-foreground">
-                Cztery sposoby,
+                Kredyt hipoteczny
                 <br />
-                <span className="text-foreground-muted">w jakie pomagamy.</span>
+                <span className="text-foreground-muted">bez stresu.</span>
               </h1>
               <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
-                Najczęściej pomagamy w jednym z tych czterech obszarów. W praktyce
-                każda sprawa jest złożona: ktoś sprzedaje i szuka nowego mieszkania,
-                ktoś wynajmuje i zaciąga kredyt. Zaczynamy od rozmowy, potem
-                ustalamy konkretny plan działania.
+                Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzimy zdolność, porównamy oferty banków i przeprowadzimy Cię do decyzji. Przy okazji pokażemy też, jak łączymy kredyt z naszymi pozostałymi usługami: sprzedażą, wynajmem i przygotowaniem oferty.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button asChild variant="primary" size="md">
@@ -390,8 +387,7 @@ export default function DoradztwoPage() {
                   do żadnej kategorii?
                 </h2>
                 <p className="text-lg text-foreground-muted max-w-2xl mx-auto mb-8">
-                  Spadek, podział majątku, sprzedaż udziałów, rynek pierwotny, grunty
-                  inwestycyjne. Robiliśmy to wszystko. Powiedz nam co masz.
+                  Spadek, podział majątku, sprzedaż udziałów, grunty inwestycyjne. Robiliśmy to wszystko. Powiedz nam co masz.
                 </p>
                 <div className="flex flex-wrap items-center justify-center gap-3">
                   <Button asChild variant="lime" size="lg">

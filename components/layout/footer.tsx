@@ -13,7 +13,6 @@ const footerNav = {
   oferta: [
     { label: "Sprzedaż mieszkań", href: "/oferty?typ=mieszkanie&transakcja=sprzedaz" },
     { label: "Sprzedaż domów", href: "/oferty?typ=dom&transakcja=sprzedaz" },
-    { label: "Rynek pierwotny", href: "/oferty?segment=pierwotny" },
     { label: "Wynajem", href: "/oferty?transakcja=najem" },
     { label: "Grunty i działki", href: "/oferty?typ=dzialka" },
   ],
@@ -22,7 +21,7 @@ const footerNav = {
     { label: "Nasz zespół", href: "/zespol" },
     { label: "Strefa kupującego", href: "/strefa-kupujacego" },
     { label: "Strefa sprzedającego", href: "/strefa-sprzedajacego" },
-    { label: "Doradztwo", href: "/doradztwo" },
+    { label: "Kredyty hipoteczne", href: "/kredyty-hipoteczne" },
     { label: "Szkolenia", href: "/szkolenia" },
     { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/kontakt" },
@@ -51,8 +50,7 @@ export function Footer() {
             </div>
 
             <p className="text-sm leading-relaxed text-foreground-muted max-w-sm">
-              Biuro nieruchomości w Gdyni. Sprzedaż, wynajem, doradztwo. Od {siteConfig.foundedYear} roku
-              pomagamy klientom z Trójmiasta znaleźć swoje miejsce.
+              Biuro nieruchomości w Gdyni Orłowie. Sprzedaż, wynajem, kredyty hipoteczne. Od {siteConfig.foundedYear} roku pomagamy klientom z Trójmiasta i okolic znaleźć swoje miejsce.
             </p>
 
             {/* NSL badge */}
@@ -179,7 +177,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-foreground-muted">
                 <Clock className="size-4 shrink-0 text-brand-olive" />
-                {siteConfig.contact.hours}
+                Zadzwoń lub wyślij SMS
               </li>
             </ul>
           </div>

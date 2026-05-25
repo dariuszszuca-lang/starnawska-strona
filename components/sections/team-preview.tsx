@@ -23,9 +23,7 @@ export function TeamPreview() {
               Zespół, który zna Trójmiasto na pamięć.
             </h2>
             <p className="mt-5 text-lg text-foreground-muted leading-relaxed max-w-xl">
-              Każda z nas zajmuje się innym kawałkiem rynku.
-              Sprzedaż mieszkań, najem długoterminowy, rynek pierwotny, grunty.
-              Wybierz osobę, której styl Ci pasuje.
+              Sprzedaż mieszkań, kupno, wynajem, najem długoterminowy, grunty. Wybierz osobę, której styl Ci pasuje.
             </p>
           </div>
           <Button asChild variant="outline" size="md">

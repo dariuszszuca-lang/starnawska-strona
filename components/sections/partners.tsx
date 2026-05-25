@@ -10,10 +10,10 @@ const partners = [
     logo: "/partners/pfrn_sppon.jpg",
   },
   {
-    name: "RECAMP. Akademia Real Estate",
-    short: "RECAMP",
-    description: "Akredytacja branżowa",
-    logo: "/partners/recamp.jpg",
+    name: "Nieruchomości Spod Lady",
+    short: "Nieruchomości Spod Lady",
+    description: "Sieć biur z dostępem do ofert off-market w Trójmieście",
+    logo: "/partners/nsl-logo.png",
   },
   {
     name: "Wyłącznie Pomorskie",

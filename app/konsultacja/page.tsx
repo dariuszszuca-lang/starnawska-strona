@@ -8,7 +8,7 @@ import { getMemberBySlug } from "@/lib/team";
 export const metadata: Metadata = {
   title: "Umów konsultację. 30 minut bez zobowiązań",
   description:
-    "Skontaktuj się z nami w sprawie sprzedaży, kupna, wynajmu lub doradztwa. Odpowiadamy w ciągu jednego dnia roboczego.",
+    "Skontaktuj się z nami w sprawie sprzedaży, kupna, wynajmu, najmu lub kredytu hipotecznego. Odpowiadamy w ciągu jednego dnia roboczego.",
 };
 
 type SearchParams = Promise<{ agentka?: string }>;
@@ -64,8 +64,7 @@ export default async function KonsultacjaPage({
                   {siteConfig.contact.phones[0].displayValue}
                 </p>
                 <p className="text-sm text-foreground-muted leading-relaxed">
-                  Biuro odbiera w godzinach pracy. Po godzinach zostaw wiadomość
-                  na poczcie głosowej lub wyślij SMS.
+                  Zadzwoń lub wyślij SMS. Oddzwonimy najszybciej, jak to możliwe.
                 </p>
               </article>
 

@@ -8,7 +8,7 @@ export const siteConfig = {
   shortName: "Starnawska & Boleńska",
   tagline: "Twoje potrzeby naszym priorytetem",
   description:
-    "Biuro nieruchomości w Gdyni od 2011 roku. Sprzedaż, wynajem, doradztwo. Lokalna wiedza, sprawdzone procedury, kompleksowa obsługa.",
+    "Biuro nieruchomości w Gdyni Orłowie od 2011 roku. Sprzedaż, wynajem, kredyty hipoteczne. Trójmiasto i okolice — Gdynia, Sopot, Gdańsk, Rumia, Reda, Wejherowo.",
   url: "https://starnawska.pl",
   ogImage: "/og.jpg",
 
@@ -17,18 +17,18 @@ export const siteConfig = {
     street: "ul. Bytomska 14/1",
     postalCode: "81-509",
     city: "Gdynia",
+    district: "Orłowo",
     country: "Polska",
-    full: "ul. Bytomska 14/1, 81-509 Gdynia",
+    full: "ul. Bytomska 14/1, 81-509 Gdynia Orłowo",
   },
 
   /** Kontakt */
   contact: {
     phones: [
-      { label: "Biuro", value: "+48 532 843 660", displayValue: "532 843 660", href: "tel:+48532843660" },
       { label: "Biuro", value: "+48 608 692 552", displayValue: "608 692 552", href: "tel:+48608692552" },
+      { label: "Biuro", value: "+48 532 843 660", displayValue: "532 843 660", href: "tel:+48532843660" },
     ],
-    email: "biuro@starnawska.pl",
-    hours: "Pon-Pt, 9:00-17:00",
+    email: "nieruchomosci@starnawska.pl",
   },
 
   /** Profile zewnętrzne */

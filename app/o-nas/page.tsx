@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "O nas. Historia biura od 2011 roku",
+  title: "O nas. Historia biura w Gdyni Orłowie od 2011 roku",
   description:
-    "Starnawska & Boleńska Nieruchomości. Od 2011 roku w Gdyni. Zespół 9 kobiet, ponad 1500 transakcji, jedna zasada: Twoje potrzeby są naszym priorytetem.",
+    "Starnawska & Boleńska Nieruchomości. Od 2011 roku w Gdyni Orłowie. Ponad 1500 transakcji w Trójmieście i okolicach. Jedna zasada: Twoje potrzeby są naszym priorytetem.",
 };
 
 const values = [
@@ -37,12 +37,12 @@ const values = [
 const timeline = [
   { year: "2011", title: "Początek", body: "Patrycja i Jolanta otwierają biuro w Gdyni." },
   { year: "2015", title: "Pierwsze 500 transakcji", body: "Marka rozpoznawalna w Trójmieście." },
-  { year: "2019", title: "Rynek pierwotny", body: "Współpraca z deweloperami z Pomorza." },
-  { year: "2022", title: "Zespół 8+ osób", body: "Specjalizacje: grunty, mieszkania, najem, dewelopment." },
+  { year: "2019", title: "Rozszerzamy obszar", body: "Stała współpraca z klientami z Rumi, Redy i Wejherowa." },
+  { year: "2022", title: "Zespół 8+ osób", body: "Sprzedaż, kupno, wynajem, najem, kredyty hipoteczne." },
   {
     year: `${new Date().getFullYear()}`,
     title: "Teraz",
-    body: "9 kobiet, ponad 1500 transakcji, partnerzy: PFRN, SPPON, RECAMP.",
+    body: "Ponad 1500 transakcji, partnerzy: PFRN, SPPON, Nieruchomości Spod Lady.",
   },
 ];
 

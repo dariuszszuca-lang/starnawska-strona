@@ -6,9 +6,9 @@ import { MemberPhoto } from "@/components/team/member-photo";
 import { getAllMembersSorted } from "@/lib/team";
 
 export const metadata: Metadata = {
-  title: "Nasz zespół. Agentki nieruchomości w Gdyni",
+  title: "Nasz zespół. Agenci nieruchomości w Gdyni Orłowie",
   description:
-    "Poznaj zespół Starnawska & Boleńska Nieruchomości. Agentki nieruchomości i zespół biura w Trójmieście.",
+    "Poznaj zespół Starnawska & Boleńska Nieruchomości. Agenci nieruchomości w Trójmieście i okolicach.",
 };
 
 export default function TeamPage() {
@@ -24,14 +24,12 @@ export default function TeamPage() {
               Nasz zespół
             </p>
             <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
-              {all.length} kobiet.
+              Super Agenci.
               <br />
               <span className="text-foreground-muted">Jeden zespół.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
-              Każda z nas specjalizuje się w innym segmencie rynku. Wybierz osobę, której
-              styl pracy najlepiej Ci pasuje. Albo zacznij od dowolnej, my przekierujemy
-              Cię tam, gdzie trzeba.
+              Wybierz osobę, której styl pracy najlepiej Ci pasuje. Albo zacznij od dowolnej, my przekierujemy Cię tam, gdzie trzeba.
             </p>
           </div>
         </Container>

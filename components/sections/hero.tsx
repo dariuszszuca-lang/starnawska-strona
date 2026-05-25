@@ -26,7 +26,7 @@ export function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-surface text-xs font-medium text-foreground-muted"
         >
           <span className="size-1.5 rounded-full bg-brand-lime animate-pulse" />
-          Trójmiasto · od {siteConfig.foundedYear} roku · {siteConfig.metrics.transactions} transakcji
+          Gdynia Orłowo · od {siteConfig.foundedYear} roku · {siteConfig.metrics.transactions} transakcji
         </motion.div>
 
         <motion.h1
@@ -35,7 +35,7 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 font-bold text-[clamp(1.75rem,4vw,3rem)] leading-[1.1] tracking-[-0.03em] text-foreground max-w-3xl"
         >
-          Biuro nieruchomości w Gdyni. Sprzedaż i wynajem w Trójmieście.
+          Biuro nieruchomości w Gdyni Orłowie. Trójmiasto i okolice.
         </motion.h1>
 
         <motion.p
@@ -44,7 +44,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
           className="mt-5 max-w-2xl text-lg lg:text-xl text-foreground-muted leading-relaxed"
         >
-          Sprzedaż, kupno i wynajem mieszkań, domów i działek w Gdyni, Sopocie i Gdańsku. Wybierz, w czym możemy Ci pomóc.
+          Sprzedaż, kupno i wynajem mieszkań, domów i działek w Gdyni, Sopocie, Gdańsku, Rumi, Redzie i Wejherowie. Wybierz, w czym możemy Ci pomóc.
         </motion.p>
 
         <motion.div

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { motion, useInView, animate } from "framer-motion";
-import { ShieldCheck, MapPin, Users, Camera, Calculator, Sparkles } from "lucide-react";
+import { ShieldCheck, MapPin, Users, Camera, Calculator } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { getAllMembersSorted } from "@/lib/team";
 
@@ -89,14 +89,14 @@ export function ValueBento() {
             }
           />
 
-          {/* 2. Zespół 7 kobiet. 3x1 */}
+          {/* 2. Super Agenci. 3x1 */}
           <BentoCard
             span="md:col-span-3"
             delay={0.1}
             icon={Users}
-            title="Zespół 7 kobiet"
+            title="Super Agenci"
             href="/zespol"
-            body="Każda specjalizuje się w innym segmencie rynku."
+            body="Każdy agent prowadzi Cię od pierwszej rozmowy do aktu notarialnego."
             extra={
               <div className="mt-auto flex -space-x-2 pt-3">
                 {team.slice(0, 6).map((m, i) => (
@@ -123,7 +123,7 @@ export function ValueBento() {
             delay={0.2}
             icon={Camera}
             title="Profesjonalne sesje"
-            href="/doradztwo#staging"
+            href="/kredyty-hipoteczne#staging"
             body="Sesja szerokokątna, home staging, plan 2D. Oferta zauważalna w pierwszej minucie."
             extra={
               <div className="mt-auto flex items-center gap-2 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-forest-deep/70">
@@ -133,34 +133,24 @@ export function ValueBento() {
             }
           />
 
-          {/* 4. Transparentna umowa. 2x1 */}
+          {/* 4. Transparentna umowa. 3x1 */}
           <BentoCard
-            span="md:col-span-2"
+            span="md:col-span-3"
             delay={0.3}
             icon={ShieldCheck}
             title="Transparentna umowa"
-            href="/doradztwo#sprzedaz"
+            href="/kredyty-hipoteczne#sprzedaz"
             body="Bez ukrytych prowizji. Wszystko spisane od pierwszego spotkania."
           />
 
-          {/* 5. Doradztwo kredytowe. 2x1 */}
+          {/* 5. Kredyty hipoteczne. 3x1 */}
           <BentoCard
-            span="md:col-span-2"
+            span="md:col-span-3"
             delay={0.4}
             icon={Calculator}
-            title="Doradztwo kredytowe"
-            href="/doradztwo#kredyt"
+            title="Kredyty hipoteczne"
+            href="/kredyty-hipoteczne#kredyt"
             body="Współpracujemy z bankami i pośrednikami. Pomagamy załatwić kredyt równolegle."
-          />
-
-          {/* 6. Rynek pierwotny. 2x1 */}
-          <BentoCard
-            span="md:col-span-2"
-            delay={0.5}
-            icon={Sparkles}
-            title="Rynek pierwotny"
-            href="/oferty?rynek=pierwotny"
-            body="Bezpośrednio z deweloperami. Lepsze warunki, czasem ceny niedostępne publicznie."
           />
         </div>
       </Container>

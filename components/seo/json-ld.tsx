@@ -39,14 +39,6 @@ export function RealEstateAgentSchema() {
       { "@type": "AdministrativeArea", name: "województwo pomorskie" },
     ],
     sameAs: [siteConfig.social.facebook, siteConfig.social.instagram],
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "09:00",
-        closes: "17:00",
-      },
-    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: siteConfig.metrics.rating,

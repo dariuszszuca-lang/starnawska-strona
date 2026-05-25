@@ -32,7 +32,6 @@ const roomOptions = ["1", "2", "3", "4", "5+"];
 const marketOptions = [
   { value: "wszystkie", label: "Wszystkie" },
   { value: "wtorny", label: "Wtórny" },
-  { value: "pierwotny", label: "Pierwotny" },
 ];
 const stateOptions = [
   "do wprowadzenia",

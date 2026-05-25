@@ -7,9 +7,9 @@ import { FacebookIcon, InstagramIcon } from "@/components/ui/social-icons";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Kontakt. Biuro w Gdyni, Bytomska 14/1",
+  title: "Kontakt. Biuro w Gdyni Orłowie, ul. Bytomska 14/1",
   description:
-    "Skontaktuj się z biurem Starnawska & Boleńska Nieruchomości w Gdyni. Telefon, e-mail, mapa. Otwarte pon-pt, 9-17.",
+    "Skontaktuj się z biurem Starnawska & Boleńska Nieruchomości w Gdyni Orłowie. Telefon, SMS, e-mail. Trójmiasto i okolice.",
 };
 
 export default function KontaktPage() {
@@ -27,8 +27,7 @@ export default function KontaktPage() {
               <span className="text-foreground-muted">albo wpadnij.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
-              Jesteśmy w sercu Gdyni, dwie minuty od Skweru Kościuszki.
-              Pracujemy w godzinach biurowych, ale telefony odbieramy też wieczorem.
+              Jesteśmy w Gdyni Orłowie, przy ulicy Bytomskiej. Zadzwoń lub wyślij SMS.
             </p>
           </div>
         </Container>
@@ -102,9 +101,9 @@ export default function KontaktPage() {
                     </span>
                     <div>
                       <p className="text-xs uppercase tracking-wider text-foreground-muted mb-1">
-                        Godziny pracy
+                        Kontakt
                       </p>
-                      <p className="text-lg">{siteConfig.contact.hours}</p>
+                      <p className="text-lg">Zadzwoń lub wyślij SMS</p>
                     </div>
                   </li>
                 </ul>
