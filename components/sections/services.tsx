@@ -51,7 +51,7 @@ const services: Service[] = [
     ],
     stat: { value: "6 tyg.", label: "średni czas sprzedaży" },
     cta: "Sprzedaj z nami",
-    href: "/strefa-sprzedajacego",
+    href: "/oferta#sprzedaz",
   },
   {
     id: "kupno",
@@ -68,7 +68,7 @@ const services: Service[] = [
     ],
     stat: { value: "73", label: "dzielnice, które znamy z bliska" },
     cta: "Kupuj z nami",
-    href: "/strefa-kupujacego",
+    href: "/oferta#kupno",
   },
   {
     id: "wynajem",
@@ -85,7 +85,7 @@ const services: Service[] = [
     ],
     stat: { value: "10 dni", label: "średnio do wprowadzki" },
     cta: "Znajdź mieszkanie",
-    href: "/strefa-kupujacego",
+    href: "/oferta#wynajem",
   },
   {
     id: "najem",
@@ -102,7 +102,7 @@ const services: Service[] = [
     ],
     stat: { value: "10 dni", label: "średnio do podpisania umowy" },
     cta: "Wynajmijmy razem",
-    href: "/strefa-sprzedajacego",
+    href: "/oferta#najem",
   },
 ];
 

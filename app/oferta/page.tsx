@@ -3,8 +3,8 @@ import Link from "next/link";
 import {
   Home,
   KeyRound,
-  Calculator,
-  Sparkles,
+  Search,
+  Building,
   ArrowRight,
   Check,
   Phone,
@@ -18,25 +18,25 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Kredyty hipoteczne w Gdyni. Sprawdź zdolność i porównaj banki",
+  title: "Oferta. Sprzedaż, kupno, wynajem i najem nieruchomości | Starnawska",
   description:
-    "Kredyty hipoteczne, sprzedaż, wynajem, najem i home staging. Współpracujemy z niezależnymi pośrednikami. Trójmiasto i okolice.",
+    "Pełna obsługa transakcji nieruchomościowych: sprzedaż, kupno, wynajem i najem. Trójmiasto i okolice. Wybierz obszar, w którym możemy Ci pomóc.",
 };
 
 const services = [
   {
     id: "sprzedaz",
     icon: Home,
-    title: "Sprzedaż nieruchomości",
+    title: "Sprzedaż",
     lead: "Od pierwszej rozmowy do aktu notarialnego.",
-    body: "Bierzemy całość: wycenę, przygotowanie oferty, sesję, promocję, pokazy, negocjacje, dokumenty. Ty podpisujesz tylko umowę i odbierasz pieniądze.",
+    body: "Bierzemy całą sprzedaż na siebie. Wyceniamy, robimy sesję, publikujemy, prowadzimy pokazy, negocjujemy i kompletujemy dokumenty. Ty podpisujesz tylko umowę i odbierasz pieniądze.",
     points: [
       "Wycena rynkowa po wizji lokalnej",
-      "Profesjonalna sesja zdjęciowa i plan 2D",
-      "Publikacja w 30+ portalach + nasza baza",
+      "Sesja zdjęciowa i plan piętra 2D",
+      "Publikacja w 30+ portalach i naszej bazie",
       "Aktywne dotarcie do kupujących z naszego CRM",
       "Pokazy i raport ze spotkań",
-      "Negocjacje + obsługa dokumentacji notarialnej",
+      "Negocjacje i obsługa dokumentów do aktu notarialnego",
     ],
     caseStudy: {
       label: "Ostatnio",
@@ -46,63 +46,64 @@ const services = [
     tone: "default" as const,
   },
   {
+    id: "kupno",
+    icon: Search,
+    title: "Kupno",
+    lead: "Reprezentujemy Twój interes, nie sprzedającego.",
+    body: "Znajdujemy nieruchomości, w tym te, których nie ma na portalach. Mamy dostęp do ofert off-market przez sieć Nieruchomości Spod Lady. Sprawdzamy stan prawny i techniczny, negocjujemy cenę, prowadzimy Cię do odbioru kluczy.",
+    points: [
+      "Rozmowa o budżecie, lokalizacji i preferencjach",
+      "Dobór ofert z naszej bazy i z rynku off-market",
+      "Oględziny z naszą oceną stanu mieszkania",
+      "Sprawdzenie stanu prawnego i hipotecznego",
+      "Negocjacje ceny i warunków umowy",
+      "Obsługa dokumentów do aktu notarialnego",
+    ],
+    caseStudy: {
+      label: "Z naszych historii",
+      text: "Klient z Niemiec szukał mieszkania w Orłowie. Pokazaliśmy 4 oferty (jedną off-market), wybór padł na drugą. Akt przez pełnomocnictwo, klient w Polsce był tylko raz.",
+    },
+    cta: "Kupuj z nami",
+    tone: "lime" as const,
+  },
+  {
     id: "wynajem",
     icon: KeyRound,
-    title: "Wynajem długoterminowy",
-    lead: "Dla właścicieli i poszukujących.",
-    body: "Dla właścicieli: znajdujemy najemcę, weryfikujemy, prowadzimy umowę. Dla najemców: pokażemy oferty dopasowane do budżetu i preferencji.",
+    title: "Wynajem",
+    lead: "Znajdź mieszkanie do wynajęcia w Trójmieście.",
+    body: "Pokazujemy oferty z naszej bazy i z rynku. Sprawdzamy stan techniczny i umowę najmu. Pomagamy negocjować warunki, żebyś nie wpadł na trudnego właściciela.",
     points: [
+      "Rozmowa o budżecie i potrzebach",
+      "Oferty dopasowane do lokalizacji i wymagań",
+      "Oględziny z oceną stanu mieszkania",
+      "Sprawdzenie umowy najmu (klauzule, terminy, kaucja)",
+      "Pomoc w negocjacji warunków",
+    ],
+    caseStudy: {
+      label: "Średnio",
+      text: "Klient znajduje mieszkanie i wprowadza się w 10 dni. Pełna umowa, znana kaucja, jasne warunki.",
+    },
+    cta: "Znajdź mieszkanie",
+    tone: "default" as const,
+  },
+  {
+    id: "najem",
+    icon: Building,
+    title: "Najem",
+    lead: "Wynajmij swoje mieszkanie bez zmartwień.",
+    body: "Znajdujemy najemcę, weryfikujemy go, podpisujemy umowę najmu okazjonalnego lub instytucjonalnego. Robimy protokół zdawczo-odbiorczy ze zdjęciami. Mieszkanie jest pod kontrolą, Ty masz spokojną głowę.",
+    points: [
+      "Wycena stawki najmu na rynku",
       "Weryfikacja najemcy (zaświadczenia, referencje)",
       "Umowa najmu okazjonalnego lub instytucjonalnego",
       "Protokół zdawczo-odbiorczy ze zdjęciami",
-      "Opieka nad nieruchomością w trakcie najmu",
       "Pomoc przy rozliczeniach administracji",
     ],
     caseStudy: {
       label: "Średnio",
       text: "Najemca w 7-10 dni. Roczna umowa, pełna dokumentacja, zero pustostanu między najemcami.",
     },
-    cta: "Porozmawiajmy o najmie",
-    tone: "lime" as const,
-  },
-  {
-    id: "kredyt",
-    icon: Calculator,
-    title: "Kredyty hipoteczne",
-    lead: "Sprawdź swoją zdolność kredytową.",
-    body: "Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy Twoją zdolność, porównujemy oferty banków i prowadzimy Cię aż do decyzji kredytowej.",
-    points: [
-      "Bezpłatna analiza zdolności kredytowej",
-      "Porównanie ofert z kilku banków",
-      "Programy rządowe (Bezpieczny Kredyt 2%, BK# itp.)",
-      "Pomoc w skompletowaniu dokumentów",
-      "Sprawdzenie zabezpieczeń notarialnych",
-    ],
-    caseStudy: {
-      label: "Bez ukrytych kosztów",
-      text: "Doradca opłacany przez bank, dla Ciebie bezpłatny. Mówimy które oferty się opłacają, a które tylko wyglądają korzystnie.",
-    },
-    cta: "Sprawdź zdolność",
-    tone: "default" as const,
-  },
-  {
-    id: "staging",
-    icon: Sparkles,
-    title: "Home staging i sesja zdjęciowa",
-    lead: "Pierwsze cztery sekundy decydują.",
-    body: "Profesjonalne zdjęcia szerokokątne, plan piętra w 2D, lekka aranżacja wnętrza. Tak przygotowana oferta uzyskuje średnio 60-120% więcej zapytań w pierwszym tygodniu publikacji. Robimy to dla każdej oferty, którą sprzedajemy.",
-    points: [
-      "Sesja zdjęciowa szerokokątna",
-      "Plan piętra 2D",
-      "Wirtualne meblowanie pustych pomieszczeń (opcja)",
-      "Wskazówki, co posprzątać i co odłożyć przed sesją",
-      "Lekkie aranżacje (akcesoria, oświetlenie)",
-    ],
-    caseStudy: {
-      label: "Liczby mówią same",
-      text: "To samo mieszkanie przed i po stagingu: 3x więcej zapytań w pierwszym tygodniu, sprzedaż średnio o 40% szybsza.",
-    },
-    cta: "Zobacz przykłady",
+    cta: "Wynajmijmy razem",
     tone: "default" as const,
   },
 ];
@@ -110,7 +111,7 @@ const services = [
 const stats = [
   { value: "120+", label: "transakcji rocznie" },
   { value: "14", label: "dni. Średni czas sprzedaży" },
-  { value: "12", label: "banków w sieci kredytowej" },
+  { value: "73", label: "dzielnic, które znamy" },
   { value: "73%", label: "klientów z polecenia" },
 ];
 
@@ -137,7 +138,7 @@ const processSteps = [
   },
 ];
 
-export default function KredytyHipotecznePage() {
+export default function OfertaPage() {
   return (
     <>
       {/* HERO */}
@@ -152,15 +153,15 @@ export default function KredytyHipotecznePage() {
           <div className="grid lg:grid-cols-12 gap-10 items-end">
             <div className="lg:col-span-7">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Kredyty hipoteczne
+                Oferta
               </p>
               <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] text-foreground">
-                Kredyt hipoteczny
+                Sprzedaż, kupno,
                 <br />
-                <span className="text-foreground-muted">bez stresu.</span>
+                <span className="text-foreground-muted">wynajem, najem.</span>
               </h1>
               <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
-                Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzimy zdolność, porównamy oferty banków i przeprowadzimy Cię do decyzji. Przy okazji pokażemy też, jak łączymy kredyt z naszymi pozostałymi usługami: sprzedażą, wynajmem i przygotowaniem oferty.
+                Cztery filary naszej pracy. Każdy z nich znamy od podszewki, w każdym mamy zbudowane procedury. Najczęściej pomagamy w jednym obszarze, w praktyce sprawy się łączą: ktoś sprzedaje i szuka nowego mieszkania, ktoś wynajmuje i przygotowuje swoje pod najem. Zaczynamy od rozmowy, potem ustalamy konkretny plan.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button asChild variant="primary" size="md">

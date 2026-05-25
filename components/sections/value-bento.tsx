@@ -123,7 +123,7 @@ export function ValueBento() {
             delay={0.2}
             icon={Camera}
             title="Profesjonalne sesje"
-            href="/kredyty-hipoteczne#staging"
+            href="/oferta#sprzedaz"
             body="Sesja szerokokątna, home staging, plan 2D. Oferta zauważalna w pierwszej minucie."
             extra={
               <div className="mt-auto flex items-center gap-2 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-forest-deep/70">
@@ -139,7 +139,7 @@ export function ValueBento() {
             delay={0.3}
             icon={ShieldCheck}
             title="Transparentna umowa"
-            href="/kredyty-hipoteczne#sprzedaz"
+            href="/oferta#sprzedaz"
             body="Bez ukrytych prowizji. Wszystko spisane od pierwszego spotkania."
           />
 
@@ -149,7 +149,7 @@ export function ValueBento() {
             delay={0.4}
             icon={Calculator}
             title="Kredyty hipoteczne"
-            href="/kredyty-hipoteczne#kredyt"
+            href="/konsultacja"
             body="Współpracujemy z bankami i pośrednikami. Pomagamy załatwić kredyt równolegle."
           />
         </div>

@@ -21,7 +21,7 @@ const footerNav = {
     { label: "Nasz zespół", href: "/zespol" },
     { label: "Strefa kupującego", href: "/strefa-kupujacego" },
     { label: "Strefa sprzedającego", href: "/strefa-sprzedajacego" },
-    { label: "Kredyty hipoteczne", href: "/kredyty-hipoteczne" },
+    { label: "Oferta", href: "/oferta" },
     { label: "Szkolenia", href: "/szkolenia" },
     { label: "Blog", href: "/blog" },
     { label: "Kontakt", href: "/kontakt" },

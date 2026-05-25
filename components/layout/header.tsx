@@ -24,7 +24,7 @@ const navItems: NavItem[] = [
   { label: "Kupujący", href: "/strefa-kupujacego" },
   { label: "Sprzedający", href: "/strefa-sprzedajacego" },
   { label: "Nasz zespół", href: "/zespol", hasDropdown: true },
-  { label: "Kredyty hipoteczne", href: "/kredyty-hipoteczne" },
+  { label: "Oferta", href: "/oferta" },
   { label: "Blog", href: "/blog" },
   { label: "Kontakt", href: "/kontakt" },
 ];
