@@ -18,7 +18,7 @@ import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
 
 export const metadata: Metadata = {
-  title: "Oferta. Sprzedaż, kupno, wynajem i najem nieruchomości | Starnawska",
+  title: "Jak pomagamy. Sprzedaż, kupno, wynajem, najem | Starnawska",
   description:
     "Pełna obsługa transakcji nieruchomościowych: sprzedaż, kupno, wynajem i najem. Trójmiasto i okolice. Wybierz obszar, w którym możemy Ci pomóc.",
 };
@@ -136,7 +136,7 @@ const processSteps = [
   },
 ];
 
-export default function OfertaPage() {
+export default function JakPomagamyPage() {
   return (
     <>
       {/* HERO */}
@@ -151,7 +151,7 @@ export default function OfertaPage() {
           <div className="grid lg:grid-cols-12 gap-10 items-end">
             <div className="lg:col-span-7">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Oferta
+                Jak pomagamy
               </p>
               <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] text-foreground">
                 Sprzedaż, kupno,

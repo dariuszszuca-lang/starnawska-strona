@@ -123,7 +123,7 @@ export function ValueBento() {
             delay={0.2}
             icon={Camera}
             title="Profesjonalne sesje"
-            href="/oferta#sprzedaz"
+            href="/jak-pomagamy#sprzedaz"
             body="Sesja szerokokątna, home staging, plan 2D. Oferta zauważalna w pierwszej minucie."
             extra={
               <div className="mt-auto flex items-center gap-2 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-forest-deep/70">
@@ -139,7 +139,7 @@ export function ValueBento() {
             delay={0.3}
             icon={ShieldCheck}
             title="Transparentna umowa"
-            href="/oferta#sprzedaz"
+            href="/jak-pomagamy#sprzedaz"
             body="Bez ukrytych prowizji. Wszystko spisane od pierwszego spotkania."
           />
 
