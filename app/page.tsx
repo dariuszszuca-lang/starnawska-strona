@@ -7,7 +7,6 @@ import { ValueBento } from "@/components/sections/value-bento";
 import { Services } from "@/components/sections/services";
 import { OffMarket } from "@/components/sections/off-market";
 import { CaseStudies } from "@/components/sections/case-studies";
-import { Motto } from "@/components/sections/motto";
 import { TeamPreview } from "@/components/sections/team-preview";
 import { Testimonials } from "@/components/sections/testimonials";
 import { FAQ } from "@/components/sections/faq";
@@ -46,9 +45,6 @@ export default function HomePage() {
       </Reveal>
       <Reveal>
         <CaseStudies />
-      </Reveal>
-      <Reveal>
-        <Motto />
       </Reveal>
       <Reveal>
         <TeamPreview />

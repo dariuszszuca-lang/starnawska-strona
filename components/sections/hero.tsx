@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, Search, Home as HomeIcon } from "lucide-react";
+import { ArrowRight, Search, Home as HomeIcon, Quote } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { siteConfig } from "@/lib/site";
 
@@ -98,11 +98,34 @@ export function Hero() {
           </Link>
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
+          className="mt-12 lg:mt-14 pt-8 border-t border-border max-w-3xl"
+        >
+          <div className="flex items-start gap-4 lg:gap-5">
+            <Quote
+              aria-hidden
+              className="size-7 lg:size-8 text-brand-lime shrink-0 mt-1"
+              strokeWidth={1.6}
+            />
+            <div>
+              <p className="font-bold tracking-tight text-[clamp(1.25rem,2.4vw,1.875rem)] leading-[1.2] text-foreground">
+                Ambasadorami naszej marki są nasi klienci.
+              </p>
+              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.2em] text-brand-olive">
+                Klient naszym ambasadorem
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
         <motion.dl
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-14 grid grid-cols-3 gap-6 pt-8 border-t border-border max-w-2xl"
+          transition={{ duration: 0.6, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
+          className="mt-12 grid grid-cols-3 gap-6 pt-8 border-t border-border max-w-2xl"
         >
           <div>
             <dt className="text-xs uppercase tracking-wider text-foreground-muted">Na rynku</dt>
