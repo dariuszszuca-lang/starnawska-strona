@@ -15,12 +15,6 @@ const partners = [
     description: "Sieć biur z dostępem do ofert off-market w Trójmieście",
     logo: "/partners/nsl-logo.png",
   },
-  {
-    name: "Wyłącznie Pomorskie",
-    short: "Wyłącznie Pomorskie",
-    description: "Lokalna sieć biur",
-    logo: "/partners/pomorskie.png",
-  },
 ];
 
 export function Partners() {
@@ -43,7 +37,7 @@ export function Partners() {
           </div>
 
           <div className="lg:col-span-7">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-5">
               {partners.map((p) => (
                 <div
                   key={p.short}
