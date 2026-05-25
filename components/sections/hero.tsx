@@ -35,7 +35,7 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.05, ease: [0.16, 1, 0.3, 1] }}
           className="mt-6 font-bold text-[clamp(1.75rem,4vw,3rem)] leading-[1.1] tracking-[-0.03em] text-foreground max-w-3xl"
         >
-          Biuro nieruchomości w Gdyni Orłowie. Trójmiasto i okolice.
+          Twoje miejsce w Trójmieście. Znajdziemy je razem.
         </motion.h1>
 
         <motion.p
