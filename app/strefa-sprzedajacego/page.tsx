@@ -162,18 +162,34 @@ export default function StrefaSprzedajacegoPage() {
               </div>
 
               <div className="lg:col-span-7">
-                <ul className="space-y-3">
+                <ul className="grid sm:grid-cols-2 gap-5">
                   {przygotowanie.map((item, index) => (
                     <li
                       key={item}
-                      className="group flex items-start gap-5 p-6 rounded-[28px] border border-border bg-background/90 shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
+                      className="group relative rounded-[28px] bg-background border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_20px_50px_-20px_rgba(45,74,31,0.25)] hover:-translate-y-1 transition-all duration-400"
                     >
-                      <span className="font-bold text-2xl text-brand-olive/35 tabular-nums w-10 shrink-0 group-hover:text-brand-olive transition-colors">
-                        0{index + 1}
+                      <span
+                        aria-hidden
+                        className="absolute -top-3 right-4 text-[6rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.20] transition-all duration-500 pointer-events-none select-none"
+                      >
+                        {String(index + 1).padStart(2, "0")}
                       </span>
-                      <span className="text-lg text-foreground leading-relaxed pt-1">
-                        {item}
-                      </span>
+                      <div
+                        aria-hidden
+                        className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.04] group-hover:to-brand-lime/[0.10] transition-all duration-500"
+                      />
+                      <div
+                        aria-hidden
+                        className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/60 to-brand-lime/0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                      />
+                      <div className="relative p-6 lg:p-7 min-h-[150px] flex flex-col">
+                        <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-olive/80 mb-3">
+                          0{index + 1}
+                        </div>
+                        <span className="text-base lg:text-lg font-semibold text-foreground leading-snug tracking-tight">
+                          {item}
+                        </span>
+                      </div>
                     </li>
                   ))}
                 </ul>
@@ -207,32 +223,45 @@ export default function StrefaSprzedajacegoPage() {
                 return (
                   <div
                     key={area.title}
-                    className={`rounded-[30px] p-8 lg:p-9 border shadow-[var(--shadow-soft)] transition-all hover:-translate-y-0.5 ${
+                    className={`group relative rounded-[30px] border shadow-[var(--shadow-soft)] overflow-hidden hover:shadow-[0_24px_60px_-20px_rgba(45,74,31,0.30)] hover:-translate-y-1 transition-all duration-400 ${
                       featured
-                        ? "bg-brand-lime/[0.10] border-brand-lime/35"
-                        : "bg-surface border-border"
+                        ? "bg-brand-lime/[0.10] border-brand-lime/35 hover:border-brand-lime/70"
+                        : "bg-surface border-border hover:border-brand-lime/60"
                     }`}
                   >
-                    <p
-                      className="text-[10px] font-bold uppercase tracking-[0.18em] mb-4 text-brand-olive"
+                    <span
+                      aria-hidden
+                      className="absolute -top-4 right-5 text-[8rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.22] transition-all duration-500 pointer-events-none select-none"
                     >
-                      0{index + 1}
-                    </p>
-                    <h3 className="font-bold text-2xl leading-tight mb-6">{area.title}</h3>
-                    <ul className="space-y-3">
-                      {area.points.map((point) => (
-                        <li
-                          key={point}
-                          className="flex items-start gap-3 text-sm leading-relaxed text-foreground"
-                        >
-                          <Check
-                            className="size-4 shrink-0 mt-0.5 text-brand-olive"
-                            strokeWidth={3}
-                          />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <div
+                      aria-hidden
+                      className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.06] group-hover:to-brand-lime/[0.12] transition-all duration-500"
+                    />
+                    <div
+                      aria-hidden
+                      className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/70 to-brand-lime/0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                    />
+                    <div className="relative p-8 lg:p-9">
+                      <p className="text-[10px] font-bold uppercase tracking-[0.2em] mb-4 text-brand-olive/80">
+                        Obszar 0{index + 1}
+                      </p>
+                      <h3 className="font-bold text-xl lg:text-2xl leading-tight mb-6 tracking-tight">{area.title}</h3>
+                      <ul className="space-y-3">
+                        {area.points.map((point) => (
+                          <li
+                            key={point}
+                            className="flex items-start gap-3 text-sm leading-relaxed text-foreground"
+                          >
+                            <span className="size-5 rounded-md bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-brand-lime/30 transition-all duration-300">
+                              <Check className="size-3" strokeWidth={3} />
+                            </span>
+                            <span>{point}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 );
               })}
@@ -307,16 +336,32 @@ export default function StrefaSprzedajacegoPage() {
               </p>
             </div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
               {wspolpraca.map((item, index) => (
                 <div
                   key={item}
-                  className="rounded-[28px] bg-surface border border-border p-7 shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
+                  className="group relative rounded-[28px] bg-surface border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_20px_50px_-20px_rgba(45,74,31,0.25)] hover:-translate-y-1 transition-all duration-400"
                 >
-                  <p className="text-[10px] uppercase tracking-wider text-brand-olive font-semibold mb-4 tabular-nums">
-                    0{index + 1}
-                  </p>
-                  <p className="font-semibold text-foreground leading-relaxed">{item}</p>
+                  <span
+                    aria-hidden
+                    className="absolute -top-3 right-4 text-[7rem] lg:text-[8rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.20] transition-all duration-500 pointer-events-none select-none"
+                  >
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.04] group-hover:to-brand-lime/[0.10] transition-all duration-500"
+                  />
+                  <div
+                    aria-hidden
+                    className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/60 to-brand-lime/0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                  />
+                  <div className="relative p-6 lg:p-7 min-h-[170px] flex flex-col">
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-brand-olive/80 font-bold mb-4 tabular-nums">
+                      0{index + 1}
+                    </p>
+                    <p className="font-semibold text-foreground text-base lg:text-lg leading-snug tracking-tight">{item}</p>
+                  </div>
                 </div>
               ))}
             </div>
