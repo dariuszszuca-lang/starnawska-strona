@@ -318,22 +318,38 @@ export default function StrefaSprzedajacegoPage() {
                 </p>
               </div>
               <div className="lg:col-span-6">
-                <p className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-5">
+                <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-olive/80 mb-5">
                   W naszej pracy liczy się:
                 </p>
-                <div className="flex flex-wrap gap-2.5">
+                <div className="grid sm:grid-cols-2 gap-4">
                   {wartosci.map((item, index) => (
-                    <span
+                    <div
                       key={item}
-                      className={`inline-flex items-center gap-2 pl-3 pr-5 py-2.5 rounded-full text-sm font-medium ${
-                        index % 3 === 0
-                          ? "bg-brand-lime/20 text-brand-forest-deep border border-brand-lime/35"
-                          : "bg-background text-foreground border border-border"
-                      }`}
+                      className="group relative rounded-2xl bg-background border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_16px_40px_-16px_rgba(45,74,31,0.22)] hover:-translate-y-1 transition-all duration-400"
                     >
-                      <Check className="size-3.5" />
-                      {item}
-                    </span>
+                      <span
+                        aria-hidden
+                        className="absolute -top-2 right-3 text-[5rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.20] transition-all duration-500 pointer-events-none select-none"
+                      >
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <div
+                        aria-hidden
+                        className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.05] group-hover:to-brand-lime/[0.12] transition-all duration-500"
+                      />
+                      <div
+                        aria-hidden
+                        className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/60 to-brand-lime/0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                      />
+                      <div className="relative flex items-center gap-3 p-5">
+                        <span className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0 group-hover:bg-brand-lime/30 group-hover:rotate-6 transition-all duration-300">
+                          <Check className="size-4.5" strokeWidth={2.6} />
+                        </span>
+                        <span className="font-semibold text-foreground text-base leading-snug tracking-tight">
+                          {item}
+                        </span>
+                      </div>
+                    </div>
                   ))}
                 </div>
               </div>
