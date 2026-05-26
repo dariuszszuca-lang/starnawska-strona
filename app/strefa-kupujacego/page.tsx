@@ -195,6 +195,30 @@ export default function StrefaKupujacegoPage() {
                   <br />
                   Naszą rolą jest:
                 </p>
+
+                {/* Premium pull-quote box */}
+                <div className="relative mt-10 rounded-[28px] overflow-hidden bg-gradient-to-br from-brand-lime/[0.08] via-brand-lime/[0.05] to-transparent border border-brand-lime/35 shadow-[0_12px_40px_-16px_rgba(45,74,31,0.20)]">
+                  <div
+                    aria-hidden
+                    className="absolute left-0 top-6 bottom-6 w-[4px] bg-gradient-to-b from-brand-lime via-brand-olive to-brand-lime/40 rounded-r-full"
+                  />
+                  <div
+                    aria-hidden
+                    className="absolute top-4 right-5 text-[7rem] leading-none font-serif text-brand-lime/[0.20] pointer-events-none select-none"
+                  >
+                    “
+                  </div>
+                  <div className="relative p-7 lg:p-8 pl-9 lg:pl-10">
+                    <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-olive/80 mb-3">
+                      Nasze podejście
+                    </p>
+                    <p className="text-xl lg:text-2xl font-bold text-foreground leading-snug tracking-tight">
+                      Reprezentujemy interes kupującego.
+                      <br />
+                      <span className="text-brand-forest">I właśnie to robi ogromną różnicę.</span>
+                    </p>
+                  </div>
+                </div>
               </div>
 
               <div className="lg:col-span-6">
@@ -234,11 +258,6 @@ export default function StrefaKupujacegoPage() {
                     </div>
                   ))}
                 </div>
-                <p className="mt-10 text-xl lg:text-2xl font-bold text-foreground leading-snug tracking-tight">
-                  Reprezentujemy interes kupującego.
-                  <br />
-                  <span className="text-brand-forest">I właśnie to robi ogromną różnicę.</span>
-                </p>
               </div>
             </div>
           </Container>
