@@ -147,7 +147,7 @@ export default function StrefaSprzedajacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5 lg:sticky lg:top-32">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Jak pracujemy?
+                  Nasze podejście
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-6">
                   Jak pracujemy?
@@ -191,7 +191,7 @@ export default function StrefaSprzedajacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Co robimy dla sprzedającego?
+                Zakres usług
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-5">
                 Co robimy dla sprzedającego?
@@ -251,7 +251,7 @@ export default function StrefaSprzedajacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-6">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Dlaczego nasze oferty sprzedają się skutecznie?
+                  Skuteczność, nie przypadek
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] mb-6">
                   Dlaczego nasze oferty sprzedają się skutecznie?
@@ -297,7 +297,7 @@ export default function StrefaSprzedajacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Współpraca międzyagentowa
+                Sieć współpracy
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-5">
                 Współpraca międzyagentowa
@@ -336,7 +336,7 @@ export default function StrefaSprzedajacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-7">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Historie naszych klientów
+                  Każdy klient inny
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-6">
                   Historie naszych klientów

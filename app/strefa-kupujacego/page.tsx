@@ -173,7 +173,7 @@ export default function StrefaKupujacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-6 lg:sticky lg:top-32">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Kim jest agent kupującego?
+                  Po Twojej stronie
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-6">
                   Kim jest agent kupującego?
@@ -242,7 +242,7 @@ export default function StrefaKupujacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Jak wygląda współpraca?
+                Proces krok po kroku
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-5">
                 Jak wygląda współpraca?
@@ -296,7 +296,7 @@ export default function StrefaKupujacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Czego klient często nie widzi?
+                  Za kulisami
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] mb-6">
                   Czego klient często nie widzi?
@@ -340,7 +340,7 @@ export default function StrefaKupujacegoPage() {
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Dla kogo jest ta usługa?
+                Komu pomagamy
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground">
                 Dla kogo jest ta usługa?
@@ -374,7 +374,7 @@ export default function StrefaKupujacegoPage() {
           <Container size="default">
             <div className="mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                Historie naszych klientów
+                Każdy klient inny
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground">
                 Historie naszych klientów
