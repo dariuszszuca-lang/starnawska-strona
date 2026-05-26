@@ -252,35 +252,88 @@ export default function StrefaKupujacegoPage() {
               </p>
             </div>
 
-            <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
-              {wspolpraca.map((step, index) => {
-                const Icon = step.icon;
-                const featured = index === 0 || index === 3 || index === 7;
-                return (
-                  <li
-                    key={step.title}
-                    className={`rounded-[28px] p-6 lg:p-7 border shadow-[var(--shadow-soft)] transition-all hover:-translate-y-0.5 ${
-                      featured
-                        ? "bg-brand-lime/[0.10] border-brand-lime/35"
-                        : "bg-surface border-border"
-                    }`}
-                  >
-                    <div
-                      className={`size-12 rounded-xl flex items-center justify-center mb-5 ${
-                        featured ? "bg-brand-lime/25 text-brand-forest-deep" : "bg-brand-lime/15 text-brand-olive"
+            {/* PREMIUM TIMELINE */}
+            <ol className="relative max-w-5xl mx-auto">
+              {/* Pionowa linia tła */}
+              <div
+                aria-hidden
+                className="absolute left-8 lg:left-1/2 top-4 bottom-4 w-px bg-gradient-to-b from-transparent via-brand-lime/40 to-transparent lg:-translate-x-px"
+              />
+
+              <div className="space-y-4 lg:space-y-6">
+                {wspolpraca.map((step, index) => {
+                  const Icon = step.icon;
+                  const isLeft = index % 2 === 0;
+                  return (
+                    <li
+                      key={step.title}
+                      className={`relative grid grid-cols-[64px_1fr] lg:grid-cols-2 gap-4 lg:gap-12 items-center group ${
+                        isLeft ? "" : "lg:[direction:rtl]"
                       }`}
                     >
-                      <Icon className="size-5" strokeWidth={2.2} />
-                    </div>
-                    <h3 className="font-bold text-base lg:text-lg leading-tight mb-3 text-foreground">
-                      {step.title}
-                    </h3>
-                    <p className="text-sm leading-relaxed text-foreground-muted">
-                      {step.text}
-                    </p>
-                  </li>
-                );
-              })}
+                      {/* Node na linii */}
+                      <div className="relative lg:hidden flex justify-center pt-6">
+                        <div className="absolute top-6 size-16 rounded-full bg-brand-lime/15 blur-2xl group-hover:bg-brand-lime/35 transition-all duration-500" />
+                        <div className="relative size-16 rounded-2xl bg-background border-2 border-brand-lime shadow-[var(--shadow-card)] flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                          <span className="text-lg font-bold tabular-nums text-brand-forest-deep">
+                            0{index + 1}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Karta */}
+                      <div className={`${isLeft ? "lg:col-start-1 lg:text-right lg:pr-16" : "lg:col-start-2 lg:text-left lg:pl-16 lg:[direction:ltr]"}`}>
+                        <div className="relative inline-block w-full">
+                          <div className="relative rounded-[28px] p-7 lg:p-9 bg-background border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_20px_50px_-20px_rgba(45,74,31,0.25)] hover:-translate-y-1 transition-all duration-400 [direction:ltr] text-left">
+                            {/* Ogromny watermark numer */}
+                            <span
+                              aria-hidden
+                              className={`absolute top-2 ${isLeft ? "lg:right-4 right-4" : "right-4"} text-[6rem] lg:text-[7rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.18] transition-all duration-500 pointer-events-none`}
+                            >
+                              {String(index + 1).padStart(2, "0")}
+                            </span>
+
+                            {/* Gradient subtle */}
+                            <div
+                              aria-hidden
+                              className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.04] group-hover:to-brand-lime/[0.10] transition-all duration-500"
+                            />
+
+                            <div className="relative">
+                              <div className="flex items-center gap-3 mb-4">
+                                <div className="size-12 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center group-hover:bg-brand-lime/30 group-hover:rotate-6 transition-all duration-300">
+                                  <Icon className="size-5" strokeWidth={2.2} />
+                                </div>
+                                <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-olive/80">
+                                  Krok {index + 1} z 8
+                                </div>
+                              </div>
+                              <h3 className="font-bold text-lg lg:text-xl leading-tight mb-3 text-foreground tracking-tight">
+                                {step.title}
+                              </h3>
+                              <p className="text-sm lg:text-base leading-relaxed text-foreground-muted">
+                                {step.text}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Node desktop - na środku */}
+                      <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-10 pointer-events-none">
+                        <div className="relative">
+                          <div className="absolute inset-0 rounded-full bg-brand-lime/30 blur-xl group-hover:bg-brand-lime/50 transition-all duration-500" />
+                          <div className="relative size-14 rounded-full bg-background border-2 border-brand-lime shadow-[var(--shadow-card)] flex items-center justify-center group-hover:scale-110 transition-all duration-300">
+                            <span className="text-sm font-bold tabular-nums text-brand-forest-deep">
+                              {String(index + 1).padStart(2, "0")}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  );
+                })}
+              </div>
             </ol>
           </Container>
         </section>
