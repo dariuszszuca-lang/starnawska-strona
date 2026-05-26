@@ -52,7 +52,7 @@ export function OffMarket() {
 
               <h2 className="font-bold tracking-tight text-[clamp(1.75rem,3.5vw,2.5rem)] leading-[1.1]">
                 Nieruchomości, których nigdzie{" "}
-                <span className="text-brand-forest">nie wystawiamy.</span>
+                <span className="text-brand-forest">nie znajdziesz.</span>
               </h2>
 
               <p className="text-base text-foreground-muted leading-relaxed max-w-xl">
@@ -86,7 +86,17 @@ export function OffMarket() {
                     <ArrowRight />
                   </Link>
                 </Button>
-                <span className="text-sm text-foreground-muted">
+                <Button asChild variant="outline" size="lg">
+                  <a
+                    href="https://nieruchomoscispodlady.pl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Sieć Nieruchomości Spod Lady
+                    <ArrowRight />
+                  </a>
+                </Button>
+                <span className="text-sm text-foreground-muted w-full sm:w-auto">
                   Rozmowa 15 minut, bez zobowiązań.
                 </span>
               </div>
