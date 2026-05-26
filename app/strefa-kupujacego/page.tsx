@@ -198,28 +198,36 @@ export default function StrefaKupujacegoPage() {
               </div>
 
               <div className="lg:col-span-6">
-                <div className="grid sm:grid-cols-2 gap-4">
+                <div className="grid sm:grid-cols-2 gap-5">
                   {rolaAgenta.map((item, index) => (
                     <div
                       key={item}
-                      className="group relative flex items-start gap-4 p-6 rounded-2xl border border-border bg-background overflow-hidden shadow-[var(--shadow-soft)] hover:border-brand-lime/60 hover:shadow-[0_12px_32px_-8px_rgba(45,74,31,0.18)] hover:-translate-y-1 transition-all duration-300"
+                      className="group relative rounded-[28px] bg-background border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_20px_50px_-20px_rgba(45,74,31,0.25)] hover:-translate-y-1 transition-all duration-400"
                     >
-                      <div
+                      <span
                         aria-hidden
-                        className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-brand-lime/0 to-brand-lime/0 group-hover:from-brand-lime/[0.05] group-hover:to-brand-lime/[0.12] transition-all duration-500"
-                      />
-                      <div
-                        aria-hidden
-                        className="absolute left-0 top-6 bottom-6 w-[3px] bg-brand-lime/0 group-hover:bg-brand-lime rounded-r-full transition-all duration-300"
-                      />
-                      <span className="relative size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-brand-lime/30 group-hover:rotate-6 transition-all duration-300">
-                        <Check className="size-5" strokeWidth={2.6} />
+                        className="absolute -top-3 right-4 text-[6rem] lg:text-[7rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.20] transition-all duration-500 pointer-events-none select-none"
+                      >
+                        {String(index + 1).padStart(2, "0")}
                       </span>
-                      <div className="relative flex-1 min-w-0">
-                        <div className="text-[10px] font-bold tabular-nums text-brand-olive/70 uppercase tracking-[0.18em] mb-1.5">
-                          0{index + 1}
+                      <div
+                        aria-hidden
+                        className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.04] group-hover:to-brand-lime/[0.10] transition-all duration-500"
+                      />
+                      <div
+                        aria-hidden
+                        className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/60 to-brand-lime/0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                      />
+                      <div className="relative p-6 lg:p-7 min-h-[160px] flex flex-col">
+                        <div className="flex items-center gap-3 mb-4">
+                          <div className="size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center group-hover:bg-brand-lime/30 group-hover:rotate-6 transition-all duration-300">
+                            <Check className="size-5" strokeWidth={2.6} />
+                          </div>
+                          <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-olive/80">
+                            0{index + 1}
+                          </div>
                         </div>
-                        <span className="font-semibold text-foreground leading-snug block">
+                        <span className="font-semibold text-foreground text-base lg:text-lg leading-snug tracking-tight">
                           {item}
                         </span>
                       </div>
@@ -329,18 +337,30 @@ export default function StrefaKupujacegoPage() {
               </div>
 
               <div className="lg:col-span-7">
-                <ul className="grid sm:grid-cols-2 gap-3">
-                  {zaKulisami.map((item) => (
+                <ul className="grid sm:grid-cols-2 gap-4">
+                  {zaKulisami.map((item, index) => (
                     <li
                       key={item}
-                      className="flex items-start gap-3 p-4 rounded-2xl bg-background border border-border shadow-[var(--shadow-soft)]"
+                      className="group relative rounded-2xl bg-background border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_12px_32px_-12px_rgba(45,74,31,0.22)] hover:-translate-y-0.5 transition-all duration-300"
                     >
-                      <span className="size-6 rounded-full bg-brand-lime/20 text-brand-olive flex items-center justify-center shrink-0 mt-0.5">
-                        <Check className="size-3.5" strokeWidth={3} />
+                      <span
+                        aria-hidden
+                        className="absolute -top-2 right-3 text-[4.5rem] font-bold tabular-nums leading-none text-brand-lime/[0.07] group-hover:text-brand-lime/[0.18] transition-all duration-500 pointer-events-none select-none"
+                      >
+                        {String(index + 1).padStart(2, "0")}
                       </span>
-                      <span className="text-foreground leading-relaxed text-sm">
-                        {item}
-                      </span>
+                      <div
+                        aria-hidden
+                        className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/60 to-brand-lime/0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                      />
+                      <div className="relative flex items-start gap-3 p-5">
+                        <span className="size-7 rounded-full bg-brand-lime/20 text-brand-olive flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-brand-lime/35 group-hover:scale-110 transition-all duration-300">
+                          <Check className="size-4" strokeWidth={3} />
+                        </span>
+                        <span className="text-foreground font-medium leading-relaxed text-sm pt-0.5">
+                          {item}
+                        </span>
+                      </div>
                     </li>
                   ))}
                 </ul>
@@ -369,18 +389,39 @@ export default function StrefaKupujacegoPage() {
               </p>
             </div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {dlaKogo.map((item) => (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+              {dlaKogo.map((item, index) => (
                 <div
                   key={item}
-                  className="flex items-start gap-4 p-6 rounded-[28px] bg-surface border border-border shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
+                  className="group relative rounded-[28px] bg-surface border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_20px_50px_-20px_rgba(45,74,31,0.25)] hover:-translate-y-1 transition-all duration-400"
                 >
-                  <span className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0">
-                    <Check className="size-5" strokeWidth={2.6} />
+                  <span
+                    aria-hidden
+                    className="absolute -top-3 right-4 text-[6rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.20] transition-all duration-500 pointer-events-none select-none"
+                  >
+                    {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="font-semibold text-foreground leading-snug pt-1">
-                    {item}
-                  </span>
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.04] group-hover:to-brand-lime/[0.10] transition-all duration-500"
+                  />
+                  <div
+                    aria-hidden
+                    className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/60 to-brand-lime/0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+                  />
+                  <div className="relative p-6 lg:p-7 min-h-[160px] flex flex-col">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center group-hover:bg-brand-lime/30 group-hover:rotate-6 transition-all duration-300">
+                        <Check className="size-5" strokeWidth={2.6} />
+                      </div>
+                      <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-olive/80">
+                        0{index + 1}
+                      </div>
+                    </div>
+                    <span className="font-semibold text-foreground text-base lg:text-lg leading-snug tracking-tight">
+                      {item}
+                    </span>
+                  </div>
                 </div>
               ))}
             </div>
