@@ -136,7 +136,7 @@ export default function StrefaKupujacegoPage() {
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.15),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.10),transparent_60%)]"
         />
-        <Container size="wide" className="relative pt-28 lg:pt-36 pb-16 lg:pb-20">
+        <Container size="wide" className="relative pt-36 lg:pt-44 pb-16 lg:pb-20">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
               <Sparkles className="size-3.5" />
