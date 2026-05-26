@@ -418,7 +418,7 @@ export default function StrefaSprzedajacegoPage() {
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-7">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                  Każdy klient inny
+                  Nasza specjalizacja
                 </p>
                 <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-6">
                   Historie naszych klientów
@@ -436,21 +436,35 @@ export default function StrefaSprzedajacegoPage() {
                 </p>
               </div>
               <div className="lg:col-span-5">
-                <p className="text-xs uppercase tracking-wider text-brand-olive font-semibold mb-5">
+                <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-olive/80 mb-5">
                   Sprzedajemy:
                 </p>
-                <div className="grid gap-2.5">
+                <div className="grid gap-3">
                   {sprzedajemy.map((item, index) => (
                     <div
                       key={item}
-                      className={`flex items-center gap-3 px-5 py-4 rounded-2xl border ${
-                        index % 2 === 0
-                          ? "bg-background border-border"
-                          : "bg-brand-lime/10 border-brand-lime/30"
-                      }`}
+                      className="group relative rounded-2xl bg-background border border-border shadow-[var(--shadow-soft)] overflow-hidden hover:border-brand-lime/60 hover:shadow-[0_16px_40px_-16px_rgba(45,74,31,0.22)] hover:-translate-x-1 transition-all duration-400"
                     >
-                      <span className="size-2 rounded-full bg-brand-lime shrink-0" />
-                      <span className="font-medium text-foreground">{item}</span>
+                      <span
+                        aria-hidden
+                        className="absolute -top-2 right-3 text-[4.5rem] font-bold tabular-nums leading-none text-brand-lime/[0.08] group-hover:text-brand-lime/[0.20] transition-all duration-500 pointer-events-none select-none"
+                      >
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <div
+                        aria-hidden
+                        className="absolute inset-0 bg-gradient-to-r from-brand-lime/0 via-transparent to-brand-lime/0 group-hover:from-brand-lime/[0.06] group-hover:to-brand-lime/[0.10] transition-all duration-500"
+                      />
+                      <div
+                        aria-hidden
+                        className="absolute left-0 top-4 bottom-4 w-[3px] bg-brand-lime/0 group-hover:bg-brand-lime rounded-r-full transition-all duration-300"
+                      />
+                      <div className="relative flex items-center gap-3 px-5 py-4">
+                        <span className="size-8 rounded-lg bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0 group-hover:bg-brand-lime/30 group-hover:rotate-6 transition-all duration-300">
+                          <Check className="size-4" strokeWidth={2.8} />
+                        </span>
+                        <span className="font-semibold text-foreground text-base leading-snug tracking-tight">{item}</span>
+                      </div>
                     </div>
                   ))}
                 </div>
