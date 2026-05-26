@@ -119,7 +119,7 @@ export default function StrefaSprzedajacegoPage() {
             <h1 className="font-bold tracking-tight text-[clamp(1.75rem,4vw,3rem)] leading-[1.1] text-foreground">
               Sprzedaż nieruchomości to strategia.
               <br />
-              <span className="text-foreground-muted">Nie przypadek.</span>
+              <span className="text-brand-forest">Nie przypadek.</span>
             </h1>
             <p className="mt-7 text-lg lg:text-xl text-foreground-muted leading-relaxed max-w-2xl">
               Dobra sprzedaż zaczyna się dużo wcześniej niż publikacja ogłoszenia.

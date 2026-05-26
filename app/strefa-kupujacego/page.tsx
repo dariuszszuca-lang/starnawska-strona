@@ -145,9 +145,7 @@ export default function StrefaKupujacegoPage() {
             <h1 className="font-bold tracking-tight text-[clamp(1.75rem,4vw,3rem)] leading-[1.1] text-foreground">
               Kupujesz nieruchomość?
               <br />
-              <span className="text-foreground-muted">
-                Nie musisz przechodzić przez ten proces sam.
-              </span>
+              <span className="text-brand-forest">Nie musisz przechodzić przez ten proces sam.</span>
             </h1>
             <p className="mt-7 text-lg lg:text-xl text-foreground-muted leading-relaxed max-w-2xl">
               Zakup nieruchomości to jedna z najważniejszych decyzji finansowych i życiowych.
