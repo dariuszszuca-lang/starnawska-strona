@@ -110,13 +110,13 @@ export default function StrefaSprzedajacegoPage() {
           aria-hidden
           className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.15),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.10),transparent_60%)]"
         />
-        <Container size="wide" className="relative pt-36 lg:pt-48 pb-16 lg:pb-24">
+        <Container size="wide" className="relative pt-28 lg:pt-36 pb-16 lg:pb-20">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
               <Sparkles className="size-3.5" />
               Strefa sprzedającego
             </div>
-            <h1 className="font-bold tracking-tight text-[clamp(2.5rem,6vw,5rem)] leading-[1.02] text-foreground">
+            <h1 className="font-bold tracking-tight text-[clamp(1.75rem,4vw,3rem)] leading-[1.1] text-foreground">
               Sprzedaż nieruchomości to strategia.
               <br />
               <span className="text-foreground-muted">Nie przypadek.</span>
@@ -142,14 +142,14 @@ export default function StrefaSprzedajacegoPage() {
       </section>
 
       <Reveal>
-        <section id="jak-pracujemy" className="py-20 lg:py-28 bg-surface scroll-mt-24">
+        <section id="jak-pracujemy" className="py-16 lg:py-24 bg-surface scroll-mt-24">
           <Container size="wide">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-5 lg:sticky lg:top-32">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                   Jak pracujemy?
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
+                <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-6">
                   Jak pracujemy?
                 </h2>
                 <p className="text-lg text-foreground leading-relaxed mb-4">
@@ -187,13 +187,13 @@ export default function StrefaSprzedajacegoPage() {
       </Reveal>
 
       <Reveal>
-        <section className="py-20 lg:py-28">
+        <section className="py-16 lg:py-24">
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                 Co robimy dla sprzedającego?
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-5">
+              <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-5">
                 Co robimy dla sprzedającego?
               </h2>
               <p className="text-lg text-foreground-muted leading-relaxed">
@@ -242,7 +242,7 @@ export default function StrefaSprzedajacegoPage() {
       </Reveal>
 
       <Reveal>
-        <section className="relative py-20 lg:py-28 bg-surface text-foreground overflow-hidden">
+        <section className="relative py-16 lg:py-24 bg-surface text-foreground overflow-hidden">
           <div
             aria-hidden
             className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(163,199,51,0.12),transparent_52%),radial-gradient(ellipse_at_bottom_left,rgba(45,74,31,0.06),transparent_60%)]"
@@ -253,7 +253,7 @@ export default function StrefaSprzedajacegoPage() {
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                   Dlaczego nasze oferty sprzedają się skutecznie?
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] mb-6">
+                <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] mb-6">
                   Dlaczego nasze oferty sprzedają się skutecznie?
                 </h2>
                 <p className="text-lg text-foreground-muted leading-relaxed mb-4">
@@ -293,13 +293,13 @@ export default function StrefaSprzedajacegoPage() {
       </Reveal>
 
       <Reveal>
-        <section className="py-20 lg:py-28">
+        <section className="py-16 lg:py-24">
           <Container size="wide">
             <div className="max-w-3xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                 Współpraca międzyagentowa
               </p>
-              <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-5">
+              <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-5">
                 Współpraca międzyagentowa
               </h2>
               <p className="text-lg text-foreground-muted leading-relaxed">
@@ -331,14 +331,14 @@ export default function StrefaSprzedajacegoPage() {
       </Reveal>
 
       <Reveal>
-        <section className="py-20 lg:py-28 bg-surface">
+        <section className="py-16 lg:py-24 bg-surface">
           <Container size="wide">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-7">
                 <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
                   Historie naszych klientów
                 </p>
-                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground mb-6">
+                <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-6">
                   Historie naszych klientów
                 </h2>
                 <p className="text-xl text-foreground font-semibold leading-relaxed mb-5">
@@ -379,7 +379,7 @@ export default function StrefaSprzedajacegoPage() {
       </Reveal>
 
       <Reveal>
-        <section className="py-20 lg:py-28 bg-surface">
+        <section className="py-16 lg:py-24 bg-surface">
           <Container size="wide">
             <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
               <div className="lg:col-span-4 lg:sticky lg:top-32">
@@ -387,7 +387,7 @@ export default function StrefaSprzedajacegoPage() {
                   <HelpCircle className="size-3.5" />
                   Najczęstsze pytania
                 </div>
-                <h2 className="font-bold tracking-tight text-[clamp(2.25rem,4.5vw,3.5rem)] leading-[1.05] text-foreground">
+                <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground">
                   Najczęściej zadawane pytania
                 </h2>
               </div>
