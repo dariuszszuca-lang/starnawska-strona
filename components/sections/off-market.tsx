@@ -81,12 +81,6 @@ export function OffMarket() {
 
               <div className="flex flex-wrap items-center gap-3 pt-2">
                 <Button asChild variant="lime" size="lg">
-                  <Link href="/konsultacja?intent=spod-lady">
-                    Poproś o dostęp
-                    <ArrowRight />
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg">
                   <a
                     href="https://nieruchomoscispodlady.pl"
                     target="_blank"
