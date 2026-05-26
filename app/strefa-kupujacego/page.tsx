@@ -198,25 +198,38 @@ export default function StrefaKupujacegoPage() {
               </div>
 
               <div className="lg:col-span-6">
-                <div className="grid sm:grid-cols-2 gap-3">
-                  {rolaAgenta.map((item) => (
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {rolaAgenta.map((item, index) => (
                     <div
                       key={item}
-                      className="flex items-start gap-4 p-5 rounded-2xl border border-border bg-background/90 shadow-[var(--shadow-soft)] hover:border-brand-olive/45 hover:-translate-y-0.5 transition-all"
+                      className="group relative flex items-start gap-4 p-6 rounded-2xl border border-border bg-background overflow-hidden shadow-[var(--shadow-soft)] hover:border-brand-lime/60 hover:shadow-[0_12px_32px_-8px_rgba(45,74,31,0.18)] hover:-translate-y-1 transition-all duration-300"
                     >
-                      <span className="size-10 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0 mt-0.5">
+                      <div
+                        aria-hidden
+                        className="absolute inset-0 bg-gradient-to-br from-brand-lime/0 via-brand-lime/0 to-brand-lime/0 group-hover:from-brand-lime/[0.05] group-hover:to-brand-lime/[0.12] transition-all duration-500"
+                      />
+                      <div
+                        aria-hidden
+                        className="absolute left-0 top-6 bottom-6 w-[3px] bg-brand-lime/0 group-hover:bg-brand-lime rounded-r-full transition-all duration-300"
+                      />
+                      <span className="relative size-11 rounded-xl bg-brand-lime/15 text-brand-olive flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-brand-lime/30 group-hover:rotate-6 transition-all duration-300">
                         <Check className="size-5" strokeWidth={2.6} />
                       </span>
-                      <span className="font-semibold text-foreground leading-snug">
-                        {item}
-                      </span>
+                      <div className="relative flex-1 min-w-0">
+                        <div className="text-[10px] font-bold tabular-nums text-brand-olive/70 uppercase tracking-[0.18em] mb-1.5">
+                          0{index + 1}
+                        </div>
+                        <span className="font-semibold text-foreground leading-snug block">
+                          {item}
+                        </span>
+                      </div>
                     </div>
                   ))}
                 </div>
-                <p className="mt-8 text-xl font-semibold text-foreground">
+                <p className="mt-10 text-xl lg:text-2xl font-bold text-foreground leading-snug tracking-tight">
                   Reprezentujemy interes kupującego.
                   <br />
-                  I właśnie to robi ogromną różnicę.
+                  <span className="text-brand-forest">I właśnie to robi ogromną różnicę.</span>
                 </p>
               </div>
             </div>
