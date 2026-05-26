@@ -96,9 +96,6 @@ export function OffMarket() {
                     <ArrowRight />
                   </a>
                 </Button>
-                <span className="text-sm text-foreground-muted w-full sm:w-auto">
-                  Rozmowa 15 minut, bez zobowiązań.
-                </span>
               </div>
 
               {/* Hasło NSL */}
