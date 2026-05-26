@@ -44,9 +44,10 @@ export type SendOptions = {
   html: string;
   text?: string;
   replyTo?: string;
+  bcc?: string | string[];
 };
 
-export async function sendEmail({ to, subject, html, text, replyTo }: SendOptions): Promise<void> {
+export async function sendEmail({ to, subject, html, text, replyTo, bcc }: SendOptions): Promise<void> {
   const transporter = getTransporter();
   const from = process.env.SMTP_FROM || process.env.SMTP_USER;
 
@@ -57,6 +58,7 @@ export async function sendEmail({ to, subject, html, text, replyTo }: SendOption
     html,
     text: text || stripHtml(html),
     replyTo,
+    bcc,
   });
 }
 

@@ -50,7 +50,7 @@ export function Testimonials() {
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
               Co mówią klienci,
               <br />
-              <span className="text-foreground-muted">którzy z nami sprzedali.</span>
+              <span className="text-brand-forest">którzy z nami sprzedali.</span>
             </h2>
           </div>
           <div className="lg:col-span-5 flex flex-wrap items-center gap-4">
@@ -63,7 +63,7 @@ export function Testimonials() {
             </div>
             <div className="flex items-center gap-3 pl-4 border-l border-border text-sm">
               <span className="font-semibold text-foreground tabular-nums">{items.length}+</span>
-              <span className="text-foreground-muted">opinii w {new Date().getFullYear()}</span>
+              <span className="text-brand-forest">opinii w {new Date().getFullYear()}</span>
             </div>
             <div className="flex items-center gap-2 pl-4 border-l border-border text-xs">
               <span className="inline-flex items-center gap-1.5 text-foreground-muted mr-1">

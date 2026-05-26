@@ -120,7 +120,7 @@ export function CaseStudies() {
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
               3 mieszkania. 3 historie.
               <br />
-              <span className="text-foreground-muted">Liczby na końcu.</span>
+              <span className="text-brand-forest">Liczby na końcu.</span>
             </h2>
           </div>
           <Button asChild variant="outline" size="md">

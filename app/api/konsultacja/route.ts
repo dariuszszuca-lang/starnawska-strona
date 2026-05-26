@@ -22,6 +22,7 @@ const intentLabels: Record<string, string> = {
 };
 
 const FALLBACK_TO = process.env.CONSULTATION_TO_EMAIL || "biuro@starnawska.pl";
+const OWNERS_BCC = process.env.CONSULTATION_OWNERS_BCC || "nieruchomosci@starnawska.pl";
 
 export async function POST(req: Request) {
   let payload: unknown;
@@ -64,6 +65,7 @@ export async function POST(req: Request) {
   try {
     await sendEmail({
       to: recipients,
+      bcc: OWNERS_BCC,
       subject,
       html,
       replyTo: data.email || undefined,

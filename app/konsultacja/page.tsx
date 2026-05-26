@@ -32,7 +32,7 @@ export default async function KonsultacjaPage({
             <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Zacznijmy
               <br />
-              <span className="text-foreground-muted">od rozmowy.</span>
+              <span className="text-brand-forest">od rozmowy.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
               30 minut, bez zobowiązań. Napisz co Cię sprowadza, zadzwonimy lub

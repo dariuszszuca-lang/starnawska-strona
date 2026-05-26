@@ -444,7 +444,7 @@ export default async function AgentPage({ params }: { params: Params }) {
                   <p className="text-foreground font-medium text-[15px] leading-relaxed">
                     {siteConfig.address.street}
                     <br />
-                    <span className="text-foreground-muted">
+                    <span className="text-brand-forest">
                       {siteConfig.address.postalCode} {siteConfig.address.city}
                     </span>
                   </p>

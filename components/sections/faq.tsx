@@ -92,7 +92,7 @@ export function FAQ() {
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.05] text-foreground">
               Pytania,
               <br />
-              <span className="text-foreground-muted">które słyszymy codziennie.</span>
+              <span className="text-brand-forest">które słyszymy codziennie.</span>
             </h2>
 
             <p className="text-foreground-muted leading-relaxed">

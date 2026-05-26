@@ -26,7 +26,7 @@ export default function TeamPage() {
             <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Super Agenci.
               <br />
-              <span className="text-foreground-muted">Jeden zespół.</span>
+              <span className="text-brand-forest">Jeden zespół.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
               Wybierz osobę, której styl pracy najlepiej Ci pasuje. Albo zacznij od dowolnej, my przekierujemy Cię tam, gdzie trzeba.

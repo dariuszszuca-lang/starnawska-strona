@@ -35,7 +35,7 @@ export default function BlogPage() {
             <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] text-foreground">
               Co warto wiedzieć
               <br />
-              <span className="text-foreground-muted">zanim kupisz albo sprzedasz.</span>
+              <span className="text-brand-forest">zanim kupisz albo sprzedasz.</span>
             </h1>
             <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
               Wszystko, o co klienci pytają nas najczęściej. W jednym miejscu.

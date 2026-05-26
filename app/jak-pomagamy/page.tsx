@@ -156,7 +156,7 @@ export default function JakPomagamyPage() {
               <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] text-foreground">
                 Sprzedaż, kupno,
                 <br />
-                <span className="text-foreground-muted">wynajem, najem.</span>
+                <span className="text-brand-forest">wynajem, najem.</span>
               </h1>
               <p className="mt-6 text-lg text-foreground-muted leading-relaxed max-w-2xl">
                 Cztery filary naszej pracy. Każdy z nich znamy od podszewki, w każdym mamy zbudowane procedury. Najczęściej pomagamy w jednym obszarze, w praktyce sprawy się łączą: ktoś sprzedaje i szuka nowego mieszkania, ktoś wynajmuje i przygotowuje swoje pod najem. Zaczynamy od rozmowy, potem ustalamy konkretny plan.
@@ -339,7 +339,7 @@ export default function JakPomagamyPage() {
               <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-[1.1] text-foreground">
                 Cztery kroki.
                 <br />
-                <span className="text-foreground-muted">Bez niespodzianek.</span>
+                <span className="text-brand-forest">Bez niespodzianek.</span>
               </h2>
             </div>
 

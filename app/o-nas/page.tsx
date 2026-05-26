@@ -59,7 +59,7 @@ export default function OnasPage() {
             <h1 className="font-bold tracking-tight text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
               Od {siteConfig.foundedYear} roku
               <br />
-              <span className="text-foreground-muted">
+              <span className="text-brand-forest">
                 pomagamy Trójmiastu znaleźć dom.
               </span>
             </h1>
@@ -94,7 +94,7 @@ export default function OnasPage() {
             <h2 className="font-bold tracking-tight text-[clamp(2rem,4vw,3rem)] leading-tight tracking-tight text-foreground">
               Cztery rzeczy,
               <br />
-              <span className="text-foreground-muted">w które wierzymy.</span>
+              <span className="text-brand-forest">w które wierzymy.</span>
             </h2>
           </div>
 
