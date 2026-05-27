@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-25T05:43:56.799Z",
+  "lastSync": "2026-05-27T05:59:38.352Z",
   "offers": [
     {
       "id": "334533",
@@ -2580,6 +2580,94 @@
       "url": "https://starnawska.pl/oferty/6304710",
       "createdAt": "2022-08-20 00:23:00",
       "updatedAt": "2026-05-23 09:47:34"
+    },
+    {
+      "id": "4979901",
+      "offerNumber": "ST761312",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "2 pokoje w nowym budynku z MP - na 2/3 miesiące",
+      "description": "Wygodne, dwu pokojowe mieszkanie położone na osiedlu Słoneczna Morena.\nMieszkanie składa się z dwóch niezależnych pokoi, osobnej kuchni i łazienki. Kuchnia w pełni wyposażona - sprzęt AGD i zabudowa szafek, jest też sporo roboczego blatu. W pokojach pakowne szafy. W sypialni duże łóżko i regały. W salonie miejsce do pracy, kanapa. Dodatkowa szafa na przedpokoju. Z salonu wyjście na duży balkon, z ładnym widokiem od strony południowo zachodniej.\n \nDo mieszkania przynależy MP w hali garażowej oraz piwnica (w cenie).\n\nLokalizacja doskonała pod kątem komunikacji oraz dostępu do wszelkiej infrastruktury. W pobliżu autobusy, tramwaj. Dobry dojazd do PKM, SKM i obwodnicy. Na osiedlu dostępne sklepy i punkty usługowe. W promieniu kilometra centrum handlowe, przychodnia, kolejne punkty usługowe i gastronomiczne.\n\nNiskie koszty utrzymania - ok. 500 zł\n\nDostępne od 1 lipca.",
+      "price": 2850,
+      "pricePerSqm": 70.18,
+      "area": 40.61,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 3,
+      "yearBuilt": 2013,
+      "city": "Gdańsk",
+      "district": "Morena",
+      "street": "ul. Czesława Miłosza",
+      "lat": 54.347,
+      "lng": 18.58947,
+      "images": [
+        {
+          "url": "/oferty/34966767.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/34966758.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966761.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966746.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966749.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966752.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966755.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966740.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966743.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966734.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966737.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966764.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966770.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/34966773.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/4979901",
+      "createdAt": "2021-10-01 08:02:55",
+      "updatedAt": "2026-05-26 13:18:39"
     }
   ]
 }
