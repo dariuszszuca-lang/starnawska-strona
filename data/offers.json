@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-27T05:59:38.352Z",
+  "lastSync": "2026-05-28T05:38:42.965Z",
   "offers": [
     {
       "id": "334533",
@@ -2668,6 +2668,78 @@
       "url": "https://starnawska.pl/oferty/4979901",
       "createdAt": "2021-10-01 08:02:55",
       "updatedAt": "2026-05-26 13:18:39"
+    },
+    {
+      "id": "11996204",
+      "offerNumber": "ST661084",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Bliźniak",
+      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
+      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2.\n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\nPrzedmiotem niniejszej sprzedaży jest projekt „Leśny Zakątek”, którego realizacja\nprowadzona jest w Dobrzewinie przy ul. Ziołowej 2.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze i funkcjonalnym układzie pomieszczeń. To idealna propozycja dla rodzin szukających komfortowego domu z szybkim dojazdem do Trójmiasta.\n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
+      "price": 851000,
+      "pricePerSqm": 5933.21,
+      "area": 143.43,
+      "landArea": 451.85,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 2026,
+      "city": "Dobrzewino",
+      "district": "wejherowski",
+      "street": "ul. Ziołowa",
+      "lat": 54.4610359,
+      "lng": 18.3676949,
+      "images": [
+        {
+          "url": "/oferty/108091541.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/108091535.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091538.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091544.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091547.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091550.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091553.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091565.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091568.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108091571.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl",
+        "slug": "iwona-stepinska"
+      },
+      "url": "https://starnawska.pl/oferty/11996204",
+      "createdAt": "2026-05-20 06:39:41",
+      "updatedAt": "2026-05-28 04:20:11"
     }
   ]
 }
