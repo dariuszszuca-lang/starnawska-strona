@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-29T06:13:08.226Z",
+  "lastSync": "2026-05-30T06:23:55.880Z",
   "offers": [
     {
       "id": "334533",
@@ -2238,55 +2238,17 @@
     },
     {
       "id": "11921168",
-      "offerNumber": "ST760101",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Kawalerka po kapitalnym remoncie przy SKM",
-      "description": "Przytulna kawalerka w świetnej lokalizacji - blisko SKM, licznych połączeń autobusowych i infrastruktury. \n\nSzukasz samodzielnego mieszkania w cenie niewiele wyższej niż wynajem pokoju? Ta oferta jest dla Ciebie! Idealna propozycja dla singla, ceniącego prywatność i niskie koszty utrzymania.\nMieszkanie składa się z ustawnego pokoju z aneksem kuchennym, zabudowanego przedpokoju, który zapewni miejsce do przechowywania oraz łazienki z prysznicem. Wszystko po kapitalnym remoncie, zabudowy na wymiar, które idealnie zagospodarowały niewielką przestrzeń.\n\nBardzo jasne, ciepłe i wyjątkowo funkcjonalne (dużo schowków i szaf - w pokoju i na przedpokoju). Wyposażone w płytę indukcyjną, piekarnik, lodówkę z zamrażarką, pralkę. \n\nDodatki: Komórka lokatorska na tym samym piętrze oraz ogólnodostępny parking pod blokiem.\n\nLokalizacja (wszędzie blisko!): Bezpośrednio przy stacji SKM i przystankach autobusowych.\n\nW sąsiedztwie pełna infrastruktura: sklepy, punkty gastronomiczne i usługowe.\n\nNISKIE KOSZTY UTRZYMANIA\nCzynsz najmu: 1700 zł\nOpłaty administracyjne (z zaliczką na wodę i ogrzewanie): średnio 400 zł\nPrąd: według zużycia.\nKaucja: 2500 zł.\n\nPreferowany najem długoterminowy (najem okazjonalny). Dostępne od zaraz!",
-      "price": 1700,
-      "pricePerSqm": 101.8,
-      "area": 16.7,
-      "rooms": 1,
-      "floor": 5,
-      "totalFloors": 10,
-      "yearBuilt": 1973,
-      "city": "Gdynia",
-      "district": "Leszczynki",
-      "street": "ul. Chylońska",
-      "lat": 54.5367053,
-      "lng": 18.4778265,
-      "images": [
-        {
-          "url": "/oferty/107161148.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/107161139.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107161145.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107161127.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107161133.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
+      "offerNumber": "",
+      "transaction": "sprzedaz",
+      "type": "inne",
+      "title": "Nieruchomość, Trójmiasto",
+      "price": 0,
+      "area": 0,
+      "city": "Trójmiasto",
+      "images": [],
       "url": "https://starnawska.pl/oferty/11921168",
-      "createdAt": "2026-04-30 07:53:47",
-      "updatedAt": "2026-05-04 11:24:45"
+      "createdAt": "2026-05-30T06:23:55.872Z",
+      "updatedAt": "2026-05-30T06:23:55.872Z"
     },
     {
       "id": "11929373",
