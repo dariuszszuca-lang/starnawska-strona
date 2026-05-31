@@ -136,9 +136,10 @@ export function Hero() {
           </div>
           <div>
             <dt className="text-xs uppercase tracking-wider text-foreground-muted">Ocena</dt>
-            <dd className="text-2xl lg:text-3xl font-bold mt-1 text-foreground inline-flex items-baseline gap-1 tabular-nums">
-              {siteConfig.metrics.rating}
-              <span className="text-xs text-brand-lime">★</span>
+            <dd className="text-2xl lg:text-3xl font-bold mt-1 text-foreground inline-flex items-baseline gap-0.5 tabular-nums">
+              {siteConfig.metrics.ratingDisplay}
+              <span className="text-sm text-foreground-muted font-semibold">/{siteConfig.metrics.ratingMax}</span>
+              <span className="text-xs text-brand-lime ml-0.5">★</span>
             </dd>
           </div>
         </motion.dl>

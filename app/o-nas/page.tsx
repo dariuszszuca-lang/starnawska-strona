@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "O nas. Historia biura w Gdyni Orłowie od 2011 roku",
   description:
-    "Starnawska & Boleńska Nieruchomości. Od 2011 roku w Gdyni Orłowie. Ponad 1500 transakcji w Trójmieście i okolicach. Jedna zasada: Twoje potrzeby są naszym priorytetem.",
+    "Starnawska & Boleńska Nieruchomości. Od 2011 roku w Gdyni Orłowie. Ponad 1000 transakcji w Trójmieście i okolicach. Jedna zasada: Twoje potrzeby są naszym priorytetem.",
 };
 
 const values = [
@@ -42,7 +42,7 @@ const timeline = [
   {
     year: `${new Date().getFullYear()}`,
     title: "Teraz",
-    body: "Ponad 1500 transakcji, partnerzy: PFRN, SPPON, Nieruchomości Spod Lady.",
+    body: "Ponad 1000 transakcji, partnerzy: PFRN, SPPON, Nieruchomości Spod Lady.",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function OnasPage() {
             <Metric value={`${siteConfig.metrics.yearsActive}+`} label="lat na rynku" />
             <Metric value={siteConfig.metrics.transactions} label="transakcji" />
             <Metric value={`${siteConfig.metrics.teamSize}`} label="ekspertek w zespole" />
-            <Metric value={`${siteConfig.metrics.rating} ★`} label="średnia ocen klientów" />
+            <Metric value={`${siteConfig.metrics.ratingDisplay}/${siteConfig.metrics.ratingMax}`} label="średnia ocen klientów" />
           </div>
         </Container>
       </section>

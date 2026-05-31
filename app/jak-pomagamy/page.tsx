@@ -38,7 +38,7 @@ const services = [
     ],
     caseStudy: {
       label: "Ostatnio",
-      text: "Mieszkanie 78 m² w Sopocie. Sprzedane w 14 dni, 8% powyżej średniej dzielnicowej.",
+      text: "2 działki w Nowym Dworze Wejherowskim sprzedane 14 dni od podpisania umowy pośrednictwa. Dom w Wejherowie sprzedany 18 dni od publikacji oferty. Mieszkanie w Gdyni sprzedane 1 250 zł za m² drożej od średniej na osiedlu.",
     },
     cta: "Sprzedaj z nami",
     tone: "default" as const,
@@ -59,7 +59,7 @@ const services = [
     ],
     caseStudy: {
       label: "Z naszych historii",
-      text: "Klient z Niemiec szukał mieszkania w Orłowie. Pokazaliśmy 4 oferty (jedną off-market), wybór padł na drugą. Akt przez pełnomocnictwo, klient w Polsce był tylko raz.",
+      text: "Klient z Niemiec szukał mieszkania w Gdańsku. Pokazaliśmy 2 oferty, w tym jedną off market. Druga spełniła wszystkie jego potrzeby i zakup zrealizowaliśmy w trakcie jednego pobytu.",
     },
     cta: "Kupuj z nami",
     tone: "lime" as const,
@@ -78,8 +78,8 @@ const services = [
       "Pomoc w negocjacji warunków",
     ],
     caseStudy: {
-      label: "Średnio",
-      text: "Klient znajduje mieszkanie i wprowadza się w 10 dni. Pełna umowa, znana kaucja, jasne warunki.",
+      label: "Z naszych historii",
+      text: "Poszukiwanie mieszkania dla klientów spoza Polski. Wskazaliśmy oferty spełniające ich oczekiwania, przygotowaliśmy umowę dwujęzyczną i przeprowadziliśmy przez wszystkie procedury najmu okazjonalnego.",
     },
     cta: "Znajdź mieszkanie",
     tone: "default" as const,
@@ -98,8 +98,8 @@ const services = [
       "Pomoc przy rozliczeniach administracji",
     ],
     caseStudy: {
-      label: "Średnio",
-      text: "Najemca w 7-10 dni. Roczna umowa, pełna dokumentacja, zero pustostanu między najemcami.",
+      label: "Z naszych historii",
+      text: "Właścicielki miały wysokie wymagania wobec najemców swojego domu. Mimo wcześniejszego zainteresowania innych osób, umowę zrealizowaliśmy dopiero po pojawieniu się odpowiedniego najemcy.",
     },
     cta: "Wynajmijmy razem",
     tone: "default" as const,
@@ -107,10 +107,8 @@ const services = [
 ];
 
 const stats = [
-  { value: "120+", label: "transakcji rocznie" },
-  { value: "14", label: "dni. Średni czas sprzedaży" },
-  { value: "73", label: "dzielnic, które znamy" },
-  { value: "73%", label: "klientów z polecenia" },
+  { value: "95%", label: "zrealizowanych zleceń" },
+  { value: "90%", label: "klientów z polecenia" },
 ];
 
 const processSteps = [

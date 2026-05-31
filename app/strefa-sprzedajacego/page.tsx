@@ -34,7 +34,7 @@ const obszary = [
     title: "Marketing",
     points: [
       "promocja w social mediach",
-      "współpraca międzyagentowa",
+      "współpraca międzyagencyjna",
       "marketing off market",
       "baza klientów poszukujących",
       "kampanie reklamowe",
@@ -73,6 +73,7 @@ const wspolpraca = [
 const sprzedajemy = [
   "mieszkania",
   "domy",
+  "działki",
   "nieruchomości inwestycyjne",
   "nieruchomości premium",
   "nieruchomości nad morzem",
@@ -86,7 +87,7 @@ const faq = [
   },
   {
     q: "Czy pomagacie przygotować nieruchomość do sprzedaży?",
-    a: "Tak. Doradzamy, jak przygotować nieruchomość, aby zwiększyć jej atrakcyjność.",
+    a: "Tak. Doradzamy, jak przygotować nieruchomość, aby zwiększyć jej atrakcyjność. Współpracujemy z home stagerami, mamy własny magazyn wyposażenia i profesjonalnego fotografa wnętrz.",
   },
   {
     q: "Czy współpracujecie z innymi biurami?",
@@ -366,7 +367,7 @@ export default function StrefaSprzedajacegoPage() {
                 Sieć współpracy
               </p>
               <h2 className="font-bold tracking-tight text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15] text-foreground mb-5">
-                Współpraca międzyagentowa
+                Współpraca międzyagencyjna
               </h2>
               <p className="text-lg text-foreground-muted leading-relaxed">
                 Wierzymy, że dobra współpraca zwiększa skuteczność sprzedaży.

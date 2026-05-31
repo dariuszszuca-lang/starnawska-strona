@@ -49,7 +49,7 @@ const services: Service[] = [
       { icon: Building, label: "Publikacja w 30+ portalach i naszej bazie" },
       { icon: FileSignature, label: "Dokumenty do aktu notarialnego" },
     ],
-    stat: { value: "6 tyg.", label: "średni czas sprzedaży" },
+    stat: { value: "95%", label: "zrealizowanych zleceń" },
     cta: "Sprzedaj z nami",
     href: "/jak-pomagamy#sprzedaz",
   },

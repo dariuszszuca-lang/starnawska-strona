@@ -49,8 +49,10 @@ export const siteConfig = {
   /** Liczby na hero / sekcję USP. Placeholdery do potwierdzenia */
   metrics: {
     yearsActive: new Date().getFullYear() - 2011,
-    transactions: "1500+",
+    transactions: "1000+",
     rating: "5.0",
+    ratingDisplay: "5,9",
+    ratingMax: "6",
     teamSize: 9,
   },
 } as const;
