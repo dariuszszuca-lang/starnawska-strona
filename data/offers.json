@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-05-30T06:23:55.880Z",
+  "lastSync": "2026-05-31T06:19:36.895Z",
   "offers": [
     {
       "id": "334533",
@@ -2237,20 +2237,6 @@
       "updatedAt": "2026-05-03 04:20:07"
     },
     {
-      "id": "11921168",
-      "offerNumber": "",
-      "transaction": "sprzedaz",
-      "type": "inne",
-      "title": "Nieruchomość, Trójmiasto",
-      "price": 0,
-      "area": 0,
-      "city": "Trójmiasto",
-      "images": [],
-      "url": "https://starnawska.pl/oferty/11921168",
-      "createdAt": "2026-05-30T06:23:55.872Z",
-      "updatedAt": "2026-05-30T06:23:55.872Z"
-    },
-    {
       "id": "11929373",
       "offerNumber": "ST346379",
       "transaction": "sprzedaz",
@@ -2778,6 +2764,106 @@
       "url": "https://starnawska.pl/oferty/12049100",
       "createdAt": "2026-05-28 21:52:06",
       "updatedAt": "2026-05-28 21:55:13"
+    },
+    {
+      "id": "11740850",
+      "offerNumber": "ST699920",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
+      "description": "Na wynajem przestronne, 5-pokojowe mieszkanie, położone w prestiżowej dzielnicy Wrzeszcz w Gdańsku. To słoneczne wnętrze mieści się w pięknej, odrestaurowanej kamienicy.\nLOKALIZACJA\nNieruchomość znajduje się w Górnym Wrzeszczu, jednej z najbardziej cenionych części Gdańska. Okolica zapewnia dostęp do licznych sklepów, restauracji i terenów zielonych, a także bardzo dobrą komunikację z pozostałymi częściami miasta. W pobliżu znajdują się m.in. Centrum Manhattan, Galeria Bałtycka, Politechnika Gdańska oraz Gdański Uniwersytet Medyczny. Wzdłuż budynku obowiązuje strefa płatnego parkowania z możliwością wykupienia abonamentu.\nBUDYNEK\nMieszkanie usytuowane jest na drugim piętrze odnowionej, historycznej kamienicy, wyróżniającej się elegancką architekturą. Duże okna o ekspozycji wschód-zachód zapewniają doskonałe doświetlenie wnętrz przez cały dzień.\nMIESZKANIE\nLokal składa się z pięciu pokoi, urządzonych w podwyższonym standardzie. Przestronny salon (ok. 22 m²) stanowi idealne miejsce do relaksu i spotkań. Do dyspozycji jest również obszerna jadalnia połączona z nowoczesnym aneksem kuchennym (ok. 25 m²), w pełni wyposażonym w sprzęt AGD.\nMieszkanie oferuje trzy komfortowe sypialnie o powierzchniach ok. 14 m², 13 m² i 10 m². Jedno z pomieszczeń można z łatwością zaaranżować jako gabinet.\nW lokalu znajduje się przestronny pokój kąpielowy z wanną, prysznicem, WC, bidetem oraz pralką.\n\nW zależności od potrzeb Najemcy mieszkanie może być udostępnione w pełni umeblowane, częściowo umeblowane lub bez mebli!\n\n Dodatkowym atutem jest duża piwnica o powierzchni ok. 25 m² oraz możliwość korzystania ze strychu.\nFINANSE\nCzynsz najmu: 6500zł/miesiąc\nOpłaty administracyjne: ok. 960 zł/miesiąc\nDodatkowo: media (prąd, gaz, internet, TV)\nKaucja: 9000 zł\nNajem okazjonalny, długoterminowy - minimum 12 miesięcy.\nZapraszam do kontaktu i na prezentacje.",
+      "price": 6500,
+      "pricePerSqm": 59.13,
+      "rent": 960,
+      "area": 109.93,
+      "rooms": 5,
+      "floor": 2,
+      "totalFloors": 3,
+      "city": "Gdańsk",
+      "district": "Wrzeszcz Górny",
+      "street": "ul. gen. de Gaulle'a",
+      "lat": 54.3791301,
+      "lng": 18.6004696,
+      "images": [
+        {
+          "url": "/oferty/108642233.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/108642230.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642215.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642206.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642161.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642209.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642218.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642185.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642188.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642191.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642227.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642224.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642200.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642203.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642176.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642197.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642194.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Katarzyna Kaszuba",
+        "phone": "668305552",
+        "email": "kkaszuba@starnawska.pl",
+        "slug": "katarzyna-kaszuba"
+      },
+      "url": "https://starnawska.pl/oferty/11740850",
+      "createdAt": "2026-03-30 22:01:42",
+      "updatedAt": "2026-05-30 11:16:11"
     }
   ]
 }
