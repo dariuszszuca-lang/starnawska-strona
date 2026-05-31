@@ -9,7 +9,14 @@ export const siteConfig = {
   tagline: "Twoje potrzeby naszym priorytetem",
   description:
     "Biuro nieruchomości w Gdyni Orłowie od 2011 roku. Sprzedaż, wynajem, kredyty hipoteczne. Trójmiasto i okolice.",
-  url: "https://starnawska.pl",
+  // Origin dla metadataBase / og:image / canonical.
+  // Musi wskazywać tam, GDZIE realnie serwowane są zdjęcia (inaczej FB nie pobierze og:image).
+  // Priorytet: jawny env -> domena produkcyjna Vercela (po przeniesieniu domeny = starnawska.pl) -> fallback.
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "https://starnawska.pl"),
   ogImage: "/og.jpg",
 
   /** Adres biura */

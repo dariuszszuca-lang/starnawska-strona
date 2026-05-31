@@ -50,10 +50,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     openGraph: {
       title: offerTitle(offer),
       description: offer.description?.slice(0, 200),
-      images: offer.images.slice(0, 1).map((img) => ({
-        url: img.url,
-        alt: img.alt ?? offerTitle(offer),
-      })),
+      images: (() => {
+        const primary = offer.images.find((i) => i.primary) ?? offer.images[0];
+        return primary ? [{ url: primary.url, alt: primary.alt ?? offerTitle(offer) }] : [];
+      })(),
+      type: "website",
     },
   };
 }
