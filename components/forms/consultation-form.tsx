@@ -82,7 +82,7 @@ export function ConsultationForm({ agentka }: { agentka?: string }) {
         </h2>
         <p className="text-foreground-muted leading-relaxed">
           Wiadomość trafiła do biura. Zadzwonimy lub odpiszemy w ciągu jednego dnia
-          roboczego. Jeśli sprawa jest pilna, zadzwoń bezpośrednio: 532 843 660.
+          roboczego. Jeśli sprawa jest pilna, zadzwoń bezpośrednio: 608 692 552.
         </p>
       </div>
     );
@@ -236,7 +236,7 @@ export function ConsultationForm({ agentka }: { agentka?: string }) {
         <div className="flex items-start gap-3 p-4 rounded-2xl bg-red-50 border border-red-200 text-red-900">
           <AlertCircle className="size-5 shrink-0 mt-0.5" />
           <p className="text-sm">
-            Coś poszło nie tak. Spróbuj jeszcze raz, albo zadzwoń: 532 843 660.
+            Coś poszło nie tak. Spróbuj jeszcze raz, albo zadzwoń: 608 692 552.
           </p>
         </div>
       )}

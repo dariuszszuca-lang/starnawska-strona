@@ -145,18 +145,20 @@ export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "em
           {/* Quick row: location + price + button */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-2.5">
             <FieldWrap label="Miasto" colSpan="md:col-span-3">
-              <select
+              <input
+                type="text"
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
-                className="form-select"
-              >
-                <option value="">Dowolne</option>
+                list="city-options"
+                placeholder="Dowolne, np. Gdynia, Kielno"
+                className="form-input"
+                autoComplete="off"
+              />
+              <datalist id="city-options">
                 {cityOptions.map((c) => (
-                  <option key={c} value={c}>
-                    {c}
-                  </option>
+                  <option key={c} value={c} />
                 ))}
-              </select>
+              </datalist>
             </FieldWrap>
             <FieldWrap label="Dzielnica / lokalizacja" colSpan="md:col-span-3">
               <input
