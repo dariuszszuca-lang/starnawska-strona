@@ -545,9 +545,9 @@ export default function StrefaSprzedajacegoPage() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline" size="lg">
-                    <a href="tel:+48532843660">
+                    <a href="tel:+48608692552">
                       <Phone />
-                      532 843 660
+                      608 692 552
                     </a>
                   </Button>
                 </div>
