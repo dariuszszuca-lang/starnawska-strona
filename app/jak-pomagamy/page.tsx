@@ -67,7 +67,7 @@ const services = [
   {
     id: "wynajem",
     icon: KeyRound,
-    title: "Wynajem",
+    title: "Najem",
     lead: "Znajdź mieszkanie do wynajęcia w Trójmieście.",
     body: "Pokazujemy oferty z naszej bazy i z rynku. Sprawdzamy stan techniczny i umowę najmu. Pomagamy negocjować warunki, żebyś nie wpadł na trudnego właściciela.",
     points: [
@@ -87,7 +87,7 @@ const services = [
   {
     id: "najem",
     icon: Building,
-    title: "Najem",
+    title: "Wynajem",
     lead: "Wynajmij swoje mieszkanie bez zmartwień.",
     body: "Znajdujemy najemcę, weryfikujemy go, podpisujemy umowę najmu okazjonalnego lub instytucjonalnego. Robimy protokół zdawczo-odbiorczy ze zdjęciami. Mieszkanie jest pod kontrolą, Ty masz spokojną głowę.",
     points: [

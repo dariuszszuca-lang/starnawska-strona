@@ -73,7 +73,7 @@ const services: Service[] = [
   {
     id: "wynajem",
     icon: KeyRound,
-    title: "Wynajem",
+    title: "Najem",
     tagline: "Znajdź mieszkanie do wynajęcia w Trójmieście.",
     description:
       "Pokazujemy oferty z naszej bazy i z rynku. Sprawdzamy stan techniczny i umowę. Pomagamy negocjować warunki, żebyś nie wpadł na trudnego właściciela.",
@@ -90,7 +90,7 @@ const services: Service[] = [
   {
     id: "najem",
     icon: Building,
-    title: "Najem",
+    title: "Wynajem",
     tagline: "Wynajmij swoje mieszkanie bez zmartwień.",
     description:
       "Znajdujemy najemcę, weryfikujemy go, podpisujemy umowę najmu okazjonalnego. Robimy protokół zdawczo-odbiorczy ze zdjęciami. Mieszkanie jest pod kontrolą.",

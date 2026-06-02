@@ -19,17 +19,17 @@ const faqs: FAQItem[] = [
   {
     cat: "Sprzedaż",
     q: "Ile kosztuje sprzedaż mieszkania przez biuro?",
-    a: "W Trójmieście standardowa prowizja to 2-3% wartości nieruchomości + VAT. Płaci sprzedający, kupujący, albo strony dzielą się prowizją. Kwota jest negocjowalna przy droższych ofertach. Wszystkie warunki zapisujemy w umowie pośrednictwa, bez gwiazdek.",
+    a: "To zależy. Każdą usługę wyceniamy indywidualnie, po wcześniejszym zapoznaniu się z nieruchomością i rozmowie z klientem. Na ostateczną wycenę wpływają przede wszystkim sytuacja prawna nieruchomości, zakres prac jakie musimy podjąć oraz indywidualnie dobrany plan marketingowy. Dzięki współpracy z biurem klienci osiągają najkorzystniejsze warunki sprzedaży.",
   },
   {
     cat: "Sprzedaż",
-    q: "Jak długo trwa sprzedaż mieszkania w Gdyni?",
-    a: "Średnio 6-10 tygodni od publikacji oferty do podpisania umowy przedwstępnej, plus kolejne 4-8 tygodni do aktu notarialnego, jeśli kupujący bierze kredyt. Krótszy czas to znak dobrze ustalonej ceny, dłuższy oznacza zazwyczaj problem z wyceną lub prezentacją.",
+    q: "Jak długo trwa sprzedaż mieszkania?",
+    a: "Na ostateczny czas transakcji wpływa wiele czynników, zarówno zewnętrznych (takich jak koniunktura gospodarcza czy dostępność kredytów hipotecznych), jak i tych, na które mamy bezpośredni wpływ. Mowa tu o właściwej wycenie, przygotowaniu nieruchomości (np. home stagingu) oraz dobrze przemyślanej komunikacji marketingowej. To właśnie działania podjęte jeszcze przed opublikowaniem ogłoszenia w dużej mierze decydują o tym, jak szybko znajdziesz kupca.",
   },
   {
     cat: "Współpraca",
     q: "Czy podpisujemy wyłączność?",
-    a: "Tak, ale na warunkach uczciwych. Standardowa umowa to 3-6 miesięcy z prawem wypowiedzenia 30-dniowego. Comiesięcznie wysyłamy raport z aktywności: ile pokazów, ile zapytań, jakie kontroferty. Wyłączność to warunek skutecznej promocji w naszej bazie pośredników.",
+    a: "Zdecydowanie tak. Podpisanie umowy na wyłączność z jednym pośrednikiem to najskuteczniejszy sposób na szybką i zyskowną sprzedaż nieruchomości. Wbrew pozorom, takie rozwiązanie nie ogranicza zasięgu oferty, lecz maksymalizuje jej potencjał. Agent pracujący na wyłączność angażuje 100% swoich sił i środków finansowych w promocję, ponieważ ma gwarancję wynagrodzenia za swój wysiłek. Nieruchomość zyskuje status oferty premium, co budzi większe zainteresowanie i zaufanie ze strony potencjalnych kupujących. Unika się dzięki temu chaosu, w którym to samo mieszkanie pojawia się w sieci wielokrotnie, z różnymi cenami i opisami, co zawsze budzi podejrzliwość klientów. Co więcej, pośrednik ma komfort czasowy, by profesjonalnie przygotować ofertę: zainwestować w home staging, profesjonalną sesję zdjęciową czy wirtualny spacer. Sprzedający zyskuje też jednego, odpowiedzialnego partnera do kontaktu, który dba o jego interesy i filtruje rzetelnych kupujących. Taka relacja pozwala agentowi na twarde negocjacje cenowe w imieniu właściciela, bez obawy, że inna agencja podkradnie klienta, obniżając stawkę. W efekcie nieruchomość sprzedaje się średnio o kilkanaście procent szybciej i często za wyższą kwotę. To bezpieczna, przejrzysta i bezstresowa forma współpracy, która po prostu najbardziej się opłaca.",
   },
   {
     cat: "Najem",
@@ -39,12 +39,12 @@ const faqs: FAQItem[] = [
   {
     cat: "Ogólne",
     q: "W jakich miastach pracujecie?",
-    a: "Trójmiasto i okolice. Sporadycznie obsługujemy klientów spoza tego obszaru, jeśli wcześniej mieliśmy z nimi relację.",
+    a: "Trójmiasto i szeroko rozumiane okolice. Działamy wszędzie tam, gdzie jesteśmy ekspertami.",
   },
   {
     cat: "Kredyt",
     q: "Czy pomagacie z kredytem hipotecznym?",
-    a: "Tak. Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy Twoją zdolność kredytową bezpłatnie, porównujemy oferty kilku banków, pomagamy skompletować dokumenty. Nie zarabiamy na prowizjach od banków, więc rekomendacje są neutralne.",
+    a: "Tak. Współpracujemy z niezależnymi pośrednikami kredytowymi. Sprawdzamy Twoją zdolność kredytową bezpłatnie, porównujemy oferty banków i pomagamy w wyborze optymalnej oferty. Wspieramy w całym procesie, od skompletowania dokumentów do uruchomienia kredytu.",
   },
 ];
 
