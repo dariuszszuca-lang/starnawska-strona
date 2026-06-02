@@ -516,38 +516,6 @@ export default async function AgentPage({ params }: { params: Params }) {
         </section>
       </Reveal>
 
-      {/* MOJE AKTUALNE OFERTY */}
-      {offers.length > 0 && (
-        <Reveal>
-          <section className="py-16 lg:py-24">
-            <Container size="wide">
-              <div className="flex flex-wrap items-end justify-between gap-6 mb-10 lg:mb-12">
-                <div className="max-w-xl">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-brand-olive mb-3">
-                    Aktualne oferty
-                  </p>
-                  <h2 className="font-bold tracking-tight text-[clamp(2rem,3.5vw,2.75rem)] leading-[1.1] text-foreground">
-                    W mojej obsłudze.
-                  </h2>
-                </div>
-                <Button asChild variant="outline" size="md">
-                  <Link href={`/oferty?agentka=${member.slug}`}>
-                    Zobacz wszystkie
-                    <ArrowRight />
-                  </Link>
-                </Button>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
-                {offers.slice(0, 6).map((offer) => (
-                  <AgentOfferCard key={offer.id} offer={offer} />
-                ))}
-              </div>
-            </Container>
-          </section>
-        </Reveal>
-      )}
-
       {/* RESZTA ZESPOŁU */}
       <Reveal>
         <section className="py-16 lg:py-24">
