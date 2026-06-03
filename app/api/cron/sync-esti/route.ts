@@ -8,9 +8,6 @@ import type { Offer } from "@/lib/esti/types";
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
-// TEMP: jednorazowe wymuszenie pelnego sync (eksport calosciowy ESTI 03.06). Usunac po.
-const TEMP_SYNC_TOKEN = "zwhhanJGu6cQaA1oEtVa5Y8feFzMZ9Wn";
-
 const OWNER = "dariuszszuca-lang";
 const REPO = "starnawska-strona";
 const BRANCH = "main";
@@ -32,7 +29,6 @@ export async function GET(req: Request) {
   const cronSecret = process.env.CRON_SECRET;
 
   const isAuthorized =
-    url.searchParams.get("t") === TEMP_SYNC_TOKEN ||
     !cronSecret ||
     querySecret === cronSecret ||
     authHeader === `Bearer ${cronSecret}`;
