@@ -1,10 +1,13 @@
 import { NextResponse } from "next/server";
 import { XMLParser } from "fast-xml-parser";
 import { getLatestEstiPackage } from "@/lib/esti/ftp-client";
-import { unpackEstiZip } from "@/lib/esti/parser";
+import { unpackEstiZip, parseEstiXml } from "@/lib/esti/parser";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
+
+// TEMP DIAG TOKEN — usunac po diagnozie ST297928
+const TEMP_DIAG_TOKEN = "WKlRdJyH9iYNVdJI0ABHglfdWtvrrrWZ";
 
 /**
  * Diagnostyka: zwraca surowe XML keys + przykład pierwszej oferty.
@@ -13,8 +16,10 @@ export const maxDuration = 60;
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const querySecret = url.searchParams.get("secret");
+  const tempToken = url.searchParams.get("t");
   const cronSecret = process.env.CRON_SECRET;
-  if (cronSecret && querySecret !== cronSecret) {
+  const okTemp = tempToken === TEMP_DIAG_TOKEN;
+  if (!okTemp && cronSecret && querySecret !== cronSecret) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
@@ -54,20 +59,30 @@ export async function GET(req: Request) {
       }
     }
 
+    // Ile ofert wyciaga PRAWDZIWY parser (to co trafia do offers.json)
+    const parsedOffers = parseEstiXml(xmlText);
+    const offerTagCount = (xmlText.match(/<offer[\s>]/gi) || []).length;
+    const hasST297928 = xmlText.includes("ST297928") || xmlText.includes("297928");
+    // numery wszystkich ofert wg parsera
+    const offerNumbers = parsedOffers
+      .map((o) => o.offerNumber)
+      .filter(Boolean)
+      .slice(0, 200);
+
     return NextResponse.json({
       ok: true,
       package: pkg.name,
       xmlSize: xmlText.length,
-      xmlSample: xmlText.slice(0, 2000),
+      offerTagCount,
+      parsedOffersCount: parsedOffers.length,
+      hasST297928,
+      offerNumbers,
       topLevelKeys: Object.keys(parsed),
       offersWrapper: parsed.offers ? "offers" : parsed.oferty ? "oferty" : "none",
       offersWrapperKeys: rootKeys,
       offerArrayKey: offerKey,
       offerArrayLength: offerArray.length,
-      firstOfferKeys: offerArray[0] && typeof offerArray[0] === "object"
-        ? Object.keys(offerArray[0])
-        : [],
-      firstOffer: offerArray[0] ?? null,
+      xmlSample: xmlText.slice(0, 1500),
     });
   } catch (err) {
     return NextResponse.json({
