@@ -103,26 +103,46 @@ export async function GET(req: Request) {
     const willExistFinal = new Set<string>([...existingFilenames, ...toUpload]);
     const parsedOffers: Offer[] = parseEstiXml(xmlText, willExistFinal);
 
-    // 6a. SAFETY: jeśli nowa paczka ma <50% obecnych ofert, prawdopodobnie to
-    // DELTA z FTP (ESTI wystawia FULL co kilka dni + DELTA codziennie).
-    // W trybie merge: nadpisujemy istniejące po id (delta updates), ale
-    // NIE usuwamy ofert których nie ma w paczce — i nie usuwamy zdjęć.
-    // To chroni przed katastrofą typu "1-element delta wymazała 30 ofert"
-    // (regresja 21eeb98 z 2026-05-19).
+    // 6a. Tryb eksportu czytamy WPROST z atrybutu paczki:
+    //   <offers export="full">        -> pełny snapshot wszystkich aktywnych ofert
+    //   <offers export="incremental"> -> tylko oferty zmienione od ostatniego eksportu
+    // Wcześniej zgadywaliśmy po rozmiarze (parsedOffers < 50% obecnych), co przy
+    // ciągłym incremental (1 oferta/dzień) powodowało, że strona NIGDY nie miała
+    // pełnej, aktualnej listy — tylko sumę przyrostów. Teraz decydujemy jawnie.
+    const exportAttr = (
+      xmlText.match(/<offers[^>]*\bexport="([^"]+)"/i)?.[1] || ""
+    ).toLowerCase();
+    const isFullExport = ["full", "complete", "pelny", "pełny"].includes(exportAttr);
+    const isIncremental = ["incremental", "delta", "przyrostowy"].includes(exportAttr);
+
     const current = await readOffers();
     const currentCount = current?.offers.length ?? 0;
-    const isLikelyDelta =
-      currentCount >= 5 && parsedOffers.length < currentCount * 0.5;
+
+    // Decyzja merge vs replace:
+    //  - jawny FULL        -> REPLACE (autorytatywny stan, czyści sprzedane/zdjęte)
+    //  - jawny INCREMENTAL -> MERGE   (dokładamy deltę po id, nic nie usuwamy)
+    //  - brak atrybutu     -> fallback: dawna heurystyka rozmiaru
+    let useMerge: boolean;
+    if (isFullExport) useMerge = false;
+    else if (isIncremental) useMerge = true;
+    else useMerge = currentCount >= 5 && parsedOffers.length < currentCount * 0.5;
+
+    // SAFETY: pełny eksport nie może wymazać całej bazy przez glitch/pustą paczkę.
+    // Jeśli "full" przyszedł z 0 ofert a mamy zapas — zachowaj obecne, nie nadpisuj.
+    if (!useMerge && parsedOffers.length === 0 && currentCount > 0) {
+      useMerge = true;
+    }
 
     let offers: Offer[];
     let mergeNote = "";
-    if (isLikelyDelta) {
-      const byId = new Map<string, Offer>(current!.offers.map((o) => [o.id, o]));
+    if (useMerge) {
+      const byId = new Map<string, Offer>((current?.offers ?? []).map((o) => [o.id, o]));
       for (const o of parsedOffers) byId.set(o.id, o);
       offers = Array.from(byId.values());
-      mergeNote = ` MERGE(delta=${parsedOffers.length}/existing=${currentCount})`;
+      mergeNote = ` MERGE(${exportAttr || "heur"} delta=${parsedOffers.length}/existing=${currentCount})`;
     } else {
       offers = parsedOffers;
+      mergeNote = ` FULL(${exportAttr || "heur"} count=${parsedOffers.length})`;
     }
 
     // 7. Co usunąć z repo. Tylko w trybie FULL — w merge mode oferty zachowujemy,
@@ -134,7 +154,7 @@ export async function GET(req: Request) {
       }
     }
     const toDelete: string[] = [];
-    if (!isLikelyDelta) {
+    if (!useMerge) {
       for (const fn of existingFilenames) {
         if (!finalReferenced.has(fn)) toDelete.push(fn);
       }
