@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Search, Home, Building2, TreePine, Key, Hash, SlidersHorizontal, ChevronDown, X, LayoutGrid } from "lucide-react";
+import { Search, Home, Building2, TreePine, Hash, SlidersHorizontal, ChevronDown, X, LayoutGrid } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { cn } from "@/lib/utils";
@@ -13,10 +13,17 @@ const types = [
   { value: "dom", label: "Dom", icon: Building2 },
   { value: "dzialka", label: "Działka", icon: TreePine },
   { value: "lokal", label: "Lokal", icon: Building2 },
-  { value: "najem", label: "Wynajem", icon: Key },
 ] as const;
 
 type TypeValue = typeof types[number]["value"];
+
+const transactions = [
+  { value: "wszystkie", label: "Wszystkie" },
+  { value: "sprzedaz", label: "Na sprzedaż" },
+  { value: "najem", label: "Na wynajem" },
+] as const;
+
+type TransactionValue = typeof transactions[number]["value"];
 
 const cityOptions = [
   "Gdynia",
@@ -43,6 +50,7 @@ const stateOptions = [
 
 export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "embed" } = {}) {
   const [type, setType] = useState<TypeValue>("wszystkie");
+  const [transaction, setTransaction] = useState<TransactionValue>("wszystkie");
   const [advanced, setAdvanced] = useState(false);
 
   const [city, setCity] = useState("");
@@ -63,14 +71,10 @@ export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "em
     arr.includes(v) ? set(arr.filter((x) => x !== v)) : set([...arr, v]);
 
   const params = new URLSearchParams();
-  if (type === "najem") {
-    params.set("transakcja", "najem");
-  } else if (type !== "wszystkie") {
-    // Tylko filter typu — bez wymuszania sprzedaży/najmu.
-    // Jeśli user chce wyłącznie sprzedaż, użyje filtra zaawansowanego.
-    params.set("typ", type);
-  }
-  // type === "wszystkie" → bez filtra typu/transakcji = pokaż wszystko
+  // Typ nieruchomości i transakcja są niezależne — można łączyć
+  // (np. wynajem + mieszkanie + cena do 3000).
+  if (type !== "wszystkie") params.set("typ", type);
+  if (transaction !== "wszystkie") params.set("transakcja", transaction);
   if (city) params.set("miasto", city);
   if (district) params.set("dzielnica", district);
   if (market && market !== "wszystkie") params.set("rynek", market);
@@ -117,29 +121,54 @@ export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "em
     <section className={sectionCls}>
       <Container size="default">
         <div className="rounded-3xl bg-surface border border-border shadow-[var(--shadow-card)] p-5 lg:p-7">
-          {/* Type tabs */}
-          <div className="flex flex-wrap gap-2 mb-5">
-            {types.map((t) => {
-              const Icon = t.icon;
-              const active = type === t.value;
-              return (
-                <button
-                  key={t.value}
-                  type="button"
-                  onClick={() => setType(t.value)}
-                  className={cn(
-                    "inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all border",
-                    active
-                      ? "bg-brand-forest text-foreground-on-dark border-brand-forest"
-                      : "bg-transparent text-foreground-muted border-border hover:border-brand-forest hover:text-foreground"
-                  )}
-                  aria-pressed={active}
-                >
-                  <Icon className="size-4" />
-                  {t.label}
-                </button>
-              );
-            })}
+          {/* Type tabs + transaction toggle */}
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3 mb-5">
+            <div className="flex flex-wrap gap-2">
+              {types.map((t) => {
+                const Icon = t.icon;
+                const active = type === t.value;
+                return (
+                  <button
+                    key={t.value}
+                    type="button"
+                    onClick={() => setType(t.value)}
+                    className={cn(
+                      "inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all border",
+                      active
+                        ? "bg-brand-forest text-foreground-on-dark border-brand-forest"
+                        : "bg-transparent text-foreground-muted border-border hover:border-brand-forest hover:text-foreground"
+                    )}
+                    aria-pressed={active}
+                  >
+                    <Icon className="size-4" />
+                    {t.label}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Transakcja: segmented */}
+            <div className="inline-flex shrink-0 rounded-full border border-border bg-gray-50 p-1 self-start lg:self-auto">
+              {transactions.map((tr) => {
+                const active = transaction === tr.value;
+                return (
+                  <button
+                    key={tr.value}
+                    type="button"
+                    onClick={() => setTransaction(tr.value)}
+                    className={cn(
+                      "px-3.5 py-1.5 rounded-full text-sm font-medium transition-all whitespace-nowrap",
+                      active
+                        ? "bg-brand-forest text-foreground-on-dark"
+                        : "bg-transparent text-foreground-muted hover:text-foreground"
+                    )}
+                    aria-pressed={active}
+                  >
+                    {tr.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
           {/* Quick row: location + price + button */}
@@ -331,7 +360,7 @@ export function QuickSearch({ variant = "overlay" }: { variant?: "overlay" | "em
               </div>
 
               {/* Stan */}
-              {type !== "dzialka" && type !== "najem" && (
+              {type !== "dzialka" && transaction !== "najem" && (
                 <div>
                   <p className="text-xs font-medium text-foreground-muted mb-2">Stan</p>
                   <div className="flex flex-wrap gap-2">

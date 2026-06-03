@@ -375,6 +375,7 @@ function matchAgentSlug(fullName: string): string | undefined {
     boleńska: "patrycja-sudwoj-bolenska",
     bolenska: "patrycja-sudwoj-bolenska",
     starnawska: "jolanta-starnawska",
+    stuchlik: "alicja-stuchlik",
     kaszuba: "katarzyna-kaszuba",
     klimkiewicz: "agata-klimkiewicz",
     wegner: "dagmara-wegner",

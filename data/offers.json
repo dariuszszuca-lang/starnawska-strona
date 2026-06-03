@@ -1807,7 +1807,8 @@
       "agent": {
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
       },
       "url": "https://starnawska.pl/oferty/11673872",
       "createdAt": "2026-03-11 17:04:36",
@@ -2286,7 +2287,8 @@
       "agent": {
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
       },
       "url": "https://starnawska.pl/oferty/11929373",
       "createdAt": "2026-05-03 20:51:58",
@@ -2425,7 +2427,8 @@
       "agent": {
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
       },
       "url": "https://starnawska.pl/oferty/11995904",
       "createdAt": "2026-05-19 20:24:01",
@@ -2719,7 +2722,8 @@
       "agent": {
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
       },
       "url": "https://starnawska.pl/oferty/12049010",
       "createdAt": "2026-05-28 20:49:32",
@@ -2759,7 +2763,8 @@
       "agent": {
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
       },
       "url": "https://starnawska.pl/oferty/12049100",
       "createdAt": "2026-05-28 21:52:06",
