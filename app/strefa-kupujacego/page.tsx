@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowRight,
+  Building2,
   Calendar,
   Check,
   ClipboardList,
   Compass,
   Handshake,
   HelpCircle,
+  Home,
   KeyRound,
   MessageSquare,
   Phone,
@@ -103,6 +105,130 @@ const motywy = [
   "przestrzeni do pracy zdalnej",
   "nowego początku",
   "bezpieczeństwa dla swojej rodziny",
+];
+
+const historie = [
+  {
+    icon: Building2,
+    title: "Żurawie",
+    essence:
+      "Niektórzy szukają nieruchomości. Inni szukają miejsca, w którym poczują, że są u siebie.",
+    blocks: [
+      {
+        t: "p",
+        c: "Nasza klientka wiedziała jedno: potrzebuje przestrzeni. Przestrzeni do życia. Przestrzeni do pracy. Przestrzeni do oddychania.",
+      },
+      {
+        t: "p",
+        c: "Wśród najważniejszych kryteriów nie pojawiały się modne osiedla czy konkretne adresy. Najczęściej powtarzały się inne słowa: jasność, przestrzeń, natura, aktywność, możliwość biegania i długich spacerów.",
+      },
+      {
+        t: "p",
+        c: "Ponieważ na co dzień mieszkała w innym mieście, cały proces poszukiwań prowadziliśmy zdalnie. Spośród dziesiątek ofert dostępnych na portalach oraz propozycji pozyskanych poza rynkiem publicznym wspólnie wybierałyśmy wyłącznie te, które rzeczywiście odpowiadały jej potrzebom.",
+      },
+      {
+        t: "p",
+        c: "Pierwsza prezentacja online pomogła doprecyzować kierunek poszukiwań. Druga okazała się przełomowa. Klientka zdecydowała się przyjechać do Gdańska i zobaczyć nieruchomość na żywo.",
+      },
+      {
+        t: "p",
+        c: "I właśnie wtedy pojawiły się żurawie. Najpierw podczas podróży do Gdańska. Później po wjeździe do miasta. A kiedy stanęła na tarasie oglądanego mieszkania, zobaczyła je po raz kolejny, wpisane w panoramę Gdańska. Decyzja o zakupie zapadła niemal natychmiast.",
+      },
+      {
+        t: "p",
+        c: "To jednak tylko część tej historii. Klientka nie wiedziała, że równolegle trwał zupełnie inny proces. Niezależne od sprzedających komplikacje związane ze stanem prawnym nieruchomości wymagały ogromnego zaangażowania, wielu rozmów, koordynacji działań różnych stron i walki z czasem. Dla kupującej ten etap pozostał niewidoczny. Celowo.",
+      },
+      {
+        t: "p",
+        c: "Naszym zadaniem było nie tylko znaleźć odpowiednią nieruchomość, ale również zadbać o to, aby mogła przejść przez cały proces spokojnie i bez dodatkowego stresu. Dopiero podczas podpisywania aktu notarialnego dowiedziała się, jak wiele pracy zostało wykonane za kulisami.",
+      },
+      {
+        t: "quote",
+        lead: "Pamiętam jej słowa",
+        c: "Dziękuję, że nie byłam częścią tego procesu.",
+      },
+      {
+        t: "p",
+        c: "Dla nas był to jeden z największych komplementów. Bo czasami najlepsza praca agenta polega właśnie na tym, że klient nie musi mierzyć się z problemami, które mogłyby odebrać mu radość z zakupu wymarzonego miejsca.",
+      },
+      {
+        t: "p",
+        c: "A kilka tygodni później, jadąc na podpisanie aktu notarialnego, klientka ponownie zauważyła żurawie. Nawet obok kancelarii notarialnej pracowały kolejne, tym razem budowlane. Przypadek? Być może. Dla niej były symbolem, że jest dokładnie tam, gdzie powinna być.",
+      },
+      {
+        t: "closing",
+        c: "A dla nas ta historia jest przypomnieniem, że zakup nieruchomości zaczyna się od marzeń klienta, ale bardzo często kończy się sukcesem dzięki pracy, której klient nigdy nie widzi.",
+      },
+    ],
+    efekt: [
+      "2 prezentacje online",
+      "1 prezentacja na żywo",
+      "Zakup nieruchomości spełniającej wszystkie priorytetowe potrzeby klientki",
+      "Przeprowadzenie klientki przez cały proces bez angażowania jej w skomplikowane kwestie formalne i prawne",
+      "Pełna koordynacja procesu od pierwszej rozmowy do aktu notarialnego",
+    ],
+  },
+  {
+    icon: Home,
+    title: "Po 30 latach wrócili do domu",
+    essence:
+      "Nie każda nieruchomość jest marzeniem. Ale za niektórymi zakupami stoją marzenia budowane przez całe życie.",
+    blocks: [
+      {
+        t: "p",
+        c: "Tak było w przypadku naszych klientów, którzy od wielu lat mieszkali poza granicami Polski. Od początku wiedzieli jedno: kiedy przyjdzie czas emerytury, chcą wrócić do kraju i zamieszkać w ukochanym Gdańsku. Przez ponad 30 lat pracowali na ten moment. Na miejsce, które będzie ich domem.",
+      },
+      {
+        t: "p",
+        c: "Zanim trafili do nas, próbowali kupić nieruchomość samodzielnie. Współpracowali również z pośrednikiem, który deklarował obsługę kupującego. Niestety szybko okazało się, że pomiędzy pokazywaniem mieszkań a prawdziwym reprezentowaniem interesów klienta jest ogromna różnica.",
+      },
+      {
+        t: "p",
+        c: "Intuicja podpowiadała im, że potrzebują osoby, która zrozumie, że nie chodzi o zwykłą transakcję. Chodzi o spełnienie marzenia. Do nas trafili z polecenia pośrednika z innego miasta.",
+      },
+      {
+        t: "p",
+        c: "Już podczas pierwszych rozmów wiedzieliśmy, że najważniejsze są dla nich dwie rzeczy: bezpieczeństwo oraz gotowość do zamieszkania od pierwszego dnia. Nie szukali okazji inwestycyjnej. Nie chcieli remontów. Nie planowali wielomiesięcznych prac wykończeniowych. Po latach pracy chcieli po prostu otworzyć drzwi, wnieść swoje rzeczy i rozpocząć nowy etap życia.",
+      },
+      {
+        t: "p",
+        c: "Dodatkowym wyzwaniem był fakt, że nie czuli się komfortowo w dzisiejszym, mocno zdigitalizowanym świecie. Dokumenty elektroniczne, procedury, systemy bankowe i formalności budziły więcej obaw niż ekscytacji. Dlatego od początku wiedzieliśmy, że równie ważne jak znalezienie odpowiedniego mieszkania będzie zapewnienie im poczucia bezpieczeństwa na każdym etapie procesu.",
+      },
+      {
+        t: "beat",
+        lead: "I wtedy wydarzyło się coś, co zdarza się niezwykle rzadko.",
+        c: "Pierwsza prezentacja. Pierwsze mieszkanie. Pierwsza decyzja. Kupujemy.",
+      },
+      {
+        t: "p",
+        c: "Nieruchomość znaleźliśmy dzięki współpracy z pośrednikiem działającym w społeczności Nieruchomości Spod Lady, sieci współpracy, która od lat pozwala naszym klientom docierać do najlepszych ofert dostępnych na rynku.",
+      },
+      {
+        t: "p",
+        c: "Na prezentacji obecny był mąż. Żona została w domu. Po obejrzeniu nieruchomości przygotowaliśmy dla niej szczegółowy materiał wideo, dzięki któremu mogła zobaczyć mieszkanie niemal tak, jakby była tam osobiście. To wystarczyło. Po wielu rozmowach i analizach zapadła ostateczna decyzja.",
+      },
+      {
+        t: "p",
+        c: "Kilka tygodni później oboje przyjechali do Gdańska na podpisanie aktu notarialnego. Co ciekawe, żona nadal nie widziała swojego nowego mieszkania na żywo. Po raz pierwszy przekroczyła jego próg już jako właścicielka.",
+      },
+      {
+        t: "p",
+        c: "Pamiętam ten moment doskonale. Po otwarciu drzwi zatrzymała się na chwilę. Słońce wpadało przez okna, rozświetlając całe wnętrze. A ona zakryła dłonią uśmiechniętą twarz. Nie trzeba było nic mówić. Wszyscy wiedzieliśmy, że właśnie zakończyła się podróż, która trwała ponad 30 lat. I rozpoczął się nowy rozdział.",
+      },
+      {
+        t: "closing",
+        c: "Bo czasami klient nie szuka mieszkania. Czasami szuka drogi do domu, do którego chciał wrócić przez całe życie. ❤️",
+      },
+    ],
+    efekt: [
+      "Klienci trafili do nas z polecenia innego pośrednika",
+      "Znalezienie wymarzonego mieszkania już podczas pierwszej prezentacji",
+      "Zakup nieruchomości gotowej do zamieszkania bez dodatkowych nakładów finansowych",
+      "Pełne wsparcie klientów, którzy nie czuli się pewnie w świecie cyfrowych procedur i formalności",
+      "Współpraca międzyagentowa w ramach społeczności Nieruchomości Spod Lady",
+      "Bezpieczne przeprowadzenie całego procesu od pierwszej rozmowy do odbioru kluczy",
+    ],
+  },
 ];
 
 const faq = [
@@ -490,6 +616,135 @@ export default function StrefaKupujacegoPage() {
                 <br />
                 I swoją definicję idealnego miejsca.
               </p>
+            </div>
+
+            {/* HISTORIE KLIENTÓW — prawdziwe case studies */}
+            <div className="mt-10 lg:mt-14 space-y-8 lg:space-y-10">
+              {historie.map((story, storyIndex) => {
+                const Icon = story.icon;
+                return (
+                  <article
+                    key={story.title}
+                    className="relative rounded-[36px] bg-background border border-border shadow-[var(--shadow-soft)] overflow-hidden"
+                  >
+                    <div
+                      aria-hidden
+                      className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-lime/0 via-brand-lime/70 to-brand-lime/0"
+                    />
+                    <span
+                      aria-hidden
+                      className="absolute -top-6 right-6 text-[7rem] lg:text-[9rem] font-bold tabular-nums leading-none text-brand-lime/[0.07] pointer-events-none select-none"
+                    >
+                      {String(storyIndex + 1).padStart(2, "0")}
+                    </span>
+
+                    <div className="relative p-7 sm:p-9 lg:p-12">
+                      <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-lime/15 text-brand-forest-deep text-xs font-semibold uppercase tracking-wider mb-5">
+                        <Icon className="size-3.5" />
+                        Historia klienta
+                      </div>
+                      <h3 className="font-bold tracking-tight text-[clamp(1.4rem,2.8vw,2rem)] leading-[1.15] text-foreground mb-4">
+                        {story.title}
+                      </h3>
+                      <p className="text-lg lg:text-xl text-brand-forest font-semibold leading-relaxed mb-7">
+                        {story.essence}
+                      </p>
+
+                      <div className="space-y-5">
+                        {story.blocks.map((block, blockIndex) => {
+                          const lead = "lead" in block ? block.lead : undefined;
+
+                          if (block.t === "quote") {
+                            return (
+                              <div
+                                key={blockIndex}
+                                className="relative my-2 rounded-[28px] overflow-hidden bg-gradient-to-br from-brand-lime/[0.08] via-brand-lime/[0.05] to-transparent border border-brand-lime/35 shadow-[0_12px_40px_-16px_rgba(45,74,31,0.20)]"
+                              >
+                                <div
+                                  aria-hidden
+                                  className="absolute left-0 top-6 bottom-6 w-[4px] bg-gradient-to-b from-brand-lime via-brand-olive to-brand-lime/40 rounded-r-full"
+                                />
+                                <div
+                                  aria-hidden
+                                  className="absolute top-4 right-5 text-[7rem] leading-none font-serif text-brand-lime/[0.20] pointer-events-none select-none"
+                                >
+                                  “
+                                </div>
+                                <div className="relative p-7 lg:p-8 pl-9 lg:pl-10">
+                                  {lead ? (
+                                    <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-olive/80 mb-3">
+                                      {lead}
+                                    </p>
+                                  ) : null}
+                                  <p className="text-xl lg:text-2xl font-bold text-foreground leading-snug tracking-tight">
+                                    {block.c}
+                                  </p>
+                                </div>
+                              </div>
+                            );
+                          }
+
+                          if (block.t === "beat") {
+                            return (
+                              <div
+                                key={blockIndex}
+                                className="my-2 rounded-[24px] border border-brand-lime/30 bg-brand-lime/[0.06] p-6 lg:p-7"
+                              >
+                                {lead ? (
+                                  <p className="text-lg text-foreground-muted leading-relaxed mb-2">
+                                    {lead}
+                                  </p>
+                                ) : null}
+                                <p className="text-xl lg:text-2xl font-bold text-brand-forest leading-snug tracking-tight">
+                                  {block.c}
+                                </p>
+                              </div>
+                            );
+                          }
+
+                          if (block.t === "closing") {
+                            return (
+                              <p
+                                key={blockIndex}
+                                className="text-foreground font-semibold leading-relaxed text-lg lg:text-xl pt-6 mt-2 border-t border-border"
+                              >
+                                {block.c}
+                              </p>
+                            );
+                          }
+
+                          return (
+                            <p
+                              key={blockIndex}
+                              className="text-lg text-foreground-muted leading-relaxed"
+                            >
+                              {block.c}
+                            </p>
+                          );
+                        })}
+                      </div>
+
+                      <div className="mt-9 rounded-[28px] bg-gradient-to-br from-brand-lime/[0.08] via-brand-lime/[0.05] to-transparent border border-brand-lime/35 p-7 lg:p-8">
+                        <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-brand-olive/80 mb-5">
+                          Efekt współpracy
+                        </p>
+                        <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-3.5">
+                          {story.efekt.map((item) => (
+                            <li key={item} className="flex items-start gap-3">
+                              <span className="size-6 rounded-full bg-brand-lime/25 text-brand-forest-deep flex items-center justify-center shrink-0 mt-0.5">
+                                <Check className="size-3.5" strokeWidth={3} />
+                              </span>
+                              <span className="text-foreground font-medium leading-relaxed text-sm lg:text-base">
+                                {item}
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
           </Container>
         </section>
