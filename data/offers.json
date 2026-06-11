@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-06-10T06:07:41.999Z",
+  "lastSync": "2026-06-11T05:39:35.696Z",
   "offers": [
     {
       "id": "5826876",
@@ -1036,91 +1036,17 @@
     },
     {
       "id": "11425523",
-      "offerNumber": "ST861660",
+      "offerNumber": "",
       "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Pod zabudowę jednorodzinną",
-      "market": "wtorny",
-      "title": "Działka przy jeziorze Smolnik (gm.Kaliska)",
-      "description": "REZERWACJA\nNa sprzedaż działki przy jeziorze Smolnik (gm.Kaliska) - wieś Studzinice (Smolnik).\n\nSąsiadujące ze sobą działki o metrażach (1623 m2, 1540 m2) malowniczo położone w linii prostej 70 m od jeziora. Dwie sąsiadują bezpośrednio,  \nTeren otoczony rozległym kompleksem leśnym Nadleśnictwa Kaliska.\n\nWydane warunki zabudowy: zabudowa mieszkaniowa jednorodzinna, powierzchnia zabudowy 120 m2, 2 kondygnacje nadziemne, dach dwuspadowy, min. 2 miejsca postojowe. Szczegóły wydanych warunków zabudowy zostaną udostępnione zainteresowanym.\n\nWoda: do wykonania studnia własna, kanalizacja: zbiornik bezodpływowy, prąd dostępny, ogrzewanie:  indywidualne, spełniające wymagania przepisów o instalacji źródeł odnawialnych.  \n\nDobry dojazd - większość drogą leśną, wybrukowaną. Końcówka drogą leśną utwardzoną. \nW sąsiedztwie zabudowa jednorodzinna i rekreacyjna. \n\nDojazd do Gdańska lub Gdyni: 1 godz.30 min, 20 min do Czerska, 30 min Starogard Gdański. W promieniu 40 min dwa Parki Krajobrazowe (Wdzydzki i Bory Tucholskie), liczne jeziora. 6 km Biedronka, Dino i inne punkty handlowe.",
-      "price": 129000,
-      "pricePerSqm": 83.77,
-      "area": 1540,
-      "city": "Studzienice",
-      "district": "starogardzki",
-      "lat": 53.8797539,
-      "lng": 18.1208612,
-      "images": [
-        {
-          "url": "/oferty/101629088.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/101629085.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629091.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629094.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629097.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629100.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629103.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629106.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629109.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629112.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629115.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629118.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629121.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629124.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629256.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
+      "type": "inne",
+      "title": "Nieruchomość, Trójmiasto",
+      "price": 0,
+      "area": 0,
+      "city": "Trójmiasto",
+      "images": [],
       "url": "https://starnawska.pl/oferty/11425523",
-      "createdAt": "2025-12-15 08:31:49",
-      "updatedAt": "2026-05-10 17:21:34"
+      "createdAt": "2026-06-11T05:39:35.685Z",
+      "updatedAt": "2026-06-11T05:39:35.685Z"
     },
     {
       "id": "11469854",
