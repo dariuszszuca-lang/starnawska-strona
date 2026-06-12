@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-06-11T05:39:35.696Z",
+  "lastSync": "2026-06-12T06:15:20.413Z",
   "offers": [
     {
       "id": "5826876",
@@ -1033,20 +1033,6 @@
       "url": "https://starnawska.pl/oferty/11345771",
       "createdAt": "2025-11-24 15:59:42",
       "updatedAt": "2026-03-05 11:04:31"
-    },
-    {
-      "id": "11425523",
-      "offerNumber": "",
-      "transaction": "sprzedaz",
-      "type": "inne",
-      "title": "Nieruchomość, Trójmiasto",
-      "price": 0,
-      "area": 0,
-      "city": "Trójmiasto",
-      "images": [],
-      "url": "https://starnawska.pl/oferty/11425523",
-      "createdAt": "2026-06-11T05:39:35.685Z",
-      "updatedAt": "2026-06-11T05:39:35.685Z"
     },
     {
       "id": "11469854",
@@ -2486,6 +2472,101 @@
       "url": "https://starnawska.pl/oferty/12059429",
       "createdAt": "2026-06-01 14:29:13",
       "updatedAt": "2026-06-01 14:38:06"
+    },
+    {
+      "id": "10627130",
+      "offerNumber": "ST427610",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Kameralna kawalerka, po remoncie, Sopot Przylesie",
+      "description": "Kawalerka 15,40 m2 + komórka lokatorska (na tym samym piętrze) | 7. piętro | Widok na las | Po generalnym remoncie\n\nNa wynajem nowoczesna, w pełni wyposażona kawalerka z pięknym widokiem na las, położona w Sopocie w dzielnicy Przylesie - idealna dla studenta lub singla szukającego funkcjonalnej przestrzeni w cichej, dobrze skomunikowanej lokalizacji.\n\nMieszkanie:\n- Powierzchnia: 15,40 m²\n- Dodatkowo: komórka lokatorska na tym samym piętrze\n- Piętro: 7/10 (winda)\n\nStan: po generalnym remoncie - świeżo wykończone, gotowe do zamieszkania\nNajem od 01.07.2026r\n\nWyposażenie:\n- Kuchnia w zabudowie, wyposażona w: płytę indukcyjną, lodówkę, mikrofalówkę, czajnik\n- Łazienka z prysznicem i pralką\n- Pokój dzienny z rozkładaną sofą, stołem, krzesłami, telewizorem i szafą\n\nDostęp do komórki lokatorskiej na tym samym piętrze - idealna na walizki, sprzęt AGD lub rzeczy sezonowe.\n\nKoszty najmu:\n- Czynsz najmu: 2 000 zł / miesiąc\n- Opłaty administracyjne: ok. 350 zł / miesiąc \nDodatkowo: prąd wg zużycia\n\nNajem okazjonalny - min. 12 miesięcy\n\nLokalizacja i okolica:\nMieszkanie znajduje się w spokojnej i zielonej części Sopotu, w otoczeniu lasu i licznych terenów rekreacyjnych.\n- Bliskość lasu - idealne miejsce do spacerów, biegania czy jazdy na rowerze\n- Świetna komunikacja: przystanki autobusowe w odległości ok. 100-200 m\n- Szybki dojazd do stacji SKM - ok. 10 min \n- Blisko Uniwersytet Gdański (Wydział Ekonomiczny, Wydział Zarządzania) - ok. 10 minut komunikacją\n- W pobliżu: sklepy (m.in. Lidl, Żabka), apteka, piekarnia, punkty usługowe\n- Dobry dojazd do Centrum Sopotu i plaży - ok. 10-15 min komunikacją\n \nZapraszam na prezentacje!",
+      "price": 2000,
+      "pricePerSqm": 129.87,
+      "rent": 350,
+      "area": 15.4,
+      "rooms": 1,
+      "floor": 7,
+      "totalFloors": 10,
+      "yearBuilt": 1970,
+      "city": "Sopot",
+      "district": "Przylesie",
+      "street": "ul. 23 Marca",
+      "lat": 54.44861,
+      "lng": 18.54336,
+      "images": [
+        {
+          "url": "/oferty/91990223.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/91990241.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990214.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990217.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990220.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990235.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990232.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990226.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990229.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990205.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990208.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990211.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/91990238.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Las w pobliżu",
+        "Park w pobliżu",
+        "Autobus",
+        "Przedszkole",
+        "Sklep spożywczy",
+        "Apteka",
+        "Plac zabaw",
+        "Winda"
+      ],
+      "agent": {
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl",
+        "slug": "iwona-stepinska"
+      },
+      "url": "https://starnawska.pl/oferty/10627130",
+      "createdAt": "2025-05-15 13:19:18",
+      "updatedAt": "2026-06-11 12:18:28"
     }
   ]
 }
