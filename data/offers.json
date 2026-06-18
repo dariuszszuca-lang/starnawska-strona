@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-06-17T06:23:05.270Z",
+  "lastSync": "2026-06-18T06:10:26.650Z",
   "offers": [
     {
       "id": "5826876",
@@ -2663,6 +2663,71 @@
       "url": "https://starnawska.pl/oferty/7482684",
       "createdAt": "2023-06-22 07:43:53",
       "updatedAt": "2026-06-17 04:40:07"
+    },
+    {
+      "id": "12113690",
+      "offerNumber": "ST982535",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Piękna działka w sąsiedztwie jeziora",
+      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 335000,
+      "pricePerSqm": 223.33,
+      "area": 1500,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Bukowa",
+      "lat": 54.5427708,
+      "lng": 18.2763107,
+      "images": [
+        {
+          "url": "/oferty/109559201.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/109559087.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559204.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559561.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559075.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559078.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559081.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559084.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559564.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12113690",
+      "createdAt": "2026-06-17 20:36:09",
+      "updatedAt": "2026-06-17 21:14:12"
     }
   ]
 }
