@@ -4,6 +4,7 @@ import { unpackEstiZip, parseEstiXml } from "@/lib/esti/parser";
 import { commitFiles, listRepoFiles, type FileChange } from "@/lib/github/commit";
 import { readOffers } from "@/lib/esti/store";
 import type { Offer } from "@/lib/esti/types";
+import { XMLParser } from "fast-xml-parser";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -184,6 +185,45 @@ export async function GET(req: Request) {
     for (const fn of toDelete) {
       changes.push({ path: `${IMG_PREFIX}${fn}`, delete: true });
     }
+
+    // === TYMCZASOWA DIAGNOSTYKA publikacji (usunąć po analizie) ===
+    // Cel: zobaczyć czy oferta 12049010 jest jeszcze w eksporcie Esti, jaki to
+    // tryb eksportu i jakim polem Esti oznacza wewnętrzne/bez publikacji.
+    try {
+      const dbgXml = new XMLParser({
+        ignoreAttributes: false,
+        attributeNamePrefix: "@_",
+        parseTagValue: false,
+        trimValues: true,
+        isArray: (n) => ["offer"].includes(n),
+      });
+      const dbgParsed = dbgXml.parse(xmlText) as { offers?: { offer?: Array<Record<string, unknown>> } };
+      const rawOffers = dbgParsed?.offers?.offer ?? [];
+      const HINTS = ["status", "export", "www", "portal", "public", "active", "visible",
+        "private", "internal", "widoc", "publik", "archi", "hidden", "display", "wycof", "aktyw"];
+      const pick = (o: Record<string, unknown>) => {
+        const out: Record<string, unknown> = {};
+        for (const k of Object.keys(o)) {
+          if (HINTS.some((h) => k.toLowerCase().includes(h))) out[k] = o[k];
+        }
+        return out;
+      };
+      const target = rawOffers.find((o) => String(o.id) === "12049010");
+      const debug = {
+        generatedAt: new Date().toISOString(),
+        package: pkg.name,
+        exportAttr: exportAttr || "(brak)",
+        totalInExport: rawOffers.length,
+        offer12049010Present: !!target,
+        offer12049010Status: target ? pick(target) : null,
+        allFieldNamesSample: rawOffers[0] ? Object.keys(rawOffers[0]) : [],
+        sampleStatuses: rawOffers.slice(0, 6).map((o) => ({ id: o.id, status: pick(o) })),
+      };
+      changes.push({ path: "data/_esti-debug.json", contentUtf8: JSON.stringify(debug, null, 2) });
+    } catch {
+      /* diagnostyka nie może wywrócić synca */
+    }
+    // === KONIEC DIAGNOSTYKI ===
 
     // 7. Commit
     const summary = `sync esti: ${offers.length} ofert, +${toUpload.length} zdjęć, -${toDelete.length}${mergeNote}`;
