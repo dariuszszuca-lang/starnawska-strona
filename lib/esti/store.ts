@@ -19,7 +19,20 @@ export type CacheShape = {
 let memCache: { data: CacheShape; loadedAt: number } | null = null;
 const MEM_TTL_MS = 60_000;
 
+// Oferty ręcznie ukryte (np. wewnętrzne / bez publikacji w Esti, które
+// eksport FTP nadal wysyła). Lista przez env HIDDEN_OFFER_IDS (CSV),
+// z fallbackiem na znane przypadki. Docelowo zastąpi to filtr po polu
+// publikacji z surowego XML Esti.
+const HIDDEN_OFFER_IDS = new Set(
+  (process.env.HIDDEN_OFFER_IDS ?? "12049010")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean)
+);
+
 function isPublishable(offer: Offer): boolean {
+  // Ręcznie ukryte oferty (wewnętrzne, bez publikacji).
+  if (HIDDEN_OFFER_IDS.has(offer.id)) return false;
   // Esti czasem zwraca szkielety bez danych (price=0, area=0, type=inne,
   // brak agentki). Nie pokazujemy ich na stronie.
   if (!offer.price || offer.price <= 0) return false;
