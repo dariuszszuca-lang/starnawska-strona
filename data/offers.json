@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-06-23T05:52:57.883Z",
+  "lastSync": "2026-06-24T06:22:07.433Z",
   "offers": [
     {
       "id": "5826876",
@@ -2281,43 +2281,6 @@
       "updatedAt": "2026-05-28 04:20:11"
     },
     {
-      "id": "12049010",
-      "offerNumber": "ST569040",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Idealna działka do zamieszkania lub jako lokata.",
-      "description": "Idealna działka do zabudowy lub jako lokata!\nBardzo dobra cena!\n\nMamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 813 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 70m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 140000,
-      "pricePerSqm": 172.2,
-      "area": 813,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5434013,
-      "lng": 18.2909448,
-      "images": [
-        {
-          "url": "/oferty/108581339.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/108581333.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/12049010",
-      "createdAt": "2026-05-28 20:49:32",
-      "updatedAt": "2026-06-05 04:20:13"
-    },
-    {
       "id": "12059180",
       "offerNumber": "ST297928",
       "transaction": "sprzedaz",
@@ -2662,7 +2625,7 @@
       },
       "url": "https://starnawska.pl/oferty/7482684",
       "createdAt": "2023-06-22 07:43:53",
-      "updatedAt": "2026-06-17 04:40:07"
+      "updatedAt": "2026-06-24 04:20:14"
     },
     {
       "id": "12113690",
