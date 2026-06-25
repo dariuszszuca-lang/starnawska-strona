@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-24T06:22:07.456Z",
-  "package": "EstiCRM_18_20260624050103.zip",
+  "generatedAt": "2026-06-25T05:48:56.098Z",
+  "package": "EstiCRM_18_20260624140109.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "7482684",
+      "id": "8692790",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST819730",
+        "numberExport": "ST593644",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-06-24 04:20:14",
-        "exportDate": "2026-06-24 04:20:14",
+        "exportGalleryDate": "2026-06-24 13:12:14",
+        "exportDate": "2026-06-24 13:12:14",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Dwa niezależne pokoje i kuchnia w centrum miasta",
+        "portalTitle": "Ustawne 3 pokoje na wynajem z miejsce parkingowym",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
