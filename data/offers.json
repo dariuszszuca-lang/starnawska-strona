@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-06-25T05:48:56.092Z",
+  "lastSync": "2026-06-27T05:35:09.140Z",
   "offers": [
     {
       "id": "5826876",
@@ -2691,6 +2691,104 @@
       "url": "https://starnawska.pl/oferty/12113690",
       "createdAt": "2026-06-17 20:36:09",
       "updatedAt": "2026-06-17 21:14:12"
+    },
+    {
+      "id": "11929373",
+      "offerNumber": "ST346379",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
+      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
+      "price": 275000,
+      "pricePerSqm": 195.87,
+      "area": 1404,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5444674,
+      "lng": 18.2850692,
+      "images": [
+        {
+          "url": "/oferty/107743163.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/107741804.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107742041.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741792.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741789.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741783.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741795.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/11929373",
+      "createdAt": "2026-05-03 20:51:58",
+      "updatedAt": "2026-06-26 16:38:47"
+    },
+    {
+      "id": "12049100",
+      "offerNumber": "ST926971",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Płaska, łatwy dojazd, bliskość szkoły",
+      "description": "Idealna działka do zabudowy\n\nMamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 200000,
+      "pricePerSqm": 204.5,
+      "area": 978,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5434013,
+      "lng": 18.2909448,
+      "images": [
+        {
+          "url": "/oferty/108582119.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/108582122.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108582128.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12049100",
+      "createdAt": "2026-05-28 21:52:06",
+      "updatedAt": "2026-06-26 16:37:55"
     }
   ]
 }
