@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-06-27T05:35:09.140Z",
+  "lastSync": "2026-06-28T06:01:47.196Z",
   "offers": [
     {
       "id": "5826876",
@@ -2789,6 +2789,107 @@
       "url": "https://starnawska.pl/oferty/12049100",
       "createdAt": "2026-05-28 21:52:06",
       "updatedAt": "2026-06-26 16:37:55"
+    },
+    {
+      "id": "12081638",
+      "offerNumber": "ST538609",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Mieszkanie z piwnicą i garażem w cenie",
+      "description": "Zamknięte osiedle przy samym lesie, składające się z kilku kameralnych budynków z garażami dla mieszkańców i miejscami postojowymi na terenie osiedla dla gości. Spokojne miejsce, dogodne do życia. Budynek, w którym znajduje się mieszkanie jest w głębi osiedla - z dala od ulicy, na piętrze tylko jedno mieszkanie. Zabudowa przypomina wiilową a nie blokową (w całym budynku 4 mieszknania, w klatce po 2).\n\nZadbane, częściowo wyposażone (zabudowy, AGD, część mebli ruchomych- obecnie w salonie kanapa i fotel, stolik pod TV i kawowy, jadalniany z krzesłami,  w sypialni łóżka - podwójne i pojedyncze, regały i półki). \n\nDużo miejsca do przechowywania (poza zabudowanymi szafami także garderoba). Latem można cieszyć się kawą na balkonie z widokiem na las. Do mieszkania przynależy indywidualny garaż - 15 m2 i piwnica 6,20 m2 bezpośrednio pod mieszkaniem. \nWszystkie koszty eksploatacyjne dla 3 os. rodziny ok. 1000 zł miesięcznie (czynsz, ogrzewanie, prąd). \n\nPrzy osiedlu Żabka, 200 m do Lidla, 150 m do przystanku. Dobry dojazd do obwodnicy, w stronę Chwaszczyna, do centrum Gdyni. Blisko przychodnia, punkty handlowe i usługowe, fintess.\n\nPrezentacje do uzgodnienia.",
+      "price": 899000,
+      "pricePerSqm": 13725.19,
+      "rent": 500,
+      "area": 65.5,
+      "rooms": 3,
+      "floor": 1,
+      "totalFloors": 3,
+      "yearBuilt": 2005,
+      "city": "Gdynia",
+      "district": "Dąbrowa",
+      "street": "ul. Rdestowa",
+      "lat": 54.46534,
+      "lng": 18.45795,
+      "images": [
+        {
+          "url": "/oferty/109065515.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/109065527.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065521.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065518.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065545.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065548.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065542.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065536.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065539.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065530.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065533.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065551.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065500.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065503.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065506.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065509.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109065512.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/12081638",
+      "createdAt": "2026-06-09 12:34:09",
+      "updatedAt": "2026-06-27 16:35:47"
     }
   ]
 }

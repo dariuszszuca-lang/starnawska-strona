@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-27T05:35:09.163Z",
-  "package": "EstiCRM_18_20260626170111.zip",
+  "generatedAt": "2026-06-28T06:01:47.217Z",
+  "package": "EstiCRM_18_20260627170111.zip",
   "exportAttr": "incremental",
-  "totalInExport": 2,
+  "totalInExport": 1,
   "offer12049010Present": false,
   "offer12049010Status": null,
   "allFieldNamesSample": [
@@ -278,53 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "11929373",
+      "id": "12081638",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST346379",
+        "numberExport": "ST538609",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-06-26 16:38:47",
-        "exportDate": "2026-06-26 16:38:47",
+        "exportGalleryDate": "2026-06-27 16:35:07",
+        "exportDate": "2026-06-27 16:35:07",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "",
-        "portalPromote": "",
-        "portalWwwTitle": "",
-        "contactStatus": "11",
-        "locationExportCityName": "",
-        "locationExportStreetName": "",
-        "locationExportStreetType": "",
-        "locationExportStreetCustom": "",
-        "locationExportPrecinctName": "",
-        "locationExportParentPrecinctName": "",
-        "locationExportCommuneName": "",
-        "locationExportDistrictName": "",
-        "locationExportProvinceName": "",
-        "locationExportPlaceName": "",
-        "locationExportCountryName": "",
-        "portalEnglishTitle": "",
-        "locationExportCityBiurowin": "",
-        "locationExportPrecinctBiurowin": "",
-        "locationExportStreetBiurowin": ""
-      }
-    },
-    {
-      "id": "12049100",
-      "status": {
-        "companyStatus": "11",
-        "offerExport": "1",
-        "numberExport": "ST926971",
-        "numberExportDate": "",
-        "exportGalleryDate": "2026-06-26 16:37:55",
-        "exportDate": "2026-06-26 16:37:55",
-        "status": {
-          "#text": "3",
-          "@_dictionary": "status"
-        },
-        "portalTitle": "Płaska, łatwy dojazd, bliskość szkoły",
+        "portalTitle": "Mieszkanie z piwnicą i garażem w cenie",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
