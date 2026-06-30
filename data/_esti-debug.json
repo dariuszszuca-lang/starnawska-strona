@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-29T06:02:26.689Z",
-  "package": "EstiCRM_18_20260627170111.zip",
+  "generatedAt": "2026-06-30T06:22:47.900Z",
+  "package": "EstiCRM_18_20260629230116.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12081638",
+      "id": "5826876",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST538609",
+        "numberExport": "ST674422",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-06-27 16:35:07",
-        "exportDate": "2026-06-27 16:35:07",
+        "exportGalleryDate": "2026-06-29 22:19:34",
+        "exportDate": "2026-06-29 22:19:34",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Mieszkanie z piwnicą i garażem w cenie",
+        "portalTitle": "Mieszkanie na Jasieniu z miejscem postojowym",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
