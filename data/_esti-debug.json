@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T05:56:17.258Z",
-  "package": "EstiCRM_18_20260630100114.zip",
+  "generatedAt": "2026-07-02T05:58:16.548Z",
+  "package": "EstiCRM_18_20260701100112.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,20 +278,20 @@
   ],
   "sampleStatuses": [
     {
-      "id": "11599184",
+      "id": "11740850",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST527628",
+        "numberExport": "ST699920",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-06-30 09:03:58",
-        "exportDate": "2026-06-30 09:03:58",
+        "exportGalleryDate": "2026-06-25 08:09:52",
+        "exportDate": "2026-07-01 09:53:00",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Komfortowe 2 pokoje z pięknym widokiem na park",
-        "portalPromote": "",
+        "portalTitle": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
+        "portalPromote": "0",
         "portalWwwTitle": "",
         "contactStatus": "11",
         "locationExportCityName": "",
