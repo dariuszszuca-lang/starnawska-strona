@@ -1,6 +1,90 @@
 {
-  "lastSync": "2026-07-03T16:34:40.788Z",
+  "lastSync": "2026-07-04T06:13:21.397Z",
   "offers": [
+    {
+      "id": "926110",
+      "offerNumber": "ST307496",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "2 pokoje po remoncie Przymorze",
+      "description": "Wymieniono instalacje, drzwi zewnętrzne i wewnętrzne, glazurę w łazience, kuchni oraz na przedpokoju, ściany gładkie, malowane. Mieszkanie z wyposażaniem - zabudowa kuchni wraz ze sprzętem AGD (lodówka z zamrażarką, kuchenka z piekarnikiem, kuchenka mikrofalowa), w łazience pralka, w salonie rozkładana kanapa, dwa fotele, stolik kawowy, komody i stolik pod TV. W drugim pokoju stół, szafa, biurko z krzesłem. Mieszkanie dobrze doświetlone - strona południowa.\n\nBlok ocieplony. Przed budynkiem miejsca postojowe dla mieszkańców.\n\nLokalizacja doskonała pod kątem komunikacji oraz dostępu infrastruktury. Ok. 5 min pieszo do Arkońska Business Center, 10 min pieszo do kompleksu biurowców Alchemia, 15 min pieszo do Olivia Gate czy kampusu Uniwersytetu Gdańskiego. 800 m do SKM Przymorze, 500 m do linii tramwajowej, przy Kołobrzeskiej oraz Chłopskiej przystanki autobusowe. W bezpośrednim sąsiedztwie bloku liczne punkty handlowe oraz CH Alfa - z zapleczem sklepowym, kinem, ścianką wspinaczkową, kawiarniami i restauracjami. Ok. 1, 5 km do Parku Reagana, 2,5 km do plaży.\n\nOpłaty do spółdzielni na poziomie ok 520 zł/ 660 zł (z ogrzewaniem) + prąd i gaz wg zużycia + Internet/TV\n\nDostępne od lipca 2026 r.. \n\nNajem długoterminowy, umowa najmu okazjonalnego.",
+      "price": 2200,
+      "pricePerSqm": 58.08,
+      "rent": 590,
+      "area": 37.88,
+      "rooms": 2,
+      "floor": 4,
+      "totalFloors": 4,
+      "city": "Gdańsk",
+      "district": "Przymorze",
+      "street": "ul. Lęborska",
+      "lat": 54.40532,
+      "lng": 18.58437,
+      "images": [
+        {
+          "url": "/oferty/5587033.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/5587039.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587045.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587036.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587042.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587048.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587051.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587054.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587057.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587060.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587063.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587066.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/5587069.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/926110",
+      "createdAt": "2018-07-25 20:38:50",
+      "updatedAt": "2026-06-30 08:13:27"
+    },
     {
       "id": "5826876",
       "offerNumber": "ST674422",
@@ -87,74 +171,90 @@
       "updatedAt": "2026-06-29 22:19:34"
     },
     {
-      "id": "8692790",
-      "offerNumber": "ST593644",
+      "id": "7482684",
+      "offerNumber": "ST819730",
       "transaction": "najem",
       "type": "mieszkanie",
       "market": "wtorny",
-      "title": "Ustawne 3 pokoje na wynajem z miejsce parkingowym",
-      "description": "Oferujemy mieszkanie na wynajem długoterminowy w gdyńskiej dzielnicy Oksywie, 20 min pieszo od plaży.\n\nMieszkanie dwustronne, jasne, składa się z 3 pokoi, osobnej kuchni z oknem, łazienki, WC i przedpokoju. Mieszkanie w stanie bardzo dobrym, wykańczane kilkanaście lat temu. W pobliżu pełne zaplecze handlowo-usługowe (delikatesy, Biedronki, Lidl, punkty gastronomiczne, przedszkole, szkoła, przychodnia).\n\nW kuchni jasna zabudowa, bardzo pojemna, z niezbędnym AGD ( zmywarka, piekarnik, kuchenka gazowa, lodówka z zamrażarką). Wygospodarowane miejsce do jedzenia. \n\nSalon w kanapą z funkcją spania. Duży balkon wychodzący na tereny osiedla, nie na ulicę. Sypialnia z szafą i podwójnym łóżkiem. Mniejszy pokój z szafą, do zagospodarowania wg potrzeb - pokój dziecięcy, sypialnia czy pokój do pracy.\nŁazienka z wanną, dużą szafką pod umywalką, osobne WC, praktyczne przy większej ilości domowników. Na przedpokoju dodatkowe szafy. \n\nNiezwykle prężna wspólnota zadbała o remont klatki schodowej, blok jest również ocieplony z estetyczną elewacją a do dyspozycji mieszkańców są miejsca postojowe na ogrodzonej posesji (wjazd na pilota). Dodatkowo miejsca przed i obok bloku, dostępne np. dla gości.\n\nLokalizacja w pobliżu Jednostki Wojskowej, Akademii Marynarki Wojennej. Dobra komunikacja do terenów stoczni i portu Gdynia.  Dobry wyjazd do obwodnicy, liczne połączenia autobusowe do innych gdyńskich dzielnic, dworca SKM.\n\nOpłaty latem ok. 600 zł, zimą 900 zł (mieszkała rodzina 2+2)\n\nNajem okazjonalny, bez zwierząt domowych.",
-      "price": 2600,
-      "pricePerSqm": 56.72,
-      "rent": 750,
-      "area": 45.84,
-      "rooms": 3,
+      "title": "Dwa niezależne pokoje i kuchnia w centrum miasta",
+      "description": "Mieszkanie zlokalizowane z ścisłym centrum miasta. Dwa niezależne pokoje ( ok. 16 i 11 m2),  duża jasna kuchnia z oknem ( ok.11 m2),  duża, jasna łazienka z wanną ok 6 m2). Mieszkanie po kapitalnym remoncie. Wyposażona kuchnia, bez mebli ruchomych. Wysokość prawie 2,9 m. Odzyskana oryginalna stolarka wewnętrzna. \n\nKamienica w drugiej linii zabudowy (widok na zabudowanie). \n\nOpłaty - czynsz plus prąd ok. 1050 zł \n\nNajem długoterminowy, okazjonalny.",
+      "price": 2500,
+      "pricePerSqm": 49.5,
+      "rent": 700,
+      "area": 50.5,
+      "rooms": 2,
       "floor": 1,
-      "totalFloors": 4,
+      "totalFloors": 2,
+      "yearBuilt": 1927,
       "city": "Gdynia",
-      "district": "Oksywie",
-      "street": "ul. płk. Stanisława Dąbka",
-      "lat": 54.55266,
-      "lng": 18.53791,
+      "district": "Śródmieście",
+      "street": "ul. Świętojańska",
+      "lat": 54.51994,
+      "lng": 18.54306,
       "images": [
         {
-          "url": "/oferty/69568394.jpg",
+          "url": "/oferty/57512400.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/69568442.jpg",
+          "url": "/oferty/57512343.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568445.jpg",
+          "url": "/oferty/57512298.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568433.jpg",
+          "url": "/oferty/57512286.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568436.jpg",
+          "url": "/oferty/57512292.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568460.jpg",
+          "url": "/oferty/57512325.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568382.jpg",
+          "url": "/oferty/57512370.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568406.jpg",
+          "url": "/oferty/57512391.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568451.jpg",
+          "url": "/oferty/57512412.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568457.jpg",
+          "url": "/oferty/57512418.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568403.jpg",
+          "url": "/oferty/57512427.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/69568463.jpg",
+          "url": "/oferty/57512430.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/57512433.jpg",
           "primary": false
         }
+      ],
+      "features": [
+        "Park w pobliżu",
+        "Autobus",
+        "Kolejka SKM",
+        "Centrum handlowe",
+        "Przedszkole",
+        "Szkoła podstawowa",
+        "Sklep spożywczy",
+        "Apteka",
+        "Plac zabaw"
       ],
       "agent": {
         "fullName": "Patrycja Sudwoj-Boleńska",
@@ -162,9 +262,9 @@
         "email": "psudwoj@starnawska.pl",
         "slug": "patrycja-sudwoj-bolenska"
       },
-      "url": "https://starnawska.pl/oferty/8692790",
-      "createdAt": "2024-04-16 13:37:20",
-      "updatedAt": "2026-06-24 13:12:14"
+      "url": "https://starnawska.pl/oferty/7482684",
+      "createdAt": "2023-06-22 07:43:53",
+      "updatedAt": "2026-06-24 04:20:14"
     },
     {
       "id": "9291344",
@@ -208,7 +308,7 @@
       },
       "url": "https://starnawska.pl/oferty/9291344",
       "createdAt": "2024-08-29 08:33:07",
-      "updatedAt": "2026-05-28 15:27:50"
+      "updatedAt": "2026-06-08 09:38:37"
     },
     {
       "id": "9613622",
@@ -416,90 +516,6 @@
       "url": "https://starnawska.pl/oferty/9623531",
       "createdAt": "2024-11-18 13:38:33",
       "updatedAt": "2026-02-14 17:07:32"
-    },
-    {
-      "id": "10696967",
-      "offerNumber": "ST322351",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Osiedle przy parku w Oliwie- 2 pokoje + garaż",
-      "description": "Nowoczesne 2-pokojowe mieszkanie z balkonem - Harmonia Oliwska, Gdańsk Oliwa\nDo wynajęcia jasne, nowoczesne mieszkanie położone na prestiżowym osiedlu Harmonia Oliwska w Gdańsku Oliwie - jednej z najlepiej skomunikowanych i najbardziej zielonych dzielnic miasta.\n\nPodstawowe informacje:\nPowierzchnia: 46 m²\nPiętro: 1. (budynek z windą z 2019 roku)\nDostępność: od lipca 2026 r.\n\nWnętrze i układ:\nMieszkanie jest w pełni umeblowane, wykończone w wysokim standardzie i gotowe do wprowadzenia się.\nSalon: komfortowy, doskonale doświetlony, z wyjściem na duży balkon (ekspozycja zachodnia).\nAneks kuchenny: w pełni wyposażony w sprzęt AGD, funkcjonalny i nowoczesny.\nSypialnia: gustownie urządzona, zapewniająca prywatność i odpoczynek.\nŁazienka: nowoczesna, wyposażona w komfortowy prysznic.\n\nO osiedlu (Harmonia Oliwska):\nPrestiżowa inwestycja zaprojektowana z myślą o najwyższym komforcie mieszkańców:\nElegancka, niska zabudowa (budynki z lat 2018-2020).\nPięknie zagospodarowane tereny zielone, zadbane alejki oraz dziedzińce.\nStrefy rekreacyjne: bezpieczny plac zabaw, stojaki na rowery, ławki i miejsca do wypoczynku.\n\nKoszty i warunki najmu:\nCzynsz najmu: 3 300 zł + 200 zł MP/ miesiąc\n\nOpłaty administracyjne: ok. 643 zł (aktualny czynsz do wspólnoty) + zaliczka na prąd według zużycia\n\nKaucja: 6500 zł\n\nDodatkowe informacje:\n\nUmowa: na minimum rok (z możliwością przedłużenia).\n\nOferta dla osób nieposiadających zwierząt.\n\nPrezentacja mieszkania: Możliwość obejrzenia nieruchomości po wcześniejszym uzgodnieniu terminu (mieszkanie jest obecnie zamieszkiwane przez najemcę). Zapraszam do kontaktu!",
-      "price": 3300,
-      "pricePerSqm": 71.55,
-      "area": 46.12,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 6,
-      "yearBuilt": 2019,
-      "city": "Gdańsk",
-      "district": "Oliwa",
-      "street": "ul. Opacka",
-      "lat": 54.41455,
-      "lng": 18.5634,
-      "images": [
-        {
-          "url": "/oferty/94213973.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/94212971.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212860.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212866.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212869.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212875.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212953.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212974.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212980.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212983.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212836.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212959.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94212968.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/10696967",
-      "createdAt": "2025-06-02 15:28:15",
-      "updatedAt": "2026-06-23 04:20:12"
     },
     {
       "id": "10877450",
@@ -738,7 +754,7 @@
       },
       "url": "https://starnawska.pl/oferty/11154254",
       "createdAt": "2025-09-29 11:26:54",
-      "updatedAt": "2026-01-08 04:40:12"
+      "updatedAt": "2026-06-27 08:31:24"
     },
     {
       "id": "11208602",
@@ -1476,160 +1492,7 @@
       },
       "url": "https://starnawska.pl/oferty/11601806",
       "createdAt": "2026-02-18 15:15:30",
-      "updatedAt": "2026-05-20 10:36:11"
-    },
-    {
-      "id": "11673872",
-      "offerNumber": "ST171809",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Lokal handlowy/usługowy",
-      "market": "wtorny",
-      "title": "Lokal w centrum, bez czynszu do wspólnoty!",
-      "description": "Gdynia, ul. Świętojańska - Lokal 60 m² z dużą witryną | Bez czynszu do wspólnoty!\n\nSzukasz idealnego miejsca na swój biznes w samym sercu Gdyni? Oferujemy do wynajęcia atrakcyjny lokal użytkowy położony na parterze prywatnej kamienicy przy reprezentacyjnej ul. Świętojańskiej.\n\nNajważniejsze atuty:\nLokalizacja Premium: Bezpośrednie wejście z ulicy, sąsiedztwo apteki i Żabki - duży przepływ potencjalnych klientów.\nPrzestronność: Sala główna o powierzchni 44 m² z dużą, przeszkloną witryną.\nZaplecze: Dodatkowe dwa pomieszczenia (w tym kuchnia oraz toaleta).\nKomfort: Lokal wyposażony w klimatyzację.\nLogistyka: Miejsce postojowe do rozładunku towaru bezpośrednio przed lokalem.\n\nLokal jest pusty i gotowy do dowolnej aranżacji. Idealnie sprawdzi się jako butik odzieżowy, punkt usługowy, biuro obsługi klienta lub punkt gastronomiczny (sprzedaż gotowych produktów). Wcześniej z powodzeniem funkcjonował tu bank oraz sklep odzieżowy.\n\nKoszty najmu:\nCzynsz: 3 999 zł netto / mies.\nBRAK dodatkowych opłat do wspólnoty!\nOpłaty eksploatacyjne wg liczników (prąd, woda) + wywóz nieczystości.\nKaucja: 5 000 zł.\nLokal wolny od zaraz! Zapraszamy na prezentację.",
-      "price": 3999,
-      "pricePerSqm": 60.32,
-      "area": 66.3,
-      "rooms": 4,
-      "floor": 0,
-      "totalFloors": 5,
-      "yearBuilt": 1969,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Świętojańska",
-      "lat": 54.51289,
-      "lng": 18.539433,
-      "images": [
-        {
-          "url": "/oferty/105450680.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/105450677.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105450524.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446957.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446933.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446960.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446945.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446942.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446936.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446939.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446951.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446954.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446900.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446930.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105446897.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105988268.jpg",
-          "primary": false
-        }
-      ],
-      "features": [
-        "Morze w pobliżu"
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/11673872",
-      "createdAt": "2026-03-11 17:04:36",
-      "updatedAt": "2026-04-15 17:42:48"
-    },
-    {
-      "id": "11695535",
-      "offerNumber": "ST582944",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Usługowo-mieszkaniowa",
-      "market": "wtorny",
-      "title": "400m od Zatoki Puckiej",
-      "description": "Działka budowlana położona 400 m w prostej linii od Zatoki Puckiej.\n\nTeren składa się z dwóch działek - 1582 m2 oraz 717 m2 częściowo stanowiącej wjazd. Działka w drugiej linii od ulicy. W bezpośrednim sąsiedztwie zabudowa mieszkaniowa jednorodzinna oraz obiekty o charakterze turystycznym.\nMiejscowy plan zakłada:\n- teren zabudowy mieszkaniowej jednorodzinnej,  \n- teren usług turystyki. \n\nUzbrojenie w drodze:\n- prąd\n- woda\n- kanalizacja.",
-      "price": 685000,
-      "pricePerSqm": 297.96,
-      "area": 2299,
-      "city": "Swarzewo",
-      "district": "pucki",
-      "street": "ul. Pogodna",
-      "lat": 54.75323,
-      "lng": 18.3933087,
-      "images": [
-        {
-          "url": "/oferty/105073601.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/105073607.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105073598.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105073604.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105073592.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105073595.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/11695535",
-      "createdAt": "2026-03-18 09:16:41",
-      "updatedAt": "2026-05-12 04:20:12"
+      "updatedAt": "2026-06-17 17:12:41"
     },
     {
       "id": "11740850",
@@ -1879,86 +1742,6 @@
       "updatedAt": "2026-06-19 08:48:11"
     },
     {
-      "id": "11902466",
-      "offerNumber": "ST360456",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "2 niezależne pokoje, super lokalizacja",
-      "description": "Oferujemy do wynajmu mieszkanie w pełni urządzone i wyposażone. \nMieszkanie jest z wystawą wschodnio- zachodnią ( z jednej strony budynku okna wychodzą na ogródek do wspólnego użytku mieszkańców, z drugiej na wewnętrzne podwórze).\nMieszkanie składa się z:\n-  dwóch niezależnych  pokoi, \n- jeden posiada wyjście na balkon,\n- drugi z widokiem na zieleń,\n- łazienki z prysznicem, wyposażonej w pralkę( świeżo po remoncie)\n- kuchni w pełni wyposażonej(lodówka, zmywarka),\n- przedpokoju.\nWarunki wynajmu:\n- najem okazjonalny na rok,\n- kaucja w wysokości dwumiesięcznego czynszu,\n- dodatkowe opłaty: około 650 zł czynsz do administracji plus prąd według zużycia.\n\nOgromnym atutem tego mieszkania jest lokalizacja:\n- 2-3 minuty do stacji SKM Gdańsk Wrzeszcz,\n- 3 minuty do Galerii Metropolia,\n- dostępne miejsca parkingowe pod blokiem.",
-      "price": 2500,
-      "pricePerSqm": 49.02,
-      "rent": 650,
-      "area": 51,
-      "rooms": 2,
-      "floor": 3,
-      "totalFloors": 4,
-      "city": "Gdańsk",
-      "district": "Wrzeszcz",
-      "street": "ul. Biała",
-      "lat": 54.3805755,
-      "lng": 18.61068,
-      "images": [
-        {
-          "url": "/oferty/107037770.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/107037731.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037710.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037719.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037785.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037776.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037206.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037740.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037773.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037821.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037851.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107037911.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Agata Klimkiewicz",
-        "phone": "530518448",
-        "email": "aklimkiewicz@starnawska.pl",
-        "slug": "agata-klimkiewicz"
-      },
-      "url": "https://starnawska.pl/oferty/11902466",
-      "createdAt": "2026-04-24 15:04:11",
-      "updatedAt": "2026-06-16 04:20:15"
-    },
-    {
       "id": "11904581",
       "offerNumber": "ST428499",
       "transaction": "najem",
@@ -1997,44 +1780,61 @@
       "updatedAt": "2026-05-03 04:20:07"
     },
     {
-      "id": "11945126",
-      "offerNumber": "ST256810",
+      "id": "11929373",
+      "offerNumber": "ST346379",
       "transaction": "sprzedaz",
       "type": "dzialka",
-      "typeDetail": "Rekreacyjna",
+      "typeDetail": "Mieszkaniowa",
       "market": "wtorny",
-      "title": "Nasłoneczniona działka na dom rekreacyjny",
-      "description": "Działka w we wsi Równe (Chrztowo, gm.Liniewo). Oddalona o ok.350 m od jeziora Polaszkowskiego. Prostokątna - ok.25x40 m. \n\nPołożona na lekkim wzniesieniu, prąd w drodze. W sąsiedztwie tereny zabudowane (głównie zabudowa letniskowa) oraz niezbudowane. \n\nPrzeznaczenie:\n- tereny zabudowy turystycznej indywidualnej, dopuszcza się realizację wszelkich form zawartych w terenach zieleni urządzone, \n- wielkość powierzchni zabudowy w stosunku do powierzchni terenu:\nmaksymalnie 15%\n- minimalny procent powierzchni biologicznie czynnej 70%\n- intensywność zabudowy: maksymalnie 0,3\n- wysokość zabudowy: do 8,0m\nDojazd na ostatnim odcinku drogą gruntową \nWraz z działką zakup udziału w działce drogowej. Każdoczesnemu właścicielowi działki przysługuje również służebność przejazdu i przechodu przez działkę bezpośrednio graniczącą z jeziorem. \n\nPrąd w drodze. Woda - do wykonania ujęcie własne.",
-      "price": 108504,
-      "pricePerSqm": 99,
-      "area": 1096,
-      "city": "Chrztowo",
-      "district": "kościerski",
-      "lat": 54.04831,
-      "lng": 18.17167,
+      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
+      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
+      "price": 275000,
+      "pricePerSqm": 195.87,
+      "area": 1404,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5444674,
+      "lng": 18.2850692,
       "images": [
         {
-          "url": "/oferty/107466869.jpg",
+          "url": "/oferty/107743163.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/107466872.jpg",
+          "url": "/oferty/107741804.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/107466875.jpg",
+          "url": "/oferty/107742041.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741792.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741789.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741783.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/107741795.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
       },
-      "url": "https://starnawska.pl/oferty/11945126",
-      "createdAt": "2026-05-07 10:28:37",
-      "updatedAt": "2026-05-07 10:30:10"
+      "url": "https://starnawska.pl/oferty/11929373",
+      "createdAt": "2026-05-03 20:51:58",
+      "updatedAt": "2026-07-02 19:19:09"
     },
     {
       "id": "11993354",
@@ -2058,15 +1858,15 @@
       "lng": 18.3676949,
       "images": [
         {
-          "url": "/oferty/108069128.jpg",
+          "url": "/oferty/109389509.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/108069131.jpg",
+          "url": "/oferty/109389551.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108069137.jpg",
+          "url": "/oferty/109389548.jpg",
           "primary": false
         },
         {
@@ -2106,107 +1906,7 @@
       },
       "url": "https://starnawska.pl/oferty/11993354",
       "createdAt": "2026-05-19 12:13:54",
-      "updatedAt": "2026-05-21 13:50:12"
-    },
-    {
-      "id": "11995904",
-      "offerNumber": "ST994340",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Trzy pokoje, parter i duży ogródek",
-      "description": "Mieszkanie na parterze w bardzo dobrej, spokojnej lokalizacji  Rumi Janowa .\nNieruchomość  59,61 m2 składa się z 3 oddzielnych pokoi, oddzielnej kuchni,  łazienki, wc i wygodnego przedpokoju.\nMieszkanie bardzo zadbane (blok z lat 80tych), odświeżane na bieżąco (panele, kuchnia itp.) do wprowadzenia lub własnej aranżacji, remontu.\nKierunki:  wschód (sypialnie) - zachód (salon i kuchnia).\nDo mieszkania przynależy duży ogródek oraz piwnica (3,51m1).\nPod blokiem bardzo dużo miejsc parkingowych ogólnie dostępnych.\nW koło mnóstwo terenów zielonych, place zabaw. \nKomunikacja autobusowa, w tym  idealne połącznie m.in. bezpośrednio z Wejherowem - autobus nr „J” , z Gdynią -„R” oraz z przystankiem SKM - Rumia Janowo.\nW pobliżu liczne przedszkola, żłobki, szkoła podstawowa i liceum. Na przeciwko mini centrum handlowe, a w nim m.in. LIDL, Rossmann, Pepco, piekarnia, a kilka minut dalej znajduje się Biedronka.\nIdealne mieszkanie dla rodziny z małym dzieckiem, czy starszych osób. Idealne dla Ciebie!\nAtuty nieruchomości:\n\nParter i ogródek.\nLokalizacja, w tym komunikacja i pełna infrastruktura\nSpokój i mnóstwo zieleni.\nTrzy niezależne pokoje i  niezależna kuchnia.\nMożliwości aranżacyjne.\n\nPOLECAMY!",
-      "price": 570000,
-      "pricePerSqm": 9562.15,
-      "rent": 900,
-      "area": 59.61,
-      "rooms": 3,
-      "floor": 0,
-      "totalFloors": 4,
-      "yearBuilt": 1980,
-      "city": "Rumia",
-      "district": "Janowo",
-      "street": "ul. Pomorska",
-      "lat": 54.5665051,
-      "lng": 18.420034,
-      "images": [
-        {
-          "url": "/oferty/108086675.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/108086645.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086729.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086666.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086663.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086684.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086639.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086657.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086654.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086648.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086699.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086705.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086723.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108086621.jpg",
-          "primary": false
-        }
-      ],
-      "features": [
-        "Park w pobliżu",
-        "Autobus",
-        "Kolejka SKM",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/11995904",
-      "createdAt": "2026-05-19 20:24:01",
-      "updatedAt": "2026-06-13 04:20:06"
+      "updatedAt": "2026-06-15 12:10:46"
     },
     {
       "id": "11996204",
@@ -2230,15 +1930,15 @@
       "lng": 18.3676949,
       "images": [
         {
-          "url": "/oferty/108091541.jpg",
+          "url": "/oferty/109389455.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/108091535.jpg",
+          "url": "/oferty/109389452.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091538.jpg",
+          "url": "/oferty/109389458.jpg",
           "primary": false
         },
         {
@@ -2278,7 +1978,48 @@
       },
       "url": "https://starnawska.pl/oferty/11996204",
       "createdAt": "2026-05-20 06:39:41",
-      "updatedAt": "2026-05-28 04:20:11"
+      "updatedAt": "2026-06-15 12:09:07"
+    },
+    {
+      "id": "12049100",
+      "offerNumber": "ST926971",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Płaska, łatwy dojazd, bliskość przystanku",
+      "description": "Mamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 190000,
+      "pricePerSqm": 194.27,
+      "area": 978,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5434013,
+      "lng": 18.2909448,
+      "images": [
+        {
+          "url": "/oferty/108582119.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/108582122.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108582128.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12049100",
+      "createdAt": "2026-05-28 21:52:06",
+      "updatedAt": "2026-07-02 19:08:08"
     },
     {
       "id": "12059180",
@@ -2302,15 +2043,15 @@
       "lng": 18.3676949,
       "images": [
         {
-          "url": "/oferty/108711641.jpg",
+          "url": "/oferty/109389359.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/108711644.jpg",
+          "url": "/oferty/109389299.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711647.jpg",
+          "url": "/oferty/109389296.jpg",
           "primary": false
         },
         {
@@ -2362,7 +2103,7 @@
       },
       "url": "https://starnawska.pl/oferty/12059180",
       "createdAt": "2026-06-01 13:54:49",
-      "updatedAt": "2026-06-09 04:20:12"
+      "updatedAt": "2026-06-15 12:07:39"
     },
     {
       "id": "12059429",
@@ -2435,360 +2176,6 @@
       "url": "https://starnawska.pl/oferty/12059429",
       "createdAt": "2026-06-01 14:29:13",
       "updatedAt": "2026-06-01 14:38:06"
-    },
-    {
-      "id": "10627130",
-      "offerNumber": "ST427610",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Kameralna kawalerka, po remoncie, Sopot Przylesie",
-      "description": "Kawalerka 15,40 m2 + komórka lokatorska (na tym samym piętrze) | 7. piętro | Widok na las | Po generalnym remoncie\n\nNa wynajem nowoczesna, w pełni wyposażona kawalerka z pięknym widokiem na las, położona w Sopocie w dzielnicy Przylesie - idealna dla studenta lub singla szukającego funkcjonalnej przestrzeni w cichej, dobrze skomunikowanej lokalizacji.\n\nMieszkanie:\n- Powierzchnia: 15,40 m²\n- Dodatkowo: komórka lokatorska na tym samym piętrze\n- Piętro: 7/10 (winda)\n\nStan: po generalnym remoncie - świeżo wykończone, gotowe do zamieszkania\nNajem od 01.07.2026r\n\nWyposażenie:\n- Kuchnia w zabudowie, wyposażona w: płytę indukcyjną, lodówkę, mikrofalówkę, czajnik\n- Łazienka z prysznicem i pralką\n- Pokój dzienny z rozkładaną sofą, stołem, krzesłami, telewizorem i szafą\n\nDostęp do komórki lokatorskiej na tym samym piętrze - idealna na walizki, sprzęt AGD lub rzeczy sezonowe.\n\nKoszty najmu:\n- Czynsz najmu: 2 000 zł / miesiąc\n- Opłaty administracyjne: ok. 350 zł / miesiąc \nDodatkowo: prąd wg zużycia\n\nNajem okazjonalny - min. 12 miesięcy\n\nLokalizacja i okolica:\nMieszkanie znajduje się w spokojnej i zielonej części Sopotu, w otoczeniu lasu i licznych terenów rekreacyjnych.\n- Bliskość lasu - idealne miejsce do spacerów, biegania czy jazdy na rowerze\n- Świetna komunikacja: przystanki autobusowe w odległości ok. 100-200 m\n- Szybki dojazd do stacji SKM - ok. 10 min \n- Blisko Uniwersytet Gdański (Wydział Ekonomiczny, Wydział Zarządzania) - ok. 10 minut komunikacją\n- W pobliżu: sklepy (m.in. Lidl, Żabka), apteka, piekarnia, punkty usługowe\n- Dobry dojazd do Centrum Sopotu i plaży - ok. 10-15 min komunikacją\n \nZapraszam na prezentacje!",
-      "price": 2000,
-      "pricePerSqm": 129.87,
-      "rent": 350,
-      "area": 15.4,
-      "rooms": 1,
-      "floor": 7,
-      "totalFloors": 10,
-      "yearBuilt": 1970,
-      "city": "Sopot",
-      "district": "Przylesie",
-      "street": "ul. 23 Marca",
-      "lat": 54.44861,
-      "lng": 18.54336,
-      "images": [
-        {
-          "url": "/oferty/91990223.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/91990241.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990214.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990217.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990220.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990235.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990232.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990226.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990229.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990205.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990208.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990211.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/91990238.jpg",
-          "primary": false
-        }
-      ],
-      "features": [
-        "Las w pobliżu",
-        "Park w pobliżu",
-        "Autobus",
-        "Przedszkole",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw",
-        "Winda"
-      ],
-      "agent": {
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
-      },
-      "url": "https://starnawska.pl/oferty/10627130",
-      "createdAt": "2025-05-15 13:19:18",
-      "updatedAt": "2026-06-17 04:40:07"
-    },
-    {
-      "id": "7482684",
-      "offerNumber": "ST819730",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Dwa niezależne pokoje i kuchnia w centrum miasta",
-      "description": "Mieszkanie zlokalizowane z ścisłym centrum miasta. Dwa niezależne pokoje ( ok. 16 i 11 m2),  duża jasna kuchnia z oknem ( ok.11 m2),  duża, jasna łazienka z wanną ok 6 m2). Mieszkanie po kapitalnym remoncie. Wyposażona kuchnia, bez mebli ruchomych. Wysokość prawie 2,9 m. Odzyskana oryginalna stolarka wewnętrzna. \n\nKamienica w drugiej linii zabudowy (widok na zabudowanie). \n\nOpłaty - czynsz plus prąd ok. 1050 zł \n\nNajem długoterminowy, okazjonalny.",
-      "price": 2500,
-      "pricePerSqm": 49.5,
-      "rent": 700,
-      "area": 50.5,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 2,
-      "yearBuilt": 1927,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Świętojańska",
-      "lat": 54.51994,
-      "lng": 18.54306,
-      "images": [
-        {
-          "url": "/oferty/57512400.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/57512343.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512298.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512286.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512292.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512325.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512370.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512391.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512412.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512418.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512427.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512430.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512433.jpg",
-          "primary": false
-        }
-      ],
-      "features": [
-        "Park w pobliżu",
-        "Autobus",
-        "Kolejka SKM",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/7482684",
-      "createdAt": "2023-06-22 07:43:53",
-      "updatedAt": "2026-06-24 04:20:14"
-    },
-    {
-      "id": "12113690",
-      "offerNumber": "ST982535",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Piękna działka w sąsiedztwie jeziora",
-      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 335000,
-      "pricePerSqm": 223.33,
-      "area": 1500,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Bukowa",
-      "lat": 54.5427708,
-      "lng": 18.2763107,
-      "images": [
-        {
-          "url": "/oferty/109559201.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/109559087.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109559204.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109559561.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109559075.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109559078.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109559081.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109559084.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109559564.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/12113690",
-      "createdAt": "2026-06-17 20:36:09",
-      "updatedAt": "2026-06-17 21:14:12"
-    },
-    {
-      "id": "11929373",
-      "offerNumber": "ST346379",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
-      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
-      "price": 275000,
-      "pricePerSqm": 195.87,
-      "area": 1404,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5444674,
-      "lng": 18.2850692,
-      "images": [
-        {
-          "url": "/oferty/107743163.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/107741804.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107742041.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741792.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741789.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741783.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741795.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/11929373",
-      "createdAt": "2026-05-03 20:51:58",
-      "updatedAt": "2026-07-02 19:19:09"
-    },
-    {
-      "id": "12049100",
-      "offerNumber": "ST926971",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Płaska, łatwy dojazd, bliskość przystanku",
-      "description": "Mamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 190000,
-      "pricePerSqm": 194.27,
-      "area": 978,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5434013,
-      "lng": 18.2909448,
-      "images": [
-        {
-          "url": "/oferty/108582119.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/108582122.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108582128.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/12049100",
-      "createdAt": "2026-05-28 21:52:06",
-      "updatedAt": "2026-07-02 19:08:08"
     },
     {
       "id": "12081638",
@@ -2890,6 +2277,140 @@
       "url": "https://starnawska.pl/oferty/12081638",
       "createdAt": "2026-06-09 12:34:09",
       "updatedAt": "2026-06-27 16:35:47"
+    },
+    {
+      "id": "12089501",
+      "offerNumber": "ST531481",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Mieszkanie, 29.4 m², Gdynia",
+      "description": "Oferta w przygotowaniu!\nMieszkanie jedno pokojowe z oddzielną kuchnią. Przeszło remont ok. 12 lat temu. Okna wychodzą na podwórko, od strony ul. Komandorskiej, która znajduje się w sporym oddaleniu - w związku z tym jest cicho mimo lokalizacji budynku przy ul. Morskiej.\nPokój: ok. 14,7 m2\nKuchnia: ok.8,5 m2\nŁazienka: ok. 3,1 m2\nPrzedpokój: ok: 3,1 m2\n \nMieszkanie znajduje się na III p. budynku wybudowanego w latach 5otych z cegły. Nad mieszkaniem znajduje się kondygnacja strychowa (możliwość korzystania z suszarni). Zwyczajowo właściciel mieszkania korzysta z piwnicy. \n\nDostępne miejsca postojowe ogólnodostępne po obu stronach budynku. Bardzo dobrze skomunikowana okolica - SKM, liczne połączenia autobusowe, blisko obwodnica i dobry dojazd do centrum. W najbliższym sąsiedztwie sklepy. Oferta idealna jako inwestycja pod wynajem.\n\nObecnie wynajęte, prezentacje będą umawiane w uzgodnieniu z dotychczasowymi najemcami.",
+      "price": 360000,
+      "pricePerSqm": 12244.9,
+      "rent": 277,
+      "area": 29.4,
+      "rooms": 1,
+      "floor": 3,
+      "totalFloors": 4,
+      "yearBuilt": 1953,
+      "city": "Gdynia",
+      "district": "Grabówek",
+      "street": "ul. Morska",
+      "lat": 54.530343,
+      "lng": 18.497815,
+      "images": [
+        {
+          "url": "/oferty/109882226.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/109213580.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109213586.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109213562.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109213568.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109213571.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109213592.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109213577.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109994522.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/12089501",
+      "createdAt": "2026-06-10 21:19:13",
+      "updatedAt": "2026-06-23 20:45:29"
+    },
+    {
+      "id": "12113690",
+      "offerNumber": "ST982535",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Piękna działka w sąsiedztwie jeziora",
+      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 315000,
+      "pricePerSqm": 210,
+      "area": 1500,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Bukowa",
+      "lat": 54.5427708,
+      "lng": 18.2763107,
+      "images": [
+        {
+          "url": "/oferty/109559201.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/109559087.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559204.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559561.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559075.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559078.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559081.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559084.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559564.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12113690",
+      "createdAt": "2026-06-17 20:36:09",
+      "updatedAt": "2026-07-02 18:56:55"
     },
     {
       "id": "12164528",
