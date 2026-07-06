@@ -48,12 +48,9 @@ export async function GET() {
       byStatus,
       offers: summary,
       firstKeys: offers[0] ? Object.keys(offers[0]) : [],
-      rawStatusFields: offers.map((o) => ({
-        id: o.id,
-        status: o.status,
-        offerExport: o.offerExport,
-        companyStatus: o.companyStatus,
-      })),
+      exportAttr: (parsed.offers as Record<string, unknown> | undefined)?.["@_export"],
+      rawFirstOffer: offers[0] ?? null,
+      rawStatusFields: offers.map((o) => ({ id: o.id, action: o.action, status: o.status })),
     });
   } catch (err) {
     return NextResponse.json({ ok: false, error: err instanceof Error ? err.message : "unknown" });
