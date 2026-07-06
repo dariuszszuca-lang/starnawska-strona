@@ -104,6 +104,26 @@ export async function GET(req: Request) {
     const willExistFinal = new Set<string>([...existingFilenames, ...toUpload]);
     const parsedOffers: Offer[] = parseEstiXml(xmlText, willExistFinal);
 
+    // Eksport przyrostowy sygnalizuje zdjęcie/dezaktywację oferty przez action="delete"
+    // (Esti tak wysyła też oferty przełączone na "aktywna wewnętrznie"). Zbieramy te id,
+    // żeby USUNĄĆ je z bazy w merge — dawniej ignorowane, więc oferty wisiały na stronie.
+    const deleteIds = new Set<string>();
+    try {
+      const dp = new XMLParser({
+        ignoreAttributes: false,
+        attributeNamePrefix: "@_",
+        parseTagValue: false,
+        trimValues: true,
+        isArray: (n) => n === "offer",
+      });
+      const dparsed = dp.parse(xmlText) as { offers?: { offer?: Array<Record<string, unknown>> } };
+      for (const o of dparsed?.offers?.offer ?? []) {
+        if (String(o.action) === "delete" && o.id) deleteIds.add(String(o.id));
+      }
+    } catch {
+      /* brak akcji delete nie może wywrócić synca */
+    }
+
     // 6a. Tryb eksportu czytamy WPROST z atrybutu paczki:
     //   <offers export="full">        -> pełny snapshot wszystkich aktywnych ofert
     //   <offers export="incremental"> -> tylko oferty zmienione od ostatniego eksportu
@@ -139,8 +159,9 @@ export async function GET(req: Request) {
     if (useMerge) {
       const byId = new Map<string, Offer>((current?.offers ?? []).map((o) => [o.id, o]));
       for (const o of parsedOffers) byId.set(o.id, o);
+      for (const id of deleteIds) byId.delete(id); // usuwa zdjęte/wewnętrzne oferty
       offers = Array.from(byId.values());
-      mergeNote = ` MERGE(${exportAttr || "heur"} delta=${parsedOffers.length}/existing=${currentCount})`;
+      mergeNote = ` MERGE(${exportAttr || "heur"} delta=${parsedOffers.length}/existing=${currentCount}/del=${deleteIds.size})`;
     } else {
       offers = parsedOffers;
       mergeNote = ` FULL(${exportAttr || "heur"} count=${parsedOffers.length})`;

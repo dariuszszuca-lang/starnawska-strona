@@ -24,7 +24,7 @@ const MEM_TTL_MS = 60_000;
 // z fallbackiem na znane przypadki. Docelowo zastąpi to filtr po polu
 // publikacji z surowego XML Esti.
 const HIDDEN_OFFER_IDS = new Set(
-  (process.env.HIDDEN_OFFER_IDS ?? "12049010")
+  (process.env.HIDDEN_OFFER_IDS ?? "12049010,11601806")
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean)

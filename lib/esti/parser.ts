@@ -76,6 +76,11 @@ function mapRawToOffer(raw: RawOffer, availableImages?: Set<string>): Offer | nu
   const id = str(raw.id);
   if (!id) return null;
 
+  // Eksport przyrostowy: delta z action="delete" = Esti zdjął/dezaktywował ofertę
+  // (m.in. ustawienie "aktywna wewnętrznie"). Nie tworzymy oferty-kikuta; usunięcie
+  // z bazy obsługuje sync-esti (deleteIds).
+  if (str(raw.action) === "delete") return null;
+
   const price = num(raw.price) ?? 0;
   const area = num(raw.areaTotal) ?? num(raw.areaUsable) ?? 0;
   const transaction = mapTransaction(raw.transaction);
