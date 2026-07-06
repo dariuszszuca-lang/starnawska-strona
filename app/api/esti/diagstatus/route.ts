@@ -41,7 +41,20 @@ export async function GET() {
     }));
     const byStatus: Record<string, number> = {};
     for (const s of summary) byStatus[String(s.status)] = (byStatus[String(s.status)] || 0) + 1;
-    return NextResponse.json({ ok: true, package: pkg.name, count: offers.length, byStatus, offers: summary });
+    return NextResponse.json({
+      ok: true,
+      package: pkg.name,
+      count: offers.length,
+      byStatus,
+      offers: summary,
+      firstKeys: offers[0] ? Object.keys(offers[0]) : [],
+      rawStatusFields: offers.map((o) => ({
+        id: o.id,
+        status: o.status,
+        offerExport: o.offerExport,
+        companyStatus: o.companyStatus,
+      })),
+    });
   } catch (err) {
     return NextResponse.json({ ok: false, error: err instanceof Error ? err.message : "unknown" });
   }
