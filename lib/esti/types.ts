@@ -82,6 +82,9 @@ export type Offer = {
   /** Wirtualny spacer */
   virtualTour?: string;
 
+  /** Film / wideo prezentacyjne — znormalizowany YouTube embed URL (z pola videoLink w Esti) */
+  videoUrl?: string;
+
   /** Wyposażenie / cechy */
   features?: string[];
 

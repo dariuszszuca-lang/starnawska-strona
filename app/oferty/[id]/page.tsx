@@ -100,7 +100,11 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
           </Link>
 
           {offer.images.length > 0 ? (
-            <OfferGalleryHero images={offer.images} title={offerTitle(offer)} />
+            <OfferGalleryHero
+              images={offer.images}
+              title={offerTitle(offer)}
+              videoUrl={offer.videoUrl}
+            />
           ) : (
             <div className="aspect-[16/9] rounded-3xl bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
               <Building2 className="size-16 text-gray-400" />

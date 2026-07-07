@@ -109,6 +109,7 @@ function mapOne(raw: EstiApiOffer): Offer | null {
     lng: num(raw.locationLongitude),
 
     images: mapImages(raw),
+    videoUrl: mapVideoUrl(raw.videoLink),
     features: undefined,
 
     agent: agentName
@@ -300,4 +301,32 @@ function htmlToPlainText(html: string): string {
     .replace(/&quot;/g, '"')
     .replace(/\n{3,}/g, "\n\n")
     .trim();
+}
+
+// ----- film / wideo -----
+
+/**
+ * Wyłuskuje 11-znakowe ID filmu YouTube z różnych form linku
+ * (watch?v=, youtu.be/, /embed/, /shorts/).
+ */
+function youtubeId(url: string): string | undefined {
+  const m =
+    url.match(/[?&]v=([A-Za-z0-9_-]{11})/) ||
+    url.match(/youtu\.be\/([A-Za-z0-9_-]{11})/) ||
+    url.match(/\/embed\/([A-Za-z0-9_-]{11})/) ||
+    url.match(/\/shorts\/([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : undefined;
+}
+
+/**
+ * Normalizuje link do filmu (pole `videoLink` z Esti) na URL do osadzenia.
+ * Obsługujemy YouTube (najczęstsze u agentek). Puste / nie-YouTube → undefined
+ * (nie renderujemy nieznanego formatu, zamiast psuć stronę).
+ */
+function mapVideoUrl(v: unknown): string | undefined {
+  const raw = str(v);
+  if (!raw) return undefined;
+  const id = youtubeId(raw);
+  if (!id) return undefined;
+  return `https://www.youtube-nocookie.com/embed/${id}`;
 }
