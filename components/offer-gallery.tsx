@@ -114,10 +114,13 @@ function Lightbox({
   );
 }
 
-/** Miniatura filmu z YouTube (z embed URL postaci /embed/<id>). */
+/**
+ * Miniatura filmu z YouTube (z embed URL postaci /embed/<id>).
+ * Używamy mqdefault (16:9, bez czarnego letterboxu jaki ma hqdefault 4:3).
+ */
 function ytThumb(embedUrl: string): string {
   const m = embedUrl.match(/\/embed\/([A-Za-z0-9_-]{11})/);
-  return m ? `https://img.youtube.com/vi/${m[1]}/hqdefault.jpg` : "";
+  return m ? `https://img.youtube.com/vi/${m[1]}/mqdefault.jpg` : "";
 }
 
 /** Pełnoekranowy odtwarzacz filmu (iframe YouTube). Esc / klik-tło / X zamyka. */
