@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import { OfferGalleryHero, OfferGalleryGrid } from "@/components/offer-gallery";
 import { notFound } from "next/navigation";
 import {
   ArrowLeft,
@@ -65,8 +65,6 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
   if (!offer) notFound();
 
   const agent = offer.agent?.slug ? getMemberBySlug(offer.agent.slug) : null;
-  const primary = offer.images.find((i) => i.primary) ?? offer.images[0];
-  const gallery = offer.images.filter((i) => i !== primary);
 
   // RealEstateListing JSON-LD
   const schema = {
@@ -102,33 +100,7 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
           </Link>
 
           {offer.images.length > 0 ? (
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-3">
-              <div className="lg:col-span-3 relative aspect-[16/10] rounded-3xl overflow-hidden bg-gray-100">
-                {primary && (
-                  <Image
-                    src={primary.url}
-                    alt={primary.alt ?? offerTitle(offer)}
-                    fill
-                    sizes="(min-width: 1024px) 75vw, 100vw"
-                    className="object-cover"
-                    priority
-                  />
-                )}
-              </div>
-              <div className="hidden lg:grid grid-rows-3 gap-3">
-                {gallery.slice(0, 3).map((img, i) => (
-                  <div key={i} className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
-                    <Image
-                      src={img.url}
-                      alt={img.alt ?? ""}
-                      fill
-                      sizes="25vw"
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
+            <OfferGalleryHero images={offer.images} title={offerTitle(offer)} />
           ) : (
             <div className="aspect-[16/9] rounded-3xl bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
               <Building2 className="size-16 text-gray-400" />
@@ -260,29 +232,7 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
               )}
 
               {/* Gallery rest */}
-              {gallery.length > 3 && (
-                <div>
-                  <h2 className="font-bold tracking-tight text-xl text-foreground mb-4">
-                    Galeria
-                  </h2>
-                  <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
-                    {gallery.slice(3).map((img, i) => (
-                      <div
-                        key={i}
-                        className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100"
-                      >
-                        <Image
-                          src={img.url}
-                          alt={img.alt ?? ""}
-                          fill
-                          sizes="(min-width: 1024px) 25vw, 50vw"
-                          className="object-cover"
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+              <OfferGalleryGrid images={offer.images} title={offerTitle(offer)} />
             </div>
 
             {/* Sidebar: agent + CTA */}

@@ -44,3 +44,5 @@ next-env.d.ts
 # kontrola ofert (logi lokalne)
 scripts/kontrola.log
 scripts/kontrola-status.json
+scripts/kontrola-launchd.err
+scripts/kontrola-launchd.out
