@@ -1,6 +1,8 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { Offer, OfferFilters, OffersResult } from "./types";
+import { fetchEstiOffersJson } from "./api-client";
+import { mapApiOffersToOffers } from "./api-mapper";
 
 /**
  * Storage ofert: lokalny plik data/offers.json w repo.
@@ -18,6 +20,27 @@ export type CacheShape = {
 
 let memCache: { data: CacheShape; loadedAt: number } | null = null;
 const MEM_TTL_MS = 60_000;
+
+// ISR: jak długo Next cache'uje odpowiedź API Esti (auto-odświeżanie ofert bez crona).
+const OFFERS_REVALIDATE_S = 3600; // 1h
+
+/**
+ * Oferty NA ŻYWO z API Esti (gdy ustawione ESTI_API_COMPANY + ESTI_API_TOKEN).
+ * status="3" = tylko aktywne PUBLIKOWANE (wewnętrzne/status 99 NIE wchodzą — to
+ * rozwiązuje systemowo: nowe wchodzą od razu, wewnętrzne nie wyciekają, sprzedane
+ * znikają). Błąd/brak konfiguracji → null → fallback na snapshot data/offers.json.
+ */
+async function loadFromApi(): Promise<CacheShape | null> {
+  if (!process.env.ESTI_API_COMPANY || !process.env.ESTI_API_TOKEN) return null;
+  try {
+    const raw = await fetchEstiOffersJson({ status: "3", revalidateSeconds: OFFERS_REVALIDATE_S });
+    const offers = mapApiOffersToOffers(raw);
+    if (offers.length === 0) return null;
+    return { lastSync: new Date().toISOString(), offers };
+  } catch {
+    return null;
+  }
+}
 
 // Oferty ręcznie ukryte (np. wewnętrzne / bez publikacji w Esti, które
 // eksport FTP nadal wysyła). Lista przez env HIDDEN_OFFER_IDS (CSV),
@@ -46,18 +69,25 @@ export async function readOffers(): Promise<CacheShape | null> {
   if (memCache && Date.now() - memCache.loadedAt < MEM_TTL_MS) {
     return memCache.data;
   }
-  try {
-    const text = await readFile(OFFERS_FILE, "utf8");
-    const parsed = JSON.parse(text) as CacheShape;
-    const filtered: CacheShape = {
-      lastSync: parsed.lastSync,
-      offers: parsed.offers.filter(isPublishable),
-    };
-    memCache = { data: filtered, loadedAt: Date.now() };
-    return filtered;
-  } catch {
-    return null;
+
+  // 1. NA ŻYWO z API Esti (zawsze komplet aktualnych ofert). 2. Fallback: snapshot.
+  let source: CacheShape | null = await loadFromApi();
+  if (!source) {
+    try {
+      const text = await readFile(OFFERS_FILE, "utf8");
+      source = JSON.parse(text) as CacheShape;
+    } catch {
+      source = null;
+    }
   }
+  if (!source) return null;
+
+  const filtered: CacheShape = {
+    lastSync: source.lastSync,
+    offers: source.offers.filter(isPublishable),
+  };
+  memCache = { data: filtered, loadedAt: Date.now() };
+  return filtered;
 }
 
 export async function getFilteredOffers(filters: OfferFilters): Promise<OffersResult> {

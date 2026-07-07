@@ -371,7 +371,7 @@ function extractFeatures(raw: RawOffer): string[] | undefined {
   return result.length > 0 ? result : undefined;
 }
 
-function matchAgentSlug(fullName: string): string | undefined {
+export function matchAgentSlug(fullName: string): string | undefined {
   if (!fullName) return undefined;
   const lower = fullName.toLowerCase();
   const map: Record<string, string> = {

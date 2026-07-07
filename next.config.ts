@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "**.starnawska.pl" },
       { protocol: "https", hostname: "**.starnawska.iq.pl" },
+      { protocol: "https", hostname: "static.esticrm.pl" },
       { protocol: "https", hostname: "cdn.sanity.io" },
       { protocol: "https", hostname: "*.public.blob.vercel-storage.com" },
       { protocol: "https", hostname: "*.blob.vercel-storage.com" },
