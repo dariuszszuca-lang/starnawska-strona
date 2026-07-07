@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-07-06T06:01:39.135Z",
+  "lastSync": "2026-07-07T06:22:54.146Z",
   "offers": [
     {
       "id": "926110",
@@ -168,7 +168,7 @@
       },
       "url": "https://starnawska.pl/oferty/5826876",
       "createdAt": "2022-04-05 12:55:58",
-      "updatedAt": "2026-06-29 22:19:34"
+      "updatedAt": "2026-07-07 04:20:15"
     },
     {
       "id": "7482684",
@@ -1380,119 +1380,6 @@
       "url": "https://starnawska.pl/oferty/11599184",
       "createdAt": "2026-02-18 08:23:59",
       "updatedAt": "2026-06-30 09:03:58"
-    },
-    {
-      "id": "11601806",
-      "offerNumber": "ST445890",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Wygodne 3 pokoje z MP w hali",
-      "description": "Mieszkanie 3 pokojowe w sercu Gdańska, b.dobry standard, stan idealny. \nMieszkanie znajduje się na V, ostatnim piętrze apartamentowca Aura 40 wybudowanego w 2021 r.\n\nW pełni wyposażone. Salon z aneksem kuchennym z balkonem wychodzącym na słoneczną i cichą stronę. Wyposażony w klimatyzator. Jasne barwy i dobra jakość wykończenia. Główna sypialnia z pojemną szafą, wygodnym łóżkiem. Mniejsza sypialnia idealna jako pokój do pracy lub dla dziecka (przy zmianie mebli ruchomych).\n\nMiejsce postojowe w hali garażowej (300 ZŁ) pod budynkiem plus miejsca ogólnodostępne dla mieszkańców znajdujące się również na terenie hali. W budynku ochrona. \n\nLokalizacja łącząca zalety bliskości starego miasta, nowo powstałej strefy gastronomicznej na terenach stoczni i Montowni przy jednoczesnym zaciszu najbliższego sąsiedztwa. Bogata infrastruktura - szkoły, przychodnie zdrowia, sklepy w odległości krótkiego spaceru, to niezrównana wygoda. Kanał Raduni, z okalającym go starodrzewiem. W tej lokalizacji wszędzie możesz dojść spacerem. \n\nOpłaty ok. 950 zł + prąd. \n\n Najem długoterminowy, okazjonalny. \n\nPreferowany wynajem dla pary.",
-      "price": 4200,
-      "pricePerSqm": 70.59,
-      "rent": 950,
-      "area": 59.5,
-      "rooms": 3,
-      "floor": 5,
-      "totalFloors": 5,
-      "yearBuilt": 2021,
-      "city": "Gdańsk",
-      "district": "Śródmieście",
-      "street": "ul. Wałowa",
-      "lat": 54.3584091,
-      "lng": 18.6542312,
-      "images": [
-        {
-          "url": "/oferty/103869764.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/103869758.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869761.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869767.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869770.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869773.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869794.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869797.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869800.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869776.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869779.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869782.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869785.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869803.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869806.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869809.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869788.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869791.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869752.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/103869755.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/11601806",
-      "createdAt": "2026-02-18 15:15:30",
-      "updatedAt": "2026-06-17 17:12:41"
     },
     {
       "id": "11740850",
