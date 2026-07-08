@@ -1,175 +1,6 @@
 {
-  "lastSync": "2026-07-07T06:22:54.146Z",
+  "lastSync": "2026-07-08T05:33:53.993Z",
   "offers": [
-    {
-      "id": "926110",
-      "offerNumber": "ST307496",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "2 pokoje po remoncie Przymorze",
-      "description": "Wymieniono instalacje, drzwi zewnętrzne i wewnętrzne, glazurę w łazience, kuchni oraz na przedpokoju, ściany gładkie, malowane. Mieszkanie z wyposażaniem - zabudowa kuchni wraz ze sprzętem AGD (lodówka z zamrażarką, kuchenka z piekarnikiem, kuchenka mikrofalowa), w łazience pralka, w salonie rozkładana kanapa, dwa fotele, stolik kawowy, komody i stolik pod TV. W drugim pokoju stół, szafa, biurko z krzesłem. Mieszkanie dobrze doświetlone - strona południowa.\n\nBlok ocieplony. Przed budynkiem miejsca postojowe dla mieszkańców.\n\nLokalizacja doskonała pod kątem komunikacji oraz dostępu infrastruktury. Ok. 5 min pieszo do Arkońska Business Center, 10 min pieszo do kompleksu biurowców Alchemia, 15 min pieszo do Olivia Gate czy kampusu Uniwersytetu Gdańskiego. 800 m do SKM Przymorze, 500 m do linii tramwajowej, przy Kołobrzeskiej oraz Chłopskiej przystanki autobusowe. W bezpośrednim sąsiedztwie bloku liczne punkty handlowe oraz CH Alfa - z zapleczem sklepowym, kinem, ścianką wspinaczkową, kawiarniami i restauracjami. Ok. 1, 5 km do Parku Reagana, 2,5 km do plaży.\n\nOpłaty do spółdzielni na poziomie ok 520 zł/ 660 zł (z ogrzewaniem) + prąd i gaz wg zużycia + Internet/TV\n\nDostępne od lipca 2026 r.. \n\nNajem długoterminowy, umowa najmu okazjonalnego.",
-      "price": 2200,
-      "pricePerSqm": 58.08,
-      "rent": 590,
-      "area": 37.88,
-      "rooms": 2,
-      "floor": 4,
-      "totalFloors": 4,
-      "city": "Gdańsk",
-      "district": "Przymorze",
-      "street": "ul. Lęborska",
-      "lat": 54.40532,
-      "lng": 18.58437,
-      "images": [
-        {
-          "url": "/oferty/5587033.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/5587039.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587045.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587036.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587042.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587048.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587051.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587054.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587057.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587060.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587063.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587066.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/5587069.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/926110",
-      "createdAt": "2018-07-25 20:38:50",
-      "updatedAt": "2026-06-30 08:13:27"
-    },
-    {
-      "id": "5826876",
-      "offerNumber": "ST674422",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
-      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nCzerwona ściana w salonie widoczna na zdjęciu została przemalowana na kolor szary.\n\n Mieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy miejsce parkingowe za szlabanem oraz komórka lokatorska. Dla osób zainteresowanych - istnieje możliwość zmiany koloru ścian.\n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \n\nUmowa na rok czasu, najem okazjonalny.",
-      "price": 2200,
-      "pricePerSqm": 47.83,
-      "rent": 480,
-      "area": 46,
-      "rooms": 2,
-      "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 2016,
-      "city": "Gdańsk",
-      "district": "Jasień",
-      "street": "ul. Konrada Guderskiego",
-      "lat": 54.32196,
-      "lng": 18.55925,
-      "images": [
-        {
-          "url": "/oferty/106491209.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/106491098.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106491263.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448594.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448570.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448564.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448579.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448627.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448615.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448588.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448621.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448630.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/41448624.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
-      },
-      "url": "https://starnawska.pl/oferty/5826876",
-      "createdAt": "2022-04-05 12:55:58",
-      "updatedAt": "2026-07-07 04:20:15"
-    },
     {
       "id": "7482684",
       "offerNumber": "ST819730",
@@ -193,519 +24,44 @@
       "lng": 18.54306,
       "images": [
         {
-          "url": "/oferty/57512400.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/110551475_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/57512343.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/110551481_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/57512298.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/110551484_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/57512286.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512286_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/57512292.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512292_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/57512325.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512325_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/57512370.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512391.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512412.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512418.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512427.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512430.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/57512433.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512433_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Park w pobliżu",
-        "Autobus",
-        "Kolejka SKM",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/7482684",
       "createdAt": "2023-06-22 07:43:53",
-      "updatedAt": "2026-06-24 04:20:14"
-    },
-    {
-      "id": "9291344",
-      "offerNumber": "ST852722",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Rekreacyjna",
-      "market": "wtorny",
-      "title": "Nasłoneczniona działka na dom rekreacyjny",
-      "description": "Działka w we wsi Równe (Chrztowo, gm.Liniewo). Oddalona o ok.350 m od jeziora Polaszkowskiego. Prostokątna - ok.25x40 m. \n\nPołożona na lekkim wzniesieniu, prąd w drodze. W sąsiedztwie tereny zabudowane (głównie zabudowa letniskowa) oraz niezbudowane. \n\nPrzeznaczenie:\n- tereny zabudowy turystycznej indywidualnej, dopuszcza się realizację wszelkich form zawartych w terenach zieleni urządzone, \n- wielkość powierzchni zabudowy w stosunku do powierzchni terenu:\nmaksymalnie 15%\n- minimalny procent powierzchni biologicznie czynnej 70%\n- intensywność zabudowy: maksymalnie 0,3\n- wysokość zabudowy: do 8,0m\nDojazd na ostatnim odcinku drogą gruntową \nWraz z działką zakup udziału w działce drogowej. Każdoczesnemu właścicielowi działki przysługuje również służebność przejazdu i przechodu przez działkę bezpośrednio graniczącą z jeziorem. \n\nPrąd w drodze. Woda - do wykonania ujęcie własne.\n\nMożliwość zakupu również sąsiadującej działki (1096 m2)",
-      "price": 105930,
-      "pricePerSqm": 99,
-      "area": 1070,
-      "city": "Chrztowo",
-      "district": "kościerski",
-      "lat": 54.04831,
-      "lng": 18.17167,
-      "images": [
-        {
-          "url": "/oferty/75998474.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/76695722.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94951565.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94951568.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/9291344",
-      "createdAt": "2024-08-29 08:33:07",
-      "updatedAt": "2026-06-08 09:38:37"
-    },
-    {
-      "id": "9613622",
-      "offerNumber": "ST161111",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "40, 43 m2 + zab. balkon (realnie ok.46 m2)",
-      "description": "Bardzo przestronne mieszkanie w świetnej lokalizacji! (pokój jadalniany z aneksem kuchennym i ogromna sypialnia).\n\n Lokal składa się z bardzo dużego pokoju dziennego oraz bardzo dużej jadalni z kuchnią (pomieszczenie powiększone o balkon). Mieszkanie ma po adaptacji balkonu ma ok. 46 m2, w księdze wieczystej 40,43 m2. Możliwe zmiany aranżacyjne (salon z aneksem + sypialnia). Poniżej wizualizacje z inspiracją zmian aranżacyjnych, do wglądu zdjęcia przerobionych w ten sposób mieszkań o tym samym układzie. Możemy udostępnić propozycję rzutu ze zmianą układu.\n\n Mieszkanie jest bardzo jasne dzięki dużym oknom oraz przestrzeni niezabudowanej przed nimi. \nBudynek zadbany, z windą. Do mieszkania przynależy piwnica. \n\n Spokojna, zielona okolica blisko centrum i całej infrastruktury. Osiedle samowystarczalne, w najbliższej okolicy liczne sklepy, CH Auchan, piekarnia, cukiernia, apteka, stomatolog, fryzjer, bank, kwiaciarnia, bistro itd.. W odległości 7 minut spacerem SKM Gdynia Redłowo. W pobliżu znajduje się Rezerwat Krajobrazowy Kępa Redłowska oraz Polanka Redłowska. Liczne trasy spacerowe umożliwiają doskonały wypoczynek wśród nadmorskiej zieleni. Liczne miejsca parkingowe przy budynku.\n\nMieszkanie obecnie wynajmowane. Można kontynuować wynajem. Prezentacje możliwe po umówieniu terminu z obecnym najemcą.\n\nŚrednie opłaty ok. 600 / 925 zł.",
-      "price": 550000,
-      "pricePerSqm": 13603.76,
-      "rent": 750,
-      "area": 40.43,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 9,
-      "city": "Gdynia",
-      "district": "Redłowo",
-      "street": "ul. Bohaterów Starówki Warszawskiej",
-      "lat": 54.49526,
-      "lng": 18.54458,
-      "images": [
-        {
-          "url": "/oferty/105850328.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/105850130.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121314.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121332.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121311.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121317.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121320.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121323.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121329.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121335.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121338.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121341.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121344.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/104628680.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/104705867.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121347.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121350.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80121353.jpg",
-          "primary": false
-        }
-      ],
-      "features": [
-        "Las w pobliżu",
-        "Park w pobliżu",
-        "Autobus",
-        "Kolej",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka"
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/9613622",
-      "createdAt": "2024-11-15 09:32:42",
-      "updatedAt": "2026-04-16 11:09:53"
-    },
-    {
-      "id": "9623531",
-      "offerNumber": "ST118069",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka, 2438 m², Leźno",
-      "description": "Na sprzedaż dwie sąsiadujące ze sobą działki (jedna za drugą) położone w Leźnie (zaraz za Gdańskiem).\n\nTeren lekko pofałdowany, częściowo porośnięty samosiejami (w zdecydowanej większości stosunkowo nowe zadrzewienie). Szerokość ok 25 m. Pierwsza działka (granicząca z ulicą ok. 40 m długości, druga ok.58 m). Dostęp od asfaltowej drogi gminnej. W bezpośrednim sąsiedztwie zabudowania mieszkalne. \n\nDla obu działek zostały wydane warunki zabudowy - na każdej można wybudować 1 dom (podstawowe informacje - cały dokument dostępny do wglądu):\n- budynek mieszkalny jednorodzinny wolnostojący z garażem,\n- pow.zabudowy do 25%,\n- wysokość zabudowy do 9 m, \n- garaż jedno lub dwu stanowiskowy (w bryle lub niezależny), \nUzbrojenie:\n- woda na działce, \n- kanalizacja sanitarna i prąd w ulicy przy działce,\n- gaz na większej działce oraz w drodze,\nOgrzewanie przewidziane poprzez indywidualne żródła ciepła nieemisyjne lub niskoemisyjne paliwa. \n\nNajbliższa stacja kolejowa Leźno 8 min od działki (autem). Połączenie do Gdańska Głównego, Wrzeszcza i do Kartuz. 10 min PKM Rębiechowo.\n\n2 km do drogi krajowej nr 7. 15 min do węzła obwodnicy Trójmiasta. Kokoszki - sąsiadująca dzielnica Gdańska bardzo mocno się obecnie rozwija.",
-      "price": 659000,
-      "pricePerSqm": 270.3,
-      "area": 2438,
-      "city": "Leźno",
-      "district": "kartuski",
-      "street": "ul. Jarzębinowa",
-      "lat": 54.35328,
-      "lng": 18.41478,
-      "images": [
-        {
-          "url": "/oferty/80230250.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/80229482.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229488.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229494.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229497.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229500.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229506.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229509.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229524.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229932.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229941.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229950.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229959.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229974.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229980.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/80229986.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/9623531",
-      "createdAt": "2024-11-18 13:38:33",
-      "updatedAt": "2026-02-14 17:07:32"
-    },
-    {
-      "id": "10877450",
-      "offerNumber": "ST884486",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Pod zabudowę jednorodzinną",
-      "market": "wtorny",
-      "title": "Działka przy jeziorze Smolnik (gm.Kaliska)",
-      "description": "Na sprzedaż działki przy jeziorze Smolnik (gm.Kaliska) - wieś Studzinice (Smolnik).\n\nSąsiadujące ze sobą działki o metrażach (1623 m2, 1540 m2) malowniczo położone w linii prostej 70 m od jeziora. Dwie sąsiadują bezpośrednio, trzecią \"dzieli\" działka sąsiada. \nTeren otoczony rozległym kompleksem leśnym Nadleśnictwa Kaliska.\n\nWydane warunki zabudowy: zabudowa mieszkaniowa jednorodzinna, powierzchnia zabudowy 120 m2, 2 kondygnacje nadziemne, dach dwuspadowy, min. 2 miejsca postojowe. Szczegóły wydanych warunków zabudowy zostaną udostępnione zainteresowanym.\n\nWoda: do wykonania studnia własna, kanalizacja: zbiornik bezodpływowy, prąd dostępny, ogrzewanie:  indywidualne, spełniające wymagania przepisów o instalacji źródeł odnawialnych.  \n\nDobry dojazd - większość drogą leśną, wybrukowaną. Końcówka drogą leśną utwardzoną. \nW sąsiedztwie zabudowa jednorodzinna i rekreacyjna. \n\nDojazd do Gdańska lub Gdyni: 1 godz.30 min, 20 min do Czerska, 30 min Starogard Gdański. W promieniu 40 min dwa Parki Krajobrazowe (Wdzydzki i Bory Tucholskie), liczne jeziora. 6 km Biedronka, Dino i inne punkty handlowe.",
-      "price": 137955,
-      "pricePerSqm": 85,
-      "area": 1623,
-      "city": "Studzienice",
-      "district": "starogardzki",
-      "lat": 53.8797539,
-      "lng": 18.1208612,
-      "images": [
-        {
-          "url": "/oferty/94938248.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/94938245.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938251.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938254.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938257.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938260.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938263.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938266.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938269.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938272.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938293.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938299.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938302.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/94938305.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/101629259.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/10877450",
-      "createdAt": "2025-07-20 09:44:50",
-      "updatedAt": "2026-04-10 17:50:55"
-    },
-    {
-      "id": "10948628",
-      "offerNumber": "ST286477",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Pod zabudowę jednorodzinną",
-      "market": "wtorny",
-      "title": "15m od granicy jeziora Kielno",
-      "description": "Twoje miejsce nad jeziorem w Kielnie! \nMarzysz o działce, na której postawisz swój wymarzony dom? \n\nMamy coś wyjątkowego:\n\nDziałka budowlana o powierzchni 857 m², już objęta aktualnym planem zagospodarowania.\nTylko 15 m od granicy działki do jeziora - czyli w zasięgu porannej kawy przy brzegu lub letniej kąpieli w zasięgu spaceru.\nNa działce doprowadzony prąd, a w granicach dostępne również: kanalizacja, gaz i woda - czyli wszystko, co potrzeba, by ruszyć z zabudową.\n\nWarunki zabudowy:\n• maksymalna wysokość zabudowy: 9 m\n• powierzchnia zabudowy: do 30%\n\n➡️ Link do aktualnego planu zagospodarowania: \nhttps://szemud.e-mapa.net?object=sys.dzialka.221509_2.0010.16/7&pln_plan=018",
-      "price": 395000,
-      "pricePerSqm": 460.91,
-      "area": 857,
-      "city": "Kielno",
-      "district": "wejherowski",
-      "street": "ul. Józefa Tredera",
-      "lat": 54.4547658,
-      "lng": 18.3365311,
-      "images": [
-        {
-          "url": "/oferty/100632908.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/100633697.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100633703.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/95939174.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Jolanta Starnawska",
-        "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl",
-        "slug": "jolanta-starnawska"
-      },
-      "url": "https://starnawska.pl/oferty/10948628",
-      "createdAt": "2025-08-11 14:47:05",
-      "updatedAt": "2026-02-02 10:54:47"
-    },
-    {
-      "id": "11115224",
-      "offerNumber": "ST318251",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Usługowa",
-      "market": "wtorny",
-      "title": "Duża działka usługowa z MPZP - blisko Kartuz",
-      "description": "Oferta dotyczy dwóch działek o łącznej powierzchni 8.763 m2 położonych w obszarze usługowo-mieszkalnym, w sąsiedztwie firm i zakładów usługowych. To świetna propozycja dla inwestora lub przedsiębiorcy szukającego terenu pod działalność gospodarczą w dynamicznie rozwijającej się okolicy.\n\nLokalizacja\nKiełpino, ul. Rzemieślnicza - rejon o ugruntowanej funkcji usługowej i produkcyjnej. W okolicy znajdują się warsztaty samochodowe, firmy budowlane, zakłady produkcyjne, magazyny i punkty usługowe. Działka mają wygodny dojazd drogą z płyt betonowych, z możliwością wjazdu również dla cięższego transportu. Bardzo dobra komunikacja z Kartuzami, Żukowem i Trójmiastem.\nW sąsiedztwie oferowanych działek usługowych trwa kluczowy projekt „Kościerzyna - Gdynia” modernizacji infrastruktury kolejowej, który może znacząco zwiększyć potencjał inwestycyjny lokalizacji. Modernizacja linii kolejowej nr 201 przyniesie w przyszłości zwiększenie mobilności, lepszy dostęp do transportu publicznego i potencjał rozwoju dla otoczenia działek\n \nIstnieje możliwość kupna jednej działki.\n\nParametry działek:\nDziałka nr 1 - 4023 m² - cena 685.000 zł\nDziałka nr 2 - 4740 m² - cena 806.000 zł\n\nObie działki posiadają uregulowany stan prawny, a dla jednej z nich został przygotowany projekt budynku usługowego.\n\n MPZP - najważniejsze ustalenia:\n\n-Przeznaczenie: zabudowa usługowa\n-Możliwość wydzielenia jednego lokalu mieszkalnego w budynku usługowym (do 150 m²)\n-Forma zabudowy: wolnostojąca\n-Maks. powierzchnia zabudowy: 60%\n-Wskaźnik intensywności: max 1,8 (dla kondygnacji nadziemnych 1,2)\n-Powierzchnia biologicznie czynna: min. 20%\n-Min. powierzchnia działki: 1000 m²\n-Kondygnacje: do 2 nadziemnych (w tym poddasze przy dachu dwuspadowym) + 1 podziemna\n-Maks. wysokość zabudowy: 10 m\n-Teren o nachyleniu od 193,7 do 198,7 m n.p.m.\n\n Atuty oferty\n\n- możliwość zabudowy usługowej z opcją części mieszkalnej\n\n- sąsiedztwo działających firm - gwarancja biznesowego otoczenia\n- dobry dojazd dla pracowników, klientów i dostawców\n\nTo idealna propozycja dla inwestora, który szuka miejsca pod zakład usługowy, magazyn, biuro lub inną działalność w dobrze skomunikowanej i rozpoznawalnej lokalizacji.\n\n \nZapraszam do kontaktu i na prezentację",
-      "price": 1314450,
-      "pricePerSqm": 150,
-      "area": 8763,
-      "city": "Kiełpino",
-      "district": "Leszno",
-      "street": "ul. Rzemieślnicza",
-      "lat": 54.2940295,
-      "lng": 18.1996526,
-      "images": [
-        {
-          "url": "/oferty/97620371.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/97620365.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/97620368.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/97620359.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/97620356.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/97620362.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/97620374.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
-      },
-      "url": "https://starnawska.pl/oferty/11115224",
-      "createdAt": "2025-09-17 16:35:54",
-      "updatedAt": "2026-05-12 09:44:19"
+      "updatedAt": "2026-07-07 16:59:15"
     },
     {
       "id": "11154254",
@@ -730,479 +86,550 @@
       "lng": 18.1522886,
       "images": [
         {
-          "url": "/oferty/99081023.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99081023_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/99080918.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99080918_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/99080930.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99080930_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/99080933.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99080933_max.jpg",
           "primary": false
         }
       ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/q--AqzL2uQg",
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11154254",
       "createdAt": "2025-09-29 11:26:54",
-      "updatedAt": "2026-06-27 08:31:24"
+      "updatedAt": "2026-07-07 14:10:33"
     },
     {
-      "id": "11208602",
-      "offerNumber": "ST944245",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Segment skrajny",
+      "id": "5826876",
+      "offerNumber": "ST674422",
+      "transaction": "najem",
+      "type": "mieszkanie",
       "market": "wtorny",
-      "title": "Orłowo | Dom z tarasem i częścią inwestycyjną",
-      "description": "Na sprzedaż przestronny dom w zabudowie szeregowej (skrajny segment) z 1994 roku, położony na końcu kameralnej, ślepej uliczki w Orłowie. To doskonała lokalizacja dla osób, które cenią bliskość miejskiej infrastruktury, a jednocześnie pragną ciszy i spokoju.\n\nRyneczek w Orłowie - 2 minuty pieszo.\nMolo i plaża w Orłowie - do 30 minut spacerem.\nLas - 10 minut pieszo.\nW okolicy pełna infrastruktura handlowo-usługowa.\n\nUkład domu\nDom o dużym potencjale, z możliwością łączenia funkcji mieszkalnej i inwestycyjnej.\nprzyziemie :\n-  lokale użytkowe (aktualnie wynajmowane) z niezależnym wejściem około 140m2\n- pralnia - pomieszczenia z możliwością adaptacji pod własne potrzeby.\n- kotłownia\n- przejście do garażu na dwa samochody (wysokie sufity ok. 3 m)\n\nParter:\n- salon z kominkiem (58 m²) z wyjściem na taras\n- otwarta kuchnia z wyspą i jadalnią (36 m²)\n- pokój/gabinet/pokój gościnny\n- łazienka z prysznicem\n- dostęp do dwóch tarasów - mniejszego i dużego, idealnego na spotkania w gronie rodziny i przyjaciół.\n\nPiętro:\n- trzy sypialnie (17,9 m²; 21 m²; 25,3 m²), z czego jedna z prywatną łazienką\n- dodatkowa łazienka\n- garderoba\n- przestronny hol\n\nStandard wykończenia\n\nDom został zrealizowany z dbałością o detale i jakość materiałów:\n\n- parkiety dębowe i bukowe\n- kuchnia po modernizacji, z wyspą\n- solidne drewniane schody\n- przestronne, jasne wnętrza\n\nAtuty nieruchomości\n\n- funkcjonalny układ z możliwością połączenia mieszkania i biznesu\n- wysokie sufity około 3m\n- dwa niezależne wejścia (do domu i do lokali użytkowych)\n- garaż na dwa auta + 2 miejsca parkingowe na posesji i 2 przed bramą wjazdową\n- duży taras otulony zielenią drzew\n- wyjątkowa lokalizacja w Orłowie.",
-      "price": 2800000,
-      "pricePerSqm": 6947.89,
-      "area": 403,
-      "landArea": 361,
-      "rooms": 5,
-      "totalFloors": 2,
-      "yearBuilt": 1994,
-      "city": "Gdynia",
-      "district": "Orłowo",
-      "street": "ul. Inżynierska",
-      "lat": 54.4842433,
-      "lng": 18.5399361,
+      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
+      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nCzerwona ściana w salonie widoczna na zdjęciu została przemalowana na kolor szary.\n\n Mieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy miejsce parkingowe za szlabanem oraz komórka lokatorska. Dla osób zainteresowanych - istnieje możliwość zmiany koloru ścian.\n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \n\nUmowa na rok czasu, najem okazjonalny.",
+      "price": 2200,
+      "pricePerSqm": 47.83,
+      "rent": 480,
+      "area": 46,
+      "rooms": 2,
+      "floor": 2,
+      "totalFloors": 4,
+      "yearBuilt": 2016,
+      "city": "Gdańsk",
+      "district": "Jasień",
+      "street": "ul. Konrada Guderskiego",
+      "lat": 54.32196,
+      "lng": 18.55925,
       "images": [
         {
-          "url": "/oferty/107432558.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491209_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/98835971.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491098_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835989.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491263_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835983.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448594_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835977.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448570_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835986.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448564_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835980.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448579_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835929.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448627_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835935.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448615_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835932.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448588_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835938.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448621_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835941.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448630_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/98835944.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835947.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835950.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835953.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835956.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835959.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835962.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835965.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/98835968.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448624_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Autobus",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka"
+      "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/5826876",
+      "createdAt": "2022-04-05 12:55:58",
+      "updatedAt": "2026-07-07 04:20:15"
+    },
+    {
+      "id": "12154073",
+      "offerNumber": "ST645923",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Dwustronne, słoneczne, stan do wprowadzenia.",
+      "description": "Słoneczne, dwustronne mieszkanie z loggią | 2 pokoje | 49,60 m²| osobna kuchnia| osobno wc|.\n\nNieruchomość znajduje się w ostatniej klatce bloku, co zapewnia większą ciszę, spokój oraz kameralną atmosferę. Wokół budynku znajduje się dużo zieleni, a jednocześnie w najbliższej okolicy dostępna jest pełna infrastruktura potrzebna do wygodnego życia.\n\nFunkcjonalny i wygodny układ.\n\nMieszkanie jest dwustronne, dzięki czemu wnętrza są dobrze doświetlone przez cały dzień.\n\nOd strony wschodniej znajdują się:\n\n- osobna, jasna kuchnia z oknem,\n- mniejszy pokój.\n\nOd strony zachodniej usytuowany jest:\n\n- przestronny pokój dzienny z wyjściem na słoneczną loggię.\n\nW mieszkaniu znajdują się również:\n\n- łazienka z kabiną prysznicową,\n- osobna toaleta,\n- przedpokój z miejscem do przechowywania.\n\nTaki rozkład sprawdzi się zarówno dla singla, pary, niewielkiej rodziny, jak i osób poszukujących mieszkania pod wynajem.\n\nGotowe do zamieszkania.\n\nMieszkanie jest zadbane, a jego obecny stan pozwala na wprowadzenie się bez konieczności przeprowadzania remontu. To dobra propozycja dla osób, które chcą zamieszkać od razu, bez dodatkowych nakładów finansowych i czasochłonnych prac.\n\nDodatkowym atutem jest to, że lokal jest bardzo ciepły. Właściciele regularnie otrzymują nadpłaty z tytułu rozliczenia kosztów ogrzewania.\nŚredni miesięczny czynsz wynosi około 770 zł i obejmuje między innymi zaliczki na wodę oraz ogrzewanie.\n\nZakres wykonanych prac:\n\nMieszkanie przeszło kapitalny remont w 2010 roku, obejmujący między innymi:\n\n- wymianę instalacji elektrycznej,\n- wymianę instalacji hydraulicznej,\n- wymianę okien,\n- wykonanie nowych tynków,\n- wymianę podłóg,\n- remont kuchni,\n- remont łazienki i toalety wraz z wymianą glazury, terakoty oraz armatury.\n\nW 2018 roku wymieniono podłogi w pokojach i przedpokoju, całe mieszkanie zostało odmalowane, a na loggii położono nowe płytki.\n\nW  2022 roku zamontowano nową kabinę prysznicową.\n\nBudynek i otoczenie\n\nBudynek jest zadbany, a klatka schodowa czysta i utrzymana w dobrym stanie. Dużym atutem jest położenie mieszkania w ostatniej klatce bloku, z dala od intensywnego ruchu mieszkańców.\n\nDo mieszkania przynależy piwnica.\n\nPrzy budynku znajdują się ogólnodostępne miejsca parkingowe.\n\nLokalizacja zapewnia wygodny dostęp do komunikacji miejskiej oraz codziennych usług. W pobliżu znajdują się między innymi:\n\n- przystanki komunikacji miejskiej,\n- sklepy,\n- apteka,\n- szkoła,\n- punkty usługowe,\n- tereny zielone.\n\nTo propozycja dla osób, które szukają ustawnego, słonecznego i gotowego do zamieszkania mieszkania w spokojnym otoczeniu, a jednocześnie nie chcą rezygnować z bliskości komunikacji i miejskiej infrastruktury.\n\nZapraszamy na prezentację. To mieszkanie warto zobaczyć na żywo.",
+      "price": 670000,
+      "pricePerSqm": 13508.06,
+      "rent": 770,
+      "area": 49.6,
+      "rooms": 2,
+      "floor": 2,
+      "totalFloors": 4,
+      "city": "Gdańsk",
+      "district": "Chełm",
+      "street": "ul. Tytusa Chałubińskiego",
+      "lat": 54.342896,
+      "lng": 18.625553,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999172_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998479_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998461_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998485_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997903_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997969_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997891_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/110000183_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999151_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997999_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997816_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997834_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997843_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997930_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997984_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998515_max.jpg",
+          "primary": false
+        }
       ],
       "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
         "fullName": "Jolanta Starnawska",
         "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl",
-        "slug": "jolanta-starnawska"
+        "email": "jstarnawska@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/11208602",
-      "createdAt": "2025-10-13 19:15:01",
-      "updatedAt": "2026-05-08 12:53:55"
+      "url": "https://starnawska.pl/oferty/12154073",
+      "createdAt": "2026-06-23 19:33:22",
+      "updatedAt": "2026-07-06 18:26:26"
     },
     {
-      "id": "11345771",
-      "offerNumber": "ST354681",
-      "transaction": "sprzedaz",
-      "type": "lokal",
-      "typeDetail": "Magazyn z biurami",
+      "id": "12164528",
+      "offerNumber": "ST732390",
+      "transaction": "najem",
+      "type": "mieszkanie",
       "market": "wtorny",
-      "title": "Lokal, 1666 m², Gdynia",
-      "description": "Budynek biurowo magazynowy o łącznej pow. 1666 m2. Cześć magazynowa o pow. niespełna 720 m2.\nDziałka zagospodarowana na parking, plac manewrowy oraz pow. na dodatkowe składowanie kontenerów.\n\nDwa piętra o powierzchni łącznej 445 m2 wynajęte są na kolejne dwa lata do 1 lipca 2027 r. w cenie 26 438,73 zł/miesięcznie ( indeksowane o inflację co roku).\n\nNajemca  przy obecnej sytuacji pokrywa 31 % udziału w kosztach wspólnych, które w skali roku wynoszą 17 300 zł netto średnio miesięcznie ( w tym koszty opłat mediów w tym: energia elektryczna, gaz - magazyn jest ogrzewany zimą do 17 C, woda, wywóz szamba ( planowane jest podłączenie do kanalizacji), podatek od nieruchomości, monitoring Garda, wywóz śmieci oraz konserwacja alarmu i domofonu. Najwyższe piętro w całości klimatyzowane. \n\nPrawie cały budynek (wyłączając część socjalną magazynu) przeszła kapitalny remont w ciągu ostatnich 6 lat. Na każdej kondygancji 2 łazienki i pomieszczenie kuchenno socjalne uzupełniające funkcję biurową. Magazyn ma oddzielne łazienki z szatniami i pom.socjalne. \n\nLokalizacja z dobrym dojazdem do obwodnicy oraz komunikacją miejską. W pobliżu liczne punkty handlowe i usługowe. Dużo miejsc parkingowych na posesji. \n\nMożliwość przystosowania do różnych działalności.\n\nZapraszam po uzyskanie więcej informacji oraz rozkładu pomieszczeń,",
-      "price": 8200000,
-      "pricePerSqm": 4921.97,
-      "area": 1666,
-      "landArea": 3942,
-      "city": "Gdynia",
-      "district": "Wiczlino",
-      "street": "ul. Żaglowa",
-      "lat": 54.5008902,
-      "lng": 18.4266568,
+      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
+      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 800 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
+      "price": 3800,
+      "pricePerSqm": 86.36,
+      "area": 44,
+      "rooms": 2,
+      "floor": 9,
+      "totalFloors": 17,
+      "city": "Gdańsk",
+      "district": "Stocznia",
+      "street": "ul. Wałowa",
+      "lat": 54.3593822,
+      "lng": 18.6520752,
       "images": [
         {
-          "url": "/oferty/100698236.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/100697093.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100697672.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100697564.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100696973.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100697087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100697765.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100698194.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100697813.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698095.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698935.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698104.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698320.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698218.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698239.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698275.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698245.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698914.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698113.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698287.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698338.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698353.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698623.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698371.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698401.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698437.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698497.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698500.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698926.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698512.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698536.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698725.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698842.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698866.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/100698902.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/11345771",
-      "createdAt": "2025-11-24 15:59:42",
-      "updatedAt": "2026-03-05 11:04:31"
+      "url": "https://starnawska.pl/oferty/12164528",
+      "createdAt": "2026-06-25 19:02:39",
+      "updatedAt": "2026-07-03 12:26:41"
     },
     {
-      "id": "11469854",
-      "offerNumber": "ST480706",
+      "id": "11929373",
+      "offerNumber": "ST346379",
       "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Segment skrajny",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
       "market": "wtorny",
-      "title": "4 sypialnie, 2 łazienki dodatkowy pokój \"klubowy\".",
-      "description": "Na sprzedaż wyjątkowy dom w zabudowie szeregowej (segment skrajny) położony w prestiżowej dzielnicy Gdynia Orłowo.\nTo idealna propozycja dla osób, które cenią komfort życia w bliskości morza, a jednocześnie potrzebują miejsca, które pozwala łączyć funkcję domu i pracy w niezależnych strefach.\n\nPowierzchnia całkowita: ok. 260 m²\nPowierzchnia użytkowa: 190m2\nPowierzchnia działki: 249 m²\n\nDom przeszedł gruntowny remont w 2014 roku, modernizację kuchni dołu domu w 2018 roku oraz otrzymał nową elewację w 2022 roku.\nDodatkowym atutem jest instalacja fotowoltaiczna o mocy 6 kW, zainstalowana w marcu 2022 r. (jeszcze przed zmianami przepisów prosumenckich na net-billing), co przekłada się na bardzo niskie koszty utrzymania.\n\nRozkład pomieszczeń:\n\nPiwnica:\nPomieszczenia gospodarcze, pracownia oraz niezależne pomieszczenie z osobnym wejściem - idealne na gabinet, biuro lub przestrzeń do prowadzenia działalności.\n\nParter - strefa dzienna:\nSercem domu jest przestronny salon z kominkiem i imponującym sufitem do kalenicy, z którego można wyjść na dwa słoneczne tarasy.\nNa tym poziomie znajduje się także nowoczesna kuchnia z jadalnią, pokój gościnny oraz łazienka.\n\nPiętro:\n3 sypialnie oraz łazienka z oknem, wanną i prysznicem.\n\nPoddasze:\nPomieszczenie do pracy lub relaksu oraz garderoba.\n\nAtuty nieruchomości:\n\n✅ Świetna lokalizacja - cicha, kameralna ulica w sercu Gdyni Orłowa\n✅ 15 minut spacerem do morza i mola\n✅ Możliwość wydzielenia części domu na działalność gospodarczą lub pracownię\n✅ Dwa tarasy - idealne miejsce do wypoczynku\n✅ Kominek w salonie tworzący wyjątkowy klimat\n✅ Niskie koszty utrzymania dzięki instalacji fotowoltaicznej\n✅ Dom gotowy do wprowadzenia, bez nakładów\n\nOkolica:\n\nW zasięgu kilku minut pieszo:\n\nryneczek w Orłowie,\nsklepy, apteka, piekarnia,\nszkoły, przedszkola, przychodnie,\nprzystanki autobusowe i SKM.\n\nTo dom, w którym można komfortowo mieszkać, pracować i cieszyć się bliskością morza. \nZapraszamy na prezentacje.",
-      "price": 2390000,
-      "pricePerSqm": 8917.91,
-      "area": 268,
-      "landArea": 249,
+      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
+      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
+      "price": 275000,
+      "pricePerSqm": 195.87,
+      "area": 1404,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5444674,
+      "lng": 18.2850692,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11929373",
+      "createdAt": "2026-05-03 20:51:58",
+      "updatedAt": "2026-07-02 19:19:09"
+    },
+    {
+      "id": "12049100",
+      "offerNumber": "ST926971",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Płaska, łatwy dojazd, bliskość przystanku",
+      "description": "Mamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 190000,
+      "pricePerSqm": 194.27,
+      "area": 978,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5434013,
+      "lng": 18.2909448,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582119_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582122_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582128_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/Xt0d8KufK-c",
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12049100",
+      "createdAt": "2026-05-28 21:52:06",
+      "updatedAt": "2026-07-02 19:08:08"
+    },
+    {
+      "id": "12113690",
+      "offerNumber": "ST982535",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Piękna działka w sąsiedztwie jeziora",
+      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 315000,
+      "pricePerSqm": 210,
+      "area": 1500,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Bukowa",
+      "lat": 54.5427708,
+      "lng": 18.2763107,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559204_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12113690",
+      "createdAt": "2026-06-17 20:36:09",
+      "updatedAt": "2026-07-02 18:56:55"
+    },
+    {
+      "id": "11740850",
+      "offerNumber": "ST699920",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
+      "description": "Na wynajem przestronne, 5-pokojowe mieszkanie, położone w prestiżowej dzielnicy Wrzeszcz w Gdańsku. To słoneczne wnętrze mieści się w pięknej, odrestaurowanej kamienicy.\nLOKALIZACJA\nNieruchomość znajduje się w Górnym Wrzeszczu, jednej z najbardziej cenionych części Gdańska. Okolica zapewnia dostęp do licznych sklepów, restauracji i terenów zielonych, a także bardzo dobrą komunikację z pozostałymi częściami miasta. W pobliżu znajdują się m.in. Centrum Manhattan, Galeria Bałtycka, Politechnika Gdańska oraz Gdański Uniwersytet Medyczny. Wzdłuż budynku obowiązuje strefa płatnego parkowania z możliwością wykupienia abonamentu.\nBUDYNEK\nMieszkanie usytuowane jest na drugim piętrze odnowionej, historycznej kamienicy, wyróżniającej się elegancką architekturą. Duże okna o ekspozycji wschód-zachód zapewniają doskonałe doświetlenie wnętrz przez cały dzień.\nMIESZKANIE\nLokal składa się z pięciu pokoi, urządzonych w podwyższonym standardzie. Przestronny salon (ok. 22 m²) stanowi idealne miejsce do relaksu i spotkań. Do dyspozycji jest również obszerna jadalnia połączona z nowoczesnym aneksem kuchennym (ok. 25 m²), w pełni wyposażonym w sprzęt AGD.\nMieszkanie oferuje trzy komfortowe sypialnie o powierzchniach ok. 14 m², 13 m² i 10 m². Jedno z pomieszczeń można z łatwością zaaranżować jako gabinet.\nW lokalu znajduje się przestronny pokój kąpielowy z wanną, prysznicem, WC, bidetem oraz pralką.\n\nW zależności od potrzeb Najemcy mieszkanie może być udostępnione w pełni umeblowane, częściowo umeblowane lub bez mebli!\n\n Dodatkowym atutem jest duża piwnica o powierzchni ok. 25 m² oraz możliwość korzystania ze strychu.\nFINANSE\nCzynsz najmu: 6500zł/miesiąc\nOpłaty administracyjne: ok. 960 zł/miesiąc\nDodatkowo: media (prąd, gaz, internet, TV)\nKaucja: 9000 zł\nNajem okazjonalny, długoterminowy - minimum 12 miesięcy.\nZapraszam do kontaktu i na prezentacje.",
+      "price": 6500,
+      "pricePerSqm": 59.13,
+      "rent": 960,
+      "area": 109.93,
       "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 1986,
-      "city": "Gdynia",
-      "district": "Orłowo",
-      "street": "ul. Raciborska",
-      "lat": 54.4849897,
-      "lng": 18.5388281,
+      "floor": 2,
+      "totalFloors": 3,
+      "city": "Gdańsk",
+      "district": "Wrzeszcz Górny",
+      "street": "ul. gen. de Gaulle'a",
+      "lat": 54.3791301,
+      "lng": 18.6004696,
       "images": [
         {
-          "url": "/oferty/102258281.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642233_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/102258230.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642230_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258239.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642215_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258245.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642206_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258251.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642161_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258248.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642209_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258242.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642218_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258263.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642185_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258269.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642188_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258278.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642191_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258254.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642227_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258221.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642224_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258224.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642200_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258260.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642203_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258257.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642176_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258233.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642197_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/102258236.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258227.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258275.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258272.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258284.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258299.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258302.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258305.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258287.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258290.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258293.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/102258296.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642194_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Las w pobliżu",
-        "Morze w pobliżu",
-        "Autobus",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka"
-      ],
       "agent": {
-        "fullName": "Jolanta Starnawska",
-        "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl",
-        "slug": "jolanta-starnawska"
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/11469854",
-      "createdAt": "2026-01-08 16:45:06",
-      "updatedAt": "2026-05-13 04:20:09"
+      "url": "https://starnawska.pl/oferty/11740850",
+      "createdAt": "2026-03-30 22:01:42",
+      "updatedAt": "2026-07-01 09:53:00"
     },
     {
       "id": "11599184",
@@ -1227,842 +654,160 @@
       "lng": 18.2338583,
       "images": [
         {
-          "url": "/oferty/103841156.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841156_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/103841123.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841123_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841117.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841117_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841129.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841129_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841135.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841135_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841147.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841147_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841153.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841153_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841150.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841150_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841168.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841168_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841162.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841162_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841165.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841165_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841159.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841159_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841171.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841171_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841180.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841180_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841174.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841174_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841177.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841177_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841195.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841195_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841198_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841183.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841183_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841186.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841186_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841192.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841192_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841201.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841201_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841216_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841105.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841105_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841108.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841108_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841111.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841111_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841114.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841114_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841219.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841219_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841222.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841222_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841225.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841225_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841228.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841228_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11599184",
       "createdAt": "2026-02-18 08:23:59",
       "updatedAt": "2026-06-30 09:03:58"
-    },
-    {
-      "id": "11740850",
-      "offerNumber": "ST699920",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
-      "description": "Na wynajem przestronne, 5-pokojowe mieszkanie, położone w prestiżowej dzielnicy Wrzeszcz w Gdańsku. To słoneczne wnętrze mieści się w pięknej, odrestaurowanej kamienicy.\nLOKALIZACJA\nNieruchomość znajduje się w Górnym Wrzeszczu, jednej z najbardziej cenionych części Gdańska. Okolica zapewnia dostęp do licznych sklepów, restauracji i terenów zielonych, a także bardzo dobrą komunikację z pozostałymi częściami miasta. W pobliżu znajdują się m.in. Centrum Manhattan, Galeria Bałtycka, Politechnika Gdańska oraz Gdański Uniwersytet Medyczny. Wzdłuż budynku obowiązuje strefa płatnego parkowania z możliwością wykupienia abonamentu.\nBUDYNEK\nMieszkanie usytuowane jest na drugim piętrze odnowionej, historycznej kamienicy, wyróżniającej się elegancką architekturą. Duże okna o ekspozycji wschód-zachód zapewniają doskonałe doświetlenie wnętrz przez cały dzień.\nMIESZKANIE\nLokal składa się z pięciu pokoi, urządzonych w podwyższonym standardzie. Przestronny salon (ok. 22 m²) stanowi idealne miejsce do relaksu i spotkań. Do dyspozycji jest również obszerna jadalnia połączona z nowoczesnym aneksem kuchennym (ok. 25 m²), w pełni wyposażonym w sprzęt AGD.\nMieszkanie oferuje trzy komfortowe sypialnie o powierzchniach ok. 14 m², 13 m² i 10 m². Jedno z pomieszczeń można z łatwością zaaranżować jako gabinet.\nW lokalu znajduje się przestronny pokój kąpielowy z wanną, prysznicem, WC, bidetem oraz pralką.\n\nW zależności od potrzeb Najemcy mieszkanie może być udostępnione w pełni umeblowane, częściowo umeblowane lub bez mebli!\n\n Dodatkowym atutem jest duża piwnica o powierzchni ok. 25 m² oraz możliwość korzystania ze strychu.\nFINANSE\nCzynsz najmu: 6500zł/miesiąc\nOpłaty administracyjne: ok. 960 zł/miesiąc\nDodatkowo: media (prąd, gaz, internet, TV)\nKaucja: 9000 zł\nNajem okazjonalny, długoterminowy - minimum 12 miesięcy.\nZapraszam do kontaktu i na prezentacje.",
-      "price": 6500,
-      "pricePerSqm": 59.13,
-      "rent": 960,
-      "area": 109.93,
-      "rooms": 5,
-      "floor": 2,
-      "totalFloors": 3,
-      "city": "Gdańsk",
-      "district": "Wrzeszcz Górny",
-      "street": "ul. gen. de Gaulle'a",
-      "lat": 54.3791301,
-      "lng": 18.6004696,
-      "images": [
-        {
-          "url": "/oferty/108642233.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/108642230.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642215.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642206.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642161.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642209.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642218.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642185.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642188.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642191.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642227.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642224.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642200.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642203.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642176.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642197.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108642194.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
-      },
-      "url": "https://starnawska.pl/oferty/11740850",
-      "createdAt": "2026-03-30 22:01:42",
-      "updatedAt": "2026-07-01 09:53:00"
-    },
-    {
-      "id": "11743319",
-      "offerNumber": "ST829892",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Widok na park, 5 min do plaży",
-      "description": "Wyjątkowy apartament w sercu Gdyni - design, widok na park i 5 min od plaży\n\nZapraszam do zapoznania się z ofertą sprzedaży unikalnego mieszkania położonego w najbardziej pożądanej lokalizacji Gdyni - tuż u podnóża Kamiennej Góry. To wnętrze dla osób ceniących styl, przestrzeń i bliskość natury w samym centrum miasta.\n\nWnętrze z duszą i nowoczesnym sznytem\nMieszkanie przeszło gruntowny remont i zostało wykończone z dbałością o każdy detal. Projekt łączy nowoczesną funkcjonalność z autentycznym klimatem gdyńskich kamienic.\n\nPrzestronna część dzienna - salon z wyjściem na spory balkon, idealny na kawę, otwarta duża kuchnia z oknem, balkonikiem i widokiem na akację. Kuchnia idealna dla osób gotujących - przestronna, dużo blatu i miejsca do przechowywania. Duża sypialnia z pakowną szafą. Znajdzie się tu miejsce również do pracy. Trzeci pokój idealny jako gabinet lub pokój dla dziecka. \n\nDzięki dwustronnej wystawie okien oraz otwartej przestrzeni apartament jest doskonale doświetlony przez cały dzień.\n\nPełne wyposażenie: Gotowe do wprowadzenia, bez dodatkowych nakładów finansowych.\n\nKomfortowa łazienka wyposażona zarówno w wannę, jak i prysznic. Osobna, ustawna toaleta.\n\nWłaściciele korzystają także z pomieszczenia w piwnicy. \n\nMieszkanie znajduje się na II piętrze zadbanej kamienicy. Klatka schodowa jest po remoncie, a schody są wyjątkowo wygodne.\n\nZ obu stron mieszkania rozpościera się kojący widok na zieleń oraz na Kamienną Górę.\nMimo lokalizacji w sercu miasta, ulica jest boczna i bardzo spokojna.\n\nLokalizacja premium  - plaża miejska zaledwie 5 minut spacerem.\n\nBulwar Nadmorski, Teatr Muzyczny i liczne kawiarnie w zasięgu krótkiego spaceru.\nPełna infrastruktura miejska (sklepy, szkoły, przystanki) na wyciągnięcie ręki.\n\nTo idealna propozycja dla osób szukających spokoju bez rezygnacji z uroków życia w Gdyni.\n\nIdealne także jaki inwestycja pod wynajem. \n\nZapraszam na prezentację!",
-      "price": 1300000,
-      "pricePerSqm": 18131.1,
-      "rent": 1100,
-      "area": 71.7,
-      "rooms": 3,
-      "floor": 2,
-      "totalFloors": 3,
-      "yearBuilt": 1934,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Juliusza Słowackiego",
-      "lat": 54.5140744,
-      "lng": 18.5417111,
-      "images": [
-        {
-          "url": "/oferty/105719780.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/105719963.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719786.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719939.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719777.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719978.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719957.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719948.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719954.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719942.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719768.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719759.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719570.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719642.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719561.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/105719585.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/11743319",
-      "createdAt": "2026-03-31 14:06:27",
-      "updatedAt": "2026-04-18 10:44:36"
-    },
-    {
-      "id": "11764931",
-      "offerNumber": "ST716290",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Magazyn z biurami",
-      "market": "wtorny",
-      "title": "Elastyczna powierzchnia komercyjna w mieście",
-      "description": "Uniwersalne pomieszczenia (magazyn, produkcja, usługi). Z bardzo dobrym dojazdem. \n\nWysokość 3,40 m do belek konstrukcyjnych, a do właściwego stropu 4,50 m.\nCałość na jednym poziomie. Dostępne z poziomu gruntu.\n\nPrzestrzeń składająca się obecnie z 2 lokali - jeden 475 m2, drugi 550 m2.\nMożliwe zmiany aranżacyjne - wydzielenie mniejszych pomieszczeń, połączenie obu, dołożenie węzłów sanitarnych.\n \nPosadzka przemysłowa. Duża moc przyłączeniowa prądu.\nDwie bramy wjazdowe dla logistyki. Parking na 8 aut z cenie (możliwość powiększenia strefy parkowania).\n\nMożliwość bezproblemowych rozładunków nawet z dużych samochodów (TIR).\n\nPomieszczenia ogrzewane, niskie opłaty eksploatacyjne ( około 9 zł/m2).\n\nMożliwość wynajęcia sąsiednich pomieszczeń (około 500 m2 dodatkowej przestrzeni z witrynami, widocznej z ulicy).\n\nMożliwość wydzielenia innych powierzchni.\n\nPreferowany najem długoterminowy.  \n\nDo ceny najmuj doliczony zostanie stosowny podatek VAT.",
-      "price": 41000,
-      "pricePerSqm": 40,
-      "area": 1025,
-      "yearBuilt": 2007,
-      "city": "Gdańsk",
-      "district": "Suchanino",
-      "street": "ul. Franciszka Schuberta",
-      "lat": 54.359345,
-      "lng": 18.6053402,
-      "images": [
-        {
-          "url": "/oferty/106042604.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/106048703.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106042637.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106048691.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/106944617.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/11764931",
-      "createdAt": "2026-04-08 14:22:14",
-      "updatedAt": "2026-06-19 08:48:11"
-    },
-    {
-      "id": "11904581",
-      "offerNumber": "ST428499",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Magazyn z biurami",
-      "market": "wtorny",
-      "title": "Elastyczna powierzchnia komercyjna w mieście",
-      "description": "Uniwersalne pomieszczenia (magazyn, produkcja, usługi). Z bardzo dobrym dojazdem. \n\nWysokość 3,40 m do belek konstrukcyjnych, a do właściwego stropu 4,50 m.\nCałość na jednym poziomie. Dostępne z poziomu gruntu.\n\nMożliwe zmiany aranżacyjne - wydzielenie mniejszych pomieszczeń, dołożenie węzłów sanitarnych, wynajem dodatkowej przestrzeni - nawet 1000 m2.\n \nPosadzka przemysłowa. Duża moc przyłączeniowa prądu.\nBrama wjazdowa dla dostaw. Parking na 4 aut z cenie (możliwość powiększenia strefy parkowania).\n\nMożliwość bezproblemowych rozładunków nawet z dużych samochodów (TIR).\n\nPomieszczenia ogrzewane, niskie opłaty eksploatacyjne ( około 9 zł/m2).\n\nMożliwość wydzielenia innych powierzchni.\n\nPreferowany najem długoterminowy.  \n\nDo ceny najmuj doliczony zostanie stosowny podatek VAT.",
-      "price": 19000,
-      "pricePerSqm": 40,
-      "area": 475,
-      "yearBuilt": 2007,
-      "city": "Gdańsk",
-      "district": "Suchanino",
-      "street": "ul. Franciszka Schuberta",
-      "lat": 54.359345,
-      "lng": 18.6053402,
-      "images": [
-        {
-          "url": "/oferty/106944728.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/106944722.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/11904581",
-      "createdAt": "2026-04-25 08:14:14",
-      "updatedAt": "2026-05-03 04:20:07"
-    },
-    {
-      "id": "11929373",
-      "offerNumber": "ST346379",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
-      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
-      "price": 275000,
-      "pricePerSqm": 195.87,
-      "area": 1404,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5444674,
-      "lng": 18.2850692,
-      "images": [
-        {
-          "url": "/oferty/107743163.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/107741804.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107742041.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741792.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741789.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741783.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/107741795.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/11929373",
-      "createdAt": "2026-05-03 20:51:58",
-      "updatedAt": "2026-07-02 19:19:09"
-    },
-    {
-      "id": "11993354",
-      "offerNumber": "ST306354",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Bliźniak",
-      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
-      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2.\n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\nPrzedmiotem niniejszej sprzedaży jest projekt „Leśny Zakątek”, którego realizacja\nprowadzona jest w Dobrzewinie przy ul. Ziołowej 2.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze i funkcjonalnym układzie pomieszczeń. To idealna propozycja dla rodzin szukających komfortowego domu z szybkim dojazdem do Trójmiasta.\n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
-      "price": 859000,
-      "pricePerSqm": 5988.98,
-      "area": 143.43,
-      "landArea": 548.15,
-      "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 2026,
-      "city": "Dobrzewino",
-      "district": "wejherowski",
-      "street": "ul. Ziołowa",
-      "lat": 54.4610359,
-      "lng": 18.3676949,
-      "images": [
-        {
-          "url": "/oferty/109389509.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/109389551.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109389548.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108069140.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108069149.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108069152.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108069155.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108080153.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108080177.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108080225.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
-      },
-      "url": "https://starnawska.pl/oferty/11993354",
-      "createdAt": "2026-05-19 12:13:54",
-      "updatedAt": "2026-06-15 12:10:46"
-    },
-    {
-      "id": "11996204",
-      "offerNumber": "ST661084",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Bliźniak",
-      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
-      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2.\n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\nPrzedmiotem niniejszej sprzedaży jest projekt „Leśny Zakątek”, którego realizacja\nprowadzona jest w Dobrzewinie przy ul. Ziołowej 2.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze i funkcjonalnym układzie pomieszczeń. To idealna propozycja dla rodzin szukających komfortowego domu z szybkim dojazdem do Trójmiasta.\n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
-      "price": 851000,
-      "pricePerSqm": 5933.21,
-      "area": 143.43,
-      "landArea": 451.85,
-      "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 2026,
-      "city": "Dobrzewino",
-      "district": "wejherowski",
-      "street": "ul. Ziołowa",
-      "lat": 54.4610359,
-      "lng": 18.3676949,
-      "images": [
-        {
-          "url": "/oferty/109389455.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/109389452.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109389458.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108091544.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108091547.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108091550.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108091553.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108091565.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108091568.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108091571.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
-      },
-      "url": "https://starnawska.pl/oferty/11996204",
-      "createdAt": "2026-05-20 06:39:41",
-      "updatedAt": "2026-06-15 12:09:07"
-    },
-    {
-      "id": "12049100",
-      "offerNumber": "ST926971",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Płaska, łatwy dojazd, bliskość przystanku",
-      "description": "Mamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 190000,
-      "pricePerSqm": 194.27,
-      "area": 978,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5434013,
-      "lng": 18.2909448,
-      "images": [
-        {
-          "url": "/oferty/108582119.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/108582122.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108582128.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
-      },
-      "url": "https://starnawska.pl/oferty/12049100",
-      "createdAt": "2026-05-28 21:52:06",
-      "updatedAt": "2026-07-02 19:08:08"
-    },
-    {
-      "id": "12059180",
-      "offerNumber": "ST297928",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Bliźniak",
-      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
-      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2, inwestycja  \"Leśny Zakątek\" dewelopera Monte Invest sp.z o.o.\n\nLokalizacja: \nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\n\nInwestycja deweloperska obejmuje budowę budynku jednorodzinnego dwulokalowego:\n\nDANE LOKALU nr 1:     cena: 859.000zł \n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nDANE LOKALU nr 2:     cena: 851.000zł\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.\n\nIwona Stępińska\ntel. 530 521 572",
-      "price": 851000,
-      "pricePerSqm": 5933.21,
-      "area": 143.43,
-      "landArea": 451.85,
-      "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 2026,
-      "city": "Dobrzewino",
-      "district": "wejherowski",
-      "street": "ul. Ziołowa",
-      "lat": 54.4610359,
-      "lng": 18.3676949,
-      "images": [
-        {
-          "url": "/oferty/109389359.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/109389299.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/109389296.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108711650.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108711653.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108711656.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108711659.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108711662.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108711665.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108711668.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108713942.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108713948.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108713951.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
-      },
-      "url": "https://starnawska.pl/oferty/12059180",
-      "createdAt": "2026-06-01 13:54:49",
-      "updatedAt": "2026-06-15 12:07:39"
-    },
-    {
-      "id": "12059429",
-      "offerNumber": "ST308478",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Lokal handlowy/usługowy",
-      "market": "wtorny",
-      "title": "Lokal z niezależnym wejściem - Gdańsk Osowa",
-      "description": "Lokal usługowy do wynajęcia - Gdańsk Osowa, ul. Jednorożca\n\nDo wynajęcia lokal usługowy o powierzchni 46,5 m², położony w spokojnej i dobrze skomunikowanej części Gdańska - dzielnicy Osowa, przy ul. Jednorożca.\n\nLokal znajduje się na parterze domu jednorodzinnego i posiada osobne, niezależne wejście bezpośrednio z ulicy, co zapewnia komfort oraz prywatność zarówno dla najemcy, jak i klientów.\n\nW skład lokalu wchodzą:\n- dwa przestronne pomieszczenia biurowe, idealne do prowadzenia działalności usługowej, biurowej lub gabinetu,\n- pomieszczenie socjalne z aneksem kuchennym,\n- łazienka z WC.\n\nLokal jest zadbany i gotowy do użytkowania. Możliwość adaptacji wnętrza według własnych potrzeb.\n\nAtuty lokalizacji:\n\n -cicha i zielona okolica,\n\n -łatwy dojazd zarówno samochodem, jak i komunikacją miejską,\n\nMożliwość najmu od 01.07.2026r\n\nCena najmu: 2200 zł netto miesięcznie + 23%VAT (dodatkowo opłaty za media według zużycia- gaz, prąd, woda, internet).\n\nIdealne miejsce na biuro, kancelarię, gabinet terapeutyczny, usługi księgowe czy działalność edukacyjną.\n   ZAPRASZAM DO KONTAKTU",
-      "price": 2200,
-      "pricePerSqm": 47.31,
-      "area": 46.5,
-      "rooms": 3,
-      "floor": 0,
-      "totalFloors": 1,
-      "city": "Gdańsk",
-      "district": "Osowa",
-      "street": "ul. Jednorożca",
-      "lat": 54.4246,
-      "lng": 18.48006,
-      "images": [
-        {
-          "url": "/oferty/108715424.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/108715427.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715433.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715436.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715439.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715442.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715445.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715448.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715430.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/108715451.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
-      },
-      "url": "https://starnawska.pl/oferty/12059429",
-      "createdAt": "2026-06-01 14:29:13",
-      "updatedAt": "2026-06-01 14:38:06"
     },
     {
       "id": "12081638",
@@ -2087,79 +832,80 @@
       "lng": 18.45795,
       "images": [
         {
-          "url": "/oferty/109065515.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065515_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109065527.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065527_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065521.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065521_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065518.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065518_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065545.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065545_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065548.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065548_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065542.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065542_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065536.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065536_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065539.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065539_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065530.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065530_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065533.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065533_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065551.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065551_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065500.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065500_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065503.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065503_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065506.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065506_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065509.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065509_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109065512.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12081638/109065512_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12081638",
       "createdAt": "2026-06-09 12:34:09",
@@ -2188,179 +934,1422 @@
       "lng": 18.497815,
       "images": [
         {
-          "url": "/oferty/109882226.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109882226_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109213580.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213580_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109213586.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213586_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109213562.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213562_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109213568.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213568_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109213571.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213571_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109213592.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213592_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109213577.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213577_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109994522.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109994522_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12089501",
       "createdAt": "2026-06-10 21:19:13",
       "updatedAt": "2026-06-23 20:45:29"
     },
     {
-      "id": "12113690",
-      "offerNumber": "ST982535",
+      "id": "11764931",
+      "offerNumber": "ST716290",
+      "transaction": "najem",
+      "type": "lokal",
+      "typeDetail": "Magazyn z biurami",
+      "market": "wtorny",
+      "title": "Elastyczna powierzchnia komercyjna w mieście",
+      "description": "Uniwersalne pomieszczenia (magazyn, produkcja, usługi). Z bardzo dobrym dojazdem. \n\nWysokość 3,40 m do belek konstrukcyjnych, a do właściwego stropu 4,50 m.\nCałość na jednym poziomie. Dostępne z poziomu gruntu.\n\nPrzestrzeń składająca się obecnie z 2 lokali - jeden 475 m2, drugi 550 m2.\nMożliwe zmiany aranżacyjne - wydzielenie mniejszych pomieszczeń, połączenie obu, dołożenie węzłów sanitarnych.\n \nPosadzka przemysłowa. Duża moc przyłączeniowa prądu.\nDwie bramy wjazdowe dla logistyki. Parking na 8 aut z cenie (możliwość powiększenia strefy parkowania).\n\nMożliwość bezproblemowych rozładunków nawet z dużych samochodów (TIR).\n\nPomieszczenia ogrzewane, niskie opłaty eksploatacyjne ( około 9 zł/m2).\n\nMożliwość wynajęcia sąsiednich pomieszczeń (około 500 m2 dodatkowej przestrzeni z witrynami, widocznej z ulicy).\n\nMożliwość wydzielenia innych powierzchni.\n\nPreferowany najem długoterminowy.  \n\nDo ceny najmuj doliczony zostanie stosowny podatek VAT.",
+      "price": 41000,
+      "pricePerSqm": 40,
+      "area": 1025,
+      "yearBuilt": 2007,
+      "city": "Gdańsk",
+      "district": "Suchanino",
+      "street": "ul. Franciszka Schuberta",
+      "lat": 54.359345,
+      "lng": 18.6053402,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106042604_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106048703_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106042637_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106048691_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106944617_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11764931",
+      "createdAt": "2026-04-08 14:22:14",
+      "updatedAt": "2026-06-19 08:48:11"
+    },
+    {
+      "id": "11993354",
+      "offerNumber": "ST306354",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Bliźniak",
+      "market": "pierwotny",
+      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
+      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2.\n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\nPrzedmiotem niniejszej sprzedaży jest projekt „Leśny Zakątek”, którego realizacja\nprowadzona jest w Dobrzewinie przy ul. Ziołowej 2.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze i funkcjonalnym układzie pomieszczeń. To idealna propozycja dla rodzin szukających komfortowego domu z szybkim dojazdem do Trójmiasta.\n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
+      "price": 859000,
+      "pricePerSqm": 5988.98,
+      "area": 143.43,
+      "landArea": 548.15,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 2026,
+      "city": "Dobrzewino",
+      "district": "wejherowski",
+      "street": "ul. Ziołowa",
+      "lat": 54.4610359,
+      "lng": 18.3676949,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389509_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389551_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389548_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069140_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069149_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069152_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069155_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080153_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080177_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080225_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11993354",
+      "createdAt": "2026-05-19 12:13:54",
+      "updatedAt": "2026-06-15 12:10:46"
+    },
+    {
+      "id": "11996204",
+      "offerNumber": "ST661084",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Bliźniak",
+      "market": "pierwotny",
+      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
+      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2.\n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\nPrzedmiotem niniejszej sprzedaży jest projekt „Leśny Zakątek”, którego realizacja\nprowadzona jest w Dobrzewinie przy ul. Ziołowej 2.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze i funkcjonalnym układzie pomieszczeń. To idealna propozycja dla rodzin szukających komfortowego domu z szybkim dojazdem do Trójmiasta.\n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
+      "price": 851000,
+      "pricePerSqm": 5933.21,
+      "area": 143.43,
+      "landArea": 451.85,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 2026,
+      "city": "Dobrzewino",
+      "district": "wejherowski",
+      "street": "ul. Ziołowa",
+      "lat": 54.4610359,
+      "lng": 18.3676949,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389455_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389452_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389458_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091544_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091547_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091550_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091553_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091565_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091568_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091571_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11996204",
+      "createdAt": "2026-05-20 06:39:41",
+      "updatedAt": "2026-06-15 12:09:07"
+    },
+    {
+      "id": "12059180",
+      "offerNumber": "ST297928",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Bliźniak",
+      "market": "pierwotny",
+      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
+      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2, inwestycja  \"Leśny Zakątek\" dewelopera Monte Invest sp.z o.o.\n\nLokalizacja: \nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\n\nInwestycja deweloperska obejmuje budowę budynku jednorodzinnego dwulokalowego:\n\nDANE LOKALU nr 1:     cena: 859.000zł \n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nDANE LOKALU nr 2:     cena: 851.000zł\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.\n\nIwona Stępińska\ntel. 530 521 572",
+      "price": 851000,
+      "pricePerSqm": 5933.21,
+      "area": 143.43,
+      "landArea": 451.85,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 2026,
+      "city": "Dobrzewino",
+      "district": "wejherowski",
+      "street": "ul. Ziołowa",
+      "lat": 54.4610359,
+      "lng": 18.3676949,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/109389359_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/109389299_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/109389296_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711650_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711653_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711656_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711659_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711662_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711665_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711668_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108713942_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108713948_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108713951_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12059180",
+      "createdAt": "2026-06-01 13:54:49",
+      "updatedAt": "2026-06-15 12:07:39"
+    },
+    {
+      "id": "9291344",
+      "offerNumber": "ST852722",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Rekreacyjna",
+      "market": "wtorny",
+      "title": "Nasłoneczniona działka na dom rekreacyjny",
+      "description": "Działka w we wsi Równe (Chrztowo, gm.Liniewo). Oddalona o ok.350 m od jeziora Polaszkowskiego. Prostokątna - ok.25x40 m. \n\nPołożona na lekkim wzniesieniu, prąd w drodze. W sąsiedztwie tereny zabudowane (głównie zabudowa letniskowa) oraz niezbudowane. \n\nPrzeznaczenie:\n- tereny zabudowy turystycznej indywidualnej, dopuszcza się realizację wszelkich form zawartych w terenach zieleni urządzone, \n- wielkość powierzchni zabudowy w stosunku do powierzchni terenu:\nmaksymalnie 15%\n- minimalny procent powierzchni biologicznie czynnej 70%\n- intensywność zabudowy: maksymalnie 0,3\n- wysokość zabudowy: do 8,0m\nDojazd na ostatnim odcinku drogą gruntową \nWraz z działką zakup udziału w działce drogowej. Każdoczesnemu właścicielowi działki przysługuje również służebność przejazdu i przechodu przez działkę bezpośrednio graniczącą z jeziorem. \n\nPrąd w drodze. Woda - do wykonania ujęcie własne.\n\nMożliwość zakupu również sąsiadującej działki (1096 m2)",
+      "price": 105930,
+      "pricePerSqm": 99,
+      "area": 1070,
+      "city": "Chrztowo",
+      "district": "kościerski",
+      "lat": 54.04831,
+      "lng": 18.17167,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9291344/75998474_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9291344/76695722_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9291344/94951565_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9291344/94951568_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/9291344",
+      "createdAt": "2024-08-29 08:33:07",
+      "updatedAt": "2026-06-08 09:38:37"
+    },
+    {
+      "id": "12059429",
+      "offerNumber": "ST308478",
+      "transaction": "najem",
+      "type": "lokal",
+      "typeDetail": "Lokal handlowy/usługowy",
+      "market": "wtorny",
+      "title": "Lokal z niezależnym wejściem - Gdańsk Osowa",
+      "description": "Lokal usługowy do wynajęcia - Gdańsk Osowa, ul. Jednorożca\n\nDo wynajęcia lokal usługowy o powierzchni 46,5 m², położony w spokojnej i dobrze skomunikowanej części Gdańska - dzielnicy Osowa, przy ul. Jednorożca.\n\nLokal znajduje się na parterze domu jednorodzinnego i posiada osobne, niezależne wejście bezpośrednio z ulicy, co zapewnia komfort oraz prywatność zarówno dla najemcy, jak i klientów.\n\nW skład lokalu wchodzą:\n- dwa przestronne pomieszczenia biurowe, idealne do prowadzenia działalności usługowej, biurowej lub gabinetu,\n- pomieszczenie socjalne z aneksem kuchennym,\n- łazienka z WC.\n\nLokal jest zadbany i gotowy do użytkowania. Możliwość adaptacji wnętrza według własnych potrzeb.\n\nAtuty lokalizacji:\n\n -cicha i zielona okolica,\n\n -łatwy dojazd zarówno samochodem, jak i komunikacją miejską,\n\nMożliwość najmu od 01.07.2026r\n\nCena najmu: 2200 zł netto miesięcznie + 23%VAT (dodatkowo opłaty za media według zużycia- gaz, prąd, woda, internet).\n\nIdealne miejsce na biuro, kancelarię, gabinet terapeutyczny, usługi księgowe czy działalność edukacyjną.\n   ZAPRASZAM DO KONTAKTU",
+      "price": 2200,
+      "pricePerSqm": 47.31,
+      "area": 46.5,
+      "rooms": 3,
+      "floor": 0,
+      "totalFloors": 1,
+      "city": "Gdańsk",
+      "district": "Osowa",
+      "street": "ul. Jednorożca",
+      "lat": 54.4246,
+      "lng": 18.48006,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715424_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715427_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715433_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715436_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715439_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715442_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715445_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715448_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715430_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715451_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12059429",
+      "createdAt": "2026-06-01 14:29:13",
+      "updatedAt": "2026-06-01 14:38:06"
+    },
+    {
+      "id": "11469854",
+      "offerNumber": "ST480706",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Segment skrajny",
+      "market": "wtorny",
+      "title": "4 sypialnie, 2 łazienki dodatkowy pokój \"klubowy\".",
+      "description": "Na sprzedaż wyjątkowy dom w zabudowie szeregowej (segment skrajny) położony w prestiżowej dzielnicy Gdynia Orłowo.\nTo idealna propozycja dla osób, które cenią komfort życia w bliskości morza, a jednocześnie potrzebują miejsca, które pozwala łączyć funkcję domu i pracy w niezależnych strefach.\n\nPowierzchnia całkowita: ok. 260 m²\nPowierzchnia użytkowa: 190m2\nPowierzchnia działki: 249 m²\n\nDom przeszedł gruntowny remont w 2014 roku, modernizację kuchni dołu domu w 2018 roku oraz otrzymał nową elewację w 2022 roku.\nDodatkowym atutem jest instalacja fotowoltaiczna o mocy 6 kW, zainstalowana w marcu 2022 r. (jeszcze przed zmianami przepisów prosumenckich na net-billing), co przekłada się na bardzo niskie koszty utrzymania.\n\nRozkład pomieszczeń:\n\nPiwnica:\nPomieszczenia gospodarcze, pracownia oraz niezależne pomieszczenie z osobnym wejściem - idealne na gabinet, biuro lub przestrzeń do prowadzenia działalności.\n\nParter - strefa dzienna:\nSercem domu jest przestronny salon z kominkiem i imponującym sufitem do kalenicy, z którego można wyjść na dwa słoneczne tarasy.\nNa tym poziomie znajduje się także nowoczesna kuchnia z jadalnią, pokój gościnny oraz łazienka.\n\nPiętro:\n3 sypialnie oraz łazienka z oknem, wanną i prysznicem.\n\nPoddasze:\nPomieszczenie do pracy lub relaksu oraz garderoba.\n\nAtuty nieruchomości:\n\n✅ Świetna lokalizacja - cicha, kameralna ulica w sercu Gdyni Orłowa\n✅ 15 minut spacerem do morza i mola\n✅ Możliwość wydzielenia części domu na działalność gospodarczą lub pracownię\n✅ Dwa tarasy - idealne miejsce do wypoczynku\n✅ Kominek w salonie tworzący wyjątkowy klimat\n✅ Niskie koszty utrzymania dzięki instalacji fotowoltaicznej\n✅ Dom gotowy do wprowadzenia, bez nakładów\n\nOkolica:\n\nW zasięgu kilku minut pieszo:\r\n\r\nryneczek w Orłowie,\r\nsklepy, apteka, piekarnia,\r\nszkoły, przedszkola, przychodnie,\r\nprzystanki autobusowe i SKM.\r\n\r\nTo dom, w którym można komfortowo mieszkać, pracować i cieszyć się bliskością morza. \nZapraszamy na prezentacje.",
+      "price": 2390000,
+      "pricePerSqm": 8917.91,
+      "area": 268,
+      "landArea": 249,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 1986,
+      "city": "Gdynia",
+      "district": "Orłowo",
+      "street": "ul. Raciborska",
+      "lat": 54.4849897,
+      "lng": 18.5388281,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258281_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258230_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258239_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258245_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258251_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258248_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258242_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258263_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258269_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258278_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258254_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258221_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258224_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258260_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258257_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258233_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258236_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258227_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258275_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258272_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258284_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258299_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258302_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258305_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258287_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258290_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258293_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258296_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/ohODWj2eCmk",
+      "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11469854",
+      "createdAt": "2026-01-08 16:45:06",
+      "updatedAt": "2026-05-13 04:20:09"
+    },
+    {
+      "id": "11115224",
+      "offerNumber": "ST318251539",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Usługowa",
+      "market": "wtorny",
+      "title": "Duża działka usługowa z MPZP - blisko Kartuz",
+      "description": "Oferta dotyczy dwóch działek o łącznej powierzchni 8.763 m2 położonych w obszarze usługowo-mieszkalnym, w sąsiedztwie firm i zakładów usługowych. To świetna propozycja dla inwestora lub przedsiębiorcy szukającego terenu pod działalność gospodarczą w dynamicznie rozwijającej się okolicy.\n\nLokalizacja\nKiełpino, ul. Rzemieślnicza - rejon o ugruntowanej funkcji usługowej i produkcyjnej. W okolicy znajdują się warsztaty samochodowe, firmy budowlane, zakłady produkcyjne, magazyny i punkty usługowe. Działka mają wygodny dojazd drogą z płyt betonowych, z możliwością wjazdu również dla cięższego transportu. Bardzo dobra komunikacja z Kartuzami, Żukowem i Trójmiastem.\nW sąsiedztwie oferowanych działek usługowych trwa kluczowy projekt „Kościerzyna - Gdynia” modernizacji infrastruktury kolejowej, który może znacząco zwiększyć potencjał inwestycyjny lokalizacji. Modernizacja linii kolejowej nr 201 przyniesie w przyszłości zwiększenie mobilności, lepszy dostęp do transportu publicznego i potencjał rozwoju dla otoczenia działek\n \nIstnieje możliwość kupna jednej działki.\n\nParametry działek:\nDziałka nr 1 - 4023 m² - cena 685.000 zł\nDziałka nr 2 - 4740 m² - cena 806.000 zł\n\nObie działki posiadają uregulowany stan prawny, a dla jednej z nich został przygotowany projekt budynku usługowego.\n\n MPZP - najważniejsze ustalenia:\n\n-Przeznaczenie: zabudowa usługowa\n-Możliwość wydzielenia jednego lokalu mieszkalnego w budynku usługowym (do 150 m²)\n-Forma zabudowy: wolnostojąca\n-Maks. powierzchnia zabudowy: 60%\n-Wskaźnik intensywności: max 1,8 (dla kondygnacji nadziemnych 1,2)\n-Powierzchnia biologicznie czynna: min. 20%\n-Min. powierzchnia działki: 1000 m²\n-Kondygnacje: do 2 nadziemnych (w tym poddasze przy dachu dwuspadowym) + 1 podziemna\n-Maks. wysokość zabudowy: 10 m\n-Teren o nachyleniu od 193,7 do 198,7 m n.p.m.\n\n Atuty oferty\n\n- możliwość zabudowy usługowej z opcją części mieszkalnej\n\r\n- sąsiedztwo działających firm - gwarancja biznesowego otoczenia\r\n- dobry dojazd dla pracowników, klientów i dostawców\n\nTo idealna propozycja dla inwestora, który szuka miejsca pod zakład usługowy, magazyn, biuro lub inną działalność w dobrze skomunikowanej i rozpoznawalnej lokalizacji.\n\r\n \r\nZapraszam do kontaktu i na prezentację",
+      "price": 1314450,
+      "pricePerSqm": 150,
+      "area": 8763,
+      "city": "Kiełpino",
+      "district": "Leszno",
+      "street": "ul. Rzemieślnicza",
+      "lat": 54.2940295,
+      "lng": 18.1996526,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11115224/97620371_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11115224/97620365_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11115224/97620368_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11115224/97620359_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11115224/97620356_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11115224/97620362_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11115224/97620374_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11115224",
+      "createdAt": "2025-09-17 16:35:54",
+      "updatedAt": "2026-05-12 09:44:19"
+    },
+    {
+      "id": "11208602",
+      "offerNumber": "ST944245",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Segment skrajny",
+      "market": "wtorny",
+      "title": "Orłowo | Dom z tarasem i częścią inwestycyjną",
+      "description": "Na sprzedaż przestronny dom w zabudowie szeregowej (skrajny segment) z 1994 roku, położony na końcu kameralnej, ślepej uliczki w Orłowie. To doskonała lokalizacja dla osób, które cenią bliskość miejskiej infrastruktury, a jednocześnie pragną ciszy i spokoju.\n\nRyneczek w Orłowie - 2 minuty pieszo.\nMolo i plaża w Orłowie - do 30 minut spacerem.\nLas - 10 minut pieszo.\nW okolicy pełna infrastruktura handlowo-usługowa.\n\nUkład domu\nDom o dużym potencjale, z możliwością łączenia funkcji mieszkalnej i inwestycyjnej.\nprzyziemie :\n-  lokale użytkowe (aktualnie wynajmowane) z niezależnym wejściem około 140m2\n- pralnia - pomieszczenia z możliwością adaptacji pod własne potrzeby.\n- kotłownia\n- przejście do garażu na dwa samochody (wysokie sufity ok. 3 m)\n\nParter:\n- salon z kominkiem (58 m²) z wyjściem na taras\n- otwarta kuchnia z wyspą i jadalnią (36 m²)\n- pokój/gabinet/pokój gościnny\n- łazienka z prysznicem\n- dostęp do dwóch tarasów - mniejszego i dużego, idealnego na spotkania w gronie rodziny i przyjaciół.\n\nPiętro:\n- trzy sypialnie (17,9 m²; 21 m²; 25,3 m²), z czego jedna z prywatną łazienką\n- dodatkowa łazienka\n- garderoba\n- przestronny hol\n\nStandard wykończenia\n\nDom został zrealizowany z dbałością o detale i jakość materiałów:\n\n- parkiety dębowe i bukowe\n- kuchnia po modernizacji, z wyspą\n- solidne drewniane schody\n- przestronne, jasne wnętrza\n\nAtuty nieruchomości\n\n- funkcjonalny układ z możliwością połączenia mieszkania i biznesu\n- wysokie sufity około 3m\n- dwa niezależne wejścia (do domu i do lokali użytkowych)\n- garaż na dwa auta + 2 miejsca parkingowe na posesji i 2 przed bramą wjazdową\n- duży taras otulony zielenią drzew\n- wyjątkowa lokalizacja w Orłowie.",
+      "price": 2800000,
+      "pricePerSqm": 6947.89,
+      "area": 403,
+      "landArea": 361,
+      "rooms": 5,
+      "totalFloors": 2,
+      "yearBuilt": 1994,
+      "city": "Gdynia",
+      "district": "Orłowo",
+      "street": "ul. Inżynierska",
+      "lat": 54.4842433,
+      "lng": 18.5399361,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/107432558_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835971_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835989_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835983_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835977_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835986_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835980_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835929_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835935_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835932_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835938_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835941_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835944_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835947_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835950_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835953_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835956_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835959_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835962_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835965_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11208602/98835968_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/7VujvPZbeS4",
+      "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11208602",
+      "createdAt": "2025-10-13 19:15:01",
+      "updatedAt": "2026-05-08 12:53:55"
+    },
+    {
+      "id": "11904581",
+      "offerNumber": "ST428499",
+      "transaction": "najem",
+      "type": "lokal",
+      "typeDetail": "Magazyn z biurami",
+      "market": "wtorny",
+      "title": "Elastyczna powierzchnia komercyjna w mieście",
+      "description": "Uniwersalne pomieszczenia (magazyn, produkcja, usługi). Z bardzo dobrym dojazdem. \n\nWysokość 3,40 m do belek konstrukcyjnych, a do właściwego stropu 4,50 m.\nCałość na jednym poziomie. Dostępne z poziomu gruntu.\n\nMożliwe zmiany aranżacyjne - wydzielenie mniejszych pomieszczeń, dołożenie węzłów sanitarnych, wynajem dodatkowej przestrzeni - nawet 1000 m2.\n \nPosadzka przemysłowa. Duża moc przyłączeniowa prądu.\nBrama wjazdowa dla dostaw. Parking na 4 aut z cenie (możliwość powiększenia strefy parkowania).\n\n\r\nMożliwość bezproblemowych rozładunków nawet z dużych samochodów (TIR).\n\nPomieszczenia ogrzewane, niskie opłaty eksploatacyjne ( około 9 zł/m2).\n\nMożliwość wydzielenia innych powierzchni.\n\nPreferowany najem długoterminowy.  \n\nDo ceny najmuj doliczony zostanie stosowny podatek VAT.",
+      "price": 19000,
+      "pricePerSqm": 40,
+      "area": 475,
+      "yearBuilt": 2007,
+      "city": "Gdańsk",
+      "district": "Suchanino",
+      "street": "ul. Franciszka Schuberta",
+      "lat": 54.359345,
+      "lng": 18.6053402,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944728_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944722_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11904581",
+      "createdAt": "2026-04-25 08:14:14",
+      "updatedAt": "2026-05-03 04:20:07"
+    },
+    {
+      "id": "11743319",
+      "offerNumber": "ST829892",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Widok na park, 5 min do plaży",
+      "description": "Wyjątkowy apartament w sercu Gdyni - design, widok na park i 5 min od plaży\n\nZapraszam do zapoznania się z ofertą sprzedaży unikalnego mieszkania położonego w najbardziej pożądanej lokalizacji Gdyni - tuż u podnóża Kamiennej Góry. To wnętrze dla osób ceniących styl, przestrzeń i bliskość natury w samym centrum miasta.\n\nWnętrze z duszą i nowoczesnym sznytem\nMieszkanie przeszło gruntowny remont i zostało wykończone z dbałością o każdy detal. Projekt łączy nowoczesną funkcjonalność z autentycznym klimatem gdyńskich kamienic.\n\nPrzestronna część dzienna - salon z wyjściem na spory balkon, idealny na kawę, otwarta duża kuchnia z oknem, balkonikiem i widokiem na akację. Kuchnia idealna dla osób gotujących - przestronna, dużo blatu i miejsca do przechowywania. Duża sypialnia z pakowną szafą. Znajdzie się tu miejsce również do pracy. Trzeci pokój idealny jako gabinet lub pokój dla dziecka. \n\nDzięki dwustronnej wystawie okien oraz otwartej przestrzeni apartament jest doskonale doświetlony przez cały dzień.\n\nPełne wyposażenie: Gotowe do wprowadzenia, bez dodatkowych nakładów finansowych.\n\nKomfortowa łazienka wyposażona zarówno w wannę, jak i prysznic. Osobna, ustawna toaleta.\n\nWłaściciele korzystają także z pomieszczenia w piwnicy. \n\nMieszkanie znajduje się na II piętrze zadbanej kamienicy. Klatka schodowa jest po remoncie, a schody są wyjątkowo wygodne.\n\nZ obu stron mieszkania rozpościera się kojący widok na zieleń oraz na Kamienną Górę.\nMimo lokalizacji w sercu miasta, ulica jest boczna i bardzo spokojna.\n\nLokalizacja premium  - plaża miejska zaledwie 5 minut spacerem.\n\nBulwar Nadmorski, Teatr Muzyczny i liczne kawiarnie w zasięgu krótkiego spaceru.\nPełna infrastruktura miejska (sklepy, szkoły, przystanki) na wyciągnięcie ręki.\n\nTo idealna propozycja dla osób szukających spokoju bez rezygnacji z uroków życia w Gdyni.\n\nIdealne także jaki inwestycja pod wynajem. \n\nZapraszam na prezentację!",
+      "price": 1300000,
+      "pricePerSqm": 18131.1,
+      "rent": 1100,
+      "area": 71.7,
+      "rooms": 3,
+      "floor": 2,
+      "totalFloors": 3,
+      "yearBuilt": 1934,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Juliusza Słowackiego",
+      "lat": 54.5140744,
+      "lng": 18.5417111,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719780_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719963_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719786_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719939_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719777_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719978_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719957_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719948_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719954_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719942_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719768_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719759_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719570_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719642_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719561_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719585_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11743319",
+      "createdAt": "2026-03-31 14:06:27",
+      "updatedAt": "2026-04-18 10:44:36"
+    },
+    {
+      "id": "9613622",
+      "offerNumber": "ST161111",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "40, 43 m2 + zab. balkon (realnie ok.46 m2)",
+      "description": "Bardzo przestronne mieszkanie w świetnej lokalizacji! (pokój jadalniany z aneksem kuchennym i ogromna sypialnia).\n\n Lokal składa się z bardzo dużego pokoju dziennego oraz bardzo dużej jadalni z kuchnią (pomieszczenie powiększone o balkon). Mieszkanie ma po adaptacji balkonu ma ok. 46 m2, w księdze wieczystej 40,43 m2. Możliwe zmiany aranżacyjne (salon z aneksem + sypialnia). Poniżej wizualizacje z inspiracją zmian aranżacyjnych, do wglądu zdjęcia przerobionych w ten sposób mieszkań o tym samym układzie. Możemy udostępnić propozycję rzutu ze zmianą układu.\n\n Mieszkanie jest bardzo jasne dzięki dużym oknom oraz przestrzeni niezabudowanej przed nimi. \nBudynek zadbany, z windą. Do mieszkania przynależy piwnica. \n\n Spokojna, zielona okolica blisko centrum i całej infrastruktury. Osiedle samowystarczalne, w najbliższej okolicy liczne sklepy, CH Auchan, piekarnia, cukiernia, apteka, stomatolog, fryzjer, bank, kwiaciarnia, bistro itd.. W odległości 7 minut spacerem SKM Gdynia Redłowo. W pobliżu znajduje się Rezerwat Krajobrazowy Kępa Redłowska oraz Polanka Redłowska. Liczne trasy spacerowe umożliwiają doskonały wypoczynek wśród nadmorskiej zieleni. Liczne miejsca parkingowe przy budynku.\n\nMieszkanie obecnie wynajmowane. Można kontynuować wynajem. Prezentacje możliwe po umówieniu terminu z obecnym najemcą.\n\nŚrednie opłaty ok. 600 / 925 zł.",
+      "price": 550000,
+      "pricePerSqm": 13603.76,
+      "rent": 750,
+      "area": 40.43,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 9,
+      "city": "Gdynia",
+      "district": "Redłowo",
+      "street": "ul. Bohaterów Starówki Warszawskiej",
+      "lat": 54.49526,
+      "lng": 18.54458,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/105850328_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/105850130_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121314_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121332_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121311_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121317_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121320_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121323_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121329_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121335_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121338_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121341_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121344_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/104628680_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/104705867_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121347_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121350_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9613622/80121353_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/9613622",
+      "createdAt": "2024-11-15 09:32:42",
+      "updatedAt": "2026-04-16 11:09:53"
+    },
+    {
+      "id": "10877450",
+      "offerNumber": "ST884486",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Pod zabudowę jednorodzinną",
+      "market": "wtorny",
+      "title": "Działka przy jeziorze Smolnik (gm.Kaliska)",
+      "description": "Na sprzedaż działki przy jeziorze Smolnik (gm.Kaliska) - wieś Studzinice (Smolnik).\n\nSąsiadujące ze sobą działki o metrażach (1623 m2, 1540 m2) malowniczo położone w linii prostej 70 m od jeziora. Dwie sąsiadują bezpośrednio, trzecią \"dzieli\" działka sąsiada. \nTeren otoczony rozległym kompleksem leśnym Nadleśnictwa Kaliska.\n\nWydane warunki zabudowy: zabudowa mieszkaniowa jednorodzinna, powierzchnia zabudowy 120 m2, 2 kondygnacje nadziemne, dach dwuspadowy, min. 2 miejsca postojowe. Szczegóły wydanych warunków zabudowy zostaną udostępnione zainteresowanym.\n\nWoda: do wykonania studnia własna, kanalizacja: zbiornik bezodpływowy, prąd dostępny, ogrzewanie:  indywidualne, spełniające wymagania przepisów o instalacji źródeł odnawialnych.  \n\nDobry dojazd - większość drogą leśną, wybrukowaną. Końcówka drogą leśną utwardzoną. \nW sąsiedztwie zabudowa jednorodzinna i rekreacyjna. \n\nDojazd do Gdańska lub Gdyni: 1 godz.30 min, 20 min do Czerska, 30 min Starogard Gdański. W promieniu 40 min dwa Parki Krajobrazowe (Wdzydzki i Bory Tucholskie), liczne jeziora. 6 km Biedronka, Dino i inne punkty handlowe.",
+      "price": 137955,
+      "pricePerSqm": 85,
+      "area": 1623,
+      "city": "Studzienice",
+      "district": "starogardzki",
+      "lat": 53.8797539,
+      "lng": 18.1208612,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938248_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938245_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938251_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938254_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938257_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938260_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938263_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938266_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938269_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938272_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938293_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938299_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938302_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/94938305_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/10877450/101629259_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/10877450",
+      "createdAt": "2025-07-20 09:44:50",
+      "updatedAt": "2026-04-10 17:50:55"
+    },
+    {
+      "id": "11345771",
+      "offerNumber": "ST354681",
+      "transaction": "sprzedaz",
+      "type": "lokal",
+      "typeDetail": "Magazyn z biurami",
+      "market": "wtorny",
+      "title": "Lokal, 1666 m², Gdynia",
+      "description": "Budynek biurowo magazynowy o łącznej pow. 1666 m2. Cześć magazynowa o pow. niespełna 720 m2.\nDziałka zagospodarowana na parking, plac manewrowy oraz pow. na dodatkowe składowanie kontenerów.\n\nDwa piętra o powierzchni łącznej 445 m2 wynajęte są na kolejne dwa lata do 1 lipca 2027 r. w cenie 26 438,73 zł/miesięcznie ( indeksowane o inflację co roku).\n\nNajemca  przy obecnej sytuacji pokrywa 31 % udziału w kosztach wspólnych, które w skali roku wynoszą 17 300 zł netto średnio miesięcznie ( w tym koszty opłat mediów w tym: energia elektryczna, gaz - magazyn jest ogrzewany zimą do 17 C, woda, wywóz szamba ( planowane jest podłączenie do kanalizacji), podatek od nieruchomości, monitoring Garda, wywóz śmieci oraz konserwacja alarmu i domofonu. Najwyższe piętro w całości klimatyzowane. \n\n\r\nPrawie cały budynek (wyłączając część socjalną magazynu) przeszła kapitalny remont w ciągu ostatnich 6 lat. Na każdej kondygancji 2 łazienki i pomieszczenie kuchenno socjalne uzupełniające funkcję biurową. Magazyn ma oddzielne łazienki z szatniami i pom.socjalne. \n\nLokalizacja z dobrym dojazdem do obwodnicy oraz komunikacją miejską. W pobliżu liczne punkty handlowe i usługowe. Dużo miejsc parkingowych na posesji. \n\nMożliwość przystosowania do różnych działalności.\n\nZapraszam po uzyskanie więcej informacji oraz rozkładu pomieszczeń,",
+      "price": 8200000,
+      "pricePerSqm": 4921.97,
+      "area": 1666,
+      "landArea": 3942,
+      "city": "Gdynia",
+      "district": "Wiczlino",
+      "street": "ul. Żaglowa",
+      "lat": 54.5008902,
+      "lng": 18.4266568,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698236_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100697093_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100697672_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100697564_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100696973_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100697087_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100697765_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698194_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100697813_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698095_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698935_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698104_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698320_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698218_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698239_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698275_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698245_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698914_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698113_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698287_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698338_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698353_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698623_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698371_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698401_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698437_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698497_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698500_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698926_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698512_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698536_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698725_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698842_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698866_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11345771/100698902_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11345771",
+      "createdAt": "2025-11-24 15:59:42",
+      "updatedAt": "2026-03-05 11:04:31"
+    },
+    {
+      "id": "9623531",
+      "offerNumber": "ST118069",
       "transaction": "sprzedaz",
       "type": "dzialka",
       "typeDetail": "Mieszkaniowa",
       "market": "wtorny",
-      "title": "Piękna działka w sąsiedztwie jeziora",
-      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 315000,
-      "pricePerSqm": 210,
-      "area": 1500,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Bukowa",
-      "lat": 54.5427708,
-      "lng": 18.2763107,
+      "title": "Działka, 2438 m², Leźno",
+      "description": "Na sprzedaż dwie sąsiadujące ze sobą działki (jedna za drugą) położone w Leźnie (zaraz za Gdańskiem).\n\nTeren lekko pofałdowany, częściowo porośnięty samosiejami (w zdecydowanej większości stosunkowo nowe zadrzewienie). Szerokość ok 25 m. Pierwsza działka (granicząca z ulicą ok. 40 m długości, druga ok.58 m). Dostęp od asfaltowej drogi gminnej. W bezpośrednim sąsiedztwie zabudowania mieszkalne. \n\nDla obu działek zostały wydane warunki zabudowy - na każdej można wybudować 1 dom (podstawowe informacje - cały dokument dostępny do wglądu):\n- budynek mieszkalny jednorodzinny wolnostojący z garażem,\n- pow.zabudowy do 25%,\n- wysokość zabudowy do 9 m, \n- garaż jedno lub dwu stanowiskowy (w bryle lub niezależny), \nUzbrojenie:\n- woda na działce, \n- kanalizacja sanitarna i prąd w ulicy przy działce,\n- gaz na większej działce oraz w drodze,\nOgrzewanie przewidziane poprzez indywidualne żródła ciepła nieemisyjne lub niskoemisyjne paliwa. \n\nNajbliższa stacja kolejowa Leźno 8 min od działki (autem). Połączenie do Gdańska Głównego, Wrzeszcza i do Kartuz. 10 min PKM Rębiechowo.\n\n2 km do drogi krajowej nr 7. 15 min do węzła obwodnicy Trójmiasta. Kokoszki - sąsiadująca dzielnica Gdańska bardzo mocno się obecnie rozwija.",
+      "price": 659000,
+      "pricePerSqm": 270.3,
+      "area": 2438,
+      "city": "Leźno",
+      "district": "kartuski",
+      "street": "ul. Jarzębinowa",
+      "lat": 54.35328,
+      "lng": 18.41478,
       "images": [
         {
-          "url": "/oferty/109559201.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80230250_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109559087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229482_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229488_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559561.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229494_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559075.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229497_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559078.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229500_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559081.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229506_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559084.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229509_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559564.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229524_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229932_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229941_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229950_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229959_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229974_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229980_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/9623531/80229986_max.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/12113690",
-      "createdAt": "2026-06-17 20:36:09",
-      "updatedAt": "2026-07-02 18:56:55"
+      "url": "https://starnawska.pl/oferty/9623531",
+      "createdAt": "2024-11-18 13:38:33",
+      "updatedAt": "2026-02-14 17:07:32"
     },
     {
-      "id": "12164528",
-      "offerNumber": "ST732390",
-      "transaction": "najem",
-      "type": "mieszkanie",
+      "id": "10948628",
+      "offerNumber": "ST286477",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Pod zabudowę jednorodzinną",
       "market": "wtorny",
-      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
-      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 800 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
-      "price": 3800,
-      "pricePerSqm": 86.36,
-      "area": 44,
-      "rooms": 2,
-      "floor": 9,
-      "totalFloors": 17,
-      "city": "Gdańsk",
-      "district": "Stocznia",
-      "street": "ul. Wałowa",
-      "lat": 54.3593822,
-      "lng": 18.6520752,
+      "title": "15m od granicy jeziora Kielno",
+      "description": "Twoje miejsce nad jeziorem w Kielnie! \nMarzysz o działce, na której postawisz swój wymarzony dom? \n\nMamy coś wyjątkowego:\n\nDziałka budowlana o powierzchni 857 m², już objęta aktualnym planem zagospodarowania.\nTylko 15 m od granicy działki do jeziora - czyli w zasięgu porannej kawy przy brzegu lub letniej kąpieli w zasięgu spaceru.\nNa działce doprowadzony prąd, a w granicach dostępne również: kanalizacja, gaz i woda - czyli wszystko, co potrzeba, by ruszyć z zabudową.\n\nWarunki zabudowy:\n• maksymalna wysokość zabudowy: 9 m\n• powierzchnia zabudowy: do 30%\n\n➡️ Link do aktualnego planu zagospodarowania: \nhttps://szemud.e-mapa.net?object=sys.dzialka.221509_2.0010.16/7&pln_plan=018",
+      "price": 395000,
+      "pricePerSqm": 460.91,
+      "area": 857,
+      "city": "Kielno",
+      "district": "wejherowski",
+      "street": "ul. Józefa Tredera",
+      "lat": 54.4547658,
+      "lng": 18.3365311,
       "images": [
         {
-          "url": "/oferty/110200763.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/10948628/100632908_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110200766.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/10948628/100633697_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200769.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/10948628/100633703_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200784.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200772.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200775.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200778.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200781.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/10948628/95939174_max.jpg",
           "primary": false
         }
       ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/O4oYGrbhJiY",
       "agent": {
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/12164528",
-      "createdAt": "2026-06-25 19:02:39",
-      "updatedAt": "2026-07-03 12:26:41"
+      "url": "https://starnawska.pl/oferty/10948628",
+      "createdAt": "2025-08-11 14:47:05",
+      "updatedAt": "2026-02-02 10:54:47"
     }
   ]
 }
