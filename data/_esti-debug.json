@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-09T05:46:51.735Z",
-  "package": "EstiCRM_18_20260708100117.zip",
+  "generatedAt": "2026-07-10T06:21:49.086Z",
+  "package": "EstiCRM_18_20260710050101.zip",
   "exportAttr": "incremental",
-  "totalInExport": 1,
+  "totalInExport": 2,
   "offer12049010Present": false,
   "offer12049010Status": null,
   "allFieldNamesSample": [
@@ -278,19 +278,53 @@
   ],
   "sampleStatuses": [
     {
-      "id": "10877450",
+      "id": "12049100",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST884486",
+        "numberExport": "ST926971",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-07-08 09:52:59",
-        "exportDate": "2026-07-08 09:52:59",
+        "exportGalleryDate": "2026-07-10 04:20:11",
+        "exportDate": "2026-07-10 04:20:11",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Działka przy jeziorze Smolnik (gm.Kaliska)",
+        "portalTitle": "Płaska, łatwy dojazd, bliskość przystanku",
+        "portalPromote": "",
+        "portalWwwTitle": "",
+        "contactStatus": "11",
+        "locationExportCityName": "",
+        "locationExportStreetName": "",
+        "locationExportStreetType": "",
+        "locationExportStreetCustom": "",
+        "locationExportPrecinctName": "",
+        "locationExportParentPrecinctName": "",
+        "locationExportCommuneName": "",
+        "locationExportDistrictName": "",
+        "locationExportProvinceName": "",
+        "locationExportPlaceName": "",
+        "locationExportCountryName": "",
+        "portalEnglishTitle": "",
+        "locationExportCityBiurowin": "",
+        "locationExportPrecinctBiurowin": "",
+        "locationExportStreetBiurowin": ""
+      }
+    },
+    {
+      "id": "12113690",
+      "status": {
+        "companyStatus": "11",
+        "offerExport": "1",
+        "numberExport": "ST982535",
+        "numberExportDate": "",
+        "exportGalleryDate": "2026-07-10 04:20:11",
+        "exportDate": "2026-07-10 04:20:11",
+        "status": {
+          "#text": "3",
+          "@_dictionary": "status"
+        },
+        "portalTitle": "Piękna działka w sąsiedztwie jeziora",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
