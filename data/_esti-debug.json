@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T06:21:49.086Z",
-  "package": "EstiCRM_18_20260710050101.zip",
+  "generatedAt": "2026-07-11T05:49:22.882Z",
+  "package": "EstiCRM_18_20260710180105.zip",
   "exportAttr": "incremental",
   "totalInExport": 2,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12049100",
+      "id": "12217901",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST926971",
+        "numberExport": "ST272215",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-07-10 04:20:11",
-        "exportDate": "2026-07-10 04:20:11",
+        "exportGalleryDate": "2026-07-10 17:09:08",
+        "exportDate": "2026-07-10 17:09:08",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Płaska, łatwy dojazd, bliskość przystanku",
+        "portalTitle": "3 pokoje po remoncie z panoramą na port",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
@@ -312,19 +312,19 @@
       }
     },
     {
-      "id": "12113690",
+      "id": "12215723",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST982535",
+        "numberExport": "ST514187",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-07-10 04:20:11",
-        "exportDate": "2026-07-10 04:20:11",
+        "exportGalleryDate": "2026-07-10 17:10:59",
+        "exportDate": "2026-07-10 17:10:59",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Piękna działka w sąsiedztwie jeziora",
+        "portalTitle": "Słoneczne 3 pokoje, przy centrum,  po remocnie",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
