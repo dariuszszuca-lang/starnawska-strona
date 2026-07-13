@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-12T06:11:29.713Z",
-  "package": "EstiCRM_18_20260710180105.zip",
+  "generatedAt": "2026-07-13T05:49:04.576Z",
+  "package": "EstiCRM_18_20260712180103.zip",
   "exportAttr": "incremental",
-  "totalInExport": 2,
+  "totalInExport": 1,
   "offer12049010Present": false,
   "offer12049010Status": null,
   "allFieldNamesSample": [
@@ -278,53 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12217901",
+      "id": "5826876",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST272215",
+        "numberExport": "ST674422",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-07-10 17:09:08",
-        "exportDate": "2026-07-10 17:09:08",
+        "exportGalleryDate": "2026-07-12 17:33:55",
+        "exportDate": "2026-07-12 17:33:55",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "3 pokoje po remoncie z panoramą na port",
-        "portalPromote": "",
-        "portalWwwTitle": "",
-        "contactStatus": "11",
-        "locationExportCityName": "",
-        "locationExportStreetName": "",
-        "locationExportStreetType": "",
-        "locationExportStreetCustom": "",
-        "locationExportPrecinctName": "",
-        "locationExportParentPrecinctName": "",
-        "locationExportCommuneName": "",
-        "locationExportDistrictName": "",
-        "locationExportProvinceName": "",
-        "locationExportPlaceName": "",
-        "locationExportCountryName": "",
-        "portalEnglishTitle": "",
-        "locationExportCityBiurowin": "",
-        "locationExportPrecinctBiurowin": "",
-        "locationExportStreetBiurowin": ""
-      }
-    },
-    {
-      "id": "12215723",
-      "status": {
-        "companyStatus": "11",
-        "offerExport": "1",
-        "numberExport": "ST514187",
-        "numberExportDate": "",
-        "exportGalleryDate": "2026-07-10 17:10:59",
-        "exportDate": "2026-07-10 17:10:59",
-        "status": {
-          "#text": "3",
-          "@_dictionary": "status"
-        },
-        "portalTitle": "Słoneczne 3 pokoje, przy centrum,  po remocnie",
+        "portalTitle": "Mieszkanie na Jasieniu z miejscem postojowym",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",

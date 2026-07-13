@@ -1,6 +1,91 @@
 {
-  "lastSync": "2026-07-12T06:11:29.702Z",
+  "lastSync": "2026-07-13T05:49:04.571Z",
   "offers": [
+    {
+      "id": "5826876",
+      "offerNumber": "ST674422",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
+      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nCzerwona ściana w salonie widoczna na zdjęciu została przemalowana na kolor szary.\n\n Mieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy miejsce parkingowe za szlabanem oraz komórka lokatorska. Dla osób zainteresowanych - istnieje możliwość zmiany koloru ścian.\n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \n\nUmowa na rok czasu, najem okazjonalny.",
+      "price": 2200,
+      "pricePerSqm": 47.83,
+      "rent": 480,
+      "area": 46,
+      "rooms": 2,
+      "floor": 2,
+      "totalFloors": 4,
+      "yearBuilt": 2016,
+      "city": "Gdańsk",
+      "district": "Jasień",
+      "street": "ul. Konrada Guderskiego",
+      "lat": 54.32196,
+      "lng": 18.55925,
+      "images": [
+        {
+          "url": "/oferty/106491209.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/106491098.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/106491263.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448594.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448570.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448564.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448579.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448627.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448615.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448588.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448621.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448630.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/41448624.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl",
+        "slug": "ewelina-pawelczyk"
+      },
+      "url": "https://starnawska.pl/oferty/5826876",
+      "createdAt": "2022-04-05 12:55:58",
+      "updatedAt": "2026-07-12 17:33:55"
+    },
     {
       "id": "12215723",
       "offerNumber": "ST514187",
@@ -24,63 +109,64 @@
       "lng": 18.5381644,
       "images": [
         {
-          "url": "/oferty/110582198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582198_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110582189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582102.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582102_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582087_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582099.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582099_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582096.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582096_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582090.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582090_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582093.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582093_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582216_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12215723",
       "createdAt": "2026-07-08 12:54:55",
@@ -109,67 +195,68 @@
       "lng": 18.5233493,
       "images": [
         {
-          "url": "/oferty/110605646.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605646_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110605637.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605637_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110646908.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110646908_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605547.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605547_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605550.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605550_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605616.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605616_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605622.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605622_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605511.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605511_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605655.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605655_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605658.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605658_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605517.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605517_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605523.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605523_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605661.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605661_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605541.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605541_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12217901",
       "createdAt": "2026-07-09 08:13:08",
@@ -486,92 +573,6 @@
       "url": "https://starnawska.pl/oferty/11154254",
       "createdAt": "2025-09-29 11:26:54",
       "updatedAt": "2026-07-07 14:10:33"
-    },
-    {
-      "id": "5826876",
-      "offerNumber": "ST674422",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
-      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nCzerwona ściana w salonie widoczna na zdjęciu została przemalowana na kolor szary.\n\n Mieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy miejsce parkingowe za szlabanem oraz komórka lokatorska. Dla osób zainteresowanych - istnieje możliwość zmiany koloru ścian.\n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \n\nUmowa na rok czasu, najem okazjonalny.",
-      "price": 2200,
-      "pricePerSqm": 47.83,
-      "rent": 480,
-      "area": 46,
-      "rooms": 2,
-      "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 2016,
-      "city": "Gdańsk",
-      "district": "Jasień",
-      "street": "ul. Konrada Guderskiego",
-      "lat": 54.32196,
-      "lng": 18.55925,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491209_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491098_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491263_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448594_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448570_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448564_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448579_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448627_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448615_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448588_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448621_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448630_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448624_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "161219",
-        "slug": "ewelina-pawelczyk",
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/5826876",
-      "createdAt": "2022-04-05 12:55:58",
-      "updatedAt": "2026-07-07 04:20:15"
     },
     {
       "id": "12154073",
