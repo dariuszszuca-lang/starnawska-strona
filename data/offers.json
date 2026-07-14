@@ -1,90 +1,421 @@
 {
-  "lastSync": "2026-07-13T05:49:04.571Z",
+  "lastSync": "2026-07-14T05:59:33.432Z",
   "offers": [
     {
-      "id": "5826876",
-      "offerNumber": "ST674422",
+      "id": "11740850",
+      "offerNumber": "ST699920",
       "transaction": "najem",
       "type": "mieszkanie",
       "market": "wtorny",
-      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
-      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nCzerwona ściana w salonie widoczna na zdjęciu została przemalowana na kolor szary.\n\n Mieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy miejsce parkingowe za szlabanem oraz komórka lokatorska. Dla osób zainteresowanych - istnieje możliwość zmiany koloru ścian.\n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \n\nUmowa na rok czasu, najem okazjonalny.",
-      "price": 2200,
-      "pricePerSqm": 47.83,
-      "rent": 480,
-      "area": 46,
-      "rooms": 2,
+      "title": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
+      "description": "Na wynajem przestronne, 5-pokojowe mieszkanie, położone w prestiżowej dzielnicy Wrzeszcz w Gdańsku. To słoneczne wnętrze mieści się w pięknej, odrestaurowanej kamienicy.\nLOKALIZACJA\nNieruchomość znajduje się w Górnym Wrzeszczu, jednej z najbardziej cenionych części Gdańska. Okolica zapewnia dostęp do licznych sklepów, restauracji i terenów zielonych, a także bardzo dobrą komunikację z pozostałymi częściami miasta. W pobliżu znajdują się m.in. Centrum Manhattan, Galeria Bałtycka, Politechnika Gdańska oraz Gdański Uniwersytet Medyczny. Wzdłuż budynku obowiązuje strefa płatnego parkowania z możliwością wykupienia abonamentu.\nBUDYNEK\nMieszkanie usytuowane jest na drugim piętrze odnowionej, historycznej kamienicy, wyróżniającej się elegancką architekturą. Duże okna o ekspozycji wschód-zachód zapewniają doskonałe doświetlenie wnętrz przez cały dzień.\nMIESZKANIE\nLokal składa się z pięciu pokoi, urządzonych w podwyższonym standardzie. Przestronny salon (ok. 22 m²) stanowi idealne miejsce do relaksu i spotkań. Do dyspozycji jest również obszerna jadalnia połączona z nowoczesnym aneksem kuchennym (ok. 25 m²), w pełni wyposażonym w sprzęt AGD.\nMieszkanie oferuje trzy komfortowe sypialnie o powierzchniach ok. 14 m², 13 m² i 10 m². Jedno z pomieszczeń można z łatwością zaaranżować jako gabinet.\nW lokalu znajduje się przestronny pokój kąpielowy z wanną, prysznicem, WC, bidetem oraz pralką.\n\nW zależności od potrzeb Najemcy mieszkanie może być udostępnione w pełni umeblowane, częściowo umeblowane lub bez mebli!\n\n Dodatkowym atutem jest duża piwnica o powierzchni ok. 25 m² oraz możliwość korzystania ze strychu.\nFINANSE\nCzynsz najmu: 6500zł/miesiąc\nOpłaty administracyjne: ok. 960 zł/miesiąc\nDodatkowo: media (prąd, gaz, internet, TV)\nKaucja: 9000 zł\nNajem okazjonalny, długoterminowy - minimum 12 miesięcy.\nZapraszam do kontaktu i na prezentacje.",
+      "price": 6500,
+      "pricePerSqm": 59.13,
+      "rent": 960,
+      "area": 109.93,
+      "rooms": 5,
       "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 2016,
+      "totalFloors": 3,
       "city": "Gdańsk",
-      "district": "Jasień",
-      "street": "ul. Konrada Guderskiego",
-      "lat": 54.32196,
-      "lng": 18.55925,
+      "district": "Wrzeszcz Górny",
+      "street": "ul. gen. de Gaulle'a",
+      "lat": 54.3791301,
+      "lng": 18.6004696,
       "images": [
         {
-          "url": "/oferty/106491209.jpg",
+          "url": "/oferty/108642233.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/106491098.jpg",
+          "url": "/oferty/108642230.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/106491263.jpg",
+          "url": "/oferty/108642215.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448594.jpg",
+          "url": "/oferty/108642206.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448570.jpg",
+          "url": "/oferty/108642161.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448564.jpg",
+          "url": "/oferty/108642209.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448579.jpg",
+          "url": "/oferty/108642218.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448627.jpg",
+          "url": "/oferty/108642185.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448615.jpg",
+          "url": "/oferty/108642188.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448588.jpg",
+          "url": "/oferty/108642191.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448621.jpg",
+          "url": "/oferty/108642227.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448630.jpg",
+          "url": "/oferty/108642224.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/41448624.jpg",
+          "url": "/oferty/108642200.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642203.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642176.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642197.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/108642194.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "fullName": "Katarzyna Kaszuba",
+        "phone": "668305552",
+        "email": "kkaszuba@starnawska.pl",
+        "slug": "katarzyna-kaszuba"
       },
-      "url": "https://starnawska.pl/oferty/5826876",
-      "createdAt": "2022-04-05 12:55:58",
-      "updatedAt": "2026-07-12 17:33:55"
+      "url": "https://starnawska.pl/oferty/11740850",
+      "createdAt": "2026-03-30 22:01:42",
+      "updatedAt": "2026-07-13 21:14:53"
+    },
+    {
+      "id": "11929373",
+      "offerNumber": "ST346379",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
+      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
+      "price": 275000,
+      "pricePerSqm": 195.87,
+      "area": 1404,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5444674,
+      "lng": 18.2850692,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11929373",
+      "createdAt": "2026-05-03 20:51:58",
+      "updatedAt": "2026-07-13 18:26:03"
+    },
+    {
+      "id": "12113690",
+      "offerNumber": "ST982535",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Piękna działka w sąsiedztwie jeziora",
+      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 315000,
+      "pricePerSqm": 210,
+      "area": 1500,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Bukowa",
+      "lat": 54.5427708,
+      "lng": 18.2763107,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559204_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12113690",
+      "createdAt": "2026-06-17 20:36:09",
+      "updatedAt": "2026-07-13 18:25:43"
+    },
+    {
+      "id": "12049100",
+      "offerNumber": "ST926971",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Płaska, łatwy dojazd, bliskość przystanku",
+      "description": "Mamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 190000,
+      "pricePerSqm": 194.27,
+      "area": 978,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5434013,
+      "lng": 18.2909448,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582119_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582122_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582128_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/Xt0d8KufK-c",
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12049100",
+      "createdAt": "2026-05-28 21:52:06",
+      "updatedAt": "2026-07-13 18:25:20"
+    },
+    {
+      "id": "11469854",
+      "offerNumber": "ST480706",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Segment skrajny",
+      "market": "wtorny",
+      "title": "Dom w cenie mieszkania |4 sypialnie| 2 łazienki.",
+      "description": "Na sprzedaż wyjątkowy dom w zabudowie szeregowej (segment skrajny) położony w prestiżowej dzielnicy Gdynia Orłowo.\nTo idealna propozycja dla osób, które cenią komfort życia w bliskości morza, a jednocześnie potrzebują miejsca, które pozwala łączyć funkcję domu i pracy w niezależnych strefach.\n\nPowierzchnia całkowita: ok. 260 m²\nPowierzchnia użytkowa: 190m2\nPowierzchnia działki: 249 m²\n\nDom przeszedł gruntowny remont w 2014 roku, modernizację kuchni dołu domu w 2018 roku oraz otrzymał nową elewację w 2022 roku.\nDodatkowym atutem jest instalacja fotowoltaiczna o mocy 6 kW, zainstalowana w marcu 2022 r. (jeszcze przed zmianami przepisów prosumenckich na net-billing), co przekłada się na bardzo niskie koszty utrzymania.\n\nRozkład pomieszczeń:\n\nPiwnica:\nPomieszczenia gospodarcze, pracownia oraz niezależne pomieszczenie z osobnym wejściem - idealne na gabinet, biuro lub przestrzeń do prowadzenia działalności.\n\nParter - strefa dzienna:\nSercem domu jest przestronny salon z kominkiem i imponującym sufitem do kalenicy, z którego można wyjść na dwa słoneczne tarasy.\nNa tym poziomie znajduje się także nowoczesna kuchnia z jadalnią, pokój gościnny oraz łazienka.\n\nPiętro:\n3 sypialnie oraz łazienka z oknem, wanną i prysznicem.\n\nPoddasze:\nPomieszczenie do pracy lub relaksu oraz garderoba.\n\nAtuty nieruchomości:\n\n✅ Świetna lokalizacja - cicha, kameralna ulica w sercu Gdyni Orłowa\n✅ 15 minut spacerem do morza i mola\n✅ Możliwość wydzielenia części domu na działalność gospodarczą lub pracownię\n✅ Dwa tarasy - idealne miejsce do wypoczynku\n✅ Kominek w salonie tworzący wyjątkowy klimat\n✅ Niskie koszty utrzymania dzięki instalacji fotowoltaicznej\n✅ Dom gotowy do wprowadzenia, bez nakładów\n\nOkolica:\n\nW zasięgu kilku minut pieszo:\n\nryneczek w Orłowie,\nsklepy, apteka, piekarnia,\nszkoły, przedszkola, przychodnie,\nprzystanki autobusowe i SKM.\n\nTo dom, w którym można komfortowo mieszkać, pracować i cieszyć się bliskością morza. \nZapraszamy na prezentacje.",
+      "price": 2299000,
+      "pricePerSqm": 8578.36,
+      "area": 268,
+      "landArea": 249,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 1986,
+      "city": "Gdynia",
+      "district": "Orłowo",
+      "street": "ul. Raciborska",
+      "lat": 54.4849897,
+      "lng": 18.5388281,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258227_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258281_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258230_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258239_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258245_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258251_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258248_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258242_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258263_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258269_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258278_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258254_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258221_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258224_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258260_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258257_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258233_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258236_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258275_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258272_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258284_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258299_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258302_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258305_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258287_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258290_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258293_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258296_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/ohODWj2eCmk",
+      "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11469854",
+      "createdAt": "2026-01-08 16:45:06",
+      "updatedAt": "2026-07-13 11:49:33"
     },
     {
       "id": "12215723",
@@ -261,116 +592,6 @@
       "url": "https://starnawska.pl/oferty/12217901",
       "createdAt": "2026-07-09 08:13:08",
       "updatedAt": "2026-07-10 17:09:08"
-    },
-    {
-      "id": "12113690",
-      "offerNumber": "ST982535",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Piękna działka w sąsiedztwie jeziora",
-      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 315000,
-      "pricePerSqm": 210,
-      "area": 1500,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Bukowa",
-      "lat": 54.5427708,
-      "lng": 18.2763107,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559204_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12113690",
-      "createdAt": "2026-06-17 20:36:09",
-      "updatedAt": "2026-07-10 04:20:11"
-    },
-    {
-      "id": "12049100",
-      "offerNumber": "ST926971",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Płaska, łatwy dojazd, bliskość przystanku",
-      "description": "Mamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 190000,
-      "pricePerSqm": 194.27,
-      "area": 978,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5434013,
-      "lng": 18.2909448,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582119_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582122_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582128_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/Xt0d8KufK-c",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12049100",
-      "createdAt": "2026-05-28 21:52:06",
-      "updatedAt": "2026-07-10 04:20:11"
     },
     {
       "id": "10877450",
@@ -734,166 +955,6 @@
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
       "updatedAt": "2026-07-03 12:26:41"
-    },
-    {
-      "id": "11929373",
-      "offerNumber": "ST346379",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
-      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
-      "price": 275000,
-      "pricePerSqm": 195.87,
-      "area": 1404,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5444674,
-      "lng": 18.2850692,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11929373",
-      "createdAt": "2026-05-03 20:51:58",
-      "updatedAt": "2026-07-02 19:19:09"
-    },
-    {
-      "id": "11740850",
-      "offerNumber": "ST699920",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
-      "description": "Na wynajem przestronne, 5-pokojowe mieszkanie, położone w prestiżowej dzielnicy Wrzeszcz w Gdańsku. To słoneczne wnętrze mieści się w pięknej, odrestaurowanej kamienicy.\nLOKALIZACJA\nNieruchomość znajduje się w Górnym Wrzeszczu, jednej z najbardziej cenionych części Gdańska. Okolica zapewnia dostęp do licznych sklepów, restauracji i terenów zielonych, a także bardzo dobrą komunikację z pozostałymi częściami miasta. W pobliżu znajdują się m.in. Centrum Manhattan, Galeria Bałtycka, Politechnika Gdańska oraz Gdański Uniwersytet Medyczny. Wzdłuż budynku obowiązuje strefa płatnego parkowania z możliwością wykupienia abonamentu.\nBUDYNEK\nMieszkanie usytuowane jest na drugim piętrze odnowionej, historycznej kamienicy, wyróżniającej się elegancką architekturą. Duże okna o ekspozycji wschód-zachód zapewniają doskonałe doświetlenie wnętrz przez cały dzień.\nMIESZKANIE\nLokal składa się z pięciu pokoi, urządzonych w podwyższonym standardzie. Przestronny salon (ok. 22 m²) stanowi idealne miejsce do relaksu i spotkań. Do dyspozycji jest również obszerna jadalnia połączona z nowoczesnym aneksem kuchennym (ok. 25 m²), w pełni wyposażonym w sprzęt AGD.\nMieszkanie oferuje trzy komfortowe sypialnie o powierzchniach ok. 14 m², 13 m² i 10 m². Jedno z pomieszczeń można z łatwością zaaranżować jako gabinet.\nW lokalu znajduje się przestronny pokój kąpielowy z wanną, prysznicem, WC, bidetem oraz pralką.\n\nW zależności od potrzeb Najemcy mieszkanie może być udostępnione w pełni umeblowane, częściowo umeblowane lub bez mebli!\n\n Dodatkowym atutem jest duża piwnica o powierzchni ok. 25 m² oraz możliwość korzystania ze strychu.\nFINANSE\nCzynsz najmu: 6500zł/miesiąc\nOpłaty administracyjne: ok. 960 zł/miesiąc\nDodatkowo: media (prąd, gaz, internet, TV)\nKaucja: 9000 zł\nNajem okazjonalny, długoterminowy - minimum 12 miesięcy.\nZapraszam do kontaktu i na prezentacje.",
-      "price": 6500,
-      "pricePerSqm": 59.13,
-      "rent": 960,
-      "area": 109.93,
-      "rooms": 5,
-      "floor": 2,
-      "totalFloors": 3,
-      "city": "Gdańsk",
-      "district": "Wrzeszcz Górny",
-      "street": "ul. gen. de Gaulle'a",
-      "lat": 54.3791301,
-      "lng": 18.6004696,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642233_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642230_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642215_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642206_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642161_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642209_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642218_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642185_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642188_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642191_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642227_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642224_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642200_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642203_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642176_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642197_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642194_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "161219",
-        "slug": "ewelina-pawelczyk",
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11740850",
-      "createdAt": "2026-03-30 22:01:42",
-      "updatedAt": "2026-07-01 09:53:00"
     },
     {
       "id": "11599184",
@@ -1647,153 +1708,6 @@
       "url": "https://starnawska.pl/oferty/12059429",
       "createdAt": "2026-06-01 14:29:13",
       "updatedAt": "2026-06-01 14:38:06"
-    },
-    {
-      "id": "11469854",
-      "offerNumber": "ST480706",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Segment skrajny",
-      "market": "wtorny",
-      "title": "4 sypialnie, 2 łazienki dodatkowy pokój \"klubowy\".",
-      "description": "Na sprzedaż wyjątkowy dom w zabudowie szeregowej (segment skrajny) położony w prestiżowej dzielnicy Gdynia Orłowo.\nTo idealna propozycja dla osób, które cenią komfort życia w bliskości morza, a jednocześnie potrzebują miejsca, które pozwala łączyć funkcję domu i pracy w niezależnych strefach.\n\nPowierzchnia całkowita: ok. 260 m²\nPowierzchnia użytkowa: 190m2\nPowierzchnia działki: 249 m²\n\nDom przeszedł gruntowny remont w 2014 roku, modernizację kuchni dołu domu w 2018 roku oraz otrzymał nową elewację w 2022 roku.\nDodatkowym atutem jest instalacja fotowoltaiczna o mocy 6 kW, zainstalowana w marcu 2022 r. (jeszcze przed zmianami przepisów prosumenckich na net-billing), co przekłada się na bardzo niskie koszty utrzymania.\n\nRozkład pomieszczeń:\n\nPiwnica:\nPomieszczenia gospodarcze, pracownia oraz niezależne pomieszczenie z osobnym wejściem - idealne na gabinet, biuro lub przestrzeń do prowadzenia działalności.\n\nParter - strefa dzienna:\nSercem domu jest przestronny salon z kominkiem i imponującym sufitem do kalenicy, z którego można wyjść na dwa słoneczne tarasy.\nNa tym poziomie znajduje się także nowoczesna kuchnia z jadalnią, pokój gościnny oraz łazienka.\n\nPiętro:\n3 sypialnie oraz łazienka z oknem, wanną i prysznicem.\n\nPoddasze:\nPomieszczenie do pracy lub relaksu oraz garderoba.\n\nAtuty nieruchomości:\n\n✅ Świetna lokalizacja - cicha, kameralna ulica w sercu Gdyni Orłowa\n✅ 15 minut spacerem do morza i mola\n✅ Możliwość wydzielenia części domu na działalność gospodarczą lub pracownię\n✅ Dwa tarasy - idealne miejsce do wypoczynku\n✅ Kominek w salonie tworzący wyjątkowy klimat\n✅ Niskie koszty utrzymania dzięki instalacji fotowoltaicznej\n✅ Dom gotowy do wprowadzenia, bez nakładów\n\nOkolica:\n\nW zasięgu kilku minut pieszo:\r\n\r\nryneczek w Orłowie,\r\nsklepy, apteka, piekarnia,\r\nszkoły, przedszkola, przychodnie,\r\nprzystanki autobusowe i SKM.\r\n\r\nTo dom, w którym można komfortowo mieszkać, pracować i cieszyć się bliskością morza. \nZapraszamy na prezentacje.",
-      "price": 2390000,
-      "pricePerSqm": 8917.91,
-      "area": 268,
-      "landArea": 249,
-      "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 1986,
-      "city": "Gdynia",
-      "district": "Orłowo",
-      "street": "ul. Raciborska",
-      "lat": 54.4849897,
-      "lng": 18.5388281,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258281_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258230_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258239_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258245_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258251_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258248_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258242_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258263_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258269_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258278_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258254_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258221_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258224_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258260_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258257_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258233_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258236_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258227_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258275_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258272_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258284_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258299_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258302_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258305_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258287_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258290_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258293_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258296_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/ohODWj2eCmk",
-      "agent": {
-        "estiId": "385",
-        "slug": "jolanta-starnawska",
-        "fullName": "Jolanta Starnawska",
-        "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11469854",
-      "createdAt": "2026-01-08 16:45:06",
-      "updatedAt": "2026-05-13 04:20:09"
     },
     {
       "id": "11115224",
