@@ -1,6 +1,243 @@
 {
-  "lastSync": "2026-07-15T06:20:47.235Z",
+  "lastSync": "2026-07-16T06:09:14.969Z",
   "offers": [
+    {
+      "id": "12217901",
+      "offerNumber": "ST272215",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "3 pokoje po remoncie z panoramą na port",
+      "description": "Na wynajem długoterminowy w pełni wyposażone, 3-pokojowe mieszkanie o powierzchni 45,6 m², zlokalizowane w świetnie utrzymanym wieżowcu. Nieruchomość wyróżnia się unikalnym, panoramicznym widokiem na przestrzeń oraz port, co nadaje wnętrzu wyjątkowego charakteru.\n\nMieszkanie ma niezwykle praktyczny rozkład. Sercem domu jest przytulny salon z wyjściem na duży, słoneczny balkon. Do dyspozycji są także dwie ustawne sypialnie, oddzielna kuchnia z jadalnianym kącikiem oraz niezależne łazienka i WC. Kuchnia, łazienka i WC przeszły kapitalny remont, zyskując nowoczesny i świeży wygląd. Całe umeblowanie widoczne na zdjęciach pozostaje do użytku najemcy (poza pianinem).W mieszkaniu znajdują się pojemne szafy. \n\nSam budynek prezentuje się nienagannie - przeszedł termomodernizację, klatka schodowa zyskała nowoczesny design, a w 2021 roku zamontowano nową windę. Mieszkańcy mogą korzystać z licznych miejsc parkingowych tuż pod budynkiem. Właściciele deklarują również udostępnienie piwnicy. Lokalizacja charakteryzuje się świetnie rozwiniętą infrastrukturą - blisko stąd do sklepów i komunikacji miejskiej. 15 min rowerem na plaże w Babich Dołach. \n\nLokalizacja dla pracowników lub studentów Marynarki Wojennej czy pracowników okolic portu.\n\nNajem okazjonalny. Właściciele nie wyrażają zgody na zamieszkanie zwierząt. \n\nTo doskonała propozycja do zamieszkania od sierpnia.",
+      "price": 2300,
+      "pricePerSqm": 50.44,
+      "rent": 838,
+      "area": 45.6,
+      "rooms": 3,
+      "floor": 9,
+      "totalFloors": 10,
+      "yearBuilt": 1976,
+      "city": "Gdynia",
+      "district": "Obłuże",
+      "street": "ul. Benisławskiego",
+      "lat": 54.5510532,
+      "lng": 18.5233493,
+      "images": [
+        {
+          "url": "/oferty/110605646.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/110605637.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110646908.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605547.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605550.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605616.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605622.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605511.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605655.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605658.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605517.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605523.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605661.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110605541.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/12217901",
+      "createdAt": "2026-07-09 08:13:08",
+      "updatedAt": "2026-07-15 13:15:57"
+    },
+    {
+      "id": "11993354",
+      "offerNumber": "ST306354",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Bliźniak",
+      "market": "pierwotny",
+      "title": "Nowoczesny dom na obrzeżach Trójmiasta- Dobrzewino",
+      "description": "Wyobraź sobie poranek z kawą na tarasie, własny ogród, miejsce do zabawy dla dzieci i ciszę, która naprawdę pozwala odpocząć. A wszystko zaledwie 20-30 minut od Gdyni i Gdańska.\n\nWłaśnie w Dobrzewinie, przy ul. Ziołowej, powstaje Leśny Zakątek - kameralna inwestycja nowoczesnych domów w zabudowie bliźniaczej. To idealna propozycja dla osób, które chcą zamieszkać bliżej natury, nie rezygnując z wygodnego dojazdu do pracy, szkoły czy lotniska.\n\nDobrzewino to miejsce, które łączy spokój z doskonałą komunikacją. W kilka minut dotrzesz do Obwodnicy Trójmiasta, a w okolicy znajdziesz szkoły, przedszkola, sklepy oraz liczne tereny spacerowe i rowerowe.\n\nLeśny Zakątek to kolejna inwestycja dewelopera Monte Invest Sp. z o.o., który z powodzeniem zrealizował już osiedla Pod Agawami w Pępowie oraz Pod Miłorzębem w Bojanie.\n\nJeśli szukasz miejsca, w którym Twoja rodzina zyska więcej przestrzeni, prywatności i codziennego komfortu - ten dom może być właśnie dla Ciebie.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze, dużych przeszkleniach i funkcjonalnym układzie pomieszczeń. \n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
+      "price": 859000,
+      "pricePerSqm": 5988.98,
+      "area": 143.43,
+      "landArea": 548.15,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 2026,
+      "city": "Dobrzewino",
+      "district": "wejherowski",
+      "street": "ul. Ziołowa",
+      "lat": 54.4610359,
+      "lng": 18.3676949,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389509_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389551_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389548_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069140_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069149_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069152_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069155_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080153_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080177_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080225_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11993354",
+      "createdAt": "2026-05-19 12:13:54",
+      "updatedAt": "2026-07-15 12:07:41"
+    },
+    {
+      "id": "11996204",
+      "offerNumber": "ST661084",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Bliźniak",
+      "market": "pierwotny",
+      "title": "W cenie mieszkania – własny dom z ogrodem!",
+      "description": "Wyobraź sobie poranek z kawą na tarasie, własny ogród, miejsce do zabawy dla dzieci i ciszę, która naprawdę pozwala odpocząć. A wszystko zaledwie 20-30 minut od Gdyni i Gdańska.\n\nWłaśnie w Dobrzewinie, przy ul. Ziołowej, powstaje Leśny Zakątek - kameralna inwestycja nowoczesnych domów w zabudowie bliźniaczej. To idealna propozycja dla osób, które chcą zamieszkać bliżej natury, nie rezygnując z wygodnego dojazdu do pracy, szkoły czy lotniska.\n\nDobrzewino to miejsce, które łączy spokój z doskonałą komunikacją. W kilka minut dotrzesz do Obwodnicy Trójmiasta, a w okolicy znajdziesz szkoły, przedszkola, sklepy oraz liczne tereny spacerowe i rowerowe.\n\nLeśny Zakątek to kolejna inwestycja dewelopera Monte Invest Sp. z o.o., który z powodzeniem zrealizował już osiedla Pod Agawami w Pępowie oraz Pod Miłorzębem w Bojanie.\n\nJeśli szukasz miejsca, w którym Twoja rodzina zyska więcej przestrzeni, prywatności i codziennego komfortu - ten dom może być właśnie dla Ciebie.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze, dużych przeszkleniach i funkcjonalnym układzie pomieszczeń. \n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
+      "price": 851000,
+      "pricePerSqm": 5933.21,
+      "area": 143.43,
+      "landArea": 451.85,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 2026,
+      "city": "Dobrzewino",
+      "district": "wejherowski",
+      "street": "ul. Ziołowa",
+      "lat": 54.4610359,
+      "lng": 18.3676949,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389455_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389452_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389458_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091544_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091547_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091550_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091553_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091565_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091568_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091571_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11996204",
+      "createdAt": "2026-05-20 06:39:41",
+      "updatedAt": "2026-07-15 11:59:29"
+    },
     {
       "id": "12215723",
       "offerNumber": "ST514187",
@@ -24,63 +261,64 @@
       "lng": 18.5381644,
       "images": [
         {
-          "url": "/oferty/110582198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582198_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110582189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582102.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582102_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582087_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582099.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582099_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582096.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582096_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582090.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582090_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582093.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582093_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582216_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12215723",
       "createdAt": "2026-07-08 12:54:55",
@@ -502,96 +740,6 @@
       "url": "https://starnawska.pl/oferty/12049100",
       "createdAt": "2026-05-28 21:52:06",
       "updatedAt": "2026-07-13 18:25:20"
-    },
-    {
-      "id": "12217901",
-      "offerNumber": "ST272215",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "3 pokoje po remoncie z panoramą na port",
-      "description": "Na wynajem długoterminowy w pełni wyposażone, 3-pokojowe mieszkanie o powierzchni 45,6 m², zlokalizowane w świetnie utrzymanym wieżowcu. Nieruchomość wyróżnia się unikalnym, panoramicznym widokiem na przestrzeń oraz port, co nadaje wnętrzu wyjątkowego charakteru.\n\nMieszkanie ma niezwykle praktyczny rozkład. Sercem domu jest przytulny salon z wyjściem na duży, słoneczny balkon. Do dyspozycji są także dwie ustawne sypialnie, oddzielna kuchnia z jadalnianym kącikiem oraz niezależne łazienka i WC. Kuchnia, łazienka i WC przeszły kapitalny remont, zyskując nowoczesny i świeży wygląd. Całe umeblowanie widoczne na zdjęciach pozostaje do użytku najemcy (poza pianinem).W mieszkaniu znajdują się pojemne szafy. \n\nSam budynek prezentuje się nienagannie - przeszedł termomodernizację, klatka schodowa zyskała nowoczesny design, a w 2021 roku zamontowano nową windę. Mieszkańcy mogą korzystać z licznych miejsc parkingowych tuż pod budynkiem. Właściciele deklarują również udostępnienie piwnicy. Lokalizacja charakteryzuje się świetnie rozwiniętą infrastrukturą - blisko stąd do sklepów i komunikacji miejskiej. 15 min rowerem na plaże w Babich Dołach. \n\nLokalizacja dla pracowników lub studentów Marynarki Wojennej czy pracowników okolic portu.\n\nNajem okazjonalny. Właściciele nie wyrażają zgody na zamieszkanie zwierząt. \n\nTo doskonała propozycja do zamieszkania od sierpnia.",
-      "price": 2300,
-      "pricePerSqm": 50.44,
-      "rent": 838,
-      "area": 45.6,
-      "rooms": 3,
-      "floor": 9,
-      "totalFloors": 10,
-      "yearBuilt": 1976,
-      "city": "Gdynia",
-      "district": "Obłuże",
-      "street": "ul. Benisławskiego",
-      "lat": 54.5510532,
-      "lng": 18.5233493,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605646_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605637_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110646908_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605547_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605550_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605616_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605622_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605511_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605655_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605658_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605517_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605523_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605661_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12217901/110605541_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12217901",
-      "createdAt": "2026-07-09 08:13:08",
-      "updatedAt": "2026-07-10 17:09:08"
     },
     {
       "id": "10877450",
@@ -1356,154 +1504,6 @@
       "url": "https://starnawska.pl/oferty/11764931",
       "createdAt": "2026-04-08 14:22:14",
       "updatedAt": "2026-06-19 08:48:11"
-    },
-    {
-      "id": "11993354",
-      "offerNumber": "ST306354",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Bliźniak",
-      "market": "pierwotny",
-      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
-      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2.\n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\nPrzedmiotem niniejszej sprzedaży jest projekt „Leśny Zakątek”, którego realizacja\nprowadzona jest w Dobrzewinie przy ul. Ziołowej 2.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze i funkcjonalnym układzie pomieszczeń. To idealna propozycja dla rodzin szukających komfortowego domu z szybkim dojazdem do Trójmiasta.\n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
-      "price": 859000,
-      "pricePerSqm": 5988.98,
-      "area": 143.43,
-      "landArea": 548.15,
-      "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 2026,
-      "city": "Dobrzewino",
-      "district": "wejherowski",
-      "street": "ul. Ziołowa",
-      "lat": 54.4610359,
-      "lng": 18.3676949,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389509_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389551_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389548_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069140_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069149_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069152_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069155_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080153_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080177_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080225_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "40666",
-        "slug": "iwona-stepinska",
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11993354",
-      "createdAt": "2026-05-19 12:13:54",
-      "updatedAt": "2026-06-15 12:10:46"
-    },
-    {
-      "id": "11996204",
-      "offerNumber": "ST661084",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Bliźniak",
-      "market": "pierwotny",
-      "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
-      "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2.\n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\nPrzedmiotem niniejszej sprzedaży jest projekt „Leśny Zakątek”, którego realizacja\nprowadzona jest w Dobrzewinie przy ul. Ziołowej 2.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze i funkcjonalnym układzie pomieszczeń. To idealna propozycja dla rodzin szukających komfortowego domu z szybkim dojazdem do Trójmiasta.\n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
-      "price": 851000,
-      "pricePerSqm": 5933.21,
-      "area": 143.43,
-      "landArea": 451.85,
-      "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 2026,
-      "city": "Dobrzewino",
-      "district": "wejherowski",
-      "street": "ul. Ziołowa",
-      "lat": 54.4610359,
-      "lng": 18.3676949,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389455_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389452_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389458_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091544_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091547_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091550_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091553_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091565_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091568_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091571_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "40666",
-        "slug": "iwona-stepinska",
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11996204",
-      "createdAt": "2026-05-20 06:39:41",
-      "updatedAt": "2026-06-15 12:09:07"
     },
     {
       "id": "12059180",

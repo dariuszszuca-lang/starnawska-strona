@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-15T06:20:47.241Z",
-  "package": "EstiCRM_18_20260714170058.zip",
+  "generatedAt": "2026-07-16T06:09:14.975Z",
+  "package": "EstiCRM_18_20260715140110.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12215723",
+      "id": "12217901",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST514187",
+        "numberExport": "ST272215",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-07-14 16:24:09",
-        "exportDate": "2026-07-14 16:24:09",
+        "exportGalleryDate": "2026-07-15 13:15:57",
+        "exportDate": "2026-07-15 13:15:57",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Słoneczne 3 pokoje, przy centrum,  po remocnie",
+        "portalTitle": "3 pokoje po remoncie z panoramą na port",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
