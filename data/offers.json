@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-07-16T06:09:14.969Z",
+  "lastSync": "2026-07-17T06:29:34.660Z",
   "offers": [
     {
       "id": "12217901",
@@ -88,7 +88,72 @@
       },
       "url": "https://starnawska.pl/oferty/12217901",
       "createdAt": "2026-07-09 08:13:08",
-      "updatedAt": "2026-07-15 13:15:57"
+      "updatedAt": "2026-07-16 11:12:42"
+    },
+    {
+      "id": "11369456",
+      "offerNumber": "ST105457",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowe studio Wrzeszcz - 2450 zł całość z opłatami",
+      "description": "Mieszkanie typu studio - pokój z aneksem i łazienka wyremontowane kilka miesięcy temu. Słoneczne, wysokie sufity optycznie dodają przestrzeni. Nowocześnie wykończone.\n\nUstawne, w pełni wyposażone (rozkładana sofa, szafa, biurko, regał, stolik). Aneks z małą lodówką, dwupalnikową płytą, kuchenką mikrofalową i zastawą (sztućce, talerze, szklanki, garnki itd).\nŁazienka z prysznicem. Na piętrze budynku znajduje się wspólna pralnia - 3 pralki i elektryczna suszarka. Na wyposażeniu są również odkurzacz, żelazko, deska do prasowania, suszarka stojąca.\n\nKoszt dla 1 os. 2200 zł + ok. 250 zł media (prąd, ogrzewanie, woda, Internet).\n\nBudynek bardzo zadbany. Korytarz po remoncie, stojaki rowerowe. Przy budynku bezpłatne miejsca postojowe.  \n\nLokalizacja świetnie skomunikowana zarówno z uczelniami wyższymi jak i Olivia Business Center. Dostęp do pełnej gamy środków transportu publicznego. W bezpośrednim sąsiedztwie Garnizon i liczne punkty gastronomiczne, centrum handlowe Galeria Bałtycka. W budynku siłownia, punkty usługowe.\n\nDostępne 2 mieszkania - od sierpnia i września.",
+      "price": 2200,
+      "pricePerSqm": 129.41,
+      "rent": 250,
+      "area": 17,
+      "rooms": 1,
+      "floor": 2,
+      "totalFloors": 2,
+      "city": "Gdańsk",
+      "district": "Wrzeszcz",
+      "street": "ul. Juliusza Słowackiego",
+      "lat": 54.3808784,
+      "lng": 18.596019,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964876_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964879_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964882_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964984_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964987_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964990_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964993_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964996_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11369456",
+      "createdAt": "2025-12-02 09:01:38",
+      "updatedAt": "2026-07-16 08:43:29"
     },
     {
       "id": "11993354",
