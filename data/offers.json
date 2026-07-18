@@ -1,94 +1,114 @@
 {
-  "lastSync": "2026-07-17T06:29:34.660Z",
+  "lastSync": "2026-07-18T06:11:37.684Z",
   "offers": [
     {
-      "id": "12217901",
-      "offerNumber": "ST272215",
-      "transaction": "najem",
+      "id": "12089501",
+      "offerNumber": "ST531481",
+      "transaction": "sprzedaz",
       "type": "mieszkanie",
       "market": "wtorny",
-      "title": "3 pokoje po remoncie z panoramą na port",
-      "description": "Na wynajem długoterminowy w pełni wyposażone, 3-pokojowe mieszkanie o powierzchni 45,6 m², zlokalizowane w świetnie utrzymanym wieżowcu. Nieruchomość wyróżnia się unikalnym, panoramicznym widokiem na przestrzeń oraz port, co nadaje wnętrzu wyjątkowego charakteru.\n\nMieszkanie ma niezwykle praktyczny rozkład. Sercem domu jest przytulny salon z wyjściem na duży, słoneczny balkon. Do dyspozycji są także dwie ustawne sypialnie, oddzielna kuchnia z jadalnianym kącikiem oraz niezależne łazienka i WC. Kuchnia, łazienka i WC przeszły kapitalny remont, zyskując nowoczesny i świeży wygląd. Całe umeblowanie widoczne na zdjęciach pozostaje do użytku najemcy (poza pianinem).W mieszkaniu znajdują się pojemne szafy. \n\nSam budynek prezentuje się nienagannie - przeszedł termomodernizację, klatka schodowa zyskała nowoczesny design, a w 2021 roku zamontowano nową windę. Mieszkańcy mogą korzystać z licznych miejsc parkingowych tuż pod budynkiem. Właściciele deklarują również udostępnienie piwnicy. Lokalizacja charakteryzuje się świetnie rozwiniętą infrastrukturą - blisko stąd do sklepów i komunikacji miejskiej. 15 min rowerem na plaże w Babich Dołach. \n\nLokalizacja dla pracowników lub studentów Marynarki Wojennej czy pracowników okolic portu.\n\nNajem okazjonalny. Właściciele nie wyrażają zgody na zamieszkanie zwierząt. \n\nTo doskonała propozycja do zamieszkania od sierpnia.",
-      "price": 2300,
-      "pricePerSqm": 50.44,
-      "rent": 838,
-      "area": 45.6,
-      "rooms": 3,
-      "floor": 9,
-      "totalFloors": 10,
-      "yearBuilt": 1976,
+      "title": "Mieszkanie, 29.4 m², Gdynia",
+      "description": "Oferta w przygotowaniu!\nMieszkanie jedno pokojowe z oddzielną kuchnią. Przeszło remont ok. 12 lat temu. Okna wychodzą na podwórko, od strony ul. Komandorskiej, która znajduje się w sporym oddaleniu - w związku z tym jest cicho mimo lokalizacji budynku przy ul. Morskiej.\nPokój: ok. 14,7 m2\nKuchnia: ok.8,5 m2\nŁazienka: ok. 3,1 m2\nPrzedpokój: ok: 3,1 m2\n \nMieszkanie znajduje się na III p. budynku wybudowanego w latach 5otych z cegły. Nad mieszkaniem znajduje się kondygnacja strychowa (możliwość korzystania z suszarni). Zwyczajowo właściciel mieszkania korzysta z piwnicy. \n\nDostępne miejsca postojowe ogólnodostępne po obu stronach budynku. Bardzo dobrze skomunikowana okolica - SKM, liczne połączenia autobusowe, blisko obwodnica i dobry dojazd do centrum. W najbliższym sąsiedztwie sklepy. Oferta idealna jako inwestycja pod wynajem.\n\nObecnie wynajęte, prezentacje będą umawiane od 30.07.",
+      "price": 360000,
+      "pricePerSqm": 12244.9,
+      "rent": 277,
+      "area": 29.4,
+      "rooms": 1,
+      "floor": 3,
+      "totalFloors": 4,
+      "yearBuilt": 1953,
       "city": "Gdynia",
-      "district": "Obłuże",
-      "street": "ul. Benisławskiego",
-      "lat": 54.5510532,
-      "lng": 18.5233493,
+      "district": "Grabówek",
+      "street": "ul. Morska",
+      "lat": 54.530343,
+      "lng": 18.497815,
       "images": [
         {
-          "url": "/oferty/110605646.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109882226_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110605637.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213580_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110646908.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213586_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605547.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213562_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605550.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213568_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605616.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213571_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605622.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213592_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605511.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213577_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110605655.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110605658.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110605517.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110605523.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110605661.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110605541.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109994522_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/12217901",
-      "createdAt": "2026-07-09 08:13:08",
-      "updatedAt": "2026-07-16 11:12:42"
+      "url": "https://starnawska.pl/oferty/12089501",
+      "createdAt": "2026-06-10 21:19:13",
+      "updatedAt": "2026-07-17 10:55:33"
+    },
+    {
+      "id": "11904581",
+      "offerNumber": "ST428499",
+      "transaction": "najem",
+      "type": "lokal",
+      "typeDetail": "Magazyn z biurami",
+      "market": "wtorny",
+      "title": "Elastyczna powierzchnia komercyjna w mieście",
+      "description": "Uniwersalne pomieszczenia (magazyn, produkcja, usługi). Z bardzo dobrym dojazdem. \n\nWysokość 3,40 m do belek konstrukcyjnych, a do właściwego stropu 4,50 m.\nCałość na jednym poziomie. Dostępne z poziomu gruntu.\n\nMożliwe zmiany aranżacyjne - wydzielenie mniejszych pomieszczeń, dołożenie węzłów sanitarnych, wynajem dodatkowej przestrzeni - nawet 1000 m2.\n \nPosadzka przemysłowa. Duża moc przyłączeniowa prądu.\nBrama wjazdowa dla dostaw. Parking na 4 aut z cenie (możliwość powiększenia strefy parkowania).\n\n Możliwość bezproblemowych rozładunków nawet z dużych samochodów (TIR).\n\nPomieszczenia ogrzewane, niskie opłaty eksploatacyjne ( około 9 zł/m2).\n\nMożliwość wydzielenia innych powierzchni.\n\nPreferowany najem długoterminowy.  \n\nDo ceny najmuj doliczony zostanie stosowny podatek VAT.",
+      "price": 21375,
+      "pricePerSqm": 45,
+      "area": 475,
+      "yearBuilt": 2007,
+      "city": "Gdańsk",
+      "district": "Suchanino",
+      "street": "ul. Franciszka Schuberta",
+      "lat": 54.359345,
+      "lng": 18.6053402,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944728_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944722_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11904581",
+      "createdAt": "2026-04-25 08:14:14",
+      "updatedAt": "2026-07-17 10:54:32"
     },
     {
       "id": "11369456",
@@ -1450,76 +1470,6 @@
       "updatedAt": "2026-06-27 16:35:47"
     },
     {
-      "id": "12089501",
-      "offerNumber": "ST531481",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Mieszkanie, 29.4 m², Gdynia",
-      "description": "Oferta w przygotowaniu!\nMieszkanie jedno pokojowe z oddzielną kuchnią. Przeszło remont ok. 12 lat temu. Okna wychodzą na podwórko, od strony ul. Komandorskiej, która znajduje się w sporym oddaleniu - w związku z tym jest cicho mimo lokalizacji budynku przy ul. Morskiej.\nPokój: ok. 14,7 m2\nKuchnia: ok.8,5 m2\nŁazienka: ok. 3,1 m2\nPrzedpokój: ok: 3,1 m2\n \nMieszkanie znajduje się na III p. budynku wybudowanego w latach 5otych z cegły. Nad mieszkaniem znajduje się kondygnacja strychowa (możliwość korzystania z suszarni). Zwyczajowo właściciel mieszkania korzysta z piwnicy. \n\nDostępne miejsca postojowe ogólnodostępne po obu stronach budynku. Bardzo dobrze skomunikowana okolica - SKM, liczne połączenia autobusowe, blisko obwodnica i dobry dojazd do centrum. W najbliższym sąsiedztwie sklepy. Oferta idealna jako inwestycja pod wynajem.\n\nObecnie wynajęte, prezentacje będą umawiane w uzgodnieniu z dotychczasowymi najemcami.",
-      "price": 360000,
-      "pricePerSqm": 12244.9,
-      "rent": 277,
-      "area": 29.4,
-      "rooms": 1,
-      "floor": 3,
-      "totalFloors": 4,
-      "yearBuilt": 1953,
-      "city": "Gdynia",
-      "district": "Grabówek",
-      "street": "ul. Morska",
-      "lat": 54.530343,
-      "lng": 18.497815,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109882226_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213580_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213586_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213562_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213568_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213571_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213592_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109213577_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12089501/109994522_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12089501",
-      "createdAt": "2026-06-10 21:19:13",
-      "updatedAt": "2026-06-23 20:45:29"
-    },
-    {
       "id": "11764931",
       "offerNumber": "ST716290",
       "transaction": "najem",
@@ -1950,45 +1900,6 @@
       "url": "https://starnawska.pl/oferty/11208602",
       "createdAt": "2025-10-13 19:15:01",
       "updatedAt": "2026-05-08 12:53:55"
-    },
-    {
-      "id": "11904581",
-      "offerNumber": "ST428499",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Magazyn z biurami",
-      "market": "wtorny",
-      "title": "Elastyczna powierzchnia komercyjna w mieście",
-      "description": "Uniwersalne pomieszczenia (magazyn, produkcja, usługi). Z bardzo dobrym dojazdem. \n\nWysokość 3,40 m do belek konstrukcyjnych, a do właściwego stropu 4,50 m.\nCałość na jednym poziomie. Dostępne z poziomu gruntu.\n\nMożliwe zmiany aranżacyjne - wydzielenie mniejszych pomieszczeń, dołożenie węzłów sanitarnych, wynajem dodatkowej przestrzeni - nawet 1000 m2.\n \nPosadzka przemysłowa. Duża moc przyłączeniowa prądu.\nBrama wjazdowa dla dostaw. Parking na 4 aut z cenie (możliwość powiększenia strefy parkowania).\n\n\r\nMożliwość bezproblemowych rozładunków nawet z dużych samochodów (TIR).\n\nPomieszczenia ogrzewane, niskie opłaty eksploatacyjne ( około 9 zł/m2).\n\nMożliwość wydzielenia innych powierzchni.\n\nPreferowany najem długoterminowy.  \n\nDo ceny najmuj doliczony zostanie stosowny podatek VAT.",
-      "price": 19000,
-      "pricePerSqm": 40,
-      "area": 475,
-      "yearBuilt": 2007,
-      "city": "Gdańsk",
-      "district": "Suchanino",
-      "street": "ul. Franciszka Schuberta",
-      "lat": 54.359345,
-      "lng": 18.6053402,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944728_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944722_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11904581",
-      "createdAt": "2026-04-25 08:14:14",
-      "updatedAt": "2026-05-03 04:20:07"
     },
     {
       "id": "11743319",
