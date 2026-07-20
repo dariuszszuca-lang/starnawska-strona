@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T05:46:39.855Z",
-  "package": "EstiCRM_18_20260717200104.zip",
+  "generatedAt": "2026-07-20T05:53:08.947Z",
+  "package": "EstiCRM_18_20260719140106.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -11,7 +11,7 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12217901",
+      "id": "12081638",
       "status": {}
     }
   ]
