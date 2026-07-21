@@ -1,6 +1,103 @@
 {
-  "lastSync": "2026-07-20T05:53:08.946Z",
+  "lastSync": "2026-07-21T06:16:20.985Z",
   "offers": [
+    {
+      "id": "11743319",
+      "offerNumber": "ST829892",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Widok na park, 5 min do plaży",
+      "description": "Wyjątkowy apartament w sercu Gdyni - design, widok na park i 5 min od plaży\n\nZapraszam do zapoznania się z ofertą sprzedaży unikalnego mieszkania położonego w najbardziej pożądanej lokalizacji Gdyni - tuż u podnóża Kamiennej Góry. To wnętrze dla osób ceniących styl, przestrzeń i bliskość natury w samym centrum miasta.\n\nWnętrze z duszą i nowoczesnym sznytem\nMieszkanie przeszło gruntowny remont i zostało wykończone z dbałością o każdy detal. Projekt łączy nowoczesną funkcjonalność z autentycznym klimatem gdyńskich kamienic.\n\nPrzestronna część dzienna - salon z wyjściem na spory balkon, idealny na kawę, otwarta duża kuchnia z oknem, balkonikiem i widokiem na akację. Kuchnia idealna dla osób gotujących - przestronna, dużo blatu i miejsca do przechowywania. Duża sypialnia z pakowną szafą. Znajdzie się tu miejsce również do pracy. Trzeci pokój idealny jako gabinet lub pokój dla dziecka. \n\nDzięki dwustronnej wystawie okien oraz otwartej przestrzeni apartament jest doskonale doświetlony przez cały dzień.\n\nPełne wyposażenie: Gotowe do wprowadzenia, bez dodatkowych nakładów finansowych.\n\nKomfortowa łazienka wyposażona zarówno w wannę, jak i prysznic. Osobna, ustawna toaleta.\n\nWłaściciele korzystają także z pomieszczenia w piwnicy. \n\nMieszkanie znajduje się na II piętrze zadbanej kamienicy. Klatka schodowa jest po remoncie, a schody są wyjątkowo wygodne.\n\nZ obu stron mieszkania rozpościera się kojący widok na zieleń oraz na Kamienną Górę.\nMimo lokalizacji w sercu miasta, ulica jest boczna i bardzo spokojna.\n\nLokalizacja premium  - plaża miejska zaledwie 5 minut spacerem.\n\nBulwar Nadmorski, Teatr Muzyczny i liczne kawiarnie w zasięgu krótkiego spaceru.\nPełna infrastruktura miejska (sklepy, szkoły, przystanki) na wyciągnięcie ręki.\n\nTo idealna propozycja dla osób szukających spokoju bez rezygnacji z uroków życia w Gdyni.\n\nIdealne także jaki inwestycja pod wynajem. \n\nZapraszam na prezentację!",
+      "price": 1300000,
+      "pricePerSqm": 18131.1,
+      "rent": 1100,
+      "area": 71.7,
+      "rooms": 3,
+      "floor": 2,
+      "totalFloors": 3,
+      "yearBuilt": 1934,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Juliusza Słowackiego",
+      "lat": 54.5140744,
+      "lng": 18.5417111,
+      "images": [
+        {
+          "url": "/oferty/105719780.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/105719963.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719786.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719939.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719777.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719978.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719957.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719948.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719954.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719942.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719768.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719759.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719570.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719642.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719561.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/105719585.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/11743319",
+      "createdAt": "2026-03-31 14:06:27",
+      "updatedAt": "2026-07-20 20:08:06"
+    },
     {
       "id": "12089501",
       "offerNumber": "ST531481",
@@ -1798,104 +1895,6 @@
       "url": "https://starnawska.pl/oferty/11208602",
       "createdAt": "2025-10-13 19:15:01",
       "updatedAt": "2026-05-08 12:53:55"
-    },
-    {
-      "id": "11743319",
-      "offerNumber": "ST829892",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Widok na park, 5 min do plaży",
-      "description": "Wyjątkowy apartament w sercu Gdyni - design, widok na park i 5 min od plaży\n\nZapraszam do zapoznania się z ofertą sprzedaży unikalnego mieszkania położonego w najbardziej pożądanej lokalizacji Gdyni - tuż u podnóża Kamiennej Góry. To wnętrze dla osób ceniących styl, przestrzeń i bliskość natury w samym centrum miasta.\n\nWnętrze z duszą i nowoczesnym sznytem\nMieszkanie przeszło gruntowny remont i zostało wykończone z dbałością o każdy detal. Projekt łączy nowoczesną funkcjonalność z autentycznym klimatem gdyńskich kamienic.\n\nPrzestronna część dzienna - salon z wyjściem na spory balkon, idealny na kawę, otwarta duża kuchnia z oknem, balkonikiem i widokiem na akację. Kuchnia idealna dla osób gotujących - przestronna, dużo blatu i miejsca do przechowywania. Duża sypialnia z pakowną szafą. Znajdzie się tu miejsce również do pracy. Trzeci pokój idealny jako gabinet lub pokój dla dziecka. \n\nDzięki dwustronnej wystawie okien oraz otwartej przestrzeni apartament jest doskonale doświetlony przez cały dzień.\n\nPełne wyposażenie: Gotowe do wprowadzenia, bez dodatkowych nakładów finansowych.\n\nKomfortowa łazienka wyposażona zarówno w wannę, jak i prysznic. Osobna, ustawna toaleta.\n\nWłaściciele korzystają także z pomieszczenia w piwnicy. \n\nMieszkanie znajduje się na II piętrze zadbanej kamienicy. Klatka schodowa jest po remoncie, a schody są wyjątkowo wygodne.\n\nZ obu stron mieszkania rozpościera się kojący widok na zieleń oraz na Kamienną Górę.\nMimo lokalizacji w sercu miasta, ulica jest boczna i bardzo spokojna.\n\nLokalizacja premium  - plaża miejska zaledwie 5 minut spacerem.\n\nBulwar Nadmorski, Teatr Muzyczny i liczne kawiarnie w zasięgu krótkiego spaceru.\nPełna infrastruktura miejska (sklepy, szkoły, przystanki) na wyciągnięcie ręki.\n\nTo idealna propozycja dla osób szukających spokoju bez rezygnacji z uroków życia w Gdyni.\n\nIdealne także jaki inwestycja pod wynajem. \n\nZapraszam na prezentację!",
-      "price": 1300000,
-      "pricePerSqm": 18131.1,
-      "rent": 1100,
-      "area": 71.7,
-      "rooms": 3,
-      "floor": 2,
-      "totalFloors": 3,
-      "yearBuilt": 1934,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Juliusza Słowackiego",
-      "lat": 54.5140744,
-      "lng": 18.5417111,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719780_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719963_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719786_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719939_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719777_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719978_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719957_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719948_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719954_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719942_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719768_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719759_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719570_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719642_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719561_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719585_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11743319",
-      "createdAt": "2026-03-31 14:06:27",
-      "updatedAt": "2026-04-18 10:44:36"
     },
     {
       "id": "9613622",
