@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-07-22T05:49:45.823Z",
+  "lastSync": "2026-07-23T06:19:56.875Z",
   "offers": [
     {
       "id": "11743319",
@@ -24,79 +24,80 @@
       "lng": 18.5417111,
       "images": [
         {
-          "url": "/oferty/105719780.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719780_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/105719963.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719963_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719786.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719786_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719939.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719939_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719777.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719777_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719978.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719978_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719957.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719957_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719948.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719948_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719954.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719954_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719942.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719942_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719768.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719768_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719759.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719759_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719570.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719570_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719642.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719642_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719561.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719561_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719585.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719585_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11743319",
       "createdAt": "2026-03-31 14:06:27",
-      "updatedAt": "2026-07-20 20:08:06"
+      "updatedAt": "2026-07-22 17:03:04"
     },
     {
       "id": "12089501",
@@ -167,45 +168,6 @@
       "url": "https://starnawska.pl/oferty/12089501",
       "createdAt": "2026-06-10 21:19:13",
       "updatedAt": "2026-07-17 10:55:33"
-    },
-    {
-      "id": "11904581",
-      "offerNumber": "ST428499",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Magazyn z biurami",
-      "market": "wtorny",
-      "title": "Elastyczna powierzchnia komercyjna w mieście",
-      "description": "Uniwersalne pomieszczenia (magazyn, produkcja, usługi). Z bardzo dobrym dojazdem. \n\nWysokość 3,40 m do belek konstrukcyjnych, a do właściwego stropu 4,50 m.\nCałość na jednym poziomie. Dostępne z poziomu gruntu.\n\nMożliwe zmiany aranżacyjne - wydzielenie mniejszych pomieszczeń, dołożenie węzłów sanitarnych, wynajem dodatkowej przestrzeni - nawet 1000 m2.\n \nPosadzka przemysłowa. Duża moc przyłączeniowa prądu.\nBrama wjazdowa dla dostaw. Parking na 4 aut z cenie (możliwość powiększenia strefy parkowania).\n\n Możliwość bezproblemowych rozładunków nawet z dużych samochodów (TIR).\n\nPomieszczenia ogrzewane, niskie opłaty eksploatacyjne ( około 9 zł/m2).\n\nMożliwość wydzielenia innych powierzchni.\n\nPreferowany najem długoterminowy.  \n\nDo ceny najmuj doliczony zostanie stosowny podatek VAT.",
-      "price": 21375,
-      "pricePerSqm": 45,
-      "area": 475,
-      "yearBuilt": 2007,
-      "city": "Gdańsk",
-      "district": "Suchanino",
-      "street": "ul. Franciszka Schuberta",
-      "lat": 54.359345,
-      "lng": 18.6053402,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944728_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11904581/106944722_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11904581",
-      "createdAt": "2026-04-25 08:14:14",
-      "updatedAt": "2026-07-17 10:54:32"
     },
     {
       "id": "11369456",
@@ -1011,68 +973,6 @@
       "url": "https://starnawska.pl/oferty/10877450",
       "createdAt": "2025-07-20 09:44:50",
       "updatedAt": "2026-07-08 09:52:59"
-    },
-    {
-      "id": "7482684",
-      "offerNumber": "ST819730",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Dwa niezależne pokoje i kuchnia w centrum miasta",
-      "description": "Mieszkanie zlokalizowane z ścisłym centrum miasta. Dwa niezależne pokoje ( ok. 16 i 11 m2),  duża jasna kuchnia z oknem ( ok.11 m2),  duża, jasna łazienka z wanną ok 6 m2). Mieszkanie po kapitalnym remoncie. Wyposażona kuchnia, bez mebli ruchomych. Wysokość prawie 2,9 m. Odzyskana oryginalna stolarka wewnętrzna. \n\nKamienica w drugiej linii zabudowy (widok na zabudowanie). \n\nOpłaty - czynsz plus prąd ok. 1050 zł \n\nNajem długoterminowy, okazjonalny.",
-      "price": 2500,
-      "pricePerSqm": 49.5,
-      "rent": 700,
-      "area": 50.5,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 2,
-      "yearBuilt": 1927,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Świętojańska",
-      "lat": 54.51994,
-      "lng": 18.54306,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/110551475_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/110551481_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/110551484_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512286_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512292_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512325_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7482684/57512433_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/7482684",
-      "createdAt": "2023-06-22 07:43:53",
-      "updatedAt": "2026-07-07 16:59:15"
     },
     {
       "id": "11154254",
