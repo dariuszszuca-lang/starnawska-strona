@@ -10,10 +10,10 @@ Strona firmowa biura nieruchomości w Gdyni. Aktywne repo poza iCloud:
 - **Tailwind CSS v4** + design tokens (paleta szaro-zielona z logo)
 - **shadcn/ui** patterns (Radix UI primitives)
 - **Framer Motion** (animacje)
-- **Sanity Studio** (planowany panel admina dla właścicielek)
-- **Supabase** (lead capture + cache ofert ESTI)
-- **Resend** (formularz konsultacji)
-- **Vercel** (hosting + auto-deploy + Cron)
+- **Własny panel admin** (`app/admin`, zapis treści bloga przez commit do GitHub → `data/posts.json`; NIE Sanity)
+- **nodemailer + SMTP IQ** (formularz konsultacji; NIE Resend)
+- **ESTI CRM live API** (oferty na żywo, company+token, cache 1h + fallback `data/offers.json`; FTP tylko zapasowo)
+- **Vercel** (hosting + auto-deploy + Cron `sync-esti`)
 
 ## Komendy
 
@@ -33,11 +33,11 @@ app/
 ├── zespol/
 │   ├── page.tsx              # lista zespołu
 │   └── [slug]/page.tsx       # wizytówki agentek (SSG)
-├── oferty/                   # wyszukiwarka ofert (TODO: integracja ESTI)
+├── oferty/                   # wyszukiwarka ofert (live ESTI API)
 ├── doradztwo/                # opis usług
-├── blog/                     # 3 artykuły SEO + LLM (TODO)
-├── kontakt/                  # mapa + dane (TODO)
-└── konsultacja/              # formularz (TODO)
+├── blog/                     # artykuły SEO (panel app/admin → data/posts.json)
+├── kontakt/                  # mapa + dane
+└── konsultacja/              # formularz (nodemailer / SMTP IQ)
 
 components/
 ├── layout/{header,footer}.tsx
