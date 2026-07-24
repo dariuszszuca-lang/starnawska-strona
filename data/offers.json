@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-07-23T06:19:56.875Z",
+  "lastSync": "2026-07-24T05:33:16.883Z",
   "offers": [
     {
       "id": "11743319",
@@ -24,80 +24,341 @@
       "lng": 18.5417111,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719780_max.jpg",
+          "url": "/oferty/105719780.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719963_max.jpg",
+          "url": "/oferty/105719963.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719786_max.jpg",
+          "url": "/oferty/105719786.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719939_max.jpg",
+          "url": "/oferty/105719939.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719777_max.jpg",
+          "url": "/oferty/105719777.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719978_max.jpg",
+          "url": "/oferty/105719978.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719957_max.jpg",
+          "url": "/oferty/105719957.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719948_max.jpg",
+          "url": "/oferty/105719948.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719954_max.jpg",
+          "url": "/oferty/105719954.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719942_max.jpg",
+          "url": "/oferty/105719942.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719768_max.jpg",
+          "url": "/oferty/105719768.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719759_max.jpg",
+          "url": "/oferty/105719759.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719570_max.jpg",
+          "url": "/oferty/105719570.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719642_max.jpg",
+          "url": "/oferty/105719642.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719561_max.jpg",
+          "url": "/oferty/105719561.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719585_max.jpg",
+          "url": "/oferty/105719585.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl",
+        "slug": "jolanta-starnawska"
       },
       "url": "https://starnawska.pl/oferty/11743319",
       "createdAt": "2026-03-31 14:06:27",
-      "updatedAt": "2026-07-22 17:03:04"
+      "updatedAt": "2026-07-23 16:35:35"
+    },
+    {
+      "id": "12215723",
+      "offerNumber": "ST514187",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Słoneczne 3 pokoje, przy centrum,  po remocnie",
+      "description": "Na sprzedaż wyjątkowo jasne, trójstronne mieszkanie zlokalizowane w zadbanym i ocieplonym budynku z cegły, tuż na obrzeżach ścisłego centrum miasta. Z obu części lokalu roztacza się ładny, kojący widok, a samo wnętrze zachwyca funkcjonalnością.\n\nW 2021 roku nieruchomość przeszła generalny remont. Wymieniono instalacje, wyrównano ściany oraz całkowicie odmieniono układ pomieszczeń i aranżację kuchni i łazienki. Naturalna, odnowiona podłoga z desek nadaje wnętrzu przytulny, klasyczny charakter, a wykonane na zamówienie zabudowy stolarskie gwarantują maksymalne i bardzo estetyczne wykorzystanie przestrzeni. Układ mieszkania został zaprojektowany z myślą o prywatności - strefa sypialniana jest wyraźnie odizolowana od przestrzeni dziennej.\n\nLokalizacja idealnie łączy spokój bezpiecznej dzielnicy z bliskością Śródmieścia. W zaledwie 20 minut pieszo dotrzesz do Parku Centralnego, a w 10 minut rowerem na nadmorski bulwar. Doskonała infrastruktura transportowa (bliskość SKM i autobusów) zapewnia bezproblemową komunikację. W pobliżu szkoły, przychodnia, CH Riviera. Do mieszkania zwyczajowo przynależy piwnica. Klatka schodowa budynku jest czysta i odnowiona. Miejsca postojowe ogólnodostępne. Zapraszam na prezentację!",
+      "price": 960000,
+      "pricePerSqm": 13688.86,
+      "rent": 525,
+      "area": 70.13,
+      "rooms": 3,
+      "floor": 3,
+      "totalFloors": 3,
+      "yearBuilt": 1954,
+      "city": "Gdynia",
+      "district": "Wzgórze Św. Maksymiliana",
+      "street": "ul. Wojewody Wachowiaka",
+      "lat": 54.4998782,
+      "lng": 18.5381644,
+      "images": [
+        {
+          "url": "/oferty/110582198.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/110582189.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582102.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582204.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582087.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582099.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582096.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582090.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582093.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582210.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582207.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582213.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110582216.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl",
+        "slug": "jolanta-starnawska"
+      },
+      "url": "https://starnawska.pl/oferty/12215723",
+      "createdAt": "2026-07-08 12:54:55",
+      "updatedAt": "2026-07-23 16:35:11"
+    },
+    {
+      "id": "11599184",
+      "offerNumber": "ST527628",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Komfortowe 2 pokoje z pięknym widokiem na park",
+      "description": "Na wynajem przestronne 2 pokojowe mieszkanie położone w Ogrodach Wejhera, zamkniętym kameralnym osiedlu w samym centrum Wejherowa - z widokiem na Park im .Aleksandra Majkowskiego. \n\nMieszkanie jest wyremontowane, wyposażone w nowe meble. Składa się z dużego salonu z aneksem kuchennym, gdzie wydzielono strefę relaksu oraz jadalnię przy zabudowie kuchennej. Aneks wyposażony w AGD - w tym zmywarkę. Z salonu wyjście na duży i słoneczny balkon z kojącym widokiem na zieleń. \n\nSypialnia przestronna, z dużym, wygodnym łóżkiem i miejscem do pracy. Dużo miejsca do przechowywania. W przedpokoju znajduje się bardzo pojemna zabudowa - szafa sześciodrzwiowa. Dodatkowo w sypialni szafki z szufladami. \nDuże okna i wystawa względem stron świata zapewnia optymalne doświetlenie wnętrza. \n\nŁazienka z wanną. Przestronna i przytulna jednocześnie. \n\nDodatkowo można wynająć miejsce postojowe w hali garażowej.\n\nNie wysokie opłaty - ok.600 zł + prąd. W przypadku najmu wraz z miejscem postojowym, eksploatacja 700 zł.\n\nSpokojne sąsiedztwo.\n\nBudynek bardzo zadbany, bezpieczny. Miejsca postojowe zewnętrzne dla mieszkańców. \n\nLokalizacja idealna - piesza odległość na rynek, do wszystkich punktów usługowych, nawet filharmonii. Znany park vis a vis osiedla a nieco dalej tereny leśne - idealne do rekreacji. Ok. 1 km do SKM, dobry wyjazd do S6.\n\nWyjątkowa oferta w Wejherowie. Gotowe do wprowadzenia.\nNajem bez zwierząt. \n\nNajem okazjonalny, umowa na 12 miesięcy.",
+      "price": 2800,
+      "pricePerSqm": 56.45,
+      "rent": 600,
+      "area": 49.6,
+      "rooms": 2,
+      "floor": 3,
+      "totalFloors": 3,
+      "yearBuilt": 2008,
+      "city": "Wejherowo",
+      "district": "wejherowski",
+      "street": "ul. św. Jacka",
+      "lat": 54.5995339,
+      "lng": 18.2338583,
+      "images": [
+        {
+          "url": "/oferty/103841156.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/103841123.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841117.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841129.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841135.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841147.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841153.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841150.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841168.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841162.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841165.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841159.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841171.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841180.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841174.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841177.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841195.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841198.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841183.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841186.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841189.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841192.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841201.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841204.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841207.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841210.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841213.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841216.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841105.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841108.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841111.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841114.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841219.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841222.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841225.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/103841228.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/11599184",
+      "createdAt": "2026-02-18 08:23:59",
+      "updatedAt": "2026-07-23 16:34:35"
     },
     {
       "id": "12089501",
@@ -381,92 +642,6 @@
       "url": "https://starnawska.pl/oferty/11996204",
       "createdAt": "2026-05-20 06:39:41",
       "updatedAt": "2026-07-15 11:59:29"
-    },
-    {
-      "id": "12215723",
-      "offerNumber": "ST514187",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Słoneczne 3 pokoje, przy centrum,  po remocnie",
-      "description": "Na sprzedaż wyjątkowo jasne, trójstronne mieszkanie zlokalizowane w zadbanym i ocieplonym budynku z cegły, tuż na obrzeżach ścisłego centrum miasta. Z obu części lokalu roztacza się ładny, kojący widok, a samo wnętrze zachwyca funkcjonalnością.\n\nW 2021 roku nieruchomość przeszła generalny remont. Wymieniono instalacje, wyrównano ściany oraz całkowicie odmieniono układ pomieszczeń i aranżację kuchni i łazienki. Naturalna, odnowiona podłoga z desek nadaje wnętrzu przytulny, klasyczny charakter, a wykonane na zamówienie zabudowy stolarskie gwarantują maksymalne i bardzo estetyczne wykorzystanie przestrzeni. Układ mieszkania został zaprojektowany z myślą o prywatności - strefa sypialniana jest wyraźnie odizolowana od przestrzeni dziennej.\n\nLokalizacja idealnie łączy spokój bezpiecznej dzielnicy z bliskością Śródmieścia. W zaledwie 20 minut pieszo dotrzesz do Parku Centralnego, a w 10 minut rowerem na nadmorski bulwar. Doskonała infrastruktura transportowa (bliskość SKM i autobusów) zapewnia bezproblemową komunikację. W pobliżu szkoły, przychodnia, CH Riviera. Do mieszkania zwyczajowo przynależy piwnica. Klatka schodowa budynku jest czysta i odnowiona. Miejsca postojowe ogólnodostępne. Zapraszam na prezentację!",
-      "price": 960000,
-      "pricePerSqm": 13688.86,
-      "rent": 525,
-      "area": 70.13,
-      "rooms": 3,
-      "floor": 3,
-      "totalFloors": 3,
-      "yearBuilt": 1954,
-      "city": "Gdynia",
-      "district": "Wzgórze Św. Maksymiliana",
-      "street": "ul. Wojewody Wachowiaka",
-      "lat": 54.4998782,
-      "lng": 18.5381644,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582198_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582189_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582102_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582204_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582087_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582099_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582096_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582090_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582093_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582210_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582207_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582213_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582216_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12215723",
-      "createdAt": "2026-07-08 12:54:55",
-      "updatedAt": "2026-07-14 16:24:09"
     },
     {
       "id": "11469854",
@@ -1185,184 +1360,6 @@
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
       "updatedAt": "2026-07-03 12:26:41"
-    },
-    {
-      "id": "11599184",
-      "offerNumber": "ST527628",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Komfortowe 2 pokoje z pięknym widokiem na park",
-      "description": "Na wynajem przestronne 2 pokojowe mieszkanie położone w Ogrodach Wejhera, zamkniętym kameralnym osiedlu w samym centrum Wejherowa - z widokiem na Park im .Aleksandra Majkowskiego. \n\nMieszkanie jest wyremontowane, wyposażone w nowe meble. Składa się z dużego salonu z aneksem kuchennym, gdzie wydzielono strefę relaksu oraz jadalnię przy zabudowie kuchennej. Aneks wyposażony w AGD - w tym zmywarkę. Z salonu wyjście na duży i słoneczny balkon z kojącym widokiem na zieleń. \n\nSypialnia przestronna, z dużym, wygodnym łóżkiem i miejscem do pracy. Dużo miejsca do przechowywania. W przedpokoju znajduje się bardzo pojemna zabudowa - szafa sześciodrzwiowa. Dodatkowo w sypialni szafki z szufladami. \nDuże okna i wystawa względem stron świata zapewnia optymalne doświetlenie wnętrza. \n\nŁazienka z wanną. Przestronna i przytulna jednocześnie. \n\nDodatkowo można wynająć miejsce postojowe w hali garażowej.\n\nNie wysokie opłaty - ok.600 zł + prąd. W przypadku najmu wraz z miejscem postojowym, eksploatacja 700 zł.\n\nSpokojne sąsiedztwo.\n\nBudynek bardzo zadbany, bezpieczny. Miejsca postojowe zewnętrzne dla mieszkańców. \n\nLokalizacja idealna - piesza odległość na rynek, do wszystkich punktów usługowych, nawet filharmonii. Znany park vis a vis osiedla a nieco dalej tereny leśne - idealne do rekreacji. Ok. 1 km do SKM, dobry wyjazd do S6.\n\nWyjątkowa oferta w Wejherowie. Gotowe do wprowadzenia.\nNajem bez zwierząt. \n\nNajem okazjonalny, umowa na 12 miesięcy.",
-      "price": 2800,
-      "pricePerSqm": 56.45,
-      "rent": 600,
-      "area": 49.6,
-      "rooms": 2,
-      "floor": 3,
-      "totalFloors": 3,
-      "yearBuilt": 2008,
-      "city": "Wejherowo",
-      "district": "wejherowski",
-      "street": "ul. św. Jacka",
-      "lat": 54.5995339,
-      "lng": 18.2338583,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841156_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841123_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841117_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841129_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841135_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841147_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841153_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841150_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841168_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841162_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841165_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841159_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841171_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841180_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841174_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841177_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841195_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841198_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841183_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841186_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841189_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841192_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841201_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841204_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841207_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841210_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841213_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841216_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841105_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841108_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841111_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841114_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841219_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841222_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841225_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841228_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11599184",
-      "createdAt": "2026-02-18 08:23:59",
-      "updatedAt": "2026-06-30 09:03:58"
     },
     {
       "id": "11764931",
