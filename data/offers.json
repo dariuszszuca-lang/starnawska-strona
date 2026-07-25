@@ -1,6 +1,54 @@
 {
-  "lastSync": "2026-07-24T05:33:16.883Z",
+  "lastSync": "2026-07-25T06:24:24.695Z",
   "offers": [
+    {
+      "id": "12277856",
+      "offerNumber": "ST301814",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Juszkowo, malownicza działka.",
+      "description": "Narożna działka budowlana 1046 m² - Juszkowo, ul. Wichrowe Wzgórze\n\nNa sprzedaż narożna działka o powierzchni 1046 m², położona w malowniczej części Juszkowa, w otoczeniu zabudowy willowej i nowych domów jednorodzinnych.\n\nTo propozycja dla osób, które szukają miejsca na własny dom w zielonym, spokojnym otoczeniu, a jednocześnie chcą zachować dogodny dojazd do Pruszcza Gdańskiego i Trójmiasta.\n\nDZIAŁKA\n\n• powierzchnia: 1046 m²\n• przybliżone wymiary: 25 × 41 m\n• położenie narożne\n• działka obecnie zadrzewiona\n• dojazd drogą wyłożoną płytami jumbo\n• media w drodze: woda, prąd, gaz i kanalizacja\n• sąsiedztwo zabudowy jednorodzinnej\n\nNarożne położenie daje większą swobodę przy planowaniu wjazdu, usytuowania budynku oraz ogrodu. Istniejące zadrzewienie może natomiast stać się naturalną częścią przyszłej aranżacji posesji i zapewnić jej kameralny charakter.\n\nMIEJSCOWY PLAN ZAGOSPODAROWANIA PRZESTRZENNEGO\n\nDziałka objęta jest miejscowym planem zagospodarowania przestrzennego i przeznaczona pod zabudowę mieszkaniową jednorodzinną.\n\nPlan określa minimalną powierzchnię działki przypadającą na jeden budynek mieszkalny:\n\n• zabudowa jednorodzinna wolnostojąca - 1000 m²\n• zabudowa bliźniacza - 500 m²\n• zabudowa szeregowa - 300 m²\n\nDopuszczona została tolerancja wynosząca 10%.\n\nMinimalna powierzchnia biologicznie czynna wynosi:\n\n• 50% dla zabudowy jednorodzinnej wolnostojącej\n• 40% dla zabudowy bliźniaczej\n• 30% dla zabudowy szeregowej\n\nPlan wskazuje również obowiązek wydzielenia w obrębie dróg minimum jednego miejsca postojowego na cztery budynki lub segmenty zabudowy jednorodzinnej, niezależnie od miejsc postojowych przewidzianych na poszczególnych działkach.\n\nW obrębie zabudowy jednorodzinnej wolnostojącej dopuszczono możliwość realizacji, na wydzielonym terenie, usług związanych z obsługą ludności - z wyłączeniami określonymi w planie. W zabudowie bliźniaczej i szeregowej możliwość prowadzenia działalności została ograniczona do usług medycznych i biurowych.\n\nSzczegółowe możliwości zabudowy i usytuowania budynku należy każdorazowo potwierdzić na podstawie pełnego tekstu oraz rysunku miejscowego planu zagospodarowania przestrzennego.\n\nLOKALIZACJA\n\nJuszkowo to miejscowość wybierana przez osoby, które chcą zamieszkać poza miejskim zgiełkiem, ale nie rezygnować z dostępu do infrastruktury i wygodnego połączenia z Trójmiastem.\n\nW okolicy znajdują się tereny spacerowe, pola i dużo zieleni. Dodatkowym atutem miejscowości jest Centrum Sportu i Rekreacji nad Radunią z przystanią kajakową, boiskami, placem zabaw, siłownią zewnętrzną i miejscem do rodzinnego wypoczynku.\n\nW Juszkowie działa publiczne przedszkole, a dla tej części miejscowości szkołą obwodową jest Szkoła Podstawowa w Straszynie. W pobliskim Pruszczu Gdańskim i Straszynie dostępne są sklepy, punkty usługowe, placówki medyczne oraz pozostała infrastruktura potrzebna na co dzień.\n\nDogodny dojazd do Obwodnicy Trójmiasta ułatwia komunikację z Gdańskiem oraz pozostałymi częściami aglomeracji.\n\nTo miejsce, w którym można stworzyć dom otoczony zielenią, pozostając blisko miasta.\n\nZapraszamy do kontaktu i umówienia prezentacji działki.",
+      "price": 469900,
+      "pricePerSqm": 449.24,
+      "area": 1046,
+      "city": "Gdańsk",
+      "district": "Juszkowo",
+      "street": "ul. Wichrowe Wzgórze",
+      "lat": 54.3626525,
+      "lng": 18.5672498,
+      "images": [
+        {
+          "url": "/oferty/111460367.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/111460331.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111460370.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111460373.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Las w pobliżu"
+      ],
+      "agent": {
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl",
+        "slug": "jolanta-starnawska"
+      },
+      "url": "https://starnawska.pl/oferty/12277856",
+      "createdAt": "2026-07-22 11:19:49",
+      "updatedAt": "2026-07-24 15:02:55"
+    },
     {
       "id": "11743319",
       "offerNumber": "ST829892",
@@ -24,75 +72,76 @@
       "lng": 18.5417111,
       "images": [
         {
-          "url": "/oferty/105719780.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719780_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/105719963.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719963_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719786.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719786_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719939.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719939_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719777.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719777_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719978.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719978_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719957.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719957_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719948.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719948_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719954.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719954_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719942.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719942_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719768.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719768_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719759.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719759_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719570.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719570_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719642.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719642_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719561.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719561_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/105719585.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11743319/105719585_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
         "fullName": "Jolanta Starnawska",
         "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl",
-        "slug": "jolanta-starnawska"
+        "email": "jstarnawska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11743319",
       "createdAt": "2026-03-31 14:06:27",
@@ -121,63 +170,64 @@
       "lng": 18.5381644,
       "images": [
         {
-          "url": "/oferty/110582198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582198_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110582189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582102.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582102_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582087_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582099.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582099_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582096.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582096_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582090.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582090_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582093.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582093_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582216_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
         "fullName": "Jolanta Starnawska",
         "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl",
-        "slug": "jolanta-starnawska"
+        "email": "jstarnawska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12215723",
       "createdAt": "2026-07-08 12:54:55",
@@ -206,155 +256,156 @@
       "lng": 18.2338583,
       "images": [
         {
-          "url": "/oferty/103841156.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841156_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/103841123.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841123_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841117.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841117_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841129.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841129_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841135.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841135_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841147.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841147_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841153.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841153_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841150.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841150_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841168.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841168_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841162.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841162_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841165.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841165_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841159.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841159_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841171.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841171_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841180.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841180_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841174.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841174_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841177.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841177_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841195.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841195_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841198_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841183.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841183_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841186.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841186_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841192.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841192_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841201.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841201_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841216_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841105.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841105_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841108.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841108_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841111.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841111_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841114.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841114_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841219.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841219_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841222.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841222_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841225.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841225_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841228.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841228_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11599184",
       "createdAt": "2026-02-18 08:23:59",
