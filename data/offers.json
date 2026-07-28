@@ -1,68 +1,53 @@
 {
-  "lastSync": "2026-07-27T05:42:12.170Z",
+  "lastSync": "2026-07-28T05:50:21.671Z",
   "offers": [
     {
-      "id": "12164528",
-      "offerNumber": "ST732390",
-      "transaction": "najem",
-      "type": "mieszkanie",
+      "id": "12277856",
+      "offerNumber": "ST301814",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
       "market": "wtorny",
-      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
-      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
-      "price": 3400,
-      "pricePerSqm": 77.27,
-      "area": 44,
-      "rooms": 2,
-      "floor": 9,
-      "totalFloors": 17,
-      "city": "Gdańsk",
-      "district": "Stocznia",
-      "street": "ul. Wałowa",
-      "lat": 54.3593822,
-      "lng": 18.6520752,
+      "title": "Juszkowo, malownicza działka.",
+      "description": "Narożna działka budowlana 1046 m² - Juszkowo, ul. Wichrowe Wzgórze\n\nNa sprzedaż narożna działka o powierzchni 1046 m², położona w malowniczej części Juszkowa, w otoczeniu zabudowy willowej i nowych domów jednorodzinnych.\n\nTo propozycja dla osób, które szukają miejsca na własny dom w zielonym, spokojnym otoczeniu, a jednocześnie chcą zachować dogodny dojazd do Pruszcza Gdańskiego i Trójmiasta.\n\nDZIAŁKA\n\n• powierzchnia: 1046 m²\n• przybliżone wymiary: 25 × 41 m\n• położenie narożne\n• działka obecnie zadrzewiona\n• dojazd drogą wyłożoną płytami jumbo\n• media w drodze: woda, prąd, gaz i kanalizacja\n• sąsiedztwo zabudowy jednorodzinnej\n\nNarożne położenie daje większą swobodę przy planowaniu wjazdu, usytuowania budynku oraz ogrodu. Istniejące zadrzewienie może natomiast stać się naturalną częścią przyszłej aranżacji posesji i zapewnić jej kameralny charakter.\n\nMIEJSCOWY PLAN ZAGOSPODAROWANIA PRZESTRZENNEGO\n\nDziałka objęta jest miejscowym planem zagospodarowania przestrzennego i przeznaczona pod zabudowę mieszkaniową jednorodzinną.\n\nPlan określa minimalną powierzchnię działki przypadającą na jeden budynek mieszkalny:\n\n• zabudowa jednorodzinna wolnostojąca - 1000 m²\n• zabudowa bliźniacza - 500 m²\n• zabudowa szeregowa - 300 m²\n\nDopuszczona została tolerancja wynosząca 10%.\n\nMinimalna powierzchnia biologicznie czynna wynosi:\n\n• 50% dla zabudowy jednorodzinnej wolnostojącej\n• 40% dla zabudowy bliźniaczej\n• 30% dla zabudowy szeregowej\n\nPlan wskazuje również obowiązek wydzielenia w obrębie dróg minimum jednego miejsca postojowego na cztery budynki lub segmenty zabudowy jednorodzinnej, niezależnie od miejsc postojowych przewidzianych na poszczególnych działkach.\n\nW obrębie zabudowy jednorodzinnej wolnostojącej dopuszczono możliwość realizacji, na wydzielonym terenie, usług związanych z obsługą ludności - z wyłączeniami określonymi w planie. W zabudowie bliźniaczej i szeregowej możliwość prowadzenia działalności została ograniczona do usług medycznych i biurowych.\n\nSzczegółowe możliwości zabudowy i usytuowania budynku należy każdorazowo potwierdzić na podstawie pełnego tekstu oraz rysunku miejscowego planu zagospodarowania przestrzennego.\n\nLOKALIZACJA\n\nJuszkowo to miejscowość wybierana przez osoby, które chcą zamieszkać poza miejskim zgiełkiem, ale nie rezygnować z dostępu do infrastruktury i wygodnego połączenia z Trójmiastem.\n\nW okolicy znajdują się tereny spacerowe, pola i dużo zieleni. Dodatkowym atutem miejscowości jest Centrum Sportu i Rekreacji nad Radunią z przystanią kajakową, boiskami, placem zabaw, siłownią zewnętrzną i miejscem do rodzinnego wypoczynku.\n\nW Juszkowie działa publiczne przedszkole, a dla tej części miejscowości szkołą obwodową jest Szkoła Podstawowa w Straszynie. W pobliskim Pruszczu Gdańskim i Straszynie dostępne są sklepy, punkty usługowe, placówki medyczne oraz pozostała infrastruktura potrzebna na co dzień.\n\nDogodny dojazd do Obwodnicy Trójmiasta ułatwia komunikację z Gdańskiem oraz pozostałymi częściami aglomeracji.\n\nTo miejsce, w którym można stworzyć dom otoczony zielenią, pozostając blisko miasta.\n\nZapraszamy do kontaktu i umówienia prezentacji działki.",
+      "price": 469900,
+      "pricePerSqm": 449.24,
+      "area": 1046,
+      "city": "Juszkowo",
+      "district": "gdański",
+      "street": "ul. Wichrowe Wzgórze",
+      "lat": 54.252953,
+      "lng": 18.5950667,
       "images": [
         {
-          "url": "/oferty/110200763.jpg",
+          "url": "/oferty/111460367.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110200766.jpg",
+          "url": "/oferty/111460331.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200769.jpg",
+          "url": "/oferty/111460370.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200784.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200772.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200775.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200778.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/110200781.jpg",
+          "url": "/oferty/111460373.jpg",
           "primary": false
         }
       ],
+      "features": [
+        "Las w pobliżu"
+      ],
       "agent": {
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl",
+        "slug": "jolanta-starnawska"
       },
-      "url": "https://starnawska.pl/oferty/12164528",
-      "createdAt": "2026-06-25 19:02:39",
-      "updatedAt": "2026-07-26 20:58:42"
+      "url": "https://starnawska.pl/oferty/12277856",
+      "createdAt": "2026-07-22 11:19:49",
+      "updatedAt": "2026-07-27 17:57:49"
     },
     {
       "id": "12153050",
@@ -71,7 +56,7 @@
       "type": "dom",
       "typeDetail": "Wolnostojący",
       "market": "wtorny",
-      "title": "Wyjątkowy dom zaledwie 30 minut od Gdańska",
+      "title": "Parterowy dom zaledwie 30 minut od Gdańska",
       "description": "Wyjątkowy dom w otoczeniu lasów i jezior - idealny dla rodziny lub dwóch rodzin, zaledwie 30 minut od Gdańska!\n\nZapraszamy do zapoznania się z ofertą wyjątkowego domu położonego w malowniczej okolicy, wśród lasów i w bezpośrednim sąsiedztwie jezior. \nZe względu na dodatkowe niezależne mieszkanie na poddaszu z osobnym wejściem, to idealna propozycja dla osób poszukujących dodatkowej przestrzeni do pracy, prowadzenia działalności, pracowni czy warsztatu, albo mieszkania dla dorastającego dziecka, młodej pary.\n\nNajważniejsze atuty nieruchomości:\n\nDom parterowy o powierzchni użytkowej 128,8 m²\nDodatkowe mieszkanie na poddaszu o powierzchni 76 m² po podłodze (51 m² użytkowej)\nŁącznie dom oferuje 5 sypialni, 2 łazienki, osobne WC oraz dwie niezależne strefy mieszkalne.\nPięknie zagospodarowana działka o powierzchni 993 m²\nGaraż w bryle budynku oraz przestronny podjazd na kilka samochodów\nFotowoltaika o mocy 9,88 kW\nBiologiczna oczyszczalnia ścieków\nOgrzewanie ekonomicznym piecem na pellet\nKameralna lokalizacja przy ślepej uliczce, tuż przy lesie\n\nDom i działka.\nNieruchomość została wybudowana tradycyjną metodą w 2005 roku. Działka o powierzchni 993 m² jest płaska, starannie zagospodarowana i doskonale przemyślana pod kątem codziennego komfortu mieszkańców.\nW ogrodzie znajdują się liczne miejsca do wypoczynku, dwa pomieszczenia gospodarcze: warsztat, obszerne przestrzenie do przechowywania oraz duża drewutnia połączona z miejscem na pojemniki na odpady.\nW 2018  zainstalowano  biologiczną oczyszczalnię ścieków, a w 2020 roku zamontowano instalację fotowoltaiczną o mocy 9,88 kW, której produkcja energii elektrycznej z instalacji całkowicie pokrywa potrzeby domu (płacone są cały rok tylko koszty przesyłu).  Dodatkowo na posesji znajduje się duży zbiornik na deszczówkę z pompą umożliwiającą podlewanie ogrodu.\nCała posesja jest ogrodzona i wyposażona w automatyczną bramę wjazdową sterowaną pilotem.\nDom posiada również instalację alarmową (centralka połączona z firmą ochroniarską SOLID) i monitoring wizyjny (kamery) obejmujący całą posesję.\n\nParter - komfortowa przestrzeń dla rodziny. \nNa powierzchnię 128,8 m² składają się:\nprzestronny salon połączony z kuchnią o łącznej powierzchni blisko 50 m²,\ntrzy sypialnie,\nłazienka,\nosobne WC,\nduża garderoba,\nhol,\nwiatrołap.\nJasny salon z kominkiem stanowi serce domu. Kominek posiada funkcję wspomagania ogrzewania poprzez podgrzewanie grzejników na parterze. Z salonu prowadzą dwa wyjścia na wygodny, kameralny taras od strony zachodniej. \nW 2021 roku przeprowadzono modernizację obejmującą remont łazienek, odświeżenie części pomieszczeń, wymianę podłóg oraz zakup nowego sprzętu AGD.\nW cenie nieruchomości mogą pozostać wszystkie meble oraz wyposażenie AGD.\n\nNiezależne mieszkanie na poddaszu.\nNa piętrze, do którego prowadzi osobne wejście, znajduje się niezależne mieszkanie o powierzchni 76 m² po podłodze (51 m² powierzchni użytkowej). W jego skład wchodzą:\ndwie sypialnie,\nkuchnia połączona ze strefą dzienną,\nduża łazienka,\nprzedpokój z pojemną szafą garderobianą.\n\nIstnieje również możliwość połączenia obu kondygnacji wewnętrzną klatką schodową - miejsce na takie rozwiązanie zostało przewidziane w projekcie domu, dzięki czemu łącznie dom oferuje 5 sypialni, 2 łazienki, osobne WC oraz dwie niezależne strefy mieszkalne.\n\nLokalizacja.\nNieruchomość znajduje się w spokojnym sąsiedztwie domów jednorodzinnych całorocznych oraz letniskowych. Do posesji prowadzi ślepa uliczka zakończona lasem, co gwarantuje ciszę, prywatność i bezpieczeństwo.\nZaledwie kilka minut spacerem dzieli dom od najbliższego jeziora. W okolicy znajdują się liczne tereny rekreacyjne, jeziora, rezerwat przyrody, trasy rowerowe i konne, stadniny oraz kąpieliska.\n\nBieszkowice - wyjątkowe miejsce do życia.\nBieszkowice to malownicza, historyczna wieś kaszubska położona w powiecie wejherowskim, na terenie Trójmiejskiego Parku Krajobrazowego. Miejscowość otaczają lasy i jeziora, a jej historia sięga czasów średniowiecza.\nWe wsi znajdują się świetlica, biblioteka oraz boisko. Szkoła, przedszkole, kościół, sklepy i paczkomaty zlokalizowane są w pobliskiej miejscowości, oddalonej o kilka minut jazdy samochodem lub autobusem.\nDo Wejherowa i Redy można dojechać w kilkanaście minut, natomiast do Gdyni w około 30 minut. Dodatkowym atutem jest bardzo dogodny dostęp do Trasy Kaszubskiej - do węzła Koleczkowo dojedziemy w zaledwie kilka minut.\n\nDodatkowa możliwość zakupu działki.\nIstnieje możliwość zakupu sąsiedniej działki o powierzchni 991 m² w cenie 215 000 zł. Obecnie znajduje się na niej warzywnik, miejsce na ognisko oraz plac zabaw.\n\nTo wyjątkowa oferta dla osób poszukujących komfortowego domu w otoczeniu natury, z możliwością zamieszkania dwóch rodzin lub stworzenia niezależnej przestrzeni do pracy i realizacji pasji.\n\nSerdecznie zapraszamy do kontaktu i umówienia prezentacji nieruchomości!",
       "price": 1390000,
       "pricePerSqm": 9527.07,
@@ -87,19 +72,15 @@
       "lng": 18.2897742,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987967_max.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987928_max.jpg",
           "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987964_max.jpg",
-          "primary": false
         },
         {
           "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987946_max.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987928_max.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987964_max.jpg",
           "primary": false
         },
         {
@@ -148,6 +129,10 @@
         },
         {
           "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988018_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987967_max.jpg",
           "primary": false
         },
         {
@@ -223,6 +208,7 @@
           "primary": false
         }
       ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/CzuNI5HxHcM",
       "agent": {
         "estiId": "165599",
         "slug": "alicja-stuchlik",
@@ -232,53 +218,197 @@
       },
       "url": "https://starnawska.pl/oferty/12153050",
       "createdAt": "2026-06-23 16:33:05",
-      "updatedAt": "2026-07-25 16:15:23"
+      "updatedAt": "2026-07-27 16:59:26"
     },
     {
-      "id": "12277856",
-      "offerNumber": "ST301814",
+      "id": "11929373",
+      "offerNumber": "ST346379",
       "transaction": "sprzedaz",
       "type": "dzialka",
       "typeDetail": "Mieszkaniowa",
       "market": "wtorny",
-      "title": "Juszkowo, malownicza działka.",
-      "description": "Narożna działka budowlana 1046 m² - Juszkowo, ul. Wichrowe Wzgórze\n\nNa sprzedaż narożna działka o powierzchni 1046 m², położona w malowniczej części Juszkowa, w otoczeniu zabudowy willowej i nowych domów jednorodzinnych.\n\nTo propozycja dla osób, które szukają miejsca na własny dom w zielonym, spokojnym otoczeniu, a jednocześnie chcą zachować dogodny dojazd do Pruszcza Gdańskiego i Trójmiasta.\n\nDZIAŁKA\n\n• powierzchnia: 1046 m²\n• przybliżone wymiary: 25 × 41 m\n• położenie narożne\n• działka obecnie zadrzewiona\n• dojazd drogą wyłożoną płytami jumbo\n• media w drodze: woda, prąd, gaz i kanalizacja\n• sąsiedztwo zabudowy jednorodzinnej\n\nNarożne położenie daje większą swobodę przy planowaniu wjazdu, usytuowania budynku oraz ogrodu. Istniejące zadrzewienie może natomiast stać się naturalną częścią przyszłej aranżacji posesji i zapewnić jej kameralny charakter.\n\nMIEJSCOWY PLAN ZAGOSPODAROWANIA PRZESTRZENNEGO\n\nDziałka objęta jest miejscowym planem zagospodarowania przestrzennego i przeznaczona pod zabudowę mieszkaniową jednorodzinną.\n\nPlan określa minimalną powierzchnię działki przypadającą na jeden budynek mieszkalny:\n\n• zabudowa jednorodzinna wolnostojąca - 1000 m²\n• zabudowa bliźniacza - 500 m²\n• zabudowa szeregowa - 300 m²\n\nDopuszczona została tolerancja wynosząca 10%.\n\nMinimalna powierzchnia biologicznie czynna wynosi:\n\n• 50% dla zabudowy jednorodzinnej wolnostojącej\n• 40% dla zabudowy bliźniaczej\n• 30% dla zabudowy szeregowej\n\nPlan wskazuje również obowiązek wydzielenia w obrębie dróg minimum jednego miejsca postojowego na cztery budynki lub segmenty zabudowy jednorodzinnej, niezależnie od miejsc postojowych przewidzianych na poszczególnych działkach.\n\nW obrębie zabudowy jednorodzinnej wolnostojącej dopuszczono możliwość realizacji, na wydzielonym terenie, usług związanych z obsługą ludności - z wyłączeniami określonymi w planie. W zabudowie bliźniaczej i szeregowej możliwość prowadzenia działalności została ograniczona do usług medycznych i biurowych.\n\nSzczegółowe możliwości zabudowy i usytuowania budynku należy każdorazowo potwierdzić na podstawie pełnego tekstu oraz rysunku miejscowego planu zagospodarowania przestrzennego.\n\nLOKALIZACJA\n\nJuszkowo to miejscowość wybierana przez osoby, które chcą zamieszkać poza miejskim zgiełkiem, ale nie rezygnować z dostępu do infrastruktury i wygodnego połączenia z Trójmiastem.\n\nW okolicy znajdują się tereny spacerowe, pola i dużo zieleni. Dodatkowym atutem miejscowości jest Centrum Sportu i Rekreacji nad Radunią z przystanią kajakową, boiskami, placem zabaw, siłownią zewnętrzną i miejscem do rodzinnego wypoczynku.\n\nW Juszkowie działa publiczne przedszkole, a dla tej części miejscowości szkołą obwodową jest Szkoła Podstawowa w Straszynie. W pobliskim Pruszczu Gdańskim i Straszynie dostępne są sklepy, punkty usługowe, placówki medyczne oraz pozostała infrastruktura potrzebna na co dzień.\n\nDogodny dojazd do Obwodnicy Trójmiasta ułatwia komunikację z Gdańskiem oraz pozostałymi częściami aglomeracji.\n\nTo miejsce, w którym można stworzyć dom otoczony zielenią, pozostając blisko miasta.\n\nZapraszamy do kontaktu i umówienia prezentacji działki.",
-      "price": 469900,
-      "pricePerSqm": 449.24,
-      "area": 1046,
-      "city": "Gdańsk",
-      "district": "Juszkowo",
-      "street": "ul. Wichrowe Wzgórze",
-      "lat": 54.3626525,
-      "lng": 18.5672498,
+      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
+      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
+      "price": 275000,
+      "pricePerSqm": 195.87,
+      "area": 1404,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5444674,
+      "lng": 18.2850692,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460367_max.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460331_max.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460370_max.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460373_max.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11929373",
+      "createdAt": "2026-05-03 20:51:58",
+      "updatedAt": "2026-07-27 11:24:17"
+    },
+    {
+      "id": "12113690",
+      "offerNumber": "ST982535",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Piękna działka w sąsiedztwie jeziora",
+      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 315000,
+      "pricePerSqm": 210,
+      "area": 1500,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Bukowa",
+      "lat": 54.5427708,
+      "lng": 18.2763107,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559204_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12113690",
+      "createdAt": "2026-06-17 20:36:09",
+      "updatedAt": "2026-07-27 11:22:47"
+    },
+    {
+      "id": "12164528",
+      "offerNumber": "ST732390",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
+      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
+      "price": 3400,
+      "pricePerSqm": 77.27,
+      "area": 44,
+      "rooms": 2,
+      "floor": 9,
+      "totalFloors": 17,
+      "city": "Gdańsk",
+      "district": "Stocznia",
+      "street": "ul. Wałowa",
+      "lat": 54.3593822,
+      "lng": 18.6520752,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "estiId": "385",
-        "slug": "jolanta-starnawska",
-        "fullName": "Jolanta Starnawska",
-        "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl"
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/12277856",
-      "createdAt": "2026-07-22 11:19:49",
-      "updatedAt": "2026-07-25 12:47:48"
+      "url": "https://starnawska.pl/oferty/12164528",
+      "createdAt": "2026-06-25 19:02:39",
+      "updatedAt": "2026-07-26 20:58:42"
     },
     {
       "id": "12215723",
@@ -613,71 +743,6 @@
       "url": "https://starnawska.pl/oferty/12089501",
       "createdAt": "2026-06-10 21:19:13",
       "updatedAt": "2026-07-17 10:55:33"
-    },
-    {
-      "id": "11369456",
-      "offerNumber": "ST105457",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Nowe studio Wrzeszcz - 2450 zł całość z opłatami",
-      "description": "Mieszkanie typu studio - pokój z aneksem i łazienka wyremontowane kilka miesięcy temu. Słoneczne, wysokie sufity optycznie dodają przestrzeni. Nowocześnie wykończone.\n\nUstawne, w pełni wyposażone (rozkładana sofa, szafa, biurko, regał, stolik). Aneks z małą lodówką, dwupalnikową płytą, kuchenką mikrofalową i zastawą (sztućce, talerze, szklanki, garnki itd).\nŁazienka z prysznicem. Na piętrze budynku znajduje się wspólna pralnia - 3 pralki i elektryczna suszarka. Na wyposażeniu są również odkurzacz, żelazko, deska do prasowania, suszarka stojąca.\n\nKoszt dla 1 os. 2200 zł + ok. 250 zł media (prąd, ogrzewanie, woda, Internet).\n\nBudynek bardzo zadbany. Korytarz po remoncie, stojaki rowerowe. Przy budynku bezpłatne miejsca postojowe.  \n\nLokalizacja świetnie skomunikowana zarówno z uczelniami wyższymi jak i Olivia Business Center. Dostęp do pełnej gamy środków transportu publicznego. W bezpośrednim sąsiedztwie Garnizon i liczne punkty gastronomiczne, centrum handlowe Galeria Bałtycka. W budynku siłownia, punkty usługowe.\n\nDostępne 2 mieszkania - od sierpnia i września.",
-      "price": 2200,
-      "pricePerSqm": 129.41,
-      "rent": 250,
-      "area": 17,
-      "rooms": 1,
-      "floor": 2,
-      "totalFloors": 2,
-      "city": "Gdańsk",
-      "district": "Wrzeszcz",
-      "street": "ul. Juliusza Słowackiego",
-      "lat": 54.3808784,
-      "lng": 18.596019,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964876_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964879_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964882_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964984_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964987_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964990_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964993_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964996_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11369456",
-      "createdAt": "2025-12-02 09:01:38",
-      "updatedAt": "2026-07-16 08:43:29"
     },
     {
       "id": "11993354",
@@ -1074,175 +1139,6 @@
       "url": "https://starnawska.pl/oferty/11740850",
       "createdAt": "2026-03-30 22:01:42",
       "updatedAt": "2026-07-13 21:14:53"
-    },
-    {
-      "id": "11929373",
-      "offerNumber": "ST346379",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
-      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
-      "price": 275000,
-      "pricePerSqm": 195.87,
-      "area": 1404,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5444674,
-      "lng": 18.2850692,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11929373",
-      "createdAt": "2026-05-03 20:51:58",
-      "updatedAt": "2026-07-13 18:26:03"
-    },
-    {
-      "id": "12113690",
-      "offerNumber": "ST982535",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Piękna działka w sąsiedztwie jeziora",
-      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 315000,
-      "pricePerSqm": 210,
-      "area": 1500,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Bukowa",
-      "lat": 54.5427708,
-      "lng": 18.2763107,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559204_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12113690",
-      "createdAt": "2026-06-17 20:36:09",
-      "updatedAt": "2026-07-13 18:25:43"
-    },
-    {
-      "id": "12049100",
-      "offerNumber": "ST926971",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Płaska, łatwy dojazd, bliskość przystanku",
-      "description": "Mamy do zaoferowania ładną, płaską, dobrze naświetloną działkę 978 m2.\nWjazd od południowego wschodu. Woda w drodze ok. 15m dalej.\nDroga dojazdowa gminna.\nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 190000,
-      "pricePerSqm": 194.27,
-      "area": 978,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5434013,
-      "lng": 18.2909448,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582119_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582122_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12049100/108582128_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/Xt0d8KufK-c",
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12049100",
-      "createdAt": "2026-05-28 21:52:06",
-      "updatedAt": "2026-07-13 18:25:20"
     },
     {
       "id": "10877450",
