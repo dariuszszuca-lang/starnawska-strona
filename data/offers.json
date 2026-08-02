@@ -1,6 +1,66 @@
 {
-  "lastSync": "2026-08-01T06:06:16.965Z",
+  "lastSync": "2026-08-02T05:58:40.211Z",
   "offers": [
+    {
+      "id": "12293945",
+      "offerNumber": "ST318414",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Gdynia Mały Kack | Taras | W pełni wyposażone",
+      "description": "Gdynia Mały Kack | Taras | W pełni wyposażone\n\nNa wynajem komfortowe, w pełni umeblowane mieszkanie położone na parterze kameralnego budynku przy ul. Piotrkowskiej w Gdyni - Małym Kacku.\n\nJednym z największych atutów nieruchomości jest bezpośrednie wyjście do wydzielonej części tarasu z miejscem do wypoczynku - idealnej na poranną kawę lub chwilę relaksu po pracy.\n\nMieszkanie jest gotowe do zamieszkania od 1 września 2026 r. Jasne wnętrza, funkcjonalny układ oraz duże przeszklenia zapewniają komfort i przyjemną przestrzeń do życia.\n\nAtuty\n\n• parter z wyjściem do wydzielonej, kameralnej strefy tarasowej\n• w pełni umeblowane i wyposażone\n• przestronny salon z częścią jadalnianą\n• nowoczesna, funkcjonalna kuchnia\n• światłowód w cenie\n• spokojna, zielona okolica\n• ogólnodostępne miejsca postojowe przy budynku\n\nLokalizacja\n\nMały Kack to jedna z najbardziej cenionych dzielnic Gdyni - łączy kameralny charakter z bardzo dobrą komunikacją. W pobliżu znajdują się sklepy, punkty usługowe, przystanki komunikacji miejskiej oraz szybki dojazd do centrum miasta i Obwodnicy Trójmiasta.\n\nWarunki najmu:\n\nNajem: 2 800 zł/mies.\n\nOpłaty: 1 000 zł/mies. (obejmują ogrzewanie, wodę, prąd oraz internet światłowodowy).\n\nKaucja: 3 000 zł\n\nNajem okazjonalny.\n\nOferta skierowana przede wszystkim do jednej spokojnej, niepalącej osoby. Istnieje również możliwość wynajmu przez parę. Zwierzęta nie są akceptowane.\n\nZapraszam do kontaktu i umówienia prezentacji:\nEwelina Pawelczyk \nT:530 482 592 \nepawelczyk@starnawska.pl",
+      "price": 2800,
+      "pricePerSqm": 40,
+      "rent": 1000,
+      "area": 70,
+      "rooms": 2,
+      "floor": 0,
+      "totalFloors": 2,
+      "city": "Gdynia",
+      "district": "Mały Kack",
+      "street": "ul. Piotrkowska",
+      "lat": 54.486392,
+      "lng": 18.5211174,
+      "images": [
+        {
+          "url": "/oferty/111941726.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/111941729.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941732.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941735.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941738.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941741.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941744.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl",
+        "slug": "ewelina-pawelczyk"
+      },
+      "url": "https://starnawska.pl/oferty/12293945",
+      "createdAt": "2026-07-26 19:46:31",
+      "updatedAt": "2026-08-01 12:01:11"
+    },
     {
       "id": "12113690",
       "offerNumber": "ST982535",
@@ -20,47 +80,49 @@
       "lng": 18.2763107,
       "images": [
         {
-          "url": "/oferty/109559201.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109559087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559561.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559075.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559078.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559081.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559084.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109559564.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
           "primary": false
         }
       ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12113690",
       "createdAt": "2026-06-17 20:36:09",
