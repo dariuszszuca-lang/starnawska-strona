@@ -1,6 +1,69 @@
 {
-  "lastSync": "2026-08-02T05:58:40.211Z",
+  "lastSync": "2026-08-03T06:20:07.873Z",
   "offers": [
+    {
+      "id": "12164528",
+      "offerNumber": "ST732390",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
+      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
+      "price": 3400,
+      "pricePerSqm": 77.27,
+      "area": 44,
+      "rooms": 2,
+      "floor": 9,
+      "totalFloors": 17,
+      "city": "Gdańsk",
+      "district": "Stocznia",
+      "street": "ul. Wałowa",
+      "lat": 54.3593822,
+      "lng": 18.6520752,
+      "images": [
+        {
+          "url": "/oferty/110200763.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/110200766.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200769.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200784.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200772.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200775.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200778.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200781.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl",
+        "slug": "ewelina-pawelczyk"
+      },
+      "url": "https://starnawska.pl/oferty/12164528",
+      "createdAt": "2026-06-25 19:02:39",
+      "updatedAt": "2026-08-03 04:20:07"
+    },
     {
       "id": "12293945",
       "offerNumber": "ST318414",
@@ -23,39 +86,40 @@
       "lng": 18.5211174,
       "images": [
         {
-          "url": "/oferty/111941726.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941726_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/111941729.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941729_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941732.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941732_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941735.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941735_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941738.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941738_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941741.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941741_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941744.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941744_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
         "fullName": "Ewelina Pawelczyk",
         "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "email": "epawelczyk@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12293945",
       "createdAt": "2026-07-26 19:46:31",
@@ -404,70 +468,6 @@
       "url": "https://starnawska.pl/oferty/11929373",
       "createdAt": "2026-05-03 20:51:58",
       "updatedAt": "2026-07-27 11:24:17"
-    },
-    {
-      "id": "12164528",
-      "offerNumber": "ST732390",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
-      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
-      "price": 3400,
-      "pricePerSqm": 77.27,
-      "area": 44,
-      "rooms": 2,
-      "floor": 9,
-      "totalFloors": 17,
-      "city": "Gdańsk",
-      "district": "Stocznia",
-      "street": "ul. Wałowa",
-      "lat": 54.3593822,
-      "lng": 18.6520752,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "161219",
-        "slug": "ewelina-pawelczyk",
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12164528",
-      "createdAt": "2026-06-25 19:02:39",
-      "updatedAt": "2026-07-26 20:58:42"
     },
     {
       "id": "12215723",
