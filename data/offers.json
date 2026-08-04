@@ -1,6 +1,71 @@
 {
-  "lastSync": "2026-08-03T06:20:07.873Z",
+  "lastSync": "2026-08-04T06:04:52.709Z",
   "offers": [
+    {
+      "id": "11369456",
+      "offerNumber": "ST105457",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowe studio Wrzeszcz - 2450 zł całość z opłatami",
+      "description": "Mieszkanie typu studio - pokój z aneksem i łazienka, wyremontowane. Słoneczne, wysokie sufity optycznie dodają przestrzeni. Nowocześnie wykończone.\n\nUstawne, w pełni wyposażone (rozkładana sofa, szafa, biurko, regał, stolik). Aneks z małą lodówką, dwupalnikową płytą, kuchenką mikrofalową i zastawą (sztućce, talerze, szklanki, garnki itd).\nŁazienka z prysznicem. Na piętrze budynku znajduje się wspólna pralnia - 3 pralki i elektryczna suszarka. Na wyposażeniu są również odkurzacz, żelazko, deska do prasowania, suszarka stojąca.\n\nKoszt dla 1 os. 2200 zł + ok. 300 zł media (prąd, ogrzewanie, woda, Internet).\n\nBudynek bardzo zadbany. Korytarz po remoncie, stojaki rowerowe. Przy budynku bezpłatne miejsca postojowe.  \n\nLokalizacja świetnie skomunikowana zarówno z uczelniami wyższymi jak i Olivia Business Center. Dostęp do pełnej gamy środków transportu publicznego. W bezpośrednim sąsiedztwie Garnizon i liczne punkty gastronomiczne, centrum handlowe Galeria Bałtycka. W budynku siłownia, punkty usługowe.\nRaczej dla 1 os.\n\nDostępne 2 mieszkania - od sierpnia i września.",
+      "price": 2200,
+      "pricePerSqm": 129.41,
+      "rent": 300,
+      "area": 17,
+      "rooms": 1,
+      "floor": 2,
+      "totalFloors": 2,
+      "city": "Gdańsk",
+      "district": "Wrzeszcz",
+      "street": "ul. Juliusza Słowackiego",
+      "lat": 54.3808784,
+      "lng": 18.596019,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964876_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964879_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964882_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964984_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964987_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964990_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964993_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964996_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11369456",
+      "createdAt": "2025-12-02 09:01:38",
+      "updatedAt": "2026-08-03 11:47:42"
+    },
     {
       "id": "12164528",
       "offerNumber": "ST732390",
@@ -22,43 +87,44 @@
       "lng": 18.6520752,
       "images": [
         {
-          "url": "/oferty/110200763.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110200766.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200769.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200784.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200772.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200775.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200778.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200781.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
         "fullName": "Ewelina Pawelczyk",
         "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "email": "epawelczyk@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
@@ -191,53 +257,6 @@
       "url": "https://starnawska.pl/oferty/12113690",
       "createdAt": "2026-06-17 20:36:09",
       "updatedAt": "2026-07-29 20:10:55"
-    },
-    {
-      "id": "12277856",
-      "offerNumber": "ST301814",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Juszkowo, malownicza działka.",
-      "description": "Narożna działka budowlana 1046 m² - Juszkowo, ul. Wichrowe Wzgórze\n\nNa sprzedaż narożna działka o powierzchni 1046 m², położona w malowniczej części Juszkowa, w otoczeniu zabudowy willowej i nowych domów jednorodzinnych.\n\nTo propozycja dla osób, które szukają miejsca na własny dom w zielonym, spokojnym otoczeniu, a jednocześnie chcą zachować dogodny dojazd do Pruszcza Gdańskiego i Trójmiasta.\n\nDZIAŁKA\n\n• powierzchnia: 1046 m²\n• przybliżone wymiary: 25 × 41 m\n• położenie narożne\n• działka obecnie zadrzewiona\n• dojazd drogą wyłożoną płytami jumbo\n• media w drodze: woda, prąd, gaz i kanalizacja\n• sąsiedztwo zabudowy jednorodzinnej\n\nNarożne położenie daje większą swobodę przy planowaniu wjazdu, usytuowania budynku oraz ogrodu. Istniejące zadrzewienie może natomiast stać się naturalną częścią przyszłej aranżacji posesji i zapewnić jej kameralny charakter.\n\nMIEJSCOWY PLAN ZAGOSPODAROWANIA PRZESTRZENNEGO\n\nDziałka objęta jest miejscowym planem zagospodarowania przestrzennego i przeznaczona pod zabudowę mieszkaniową jednorodzinną.\n\nPlan określa minimalną powierzchnię działki przypadającą na jeden budynek mieszkalny:\n\n• zabudowa jednorodzinna wolnostojąca - 1000 m²\n• zabudowa bliźniacza - 500 m²\n• zabudowa szeregowa - 300 m²\n\nDopuszczona została tolerancja wynosząca 10%.\n\nMinimalna powierzchnia biologicznie czynna wynosi:\n\n• 50% dla zabudowy jednorodzinnej wolnostojącej\n• 40% dla zabudowy bliźniaczej\n• 30% dla zabudowy szeregowej\n\nPlan wskazuje również obowiązek wydzielenia w obrębie dróg minimum jednego miejsca postojowego na cztery budynki lub segmenty zabudowy jednorodzinnej, niezależnie od miejsc postojowych przewidzianych na poszczególnych działkach.\n\nW obrębie zabudowy jednorodzinnej wolnostojącej dopuszczono możliwość realizacji, na wydzielonym terenie, usług związanych z obsługą ludności - z wyłączeniami określonymi w planie. W zabudowie bliźniaczej i szeregowej możliwość prowadzenia działalności została ograniczona do usług medycznych i biurowych.\n\nSzczegółowe możliwości zabudowy i usytuowania budynku należy każdorazowo potwierdzić na podstawie pełnego tekstu oraz rysunku miejscowego planu zagospodarowania przestrzennego.\n\nLOKALIZACJA\n\nJuszkowo to miejscowość wybierana przez osoby, które chcą zamieszkać poza miejskim zgiełkiem, ale nie rezygnować z dostępu do infrastruktury i wygodnego połączenia z Trójmiastem.\n\nW okolicy znajdują się tereny spacerowe, pola i dużo zieleni. Dodatkowym atutem miejscowości jest Centrum Sportu i Rekreacji nad Radunią z przystanią kajakową, boiskami, placem zabaw, siłownią zewnętrzną i miejscem do rodzinnego wypoczynku.\n\nW Juszkowie działa publiczne przedszkole, a dla tej części miejscowości szkołą obwodową jest Szkoła Podstawowa w Straszynie. W pobliskim Pruszczu Gdańskim i Straszynie dostępne są sklepy, punkty usługowe, placówki medyczne oraz pozostała infrastruktura potrzebna na co dzień.\n\nDogodny dojazd do Obwodnicy Trójmiasta ułatwia komunikację z Gdańskiem oraz pozostałymi częściami aglomeracji.\n\nTo miejsce, w którym można stworzyć dom otoczony zielenią, pozostając blisko miasta.\n\nZapraszamy do kontaktu i umówienia prezentacji działki.",
-      "price": 469900,
-      "pricePerSqm": 449.24,
-      "area": 1046,
-      "city": "Juszkowo",
-      "district": "gdański",
-      "street": "ul. Wichrowe Wzgórze",
-      "lat": 54.252953,
-      "lng": 18.5950667,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460367_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460331_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460370_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12277856/111460373_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/WjFrWoKmhz0",
-      "agent": {
-        "estiId": "385",
-        "slug": "jolanta-starnawska",
-        "fullName": "Jolanta Starnawska",
-        "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12277856",
-      "createdAt": "2026-07-22 11:19:49",
-      "updatedAt": "2026-07-28 16:30:50"
     },
     {
       "id": "12153050",
@@ -880,153 +899,6 @@
       "url": "https://starnawska.pl/oferty/11996204",
       "createdAt": "2026-05-20 06:39:41",
       "updatedAt": "2026-07-15 11:59:29"
-    },
-    {
-      "id": "11469854",
-      "offerNumber": "ST480706",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Segment skrajny",
-      "market": "wtorny",
-      "title": "Dom w cenie mieszkania |4 sypialnie| 2 łazienki.",
-      "description": "Na sprzedaż wyjątkowy dom w zabudowie szeregowej (segment skrajny) położony w prestiżowej dzielnicy Gdynia Orłowo.\nTo idealna propozycja dla osób, które cenią komfort życia w bliskości morza, a jednocześnie potrzebują miejsca, które pozwala łączyć funkcję domu i pracy w niezależnych strefach.\n\nPowierzchnia całkowita: ok. 260 m²\nPowierzchnia użytkowa: 190m2\nPowierzchnia działki: 249 m²\n\nDom przeszedł gruntowny remont w 2014 roku, modernizację kuchni dołu domu w 2018 roku oraz otrzymał nową elewację w 2022 roku.\nDodatkowym atutem jest instalacja fotowoltaiczna o mocy 6 kW, zainstalowana w marcu 2022 r. (jeszcze przed zmianami przepisów prosumenckich na net-billing), co przekłada się na bardzo niskie koszty utrzymania.\n\nRozkład pomieszczeń:\n\nPiwnica:\nPomieszczenia gospodarcze, pracownia oraz niezależne pomieszczenie z osobnym wejściem - idealne na gabinet, biuro lub przestrzeń do prowadzenia działalności.\n\nParter - strefa dzienna:\nSercem domu jest przestronny salon z kominkiem i imponującym sufitem do kalenicy, z którego można wyjść na dwa słoneczne tarasy.\nNa tym poziomie znajduje się także nowoczesna kuchnia z jadalnią, pokój gościnny oraz łazienka.\n\nPiętro:\n3 sypialnie oraz łazienka z oknem, wanną i prysznicem.\n\nPoddasze:\nPomieszczenie do pracy lub relaksu oraz garderoba.\n\nAtuty nieruchomości:\n\n✅ Świetna lokalizacja - cicha, kameralna ulica w sercu Gdyni Orłowa\n✅ 15 minut spacerem do morza i mola\n✅ Możliwość wydzielenia części domu na działalność gospodarczą lub pracownię\n✅ Dwa tarasy - idealne miejsce do wypoczynku\n✅ Kominek w salonie tworzący wyjątkowy klimat\n✅ Niskie koszty utrzymania dzięki instalacji fotowoltaicznej\n✅ Dom gotowy do wprowadzenia, bez nakładów\n\nOkolica:\n\nW zasięgu kilku minut pieszo:\n\nryneczek w Orłowie,\nsklepy, apteka, piekarnia,\nszkoły, przedszkola, przychodnie,\nprzystanki autobusowe i SKM.\n\nTo dom, w którym można komfortowo mieszkać, pracować i cieszyć się bliskością morza. \nZapraszamy na prezentacje.",
-      "price": 2299000,
-      "pricePerSqm": 8578.36,
-      "area": 268,
-      "landArea": 249,
-      "rooms": 5,
-      "totalFloors": 1,
-      "yearBuilt": 1986,
-      "city": "Gdynia",
-      "district": "Orłowo",
-      "street": "ul. Raciborska",
-      "lat": 54.4849897,
-      "lng": 18.5388281,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258227_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258281_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258230_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258239_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258245_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258251_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258248_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258242_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258263_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258269_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258278_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258254_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258221_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258224_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258260_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258257_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258233_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258236_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258275_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258272_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258284_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258299_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258302_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258305_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258287_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258290_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258293_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258296_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/ohODWj2eCmk",
-      "agent": {
-        "estiId": "385",
-        "slug": "jolanta-starnawska",
-        "fullName": "Jolanta Starnawska",
-        "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11469854",
-      "createdAt": "2026-01-08 16:45:06",
-      "updatedAt": "2026-07-14 15:46:14"
     },
     {
       "id": "11740850",
