@@ -1,71 +1,6 @@
 {
-  "lastSync": "2026-08-04T06:04:52.709Z",
+  "lastSync": "2026-08-05T05:44:46.002Z",
   "offers": [
-    {
-      "id": "11369456",
-      "offerNumber": "ST105457",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Nowe studio Wrzeszcz - 2450 zł całość z opłatami",
-      "description": "Mieszkanie typu studio - pokój z aneksem i łazienka, wyremontowane. Słoneczne, wysokie sufity optycznie dodają przestrzeni. Nowocześnie wykończone.\n\nUstawne, w pełni wyposażone (rozkładana sofa, szafa, biurko, regał, stolik). Aneks z małą lodówką, dwupalnikową płytą, kuchenką mikrofalową i zastawą (sztućce, talerze, szklanki, garnki itd).\nŁazienka z prysznicem. Na piętrze budynku znajduje się wspólna pralnia - 3 pralki i elektryczna suszarka. Na wyposażeniu są również odkurzacz, żelazko, deska do prasowania, suszarka stojąca.\n\nKoszt dla 1 os. 2200 zł + ok. 300 zł media (prąd, ogrzewanie, woda, Internet).\n\nBudynek bardzo zadbany. Korytarz po remoncie, stojaki rowerowe. Przy budynku bezpłatne miejsca postojowe.  \n\nLokalizacja świetnie skomunikowana zarówno z uczelniami wyższymi jak i Olivia Business Center. Dostęp do pełnej gamy środków transportu publicznego. W bezpośrednim sąsiedztwie Garnizon i liczne punkty gastronomiczne, centrum handlowe Galeria Bałtycka. W budynku siłownia, punkty usługowe.\nRaczej dla 1 os.\n\nDostępne 2 mieszkania - od sierpnia i września.",
-      "price": 2200,
-      "pricePerSqm": 129.41,
-      "rent": 300,
-      "area": 17,
-      "rooms": 1,
-      "floor": 2,
-      "totalFloors": 2,
-      "city": "Gdańsk",
-      "district": "Wrzeszcz",
-      "street": "ul. Juliusza Słowackiego",
-      "lat": 54.3808784,
-      "lng": 18.596019,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964876_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964879_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964882_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964984_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964987_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964990_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964993_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964996_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11369456",
-      "createdAt": "2025-12-02 09:01:38",
-      "updatedAt": "2026-08-03 11:47:42"
-    },
     {
       "id": "12164528",
       "offerNumber": "ST732390",
@@ -81,54 +16,117 @@
       "floor": 9,
       "totalFloors": 17,
       "city": "Gdańsk",
-      "district": "Stocznia",
+      "district": "Śródmieście",
       "street": "ul. Wałowa",
-      "lat": 54.3593822,
-      "lng": 18.6520752,
+      "lat": 54.3586945,
+      "lng": 18.6515173,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
+          "url": "/oferty/110200763.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
+          "url": "/oferty/110200766.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
+          "url": "/oferty/110200769.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
+          "url": "/oferty/110200784.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
+          "url": "/oferty/110200772.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
+          "url": "/oferty/110200775.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
+          "url": "/oferty/110200778.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
+          "url": "/oferty/110200781.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "estiId": "161219",
-        "slug": "ewelina-pawelczyk",
         "fullName": "Ewelina Pawelczyk",
         "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl"
+        "email": "epawelczyk@starnawska.pl",
+        "slug": "ewelina-pawelczyk"
       },
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
-      "updatedAt": "2026-08-03 04:20:07"
+      "updatedAt": "2026-08-04 19:53:38"
+    },
+    {
+      "id": "11369456",
+      "offerNumber": "ST105457",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowe studio Wrzeszcz - 2450 zł całość z opłatami",
+      "description": "Mieszkanie typu studio - pokój z aneksem i łazienka, wyremontowane. Słoneczne, wysokie sufity optycznie dodają przestrzeni. Nowocześnie wykończone.\n\nUstawne, w pełni wyposażone (rozkładana sofa, szafa, biurko, regał, stolik). Aneks z małą lodówką, dwupalnikową płytą, kuchenką mikrofalową i zastawą (sztućce, talerze, szklanki, garnki itd).\nŁazienka z prysznicem. Na piętrze budynku znajduje się wspólna pralnia - 3 pralki i elektryczna suszarka. Na wyposażeniu są również odkurzacz, żelazko, deska do prasowania, suszarka stojąca.\n\nKoszt dla 1 os. 2250 zł + ok. 250 zł media (prąd, ogrzewanie, woda, Internet).\n\nBudynek bardzo zadbany. Korytarz po remoncie, stojaki rowerowe. Przy budynku bezpłatne miejsca postojowe.  Wspólna pralnia na piętrze.\n\nLokalizacja świetnie skomunikowana zarówno z uczelniami wyższymi jak i Olivia Business Center. Dostęp do pełnej gamy środków transportu publicznego. W bezpośrednim sąsiedztwie Garnizon i liczne punkty gastronomiczne, centrum handlowe Galeria Bałtycka. W budynku siłownia, punkty usługowe.\nRaczej dla 1 os.\n\nDostępne 2 mieszkania - od sierpnia i września.",
+      "price": 2250,
+      "pricePerSqm": 132.35,
+      "rent": 300,
+      "area": 17,
+      "rooms": 1,
+      "floor": 2,
+      "totalFloors": 2,
+      "city": "Gdańsk",
+      "district": "Wrzeszcz",
+      "street": "ul. Juliusza Słowackiego",
+      "lat": 54.3808784,
+      "lng": 18.596019,
+      "images": [
+        {
+          "url": "/oferty/100964876.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/100964879.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/100964882.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/100964984.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/100964987.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/100964990.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/100964993.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/100964996.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/11369456",
+      "createdAt": "2025-12-02 09:01:38",
+      "updatedAt": "2026-08-04 19:36:13"
     },
     {
       "id": "12293945",
