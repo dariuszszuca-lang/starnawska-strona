@@ -1,6 +1,290 @@
 {
-  "lastSync": "2026-08-05T05:44:46.002Z",
+  "lastSync": "2026-08-06T06:13:16.022Z",
   "offers": [
+    {
+      "id": "12313262",
+      "offerNumber": "ST912145",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Rekreacyjna",
+      "market": "wtorny",
+      "title": "Widok na Jezioro, wszystkie media w drodze",
+      "description": "Widok na Jezioro Żarnowieckie |  993 m²  | MPZP - zabudowa letniskowa | wszystkie media w drodze.\nPOLECAMY!\n\nNa sprzedaż atrakcyjna działka o powierzchni 993 m² położona w malowniczym Nadolu (gmina Gniewino), z pięknym widokiem na Jezioro Żarnowieckie.\n\nJest to doskonała propozycja dla osób marzących o własnym domu letniskowym lub szukających nieruchomości inwestycyjnej w jednej z najbardziej atrakcyjnych lokalizacji na Kaszubach.\nLokalizacja zapewnia szybki dojazd do nadmorskich miejscowości oraz Trójmiasta.\n\nNajważniejsze informacje:\n✔ powierzchnia: 993 m²\n✔ numer działki: 40/7\n✔ regularny kształt zbliżony do prostokąta\n✔ MPZP ML - 20% powierzchni zabudowy\n✔ media w drodze: prąd, woda, gaz oraz kanalizacja\n✔ spokojna i malownicza okolica\n\nPrzeznaczenie \nDziałka objęta jest Miejscowym Planem Zagospodarowania Przestrzennego i znajduje się na terenie oznaczonym symbolem 10.ML - zabudowa letniskowa.\n\nNajważniejsze ustalenia planu:\nzabudowa letniskowa,\nmaksymalna powierzchnia zabudowy - 20% powierzchni działki,\nidealne miejsce pod budowę domu rekreacyjnego lub całorocznego domku letniskowego.\n\nLokalizacja:\nNadole to jedna z najbardziej cenionych miejscowości położonych nad Jeziorem Żarnowieckim. To miejsce łączy spokój, bliskość natury oraz dostęp do licznych atrakcji turystycznych.\nW okolicy znajdują się:\nJezioro Żarnowieckie i przystań,\ntereny spacerowe i rowerowe,\nlasy,\npunkty gastronomiczne,\natrakcje turystyczne gminy Gniewino, w tym Kaszubskie Oko.\n\nZapraszam do kontaktu. Chętnie odpowiem na wszystkie pytania oraz przedstawię szczegóły oferty.",
+      "price": 299000,
+      "pricePerSqm": 301.11,
+      "area": 993,
+      "city": "Nadole",
+      "district": "wejherowski",
+      "street": "ul. Podgórna",
+      "lat": 54.7453887,
+      "lng": 18.0524172,
+      "images": [
+        {
+          "url": "/oferty/112139249.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/112158344.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/112139024.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/112139357.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/112139087.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Las w pobliżu",
+        "Jezioro w pobliżu",
+        "Sklep spożywczy"
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12313262",
+      "createdAt": "2026-07-31 14:59:51",
+      "updatedAt": "2026-08-05 17:28:08"
+    },
+    {
+      "id": "12113690",
+      "offerNumber": "ST982535",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Płaska działka w sąsiedztwie jeziora i lasów",
+      "description": "Szukasz miejsca poza miastem, wśród lasów i jezior na zamieszkanie  i z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \nŚwiatłowód.\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 315000,
+      "pricePerSqm": 210,
+      "area": 1500,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Bukowa",
+      "lat": 54.5427708,
+      "lng": 18.2763107,
+      "images": [
+        {
+          "url": "/oferty/109559087.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/109559075.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559078.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559081.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559561.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559201.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559084.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109559564.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12113690",
+      "createdAt": "2026-06-17 20:36:09",
+      "updatedAt": "2026-08-05 17:22:42"
+    },
+    {
+      "id": "12153050",
+      "offerNumber": "ST628533",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Wolnostojący",
+      "market": "wtorny",
+      "title": "Zaledwie 30 minut od Gdańska, dom parterowy",
+      "description": "Parterowy dom w otoczeniu lasów i jezior - idealny dla rodziny lub dwóch rodzin, zaledwie 30 minut od Gdańska!\n\nZapraszamy do zapoznania się z ofertą  domu położonego w malowniczej okolicy, wśród lasów i w bezpośrednim sąsiedztwie jezior. \nZe względu na dodatkowe niezależne mieszkanie na poddaszu z osobnym wejściem, to idealna propozycja dla osób poszukujących dodatkowej przestrzeni do pracy, prowadzenia działalności, pracowni czy warsztatu, albo mieszkania dla dorastającego dziecka, młodej pary.\n\nNajważniejsze atuty nieruchomości:\n\nDom parterowy o powierzchni użytkowej 128,8 m²\nDodatkowe mieszkanie na poddaszu o powierzchni 76 m² po podłodze (51 m² użytkowej)\nŁącznie dom oferuje 5 sypialni, 2 łazienki, osobne WC oraz dwie niezależne strefy mieszkalne.\nPięknie zagospodarowana działka o powierzchni 993 m²\nGaraż w bryle budynku oraz przestronny podjazd na kilka samochodów\nFotowoltaika o mocy 9,88 kW\nBiologiczna oczyszczalnia ścieków\nOgrzewanie ekonomicznym piecem na pellet\nKameralna lokalizacja przy ślepej uliczce, tuż przy lesie\n\nDom i działka.\nNieruchomość została wybudowana tradycyjną metodą w 2005 roku. Działka o powierzchni 993 m² jest płaska, starannie zagospodarowana i doskonale przemyślana pod kątem codziennego komfortu mieszkańców.\nW ogrodzie znajdują się liczne miejsca do wypoczynku, dwa pomieszczenia gospodarcze: warsztat, obszerne przestrzenie do przechowywania oraz duża drewutnia połączona z miejscem na pojemniki na odpady.\nW 2018  zainstalowano  biologiczną oczyszczalnię ścieków, a w 2020 roku zamontowano instalację fotowoltaiczną o mocy 9,88 kW, której produkcja energii elektrycznej z instalacji całkowicie pokrywa potrzeby domu (płacone są cały rok tylko koszty przesyłu).  Dodatkowo na posesji znajduje się duży zbiornik na deszczówkę z pompą umożliwiającą podlewanie ogrodu.\nCała posesja jest ogrodzona i wyposażona w automatyczną bramę wjazdową sterowaną pilotem.\nDom posiada również instalację alarmową (centralka połączona z firmą ochroniarską SOLID) i monitoring wizyjny (kamery) obejmujący całą posesję.\n\nParter - komfortowa przestrzeń dla rodziny. \nNa powierzchnię 128,8 m² składają się:\nprzestronny salon połączony z kuchnią o łącznej powierzchni blisko 50 m²,\ntrzy sypialnie,\nłazienka,\nosobne WC,\nduża garderoba,\nhol,\nwiatrołap.\nJasny salon z kominkiem stanowi serce domu. Kominek posiada funkcję wspomagania ogrzewania poprzez podgrzewanie grzejników na parterze. Z salonu prowadzą dwa wyjścia na wygodny, kameralny taras od strony zachodniej. \nW 2021 roku przeprowadzono modernizację obejmującą remont łazienek, odświeżenie części pomieszczeń, wymianę podłóg oraz zakup nowego sprzętu AGD.\nW cenie nieruchomości mogą pozostać wszystkie meble oraz wyposażenie AGD.\n\nNiezależne mieszkanie na poddaszu.\nNa piętrze, do którego prowadzi osobne wejście, znajduje się niezależne mieszkanie o powierzchni 76 m² po podłodze (51 m² powierzchni użytkowej). W jego skład wchodzą:\ndwie sypialnie,\nkuchnia połączona ze strefą dzienną,\nduża łazienka,\nprzedpokój z pojemną szafą garderobianą.\n\nIstnieje również możliwość połączenia obu kondygnacji wewnętrzną klatką schodową - miejsce na takie rozwiązanie zostało przewidziane w projekcie domu, dzięki czemu łącznie dom oferuje 5 sypialni, 2 łazienki, osobne WC oraz dwie niezależne strefy mieszkalne.\n\nLokalizacja.\nNieruchomość znajduje się w spokojnym sąsiedztwie domów jednorodzinnych całorocznych oraz letniskowych. Do posesji prowadzi ślepa uliczka zakończona lasem, co gwarantuje ciszę, prywatność i bezpieczeństwo.\nZaledwie kilka minut spacerem dzieli dom od najbliższego jeziora. W okolicy znajdują się liczne tereny rekreacyjne, jeziora, rezerwat przyrody, trasy rowerowe i konne, stadniny oraz kąpieliska.\n\nBieszkowice - wyjątkowe miejsce do życia.\nBieszkowice to malownicza, historyczna wieś kaszubska położona w powiecie wejherowskim, na terenie Trójmiejskiego Parku Krajobrazowego. Miejscowość otaczają lasy i jeziora, a jej historia sięga czasów średniowiecza.\nWe wsi znajdują się świetlica, biblioteka oraz boisko. Szkoła, przedszkole, kościół, sklepy i paczkomaty zlokalizowane są w pobliskiej miejscowości, oddalonej o kilka minut jazdy samochodem lub autobusem.\nDo Wejherowa i Redy można dojechać w kilkanaście minut, natomiast do Gdyni w około 30 minut. Dodatkowym atutem jest bardzo dogodny dostęp do Trasy Kaszubskiej - do węzła Koleczkowo dojedziemy w zaledwie kilka minut.\n\nDodatkowa możliwość zakupu działki.\nIstnieje możliwość zakupu sąsiedniej działki o powierzchni 991 m² w cenie 215 000 zł. Obecnie znajduje się na niej warzywnik, miejsce na ognisko oraz plac zabaw.\n\nTo wyjątkowa oferta dla osób poszukujących komfortowego domu w otoczeniu natury, z możliwością zamieszkania dwóch rodzin lub stworzenia niezależnej przestrzeni do pracy i realizacji pasji.\n\nSerdecznie zapraszamy do kontaktu i umówienia prezentacji nieruchomości!",
+      "price": 1390000,
+      "pricePerSqm": 9527.07,
+      "area": 145.9,
+      "landArea": 993,
+      "rooms": 4,
+      "totalFloors": 1,
+      "yearBuilt": 2005,
+      "city": "Bieszkowice",
+      "district": "wejherowski",
+      "street": "ul. Promienna",
+      "lat": 54.5139153,
+      "lng": 18.2897742,
+      "images": [
+        {
+          "url": "/oferty/109987928.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/109987946.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987964.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987943.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988009.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987997.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988000.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988003.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988006.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987979.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987973.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987994.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987982.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987988.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988018.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987967.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988021.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987937.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987913.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987916.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987961.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987901.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987958.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988105.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988045.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988024.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988036.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988060.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988057.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988066.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988078.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109988087.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987895.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109987877.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12153050",
+      "createdAt": "2026-06-23 16:33:05",
+      "updatedAt": "2026-08-05 17:19:40"
+    },
     {
       "id": "12164528",
       "offerNumber": "ST732390",
@@ -22,43 +306,44 @@
       "lng": 18.6515173,
       "images": [
         {
-          "url": "/oferty/110200763.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110200766.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200769.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200784.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200772.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200775.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200778.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200781.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
         "fullName": "Ewelina Pawelczyk",
         "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "email": "epawelczyk@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
@@ -86,43 +371,44 @@
       "lng": 18.596019,
       "images": [
         {
-          "url": "/oferty/100964876.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964876_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/100964879.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964879_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100964882.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964882_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100964984.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964984_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100964987.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964987_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100964990.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964990_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100964993.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964993_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/100964996.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964996_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11369456",
       "createdAt": "2025-12-02 09:01:38",
@@ -188,244 +474,6 @@
       "url": "https://starnawska.pl/oferty/12293945",
       "createdAt": "2026-07-26 19:46:31",
       "updatedAt": "2026-08-01 12:01:11"
-    },
-    {
-      "id": "12113690",
-      "offerNumber": "ST982535",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Piękna działka w sąsiedztwie jeziora",
-      "description": "Szukasz cudownego miejsca na zamieszkanie z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 315000,
-      "pricePerSqm": 210,
-      "area": 1500,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Bukowa",
-      "lat": 54.5427708,
-      "lng": 18.2763107,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559204_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12113690",
-      "createdAt": "2026-06-17 20:36:09",
-      "updatedAt": "2026-07-29 20:10:55"
-    },
-    {
-      "id": "12153050",
-      "offerNumber": "ST628533",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Wolnostojący",
-      "market": "wtorny",
-      "title": "Parterowy dom zaledwie 30 minut od Gdańska",
-      "description": "Parterowy dom w otoczeniu lasów i jezior - idealny dla rodziny lub dwóch rodzin, zaledwie 30 minut od Gdańska!\n\nZapraszamy do zapoznania się z ofertą  domu położonego w malowniczej okolicy, wśród lasów i w bezpośrednim sąsiedztwie jezior. \nZe względu na dodatkowe niezależne mieszkanie na poddaszu z osobnym wejściem, to idealna propozycja dla osób poszukujących dodatkowej przestrzeni do pracy, prowadzenia działalności, pracowni czy warsztatu, albo mieszkania dla dorastającego dziecka, młodej pary.\n\nNajważniejsze atuty nieruchomości:\n\nDom parterowy o powierzchni użytkowej 128,8 m²\nDodatkowe mieszkanie na poddaszu o powierzchni 76 m² po podłodze (51 m² użytkowej)\nŁącznie dom oferuje 5 sypialni, 2 łazienki, osobne WC oraz dwie niezależne strefy mieszkalne.\nPięknie zagospodarowana działka o powierzchni 993 m²\nGaraż w bryle budynku oraz przestronny podjazd na kilka samochodów\nFotowoltaika o mocy 9,88 kW\nBiologiczna oczyszczalnia ścieków\nOgrzewanie ekonomicznym piecem na pellet\nKameralna lokalizacja przy ślepej uliczce, tuż przy lesie\n\nDom i działka.\nNieruchomość została wybudowana tradycyjną metodą w 2005 roku. Działka o powierzchni 993 m² jest płaska, starannie zagospodarowana i doskonale przemyślana pod kątem codziennego komfortu mieszkańców.\nW ogrodzie znajdują się liczne miejsca do wypoczynku, dwa pomieszczenia gospodarcze: warsztat, obszerne przestrzenie do przechowywania oraz duża drewutnia połączona z miejscem na pojemniki na odpady.\nW 2018  zainstalowano  biologiczną oczyszczalnię ścieków, a w 2020 roku zamontowano instalację fotowoltaiczną o mocy 9,88 kW, której produkcja energii elektrycznej z instalacji całkowicie pokrywa potrzeby domu (płacone są cały rok tylko koszty przesyłu).  Dodatkowo na posesji znajduje się duży zbiornik na deszczówkę z pompą umożliwiającą podlewanie ogrodu.\nCała posesja jest ogrodzona i wyposażona w automatyczną bramę wjazdową sterowaną pilotem.\nDom posiada również instalację alarmową (centralka połączona z firmą ochroniarską SOLID) i monitoring wizyjny (kamery) obejmujący całą posesję.\n\nParter - komfortowa przestrzeń dla rodziny. \nNa powierzchnię 128,8 m² składają się:\nprzestronny salon połączony z kuchnią o łącznej powierzchni blisko 50 m²,\ntrzy sypialnie,\nłazienka,\nosobne WC,\nduża garderoba,\nhol,\nwiatrołap.\nJasny salon z kominkiem stanowi serce domu. Kominek posiada funkcję wspomagania ogrzewania poprzez podgrzewanie grzejników na parterze. Z salonu prowadzą dwa wyjścia na wygodny, kameralny taras od strony zachodniej. \nW 2021 roku przeprowadzono modernizację obejmującą remont łazienek, odświeżenie części pomieszczeń, wymianę podłóg oraz zakup nowego sprzętu AGD.\nW cenie nieruchomości mogą pozostać wszystkie meble oraz wyposażenie AGD.\n\nNiezależne mieszkanie na poddaszu.\nNa piętrze, do którego prowadzi osobne wejście, znajduje się niezależne mieszkanie o powierzchni 76 m² po podłodze (51 m² powierzchni użytkowej). W jego skład wchodzą:\ndwie sypialnie,\nkuchnia połączona ze strefą dzienną,\nduża łazienka,\nprzedpokój z pojemną szafą garderobianą.\n\nIstnieje również możliwość połączenia obu kondygnacji wewnętrzną klatką schodową - miejsce na takie rozwiązanie zostało przewidziane w projekcie domu, dzięki czemu łącznie dom oferuje 5 sypialni, 2 łazienki, osobne WC oraz dwie niezależne strefy mieszkalne.\n\nLokalizacja.\nNieruchomość znajduje się w spokojnym sąsiedztwie domów jednorodzinnych całorocznych oraz letniskowych. Do posesji prowadzi ślepa uliczka zakończona lasem, co gwarantuje ciszę, prywatność i bezpieczeństwo.\nZaledwie kilka minut spacerem dzieli dom od najbliższego jeziora. W okolicy znajdują się liczne tereny rekreacyjne, jeziora, rezerwat przyrody, trasy rowerowe i konne, stadniny oraz kąpieliska.\n\nBieszkowice - wyjątkowe miejsce do życia.\nBieszkowice to malownicza, historyczna wieś kaszubska położona w powiecie wejherowskim, na terenie Trójmiejskiego Parku Krajobrazowego. Miejscowość otaczają lasy i jeziora, a jej historia sięga czasów średniowiecza.\nWe wsi znajdują się świetlica, biblioteka oraz boisko. Szkoła, przedszkole, kościół, sklepy i paczkomaty zlokalizowane są w pobliskiej miejscowości, oddalonej o kilka minut jazdy samochodem lub autobusem.\nDo Wejherowa i Redy można dojechać w kilkanaście minut, natomiast do Gdyni w około 30 minut. Dodatkowym atutem jest bardzo dogodny dostęp do Trasy Kaszubskiej - do węzła Koleczkowo dojedziemy w zaledwie kilka minut.\n\nDodatkowa możliwość zakupu działki.\nIstnieje możliwość zakupu sąsiedniej działki o powierzchni 991 m² w cenie 215 000 zł. Obecnie znajduje się na niej warzywnik, miejsce na ognisko oraz plac zabaw.\n\nTo wyjątkowa oferta dla osób poszukujących komfortowego domu w otoczeniu natury, z możliwością zamieszkania dwóch rodzin lub stworzenia niezależnej przestrzeni do pracy i realizacji pasji.\n\nSerdecznie zapraszamy do kontaktu i umówienia prezentacji nieruchomości!",
-      "price": 1390000,
-      "pricePerSqm": 9527.07,
-      "area": 145.9,
-      "landArea": 993,
-      "rooms": 4,
-      "totalFloors": 1,
-      "yearBuilt": 2005,
-      "city": "Bieszkowice",
-      "district": "wejherowski",
-      "street": "ul. Promienna",
-      "lat": 54.5139153,
-      "lng": 18.2897742,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987928_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987946_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987964_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987943_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988009_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987997_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988000_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988003_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988006_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987979_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987973_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987994_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987982_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987988_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988018_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987967_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988021_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987937_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987913_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987916_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987961_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987901_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987958_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988105_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988045_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988024_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988036_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988060_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988057_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988066_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988078_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988087_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987895_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987877_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/CzuNI5HxHcM",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12153050",
-      "createdAt": "2026-06-23 16:33:05",
-      "updatedAt": "2026-07-28 11:45:38"
     },
     {
       "id": "11929373",

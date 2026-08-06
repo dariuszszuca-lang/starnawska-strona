@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T05:44:46.015Z",
-  "package": "EstiCRM_18_20260804200101.zip",
+  "generatedAt": "2026-08-06T06:13:16.100Z",
+  "package": "EstiCRM_18_20260805180103.zip",
   "exportAttr": "incremental",
-  "totalInExport": 2,
+  "totalInExport": 3,
   "offer12049010Present": false,
   "offer12049010Status": null,
   "allFieldNamesSample": [
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "11369456",
+      "id": "12113690",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST105457",
+        "numberExport": "ST982535",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-04 19:36:13",
-        "exportDate": "2026-08-04 19:36:13",
+        "exportGalleryDate": "2026-08-05 17:22:42",
+        "exportDate": "2026-08-05 17:22:42",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Nowe studio Wrzeszcz - 2450 zł całość z opłatami",
+        "portalTitle": "Płaska działka w sąsiedztwie jeziora i lasów",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
@@ -312,19 +312,53 @@
       }
     },
     {
-      "id": "12164528",
+      "id": "12153050",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST732390",
+        "numberExport": "ST628533",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-03 04:20:07",
-        "exportDate": "2026-08-04 19:53:38",
+        "exportGalleryDate": "2026-08-05 17:19:40",
+        "exportDate": "2026-08-05 17:19:40",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
+        "portalTitle": "Zaledwie 30 minut od Gdańska, dom parterowy",
+        "portalPromote": "",
+        "portalWwwTitle": "",
+        "contactStatus": "11",
+        "locationExportCityName": "",
+        "locationExportStreetName": "",
+        "locationExportStreetType": "",
+        "locationExportStreetCustom": "",
+        "locationExportPrecinctName": "",
+        "locationExportParentPrecinctName": "",
+        "locationExportCommuneName": "",
+        "locationExportDistrictName": "",
+        "locationExportProvinceName": "",
+        "locationExportPlaceName": "",
+        "locationExportCountryName": "",
+        "portalEnglishTitle": "",
+        "locationExportCityBiurowin": "",
+        "locationExportPrecinctBiurowin": "",
+        "locationExportStreetBiurowin": ""
+      }
+    },
+    {
+      "id": "12313262",
+      "status": {
+        "companyStatus": "11",
+        "offerExport": "1",
+        "numberExport": "ST912145",
+        "numberExportDate": "",
+        "exportGalleryDate": "2026-08-05 17:17:34",
+        "exportDate": "2026-08-05 17:28:08",
+        "status": {
+          "#text": "3",
+          "@_dictionary": "status"
+        },
+        "portalTitle": "Widok na Jezioro, wszystkie media w drodze",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
