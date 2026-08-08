@@ -1,6 +1,148 @@
 {
-  "lastSync": "2026-08-07T05:39:48.815Z",
+  "lastSync": "2026-08-08T05:38:56.990Z",
   "offers": [
+    {
+      "id": "12326333",
+      "offerNumber": "ST105872",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Ogródek, balkon, 2 MP w hali i 2 komórki W CENIE",
+      "description": "Wyjątkowy dwupoziomowy apartament z własnym ogrodem - komfort domu w świetnej lokalizacji!\n\nSzukasz nieruchomości, która łączy niezależność domu jednorodzinnego z wygodą mieszkania w budynku wielorodzinnym? Ta oferta jest właśnie dla Ciebie!\n\nPrezentujemy przestronne mieszkanie o unikalnym układzie dwupoziomowym (parter i pierwsze piętro), wykończone z najwyższą dbałością o detale przy użyciu eleganckich materiałów. Pierwotny układ 4-pokojowy został ergonomicznie przekształcony w komfortową przestrzeń 3-pokojową, idealną dla wymagających klientów.\n\nParter - Strefa dzienna i relaks\nPrzestronny salon: Jasny, z wyraźnie wydzieloną strefą wypoczynkową oraz jadalnianą.\n\nKuchnia w zabudowie: W pełni wyposażona, oferująca mnóstwo miejsca do przechowywania i blatów roboczych do gotowania.\n\nPraktyczna spiżarnia/pomieszczenie gospodarcze: Tuż obok kuchni, niezwykle pomocne na co dzień.\n\nToaleta: Dyskretnie zlokalizowana w strefie wejściowej.\n\nPrywatny ogród: Wyjście z salonu prowadzi do pięknie urządzonego, zadbanego ogrodu z zadaszonym tarasem. Dzięki zamontowanym ekranom chroniącym przed wiatrem, taras stanowi idealne miejsce do wypoczynku nawet w chłodniejsze dni.\n\nPiętro - Strefa prywatna\nEleganckie schody: Drewniane, z praktycznymi, dodatkowymi schowkami wbudowanymi w konstrukcji.\n\nGłówna sypialnia: Obszerna, z bezpośrednim wyjściem na balkon.\n\nDrugi pokój: Doskonała przestrzeń na pokój dziecięcy, domowe biuro lub sypialnię gościnną.\n\nElegancka łazienka: Wyposażona w podwójną umywalkę oraz komfortowy, przestronny prysznic..\n\nGarderoba: Znajdująca się w holu, zapewniająca mnóstwo miejsca na odzież i akcesoria.\n\nWystawa okienna: Południowy zachód - mieszkanie jest niezwykle słoneczne i jasne przez cały dzień.\n\nDODATKI W CENIE:\n Do lokalu przynależą aż 2 miejsca postojowe w hali garażowej (w tym jedno o ponadstandardowej wielkości!) oraz 2 komórki lokatorskie (3,6 m² i 3,7 m²).\n\nOsiedle w pełni ogrodzone i monitorowane. Dla komfortu mieszkańców zaplanowano ogólnodostępne zewnętrzne miejsca postojowe dla gości oraz plac zabaw dla najmłodszych. Budynek wyposażony w windę. \n\nNieruchomość położona w świetnie skomunikowanej okolicy z pełną infrastrukturą handlowo-usługową w pobliżu (nowoczesne szkoły, przedszkola, parki handlowe, sklepy i restauracje). Ogromnym atutem jest również bardzo dobry i szybki dojazd do malowniczej plaży w Mechelinkach oraz Babich Dołach.\n\nTo nieruchomość, w której zakochasz się od pierwszego wejrzenia. Serdecznie zapraszam na prezentację!",
+      "price": 1310000,
+      "pricePerSqm": 15057.47,
+      "rent": 1200,
+      "area": 87,
+      "rooms": 3,
+      "floor": 0,
+      "totalFloors": 3,
+      "yearBuilt": 2017,
+      "city": "Pogórze",
+      "district": "pucki",
+      "street": "ul. Tadeusza Kościuszki",
+      "lat": 54.5708784,
+      "lng": 18.49617,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112124549_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123805_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123772_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123811_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112124555_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123769_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123826_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123829_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123823_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123832_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123763_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123751_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123760_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123289_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123709_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123724_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123721_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123301_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123739_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123766_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123757_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123754_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123217_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123211_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123220_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123223_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123250_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12326333",
+      "createdAt": "2026-08-05 09:13:29",
+      "updatedAt": "2026-08-07 10:43:57"
+    },
     {
       "id": "12154073",
       "offerNumber": "ST645923",
@@ -23,85 +165,76 @@
       "lng": 18.625553,
       "images": [
         {
-          "url": "/oferty/109998479.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998479_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109999172.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999172_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998461.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998461_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998485.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998485_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997903.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997903_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997969.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997969_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997891.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997891_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110000183.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/110000183_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109999151.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999151_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997999.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997999_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997816.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997816_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997834.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997834_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997843.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997843_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997930.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997930_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997984.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997984_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998515.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998515_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Park w pobliżu",
-        "Tramwaj",
-        "Autobus",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12154073",
       "createdAt": "2026-06-23 19:33:22",
@@ -705,71 +838,6 @@
       "url": "https://starnawska.pl/oferty/12153050",
       "createdAt": "2026-06-23 16:33:05",
       "updatedAt": "2026-08-05 17:19:40"
-    },
-    {
-      "id": "11369456",
-      "offerNumber": "ST105457",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Nowe studio Wrzeszcz - 2450 zł całość z opłatami",
-      "description": "Mieszkanie typu studio - pokój z aneksem i łazienka, wyremontowane. Słoneczne, wysokie sufity optycznie dodają przestrzeni. Nowocześnie wykończone.\n\nUstawne, w pełni wyposażone (rozkładana sofa, szafa, biurko, regał, stolik). Aneks z małą lodówką, dwupalnikową płytą, kuchenką mikrofalową i zastawą (sztućce, talerze, szklanki, garnki itd).\nŁazienka z prysznicem. Na piętrze budynku znajduje się wspólna pralnia - 3 pralki i elektryczna suszarka. Na wyposażeniu są również odkurzacz, żelazko, deska do prasowania, suszarka stojąca.\n\nKoszt dla 1 os. 2250 zł + ok. 250 zł media (prąd, ogrzewanie, woda, Internet).\n\nBudynek bardzo zadbany. Korytarz po remoncie, stojaki rowerowe. Przy budynku bezpłatne miejsca postojowe.  Wspólna pralnia na piętrze.\n\nLokalizacja świetnie skomunikowana zarówno z uczelniami wyższymi jak i Olivia Business Center. Dostęp do pełnej gamy środków transportu publicznego. W bezpośrednim sąsiedztwie Garnizon i liczne punkty gastronomiczne, centrum handlowe Galeria Bałtycka. W budynku siłownia, punkty usługowe.\nRaczej dla 1 os.\n\nDostępne 2 mieszkania - od sierpnia i września.",
-      "price": 2250,
-      "pricePerSqm": 132.35,
-      "rent": 300,
-      "area": 17,
-      "rooms": 1,
-      "floor": 2,
-      "totalFloors": 2,
-      "city": "Gdańsk",
-      "district": "Wrzeszcz",
-      "street": "ul. Juliusza Słowackiego",
-      "lat": 54.3808784,
-      "lng": 18.596019,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964876_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964879_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964882_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964984_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964987_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964990_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964993_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11369456/100964996_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11369456",
-      "createdAt": "2025-12-02 09:01:38",
-      "updatedAt": "2026-08-04 19:36:13"
     },
     {
       "id": "11929373",
