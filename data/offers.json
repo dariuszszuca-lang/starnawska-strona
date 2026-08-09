@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-08T05:38:56.990Z",
+  "lastSync": "2026-08-09T06:09:30.730Z",
   "offers": [
     {
       "id": "12326333",
@@ -475,80 +475,87 @@
       "lng": 18.54306,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741015_max.jpg",
+          "url": "/oferty/62741015.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741009_max.jpg",
+          "url": "/oferty/62741009.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741012_max.jpg",
+          "url": "/oferty/62741012.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741018_max.jpg",
+          "url": "/oferty/62741018.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741021_max.jpg",
+          "url": "/oferty/62741021.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741024_max.jpg",
+          "url": "/oferty/62741024.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741027_max.jpg",
+          "url": "/oferty/62741027.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741030_max.jpg",
+          "url": "/oferty/62741030.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741033_max.jpg",
+          "url": "/oferty/62741033.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741036_max.jpg",
+          "url": "/oferty/62741036.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741039_max.jpg",
+          "url": "/oferty/62741039.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741042_max.jpg",
+          "url": "/oferty/62741042.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741045_max.jpg",
+          "url": "/oferty/62741045.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741054_max.jpg",
+          "url": "/oferty/62741054.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741057_max.jpg",
+          "url": "/oferty/62741057.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741060_max.jpg",
+          "url": "/oferty/62741060.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741063_max.jpg",
+          "url": "/oferty/62741063.jpg",
           "primary": false
         }
       ],
+      "features": [
+        "Autobus",
+        "Kolejka SKM",
+        "Przedszkole",
+        "Szkoła podstawowa",
+        "Sklep spożywczy",
+        "Apteka"
+      ],
       "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
       },
       "url": "https://starnawska.pl/oferty/7986752",
       "createdAt": "2023-10-27 08:34:41",
