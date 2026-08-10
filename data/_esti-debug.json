@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-09T06:09:30.745Z",
-  "package": "EstiCRM_18_20260808130103.zip",
+  "generatedAt": "2026-08-10T05:34:57.302Z",
+  "package": "EstiCRM_18_20260809100109.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -284,8 +284,8 @@
         "offerExport": "1",
         "numberExport": "ST187404",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-06 08:00:22",
-        "exportDate": "2026-08-08 12:28:51",
+        "exportGalleryDate": "2026-08-09 09:25:31",
+        "exportDate": "2026-08-09 09:25:31",
         "status": {
           "#text": "3",
           "@_dictionary": "status"

@@ -1,6 +1,124 @@
 {
-  "lastSync": "2026-08-09T06:09:30.730Z",
+  "lastSync": "2026-08-10T05:34:57.289Z",
   "offers": [
+    {
+      "id": "7986752",
+      "offerNumber": "ST187404",
+      "transaction": "najem",
+      "type": "lokal",
+      "typeDetail": "Biuro",
+      "market": "wtorny",
+      "title": "Przestronne mieszkanie w kamienicy w centrum",
+      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 M2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. Obecne będzie odświeżone. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji. Doskonała propozycja jako lokalizacja dla biura.",
+      "price": 5900,
+      "pricePerSqm": 49.84,
+      "rent": 1300,
+      "area": 118.39,
+      "rooms": 5,
+      "floor": 1,
+      "totalFloors": 5,
+      "yearBuilt": 1927,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Świętojańska",
+      "lat": 54.51992,
+      "lng": 18.54306,
+      "images": [
+        {
+          "url": "/oferty/62741015.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/62741009.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741012.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741018.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741021.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741024.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741027.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741030.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741033.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741036.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741039.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741042.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741045.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741054.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741057.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741060.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/112320593.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/112320596.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/62741063.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Autobus",
+        "Kolejka SKM",
+        "Przedszkole",
+        "Szkoła podstawowa",
+        "Sklep spożywczy",
+        "Apteka"
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/7986752",
+      "createdAt": "2023-10-27 08:34:41",
+      "updatedAt": "2026-08-09 09:25:31"
+    },
     {
       "id": "12326333",
       "offerNumber": "ST105872",
@@ -450,116 +568,6 @@
       "url": "https://starnawska.pl/oferty/12293945",
       "createdAt": "2026-07-26 19:46:31",
       "updatedAt": "2026-08-06 13:55:40"
-    },
-    {
-      "id": "7986752",
-      "offerNumber": "ST187404",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Biuro",
-      "market": "wtorny",
-      "title": "Przestronne mieszkanie w kamienicy w centrum",
-      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 M2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. Obecne będzie odświeżone. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji. Doskonała propozycja jako lokalizacja dla biura.",
-      "price": 5900,
-      "pricePerSqm": 49.84,
-      "rent": 1300,
-      "area": 118.39,
-      "rooms": 5,
-      "floor": 1,
-      "totalFloors": 5,
-      "yearBuilt": 1927,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Świętojańska",
-      "lat": 54.51992,
-      "lng": 18.54306,
-      "images": [
-        {
-          "url": "/oferty/62741015.jpg",
-          "primary": true
-        },
-        {
-          "url": "/oferty/62741009.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741012.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741018.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741021.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741024.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741027.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741030.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741033.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741036.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741039.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741042.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741045.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741054.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741057.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741060.jpg",
-          "primary": false
-        },
-        {
-          "url": "/oferty/62741063.jpg",
-          "primary": false
-        }
-      ],
-      "features": [
-        "Autobus",
-        "Kolejka SKM",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka"
-      ],
-      "agent": {
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
-      },
-      "url": "https://starnawska.pl/oferty/7986752",
-      "createdAt": "2023-10-27 08:34:41",
-      "updatedAt": "2026-08-06 08:00:22"
     },
     {
       "id": "12313262",
