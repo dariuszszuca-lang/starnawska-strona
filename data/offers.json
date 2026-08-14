@@ -1,6 +1,69 @@
 {
-  "lastSync": "2026-08-13T06:20:48.009Z",
+  "lastSync": "2026-08-14T06:18:37.544Z",
   "offers": [
+    {
+      "id": "12164528",
+      "offerNumber": "ST732390",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
+      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
+      "price": 3400,
+      "pricePerSqm": 77.27,
+      "area": 44,
+      "rooms": 2,
+      "floor": 9,
+      "totalFloors": 17,
+      "city": "Gdańsk",
+      "district": "Śródmieście",
+      "street": "ul. Wałowa",
+      "lat": 54.3586945,
+      "lng": 18.6515173,
+      "images": [
+        {
+          "url": "/oferty/110200763.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/110200766.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200769.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200784.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200772.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200775.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200778.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200781.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl",
+        "slug": "ewelina-pawelczyk"
+      },
+      "url": "https://starnawska.pl/oferty/12164528",
+      "createdAt": "2026-06-25 19:02:39",
+      "updatedAt": "2026-08-13 10:16:14"
+    },
     {
       "id": "11740850",
       "offerNumber": "ST699920",
@@ -23,84 +86,83 @@
       "lng": 18.6004696,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642233_max.jpg",
+          "url": "/oferty/108642233.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642230_max.jpg",
+          "url": "/oferty/108642230.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642215_max.jpg",
+          "url": "/oferty/108642215.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642206_max.jpg",
+          "url": "/oferty/108642206.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642161_max.jpg",
+          "url": "/oferty/108642161.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642209_max.jpg",
+          "url": "/oferty/108642209.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642218_max.jpg",
+          "url": "/oferty/108642218.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642185_max.jpg",
+          "url": "/oferty/108642185.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642188_max.jpg",
+          "url": "/oferty/108642188.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642191_max.jpg",
+          "url": "/oferty/108642191.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642227_max.jpg",
+          "url": "/oferty/108642227.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642224_max.jpg",
+          "url": "/oferty/108642224.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642200_max.jpg",
+          "url": "/oferty/108642200.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642203_max.jpg",
+          "url": "/oferty/108642203.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642176_max.jpg",
+          "url": "/oferty/108642176.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642197_max.jpg",
+          "url": "/oferty/108642197.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642194_max.jpg",
+          "url": "/oferty/108642194.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/110072267_max.jpg",
+          "url": "/oferty/110072267.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "estiId": "95853",
-        "slug": "katarzyna-kaszuba",
         "fullName": "Katarzyna Kaszuba",
         "phone": "668305552",
-        "email": "kkaszuba@starnawska.pl"
+        "email": "kkaszuba@starnawska.pl",
+        "slug": "katarzyna-kaszuba"
       },
       "url": "https://starnawska.pl/oferty/11740850",
       "createdAt": "2026-03-30 22:01:42",
@@ -112,7 +174,6 @@
       "transaction": "sprzedaz",
       "type": "dom",
       "typeDetail": "Bliźniak",
-      "market": "pierwotny",
       "title": "W cenie mieszkania – własny dom z ogrodem!",
       "description": "Wyobraź sobie poranek z kawą na tarasie, własny ogród, miejsce do zabawy dla dzieci i ciszę, która naprawdę pozwala odpocząć. A wszystko zaledwie 20-30 minut od Gdyni i Gdańska.\n\nWłaśnie w Dobrzewinie, przy ul. Ziołowej, powstaje Leśny Zakątek - kameralna inwestycja nowoczesnych domów w zabudowie bliźniaczej. To idealna propozycja dla osób, które chcą zamieszkać bliżej natury, nie rezygnując z wygodnego dojazdu do pracy, szkoły czy lotniska.\n\nDobrzewino to miejsce, które łączy spokój z doskonałą komunikacją. W kilka minut dotrzesz do Obwodnicy Trójmiasta, a w okolicy znajdziesz szkoły, przedszkola, sklepy oraz liczne tereny spacerowe i rowerowe.\n\nLeśny Zakątek to kolejna inwestycja dewelopera Monte Invest Sp. z o.o., który z powodzeniem zrealizował już osiedla Pod Agawami w Pępowie oraz Pod Miłorzębem w Bojanie.\n\nJeśli szukasz miejsca, w którym Twoja rodzina zyska więcej przestrzeni, prywatności i codziennego komfortu - ten dom może być właśnie dla Ciebie.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze, dużych przeszkleniach i funkcjonalnym układzie pomieszczeń. \n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
       "price": 851000,
@@ -129,52 +190,51 @@
       "lng": 18.3676949,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389455_max.jpg",
+          "url": "/oferty/109389455.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389452_max.jpg",
+          "url": "/oferty/109389452.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389458_max.jpg",
+          "url": "/oferty/109389458.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091544_max.jpg",
+          "url": "/oferty/108091544.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091547_max.jpg",
+          "url": "/oferty/108091547.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091550_max.jpg",
+          "url": "/oferty/108091550.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091553_max.jpg",
+          "url": "/oferty/108091553.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091565_max.jpg",
+          "url": "/oferty/108091565.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091568_max.jpg",
+          "url": "/oferty/108091568.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091571_max.jpg",
+          "url": "/oferty/108091571.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "estiId": "40666",
-        "slug": "iwona-stepinska",
         "fullName": "Iwona Stępińska",
         "phone": "530521572",
-        "email": "istepinska@starnawska.pl"
+        "email": "istepinska@starnawska.pl",
+        "slug": "iwona-stepinska"
       },
       "url": "https://starnawska.pl/oferty/11996204",
       "createdAt": "2026-05-20 06:39:41",
@@ -203,64 +263,63 @@
       "lng": 18.55925,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491209_max.jpg",
+          "url": "/oferty/106491209.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491098_max.jpg",
+          "url": "/oferty/106491098.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491263_max.jpg",
+          "url": "/oferty/106491263.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448594_max.jpg",
+          "url": "/oferty/41448594.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448570_max.jpg",
+          "url": "/oferty/41448570.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448564_max.jpg",
+          "url": "/oferty/41448564.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448579_max.jpg",
+          "url": "/oferty/41448579.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448627_max.jpg",
+          "url": "/oferty/41448627.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448615_max.jpg",
+          "url": "/oferty/41448615.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448588_max.jpg",
+          "url": "/oferty/41448588.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448621_max.jpg",
+          "url": "/oferty/41448621.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448630_max.jpg",
+          "url": "/oferty/41448630.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448624_max.jpg",
+          "url": "/oferty/41448624.jpg",
           "primary": false
         }
       ],
       "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
       },
       "url": "https://starnawska.pl/oferty/5826876",
       "createdAt": "2022-04-05 12:55:58",
@@ -289,64 +348,52 @@
       "lng": 18.5405136,
       "images": [
         {
-          "url": "/oferty/112434794.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434794_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/112434620.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434620_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434722.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434722_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434629.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434629_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434782.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434782_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434635.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434635_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434761.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434761_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434788.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434788_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434785.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434785_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434713.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434713_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Las w pobliżu",
-        "Morze w pobliżu",
-        "Autobus",
-        "Kolejka SKM",
-        "Kolej",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12346481",
       "createdAt": "2026-08-11 12:33:09",
@@ -787,70 +834,6 @@
       "url": "https://starnawska.pl/oferty/12154073",
       "createdAt": "2026-06-23 19:33:22",
       "updatedAt": "2026-08-06 21:05:55"
-    },
-    {
-      "id": "12164528",
-      "offerNumber": "ST732390",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
-      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: dwukrotność czynszu najmu (7 600 zł).\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
-      "price": 3400,
-      "pricePerSqm": 77.27,
-      "area": 44,
-      "rooms": 2,
-      "floor": 9,
-      "totalFloors": 17,
-      "city": "Gdańsk",
-      "district": "Śródmieście",
-      "street": "ul. Wałowa",
-      "lat": 54.3586945,
-      "lng": 18.6515173,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "95853",
-        "slug": "katarzyna-kaszuba",
-        "fullName": "Katarzyna Kaszuba",
-        "phone": "668305552",
-        "email": "kkaszuba@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12164528",
-      "createdAt": "2026-06-25 19:02:39",
-      "updatedAt": "2026-08-06 13:56:13"
     },
     {
       "id": "12293945",

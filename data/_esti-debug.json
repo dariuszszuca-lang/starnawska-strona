@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T06:20:48.028Z",
-  "package": "EstiCRM_18_20260811140101.zip",
+  "generatedAt": "2026-08-14T06:18:37.574Z",
+  "package": "EstiCRM_18_20260813120022.zip",
   "exportAttr": "incremental",
-  "totalInExport": 1,
+  "totalInExport": 4,
   "offer12049010Present": false,
   "offer12049010Status": null,
   "allFieldNamesSample": [
@@ -278,19 +278,121 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12346481",
+      "id": "5826876",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST755931",
+        "numberExport": "ST674422",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-11 13:06:42",
-        "exportDate": "2026-08-11 13:06:42",
+        "exportGalleryDate": "2026-08-11 14:44:36",
+        "exportDate": "2026-08-11 14:44:36",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Dwa niezależne pokoje, blisko SKM.",
+        "portalTitle": "Mieszkanie na Jasieniu z miejscem postojowym",
+        "portalPromote": "",
+        "portalWwwTitle": "",
+        "contactStatus": "11",
+        "locationExportCityName": "",
+        "locationExportStreetName": "",
+        "locationExportStreetType": "",
+        "locationExportStreetCustom": "",
+        "locationExportPrecinctName": "",
+        "locationExportParentPrecinctName": "",
+        "locationExportCommuneName": "",
+        "locationExportDistrictName": "",
+        "locationExportProvinceName": "",
+        "locationExportPlaceName": "",
+        "locationExportCountryName": "",
+        "portalEnglishTitle": "",
+        "locationExportCityBiurowin": "",
+        "locationExportPrecinctBiurowin": "",
+        "locationExportStreetBiurowin": ""
+      }
+    },
+    {
+      "id": "11996204",
+      "status": {
+        "companyStatus": "11",
+        "offerExport": "1",
+        "numberExport": "ST661084",
+        "numberExportDate": "",
+        "exportGalleryDate": "2026-07-15 11:59:29",
+        "exportDate": "2026-08-12 13:29:32",
+        "status": {
+          "#text": "3",
+          "@_dictionary": "status"
+        },
+        "portalTitle": "W cenie mieszkania – własny dom z ogrodem!",
+        "portalPromote": "",
+        "portalWwwTitle": "",
+        "contactStatus": "11",
+        "locationExportCityName": "",
+        "locationExportStreetName": "",
+        "locationExportStreetType": "",
+        "locationExportStreetCustom": "",
+        "locationExportPrecinctName": "",
+        "locationExportParentPrecinctName": "",
+        "locationExportCommuneName": "",
+        "locationExportDistrictName": "",
+        "locationExportProvinceName": "",
+        "locationExportPlaceName": "",
+        "locationExportCountryName": "",
+        "portalEnglishTitle": "",
+        "locationExportCityBiurowin": "",
+        "locationExportPrecinctBiurowin": "",
+        "locationExportStreetBiurowin": ""
+      }
+    },
+    {
+      "id": "11740850",
+      "status": {
+        "companyStatus": "11",
+        "offerExport": "1",
+        "numberExport": "ST699920",
+        "numberExportDate": "",
+        "exportGalleryDate": "2026-08-12 16:40:44",
+        "exportDate": "2026-08-12 16:40:44",
+        "status": {
+          "#text": "3",
+          "@_dictionary": "status"
+        },
+        "portalTitle": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
+        "portalPromote": "0",
+        "portalWwwTitle": "",
+        "contactStatus": "11",
+        "locationExportCityName": "",
+        "locationExportStreetName": "",
+        "locationExportStreetType": "",
+        "locationExportStreetCustom": "",
+        "locationExportPrecinctName": "",
+        "locationExportParentPrecinctName": "",
+        "locationExportCommuneName": "",
+        "locationExportDistrictName": "",
+        "locationExportProvinceName": "",
+        "locationExportPlaceName": "",
+        "locationExportCountryName": "",
+        "portalEnglishTitle": "",
+        "locationExportCityBiurowin": "",
+        "locationExportPrecinctBiurowin": "",
+        "locationExportStreetBiurowin": ""
+      }
+    },
+    {
+      "id": "12164528",
+      "status": {
+        "companyStatus": "11",
+        "offerExport": "1",
+        "numberExport": "ST732390",
+        "numberExportDate": "",
+        "exportGalleryDate": "2026-08-03 04:20:07",
+        "exportDate": "2026-08-13 10:16:14",
+        "status": {
+          "#text": "3",
+          "@_dictionary": "status"
+        },
+        "portalTitle": "Nowoczesne 2 pokoje z widokiem | Młode Miasto",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
