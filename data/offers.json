@@ -1,6 +1,680 @@
 {
-  "lastSync": "2026-08-18T06:14:30.247Z",
+  "lastSync": "2026-08-19T05:55:55.880Z",
   "offers": [
+    {
+      "id": "12483902",
+      "offerNumber": "ST257982",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Przestronne mieszkanie w kamienicy w centrum",
+      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 M2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji, atrakcji, szkół itd.\nObecnie w trakcie odświeżania.",
+      "price": 5900,
+      "pricePerSqm": 49.84,
+      "rent": 1300,
+      "area": 118.39,
+      "rooms": 5,
+      "floor": 1,
+      "totalFloors": 5,
+      "yearBuilt": 1927,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Świętojańska",
+      "lat": 54.51992,
+      "lng": 18.54306,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014531_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014525_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014528_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014534_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014537_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014540_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014543_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014546_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014549_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014552_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014555_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014558_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014561_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014564_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014567_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014570_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014576_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014579_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014573_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12483902",
+      "createdAt": "2026-08-18 15:57:47",
+      "updatedAt": "2026-08-18 16:03:21"
+    },
+    {
+      "id": "7986752",
+      "offerNumber": "ST187404",
+      "transaction": "najem",
+      "type": "lokal",
+      "typeDetail": "Biuro",
+      "market": "wtorny",
+      "title": "Przestronne mieszkanie w kamienicy w centrum",
+      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 M2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. Obecne będzie odświeżone. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji. Doskonała propozycja jako lokalizacja dla biura. \n\nObecnie w trakcie odświeżania.",
+      "price": 5900,
+      "pricePerSqm": 49.84,
+      "rent": 1300,
+      "area": 118.39,
+      "rooms": 5,
+      "floor": 1,
+      "totalFloors": 5,
+      "yearBuilt": 1927,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Świętojańska",
+      "lat": 54.51992,
+      "lng": 18.54306,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741015_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741009_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741012_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741018_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741021_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741024_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741027_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741030_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741033_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741036_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741039_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741042_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741045_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741054_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741057_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741060_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/112320593_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/112320596_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741063_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/7986752",
+      "createdAt": "2023-10-27 08:34:41",
+      "updatedAt": "2026-08-18 15:57:29"
+    },
+    {
+      "id": "8351687",
+      "offerNumber": "ST306196",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "W centrum - 2 pokoje + kuchnia.",
+      "description": "Mieszkanie zlokalizowane w ścisłym centrum miasta. \n\nDwa niezależne pokoje, oddzielna, duża, jasna kuchnia oraz łazienka z oknem. Mieszkanie dwustronne, jasne. Budynek z cegły. Ocieplony, z ładną elewacją. Przed budynkiem zadbana zieleń. Dla pary lub wspóllokatorów idealne. \n\n Przestronny salon wyposażony w kanapę narożną (z funkcją spania), stoliki kawowe, szafkę, stół jadalniany z kompletem krzeseł. Sypialnia przestronna z rozkładaną sofą, szafą. Mieszkanie sprawdzi się dla pary, ale również np. dla dwóch współlokatorek. Łazienka z głęboką wanną, z parawanem do prysznica. Kuchnia w zabudowie. Bardzo dużo miejsca do przechowywania, wyposażona w komplet sprzętu AGD (zmywarka, piekarnik, kuchenka mikrofalowa, płyta elektryczna, lodówka z zamrażarką). Do mieszkania przynależy duża piwnica. Miejsca postojowe przed budynkiem oraz wzdłuż ul. Kartuskiej. \n\nMieszkanie po remoncie w 2023 r.\n\nLokalizacja łącząca zalety ścisłego centrum ze spokojem i ciszą dzięki położeniu budynku w głąb linii zabudowy od ul. Kartuskiej. Pod domem tramwaj, autobusy. 20 min do dworca SKM. W bezpośrednim sąsiedztwie sklepy, przychodnie, szpital, park. Na stare miasto 1,5 km. \nDobra komunikacja do uczelni (GUMEDU, Politechniki, Akademii Muzycznej). W promieniu 2 km kino, teatry, największe centrum handlowe Forum.\n\nOpłata eksploatacyjna ok. 350 zł latem, 670 zł zimą + prąd i gaz\n\nNajem okazjonalny, długoterminowy, od 15 września. Prezentacje po 1 września.",
+      "price": 2600,
+      "pricePerSqm": 60.63,
+      "rent": 510,
+      "area": 42.88,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 3,
+      "yearBuilt": 1929,
+      "city": "Gdańsk",
+      "district": "Siedlce",
+      "street": "ul. Tarasy",
+      "lat": 54.34953,
+      "lng": 18.62448,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062366_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062369_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062468_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062492_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062357_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062360_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062513_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062516_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062363_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062537_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062552_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062573_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062588_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062600_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062615_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/8351687/66062630_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/8351687",
+      "createdAt": "2024-01-31 09:00:05",
+      "updatedAt": "2026-08-18 15:55:37"
+    },
+    {
+      "id": "12113690",
+      "offerNumber": "ST982535",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Płaska działka w sąsiedztwie jeziora i lasów",
+      "description": "Szukasz miejsca poza miastem, wśród lasów i jezior na zamieszkanie  i z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \nŚwiatłowód.\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
+      "price": 299000,
+      "pricePerSqm": 199.33,
+      "area": 1500,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Bukowa",
+      "lat": 54.5427708,
+      "lng": 18.2763107,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12113690",
+      "createdAt": "2026-06-17 20:36:09",
+      "updatedAt": "2026-08-18 15:32:44"
+    },
+    {
+      "id": "12293945",
+      "offerNumber": "ST318414",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Gdynia Mały Kack | Taras | W pełni wyposażone",
+      "description": "Gdynia Mały Kack | Taras | W pełni wyposażone\n\nNa wynajem komfortowe, w pełni umeblowane mieszkanie położone na parterze kameralnego budynku przy ul. Piotrkowskiej w Gdyni - Małym Kacku.\n\nJednym z największych atutów nieruchomości jest bezpośrednie wyjście do wydzielonej części tarasu z miejscem do wypoczynku - idealnej na poranną kawę lub chwilę relaksu po pracy.\n\nMieszkanie jest gotowe do zamieszkania od 1 września 2026 r. Jasne wnętrza, funkcjonalny układ oraz duże przeszklenia zapewniają komfort i przyjemną przestrzeń do życia.\n\nAtuty\n\n• parter z wyjściem do wydzielonej, kameralnej strefy tarasowej\n• w pełni umeblowane i wyposażone\n• przestronny salon z częścią jadalnianą\n• nowoczesna, funkcjonalna kuchnia\n• światłowód w cenie\n• spokojna, zielona okolica\n• ogólnodostępne miejsca postojowe przy budynku\n\nLokalizacja\n\nMały Kack to jedna z najbardziej cenionych dzielnic Gdyni - łączy kameralny charakter z bardzo dobrą komunikacją. W pobliżu znajdują się sklepy, punkty usługowe, przystanki komunikacji miejskiej oraz szybki dojazd do centrum miasta i Obwodnicy Trójmiasta.\n\nWarunki najmu:\n\nNajem: 2 800 zł/mies.\n\nOpłaty: 1 000 zł/mies. (obejmują ogrzewanie, wodę, prąd oraz internet światłowodowy).\n\nKaucja: 3 000 zł\n\nNajem okazjonalny.\n\nOferta skierowana przede wszystkim do jednej spokojnej, niepalącej osoby. Istnieje również możliwość wynajmu przez parę. Zwierzęta nie są akceptowane.\n\nZapraszam do kontaktu i umówienia prezentacji:\nEwelina Pawelczyk \nT:530 482 592 \nepawelczyk@starnawska.pl",
+      "price": 2800,
+      "pricePerSqm": 40,
+      "rent": 1000,
+      "area": 70,
+      "rooms": 2,
+      "floor": 0,
+      "totalFloors": 2,
+      "city": "Gdynia",
+      "district": "Mały Kack",
+      "street": "ul. Piotrkowska",
+      "lat": 54.486392,
+      "lng": 18.5211174,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941726_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941729_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941732_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941735_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941738_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941741_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941744_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12293945",
+      "createdAt": "2026-07-26 19:46:31",
+      "updatedAt": "2026-08-18 14:39:48"
+    },
+    {
+      "id": "12402752",
+      "offerNumber": "ST229071",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Przestronne mieszkanie pod Kamienną Górą",
+      "description": "Wyjątkowe mieszkanie usytuowane przy spokojnej ulicy, tuż u podnóża prestiżowej Kamiennej Góry w Gdyni.\n\nMetraż i układ pomieszczeń:\nSformalizowana powierzchnia według dokumentów wynosi 77,1 m², natomiast aktualna inwentaryzacja wspólnoty potwierdza realny metraż aż 83,09 m². Nieruchomość jest dwustronna (ekspozycja od ul. Kilińskiego oraz od cichego podwórka), co zapewnia doskonałe doświetlenie.\n\nObecny rozkład obejmuje:\n4 pokoje: 19,41 m² / 16,60 m² / 14,54 m² / 8,14 m²\nPrzedpokój: 11,35 m²\nKuchnię ze spiżarką: 8,37 m²\nŁazienkę: 4,62 m²\nWysokość 2,76 m\n\nUkład daje ogromne możliwości aranżacyjne i modyfikacji ścian działowych. Stan lokalu - w zależności od potrzeb i przeznaczenia - kwalifikuje się do odświeżenia lub kapitalnego remontu.\n\nZwyczajowo właściciele tego mieszkania korzystają z pomieszczenia piwnicznego.\n\nKamienica przeszła szereg remontów - zmianę drewnianych schodów, wymianę pionów i elektryki cz.wspólnych, dachu, elewacji. Planowane jest odświeżenie klatki schodowej. \n\nPlaża miejska: zaledwie kilka minut spacerem\n\nAtrakcje w sąsiedztwie: Bulwar Nadmorski, Teatr Muzyczny, punkt widokowy oraz liczne restauracje i kawiarnie\n\nInfrastruktura: sklepy, szkoły i komunikacja miejska na wyciągnięcie ręki\n\nTo idealna propozycja dla osób poszukujących cichego azylu w sercu miasta, jak i doskonały wybór pod inwestycję (w tym wynajem krótko - lub długoterminowy).",
+      "price": 1079000,
+      "pricePerSqm": 13994.81,
+      "rent": 559,
+      "area": 77.1,
+      "rooms": 4,
+      "floor": 2,
+      "totalFloors": 4,
+      "yearBuilt": 1941,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Jana Kilińskiego",
+      "lat": 54.5136268,
+      "lng": 18.5414297,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094425_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125691_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094536_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094560_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125802_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094389_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125724_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125706_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125748_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125775_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094515_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094482_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094500_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094464_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12402752",
+      "createdAt": "2026-08-13 07:34:54",
+      "updatedAt": "2026-08-18 12:25:40"
+    },
+    {
+      "id": "11929373",
+      "offerNumber": "ST346379",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Mieszkaniowa",
+      "market": "wtorny",
+      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
+      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\n\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
+      "price": 275000,
+      "pricePerSqm": 195.87,
+      "area": 1404,
+      "city": "Nowy Dwór Wejherowski",
+      "district": "wejherowski",
+      "street": "ul. Wejherowska",
+      "lat": 54.5444674,
+      "lng": 18.2850692,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11929373",
+      "createdAt": "2026-05-03 20:51:58",
+      "updatedAt": "2026-08-18 12:15:16"
+    },
+    {
+      "id": "7696427",
+      "offerNumber": "ST333183",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Zadbane dwa pokoje z kuchnią przy lesie",
+      "description": "Dwustronne mieszkanie położone na I p. czteropiętrowego budynku położonego pod samym lasem w Gdyni, w dzielnicy Witomino Leśniczówka. Mieszkanie jest w pełni umeblowane, składa się ze słonecznego salonu z balkonem od południowego zachodu, sypialni z miejscem do pracy, kuchni i łazienki z wanną. Na przedpokoju znajduje się obszerna szafa w zabudowie. Dodatkowo w sypialni szafa wolnostojąca oraz mniejsza w salonie. Idealne dla singla lub dwóch osób.\n\nW najbliższym sąsiedztwie przystanek autobusowy. Dobre połączenie z dzielnicami - Śródmieście, Redłowo, Wzgórze Maksymiliana, Obłuże, Oksywie. W okolicy Biedronka, Żabka, biblioteka, pasaż handlowo-usługowy. Ok. 1 km do CH Witawa. 20 min rowerem do centrum Gdyni (4 km do urzędu miasta). Tylko ok. 2 km do SKM i PKM Redłowo. \n\nObecne opłaty letnie 500 zł. Gaz (kuchenka) ryczałtowo wliczony w czynsz. Zimą ok. 700 zł. Prąd wg zużycia. Internet/TV we własnym zakresie.\n\nMożliwość skorzystania z piwnicy. \n\nNajem okazjonalny, bez zwierząt dla singla lub pary. Wolne od września.\n\nZapraszam na prezentację",
+      "price": 2500,
+      "pricePerSqm": 61.58,
+      "rent": 600,
+      "area": 40.6,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 4,
+      "yearBuilt": 1979,
+      "city": "Gdynia",
+      "district": "Witomino-Leśniczówka",
+      "street": "ul. 2 Morskiego Pułku Strzelców",
+      "lat": 54.49131,
+      "lng": 18.51525,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755154_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755127_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755136_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755322_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755328_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755334_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755160_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755301_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757059_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755061_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757056_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755184_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/7696427",
+      "createdAt": "2023-08-16 14:28:19",
+      "updatedAt": "2026-08-18 09:23:44"
+    },
     {
       "id": "11599184",
       "offerNumber": "ST527628",
@@ -24,155 +698,156 @@
       "lng": 18.2338583,
       "images": [
         {
-          "url": "/oferty/103841156.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841156_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/103841123.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841123_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841117.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841117_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841129.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841129_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841135.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841135_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841147.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841147_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841153.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841153_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841150.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841150_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841168.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841168_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841162.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841162_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841165.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841165_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841159.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841159_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841171.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841171_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841180.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841180_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841174.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841174_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841177.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841177_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841195.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841195_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841198_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841183.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841183_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841186.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841186_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841192.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841192_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841201.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841201_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841216_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841105.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841105_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841108.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841108_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841111.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841111_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841114.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841114_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841219.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841219_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841222.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841222_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841225.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841225_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/103841228.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841228_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11599184",
       "createdAt": "2026-02-18 08:23:59",
@@ -348,96 +1023,6 @@
       "url": "https://starnawska.pl/oferty/12153050",
       "createdAt": "2026-06-23 16:33:05",
       "updatedAt": "2026-08-17 18:32:32"
-    },
-    {
-      "id": "12402752",
-      "offerNumber": "ST229071",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Przestronne mieszkanie pod Kamienną Górą",
-      "description": "Wyjątkowe mieszkanie usytuowane przy spokojnej ulicy, tuż u podnóża prestiżowej Kamiennej Góry w Gdyni.\n\nMetraż i układ pomieszczeń:\nSformalizowana powierzchnia według dokumentów wynosi 77,1 m², natomiast aktualna inwentaryzacja wspólnoty potwierdza realny metraż aż 83,09 m². Nieruchomość jest dwustronna (ekspozycja od ul. Kilińskiego oraz od cichego podwórka), co zapewnia doskonałe doświetlenie.\n\nObecny rozkład obejmuje:\n4 pokoje: 19,41 m² / 16,60 m² / 14,54 m² / 8,14 m²\nPrzedpokój: 11,35 m²\nKuchnię ze spiżarką: 8,37 m²\nŁazienkę: 4,62 m²\n\nUkład daje ogromne możliwości aranżacyjne i modyfikacji ścian działowych. Stan lokalu - w zależności od potrzeb i przeznaczenia - kwalifikuje się do odświeżenia lub kapitalnego remontu.\n\nZwyczajowo właściciele tego mieszkania korzystają z pomieszczenia piwnicznego.\n\nKamienica przeszła szereg remontów - zmianę drewnianych schodów, wymianę pionów i elektryki cz.wspólnych, dachu, elewacji. Planowane jest odświeżenie klatki schodowej. \n\nPlaża miejska: zaledwie kilka minut spacerem\n\nAtrakcje w sąsiedztwie: Bulwar Nadmorski, Teatr Muzyczny, punkt widokowy oraz liczne restauracje i kawiarnie\n\nInfrastruktura: sklepy, szkoły i komunikacja miejska na wyciągnięcie ręki\n\nTo idealna propozycja dla osób poszukujących cichego azylu w sercu miasta, jak i doskonały wybór pod inwestycję (w tym wynajem krótko - lub długoterminowy).",
-      "price": 1079000,
-      "pricePerSqm": 13994.81,
-      "rent": 559,
-      "area": 77.1,
-      "rooms": 4,
-      "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 1941,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Jana Kilińskiego",
-      "lat": 54.5136268,
-      "lng": 18.5414297,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094425_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125691_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094536_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094560_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125802_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094389_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125724_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125706_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125748_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125775_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094515_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094482_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094500_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094464_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12402752",
-      "createdAt": "2026-08-13 07:34:54",
-      "updatedAt": "2026-08-17 08:17:09"
     },
     {
       "id": "12215723",
@@ -929,117 +1514,6 @@
       "updatedAt": "2026-08-11 13:06:42"
     },
     {
-      "id": "7986752",
-      "offerNumber": "ST187404",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Biuro",
-      "market": "wtorny",
-      "title": "Przestronne mieszkanie w kamienicy w centrum",
-      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 M2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. Obecne będzie odświeżone. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji. Doskonała propozycja jako lokalizacja dla biura.",
-      "price": 5900,
-      "pricePerSqm": 49.84,
-      "rent": 1300,
-      "area": 118.39,
-      "rooms": 5,
-      "floor": 1,
-      "totalFloors": 5,
-      "yearBuilt": 1927,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Świętojańska",
-      "lat": 54.51992,
-      "lng": 18.54306,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741015_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741009_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741012_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741018_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741021_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741024_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741027_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741030_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741033_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741036_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741039_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741042_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741045_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741054_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741057_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741060_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/112320593_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/112320596_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7986752/62741063_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/7986752",
-      "createdAt": "2023-10-27 08:34:41",
-      "updatedAt": "2026-08-09 09:25:31"
-    },
-    {
       "id": "12326333",
       "offerNumber": "ST105872",
       "transaction": "sprzedaz",
@@ -1279,67 +1753,6 @@
       "updatedAt": "2026-08-06 21:05:55"
     },
     {
-      "id": "12293945",
-      "offerNumber": "ST318414",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Gdynia Mały Kack | Taras | W pełni wyposażone",
-      "description": "Gdynia Mały Kack | Taras | W pełni wyposażone\n\nNa wynajem komfortowe, w pełni umeblowane mieszkanie położone na parterze kameralnego budynku przy ul. Piotrkowskiej w Gdyni - Małym Kacku.\n\nJednym z największych atutów nieruchomości jest bezpośrednie wyjście do wydzielonej części tarasu z miejscem do wypoczynku - idealnej na poranną kawę lub chwilę relaksu po pracy.\n\nMieszkanie jest gotowe do zamieszkania od 1 września 2026 r. Jasne wnętrza, funkcjonalny układ oraz duże przeszklenia zapewniają komfort i przyjemną przestrzeń do życia.\n\nAtuty\n\n• parter z wyjściem do wydzielonej, kameralnej strefy tarasowej\n• w pełni umeblowane i wyposażone\n• przestronny salon z częścią jadalnianą\n• nowoczesna, funkcjonalna kuchnia\n• światłowód w cenie\n• spokojna, zielona okolica\n• ogólnodostępne miejsca postojowe przy budynku\n\nLokalizacja\n\nMały Kack to jedna z najbardziej cenionych dzielnic Gdyni - łączy kameralny charakter z bardzo dobrą komunikacją. W pobliżu znajdują się sklepy, punkty usługowe, przystanki komunikacji miejskiej oraz szybki dojazd do centrum miasta i Obwodnicy Trójmiasta.\n\nWarunki najmu:\n\nNajem: 2 800 zł/mies.\n\nOpłaty: 1 000 zł/mies. (obejmują ogrzewanie, wodę, prąd oraz internet światłowodowy).\n\nKaucja: 3 000 zł\n\nNajem okazjonalny.\n\nOferta skierowana przede wszystkim do jednej spokojnej, niepalącej osoby. Istnieje również możliwość wynajmu przez parę. Zwierzęta nie są akceptowane.\n\nZapraszam do kontaktu i umówienia prezentacji:\nEwelina Pawelczyk \nT:530 482 592 \nepawelczyk@starnawska.pl",
-      "price": 2800,
-      "pricePerSqm": 40,
-      "rent": 1000,
-      "area": 70,
-      "rooms": 2,
-      "floor": 0,
-      "totalFloors": 2,
-      "city": "Gdynia",
-      "district": "Mały Kack",
-      "street": "ul. Piotrkowska",
-      "lat": 54.486392,
-      "lng": 18.5211174,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941726_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941729_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941732_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941735_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941738_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941741_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941744_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "40666",
-        "slug": "iwona-stepinska",
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12293945",
-      "createdAt": "2026-07-26 19:46:31",
-      "updatedAt": "2026-08-06 13:55:40"
-    },
-    {
       "id": "12313262",
       "offerNumber": "ST912145",
       "transaction": "sprzedaz",
@@ -1389,128 +1802,6 @@
       "url": "https://starnawska.pl/oferty/12313262",
       "createdAt": "2026-07-31 14:59:51",
       "updatedAt": "2026-08-05 17:28:08"
-    },
-    {
-      "id": "12113690",
-      "offerNumber": "ST982535",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Płaska działka w sąsiedztwie jeziora i lasów",
-      "description": "Szukasz miejsca poza miastem, wśród lasów i jezior na zamieszkanie  i z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \nŚwiatłowód.\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 315000,
-      "pricePerSqm": 210,
-      "area": 1500,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Bukowa",
-      "lat": 54.5427708,
-      "lng": 18.2763107,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12113690",
-      "createdAt": "2026-06-17 20:36:09",
-      "updatedAt": "2026-08-05 17:22:42"
-    },
-    {
-      "id": "11929373",
-      "offerNumber": "ST346379",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
-      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\nZa oferowaną działką znajduje się  do kupienia druga działka przylegająca do niej -  978 m2 za cenę 190 000 zł\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
-      "price": 275000,
-      "pricePerSqm": 195.87,
-      "area": 1404,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5444674,
-      "lng": 18.2850692,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11929373",
-      "createdAt": "2026-05-03 20:51:58",
-      "updatedAt": "2026-07-27 11:24:17"
     },
     {
       "id": "11993354",
@@ -1818,79 +2109,6 @@
       "url": "https://starnawska.pl/oferty/9291344",
       "createdAt": "2024-08-29 08:33:07",
       "updatedAt": "2026-06-08 09:38:37"
-    },
-    {
-      "id": "12059429",
-      "offerNumber": "ST308478",
-      "transaction": "najem",
-      "type": "lokal",
-      "typeDetail": "Lokal handlowy/usługowy",
-      "market": "wtorny",
-      "title": "Lokal z niezależnym wejściem - Gdańsk Osowa",
-      "description": "Lokal usługowy do wynajęcia - Gdańsk Osowa, ul. Jednorożca\n\nDo wynajęcia lokal usługowy o powierzchni 46,5 m², położony w spokojnej i dobrze skomunikowanej części Gdańska - dzielnicy Osowa, przy ul. Jednorożca.\n\nLokal znajduje się na parterze domu jednorodzinnego i posiada osobne, niezależne wejście bezpośrednio z ulicy, co zapewnia komfort oraz prywatność zarówno dla najemcy, jak i klientów.\n\nW skład lokalu wchodzą:\n- dwa przestronne pomieszczenia biurowe, idealne do prowadzenia działalności usługowej, biurowej lub gabinetu,\n- pomieszczenie socjalne z aneksem kuchennym,\n- łazienka z WC.\n\nLokal jest zadbany i gotowy do użytkowania. Możliwość adaptacji wnętrza według własnych potrzeb.\n\nAtuty lokalizacji:\n\n -cicha i zielona okolica,\n\n -łatwy dojazd zarówno samochodem, jak i komunikacją miejską,\n\nMożliwość najmu od 01.07.2026r\n\nCena najmu: 2200 zł netto miesięcznie + 23%VAT (dodatkowo opłaty za media według zużycia- gaz, prąd, woda, internet).\n\nIdealne miejsce na biuro, kancelarię, gabinet terapeutyczny, usługi księgowe czy działalność edukacyjną.\n   ZAPRASZAM DO KONTAKTU",
-      "price": 2200,
-      "pricePerSqm": 47.31,
-      "area": 46.5,
-      "rooms": 3,
-      "floor": 0,
-      "totalFloors": 1,
-      "city": "Gdańsk",
-      "district": "Osowa",
-      "street": "ul. Jednorożca",
-      "lat": 54.4246,
-      "lng": 18.48006,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715424_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715427_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715433_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715436_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715439_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715442_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715445_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715448_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715430_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12059429/108715451_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "40666",
-        "slug": "iwona-stepinska",
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12059429",
-      "createdAt": "2026-06-01 14:29:13",
-      "updatedAt": "2026-06-01 14:38:06"
     },
     {
       "id": "11115224",
