@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-08-19T05:55:55.880Z",
+  "lastSync": "2026-08-20T06:16:03.810Z",
   "offers": [
     {
       "id": "12483902",
@@ -8,7 +8,7 @@
       "type": "mieszkanie",
       "market": "wtorny",
       "title": "Przestronne mieszkanie w kamienicy w centrum",
-      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 M2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji, atrakcji, szkół itd.\nObecnie w trakcie odświeżania.",
+      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 m2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji, atrakcji, szkół itd.\nObecnie w trakcie odświeżania.",
       "price": 5900,
       "pricePerSqm": 49.84,
       "rent": 1300,
@@ -24,79 +24,176 @@
       "lng": 18.54306,
       "images": [
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014531_max.jpg",
+          "url": "/oferty/114014531.jpg",
           "primary": true
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014525_max.jpg",
+          "url": "/oferty/114014525.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014528_max.jpg",
+          "url": "/oferty/114014528.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014534_max.jpg",
+          "url": "/oferty/114014534.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014537_max.jpg",
+          "url": "/oferty/114014537.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014540_max.jpg",
+          "url": "/oferty/114014540.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014543_max.jpg",
+          "url": "/oferty/114014543.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014546_max.jpg",
+          "url": "/oferty/114014546.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014549_max.jpg",
+          "url": "/oferty/114014549.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014552_max.jpg",
+          "url": "/oferty/114014552.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014555_max.jpg",
+          "url": "/oferty/114014555.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014558_max.jpg",
+          "url": "/oferty/114014558.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014561_max.jpg",
+          "url": "/oferty/114014561.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014564_max.jpg",
+          "url": "/oferty/114014564.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014567_max.jpg",
+          "url": "/oferty/114014567.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014570_max.jpg",
+          "url": "/oferty/114014570.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014576_max.jpg",
+          "url": "/oferty/114014576.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014579_max.jpg",
+          "url": "/oferty/114014579.jpg",
           "primary": false
         },
         {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014573_max.jpg",
+          "url": "/oferty/114014573.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Autobus",
+        "Kolejka SKM",
+        "Przedszkole",
+        "Szkoła podstawowa",
+        "Sklep spożywczy",
+        "Apteka"
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/12483902",
+      "createdAt": "2026-08-18 15:57:47",
+      "updatedAt": "2026-08-19 14:58:18"
+    },
+    {
+      "id": "12402752",
+      "offerNumber": "ST229071",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Przestronne mieszkanie pod Kamienną Górą",
+      "description": "Wyjątkowe mieszkanie usytuowane przy spokojnej ulicy, tuż u podnóża prestiżowej Kamiennej Góry w Gdyni.\n\nMetraż i układ pomieszczeń:\nSformalizowana powierzchnia według dokumentów wynosi 77,1 m², natomiast aktualna inwentaryzacja wspólnoty potwierdza realny metraż aż 83,09 m². Nieruchomość jest dwustronna (ekspozycja od ul. Kilińskiego oraz od cichego podwórka), co zapewnia doskonałe doświetlenie.\n\nObecny rozkład obejmuje:\n4 pokoje: 19,41 m² / 16,60 m² / 14,54 m² / 8,14 m²\nPrzedpokój: 11,35 m²\nKuchnię ze spiżarką: 8,37 m²\nŁazienkę: 4,62 m²\nWysokość 2,76 m\n\nUkład daje ogromne możliwości aranżacyjne i modyfikacji ścian działowych. Stan lokalu - w zależności od potrzeb i przeznaczenia - kwalifikuje się do odświeżenia lub kapitalnego remontu.\n\nZwyczajowo właściciele tego mieszkania korzystają z pomieszczenia piwnicznego.\n\nKamienica przeszła szereg remontów - zmianę drewnianych schodów, wymianę pionów i elektryki cz.wspólnych, dachu, elewacji. Planowane jest odświeżenie klatki schodowej. \n\nPlaża miejska: zaledwie kilka minut spacerem\n\nAtrakcje w sąsiedztwie: Bulwar Nadmorski, Teatr Muzyczny, punkt widokowy oraz liczne restauracje i kawiarnie\n\nInfrastruktura: sklepy, szkoły i komunikacja miejska na wyciągnięcie ręki\n\nTo idealna propozycja dla osób poszukujących cichego azylu w sercu miasta, jak i doskonały wybór pod inwestycję (w tym wynajem krótko - lub długoterminowy).",
+      "price": 1079000,
+      "pricePerSqm": 13994.81,
+      "rent": 559,
+      "area": 77.1,
+      "rooms": 4,
+      "floor": 2,
+      "totalFloors": 4,
+      "yearBuilt": 1941,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Jana Kilińskiego",
+      "lat": 54.5136268,
+      "lng": 18.5414297,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094425_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125691_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094536_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094560_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125802_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094389_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125724_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125706_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125748_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125775_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094515_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094482_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094500_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094464_max.jpg",
           "primary": false
         }
       ],
@@ -107,9 +204,147 @@
         "phone": "532843660",
         "email": "psudwoj@starnawska.pl"
       },
-      "url": "https://starnawska.pl/oferty/12483902",
-      "createdAt": "2026-08-18 15:57:47",
-      "updatedAt": "2026-08-18 16:03:21"
+      "url": "https://starnawska.pl/oferty/12402752",
+      "createdAt": "2026-08-13 07:34:54",
+      "updatedAt": "2026-08-19 10:35:47"
+    },
+    {
+      "id": "12367265",
+      "offerNumber": "ST140448",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Mieszkanie 4 pok./2 łazienk –przestrzeń jak w domu",
+      "description": "PRZESTRONNE, DWUPOZIOMOWE MIESZKANIE 88 M² | GDYNIA WIELKI KACK | 4 POKOJE | 2 ŁAZIENKI | Balkon, Spiżarka, Piwnica 6,7m2\n\nSzukasz mieszkania, które daje poczucie przestrzeni domu, ale jednocześnie zapewnia wygodę życia w mieście? To jest właśnie to mieszkanie!\n\nNa sprzedaż wyjątkowo przestronne i funkcjonalne mieszkanie dwupoziomowe o powierzchni 88 m², położone w Gdyni Wielkim Kacku przy ul. Górniczej.\n\nTo mieszkanie wyróżnia przede wszystkim bardzo dobry układ, dwie pełnowymiarowe łazienki, duża kuchnia z jadalnią, aż cztery ustawne pokoje oraz ekspozycja wschód-zachód, dzięki której wnętrza są przyjemnie doświetlone przez cały dzień.\n\nDodatkowym atutem jest powierzchnia liczona po podłodze - około 100 m². Delikatne skosy na drugim poziomie nie ograniczają funkcjonalności pomieszczeń, a wysokość mieszkania wynosi od 2,50 do 2,80 m.\n\nI POZIOM\nkuchnia z jadalnią - ok. 20 m², od strony zachodniej, spiżarnia pod schodami.\nduży pokój - 17,5 m² - z wyjściem na balkon, od strony wschodniej\nustawny przedpokój z zabudową,\npełnowymiarowa łazienka z wanną i WC.\n\nNa drugi poziom prowadzą eleganckie schody.\n\nII POZIOM\n\nZnajdują się tutaj trzy ustawne pokoje o powierzchni około 15m2, 13m2, 10m2 - w pokojach zabudowy.\ndruga, pełnowymiarowa łazienka z kabiną prysznicową i WC\nduży przedpokój z zabudową głębokości 80cm i 2,6m długości.\n\nTo doskonała przestrzeń dla rodziny - można urządzić tutaj sypialnię, pokoje dziecięce, gabinet czy pokój gościnny.\n\nMIESZKANIE PO REMONCIE\n\nLokal jest świeży, zadbany i gotowy do zamieszkania.\n\nW 2025 roku została wykonana nowa zabudowa kuchenna, podwieszany sufit w kuchni, położone podłogi oraz wymieniona stolarka drzwiowa. Mieszkanie zostało również świeżo odmalowane. W 2021r i 2024r wyremontowane zostały łazienki. \n\nNa podłogach znajdują się panele winylowe oraz częściowo panele, a w pokojach i przedpokoju pozostawiono praktyczne zabudowy.\n\nDo mieszkania przynależy również duża piwnica o powierzchni 6,7 m².\n\nBUDYNEK\n\nBudynek z 1998 roku, położony w spokojnym i zadbanym otoczeniu. Mieszkanie znajduje się na cichej i kameralnej części osiedla, z dala od intensywnego ruchu ulicznego.\n\nOPŁATY\n\nPrzy czterech osobach:\nokres letni - około 858 zł/miesiąc,\nokres zimowy - około 1 250 zł/miesiąc.\n\nWIELKI KACK - MIASTO, KOMUNIKACJA I ZIELEŃ W JEDNYM\n\nLokalizacja przy ul. Górniczej to propozycja dla osób, które chcą mieszkać w spokojnej części Gdyni, ale jednocześnie mieć wszystko, czego potrzebują na co dzień, w zasięgu ręki.\nW pobliżu znajdują się sklepy, przychodnie, punkty usługowe, szkoły i przedszkola, a także liczne tereny zielone i rekreacyjne.\nDużym atutem jest również komunikacja - w pobliżu znajdują się przystanki autobusowe oraz stacja PKM, zapewniające wygodne połączenia z innymi częściami Gdyni i Trójmiasta.\n\nNAJWIĘKSZE ATUTY:\n\n✔ 88 m² powierzchni użytkowej\n✔ ok. 100 m² po podłodze\n✔ mieszkanie dwupoziomowe\n✔ 4 ustawne pokoje\n✔ 2 pełnowymiarowe łazienki z WC\n✔ duża kuchnia z jadalnią - 20 m² od strony zachodniej\n✔ balkon od strony wschodniej\n✔ ekspozycja wschód-zachód\n✔ mieszkanie po remoncie\n✔ nowa kuchnia wykonana w 2025 roku\n✔ wymieniona stolarka drzwiowa\n✔ świeżo odmalowane wnętrza\n✔ duża piwnica - 6,7 m²\n✔ zabudowy w pokojach i przedpokoju\n✔ ciche sąsiedztwo\n✔ bardzo dobra komunikacja i infrastruktura\n\nJeśli szukasz przestronnego mieszkania dla rodziny, które daje więcej możliwości niż typowe 4 pokoje - zapraszam na prezentację. To mieszkanie zdecydowanie warto zobaczyć na żywo.",
+      "price": 979000,
+      "pricePerSqm": 11123.74,
+      "rent": 1000,
+      "area": 88.01,
+      "rooms": 4,
+      "floor": 3,
+      "totalFloors": 3,
+      "yearBuilt": 1998,
+      "city": "Gdynia",
+      "district": "Wielki Kack",
+      "street": "ul. Górnicza",
+      "lat": 54.4684149,
+      "lng": 18.4819755,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022550_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022538_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022544_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022556_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022565_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022568_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022562_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022643_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022559_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022646_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022706_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022649_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022652_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022718_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022661_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022664_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022667_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022673_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022676_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022679_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022682_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022688_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022691_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022739_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022520_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022526_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12367265",
+      "createdAt": "2026-08-12 13:51:41",
+      "updatedAt": "2026-08-19 08:18:58"
     },
     {
       "id": "7986752",
@@ -443,96 +678,6 @@
       "url": "https://starnawska.pl/oferty/12293945",
       "createdAt": "2026-07-26 19:46:31",
       "updatedAt": "2026-08-18 14:39:48"
-    },
-    {
-      "id": "12402752",
-      "offerNumber": "ST229071",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Przestronne mieszkanie pod Kamienną Górą",
-      "description": "Wyjątkowe mieszkanie usytuowane przy spokojnej ulicy, tuż u podnóża prestiżowej Kamiennej Góry w Gdyni.\n\nMetraż i układ pomieszczeń:\nSformalizowana powierzchnia według dokumentów wynosi 77,1 m², natomiast aktualna inwentaryzacja wspólnoty potwierdza realny metraż aż 83,09 m². Nieruchomość jest dwustronna (ekspozycja od ul. Kilińskiego oraz od cichego podwórka), co zapewnia doskonałe doświetlenie.\n\nObecny rozkład obejmuje:\n4 pokoje: 19,41 m² / 16,60 m² / 14,54 m² / 8,14 m²\nPrzedpokój: 11,35 m²\nKuchnię ze spiżarką: 8,37 m²\nŁazienkę: 4,62 m²\nWysokość 2,76 m\n\nUkład daje ogromne możliwości aranżacyjne i modyfikacji ścian działowych. Stan lokalu - w zależności od potrzeb i przeznaczenia - kwalifikuje się do odświeżenia lub kapitalnego remontu.\n\nZwyczajowo właściciele tego mieszkania korzystają z pomieszczenia piwnicznego.\n\nKamienica przeszła szereg remontów - zmianę drewnianych schodów, wymianę pionów i elektryki cz.wspólnych, dachu, elewacji. Planowane jest odświeżenie klatki schodowej. \n\nPlaża miejska: zaledwie kilka minut spacerem\n\nAtrakcje w sąsiedztwie: Bulwar Nadmorski, Teatr Muzyczny, punkt widokowy oraz liczne restauracje i kawiarnie\n\nInfrastruktura: sklepy, szkoły i komunikacja miejska na wyciągnięcie ręki\n\nTo idealna propozycja dla osób poszukujących cichego azylu w sercu miasta, jak i doskonały wybór pod inwestycję (w tym wynajem krótko - lub długoterminowy).",
-      "price": 1079000,
-      "pricePerSqm": 13994.81,
-      "rent": 559,
-      "area": 77.1,
-      "rooms": 4,
-      "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 1941,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Jana Kilińskiego",
-      "lat": 54.5136268,
-      "lng": 18.5414297,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094425_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125691_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094536_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094560_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125802_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094389_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125724_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125706_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125748_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125775_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094515_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094482_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094500_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094464_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12402752",
-      "createdAt": "2026-08-13 07:34:54",
-      "updatedAt": "2026-08-18 12:25:40"
     },
     {
       "id": "11929373",
