@@ -1,6 +1,123 @@
 {
-  "lastSync": "2026-08-20T06:16:03.810Z",
+  "lastSync": "2026-08-21T06:22:02.472Z",
   "offers": [
+    {
+      "id": "12367265",
+      "offerNumber": "ST140448",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Mieszkanie 4 pok./2 łazienk –przestrzeń jak w domu",
+      "description": "PRZESTRONNE, DWUPOZIOMOWE MIESZKANIE 88 M² | GDYNIA WIELKI KACK | 4 POKOJE | 2 ŁAZIENKI | Balkon, Spiżarka, Piwnica 6,7m2\n\nSzukasz mieszkania, które daje poczucie przestrzeni domu, ale jednocześnie zapewnia wygodę życia w mieście? To jest właśnie to mieszkanie!\n\nNa sprzedaż wyjątkowo przestronne i funkcjonalne mieszkanie dwupoziomowe o powierzchni 88 m², położone w Gdyni Wielkim Kacku przy ul. Górniczej.\n\nTo mieszkanie wyróżnia przede wszystkim bardzo dobry układ, dwie pełnowymiarowe łazienki, duża kuchnia z jadalnią, aż cztery ustawne pokoje oraz ekspozycja wschód-zachód, dzięki której wnętrza są przyjemnie doświetlone przez cały dzień.\n\nDodatkowym atutem jest powierzchnia liczona po podłodze - około 100 m². Delikatne skosy na drugim poziomie nie ograniczają funkcjonalności pomieszczeń, a wysokość mieszkania wynosi od 2,50 do 2,80 m.\n\nI POZIOM\nkuchnia z jadalnią - ok. 20 m², od strony zachodniej, spiżarnia pod schodami.\nduży pokój - 17,5 m² - z wyjściem na balkon, od strony wschodniej\nustawny przedpokój z zabudową,\npełnowymiarowa łazienka z wanną i WC.\n\nNa drugi poziom prowadzą eleganckie schody.\n\nII POZIOM\n\nZnajdują się tutaj trzy ustawne pokoje o powierzchni około 15m2, 13m2, 10m2 - w pokojach zabudowy.\ndruga, pełnowymiarowa łazienka z kabiną prysznicową i WC\nduży przedpokój z zabudową głębokości 80cm i 2,6m długości.\n\nTo doskonała przestrzeń dla rodziny - można urządzić tutaj sypialnię, pokoje dziecięce, gabinet czy pokój gościnny.\n\nMIESZKANIE PO REMONCIE\n\nLokal jest świeży, zadbany i gotowy do zamieszkania.\n\nW 2025 roku została wykonana nowa zabudowa kuchenna, podwieszany sufit w kuchni, położone podłogi oraz wymieniona stolarka drzwiowa. Mieszkanie zostało również świeżo odmalowane. W 2021r i 2024r wyremontowane zostały łazienki. \n\nNa podłogach znajdują się panele winylowe oraz częściowo panele, a w pokojach i przedpokoju pozostawiono praktyczne zabudowy.\n\nDo mieszkania przynależy również duża piwnica o powierzchni 6,7 m².\n\nBUDYNEK\n\nBudynek z 1998 roku, położony w spokojnym i zadbanym otoczeniu. Mieszkanie znajduje się na cichej i kameralnej części osiedla, z dala od intensywnego ruchu ulicznego.\n\nOPŁATY\n\nPrzy czterech osobach:\nokres letni - około 858 zł/miesiąc,\nokres zimowy - około 1 250 zł/miesiąc.\n\nWIELKI KACK - MIASTO, KOMUNIKACJA I ZIELEŃ W JEDNYM\n\nLokalizacja przy ul. Górniczej to propozycja dla osób, które chcą mieszkać w spokojnej części Gdyni, ale jednocześnie mieć wszystko, czego potrzebują na co dzień, w zasięgu ręki.\nW pobliżu znajdują się sklepy, przychodnie, punkty usługowe, szkoły i przedszkola, a także liczne tereny zielone i rekreacyjne.\nDużym atutem jest również komunikacja - w pobliżu znajdują się przystanki autobusowe oraz stacja PKM, zapewniające wygodne połączenia z innymi częściami Gdyni i Trójmiasta.\n\nNAJWIĘKSZE ATUTY:\n\n✔ 88 m² powierzchni użytkowej\n✔ ok. 100 m² po podłodze\n✔ mieszkanie dwupoziomowe\n✔ 4 ustawne pokoje\n✔ 2 pełnowymiarowe łazienki z WC\n✔ duża kuchnia z jadalnią - 20 m² od strony zachodniej\n✔ balkon od strony wschodniej\n✔ ekspozycja wschód-zachód\n✔ mieszkanie po remoncie\n✔ nowa kuchnia wykonana w 2025 roku\n✔ wymieniona stolarka drzwiowa\n✔ świeżo odmalowane wnętrza\n✔ duża piwnica - 6,7 m²\n✔ zabudowy w pokojach i przedpokoju\n✔ ciche sąsiedztwo\n✔ bardzo dobra komunikacja i infrastruktura\n\nJeśli szukasz przestronnego mieszkania dla rodziny, które daje więcej możliwości niż typowe 4 pokoje - zapraszam na prezentację. To mieszkanie zdecydowanie warto zobaczyć na żywo.",
+      "price": 979000,
+      "pricePerSqm": 11123.74,
+      "rent": 1000,
+      "area": 88.01,
+      "rooms": 4,
+      "floor": 3,
+      "totalFloors": 3,
+      "yearBuilt": 1998,
+      "city": "Gdynia",
+      "district": "Wielki Kack",
+      "street": "ul. Górnicza",
+      "lat": 54.4684149,
+      "lng": 18.4819755,
+      "images": [
+        {
+          "url": "/oferty/114022550.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/114022544.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022556.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022565.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022568.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022643.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022559.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022646.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022649.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022652.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022718.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022661.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022676.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022673.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022679.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022682.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022688.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022691.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022739.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022520.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114022526.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Iwona Stępińska",
+        "phone": "530521572",
+        "email": "istepinska@starnawska.pl",
+        "slug": "iwona-stepinska"
+      },
+      "url": "https://starnawska.pl/oferty/12367265",
+      "createdAt": "2026-08-12 13:51:41",
+      "updatedAt": "2026-08-20 16:44:27"
+    },
     {
       "id": "12483902",
       "offerNumber": "ST257982",
@@ -24,95 +141,88 @@
       "lng": 18.54306,
       "images": [
         {
-          "url": "/oferty/114014531.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014531_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/114014525.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014525_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014528.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014528_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014534.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014534_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014537.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014537_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014540.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014540_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014543.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014543_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014546.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014546_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014549.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014549_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014552.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014552_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014555.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014555_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014558.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014558_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014561.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014561_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014564.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014564_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014567.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014567_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014570.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014570_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014576.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014576_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014579.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014579_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114014573.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014573_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Autobus",
-        "Kolejka SKM",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka"
-      ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12483902",
       "createdAt": "2026-08-18 15:57:47",
@@ -207,144 +317,6 @@
       "url": "https://starnawska.pl/oferty/12402752",
       "createdAt": "2026-08-13 07:34:54",
       "updatedAt": "2026-08-19 10:35:47"
-    },
-    {
-      "id": "12367265",
-      "offerNumber": "ST140448",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Mieszkanie 4 pok./2 łazienk –przestrzeń jak w domu",
-      "description": "PRZESTRONNE, DWUPOZIOMOWE MIESZKANIE 88 M² | GDYNIA WIELKI KACK | 4 POKOJE | 2 ŁAZIENKI | Balkon, Spiżarka, Piwnica 6,7m2\n\nSzukasz mieszkania, które daje poczucie przestrzeni domu, ale jednocześnie zapewnia wygodę życia w mieście? To jest właśnie to mieszkanie!\n\nNa sprzedaż wyjątkowo przestronne i funkcjonalne mieszkanie dwupoziomowe o powierzchni 88 m², położone w Gdyni Wielkim Kacku przy ul. Górniczej.\n\nTo mieszkanie wyróżnia przede wszystkim bardzo dobry układ, dwie pełnowymiarowe łazienki, duża kuchnia z jadalnią, aż cztery ustawne pokoje oraz ekspozycja wschód-zachód, dzięki której wnętrza są przyjemnie doświetlone przez cały dzień.\n\nDodatkowym atutem jest powierzchnia liczona po podłodze - około 100 m². Delikatne skosy na drugim poziomie nie ograniczają funkcjonalności pomieszczeń, a wysokość mieszkania wynosi od 2,50 do 2,80 m.\n\nI POZIOM\nkuchnia z jadalnią - ok. 20 m², od strony zachodniej, spiżarnia pod schodami.\nduży pokój - 17,5 m² - z wyjściem na balkon, od strony wschodniej\nustawny przedpokój z zabudową,\npełnowymiarowa łazienka z wanną i WC.\n\nNa drugi poziom prowadzą eleganckie schody.\n\nII POZIOM\n\nZnajdują się tutaj trzy ustawne pokoje o powierzchni około 15m2, 13m2, 10m2 - w pokojach zabudowy.\ndruga, pełnowymiarowa łazienka z kabiną prysznicową i WC\nduży przedpokój z zabudową głębokości 80cm i 2,6m długości.\n\nTo doskonała przestrzeń dla rodziny - można urządzić tutaj sypialnię, pokoje dziecięce, gabinet czy pokój gościnny.\n\nMIESZKANIE PO REMONCIE\n\nLokal jest świeży, zadbany i gotowy do zamieszkania.\n\nW 2025 roku została wykonana nowa zabudowa kuchenna, podwieszany sufit w kuchni, położone podłogi oraz wymieniona stolarka drzwiowa. Mieszkanie zostało również świeżo odmalowane. W 2021r i 2024r wyremontowane zostały łazienki. \n\nNa podłogach znajdują się panele winylowe oraz częściowo panele, a w pokojach i przedpokoju pozostawiono praktyczne zabudowy.\n\nDo mieszkania przynależy również duża piwnica o powierzchni 6,7 m².\n\nBUDYNEK\n\nBudynek z 1998 roku, położony w spokojnym i zadbanym otoczeniu. Mieszkanie znajduje się na cichej i kameralnej części osiedla, z dala od intensywnego ruchu ulicznego.\n\nOPŁATY\n\nPrzy czterech osobach:\nokres letni - około 858 zł/miesiąc,\nokres zimowy - około 1 250 zł/miesiąc.\n\nWIELKI KACK - MIASTO, KOMUNIKACJA I ZIELEŃ W JEDNYM\n\nLokalizacja przy ul. Górniczej to propozycja dla osób, które chcą mieszkać w spokojnej części Gdyni, ale jednocześnie mieć wszystko, czego potrzebują na co dzień, w zasięgu ręki.\nW pobliżu znajdują się sklepy, przychodnie, punkty usługowe, szkoły i przedszkola, a także liczne tereny zielone i rekreacyjne.\nDużym atutem jest również komunikacja - w pobliżu znajdują się przystanki autobusowe oraz stacja PKM, zapewniające wygodne połączenia z innymi częściami Gdyni i Trójmiasta.\n\nNAJWIĘKSZE ATUTY:\n\n✔ 88 m² powierzchni użytkowej\n✔ ok. 100 m² po podłodze\n✔ mieszkanie dwupoziomowe\n✔ 4 ustawne pokoje\n✔ 2 pełnowymiarowe łazienki z WC\n✔ duża kuchnia z jadalnią - 20 m² od strony zachodniej\n✔ balkon od strony wschodniej\n✔ ekspozycja wschód-zachód\n✔ mieszkanie po remoncie\n✔ nowa kuchnia wykonana w 2025 roku\n✔ wymieniona stolarka drzwiowa\n✔ świeżo odmalowane wnętrza\n✔ duża piwnica - 6,7 m²\n✔ zabudowy w pokojach i przedpokoju\n✔ ciche sąsiedztwo\n✔ bardzo dobra komunikacja i infrastruktura\n\nJeśli szukasz przestronnego mieszkania dla rodziny, które daje więcej możliwości niż typowe 4 pokoje - zapraszam na prezentację. To mieszkanie zdecydowanie warto zobaczyć na żywo.",
-      "price": 979000,
-      "pricePerSqm": 11123.74,
-      "rent": 1000,
-      "area": 88.01,
-      "rooms": 4,
-      "floor": 3,
-      "totalFloors": 3,
-      "yearBuilt": 1998,
-      "city": "Gdynia",
-      "district": "Wielki Kack",
-      "street": "ul. Górnicza",
-      "lat": 54.4684149,
-      "lng": 18.4819755,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022550_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022538_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022544_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022556_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022565_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022568_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022562_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022643_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022559_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022646_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022706_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022649_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022652_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022718_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022661_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022664_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022667_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022673_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022676_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022679_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022682_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022688_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022691_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022739_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022520_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022526_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "40666",
-        "slug": "iwona-stepinska",
-        "fullName": "Iwona Stępińska",
-        "phone": "530521572",
-        "email": "istepinska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12367265",
-      "createdAt": "2026-08-12 13:51:41",
-      "updatedAt": "2026-08-19 08:18:58"
     },
     {
       "id": "7986752",
