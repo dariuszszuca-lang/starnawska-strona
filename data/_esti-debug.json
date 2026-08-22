@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T06:22:02.485Z",
-  "package": "EstiCRM_18_20260820170017.zip",
+  "generatedAt": "2026-08-22T06:14:34.533Z",
+  "package": "EstiCRM_18_20260821120017.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12367265",
+      "id": "11154254",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST140448",
+        "numberExport": "ST283181",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-20 16:44:27",
-        "exportDate": "2026-08-20 16:44:27",
+        "exportGalleryDate": "2026-08-21 11:17:15",
+        "exportDate": "2026-08-21 11:17:15",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Mieszkanie 4 pok./2 łazienk –przestrzeń jak w domu",
+        "portalTitle": "Działka z domkiem, z potencjałem rozbudowy",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",

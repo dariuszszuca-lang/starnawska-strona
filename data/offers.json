@@ -1,6 +1,233 @@
 {
-  "lastSync": "2026-08-21T06:22:02.472Z",
+  "lastSync": "2026-08-22T06:14:34.529Z",
   "offers": [
+    {
+      "id": "11154254",
+      "offerNumber": "ST283181",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Wolnostojący",
+      "market": "wtorny",
+      "title": "Działka z domkiem, z potencjałem rozbudowy",
+      "description": "Działka z niedużym domem ( mieszkalny) w konstrukcji drewnianej, CAŁOROCZNY, w stanie surowym zamknietym/deweloperskim. Domek do wykończenia wewnątrz. Składa się z części dziennej z aneksem kuchennym, niewielkiej sypialni, garderoby i łazienki z WC. Możliwość większej zabudowy działki. Otoczenie pól i zabudowy wolnostojącej.\n\nNieruchomość położona w malowniczej wsi Częstkowo (gm.Szemud).\n\nTeren płaski, nie zadrzewiony. Graniczy z gminną droga asfaltową.\nByły wydane warunkami zabudowy dla domu mieszkalnego jednorodzinnego (parter + poddasze użytkowe): \n- pow. zabudowy do 150 m2, \n- dachy dwu lub wielospadowe, \n- wysokość do 9 m, \noraz dla budynku gosp.do 35 m2. \n\nWoda i prąd na działce. Kanalizacja sanitarna we własnym zakresie (zbiornik bezodpływowy wykonany).\n\nW promieniu 10 km dwa rezerwaty przyrody, kaszubskie jeziora. Mniej niż 1 km do centrum wsi, szkoły.\n\nPo oddaniu drogi S6 świetnie skomunikowana z Gdynią ( 15 min autem do węzła Karwiny).",
+      "price": 375000,
+      "pricePerSqm": 13464.99,
+      "area": 27.85,
+      "landArea": 1033,
+      "rooms": 2,
+      "totalFloors": 1,
+      "yearBuilt": 2025,
+      "city": "Częstkowo",
+      "district": "wejherowski",
+      "street": "ul. Przetoczyńska",
+      "lat": 54.5056257,
+      "lng": 18.1522886,
+      "images": [
+        {
+          "url": "/oferty/99081023.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/99080918.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/99080930.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/99080933.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/11154254",
+      "createdAt": "2025-09-29 11:26:54",
+      "updatedAt": "2026-08-21 11:17:15"
+    },
+    {
+      "id": "11599184",
+      "offerNumber": "ST527628",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Komfortowe 2 pokoje z pięknym widokiem na park",
+      "description": "Na wynajem przestronne 2 pokojowe mieszkanie położone w Ogrodach Wejhera, zamkniętym kameralnym osiedlu w samym centrum Wejherowa - z widokiem na Park im .Aleksandra Majkowskiego. \n\nMieszkanie jest wyremontowane, wyposażone w nowe meble. Składa się z dużego salonu z aneksem kuchennym, gdzie wydzielono strefę relaksu oraz jadalnię przy zabudowie kuchennej. Aneks wyposażony w AGD - w tym zmywarkę. Z salonu wyjście na duży i słoneczny balkon z kojącym widokiem na zieleń. \n\nSypialnia przestronna, z dużym, wygodnym łóżkiem i miejscem do pracy. Dużo miejsca do przechowywania. W przedpokoju znajduje się bardzo pojemna zabudowa - szafa sześciodrzwiowa. Dodatkowo w sypialni szafki z szufladami. \nDuże okna i wystawa względem stron świata zapewnia optymalne doświetlenie wnętrza. \n\nŁazienka z wanną. Przestronna i przytulna jednocześnie. \n\nDodatkowo można wynająć miejsce postojowe w hali garażowej.\n\nNie wysokie opłaty - ok.600 zł + prąd. W przypadku najmu wraz z miejscem postojowym, eksploatacja 700 zł.\n\nSpokojne sąsiedztwo.\n\nBudynek bardzo zadbany, bezpieczny. Miejsca postojowe zewnętrzne dla mieszkańców. \n\nLokalizacja idealna - piesza odległość na rynek, do wszystkich punktów usługowych, nawet filharmonii. Znany park vis a vis osiedla a nieco dalej tereny leśne - idealne do rekreacji. Ok. 1 km do SKM, dobry wyjazd do S6.\n\nWyjątkowa oferta w Wejherowie. Gotowe do wprowadzenia.\nNajem bez zwierząt. \n\nNajem okazjonalny, umowa na 12 miesięcy.",
+      "price": 2800,
+      "pricePerSqm": 56.45,
+      "rent": 600,
+      "area": 49.6,
+      "rooms": 2,
+      "floor": 3,
+      "totalFloors": 3,
+      "yearBuilt": 2008,
+      "city": "Wejherowo",
+      "district": "wejherowski",
+      "street": "ul. św. Jacka",
+      "lat": 54.5995339,
+      "lng": 18.2338583,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841156_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841123_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841117_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841129_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841135_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841147_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841153_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841150_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841168_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841162_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841165_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841159_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841171_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841180_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841174_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841177_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841195_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841198_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841183_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841186_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841189_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841192_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841201_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841204_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841207_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841210_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841213_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841216_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841105_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841108_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841111_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841114_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841219_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841222_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841225_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841228_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11599184",
+      "createdAt": "2026-02-18 08:23:59",
+      "updatedAt": "2026-08-21 08:37:41"
+    },
     {
       "id": "12367265",
       "offerNumber": "ST140448",
@@ -24,95 +251,96 @@
       "lng": 18.4819755,
       "images": [
         {
-          "url": "/oferty/114022550.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022550_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/114022544.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022544_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022556.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022556_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022565.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022565_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022568.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022568_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022643.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022643_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022559.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022559_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022646.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022646_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022649.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022649_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022652.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022652_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022718.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022718_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022661.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022661_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022676.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022676_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022673.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022673_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022679.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022679_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022682.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022682_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022688.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022688_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022691.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022691_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022739.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022739_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022520.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022520_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022526.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022526_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
         "fullName": "Iwona Stępińska",
         "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
+        "email": "istepinska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12367265",
       "createdAt": "2026-08-12 13:51:41",
@@ -791,184 +1019,6 @@
       "url": "https://starnawska.pl/oferty/7696427",
       "createdAt": "2023-08-16 14:28:19",
       "updatedAt": "2026-08-18 09:23:44"
-    },
-    {
-      "id": "11599184",
-      "offerNumber": "ST527628",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Komfortowe 2 pokoje z pięknym widokiem na park",
-      "description": "Na wynajem przestronne 2 pokojowe mieszkanie położone w Ogrodach Wejhera, zamkniętym kameralnym osiedlu w samym centrum Wejherowa - z widokiem na Park im .Aleksandra Majkowskiego. \n\nMieszkanie jest wyremontowane, wyposażone w nowe meble. Składa się z dużego salonu z aneksem kuchennym, gdzie wydzielono strefę relaksu oraz jadalnię przy zabudowie kuchennej. Aneks wyposażony w AGD - w tym zmywarkę. Z salonu wyjście na duży i słoneczny balkon z kojącym widokiem na zieleń. \n\nSypialnia przestronna, z dużym, wygodnym łóżkiem i miejscem do pracy. Dużo miejsca do przechowywania. W przedpokoju znajduje się bardzo pojemna zabudowa - szafa sześciodrzwiowa. Dodatkowo w sypialni szafki z szufladami. \nDuże okna i wystawa względem stron świata zapewnia optymalne doświetlenie wnętrza. \n\nŁazienka z wanną. Przestronna i przytulna jednocześnie. \n\nDodatkowo można wynająć miejsce postojowe w hali garażowej.\n\nNie wysokie opłaty - ok.600 zł + prąd. W przypadku najmu wraz z miejscem postojowym, eksploatacja 700 zł.\n\nSpokojne sąsiedztwo.\n\nBudynek bardzo zadbany, bezpieczny. Miejsca postojowe zewnętrzne dla mieszkańców. \n\nLokalizacja idealna - piesza odległość na rynek, do wszystkich punktów usługowych, nawet filharmonii. Znany park vis a vis osiedla a nieco dalej tereny leśne - idealne do rekreacji. Ok. 1 km do SKM, dobry wyjazd do S6.\n\nWyjątkowa oferta w Wejherowie. Gotowe do wprowadzenia.\nNajem bez zwierząt. \n\nNajem okazjonalny, umowa na 12 miesięcy.",
-      "price": 2800,
-      "pricePerSqm": 56.45,
-      "rent": 600,
-      "area": 49.6,
-      "rooms": 2,
-      "floor": 3,
-      "totalFloors": 3,
-      "yearBuilt": 2008,
-      "city": "Wejherowo",
-      "district": "wejherowski",
-      "street": "ul. św. Jacka",
-      "lat": 54.5995339,
-      "lng": 18.2338583,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841156_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841123_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841117_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841129_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841135_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841147_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841153_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841150_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841168_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841162_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841165_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841159_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841171_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841180_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841174_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841177_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841195_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841198_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841183_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841186_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841189_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841192_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841201_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841204_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841207_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841210_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841213_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841216_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841105_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841108_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841111_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841114_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841219_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841222_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841225_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11599184/103841228_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11599184",
-      "createdAt": "2026-02-18 08:23:59",
-      "updatedAt": "2026-08-17 19:04:06"
     },
     {
       "id": "12153050",
@@ -1993,57 +2043,6 @@
       "url": "https://starnawska.pl/oferty/11993354",
       "createdAt": "2026-05-19 12:13:54",
       "updatedAt": "2026-07-15 12:07:41"
-    },
-    {
-      "id": "11154254",
-      "offerNumber": "ST283181",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Wolnostojący",
-      "market": "wtorny",
-      "title": "Działka z domkiem, z potencjałem rozbudowy",
-      "description": "Działka z niedużym domem ( mieszkalny) w konstrukcji drewnianej, CAŁOROCZNY, w stanie surowym zamknietym/deweloperskim. Domek do wykończenia wewnątrz. Składa się z części dziennej z aneksem kuchennym, niewielkiej sypialni, garderoby i łazienki z WC. Możliwość większej zabudowy działki. Otoczenie pól i zabudowy wolnostojącej.\n\nNieruchomość położona w malowniczej wsi Częstkowo (gm.Szemud).\n\nTeren płaski, nie zadrzewiony. Graniczy z gminną droga asfaltową.\nByły wydane warunkami zabudowy dla domu mieszkalnego jednorodzinnego (parter + poddasze użytkowe): \n- pow. zabudowy do 150 m2, \n- dachy dwu lub wielospadowe, \n- wysokość do 9 m, \noraz dla budynku gosp.do 35 m2. \n\nWoda i prąd na działce. Kanalizacja sanitarna we własnym zakresie (zbiornik bezodpływowy wykonany).\n\nW promieniu 10 km dwa rezerwaty przyrody, kaszubskie jeziora. Mniej niż 1 km do centrum wsi, szkoły.\n\nPo oddaniu drogi S6 świetnie skomunikowana z Gdynią ( 15 min autem do węzła Karwiny).",
-      "price": 375000,
-      "pricePerSqm": 13464.99,
-      "area": 27.85,
-      "landArea": 1033,
-      "rooms": 2,
-      "totalFloors": 1,
-      "yearBuilt": 2025,
-      "city": "Częstkowo",
-      "district": "wejherowski",
-      "street": "ul. Przetoczyńska",
-      "lat": 54.5056257,
-      "lng": 18.1522886,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99081023_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99080918_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99080930_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11154254/99080933_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/q--AqzL2uQg",
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11154254",
-      "createdAt": "2025-09-29 11:26:54",
-      "updatedAt": "2026-07-07 14:10:33"
     },
     {
       "id": "11764931",
