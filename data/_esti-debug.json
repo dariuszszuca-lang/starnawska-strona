@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T05:46:06.511Z",
-  "package": "EstiCRM_18_20260822150017.zip",
+  "generatedAt": "2026-08-24T05:40:47.727Z",
+  "package": "EstiCRM_18_20260823110017.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12164528",
+      "id": "12215723",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST732390",
+        "numberExport": "ST514187",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-22 13:59:44",
-        "exportDate": "2026-08-22 14:01:33",
+        "exportGalleryDate": "2026-08-23 10:43:38",
+        "exportDate": "2026-08-23 10:43:38",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Na wynajem | Gdańsk, Bastion Wałowa",
+        "portalTitle": "Słoneczne 3 pokoje, przy centrum,  po remocnie",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
