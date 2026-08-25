@@ -1,6 +1,112 @@
 {
-  "lastSync": "2026-08-24T05:40:47.715Z",
+  "lastSync": "2026-08-25T05:39:47.362Z",
   "offers": [
+    {
+      "id": "12154073",
+      "offerNumber": "ST645923",
+      "transaction": "sprzedaz",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Dwustronne, słoneczne, stan do wprowadzenia.",
+      "description": "Słoneczne, dwustronne mieszkanie z loggią | 2 pokoje | 49,60 m²| osobna kuchnia| osobno wc|.\n\nNieruchomość znajduje się w ostatniej klatce bloku, co zapewnia większą ciszę, spokój oraz kameralną atmosferę. Wokół budynku znajduje się dużo zieleni, a jednocześnie w najbliższej okolicy dostępna jest pełna infrastruktura potrzebna do wygodnego życia.\n\nFunkcjonalny i wygodny układ.\n\nMieszkanie jest dwustronne, dzięki czemu wnętrza są dobrze doświetlone przez cały dzień.\n\nOd strony wschodniej znajdują się:\n\n- osobna, jasna kuchnia z oknem,\n- mniejszy pokój.\n\nOd strony zachodniej usytuowany jest:\n\n- przestronny pokój dzienny z wyjściem na słoneczną loggię.\n\nW mieszkaniu znajdują się również:\n\n- łazienka z kabiną prysznicową,\n- osobna toaleta,\n- przedpokój z miejscem do przechowywania.\n\nTaki rozkład sprawdzi się zarówno dla singla, pary, niewielkiej rodziny, jak i osób poszukujących mieszkania pod wynajem.\n\nGotowe do zamieszkania.\n\nMieszkanie jest zadbane, a jego obecny stan pozwala na wprowadzenie się bez konieczności przeprowadzania remontu. To dobra propozycja dla osób, które chcą zamieszkać od razu, bez dodatkowych nakładów finansowych i czasochłonnych prac.\n\nDodatkowym atutem jest to, że lokal jest bardzo ciepły. Właściciele regularnie otrzymują nadpłaty z tytułu rozliczenia kosztów ogrzewania.\nŚredni miesięczny czynsz wynosi około 770 zł i obejmuje między innymi zaliczki na wodę oraz ogrzewanie.\n\nZakres wykonanych prac:\n\nMieszkanie przeszło kapitalny remont w 2010 roku, obejmujący między innymi:\n\n- wymianę instalacji elektrycznej,\n- wymianę instalacji hydraulicznej,\n- wymianę okien,\n- wykonanie nowych tynków,\n- wymianę podłóg,\n- remont kuchni,\n- remont łazienki i toalety wraz z wymianą glazury, terakoty oraz armatury.\n\nW 2018 roku wymieniono podłogi w pokojach i przedpokoju, całe mieszkanie zostało odmalowane, a na loggii położono nowe płytki.\n\nW  2022 roku zamontowano nową kabinę prysznicową.\n\nBudynek i otoczenie\n\nBudynek jest zadbany, a klatka schodowa czysta i utrzymana w dobrym stanie. Dużym atutem jest położenie mieszkania w ostatniej klatce bloku, z dala od intensywnego ruchu mieszkańców.\n\nDo mieszkania przynależy piwnica.\n\nPrzy budynku znajdują się ogólnodostępne miejsca parkingowe.\n\nLokalizacja zapewnia wygodny dostęp do komunikacji miejskiej oraz codziennych usług. W pobliżu znajdują się między innymi:\n\n- przystanki komunikacji miejskiej,\n- sklepy,\n- apteka,\n- szkoła,\n- punkty usługowe,\n- tereny zielone.\n\nTo propozycja dla osób, które szukają ustawnego, słonecznego i gotowego do zamieszkania mieszkania w spokojnym otoczeniu, a jednocześnie nie chcą rezygnować z bliskości komunikacji i miejskiej infrastruktury.\n\nZapraszamy na prezentację. To mieszkanie warto zobaczyć na żywo.",
+      "price": 650000,
+      "pricePerSqm": 13104.84,
+      "rent": 770,
+      "area": 49.6,
+      "rooms": 2,
+      "floor": 2,
+      "totalFloors": 4,
+      "city": "Gdańsk",
+      "district": "Chełm",
+      "street": "ul. Tytusa Chałubińskiego",
+      "lat": 54.342896,
+      "lng": 18.625553,
+      "images": [
+        {
+          "url": "/oferty/109998479.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/109999172.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109998461.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109998485.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997903.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997969.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997891.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110000183.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109999151.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997999.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997816.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997834.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997843.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997930.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109997984.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/109998515.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Park w pobliżu",
+        "Tramwaj",
+        "Autobus",
+        "Przedszkole",
+        "Szkoła podstawowa",
+        "Sklep spożywczy",
+        "Apteka",
+        "Plac zabaw"
+      ],
+      "agent": {
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl",
+        "slug": "jolanta-starnawska"
+      },
+      "url": "https://starnawska.pl/oferty/12154073",
+      "createdAt": "2026-06-23 19:33:22",
+      "updatedAt": "2026-08-24 14:59:25"
+    },
     {
       "id": "12215723",
       "offerNumber": "ST514187",
@@ -24,63 +130,64 @@
       "lng": 18.5381644,
       "images": [
         {
-          "url": "/oferty/110582198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582198_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110582189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582102.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582102_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582087_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582099.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582099_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582096.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582096_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582090.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582090_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582093.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582093_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582216_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12215723",
       "createdAt": "2026-07-08 12:54:55",
@@ -768,69 +875,6 @@
       "url": "https://starnawska.pl/oferty/8351687",
       "createdAt": "2024-01-31 09:00:05",
       "updatedAt": "2026-08-18 15:55:37"
-    },
-    {
-      "id": "12113690",
-      "offerNumber": "ST982535",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Płaska działka w sąsiedztwie jeziora i lasów",
-      "description": "Szukasz miejsca poza miastem, wśród lasów i jezior na zamieszkanie  i z dobrym dojazdem do Trójmiasta, to właśnie oferta dla Ciebie!\n\n Mamy do zaoferowania prześliczną działkę  położoną w otoczeniu lasów, łąk i  w sąsiedztwie jeziora Borowo.\nDziałka  jest  płaska, bardzo dobrze naświetlona.\nW drodze mamy wodę (kilka metrów) a na działce skrzynkę z prądem.\nDroga dojazdowa do działki płytami drogą gminną a dodatkowo mamy udział  w wewnętrznych drogach prywatnych. \nObowiązuje Miejscowy Plan Zagospodarowania Przestrzennego z zabudową mieszkaniową- MN. W pobliżu zabudowa jednorodzinna. \nŚwiatłowód.\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n Wkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni ok. trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nPOLECAMY!\nZapraszam do kontaktu.",
-      "price": 299000,
-      "pricePerSqm": 199.33,
-      "area": 1500,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Bukowa",
-      "lat": 54.5427708,
-      "lng": 18.2763107,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559087_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559075_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559078_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559081_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559561_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559201_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559084_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12113690/109559564_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/t_sZLr1I1Nw",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12113690",
-      "createdAt": "2026-06-17 20:36:09",
-      "updatedAt": "2026-08-18 15:32:44"
     },
     {
       "id": "12293945",
@@ -1685,103 +1729,6 @@
       "url": "https://starnawska.pl/oferty/12326333",
       "createdAt": "2026-08-05 09:13:29",
       "updatedAt": "2026-08-07 10:43:57"
-    },
-    {
-      "id": "12154073",
-      "offerNumber": "ST645923",
-      "transaction": "sprzedaz",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Dwustronne, słoneczne, stan do wprowadzenia.",
-      "description": "Słoneczne, dwustronne mieszkanie z loggią | 2 pokoje | 49,60 m²| osobna kuchnia| osobno wc|.\n\nNieruchomość znajduje się w ostatniej klatce bloku, co zapewnia większą ciszę, spokój oraz kameralną atmosferę. Wokół budynku znajduje się dużo zieleni, a jednocześnie w najbliższej okolicy dostępna jest pełna infrastruktura potrzebna do wygodnego życia.\n\nFunkcjonalny i wygodny układ.\n\nMieszkanie jest dwustronne, dzięki czemu wnętrza są dobrze doświetlone przez cały dzień.\n\nOd strony wschodniej znajdują się:\n\n- osobna, jasna kuchnia z oknem,\n- mniejszy pokój.\n\nOd strony zachodniej usytuowany jest:\n\n- przestronny pokój dzienny z wyjściem na słoneczną loggię.\n\nW mieszkaniu znajdują się również:\n\n- łazienka z kabiną prysznicową,\n- osobna toaleta,\n- przedpokój z miejscem do przechowywania.\n\nTaki rozkład sprawdzi się zarówno dla singla, pary, niewielkiej rodziny, jak i osób poszukujących mieszkania pod wynajem.\n\nGotowe do zamieszkania.\n\nMieszkanie jest zadbane, a jego obecny stan pozwala na wprowadzenie się bez konieczności przeprowadzania remontu. To dobra propozycja dla osób, które chcą zamieszkać od razu, bez dodatkowych nakładów finansowych i czasochłonnych prac.\n\nDodatkowym atutem jest to, że lokal jest bardzo ciepły. Właściciele regularnie otrzymują nadpłaty z tytułu rozliczenia kosztów ogrzewania.\nŚredni miesięczny czynsz wynosi około 770 zł i obejmuje między innymi zaliczki na wodę oraz ogrzewanie.\n\nZakres wykonanych prac:\n\nMieszkanie przeszło kapitalny remont w 2010 roku, obejmujący między innymi:\n\n- wymianę instalacji elektrycznej,\n- wymianę instalacji hydraulicznej,\n- wymianę okien,\n- wykonanie nowych tynków,\n- wymianę podłóg,\n- remont kuchni,\n- remont łazienki i toalety wraz z wymianą glazury, terakoty oraz armatury.\n\nW 2018 roku wymieniono podłogi w pokojach i przedpokoju, całe mieszkanie zostało odmalowane, a na loggii położono nowe płytki.\n\nW  2022 roku zamontowano nową kabinę prysznicową.\n\nBudynek i otoczenie\n\nBudynek jest zadbany, a klatka schodowa czysta i utrzymana w dobrym stanie. Dużym atutem jest położenie mieszkania w ostatniej klatce bloku, z dala od intensywnego ruchu mieszkańców.\n\nDo mieszkania przynależy piwnica.\n\nPrzy budynku znajdują się ogólnodostępne miejsca parkingowe.\n\nLokalizacja zapewnia wygodny dostęp do komunikacji miejskiej oraz codziennych usług. W pobliżu znajdują się między innymi:\n\n- przystanki komunikacji miejskiej,\n- sklepy,\n- apteka,\n- szkoła,\n- punkty usługowe,\n- tereny zielone.\n\nTo propozycja dla osób, które szukają ustawnego, słonecznego i gotowego do zamieszkania mieszkania w spokojnym otoczeniu, a jednocześnie nie chcą rezygnować z bliskości komunikacji i miejskiej infrastruktury.\n\nZapraszamy na prezentację. To mieszkanie warto zobaczyć na żywo.",
-      "price": 670000,
-      "pricePerSqm": 13508.06,
-      "rent": 770,
-      "area": 49.6,
-      "rooms": 2,
-      "floor": 2,
-      "totalFloors": 4,
-      "city": "Gdańsk",
-      "district": "Chełm",
-      "street": "ul. Tytusa Chałubińskiego",
-      "lat": 54.342896,
-      "lng": 18.625553,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998479_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999172_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998461_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998485_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997903_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997969_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997891_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/110000183_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999151_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997999_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997816_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997834_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997843_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997930_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997984_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998515_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12154073",
-      "createdAt": "2026-06-23 19:33:22",
-      "updatedAt": "2026-08-06 21:05:55"
     },
     {
       "id": "12313262",
