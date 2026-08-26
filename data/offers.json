@@ -1,6 +1,214 @@
 {
-  "lastSync": "2026-08-25T05:39:47.362Z",
+  "lastSync": "2026-08-26T05:38:11.925Z",
   "offers": [
+    {
+      "id": "12408809",
+      "offerNumber": "ST796050",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Wolnostojący",
+      "market": "wtorny",
+      "title": "Orłowo, las, dom wolnostojący",
+      "description": "Wyjątkowy dom z duszą w sercu zielonego Orłowa!\n\nNa sprzedaż wolnostojący, zadbany dom z lat 50tych z cegły o charakterystycznej dla Gdyni architekturze, położony na zacisznej, kameralnej ulicy otoczonej starodrzewem. Nieruchomość znajduje się w jednej z najbardziej pożądanych dzielnic, zaledwie 20 minut spacerem od plaży.\n\nDziałka ustawna, w kształcie prostokąta (szerokość ok. 21,5 m, długość ok. 34 m).\nZgodnie z planem ogólnym teren znajduje się w strefie zabudowy jednorodzinnej, co gwarantuje zachowanie willowego i spokojnego charakteru okolicy. Poza domem na posesji znajduje się także przestronny, wolnostojący, trzystanowiskowy garaż.\n\nObecny układ domu - wysoki parter (główna część mieszkalna)\nPrzestronny salon oraz trzy dodatkowe pokoje (powierzchnie: ok. 24,5 m², 17,5 m², 20,5 m² i 9,5 m²),\nOddzielna, jasna kuchnia z jadalnią (ok. 15, 75 m²),\nKomfortowa łazienka (ok. 4,5 m²),\nHol (9,5 m²), \nSłoneczna weranda (ok. 11,5 m²) z bezpośrednim wyjściem na zielony ogród.\n\nPrzyziemie (piwnica)\nOkoło połowa zadaptowana na cele mieszkalne - idealne jako niezależna przestrzeń dla gości lub domowe biuro (2 pokoje - 18 i 17 m²  kuchnia 9 m² oraz łazienka 3, 75 m²). Pomieszczenia wysokie na 2,2 m, doświetlone dużymi oknami. Pozostała cześć pełni typowo piwniczną funkcję. \n\nStrych (prawie na całości domu)\nObecnie pełni funkcję praktycznej przestrzeni do przechowywania z dużym potencjałem aranżacyjnym (od 1,8 - 2,2 m wysokości). Ewentualnie do podniesienia. \n\nBudynek jest regularnie konserwowany i na bieżąco przechodzi niezbędne prace remontowe. Dom jest czysty, zadbany i w pełni funkcjonalny - w zależności od potrzeb nowego właściciela nadaje się do natychmiastowego wprowadzenia po odświeżeniu lub do przeprowadzenia gruntownej metamorfozy.Nie jest pod ochroną konserwatora. Wykonana fotowoltaika. \n\nLokalizacja - idealny balans między miastem a naturą:\nNieruchomość położona jest przy ulicy, która kończy się  \"ślepo\" dzięki czemu ruch samochodowy ogranicza się wyłącznie do mieszkańców. Okolica jest niezwykle cicha i spokojna. Z dwóch stron dzielnica sąsiaduje z terenem zielonym i leśnym, co stwarza idealne warunki do wypoczynku i aktywnego spędzania czasu na świeżym powietrzu.\n\nZapraszam do kontaktu w celu uzyskania dodatkowych informacji oraz umówienia prezentacji tej wyjątkowej nieruchomości!",
+      "price": 2999000,
+      "pricePerSqm": 14280.95,
+      "area": 210,
+      "landArea": 741,
+      "rooms": 4,
+      "totalFloors": 2,
+      "city": "Gdynia",
+      "district": "Orłowo",
+      "street": "ul. Techniczna",
+      "lat": 54.4773819,
+      "lng": 18.5434868,
+      "images": [
+        {
+          "url": "/oferty/113673176.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/113673257.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/12408809",
+      "createdAt": "2026-08-13 13:05:53",
+      "updatedAt": "2026-08-25 21:07:03"
+    },
+    {
+      "id": "5826876",
+      "offerNumber": "ST674422",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
+      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nMieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy przypisane miejsce parkingowe za szlabanem. \n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \nMaksymalnie dla pary\n\nUmowa na rok czasu, najem okazjonalny.",
+      "price": 2200,
+      "pricePerSqm": 47.83,
+      "rent": 480,
+      "area": 46,
+      "rooms": 2,
+      "floor": 2,
+      "totalFloors": 4,
+      "yearBuilt": 2016,
+      "city": "Gdańsk",
+      "district": "Jasień",
+      "street": "ul. Konrada Guderskiego",
+      "lat": 54.32196,
+      "lng": 18.55925,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491209_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491098_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491263_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448594_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448570_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448564_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448579_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448627_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448615_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448588_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448621_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448630_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448624_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/5826876",
+      "createdAt": "2022-04-05 12:55:58",
+      "updatedAt": "2026-08-25 08:00:42"
+    },
+    {
+      "id": "7696427",
+      "offerNumber": "ST333183",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Zadbane dwa pokoje z kuchnią przy lesie",
+      "description": "Dwustronne mieszkanie położone na I p. czteropiętrowego budynku położonego pod samym lasem w Gdyni, w dzielnicy Witomino Leśniczówka. Mieszkanie jest w pełni umeblowane, składa się ze słonecznego salonu z balkonem od południowego zachodu, sypialni z miejscem do pracy, kuchni i łazienki z wanną. Na przedpokoju znajduje się obszerna szafa w zabudowie. Dodatkowo w sypialni szafa wolnostojąca oraz mniejsza w salonie. Idealne dla singla lub dwóch osób.\n\nW najbliższym sąsiedztwie przystanek autobusowy. Dobre połączenie z dzielnicami - Śródmieście, Redłowo, Wzgórze Maksymiliana, Obłuże, Oksywie. W okolicy Biedronka, Żabka, biblioteka, pasaż handlowo-usługowy. Ok. 1 km do CH Witawa. 20 min rowerem do centrum Gdyni (4 km do urzędu miasta). Tylko ok. 2 km do SKM i PKM Redłowo. \n\nObecne opłaty letnie 500 zł. Gaz (kuchenka) ryczałtowo wliczony w czynsz. Zimą ok. 700 zł. Prąd wg zużycia. Internet/TV we własnym zakresie.\n\nMożliwość skorzystania z piwnicy. \n\nNajem okazjonalny, bez zwierząt dla singla lub pary. Wolne od września. Opłatę notarialną poniesie Właściciel.\n\nZapraszam na prezentację",
+      "price": 2500,
+      "pricePerSqm": 61.58,
+      "rent": 600,
+      "area": 40.6,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 4,
+      "yearBuilt": 1979,
+      "city": "Gdynia",
+      "district": "Witomino-Leśniczówka",
+      "street": "ul. 2 Morskiego Pułku Strzelców",
+      "lat": 54.49131,
+      "lng": 18.51525,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755154_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755127_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755136_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755322_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755328_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755334_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755160_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755301_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757059_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755061_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757056_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755184_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/7696427",
+      "createdAt": "2023-08-16 14:28:19",
+      "updatedAt": "2026-08-25 07:59:27"
+    },
     {
       "id": "12154073",
       "offerNumber": "ST645923",
@@ -23,85 +231,76 @@
       "lng": 18.625553,
       "images": [
         {
-          "url": "/oferty/109998479.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998479_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109999172.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999172_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998461.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998461_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998485.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998485_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997903.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997903_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997969.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997969_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997891.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997891_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110000183.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/110000183_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109999151.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999151_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997999.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997999_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997816.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997816_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997834.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997834_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997843.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997843_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997930.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997930_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997984.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997984_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998515.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998515_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Park w pobliżu",
-        "Tramwaj",
-        "Autobus",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
         "fullName": "Jolanta Starnawska",
         "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl",
-        "slug": "jolanta-starnawska"
+        "email": "jstarnawska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12154073",
       "createdAt": "2026-06-23 19:33:22",
@@ -256,47 +455,6 @@
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
       "updatedAt": "2026-08-22 14:01:33"
-    },
-    {
-      "id": "12408809",
-      "offerNumber": "ST796050",
-      "transaction": "sprzedaz",
-      "type": "dom",
-      "typeDetail": "Wolnostojący",
-      "market": "wtorny",
-      "title": "Orłowo, las, dom wolnostojący",
-      "description": "Wyjątkowy dom z duszą w sercu zielonego Orłowa!\n\nNa sprzedaż wolnostojący, zadbany dom z lat 50tych z cegły o charakterystycznej dla Gdyni architekturze, położony na zacisznej, kameralnej ulicy otoczonej starodrzewem. Nieruchomość znajduje się w jednej z najbardziej pożądanych dzielnic, zaledwie 20 minut spacerem od plaży.\n\nDziałka ustawna, w kształcie prostokąta (szerokość ok. 21,5 m, długość ok. 34 m).\nZgodnie z planem ogólnym teren znajduje się w strefie zabudowy jednorodzinnej, co gwarantuje zachowanie willowego i spokojnego charakteru okolicy. Poza domem na posesji znajduje się także przestronny, wolnostojący trzystanowiskowy garaż.\n\nObecny układ domu - wysoki parter (główna część mieszkalna):\n\nPrzestronny salon oraz trzy dodatkowe pokoje (powierzchnie: ok. 24,5 m², 17,5 m², 20,5 m² i 9,5 m²),\nOddzielna, jasna kuchnia z jadalnią (ok. 15, 75 m²),\nKomfortowa łazienka (ok. 4,5 m²),\nHol ( 9,5 m²), \nSłoneczna weranda (ok. 11,5 m²) z bezpośrednim wyjściem na zielony ogród.\n\nPrzyziemie (piwnica):\nOkoło połowa zadaptowana na cele mieszkalne - idealne jako niezależna przestrzeń dla gości lub domowe biuro (2 pokoje - 18 i 17m2,  kuchnia 9 m2 oraz łazienka 3,75 m2). Pomieszczenia wysokie na 2,2 m, doświetlone dużymi oknami. Pozostała cześć pełni typowo piwniczną funkcję. \n\nStrych ( prawie na całości domu).\nObecnie pełni funkcję praktycznej przestrzeni do przechowywania z dużym potencjałem aranżacyjnym ( od 1,8 - .2,2 m wysokości). Ewentualnie do podniesienia. \n\nBudynek jest regularnie konserwowany i na bieżąco przechodzi niezbędne prace remontowe. Dom jest czysty, zadbany i w pełni funkcjonalny - w zależności od potrzeb nowego właściciela nadaje się do natychmiastowego wprowadzenia po odświeżeniu lub do przeprowadzenia gruntownej metamorfozy.Nie jest pod ochroną konserwatora. Wykonana fotowoltaika. \n\nLokalizacja - idealny balans między miastem a naturą:\nNieruchomość położona jest przy ulicy, która kończy się  \"ślepo\" dzięki czemu ruch samochodowy ogranicza się wyłącznie do mieszkańców. Okolica jest niezwykle cicha i spokojna. Z dwóch stron dzielnica sąsiaduje z terenem zielonym i leśnym, co stwarza idealne warunki do wypoczynku i aktywnego spędzania czasu na świeżym powietrzu.\n\nZapraszam do kontaktu w celu uzyskania dodatkowych informacji oraz umówienia prezentacji tej wyjątkowej nieruchomości!",
-      "price": 2999000,
-      "pricePerSqm": 14280.95,
-      "area": 210,
-      "landArea": 741,
-      "rooms": 4,
-      "totalFloors": 2,
-      "city": "Gdynia",
-      "district": "Orłowo",
-      "street": "ul. Techniczna",
-      "lat": 54.4773819,
-      "lng": 18.5434868,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/113673176_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/113673257_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12408809",
-      "createdAt": "2026-08-13 13:05:53",
-      "updatedAt": "2026-08-22 12:37:17"
     },
     {
       "id": "12402752",
@@ -997,88 +1155,6 @@
       "updatedAt": "2026-08-18 12:15:16"
     },
     {
-      "id": "7696427",
-      "offerNumber": "ST333183",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Zadbane dwa pokoje z kuchnią przy lesie",
-      "description": "Dwustronne mieszkanie położone na I p. czteropiętrowego budynku położonego pod samym lasem w Gdyni, w dzielnicy Witomino Leśniczówka. Mieszkanie jest w pełni umeblowane, składa się ze słonecznego salonu z balkonem od południowego zachodu, sypialni z miejscem do pracy, kuchni i łazienki z wanną. Na przedpokoju znajduje się obszerna szafa w zabudowie. Dodatkowo w sypialni szafa wolnostojąca oraz mniejsza w salonie. Idealne dla singla lub dwóch osób.\n\nW najbliższym sąsiedztwie przystanek autobusowy. Dobre połączenie z dzielnicami - Śródmieście, Redłowo, Wzgórze Maksymiliana, Obłuże, Oksywie. W okolicy Biedronka, Żabka, biblioteka, pasaż handlowo-usługowy. Ok. 1 km do CH Witawa. 20 min rowerem do centrum Gdyni (4 km do urzędu miasta). Tylko ok. 2 km do SKM i PKM Redłowo. \n\nObecne opłaty letnie 500 zł. Gaz (kuchenka) ryczałtowo wliczony w czynsz. Zimą ok. 700 zł. Prąd wg zużycia. Internet/TV we własnym zakresie.\n\nMożliwość skorzystania z piwnicy. \n\nNajem okazjonalny, bez zwierząt dla singla lub pary. Wolne od września.\n\nZapraszam na prezentację",
-      "price": 2500,
-      "pricePerSqm": 61.58,
-      "rent": 600,
-      "area": 40.6,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 4,
-      "yearBuilt": 1979,
-      "city": "Gdynia",
-      "district": "Witomino-Leśniczówka",
-      "street": "ul. 2 Morskiego Pułku Strzelców",
-      "lat": 54.49131,
-      "lng": 18.51525,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755154_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755127_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755136_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755322_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755328_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755334_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755160_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755301_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757059_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755061_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757056_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755184_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/7696427",
-      "createdAt": "2023-08-16 14:28:19",
-      "updatedAt": "2026-08-18 09:23:44"
-    },
-    {
       "id": "12153050",
       "offerNumber": "ST628533",
       "transaction": "sprzedaz",
@@ -1427,92 +1503,6 @@
       "url": "https://starnawska.pl/oferty/11996204",
       "createdAt": "2026-05-20 06:39:41",
       "updatedAt": "2026-08-12 13:29:32"
-    },
-    {
-      "id": "5826876",
-      "offerNumber": "ST674422",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
-      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nMieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy przypisane miejsce parkingowe za szlabanem. \n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \nMaksymalnie dla pary\n\nUmowa na rok czasu, najem okazjonalny.",
-      "price": 2200,
-      "pricePerSqm": 47.83,
-      "rent": 480,
-      "area": 46,
-      "rooms": 2,
-      "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 2016,
-      "city": "Gdańsk",
-      "district": "Jasień",
-      "street": "ul. Konrada Guderskiego",
-      "lat": 54.32196,
-      "lng": 18.55925,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491209_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491098_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491263_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448594_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448570_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448564_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448579_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448627_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448615_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448588_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448621_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448630_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448624_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/5826876",
-      "createdAt": "2022-04-05 12:55:58",
-      "updatedAt": "2026-08-11 14:44:36"
     },
     {
       "id": "12346481",
