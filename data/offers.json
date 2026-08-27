@@ -1,6 +1,87 @@
 {
-  "lastSync": "2026-08-26T05:38:11.925Z",
+  "lastSync": "2026-08-27T06:02:55.161Z",
   "offers": [
+    {
+      "id": "7696427",
+      "offerNumber": "ST333183",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Zadbane dwa pokoje z kuchnią przy lesie",
+      "description": "Dwustronne mieszkanie położone na I p. czteropiętrowego budynku położonego pod samym lasem w Gdyni, w dzielnicy Witomino Leśniczówka. Mieszkanie jest w pełni umeblowane, składa się ze słonecznego salonu z balkonem od południowego zachodu, sypialni z miejscem do pracy, kuchni i łazienki z wanną. Na przedpokoju znajduje się obszerna szafa w zabudowie. Dodatkowo w sypialni szafa wolnostojąca oraz mniejsza w salonie. Idealne dla singla lub dwóch osób.\n\nW najbliższym sąsiedztwie przystanek autobusowy. Dobre połączenie z dzielnicami - Śródmieście, Redłowo, Wzgórze Maksymiliana, Obłuże, Oksywie. W okolicy Biedronka, Żabka, biblioteka, pasaż handlowo-usługowy. Ok. 1 km do CH Witawa. 20 min rowerem do centrum Gdyni (4 km do urzędu miasta). Tylko ok. 2 km do SKM i PKM Redłowo. \n\nObecne opłaty letnie 500 zł. Gaz (kuchenka) ryczałtowo wliczony w czynsz. Zimą ok. 700 zł. Prąd wg zużycia. Internet/TV we własnym zakresie.\n\nMożliwość skorzystania z piwnicy. \n\nNajem okazjonalny, bez zwierząt dla singla lub pary (wyłącznie osoby dorosłe). Wolne od września. Opłatę notarialną poniesie Właściciel.\n\nZapraszam na prezentację",
+      "price": 2500,
+      "pricePerSqm": 61.58,
+      "rent": 600,
+      "area": 40.6,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 4,
+      "yearBuilt": 1979,
+      "city": "Gdynia",
+      "district": "Witomino-Leśniczówka",
+      "street": "ul. 2 Morskiego Pułku Strzelców",
+      "lat": 54.49131,
+      "lng": 18.51525,
+      "images": [
+        {
+          "url": "/oferty/59755154.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/59755127.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755136.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755322.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755328.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755334.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755160.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755301.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59757059.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755061.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59757056.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/59755184.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl",
+        "slug": "patrycja-sudwoj-bolenska"
+      },
+      "url": "https://starnawska.pl/oferty/7696427",
+      "createdAt": "2023-08-16 14:28:19",
+      "updatedAt": "2026-08-26 09:36:53"
+    },
     {
       "id": "12408809",
       "offerNumber": "ST796050",
@@ -23,19 +104,20 @@
       "lng": 18.5434868,
       "images": [
         {
-          "url": "/oferty/113673176.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/113673176_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/113673257.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/113673257_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12408809",
       "createdAt": "2026-08-13 13:05:53",
@@ -126,88 +208,6 @@
       "url": "https://starnawska.pl/oferty/5826876",
       "createdAt": "2022-04-05 12:55:58",
       "updatedAt": "2026-08-25 08:00:42"
-    },
-    {
-      "id": "7696427",
-      "offerNumber": "ST333183",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Zadbane dwa pokoje z kuchnią przy lesie",
-      "description": "Dwustronne mieszkanie położone na I p. czteropiętrowego budynku położonego pod samym lasem w Gdyni, w dzielnicy Witomino Leśniczówka. Mieszkanie jest w pełni umeblowane, składa się ze słonecznego salonu z balkonem od południowego zachodu, sypialni z miejscem do pracy, kuchni i łazienki z wanną. Na przedpokoju znajduje się obszerna szafa w zabudowie. Dodatkowo w sypialni szafa wolnostojąca oraz mniejsza w salonie. Idealne dla singla lub dwóch osób.\n\nW najbliższym sąsiedztwie przystanek autobusowy. Dobre połączenie z dzielnicami - Śródmieście, Redłowo, Wzgórze Maksymiliana, Obłuże, Oksywie. W okolicy Biedronka, Żabka, biblioteka, pasaż handlowo-usługowy. Ok. 1 km do CH Witawa. 20 min rowerem do centrum Gdyni (4 km do urzędu miasta). Tylko ok. 2 km do SKM i PKM Redłowo. \n\nObecne opłaty letnie 500 zł. Gaz (kuchenka) ryczałtowo wliczony w czynsz. Zimą ok. 700 zł. Prąd wg zużycia. Internet/TV we własnym zakresie.\n\nMożliwość skorzystania z piwnicy. \n\nNajem okazjonalny, bez zwierząt dla singla lub pary. Wolne od września. Opłatę notarialną poniesie Właściciel.\n\nZapraszam na prezentację",
-      "price": 2500,
-      "pricePerSqm": 61.58,
-      "rent": 600,
-      "area": 40.6,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 4,
-      "yearBuilt": 1979,
-      "city": "Gdynia",
-      "district": "Witomino-Leśniczówka",
-      "street": "ul. 2 Morskiego Pułku Strzelców",
-      "lat": 54.49131,
-      "lng": 18.51525,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755154_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755127_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755136_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755322_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755328_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755334_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755160_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755301_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757059_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755061_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757056_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755184_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/7696427",
-      "createdAt": "2023-08-16 14:28:19",
-      "updatedAt": "2026-08-25 07:59:27"
     },
     {
       "id": "12154073",
