@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T06:02:55.181Z",
-  "package": "EstiCRM_18_20260826100017.zip",
+  "generatedAt": "2026-08-28T06:29:07.433Z",
+  "package": "EstiCRM_18_20260827190018.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "7696427",
+      "id": "12215723",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST333183",
+        "numberExport": "ST514187",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-26 09:36:53",
-        "exportDate": "2026-08-26 09:36:53",
+        "exportGalleryDate": "2026-08-27 18:00:17",
+        "exportDate": "2026-08-27 18:00:17",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Zadbane dwa pokoje z kuchnią przy lesie",
+        "portalTitle": "Słoneczne 3 pokoje, przy centrum,  po remocnie",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
