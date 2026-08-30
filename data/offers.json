@@ -1,6 +1,90 @@
 {
-  "lastSync": "2026-08-29T05:40:50.455Z",
+  "lastSync": "2026-08-30T06:14:46.862Z",
   "offers": [
+    {
+      "id": "12520220",
+      "offerNumber": "ST689950",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowe mieszkanie i dobra lokalizacja",
+      "description": "NOWE 2 POKOJE | DUŻY BALKON | WINDA | MIEJSCE POSTOJOWE | PIERWSZY NAJEM\nNowoczesne, w pełni urządzone mieszkanie 2-pokojowe w Gościcinie — gotowe do wprowadzenia.\n✨ Będziesz pierwszym Najemcą!\n✨ Nowe wyposażenie - wszystkie sprzęty na gwarancji\n✨ Duży balkon\n✨ Winda w budynku\n✨ Duże miejsce postojowe tuż przy klatce\n✨ Szybki dojazd do Wejherowa i Trasy S6\nKomfortowe mieszkanie dla 1-2 osób.\n\nDo wynajęcia od zaraz posiadamy nowe, elegancko urządzone mieszkanie o funkcjonalnym układzie, składające się z salonu z aneksem kuchennym, sypialni, łazienki i przedpokoju.\nMieszkanie jest kompletnie wyposażone i gotowe do zamieszkania — wystarczy się wprowadzić.\nKuchnia, to nowoczesny aneks kuchenny wyposażony w:\n• płytę indukcyjną,\n• piekarnik,\n• okap,\n• dużą lodówkę,\n• zmywarkę,\n• podstawowe naczynia i wyposażenie.\nŁazienka: wygodna z prysznicem i pralko-suszarką.\nSypialnia: ma na wyposażeniu duże łóżko, oraz wygodna szafę.\nSalon: miejsce do wypoczynku z telewizorem oraz jadalnią, duży balkon zapewnia dodatkową przestrzeń do wypoczynku.\n\nW budynku znajduje się winda zwiększająca codzienny komfort.\nDo mieszkania przynależy duże miejsce postojowe zlokalizowane tuż przy klatce schodowej — niezwykle wygodne rozwiązanie na co dzień.\n\nOsiedle jest nowe, zadbane i ładnie zagospodarowane, z dużą ilością zieleni.\nW kilka minut pieszo, rowerem lub samochodem można dotrzeć do:\n• przystanku autobusowego,\n• paczkomatu,\n• mini centrum handlowego z Biedronką, piekarnią, Sinsay i Rossmannem.\nWejherowo i Trasa S6 są na wyciągnięcie ręki — do dworca SKM/PKP w centrum Wejherowa oraz do wjazdu na Trasę S6 w Luzinie dojedziemy w około kilkanaście minut.\nW pobliskim Gościcinie i Bolszewie znajduje się pełna infrastruktura: sklepy, szkoły, przedszkola, punkty usługowe i inne niezbędne udogodnienia.\nKOSZTY\nCzynsz najmu: 2300 zł/mies.\nOpłaty administracyjne + prąd: około 600 zł/mies.\nNajem okazjonalny - wyłącznie długoterminowy.\nOferta skierowana do 1-2 osób pracujących, ceniących komfort, spokój i szybki dojazd do Wejherowa oraz Trójmiasta.\n⭐ POLECAMY!",
+      "price": 2300,
+      "pricePerSqm": 67.27,
+      "rent": 600,
+      "area": 34.19,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 4,
+      "yearBuilt": 2025,
+      "city": "Gościcino",
+      "district": "wejherowski",
+      "lat": 54.5965503,
+      "lng": 18.1381213,
+      "images": [
+        {
+          "url": "/oferty/114526127.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/114526130.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526118.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526142.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526145.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526109.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526124.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526121.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526112.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526136.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526133.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526106.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526103.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12520220",
+      "createdAt": "2026-08-29 11:49:11",
+      "updatedAt": "2026-08-29 14:08:51"
+    },
     {
       "id": "12346481",
       "offerNumber": "ST755931",
@@ -24,64 +108,52 @@
       "lng": 18.5405136,
       "images": [
         {
-          "url": "/oferty/112434794.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434794_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/112434620.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434620_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434722.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434722_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434629.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434629_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434782.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434782_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434635.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434635_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434761.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434761_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434788.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434788_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434785.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434785_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112434713.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434713_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Las w pobliżu",
-        "Morze w pobliżu",
-        "Autobus",
-        "Kolejka SKM",
-        "Kolej",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12346481",
       "createdAt": "2026-08-11 12:33:09",
@@ -106,36 +178,33 @@
       "lng": 18.0524172,
       "images": [
         {
-          "url": "/oferty/112139249.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139249_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/112158344.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112158344_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112139024.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139024_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112139357.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139357_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112139087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139087_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Las w pobliżu",
-        "Jezioro w pobliżu",
-        "Sklep spożywczy"
-      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/-qvADVT_of0",
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12313262",
       "createdAt": "2026-07-31 14:59:51",
@@ -163,39 +232,40 @@
       "lng": 18.5211174,
       "images": [
         {
-          "url": "/oferty/111941726.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941726_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/111941729.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941729_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941732.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941732_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941735.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941735_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941738.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941738_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941741.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941741_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/111941744.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941744_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
         "fullName": "Ewelina Pawelczyk",
         "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "email": "epawelczyk@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12293945",
       "createdAt": "2026-07-26 19:46:31",
@@ -222,43 +292,44 @@
       "lng": 18.6520752,
       "images": [
         {
-          "url": "/oferty/110200763.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110200766.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200769.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200784.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200772.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200775.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200778.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200781.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
         "fullName": "Ewelina Pawelczyk",
         "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "email": "epawelczyk@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
@@ -287,147 +358,149 @@
       "lng": 18.2897742,
       "images": [
         {
-          "url": "/oferty/109987928.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987928_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109987946.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987946_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987964.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987964_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987943.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987943_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988009.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988009_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987997.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987997_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988000.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988000_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988003.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988003_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988006.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988006_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987979.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987979_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987973.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987973_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987994.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987994_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987982.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987982_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987988.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987988_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988018.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988018_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987967.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987967_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988021.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988021_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987937.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987937_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987913.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987913_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987916.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987916_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987961.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987961_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987901.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987901_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987958.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987958_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988105.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988105_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988045.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988045_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988024.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988024_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988036.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988036_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988060.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988060_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988057.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988057_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988066.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988066_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988078.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988078_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109988087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109988087_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987895.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987895_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109987877.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12153050/109987877_max.jpg",
           "primary": false
         }
       ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/CzuNI5HxHcM",
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12153050",
       "createdAt": "2026-06-23 16:33:05",
@@ -452,39 +525,41 @@
       "lng": 18.2850692,
       "images": [
         {
-          "url": "/oferty/107743163.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/107741804.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/107742041.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/107741792.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/107741789.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/107741783.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/107741795.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
           "primary": false
         }
       ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11929373",
       "createdAt": "2026-05-03 20:51:58",
@@ -512,83 +587,84 @@
       "lng": 18.6004696,
       "images": [
         {
-          "url": "/oferty/108642233.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642233_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/108642230.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642230_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642215.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642215_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642206.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642206_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642161.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642161_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642209.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642209_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642218.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642218_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642185.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642185_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642188.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642188_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642191.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642191_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642227.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642227_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642224.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642224_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642200.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642200_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642203.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642203_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642176.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642176_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642197.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642197_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642194.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642194_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110072267.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/110072267_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "95853",
+        "slug": "katarzyna-kaszuba",
         "fullName": "Katarzyna Kaszuba",
         "phone": "668305552",
-        "email": "kkaszuba@starnawska.pl",
-        "slug": "katarzyna-kaszuba"
+        "email": "kkaszuba@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11740850",
       "createdAt": "2026-03-30 22:01:42",
@@ -616,47 +692,48 @@
       "lng": 18.5434868,
       "images": [
         {
-          "url": "/oferty/114420644.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420644_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/114420638.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420638_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114420641.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420641_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114420650.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420650_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114420653.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420653_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114420659.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420659_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114420665.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420665_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114420668.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/114420668_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113673257.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12408809/113673257_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12408809",
       "createdAt": "2026-08-13 13:05:53",
@@ -685,79 +762,68 @@
       "lng": 18.5414297,
       "images": [
         {
-          "url": "/oferty/113094425.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094425_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/113125691.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125691_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113094536.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094536_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113094560.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094560_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113125802.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125802_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113094389.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094389_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113125724.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125724_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113125706.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125706_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113125748.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125748_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113125775.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113125775_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113094515.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094515_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113094482.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094482_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113094500.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094500_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/113094464.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12402752/113094464_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Park w pobliżu",
-        "Morze w pobliżu",
-        "Autobus",
-        "Kolejka SKM",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12402752",
       "createdAt": "2026-08-13 07:34:54",
@@ -786,95 +852,96 @@
       "lng": 18.4819755,
       "images": [
         {
-          "url": "/oferty/114022550.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022550_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/114022544.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022544_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022556.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022556_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022565.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022565_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022568.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022568_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022643.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022643_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022559.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022559_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022646.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022646_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022649.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022649_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022652.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022652_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022718.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022718_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022661.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022661_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022676.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022676_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022673.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022673_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022679.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022679_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022682.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022682_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022688.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022688_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022691.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022691_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022739.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022739_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022520.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022520_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114022526.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12367265/114022526_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
         "fullName": "Iwona Stępińska",
         "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
+        "email": "istepinska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12367265",
       "createdAt": "2026-08-12 13:51:41",
@@ -903,130 +970,120 @@
       "lng": 18.49617,
       "images": [
         {
-          "url": "/oferty/112124549.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112124549_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/112123805.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123805_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123772.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123772_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123811.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123811_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112124555.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112124555_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123769.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123769_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123826.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123826_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123829.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123829_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123823.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123823_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123832.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123832_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123763.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123763_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123751.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123751_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123760.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123760_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123289.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123289_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123709.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123709_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123724.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123724_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123721.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123721_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123301.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123301_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123739.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123739_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123766.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123766_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123757.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123757_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123754.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123754_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123217.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123217_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123211.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123211_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123220.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123220_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123223.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123223_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/112123250.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12326333/112123250_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Morze w pobliżu",
-        "Autobus",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw",
-        "Winda"
-      ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12326333",
       "createdAt": "2026-08-05 09:13:29",
@@ -1055,63 +1112,64 @@
       "lng": 18.5381644,
       "images": [
         {
-          "url": "/oferty/110582198.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582198_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110582189.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582189_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582102.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582102_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582204.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582204_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582087.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582087_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582099.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582099_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582096.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582096_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582090.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582090_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582093.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582093_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582210.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582210_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582207.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582207_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582213.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582213_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110582216.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12215723/110582216_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12215723",
       "createdAt": "2026-07-08 12:54:55",
@@ -1139,85 +1197,76 @@
       "lng": 18.625553,
       "images": [
         {
-          "url": "/oferty/109998479.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998479_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109999172.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999172_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998461.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998461_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998485.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998485_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997903.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997903_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997969.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997969_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997891.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997891_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110000183.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/110000183_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109999151.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109999151_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997999.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997999_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997816.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997816_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997834.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997834_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997843.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997843_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997930.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997930_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109997984.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109997984_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109998515.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12154073/109998515_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Park w pobliżu",
-        "Tramwaj",
-        "Autobus",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
         "fullName": "Jolanta Starnawska",
         "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl",
-        "slug": "jolanta-starnawska"
+        "email": "jstarnawska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12154073",
       "createdAt": "2026-06-23 19:33:22",
@@ -1229,6 +1278,7 @@
       "transaction": "sprzedaz",
       "type": "dom",
       "typeDetail": "Bliźniak",
+      "market": "pierwotny",
       "title": "Twój NOWY DOM wśród natury -Dobrzewino, ul.Ziołowa",
       "description": "Na sprzedaż nowoczesny dom w zabudowie bliźniaczej położony w spokojnej i zielonej części Dobrzewina przy ul. Ziołowej 2, inwestycja  \"Leśny Zakątek\" dewelopera Monte Invest sp.z o.o.\n\nLokalizacja: \nhttps://maps.app.goo.gl/ZdfSPuefzuYGbsxt5?g_st=aw \n\nJest to kolejna inwestycja dewelopera Monte Invest sp. z o.o. Pierwszym zrealizowanym przez Spółkę projektem jest inwestycja „Pod Agawami”, zlokalizowana w Pępowie przy ul. Aleksandra Majkowskiego 34 oraz 36. Kolejną inwestycją jest projekt „Pod Miłorzębem”, zrealizowany w Bojanie przy ul. Lipowej 26.\n\nInwestycja deweloperska obejmuje budowę budynku jednorodzinnego dwulokalowego:\n\nDANE LOKALU nr 1:     cena: 859.000zł \n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nDANE LOKALU nr 2:     cena: 851.000zł\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.\n\nIwona Stępińska\ntel. 530 521 572",
       "price": 851000,
@@ -1245,63 +1295,64 @@
       "lng": 18.3676949,
       "images": [
         {
-          "url": "/oferty/109389359.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/109389359_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109389299.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/109389299_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109389296.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/109389296_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711650.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711650_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711653.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711653_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711656.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711656_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711659.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711659_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711662.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711662_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711665.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711665_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108711668.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108711668_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108713942.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108713942_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108713948.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108713948_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108713951.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12059180/108713951_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
         "fullName": "Iwona Stępińska",
         "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
+        "email": "istepinska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12059180",
       "createdAt": "2026-06-01 13:54:49",
@@ -1313,6 +1364,7 @@
       "transaction": "sprzedaz",
       "type": "dom",
       "typeDetail": "Bliźniak",
+      "market": "pierwotny",
       "title": "W cenie mieszkania – własny dom z ogrodem!",
       "description": "Wyobraź sobie poranek z kawą na tarasie, własny ogród, miejsce do zabawy dla dzieci i ciszę, która naprawdę pozwala odpocząć. A wszystko zaledwie 20-30 minut od Gdyni i Gdańska.\n\nWłaśnie w Dobrzewinie, przy ul. Ziołowej, powstaje Leśny Zakątek - kameralna inwestycja nowoczesnych domów w zabudowie bliźniaczej. To idealna propozycja dla osób, które chcą zamieszkać bliżej natury, nie rezygnując z wygodnego dojazdu do pracy, szkoły czy lotniska.\n\nDobrzewino to miejsce, które łączy spokój z doskonałą komunikacją. W kilka minut dotrzesz do Obwodnicy Trójmiasta, a w okolicy znajdziesz szkoły, przedszkola, sklepy oraz liczne tereny spacerowe i rowerowe.\n\nLeśny Zakątek to kolejna inwestycja dewelopera Monte Invest Sp. z o.o., który z powodzeniem zrealizował już osiedla Pod Agawami w Pępowie oraz Pod Miłorzębem w Bojanie.\n\nJeśli szukasz miejsca, w którym Twoja rodzina zyska więcej przestrzeni, prywatności i codziennego komfortu - ten dom może być właśnie dla Ciebie.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze, dużych przeszkleniach i funkcjonalnym układzie pomieszczeń. \n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 451,85 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
       "price": 851000,
@@ -1329,51 +1381,52 @@
       "lng": 18.3676949,
       "images": [
         {
-          "url": "/oferty/109389455.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389455_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109389452.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389452_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109389458.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/109389458_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091544.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091544_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091547.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091547_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091550.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091550_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091553.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091553_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091565.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091565_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091568.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091568_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108091571.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11996204/108091571_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
         "fullName": "Iwona Stępińska",
         "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
+        "email": "istepinska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11996204",
       "createdAt": "2026-05-20 06:39:41",
@@ -1385,6 +1438,7 @@
       "transaction": "sprzedaz",
       "type": "dom",
       "typeDetail": "Bliźniak",
+      "market": "pierwotny",
       "title": "Nowoczesny dom na obrzeżach Trójmiasta- Dobrzewino",
       "description": "Wyobraź sobie poranek z kawą na tarasie, własny ogród, miejsce do zabawy dla dzieci i ciszę, która naprawdę pozwala odpocząć. A wszystko zaledwie 20-30 minut od Gdyni i Gdańska.\n\nWłaśnie w Dobrzewinie, przy ul. Ziołowej, powstaje Leśny Zakątek - kameralna inwestycja nowoczesnych domów w zabudowie bliźniaczej. To idealna propozycja dla osób, które chcą zamieszkać bliżej natury, nie rezygnując z wygodnego dojazdu do pracy, szkoły czy lotniska.\n\nDobrzewino to miejsce, które łączy spokój z doskonałą komunikacją. W kilka minut dotrzesz do Obwodnicy Trójmiasta, a w okolicy znajdziesz szkoły, przedszkola, sklepy oraz liczne tereny spacerowe i rowerowe.\n\nLeśny Zakątek to kolejna inwestycja dewelopera Monte Invest Sp. z o.o., który z powodzeniem zrealizował już osiedla Pod Agawami w Pępowie oraz Pod Miłorzębem w Bojanie.\n\nJeśli szukasz miejsca, w którym Twoja rodzina zyska więcej przestrzeni, prywatności i codziennego komfortu - ten dom może być właśnie dla Ciebie.\n\nInwestycja obejmuje budowę budynku jednorodzinnego dwulokalowego o nowoczesnej architekturze, dużych przeszkleniach i funkcjonalnym układzie pomieszczeń. \n\nDANE LOKALU:\n\nPowierzchnia użytkowa : 125,23 m²\nPowierzchnia całkowita: 143,43 m²\nPowierzchnia działki: 548,15 m²\n\nUKŁAD POMIESZCZEŃ;\n\nPARTER:\nprzestronny salon z wyjściem na taras i ogród,\nkuchnia z możliwością aranżacji półwyspu lub barku śniadaniowego,\nłazienka z prysznicem,\nwiatrołap,\ngaraż jednostanowiskowy w bryle budynku.\n\nPIĘTRO:\n4 ustawne pokoje,\ngarderoba,\nduża łazienka,\nwygodny hall.\n\nDOM WYRÓŻNIA:\n\nnowoczesna bryła,\ndach dwuspadowy pokryty blachą na rąbek stojący,\nduże przeszklenia doskonale doświetlające wnętrza,\nwysoka ścianka kolankowa zwiększająca funkcjonalność poddasza,\ntaras o powierzchni 13,2 m² wyłożony kostką,\nprywatny ogród.\n\nLOKALIZACJA\n\nDobrzewino to jedna z najchętniej wybieranych lokalizacji podmiejskich w okolicy Trójmiasta. Mieszkańcy cenią tę okolicę za ciszę, dużą ilość terenów zielonych oraz szybki dojazd do miasta.\n\nGdynia - ok. 20 minut samochodem\nGdańsk - ok. 25 minut\nblisko trasa S6 i Obwodnica Metropolitalna\nw pobliżu szkoły, sklepy, jeziora i tereny rekreacyjne\n\nPlanowany termin zakończenia inwestycji: II kwartał 2027 r.\n\nZapraszam do kontaktu po szczegóły inwestycji oraz prezentację projektu.",
       "price": 859000,
@@ -1401,51 +1455,52 @@
       "lng": 18.3676949,
       "images": [
         {
-          "url": "/oferty/109389509.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389509_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/109389551.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389551_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/109389548.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/109389548_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108069140.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069140_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108069149.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069149_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108069152.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069152_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108069155.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108069155_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108080153.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080153_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108080177.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080177_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108080225.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11993354/108080225_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "40666",
+        "slug": "iwona-stepinska",
         "fullName": "Iwona Stępińska",
         "phone": "530521572",
-        "email": "istepinska@starnawska.pl",
-        "slug": "iwona-stepinska"
+        "email": "istepinska@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11993354",
       "createdAt": "2026-05-19 12:13:54",
@@ -1471,31 +1526,32 @@
       "lng": 18.6053402,
       "images": [
         {
-          "url": "/oferty/106042604.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106042604_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/106048703.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106048703_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/106042637.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106042637_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/106048691.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106048691_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/106944617.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11764931/106944617_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
         "fullName": "Patrycja Sudwoj-Boleńska",
         "phone": "532843660",
-        "email": "psudwoj@starnawska.pl",
-        "slug": "patrycja-sudwoj-bolenska"
+        "email": "psudwoj@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11764931",
       "createdAt": "2026-04-08 14:22:14",
