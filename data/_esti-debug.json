@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T05:48:31.122Z",
-  "package": "EstiCRM_18_20260831230015.zip",
+  "generatedAt": "2026-09-02T05:38:56.699Z",
+  "package": "EstiCRM_18_20260901170018.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,19 +278,19 @@
   ],
   "sampleStatuses": [
     {
-      "id": "12520220",
+      "id": "12293945",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST689950",
+        "numberExport": "ST318414",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-08-31 22:36:26",
-        "exportDate": "2026-08-31 22:36:26",
+        "exportGalleryDate": "2026-09-01 16:01:09",
+        "exportDate": "2026-09-01 16:01:09",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "Nowe mieszkanie i dobra lokalizacja",
+        "portalTitle": "Gdynia Mały Kack | Taras | W pełni wyposażone",
         "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",

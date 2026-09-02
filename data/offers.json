@@ -1,6 +1,277 @@
 {
-  "lastSync": "2026-09-01T05:48:31.105Z",
+  "lastSync": "2026-09-02T05:38:56.685Z",
   "offers": [
+    {
+      "id": "12293945",
+      "offerNumber": "ST318414",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Gdynia Mały Kack | Taras | W pełni wyposażone",
+      "description": "Gdynia Mały Kack | Taras | W pełni wyposażone\n\nNa wynajem komfortowe, w pełni umeblowane mieszkanie położone na parterze kameralnego budynku przy ul. Piotrkowskiej w Gdyni - Małym Kacku.\n\nJednym z największych atutów nieruchomości jest bezpośrednie wyjście do wydzielonej części tarasu z miejscem do wypoczynku - idealnej na poranną kawę lub chwilę relaksu po pracy.\n\nMieszkanie jest gotowe do zamieszkania od 1 września 2026 r. Jasne wnętrza, funkcjonalny układ oraz duże przeszklenia zapewniają komfort i przyjemną przestrzeń do życia.\n\nAtuty\n\n• parter z wyjściem do wydzielonej, kameralnej strefy tarasowej\n• w pełni umeblowane i wyposażone\n• przestronny salon z częścią jadalnianą\n• nowoczesna, funkcjonalna kuchnia\n• światłowód w cenie\n• spokojna, zielona okolica\n• ogólnodostępne miejsca postojowe przy budynku\n\nLokalizacja\n\nMały Kack to jedna z najbardziej cenionych dzielnic Gdyni - łączy kameralny charakter z bardzo dobrą komunikacją. W pobliżu znajdują się sklepy, punkty usługowe, przystanki komunikacji miejskiej oraz szybki dojazd do centrum miasta i Obwodnicy Trójmiasta.\n\nWarunki najmu:\n\nNajem: 2 800 zł/mies.\n\nOpłaty: 1 000 zł/mies. (obejmują ogrzewanie, wodę, prąd oraz internet światłowodowy).\n\nKaucja: 3 000 zł\n\nNajem okazjonalny.\n\nOferta skierowana przede wszystkim do jednej spokojnej, niepalącej osoby. Istnieje również możliwość wynajmu przez parę. Zwierzęta nie są akceptowane.\n\nZapraszam do kontaktu i umówienia prezentacji:\nEwelina Pawelczyk \nT:530 482 592 \nepawelczyk@starnawska.pl",
+      "price": 2500,
+      "pricePerSqm": 35.71,
+      "rent": 1000,
+      "area": 70,
+      "rooms": 2,
+      "floor": 0,
+      "totalFloors": 2,
+      "city": "Gdynia",
+      "district": "Mały Kack",
+      "street": "ul. Piotrkowska",
+      "lat": 54.486392,
+      "lng": 18.5211174,
+      "images": [
+        {
+          "url": "/oferty/111941741.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/111941726.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941729.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941732.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941735.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941738.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/111941744.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl",
+        "slug": "ewelina-pawelczyk"
+      },
+      "url": "https://starnawska.pl/oferty/12293945",
+      "createdAt": "2026-07-26 19:46:31",
+      "updatedAt": "2026-09-01 16:01:09"
+    },
+    {
+      "id": "12164528",
+      "offerNumber": "ST732390",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Na wynajem | Gdańsk, Bastion Wałowa",
+      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: zgodnie z warunkami najmu.\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
+      "price": 3400,
+      "pricePerSqm": 77.27,
+      "area": 44,
+      "rooms": 2,
+      "floor": 9,
+      "totalFloors": 17,
+      "city": "Gdańsk",
+      "district": "Główne Miasto",
+      "street": "ul. Wałowa",
+      "lat": 54.3593822,
+      "lng": 18.6520752,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12164528",
+      "createdAt": "2026-06-25 19:02:39",
+      "updatedAt": "2026-09-01 12:23:17"
+    },
+    {
+      "id": "11469854",
+      "offerNumber": "ST480706",
+      "transaction": "sprzedaz",
+      "type": "dom",
+      "typeDetail": "Segment skrajny",
+      "market": "wtorny",
+      "title": "Dom w cenie mieszkania |4 sypialnie| 2 łazienki.",
+      "description": "Na sprzedaż wyjątkowy dom w zabudowie szeregowej (segment skrajny) położony w prestiżowej dzielnicy Gdynia Orłowo.\nTo idealna propozycja dla osób, które cenią komfort życia w bliskości morza, a jednocześnie potrzebują miejsca, które pozwala łączyć funkcję domu i pracy w niezależnych strefach.\n\nPowierzchnia całkowita: ok. 260 m²\nPowierzchnia użytkowa: 190m2\nPowierzchnia działki: 249 m²\n\nDom przeszedł gruntowny remont w 2014 roku, modernizację kuchni dołu domu w 2018 roku oraz otrzymał nową elewację w 2022 roku.\nDodatkowym atutem jest instalacja fotowoltaiczna o mocy 6 kW, zainstalowana w marcu 2022 r. (jeszcze przed zmianami przepisów prosumenckich na net-billing), co przekłada się na bardzo niskie koszty utrzymania.\n\nRozkład pomieszczeń:\n\nPiwnica:\nPomieszczenia gospodarcze, pracownia oraz niezależne pomieszczenie z osobnym wejściem - idealne na gabinet, biuro lub przestrzeń do prowadzenia działalności.\n\nParter - strefa dzienna:\nSercem domu jest przestronny salon z kominkiem i imponującym sufitem do kalenicy, z którego można wyjść na dwa słoneczne tarasy.\nNa tym poziomie znajduje się także nowoczesna kuchnia z jadalnią, pokój gościnny oraz łazienka.\n\nPiętro:\n3 sypialnie oraz łazienka z oknem, wanną i prysznicem.\n\nPoddasze:\nPomieszczenie do pracy lub relaksu oraz garderoba.\n\nAtuty nieruchomości:\n\n✅ Świetna lokalizacja - cicha, kameralna ulica w sercu Gdyni Orłowa\n✅ 15 minut spacerem do morza i mola\n✅ Możliwość wydzielenia części domu na działalność gospodarczą lub pracownię\n✅ Dwa tarasy - idealne miejsce do wypoczynku\n✅ Kominek w salonie tworzący wyjątkowy klimat\n✅ Niskie koszty utrzymania dzięki instalacji fotowoltaicznej\n✅ Dom gotowy do wprowadzenia, bez nakładów\n\nOkolica:\n\nW zasięgu kilku minut pieszo:\n\nryneczek w Orłowie,\nsklepy, apteka, piekarnia,\nszkoły, przedszkola, przychodnie,\nprzystanki autobusowe i SKM.\n\nTo dom, w którym można komfortowo mieszkać, pracować i cieszyć się bliskością morza. \nZapraszamy na prezentacje.",
+      "price": 2180000,
+      "pricePerSqm": 8134.33,
+      "area": 268,
+      "landArea": 249,
+      "rooms": 5,
+      "totalFloors": 1,
+      "yearBuilt": 1986,
+      "city": "Gdynia",
+      "district": "Orłowo",
+      "street": "ul. Raciborska",
+      "lat": 54.4849897,
+      "lng": 18.5388281,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258227_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258281_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258230_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258239_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258245_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258251_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258248_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258242_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258263_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258269_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258278_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258254_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258221_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258224_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258260_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258257_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258233_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258236_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258275_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258272_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258284_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258299_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258302_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258305_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258287_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258290_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258293_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/11469854/102258296_max.jpg",
+          "primary": false
+        }
+      ],
+      "videoUrl": "https://www.youtube-nocookie.com/embed/ohODWj2eCmk",
+      "agent": {
+        "estiId": "385",
+        "slug": "jolanta-starnawska",
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/11469854",
+      "createdAt": "2026-01-08 16:45:06",
+      "updatedAt": "2026-09-01 12:04:29"
+    },
     {
       "id": "12520220",
       "offerNumber": "ST689950",
@@ -23,63 +294,64 @@
       "lng": 18.1381213,
       "images": [
         {
-          "url": "/oferty/114526127.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526127_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/114526130.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526130_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526118.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526118_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526142.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526142_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526145.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526145_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526109.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526109_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526124.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526124_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526121.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526121_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526112.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526112_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526136.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526136_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526133.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526133_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526106.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526106_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526103.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526103_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12520220",
       "createdAt": "2026-08-29 11:49:11",
@@ -208,131 +480,6 @@
       },
       "url": "https://starnawska.pl/oferty/12313262",
       "createdAt": "2026-07-31 14:59:51",
-      "updatedAt": "2026-08-29 04:40:22"
-    },
-    {
-      "id": "12293945",
-      "offerNumber": "ST318414",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Gdynia Mały Kack | Taras | W pełni wyposażone",
-      "description": "Gdynia Mały Kack | Taras | W pełni wyposażone\n\nNa wynajem komfortowe, w pełni umeblowane mieszkanie położone na parterze kameralnego budynku przy ul. Piotrkowskiej w Gdyni - Małym Kacku.\n\nJednym z największych atutów nieruchomości jest bezpośrednie wyjście do wydzielonej części tarasu z miejscem do wypoczynku - idealnej na poranną kawę lub chwilę relaksu po pracy.\n\nMieszkanie jest gotowe do zamieszkania od 1 września 2026 r. Jasne wnętrza, funkcjonalny układ oraz duże przeszklenia zapewniają komfort i przyjemną przestrzeń do życia.\n\nAtuty\n\n• parter z wyjściem do wydzielonej, kameralnej strefy tarasowej\n• w pełni umeblowane i wyposażone\n• przestronny salon z częścią jadalnianą\n• nowoczesna, funkcjonalna kuchnia\n• światłowód w cenie\n• spokojna, zielona okolica\n• ogólnodostępne miejsca postojowe przy budynku\n\nLokalizacja\n\nMały Kack to jedna z najbardziej cenionych dzielnic Gdyni - łączy kameralny charakter z bardzo dobrą komunikacją. W pobliżu znajdują się sklepy, punkty usługowe, przystanki komunikacji miejskiej oraz szybki dojazd do centrum miasta i Obwodnicy Trójmiasta.\n\nWarunki najmu:\n\nNajem: 2 800 zł/mies.\n\nOpłaty: 1 000 zł/mies. (obejmują ogrzewanie, wodę, prąd oraz internet światłowodowy).\n\nKaucja: 3 000 zł\n\nNajem okazjonalny.\n\nOferta skierowana przede wszystkim do jednej spokojnej, niepalącej osoby. Istnieje również możliwość wynajmu przez parę. Zwierzęta nie są akceptowane.\n\nZapraszam do kontaktu i umówienia prezentacji:\nEwelina Pawelczyk \nT:530 482 592 \nepawelczyk@starnawska.pl",
-      "price": 2800,
-      "pricePerSqm": 40,
-      "rent": 1000,
-      "area": 70,
-      "rooms": 2,
-      "floor": 0,
-      "totalFloors": 2,
-      "city": "Gdynia",
-      "district": "Mały Kack",
-      "street": "ul. Piotrkowska",
-      "lat": 54.486392,
-      "lng": 18.5211174,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941726_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941729_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941732_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941735_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941738_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941741_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12293945/111941744_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "161219",
-        "slug": "ewelina-pawelczyk",
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12293945",
-      "createdAt": "2026-07-26 19:46:31",
-      "updatedAt": "2026-08-29 04:40:22"
-    },
-    {
-      "id": "12164528",
-      "offerNumber": "ST732390",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Na wynajem | Gdańsk, Bastion Wałowa",
-      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: zgodnie z warunkami najmu.\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
-      "price": 3400,
-      "pricePerSqm": 77.27,
-      "area": 44,
-      "rooms": 2,
-      "floor": 9,
-      "totalFloors": 17,
-      "city": "Gdańsk",
-      "district": "Śródmieście",
-      "street": "ul. Wałowa",
-      "lat": 54.3593822,
-      "lng": 18.6520752,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "161219",
-        "slug": "ewelina-pawelczyk",
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12164528",
-      "createdAt": "2026-06-25 19:02:39",
       "updatedAt": "2026-08-29 04:40:22"
     },
     {
