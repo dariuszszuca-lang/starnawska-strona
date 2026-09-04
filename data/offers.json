@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-09-03T05:51:42.216Z",
+  "lastSync": "2026-09-04T05:51:41.128Z",
   "offers": [
     {
       "id": "12520220",
@@ -23,63 +23,64 @@
       "lng": 18.1381213,
       "images": [
         {
-          "url": "/oferty/114526127.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526127_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/114526130.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526130_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526118.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526118_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526142.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526142_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526145.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526145_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526109.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526109_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526124.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526124_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526121.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526121_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526112.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526112_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526136.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526136_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526133.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526133_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526106.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526106_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/114526103.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526103_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "165599",
+        "slug": "alicja-stuchlik",
         "fullName": "Alicja Stuchlik",
         "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl",
-        "slug": "alicja-stuchlik"
+        "email": "astuchlik@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12520220",
       "createdAt": "2026-08-29 11:49:11",
@@ -1041,57 +1042,6 @@
       "updatedAt": "2026-08-29 04:40:22"
     },
     {
-      "id": "12313262",
-      "offerNumber": "ST912145",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Rekreacyjna",
-      "market": "wtorny",
-      "title": "Widok na Jezioro, wszystkie media w drodze",
-      "description": "Widok na Jezioro Żarnowieckie |  993 m²  | MPZP - zabudowa letniskowa | wszystkie media w drodze.\nPOLECAMY!\n\nNa sprzedaż atrakcyjna działka o powierzchni 993 m² położona w malowniczym Nadolu (gmina Gniewino), z pięknym widokiem na Jezioro Żarnowieckie.\n\nJest to doskonała propozycja dla osób marzących o własnym domu letniskowym lub szukających nieruchomości inwestycyjnej w jednej z najbardziej atrakcyjnych lokalizacji na Kaszubach.\nLokalizacja zapewnia szybki dojazd do nadmorskich miejscowości oraz Trójmiasta.\n\nNajważniejsze informacje:\n✔ powierzchnia: 993 m²\n✔ numer działki: 40/7\n✔ regularny kształt zbliżony do prostokąta\n✔ MPZP ML - 20% powierzchni zabudowy\n✔ media w drodze: prąd, woda, gaz oraz kanalizacja\n✔ spokojna i malownicza okolica\n\nPrzeznaczenie \nDziałka objęta jest Miejscowym Planem Zagospodarowania Przestrzennego i znajduje się na terenie oznaczonym symbolem 10.ML - zabudowa letniskowa.\n\nNajważniejsze ustalenia planu:\nzabudowa letniskowa,\nmaksymalna powierzchnia zabudowy - 20% powierzchni działki,\nidealne miejsce pod budowę domu rekreacyjnego lub całorocznego domku letniskowego.\n\nLokalizacja:\nNadole to jedna z najbardziej cenionych miejscowości położonych nad Jeziorem Żarnowieckim. To miejsce łączy spokój, bliskość natury oraz dostęp do licznych atrakcji turystycznych.\nW okolicy znajdują się:\nJezioro Żarnowieckie i przystań,\ntereny spacerowe i rowerowe,\nlasy,\npunkty gastronomiczne,\natrakcje turystyczne gminy Gniewino, w tym Kaszubskie Oko.\n\nZapraszam do kontaktu. Chętnie odpowiem na wszystkie pytania oraz przedstawię szczegóły oferty.",
-      "price": 299000,
-      "pricePerSqm": 301.11,
-      "area": 993,
-      "city": "Nadole",
-      "district": "wejherowski",
-      "street": "ul. Podgórna",
-      "lat": 54.7453887,
-      "lng": 18.0524172,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139249_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112158344_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139024_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139357_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12313262/112139087_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/-qvADVT_of0",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12313262",
-      "createdAt": "2026-07-31 14:59:51",
-      "updatedAt": "2026-08-29 04:40:22"
-    },
-    {
       "id": "12153050",
       "offerNumber": "ST628533",
       "transaction": "sprzedaz",
@@ -2007,92 +1957,6 @@
       "url": "https://starnawska.pl/oferty/7696427",
       "createdAt": "2023-08-16 14:28:19",
       "updatedAt": "2026-08-26 09:36:53"
-    },
-    {
-      "id": "5826876",
-      "offerNumber": "ST674422",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Mieszkanie na Jasieniu z miejscem postojowym",
-      "description": "Słoneczne w bardzo dobrym stanie, mieszkanie na wynajem. Mieszkanie zlokalizowane jest w Gdańsku Południe, na dzielnicy Jasień, blisko sąsiadującej dzielnicy Ujeścisko-Łostowice. \n\nMieszkanie jest bardzo dobrze skomunikowane ok. 2 km do Obwodnicy Trójmiasta, 1,5km do Centrum Handlowego Designer Outlet oraz innych sklepów handlowo usługowych typu Rossman, Carrefour czy siłownia. Pod blokiem liczne sklepiki między innymi Żabka oraz przystanek autobusowy.\nDo centrum Gdańska samochodem, możemy dojechać w 25 minut.\n\nDo mieszkania przynależy przypisane miejsce parkingowe za szlabanem. \n\nOpłaty: \n- 2200 zł czynsz najmu za mieszkanie i miejsce postojowe, \n- opłaty eksploatacyjne: 480 zł + prąd\nKaucja 3 500zł\nBez zwierząt \nMaksymalnie dla pary\n\nUmowa na rok czasu, najem okazjonalny.",
-      "price": 2200,
-      "pricePerSqm": 47.83,
-      "rent": 480,
-      "area": 46,
-      "rooms": 2,
-      "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 2016,
-      "city": "Gdańsk",
-      "district": "Jasień",
-      "street": "ul. Konrada Guderskiego",
-      "lat": 54.32196,
-      "lng": 18.55925,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491209_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491098_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/106491263_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448594_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448570_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448564_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448579_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448627_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448615_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448588_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448621_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448630_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/5826876/41448624_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/5826876",
-      "createdAt": "2022-04-05 12:55:58",
-      "updatedAt": "2026-08-25 08:00:42"
     },
     {
       "id": "11154254",
