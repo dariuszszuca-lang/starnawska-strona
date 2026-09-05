@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-09-04T05:51:41.128Z",
+  "lastSync": "2026-09-05T05:51:41.142Z",
   "offers": [
     {
       "id": "12520220",
@@ -19,6 +19,7 @@
       "yearBuilt": 2026,
       "city": "Gościcino",
       "district": "wejherowski",
+      "street": "ul. Pigwowa",
       "lat": 54.5965503,
       "lng": 18.1381213,
       "images": [
@@ -84,7 +85,7 @@
       },
       "url": "https://starnawska.pl/oferty/12520220",
       "createdAt": "2026-08-29 11:49:11",
-      "updatedAt": "2026-09-02 18:57:51"
+      "updatedAt": "2026-09-04 13:20:39"
     },
     {
       "id": "12326333",
@@ -968,80 +969,6 @@
       "updatedAt": "2026-09-01 12:04:29"
     },
     {
-      "id": "12346481",
-      "offerNumber": "ST755931",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Dwa niezależne pokoje, blisko SKM.",
-      "description": "Do zaoferowania mamy przestronne, jasne i ciche mieszkanie położone przy ul. gen. Maczka na Wzgórzu Św. Maksymiliana.\n \nNajważniejsze atuty:\n\ndoskonała lokalizacja, bliskość komunikacji\n2 duże, niezależne pokoje i osobna, jasna kuchnia\npiwnica,\nmieszkanie bardzo jasne i ciche\ndla dwóch niezależnych osób\ndla osób z własnymi meblami\nnajem długoterminowy.\n\nMieszkanie znajduje się na 2. piętrze w 4-piętrowym budynku jest bardzo przestronne i ustawne.\n Składa się z dwóch dużych, niezależnych pokoi, oddzielnej jasnej kuchni, łazienki, WC oraz korytarza. \nDo mieszkania przynależy również piwnica.\n\nMieszkanie częściowo umeblowane*.\n Kuchnia jest w pełni wyposażona: meble w zabudowie, kuchenka z piekarnikiem, okap, lodówka, zmywarka, pralka, stół z krzesłami a także naczynia, sztućce i garnki.\n W pokojach m.in. duża szafa i małe półki/regały. Właściciel może w razie potrzeby doposażyć pokoje w dodatkowe niezbędne meble (łóżka, biurka). Łazienka i korytarz mają liczne szafki i schowki.\nMieszkanie idealnie sprawdzi się dla pary, dwóch osób pracujących lub studiujących, a także dwóch par. \nDoskonała lokalizacja. Spokojna okolica, a jednocześnie bardzo blisko centrum Gdyni. W pobliżu znajdują się przystanki autobusowe i trolejbusowe oraz stacja SKM, zapewniająca wygodne połączenie z całym Trójmiastem. W niecałe 15 minut można dojść do biurowców przy ul. Olimpijskiej, Łużyckiej i Sportowej.\n\nMieszkanie wolne po 1 września, preferowany najem długoterminowy i okazjonalny. Możliwość oglądania pod koniec sierpnia/ początek września.\nCzynsz najmu: 2 300 zł/miesiąc.\nCzynsz administracyjny około 1100 zł zimą / 660 zł latem, dodatkowo opłaty wg zużycia: prąd, gaz. \nKaucja 3 500 zł.\n\nZapraszamy na prezentację - naprawdę warto zobaczyć to mieszkanie!\n\n*Niektóre widoczne na zdjęciach meble mogą obecnie się trochę różnić.",
-      "price": 2300,
-      "pricePerSqm": 40.54,
-      "rent": 880,
-      "area": 56.73,
-      "rooms": 2,
-      "floor": 2,
-      "totalFloors": 4,
-      "yearBuilt": 1976,
-      "city": "Gdynia",
-      "district": "Wzgórze Św. Maksymiliana",
-      "street": "ul. gen. Maczka",
-      "lat": 54.4998553,
-      "lng": 18.5405136,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434794_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434620_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434722_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434629_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434782_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434635_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434761_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434788_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434785_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12346481/112434713_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12346481",
-      "createdAt": "2026-08-11 12:33:09",
-      "updatedAt": "2026-08-29 04:40:22"
-    },
-    {
       "id": "12153050",
       "offerNumber": "ST628533",
       "transaction": "sprzedaz",
@@ -1875,88 +1802,6 @@
       "url": "https://starnawska.pl/oferty/11764931",
       "createdAt": "2026-04-08 14:22:14",
       "updatedAt": "2026-08-29 04:40:21"
-    },
-    {
-      "id": "7696427",
-      "offerNumber": "ST333183",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Zadbane dwa pokoje z kuchnią przy lesie",
-      "description": "Dwustronne mieszkanie położone na I p. czteropiętrowego budynku położonego pod samym lasem w Gdyni, w dzielnicy Witomino Leśniczówka. Mieszkanie jest w pełni umeblowane, składa się ze słonecznego salonu z balkonem od południowego zachodu, sypialni z miejscem do pracy, kuchni i łazienki z wanną. Na przedpokoju znajduje się obszerna szafa w zabudowie. Dodatkowo w sypialni szafa wolnostojąca oraz mniejsza w salonie. Idealne dla singla lub dwóch osób.\n\nW najbliższym sąsiedztwie przystanek autobusowy. Dobre połączenie z dzielnicami - Śródmieście, Redłowo, Wzgórze Maksymiliana, Obłuże, Oksywie. W okolicy Biedronka, Żabka, biblioteka, pasaż handlowo-usługowy. Ok. 1 km do CH Witawa. 20 min rowerem do centrum Gdyni (4 km do urzędu miasta). Tylko ok. 2 km do SKM i PKM Redłowo. \n\nObecne opłaty letnie 500 zł. Gaz (kuchenka) ryczałtowo wliczony w czynsz. Zimą ok. 700 zł. Prąd wg zużycia. Internet/TV we własnym zakresie.\n\nMożliwość skorzystania z piwnicy. \n\nNajem okazjonalny, bez zwierząt dla singla lub pary (wyłącznie osoby dorosłe). Wolne od września. Opłatę notarialną poniesie Właściciel.\n\nZapraszam na prezentację",
-      "price": 2500,
-      "pricePerSqm": 61.58,
-      "rent": 600,
-      "area": 40.6,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 4,
-      "yearBuilt": 1979,
-      "city": "Gdynia",
-      "district": "Witomino-Leśniczówka",
-      "street": "ul. 2 Morskiego Pułku Strzelców",
-      "lat": 54.49131,
-      "lng": 18.51525,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755154_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755127_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755136_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755322_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755328_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755334_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755160_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755301_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757059_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755061_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757056_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755184_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "386",
-        "slug": "patrycja-sudwoj-bolenska",
-        "fullName": "Patrycja Sudwoj-Boleńska",
-        "phone": "532843660",
-        "email": "psudwoj@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/7696427",
-      "createdAt": "2023-08-16 14:28:19",
-      "updatedAt": "2026-08-26 09:36:53"
     },
     {
       "id": "11154254",
