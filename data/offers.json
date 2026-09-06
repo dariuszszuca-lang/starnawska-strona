@@ -1,6 +1,88 @@
 {
-  "lastSync": "2026-09-05T05:51:41.142Z",
+  "lastSync": "2026-09-06T05:51:41.268Z",
   "offers": [
+    {
+      "id": "7696427",
+      "offerNumber": "ST333183",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Zadbane dwa pokoje z kuchnią przy lesie",
+      "description": "Dwustronne mieszkanie położone na I p. czteropiętrowego budynku położonego pod samym lasem w Gdyni, w dzielnicy Witomino Leśniczówka. Mieszkanie jest w pełni umeblowane, składa się ze słonecznego salonu z balkonem od południowego zachodu, sypialni z miejscem do pracy, kuchni i łazienki z wanną. Na przedpokoju znajduje się obszerna szafa w zabudowie. Dodatkowo w sypialni szafa wolnostojąca oraz mniejsza w salonie. Idealne dla singla lub dwóch osób.\n\nW najbliższym sąsiedztwie przystanek autobusowy. Dobre połączenie z dzielnicami - Śródmieście, Redłowo, Wzgórze Maksymiliana, Obłuże, Oksywie. W okolicy Biedronka, Żabka, biblioteka, pasaż handlowo-usługowy. Ok. 1 km do CH Witawa. 20 min rowerem do centrum Gdyni (4 km do urzędu miasta). Tylko ok. 2 km do SKM i PKM Redłowo. \n\nObecne opłaty letnie 500 zł. Gaz (kuchenka) ryczałtowo wliczony w czynsz. Zimą ok. 700 zł. Prąd wg zużycia. Internet/TV we własnym zakresie.\n\nMożliwość skorzystania z piwnicy. \n\nNajem okazjonalny, bez zwierząt dla singla lub pary (wyłącznie osoby dorosłe). Wolne od września. Opłatę notarialną poniesie Właściciel.\n\nZapraszam na prezentację",
+      "price": 2500,
+      "pricePerSqm": 61.58,
+      "rent": 600,
+      "area": 40.6,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 4,
+      "yearBuilt": 1979,
+      "city": "Gdynia",
+      "district": "Witomino-Leśniczówka",
+      "street": "ul. 2 Morskiego Pułku Strzelców",
+      "lat": 54.49131,
+      "lng": 18.51525,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755154_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755127_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755136_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755322_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755328_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755334_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755160_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755301_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757059_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755061_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59757056_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/7696427/59755184_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "386",
+        "slug": "patrycja-sudwoj-bolenska",
+        "fullName": "Patrycja Sudwoj-Boleńska",
+        "phone": "532843660",
+        "email": "psudwoj@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/7696427",
+      "createdAt": "2023-08-16 14:28:19",
+      "updatedAt": "2026-09-05 10:11:11"
+    },
     {
       "id": "12520220",
       "offerNumber": "ST689950",
@@ -1137,65 +1219,6 @@
       },
       "url": "https://starnawska.pl/oferty/12153050",
       "createdAt": "2026-06-23 16:33:05",
-      "updatedAt": "2026-08-29 04:40:22"
-    },
-    {
-      "id": "11929373",
-      "offerNumber": "ST346379",
-      "transaction": "sprzedaz",
-      "type": "dzialka",
-      "typeDetail": "Mieszkaniowa",
-      "market": "wtorny",
-      "title": "Działka, 1404 m², Nowy Dwór Wejherowski",
-      "description": "Działka w Nowym Dworze Wejherowski, przy drodze wojewódzkiej 218, POLECAMY!!!\nMarzysz o domu z lokalem usługowym np. własnym gabinetem kosmetycznym,  lub  chcesz zainwestować w dom z lokalami na wynajem, to  ta działka jest idealna dla Ciebie!\n\nMamy do zaoferowania działkę 1404 m2 położoną w pierwszej linii od drogi wojewódzkiej. Wjazd na działkę drogą wewnętrzną gminną. Obowiązuje na tym terenie Miejscowy Plan Zagospodarowania Przestrzennego z  zabudową mieszkaniową z możliwością usług: tj. handlu detalicznego, gastronomi, biur, pracowni, kancelarii, gabinetów (mieszczących się wyłącznie w lokalach użytkowych do 50m2 powierzchni użytkowej, nie kolidujące z funkcją mieszkaniową).\nWoda i prąd na działce.\nNaprzeciwko znajduje się Szkoła Podstawowa a obok duży parking należący do Gminy.\nJest to idealne miejsce na dom z lokalem np. apteką, kwiaciarnią, cukiernią, gabinetem fizjoterapii, czy kosmetycznym, albo małą  gastronomią.\n\nPOLECAMY!\n\nNowy Dwór Wejherowski to cicha i spokojna wieś w otoczeniu ślicznych lasów i licznych jezior.\nW miejscowości jest szkoła podstawowa z salą gimnastyczną, biblioteka, boisko, kościół, paczkomaty, dwa duże sklepy spożywczo/chemiczne oraz przedszkole.\n\nWkoło piękne tereny zielone, jeziora oraz rezerwat przyrody, liczne trasy rowerowe, jeździeckie.\nW pobliżu stadniny koni i kąpieliska.\nDo Wejherowa, czy Redy jedziemy zaledwie kilkanaście minut, a do Gdyni trzydziestu.\nZ Nowego Dworu Wejherowskiego mamy też bardzo dobry dojazd na Trasę Kaszubską, zaledwie kilkanaście minut do węzła Koleczkowo lub Szemud.\nZapraszam do kontaktu.",
-      "price": 275000,
-      "pricePerSqm": 195.87,
-      "area": 1404,
-      "city": "Nowy Dwór Wejherowski",
-      "district": "wejherowski",
-      "street": "ul. Wejherowska",
-      "lat": 54.5444674,
-      "lng": 18.2850692,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107743163_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741804_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107742041_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741792_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741789_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741783_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/11929373/107741795_max.jpg",
-          "primary": false
-        }
-      ],
-      "videoUrl": "https://www.youtube-nocookie.com/embed/7CpjXWpVmsE",
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/11929373",
-      "createdAt": "2026-05-03 20:51:58",
       "updatedAt": "2026-08-29 04:40:22"
     },
     {
