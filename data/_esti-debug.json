@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T05:51:42.441Z",
-  "package": "EstiCRM_18_20260909200020.zip",
+  "generatedAt": "2026-09-13T05:51:41.685Z",
+  "package": "EstiCRM_18_20260912140022.zip",
   "exportAttr": "incremental",
   "totalInExport": 1,
   "offer12049010Present": false,
@@ -278,20 +278,20 @@
   ],
   "sampleStatuses": [
     {
-      "id": "11740850",
+      "id": "12164528",
       "status": {
         "companyStatus": "11",
         "offerExport": "1",
-        "numberExport": "ST699920",
+        "numberExport": "ST732390",
         "numberExportDate": "",
-        "exportGalleryDate": "2026-09-09 19:51:08",
-        "exportDate": "2026-09-09 19:51:29",
+        "exportGalleryDate": "2026-09-12 13:28:11",
+        "exportDate": "2026-09-12 13:28:11",
         "status": {
           "#text": "3",
           "@_dictionary": "status"
         },
-        "portalTitle": "5-pokojowe we Wrzeszczu, meble wg potrzeb Najemcy",
-        "portalPromote": "0",
+        "portalTitle": "Na wynajem | Gdańsk, Bastion Wałowa",
+        "portalPromote": "",
         "portalWwwTitle": "",
         "contactStatus": "11",
         "locationExportCityName": "",

@@ -1,6 +1,115 @@
 {
-  "lastSync": "2026-09-12T05:51:42.434Z",
+  "lastSync": "2026-09-13T05:51:41.678Z",
   "offers": [
+    {
+      "id": "12164528",
+      "offerNumber": "ST732390",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Na wynajem | Gdańsk, Bastion Wałowa",
+      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 2 800 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: zgodnie z warunkami najmu.\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
+      "price": 2800,
+      "pricePerSqm": 63.64,
+      "area": 44,
+      "rooms": 2,
+      "floor": 9,
+      "totalFloors": 17,
+      "city": "Gdańsk",
+      "district": "Główne Miasto",
+      "street": "ul. Wałowa",
+      "lat": 54.3593822,
+      "lng": 18.6520752,
+      "images": [
+        {
+          "url": "/oferty/110200766.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/110200763.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200769.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200784.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200772.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200775.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200778.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/110200781.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl",
+        "slug": "ewelina-pawelczyk"
+      },
+      "url": "https://starnawska.pl/oferty/12164528",
+      "createdAt": "2026-06-25 19:02:39",
+      "updatedAt": "2026-09-12 13:28:11"
+    },
+    {
+      "id": "12528701",
+      "offerNumber": "ST155650",
+      "transaction": "sprzedaz",
+      "type": "dzialka",
+      "typeDetail": "Budowlana",
+      "market": "wtorny",
+      "title": "DZIAŁKA BUDOWLANA Z WZ | CZAPIELSK",
+      "description": "Na sprzedaż atrakcyjnie położona działka w Czapielsku gm.Kolbudy, przy ul. Przebiśniegowej, w spokojnej, zielonej części miejscowości, w otoczeniu natury i istniejącej zabudowy. Czapielsk znajduje się w bardzo atrakcyjnej części gminy Kolbudy, na terenie Pojezierza Kaszubskiego. Gmina położona jest przy trasie Gdańsk-Kościerzyna. Zaledwie 35min. od centrum Gdańska, 40min. od Sopotu, 40min. od Gdyni.\n\nZobacz działkę z ujęcia dronu, dzięki którym można dokładnie zobaczyć położenie nieruchomości oraz jej najbliższe sąsiedztwo: \n\nhttps://doroch.pl/stabol/czapielsk/czapielsk.html\n\nOkolica szczególnie przypadnie do gustu osobom aktywnym, w pobliżu znajdują się tereny leśne, szlaki turystyczne oraz Jezioro Łapińskie. Przez okolice Czapielska prowadzą również trasy związane ze Szlakiem Wzgórz Szymbarskich.\n\nNajważniejszy atut dla działki nr 47/29 - została wydana decyzja o warunkach zabudowy na realizację wolnostojącego budynku mieszkalnego jednorodzinnego wraz z budynkiem gospodarczo-garażowym i niezbędną infrastrukturą.\n\nNajważniejsze atuty nieruchomości:\n\nok. 3000 m² powierzchni\ndecyzja o warunkach zabudowy - możliwość realizacji domu jednorodzinnego\nzielone i spokojne otoczenie\ndojazd drogą prywatną\nw dokumentacji znajduje się również potwierdzenie możliwości zapewnienia dostawy energii elektrycznej dla inwestycji\nw okolicy znajdują się liczne tereny rekreacyjne i jeziora, lasy i tereny spacerowe w bezpośrednim otoczeniu\nCzapielsk - gmina Kolbudy, dogodny dojazd w kierunku Gdańska, Kolbud, Pruszcza Gdańskiego i Przywidza\n\nPo więcej informacji oraz szczegóły dotyczące działki i dokumentacji, zapraszam do kontaktu.",
+      "price": 280000,
+      "pricePerSqm": 93.33,
+      "area": 3000,
+      "city": "Czapielsk",
+      "district": "gdański",
+      "street": "ul. Przebiśniegowa",
+      "lat": 54.2641432,
+      "lng": 18.4122661,
+      "images": [
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12528701/115284917_max.jpg",
+          "primary": true
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12528701/115284920_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12528701/115284926_max.jpg",
+          "primary": false
+        },
+        {
+          "url": "https://static.esticrm.pl/public/images/offers/18/12528701/115284932_max.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
+        "fullName": "Ewelina Pawelczyk",
+        "phone": "530482592",
+        "email": "epawelczyk@starnawska.pl"
+      },
+      "url": "https://starnawska.pl/oferty/12528701",
+      "createdAt": "2026-09-01 12:00:33",
+      "updatedAt": "2026-09-12 11:03:42"
+    },
     {
       "id": "11740850",
       "offerNumber": "ST699920",
@@ -23,97 +132,84 @@
       "lng": 18.6005551,
       "images": [
         {
-          "url": "/oferty/108642233.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642233_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/108642230.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642230_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642215.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642215_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642206.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642206_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642161.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642161_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642209.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642209_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642218.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642218_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642185.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642185_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642188.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642188_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642191.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642191_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642227.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642227_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642224.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642224_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642200.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642200_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642203.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642203_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642176.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642176_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642197.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642197_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/108642194.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/108642194_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110072267.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/11740850/110072267_max.jpg",
           "primary": false
         }
       ],
-      "features": [
-        "Las w pobliżu",
-        "Park w pobliżu",
-        "Tramwaj",
-        "Autobus",
-        "Kolejka SKM",
-        "Kolej",
-        "Centrum handlowe",
-        "Przedszkole",
-        "Szkoła podstawowa",
-        "Sklep spożywczy",
-        "Apteka",
-        "Plac zabaw"
-      ],
       "agent": {
+        "estiId": "95853",
+        "slug": "katarzyna-kaszuba",
         "fullName": "Katarzyna Kaszuba",
         "phone": "668305552",
-        "email": "kkaszuba@starnawska.pl",
-        "slug": "katarzyna-kaszuba"
+        "email": "kkaszuba@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/11740850",
       "createdAt": "2026-03-30 22:01:42",
@@ -931,70 +1027,6 @@
       "url": "https://starnawska.pl/oferty/12215723",
       "createdAt": "2026-07-08 12:54:55",
       "updatedAt": "2026-09-02 13:04:13"
-    },
-    {
-      "id": "12164528",
-      "offerNumber": "ST732390",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Na wynajem | Gdańsk, Bastion Wałowa",
-      "description": "Na wynajem | Gdańsk, Bastion Wałowa, ul. Wałowa 25b | 44 m²\n\nSzukasz komfortowego mieszkania w jednej z najbardziej prestiżowych i dynamicznie rozwijających się części Gdańska? Ta oferta jest właśnie dla Ciebie!\n\nZamieszkaj w Młodym Mieście - miejscu, które łączy nowoczesną architekturę z historią Gdańska. W zasięgu kilku minut spacerem znajdują się Stare Miasto, Europejskie Centrum Solidarności, Montownia, klimatyczne restauracje, kawiarnie, tereny spacerowe oraz pełna infrastruktura miejska. To doskonała lokalizacja zarówno do życia, jak i pracy.\n\n✨ Mieszkanie oferuje:\n▫️ 44 m² - przestronny salon z aneksem kuchennym oraz oddzielna sypialnia.\n▫️ 9. piętro z wyjątkowym widokiem na miasto.\n▫️ W pełni wyposażone i gotowe do zamieszkania.\n▫️ 2 miejsca postojowe w cenie najmu.\n▫️ Oferta dla osób bez zwierząt.\n\nCena: 3 400 zł/mies. + 777 zł czynsz administracyjny + media według zużycia.\nKaucja: zgodnie z warunkami najmu.\nNajem okazjonalny.\n\nZapraszam do kontaktu i umówienia prezentacji:\n\nEwelina Pawelczyk\nepawelczyk@starnawska.pl\n+48 530 482 592",
-      "price": 3400,
-      "pricePerSqm": 77.27,
-      "area": 44,
-      "rooms": 2,
-      "floor": 9,
-      "totalFloors": 17,
-      "city": "Gdańsk",
-      "district": "Główne Miasto",
-      "street": "ul. Wałowa",
-      "lat": 54.3593822,
-      "lng": 18.6520752,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "161219",
-        "slug": "ewelina-pawelczyk",
-        "fullName": "Ewelina Pawelczyk",
-        "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12164528",
-      "createdAt": "2026-06-25 19:02:39",
-      "updatedAt": "2026-09-01 12:23:17"
     },
     {
       "id": "11469854",
