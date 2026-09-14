@@ -1,6 +1,208 @@
 {
-  "lastSync": "2026-09-13T05:51:41.678Z",
+  "lastSync": "2026-09-14T05:51:41.943Z",
   "offers": [
+    {
+      "id": "12520220",
+      "offerNumber": "ST689950",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Nowe mieszkanie i dobra lokalizacja",
+      "description": "NOWE 2 POKOJE | DUŻY BALKON | WINDA | MIEJSCE POSTOJOWE | PIERWSZY NAJEM\nNowoczesne, w pełni urządzone mieszkanie 2-pokojowe w Gościcinie — gotowe do wprowadzenia.\n✨ Będziesz pierwszym Najemcą!\n✨ Nowe wyposażenie - wszystkie sprzęty na gwarancji\n✨ Duży balkon\n✨ Winda w budynku\n✨ Duże miejsce postojowe tuż przy klatce\n✨ Szybki dojazd do Wejherowa i Trasy S6\nKomfortowe mieszkanie dla 1-2 osób.\n\nDo wynajęcia od zaraz posiadamy nowe, elegancko urządzone mieszkanie o funkcjonalnym układzie, składające się z salonu z aneksem kuchennym, sypialni, łazienki i przedpokoju.\nMieszkanie jest kompletnie wyposażone i gotowe do zamieszkania — wystarczy się wprowadzić.\nKuchnia, to nowoczesny aneks kuchenny wyposażony w:\n• płytę indukcyjną,\n• piekarnik,\n• okap,\n• dużą lodówkę,\n• zmywarkę,\n• podstawowe naczynia i wyposażenie.\nŁazienka: wygodna z prysznicem i pralko-suszarką.\nSypialnia: ma na wyposażeniu duże łóżko, oraz wygodna szafę.\nSalon: miejsce do wypoczynku z telewizorem oraz jadalnią, duży balkon zapewnia dodatkową przestrzeń do wypoczynku.\n\nW budynku znajduje się winda zwiększająca codzienny komfort.\nDo mieszkania przynależy duże miejsce postojowe zlokalizowane tuż przy klatce schodowej — niezwykle wygodne rozwiązanie na co dzień.\n\nOsiedle jest nowe, zadbane i ładnie zagospodarowane, z dużą ilością zieleni.\nW kilka minut pieszo, rowerem lub samochodem można dotrzeć do:\n• przystanku autobusowego,\n• paczkomatu,\n• mini centrum handlowego z Biedronką, piekarnią, Sinsay i Rossmannem.\nWejherowo i Trasa S6 są na wyciągnięcie ręki — do dworca SKM/PKP w centrum Wejherowa oraz do wjazdu na Trasę S6 w Luzinie dojedziemy w około kilkanaście minut.\nW pobliskim Gościcinie i Bolszewie znajduje się pełna infrastruktura: sklepy, szkoły, przedszkola, punkty usługowe i inne niezbędne udogodnienia.\nKOSZTY:\nCzynsz najmu: 2300 zł/mies.\nOpłaty administracyjne: 350zł/ m-c + prąd i rozliczenia  wody  i ogrzewania.\nKaucja: 3500zł\nNajem okazjonalny - wyłącznie długoterminowy.\nOferta skierowana do 1-2 osób pracujących, ceniących komfort, spokój i szybki dojazd do Wejherowa oraz Trójmiasta.\n⭐ POLECAMY!",
+      "price": 2300,
+      "pricePerSqm": 67.27,
+      "rent": 350,
+      "area": 34.19,
+      "rooms": 2,
+      "floor": 1,
+      "totalFloors": 3,
+      "yearBuilt": 2026,
+      "city": "Gościcino",
+      "district": "wejherowski",
+      "street": "ul. Pigwowa",
+      "lat": 54.5965503,
+      "lng": 18.1381213,
+      "images": [
+        {
+          "url": "/oferty/114526127.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/114526130.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526118.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526142.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526145.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526109.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526124.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526121.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526112.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526136.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526133.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526106.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114526103.jpg",
+          "primary": false
+        }
+      ],
+      "agent": {
+        "fullName": "Alicja Stuchlik",
+        "phone": "530 523 184",
+        "email": "astuchlik@starnawska.pl",
+        "slug": "alicja-stuchlik"
+      },
+      "url": "https://starnawska.pl/oferty/12520220",
+      "createdAt": "2026-08-29 11:49:11",
+      "updatedAt": "2026-09-14 04:40:09"
+    },
+    {
+      "id": "12483902",
+      "offerNumber": "ST257982",
+      "transaction": "najem",
+      "type": "mieszkanie",
+      "market": "wtorny",
+      "title": "Przestronne mieszkanie w kamienicy w centrum",
+      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 m2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji, atrakcji, szkół itd.\nObecnie w trakcie odświeżania.",
+      "price": 5900,
+      "pricePerSqm": 49.84,
+      "rent": 1300,
+      "area": 118.39,
+      "rooms": 5,
+      "floor": 1,
+      "totalFloors": 5,
+      "yearBuilt": 1927,
+      "city": "Gdynia",
+      "district": "Śródmieście",
+      "street": "ul. Świętojańska",
+      "lat": 54.51992,
+      "lng": 18.54306,
+      "images": [
+        {
+          "url": "/oferty/114014531.jpg",
+          "primary": true
+        },
+        {
+          "url": "/oferty/114014525.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014528.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014534.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014537.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014540.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014543.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014546.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014549.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014552.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014555.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014558.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014561.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014564.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014567.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014570.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014576.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014579.jpg",
+          "primary": false
+        },
+        {
+          "url": "/oferty/114014573.jpg",
+          "primary": false
+        }
+      ],
+      "features": [
+        "Autobus",
+        "Kolejka SKM",
+        "Przedszkole",
+        "Szkoła podstawowa",
+        "Sklep spożywczy",
+        "Apteka"
+      ],
+      "agent": {
+        "fullName": "Jolanta Starnawska",
+        "phone": "608692552",
+        "email": "jstarnawska@starnawska.pl",
+        "slug": "jolanta-starnawska"
+      },
+      "url": "https://starnawska.pl/oferty/12483902",
+      "createdAt": "2026-08-18 15:57:47",
+      "updatedAt": "2026-09-14 04:40:09"
+    },
     {
       "id": "12164528",
       "offerNumber": "ST732390",
@@ -22,43 +224,44 @@
       "lng": 18.6520752,
       "images": [
         {
-          "url": "/oferty/110200766.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200766_max.jpg",
           "primary": true
         },
         {
-          "url": "/oferty/110200763.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200763_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200769.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200769_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200784.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200784_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200772.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200772_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200775.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200775_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200778.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200778_max.jpg",
           "primary": false
         },
         {
-          "url": "/oferty/110200781.jpg",
+          "url": "https://static.esticrm.pl/public/images/offers/18/12164528/110200781_max.jpg",
           "primary": false
         }
       ],
       "agent": {
+        "estiId": "161219",
+        "slug": "ewelina-pawelczyk",
         "fullName": "Ewelina Pawelczyk",
         "phone": "530482592",
-        "email": "epawelczyk@starnawska.pl",
-        "slug": "ewelina-pawelczyk"
+        "email": "epawelczyk@starnawska.pl"
       },
       "url": "https://starnawska.pl/oferty/12164528",
       "createdAt": "2026-06-25 19:02:39",
@@ -332,92 +535,6 @@
       "url": "https://starnawska.pl/oferty/12367265",
       "createdAt": "2026-08-12 13:51:41",
       "updatedAt": "2026-09-09 08:55:12"
-    },
-    {
-      "id": "12520220",
-      "offerNumber": "ST689950",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Nowe mieszkanie i dobra lokalizacja",
-      "description": "NOWE 2 POKOJE | DUŻY BALKON | WINDA | MIEJSCE POSTOJOWE | PIERWSZY NAJEM\nNowoczesne, w pełni urządzone mieszkanie 2-pokojowe w Gościcinie — gotowe do wprowadzenia.\n✨ Będziesz pierwszym Najemcą!\n✨ Nowe wyposażenie - wszystkie sprzęty na gwarancji\n✨ Duży balkon\n✨ Winda w budynku\n✨ Duże miejsce postojowe tuż przy klatce\n✨ Szybki dojazd do Wejherowa i Trasy S6\nKomfortowe mieszkanie dla 1-2 osób.\n\nDo wynajęcia od zaraz posiadamy nowe, elegancko urządzone mieszkanie o funkcjonalnym układzie, składające się z salonu z aneksem kuchennym, sypialni, łazienki i przedpokoju.\nMieszkanie jest kompletnie wyposażone i gotowe do zamieszkania — wystarczy się wprowadzić.\nKuchnia, to nowoczesny aneks kuchenny wyposażony w:\n• płytę indukcyjną,\n• piekarnik,\n• okap,\n• dużą lodówkę,\n• zmywarkę,\n• podstawowe naczynia i wyposażenie.\nŁazienka: wygodna z prysznicem i pralko-suszarką.\nSypialnia: ma na wyposażeniu duże łóżko, oraz wygodna szafę.\nSalon: miejsce do wypoczynku z telewizorem oraz jadalnią, duży balkon zapewnia dodatkową przestrzeń do wypoczynku.\n\nW budynku znajduje się winda zwiększająca codzienny komfort.\nDo mieszkania przynależy duże miejsce postojowe zlokalizowane tuż przy klatce schodowej — niezwykle wygodne rozwiązanie na co dzień.\n\nOsiedle jest nowe, zadbane i ładnie zagospodarowane, z dużą ilością zieleni.\nW kilka minut pieszo, rowerem lub samochodem można dotrzeć do:\n• przystanku autobusowego,\n• paczkomatu,\n• mini centrum handlowego z Biedronką, piekarnią, Sinsay i Rossmannem.\nWejherowo i Trasa S6 są na wyciągnięcie ręki — do dworca SKM/PKP w centrum Wejherowa oraz do wjazdu na Trasę S6 w Luzinie dojedziemy w około kilkanaście minut.\nW pobliskim Gościcinie i Bolszewie znajduje się pełna infrastruktura: sklepy, szkoły, przedszkola, punkty usługowe i inne niezbędne udogodnienia.\nKOSZTY:\nCzynsz najmu: 2300 zł/mies.\nOpłaty administracyjne: 350zł/ m-c + prąd i rozliczenia  wody  i ogrzewania.\nKaucja: 3500zł\nNajem okazjonalny - wyłącznie długoterminowy.\nOferta skierowana do 1-2 osób pracujących, ceniących komfort, spokój i szybki dojazd do Wejherowa oraz Trójmiasta.\n⭐ POLECAMY!",
-      "price": 2300,
-      "pricePerSqm": 67.27,
-      "rent": 350,
-      "area": 34.19,
-      "rooms": 2,
-      "floor": 1,
-      "totalFloors": 3,
-      "yearBuilt": 2026,
-      "city": "Gościcino",
-      "district": "wejherowski",
-      "street": "ul. Pigwowa",
-      "lat": 54.5965503,
-      "lng": 18.1381213,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526127_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526130_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526118_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526142_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526145_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526109_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526124_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526121_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526112_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526136_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526133_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526106_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12520220/114526103_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "165599",
-        "slug": "alicja-stuchlik",
-        "fullName": "Alicja Stuchlik",
-        "phone": "530 523 184",
-        "email": "astuchlik@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12520220",
-      "createdAt": "2026-08-29 11:49:11",
-      "updatedAt": "2026-09-04 13:20:39"
     },
     {
       "id": "12326333",
@@ -720,116 +837,6 @@
       "url": "https://starnawska.pl/oferty/12408809",
       "createdAt": "2026-08-13 13:05:53",
       "updatedAt": "2026-09-02 13:16:37"
-    },
-    {
-      "id": "12483902",
-      "offerNumber": "ST257982",
-      "transaction": "najem",
-      "type": "mieszkanie",
-      "market": "wtorny",
-      "title": "Przestronne mieszkanie w kamienicy w centrum",
-      "description": "Przestronne mieszkanie po remoncie w ścisłym centrum Gdyni. \nMieszkanie znajduje się na I p. historycznej kamienicy zlokalizowanej u zbiegu Świętojańskiej i Skweru Kościuszki. \n\nNa metraż 118, 39 m2 składa się 5 pokoi (17,8 m2, 21,2 m2, 20,8 m2, 11, 2 m2, 13,8 m2), kuchnia (12 m2), łazienka z WC (5,3 m2), osobne WC (1,5 m2), korytarz (12,8 m2). Pomieszczenia są wysokie - 3,2 m, jasne (wszystkie doświetlone światłem naturalnym).\n\n Mieszkanie przeszło kapitalny remont 7 lata temu - wymianę instalacji,  stolarki (okna dźwiękochłonne), grzejników, odnowienie drewnianych podłóg, wykończenie łazienki (prysznic i pralka na wyposażeniu), WC, kuchni, wraz z wyposażeniem ( zabudowa meblowa oraz AGD: okap, płyta indukcyjna, piekarnik, zmywarka, lodówka). Na korytarzu pojemna szafa typu Komandor. \n\nLokalizacja idealna pod kątem bliskości infrastruktury i komunikacji, atrakcji, szkół itd.\nObecnie w trakcie odświeżania.",
-      "price": 5900,
-      "pricePerSqm": 49.84,
-      "rent": 1300,
-      "area": 118.39,
-      "rooms": 5,
-      "floor": 1,
-      "totalFloors": 5,
-      "yearBuilt": 1927,
-      "city": "Gdynia",
-      "district": "Śródmieście",
-      "street": "ul. Świętojańska",
-      "lat": 54.51992,
-      "lng": 18.54306,
-      "images": [
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014531_max.jpg",
-          "primary": true
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014525_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014528_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014534_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014537_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014540_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014543_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014546_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014549_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014552_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014555_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014558_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014561_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014564_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014567_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014570_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014576_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014579_max.jpg",
-          "primary": false
-        },
-        {
-          "url": "https://static.esticrm.pl/public/images/offers/18/12483902/114014573_max.jpg",
-          "primary": false
-        }
-      ],
-      "agent": {
-        "estiId": "385",
-        "slug": "jolanta-starnawska",
-        "fullName": "Jolanta Starnawska",
-        "phone": "608692552",
-        "email": "jstarnawska@starnawska.pl"
-      },
-      "url": "https://starnawska.pl/oferty/12483902",
-      "createdAt": "2026-08-18 15:57:47",
-      "updatedAt": "2026-09-02 13:06:02"
     },
     {
       "id": "7986752",
