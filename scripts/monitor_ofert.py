@@ -7,7 +7,8 @@ Alarmuje mailem, gdy:
   2. na stronie wisi oferta, której w Esti już nie ma (np. sprzedana),
   3. oferta siedzi w Esti jako "aktywna wewnętrznie" (status 99) dłużej niż PROG_DNI
      — typowy przypadek "agentka dodała, ale nie opublikowała",
-  4. strona albo API nie odpowiadają.
+  4. strona albo API nie odpowiadają,
+  5. strona oferty jest szersza niż ekran telefonu (scripts/sprawdz-szerokosc.mjs).
 
 Cisza = wszystko się zgadza. Read-only, niczego nie zmienia.
 Uruchamiany przez launchd raz dziennie (com.starnawska.monitor-ofert).
@@ -15,6 +16,7 @@ Uruchamiany przez launchd raz dziennie (com.starnawska.monitor-ofert).
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -138,6 +140,18 @@ def main():
     except Exception as e:
         problemy.append(f"Nie udało się sprawdzić ofert wewnętrznych: {type(e).__name__}")
 
+    # 3. Oferty szersze niż ekran telefonu (np. długi link w opisie z Esti)
+    straznik = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sprawdz-szerokosc.mjs")
+    try:
+        wynik = subprocess.run(["/usr/local/bin/node", straznik], capture_output=True, text=True, timeout=600)
+        for linia in wynik.stdout.splitlines():
+            if linia.startswith("ZLE"):
+                problemy.append(f"ROZJEŻDŻA SIĘ NA TELEFONIE: {linia[4:].strip()}")
+        if wynik.returncode not in (0, 1):
+            problemy.append(f"Strażnik szerokości nie zadziałał (kod {wynik.returncode}): {wynik.stderr.strip()[:200]}")
+    except Exception as e:
+        problemy.append(f"Strażnik szerokości nie zadziałał: {type(e).__name__}")
+
     stempel = datetime.now().strftime("%d.%m.%Y %H:%M")
     print(f"[{stempel}] Esti aktywnych: {len(id_esti)} | na stronie: {len(na_stronie)} | problemów: {len(problemy)}")
 
@@ -153,6 +167,8 @@ def main():
         "    jako aktywna publikowana z eksportem. Poprawka po stronie CRM, strona zaciągnie ją do godziny.\n"
         "  - 'WISI NA STRONIE' → oferta zniknęła z Esti, a strona jeszcze jej nie odświeżyła (do godziny).\n"
         "    Jeśli utrzymuje się dłużej, to problem po stronie strony.\n"
+        "  - 'ROZJEŻDŻA SIĘ NA TELEFONIE' → coś w ofercie (zwykle długi link w opisie) rozpycha stronę.\n"
+        "    Problem po stronie strony: sprawdź `npm run sprawdz:szerokosc`.\n"
     )
     wyslij_alert(f"Oferty starnawska.pl: {len(problemy)} rzeczy do sprawdzenia", tresc)
 
