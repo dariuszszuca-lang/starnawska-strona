@@ -179,7 +179,7 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
       <section className="py-8">
         <Container size="wide">
           <div className="grid lg:grid-cols-12 gap-8 lg:gap-12">
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-8 min-w-0">
               {/* Key specs */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <Spec icon={Maximize2} label="Powierzchnia" value={formatArea(offer.area)} />
@@ -212,7 +212,8 @@ export default async function OfferDetailPage({ params }: { params: Params }) {
                   <h2 className="font-bold tracking-tight text-xl text-foreground mb-4">
                     Opis nieruchomości
                   </h2>
-                  <div className="text-foreground leading-relaxed whitespace-pre-line">
+                  {/* Long links from Esti must wrap on mobile */}
+                  <div className="text-foreground leading-relaxed whitespace-pre-line [overflow-wrap:anywhere]">
                     {offer.description}
                   </div>
                 </div>
