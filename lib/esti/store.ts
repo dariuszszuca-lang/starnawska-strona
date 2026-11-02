@@ -90,6 +90,24 @@ export async function readOffers(): Promise<CacheShape | null> {
   return filtered;
 }
 
+/** Małe litery, bez polskich znaków: "Gdańsk" i "gdansk" to to samo. */
+function bezZnakow(tekst: string): string {
+  return tekst
+    .toLowerCase()
+    .replace(/ł/g, "l")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+/** Każde wpisane słowo musi wystąpić w polach oferty, np. "gdańsk przymorze" w jednym polu. */
+function pasujeLokalizacja(wpisane: string, pola: (string | undefined)[]): boolean {
+  const gdzie = bezZnakow(pola.filter(Boolean).join(" "));
+  return bezZnakow(wpisane)
+    .split(/[\s,]+/)
+    .filter(Boolean)
+    .every((slowo) => gdzie.includes(slowo));
+}
+
 export async function getFilteredOffers(filters: OfferFilters): Promise<OffersResult> {
   const cache = await readOffers();
   if (!cache) {
@@ -102,10 +120,10 @@ export async function getFilteredOffers(filters: OfferFilters): Promise<OffersRe
   if (filters.type) items = items.filter((o) => o.type === filters.type);
   if (filters.market) items = items.filter((o) => o.market === filters.market);
   if (filters.city)
-    items = items.filter((o) => o.city.toLowerCase().includes(filters.city!.toLowerCase()));
+    items = items.filter((o) => pasujeLokalizacja(filters.city!, [o.city, o.district]));
   if (filters.district)
     items = items.filter((o) =>
-      o.district?.toLowerCase().includes(filters.district!.toLowerCase())
+      pasujeLokalizacja(filters.district!, [o.city, o.district, o.street])
     );
   if (filters.priceMin) items = items.filter((o) => o.price >= filters.priceMin!);
   if (filters.priceMax) items = items.filter((o) => o.price <= filters.priceMax!);
