@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "sprawdz:szerokosc": "node scripts/sprawdz-szerokosc.mjs"
+    "sprawdz:szerokosc": "node scripts/sprawdz-szerokosc.mjs",
+    "sprawdz:wyszukiwarke": "python3 scripts/sprawdz-wyszukiwarke.py"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

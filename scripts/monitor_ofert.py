@@ -9,6 +9,7 @@ Alarmuje mailem, gdy:
      — typowy przypadek "agentka dodała, ale nie opublikowała",
   4. strona albo API nie odpowiadają,
   5. strona oferty jest szersza niż ekran telefonu (scripts/sprawdz-szerokosc.mjs).
+  6. aktywnej oferty nie da się znaleźć wyszukiwarką (scripts/sprawdz-wyszukiwarke.py).
 
 Cisza = wszystko się zgadza. Read-only, niczego nie zmienia.
 Uruchamiany przez launchd raz dziennie (com.starnawska.monitor-ofert).
@@ -152,6 +153,18 @@ def main():
     except Exception as e:
         problemy.append(f"Strażnik szerokości nie zadziałał: {type(e).__name__}")
 
+    # 4. Wyszukiwarka znajduje każdą aktywną ofertę po mieście i dzielnicy
+    wyszukiwarka = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sprawdz-wyszukiwarke.py")
+    try:
+        wynik = subprocess.run([sys.executable, wyszukiwarka], capture_output=True, text=True, timeout=600)
+        for linia in wynik.stdout.splitlines():
+            if linia.startswith("ZLE"):
+                problemy.append(f"WYSZUKIWARKA: {linia[4:].strip()}")
+        if wynik.returncode not in (0, 1):
+            problemy.append(f"Strażnik wyszukiwarki nie zadziałał (kod {wynik.returncode}): {wynik.stderr.strip()[:200]}")
+    except Exception as e:
+        problemy.append(f"Strażnik wyszukiwarki nie zadziałał: {type(e).__name__}")
+
     stempel = datetime.now().strftime("%d.%m.%Y %H:%M")
     print(f"[{stempel}] Esti aktywnych: {len(id_esti)} | na stronie: {len(na_stronie)} | problemów: {len(problemy)}")
 
@@ -169,6 +182,8 @@ def main():
         "    Jeśli utrzymuje się dłużej, to problem po stronie strony.\n"
         "  - 'ROZJEŻDŻA SIĘ NA TELEFONIE' → coś w ofercie (zwykle długi link w opisie) rozpycha stronę.\n"
         "    Problem po stronie strony: sprawdź `npm run sprawdz:szerokosc`.\n"
+        "  - 'WYSZUKIWARKA' → klient nie znajdzie oferty po mieście i dzielnicy. Problem po stronie strony:\n"
+        "    sprawdź `python3 scripts/sprawdz-wyszukiwarke.py`.\n"
     )
     wyslij_alert(f"Oferty starnawska.pl: {len(problemy)} rzeczy do sprawdzenia", tresc)
 
