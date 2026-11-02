@@ -99,6 +99,11 @@ function bezZnakow(tekst: string): string {
     .replace(/[\u0300-\u036f]/g, "");
 }
 
+/** Esti podaje powiat małą literą ("gdański"); "Gdańsk" w polu miasta nie może go łapać. */
+function dzielnicaBezPowiatu(dzielnica: string | undefined): string | undefined {
+  return dzielnica && dzielnica[0] !== dzielnica[0].toLowerCase() ? dzielnica : undefined;
+}
+
 /** Każde wpisane słowo musi wystąpić w polach oferty, np. "gdańsk przymorze" w jednym polu. */
 function pasujeLokalizacja(wpisane: string, pola: (string | undefined)[]): boolean {
   const gdzie = bezZnakow(pola.filter(Boolean).join(" "));
@@ -120,7 +125,7 @@ export async function getFilteredOffers(filters: OfferFilters): Promise<OffersRe
   if (filters.type) items = items.filter((o) => o.type === filters.type);
   if (filters.market) items = items.filter((o) => o.market === filters.market);
   if (filters.city)
-    items = items.filter((o) => pasujeLokalizacja(filters.city!, [o.city, o.district]));
+    items = items.filter((o) => pasujeLokalizacja(filters.city!, [o.city, dzielnicaBezPowiatu(o.district)]));
   if (filters.district)
     items = items.filter((o) =>
       pasujeLokalizacja(filters.district!, [o.city, o.district, o.street])
