@@ -80,12 +80,26 @@ def wyslij_alert(temat, tresc):
     except urllib.error.HTTPError as e:
         print("Błąd Resend:", e.code, e.read().decode("utf-8", "ignore")[:200])
 
+JAK_CZYTAC = (
+    "\nCo zwykle to znaczy:\n"
+    "  - 'NIE MA NA STRONIE' → oferta jest w Esti aktywna publikowana, a klient jej nie widzi.\n"
+    "    Sprawdź synchronizację strony i ustawienie z eksportem w Esti; po poprawce strona zaciągnie ją do godziny.\n"
+    "  - 'AKTYWNA WEWNĘTRZNIE' → świeża oferta nieopublikowana w EstiCRM. To nie błąd strony:\n"
+    "    biuro ustawia ją jako aktywną publikowaną.\n"
+    "  - 'WISI NA STRONIE' → oferta zniknęła z Esti, a strona jeszcze jej nie odświeżyła (do godziny).\n"
+    "    Jeśli utrzymuje się dłużej, to problem po stronie strony.\n"
+    "  - 'ROZJEŻDŻA SIĘ NA TELEFONIE' → coś w ofercie (zwykle długi link w opisie) rozpycha stronę.\n"
+    "    Problem po stronie strony: sprawdź `npm run sprawdz:szerokosc`.\n"
+    "  - 'WYSZUKIWARKA' → klient nie znajdzie oferty po mieście i dzielnicy. Problem po stronie strony:\n"
+    "    sprawdź `python3 scripts/sprawdz-wyszukiwarke.py`.\n"
+)
+
 
 def main():
     company = wczytaj("~/.secrets/starnawska-esti.env", "ESTI_API_COMPANY")
     token = wczytaj("~/.secrets/starnawska-esti.env", "ESTI_API_TOKEN")
     if not (company and token):
-        wyslij_alert("Monitor ofert: brak konfiguracji", "Nie znaleziono ESTI_API_COMPANY/ESTI_API_TOKEN w ~/.secrets/starnawska-esti.env")
+        wyslij_alert("BŁĄD, DO NAPRAWY! Monitor ofert: brak konfiguracji", "Nie znaleziono ESTI_API_COMPANY/ESTI_API_TOKEN w ~/.secrets/starnawska-esti.env")
         sys.exit(1)
 
     problemy = []
@@ -94,13 +108,13 @@ def main():
     try:
         aktywne = oferty_z_esti(company, token, "3")
     except Exception as e:
-        wyslij_alert("Monitor ofert: API EstiCRM nie odpowiada", f"{type(e).__name__}: {e}")
+        wyslij_alert("BŁĄD, DO NAPRAWY! Monitor ofert: API EstiCRM nie odpowiada", f"{type(e).__name__}: {e}")
         sys.exit(1)
 
     try:
         na_stronie = id_ze_strony()
     except Exception as e:
-        wyslij_alert("Monitor ofert: strona nie odpowiada", f"{STRONA}\n{type(e).__name__}: {e}")
+        wyslij_alert("BŁĄD, DO NAPRAWY! Monitor ofert: strona nie odpowiada", f"{STRONA}\n{type(e).__name__}: {e}")
         sys.exit(1)
 
     id_esti = {str(o.get("id")): o for o in aktywne}
@@ -171,21 +185,33 @@ def main():
     if not problemy:
         return  # cisza znaczy porządek
 
-    tresc = (
+    # Tylko „aktywna wewnętrznie” to ustawienie w CRM (biuro publikuje ofertę). Reszta to błąd do naprawy.
+    w_crm = [p for p in problemy if p.startswith("AKTYWNA WEWNĘTRZNIE")]
+    bledy = [p for p in problemy if p not in w_crm]
+
+    tresc = ""
+    if bledy:
+        tresc += (
+            "BŁĄD, DO NAPRAWY!\n"
+            "==================\n"
+            + "\n".join(f"  ✗ {p}" for p in bledy) +
+            "\n\n"
+        )
+    tresc += (
         f"Monitor ofert starnawska.pl — {stempel}\n\n"
         f"Aktywnych w EstiCRM: {len(id_esti)}\nWidocznych na stronie: {len(na_stronie)}\n\n"
-        "DO SPRAWDZENIA:\n" + "\n".join(f"  • {p}" for p in problemy) +
-        "\n\nCo zwykle to znaczy:\n"
-        "  - 'NIE MA NA STRONIE' albo 'AKTYWNA WEWNĘTRZNIE' → w EstiCRM oferta nie jest ustawiona\n"
-        "    jako aktywna publikowana z eksportem. Poprawka po stronie CRM, strona zaciągnie ją do godziny.\n"
-        "  - 'WISI NA STRONIE' → oferta zniknęła z Esti, a strona jeszcze jej nie odświeżyła (do godziny).\n"
-        "    Jeśli utrzymuje się dłużej, to problem po stronie strony.\n"
-        "  - 'ROZJEŻDŻA SIĘ NA TELEFONIE' → coś w ofercie (zwykle długi link w opisie) rozpycha stronę.\n"
-        "    Problem po stronie strony: sprawdź `npm run sprawdz:szerokosc`.\n"
-        "  - 'WYSZUKIWARKA' → klient nie znajdzie oferty po mieście i dzielnicy. Problem po stronie strony:\n"
-        "    sprawdź `python3 scripts/sprawdz-wyszukiwarke.py`.\n"
     )
-    wyslij_alert(f"Oferty starnawska.pl: {len(problemy)} rzeczy do sprawdzenia", tresc)
+    if w_crm:
+        tresc += (
+            "\nDO USTAWIENIA W ESTICRM (to nie błąd strony, biuro publikuje ofertę):\n"
+            + "\n".join(f"  • {p}" for p in w_crm) + "\n"
+        )
+    tresc += JAK_CZYTAC
+    if bledy:
+        temat = f"BŁĄD, DO NAPRAWY! starnawska.pl: {len(bledy)} " + ("błąd" if len(bledy) == 1 else "błędy" if 2 <= len(bledy) % 10 <= 4 and not 12 <= len(bledy) % 100 <= 14 else "błędów")
+    else:
+        temat = f"starnawska.pl: {len(w_crm)} do ustawienia w EstiCRM (strona działa)"
+    wyslij_alert(temat, tresc)
 
 
 if __name__ == "__main__":
