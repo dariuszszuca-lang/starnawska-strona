@@ -52,22 +52,36 @@ async function main() {
     process.exit(2);
   }
   const profile = mkdtempSync(join(tmpdir(), "szerokosc-"));
-  const chrome = spawn(CHROME, [
-    "--headless=new",
-    "--disable-gpu",
-    `--remote-debugging-port=${PORT}`,
-    `--user-data-dir=${profile}`,
-    "about:blank",
-  ]);
+  // Po wybudzeniu Maca (zadania launchd odpalają się razem) Chrome startuje wolniej:
+  // do 30 s na start i druga próba z nowym procesem.
+  const uruchom = () =>
+    spawn(CHROME, [
+      "--headless=new",
+      "--disable-gpu",
+      `--remote-debugging-port=${PORT}`,
+      `--user-data-dir=${profile}`,
+      "about:blank",
+    ]);
+  let chrome = uruchom();
   let target;
-  for (let i = 0; i < 50 && !target; i++) {
-    await sleep(200);
-    try {
-      const list = await (await fetch(`http://127.0.0.1:${PORT}/json`)).json();
-      target = list.find((t) => t.type === "page");
-    } catch {}
+  for (let proba = 1; proba <= 2 && !target; proba++) {
+    if (proba === 2) {
+      chrome.kill();
+      await sleep(2000);
+      chrome = uruchom();
+    }
+    for (let i = 0; i < 150 && !target; i++) {
+      await sleep(200);
+      try {
+        const list = await (await fetch(`http://127.0.0.1:${PORT}/json`)).json();
+        target = list.find((t) => t.type === "page");
+      } catch {}
+    }
   }
-  if (!target) throw new Error("Chrome nie wystartował");
+  if (!target) {
+    chrome.kill();
+    throw new Error("Chrome nie wystartował (2 próby po 30 s)");
+  }
   const c = cdp(target.webSocketDebuggerUrl);
   await c.ready;
   await c.send("Page.enable");
